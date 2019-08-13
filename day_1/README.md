@@ -58,3 +58,69 @@ In the day_1 directory, create another file called `day1-exercises.md`. This is 
     *   [Here is a video](https://www.youtube.com/watch?v=T_k03JH3b24) about the basics of CodePen and how to use it.
     *   Step through [this interactive walkthrough](https://codepen.io/pen/tour/welcome/start) to familiarize yourself with using CodePen.
     *   If you're stuck on what a basic HTML structure looks like, use page 58 in [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett) to help get you started.
+
+## Save your work in Git
+    When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
+
+    1. Make sure you are in your `day_1` directory. When you enter `ls` in your terminal, you should see the README.md and day1-exercises.md files.
+    1. In your terminal, enter `git status`. You should see output like this:
+
+    ```
+    On branch master
+
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+
+    	day1-exercises.md
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+
+    The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
+
+    1. Enter `git add day1-exercises.md`.
+    1. Enter `git status`. Your status should now look a little different:
+
+    ```On branch master
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+
+    	new file:   day1-exercises.md
+
+    ```
+
+    Under "Changes to be committed", It now lists "day1-exercises.md". This means that git is getting ready to save this file. We want to do this for each file.
+
+    1. Enter `git commit -m "Add day 1"`.
+    1. Run `git status`. You should see this output:
+
+    ```
+    On branch master
+    nothing to commit, working tree clean
+    ```
+
+    Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add day 1"`.
+
+
+    ## Push to Github
+
+    You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+
+    ```
+    git push origin master
+    ```
+
+    You should see output similar to this:
+
+    ```
+    Counting objects: 9, done.
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (8/8), done.
+    Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
+    Total 9 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+    To github.com:JaneDoe/frontend_module_0_capstone.git
+       e8ebd7a..32c0ed3  master -> master
+    ```
+
+    You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
