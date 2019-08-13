@@ -18,6 +18,58 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 # Environment
 
+## Install Node.js and NPM using homebrew
+
+Before we're able to write javascript that can be run from the command line (you'll be doing this in mod 1), we need to install `Node.js` and `NPM` and it'll be expected that you've run through these instructions.
+
+These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup).
+
+## Install Node.js:
+JavaScript was originally intended to be run in the browser (ie. Chrome). But over time there were a lot of good reasons to allow it to be run server side. Node.js is a framework that allows us to to do just that.
+
+Additionally, there's some very useful "packages" we use while writing code and we cannot install without first installing `node`.
+
+#### Installation
+
+Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
+
+```
+$ brew update
+```
+Wait a few moments for `brew` to check its current version and make sure it is ready to be used.
+
+```
+$ brew install node
+```
+Wait again, as brew installs node.
+
+
+Now enter:
+
+```
+$ node -v
+```
+
+This shows us what version of Node.js we are running. You should see something like:
+
+```
+v12.8.0
+```
+
+That same install also installed `npm` for us which will allow us to download useful packages down the line.
+
+Now enter:
+
+```
+$ npm -v
+```
+
+This shows us what version of NPM we are running. You should see something like:
+
+```
+6.10.3
+```
+
 ## Terminal
 
 We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
@@ -93,57 +145,32 @@ To start, in your terminal, `cd` into the `day_0` directory. Follow the instruct
 
 Have longer than a week to prepare for your time at Turing? Looking for more details and a deeper dive into the materials? Just can't get enough? We've put together a collection of resources to help you continue your ramp up before the first day of class.
 
-#### ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png)Workflow and Tools
+#### JavaScript Resources
 
-*   #### [How Git Works](https://www.pluralsight.com/courses/how-git-works)
+* [Codecademy Introduction to JavaScript](https://www.codecademy.com/learn/javascript)
+  * An introduction to the JavaScript programming language.
 
-    Be sure to read the advice section as you work your way through.
+* [Codecademy Introduction to jQuery](https://www.codecademy.com/learn/learn-jquery)
+  * Learn about the most popular JavaScript library on the web.
 
-*   #### [Introduction to the Mac OS X Command Line](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line)
+* [JavaScript and jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=la_B001IR3Q7I_1_3?s=books&ie=UTF8&qid=1457549440&sr=1-3)
+  * A thorough and easy-to-reference introduction to JavaScript by John Duckett.
 
-    A tutorial that walks you through command line fundamentals.
+#### HTML and CSS Resources
 
+* [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
+  * Get your HTML and CSS foundation locked in. This course teaches the basics of website markup and styling so you'll be ready to roll on day 1.
 
-#### ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png)JavaScript Resources
+* [Try the BEM css methodology](http://getbem.com/introduction/)
+  * Once you've got the basics of HTML and CSS down, BEM show you an approach to writing scalable and reusable CSS.
 
-*   #### [Codecademy Introduction to JavaScript](https://www.codecademy.com/learn/javascript)
+#### Design, UX, and UI Resources
 
-    An introduction to the JavaScript programming language.
+* [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
+  * A collection of 31 bite-sized daily lessons to introduce you to UX principles and techniques.
 
-*   #### [Codecademy Introduction to jQuery](https://www.codecademy.com/learn/learn-jquery)
+* [Field Guide to Human Centered Design](http://www.designkit.org/resources/1)
+  * A step-by-step guide that will get you solving problems like a designer by [IDEO.org](https://www.ideo.org/)
 
-    Learn about the most popular JavaScript library on the web.
-
-*   #### [JavaScript and jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=la_B001IR3Q7I_1_3?s=books&ie=UTF8&qid=1457549440&sr=1-3)
-
-    A thorough and easy-to-reference introduction to JavaScript by John Duckett.
-
-*   #### [Eloquent Javascript](http://eloquentjavascript.net/)
-
-    An in depth dive into the language, Eloquent JavaScript is "a book about JavaScript, programming, and the wonders of the digital." Continue reading the chapters beyond what is listed in the 7-day mod 0 capstone. Complete the exercises at the end of each chapter.
-
-
-#### ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png)HTML and CSS Resources
-
-*   #### [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-
-    Get your HTML and CSS foundation locked in. This course teaches the basics of website markup and styling so you'll be ready to roll on day 1.
-
-*   #### [Scalable and Modular Architecture for CSS](https://smacss.com/)
-
-    Once you've got the basics of HTML and CSS down, SMACSS will show you an approach to writing scalable and reusable CSS.
-
-
-#### ![](https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png)Design, UX, and UI Resources
-
-*   #### [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
-
-    A collection of 31 bite-sized daily lessons to introduce you to UX principles and techniques.
-
-*   #### [Field Guide to Human Centered Design](http://www.designkit.org/resources/1)
-
-    A step-by-step guide that will get you solving problems like a designer by [IDEO.org](https://www.ideo.org/)
-
-*   #### [Thinking with Type](http://www.thinkingwithtype.com/)
-
-    Typography is a big topic, learn the basics of what you need to know about how to use type effectively.
+* [Thinking with Type](http://www.thinkingwithtype.com/)
+  * Typography is a big topic, learn the basics of what you need to know about how to use type effectively.
