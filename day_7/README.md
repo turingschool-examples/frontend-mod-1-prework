@@ -65,6 +65,6 @@ When you have completed *all* the activities described above, follow the steps b
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
-5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/module_0_capstone. (using your own GitHub username, of course!)
+5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Professional Development pre-work gist, your Gear Up pre-work gist, and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-module-0-capstone. (using your own GitHub username, of course!)
 
 And you're done!  Can't wait to see you on the first day of class!!
