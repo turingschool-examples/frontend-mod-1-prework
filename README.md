@@ -12,7 +12,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 * [Day 3 - HTML and CSS](day_3)
 * [Day 4 - HTML, CSS, and JavaScript](day_4)
 * [Day 5 - Javascript](day_5)
-* [Day 6 - Javascript, Terminal, Git and Github](day_6)
+* [Day 6 - Javascript](day_6)
 * [Day 7 - Build a thing!](day_7)
 
 
