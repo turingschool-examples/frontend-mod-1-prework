@@ -20,17 +20,17 @@ atom .
 
 This will open the day_1 directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
-#### Add a file to track your day one progress
+## Add a file to track your day one progress
 
 In the day_1 directory, create another file called `day1-exercises.md`. This is where you'll put your answers to the following questions and a link to the CodePen you create below.
 
-### Create a [CodePen](https://codepen.io) Account
+## Create a [CodePen](https://codepen.io) Account
 
     CodePen is a website where you can quickly create small projects using HTML, CSS, and JavaScript. It is lightweight, and you can see the output of your code right away!
 
     In order to save your CodePen projects, you need to have an account. It's free - you just have to sign up!
 
-### Read Chapters 1 and 2 on Structure and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+## Read Chapters 1 and 2 on Structure and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
     Open the `day1-exercises.md` file you created earlier, and answer these questions about the reading in that file:
 

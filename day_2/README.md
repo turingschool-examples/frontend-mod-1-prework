@@ -1,13 +1,10 @@
 # Day 2: HTML and CSS
 
-#### Daily Warm Up
-  Work through [typing.io](https://typing.io/) as described in [Daily Warm Up](#daily).
-
-#### Open your local copy of frontend_module_0_capstone in Atom
+## Open your local copy of frontend_module_0_capstone in Atom
 
   In the day_2 directory, create another file called `day2-exercises.md`. This is where you'll put your answers to the following questions.
 
-#### Read Chapters 3 and 4 on Lists and Links from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+## Read Chapters 3 and 4 on Lists and Links from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
     Answer these questions about the reading in your `day2-exercises.md` file:
 
@@ -22,7 +19,7 @@
     *   A link to your GitHub account.
     *   A link to the Turing website.
 
-#### Read Chapters 10, 11, and 12 on What is CSS, Color, and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+## Read Chapters 10, 11, and 12 on What is CSS, Color, and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
     Answer these questions about the reading in your `day2-exercises.md`:
 
@@ -43,10 +40,10 @@
     *   Make your headings a serif font, and make the paragraph text a sans-serif font.
     *   Change a snippet of paragraph text to be italic using the font-style property (do not use the `<i></i>` in this case).
 
-#### For later: Something for Show-and-Tell
+## For later: Something for Show-and-Tell
 
     You've notice that we've been building on the same "pen" throughout the mod 0 capstone so far. On day 7, you will spend the day building a completely new site using Atom (not CodePen). You'll take what you've learned throughout days 1-6 and apply it to a completely new webpage. During the first couple days of class, you'll share what you've made on day 7 with your cohort. Just something to keep in mind over these next few days!
 
-#### Save your day 2 file in git and push to GitHub
+## Save your day 2 file in git and push to GitHub
 
 Using the commit message: `day2-exercises.md`, add, commit, and push your changes to GitHub!
