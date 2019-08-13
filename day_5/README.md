@@ -38,4 +38,4 @@ In the day_5 directory, create another file called `day5-exercises.md`. This is 
 
 ## Save your day 5 file in git and push to GitHub
 
-Using the commit message: `day5-exercises.md`, add, commit, and push your changes to GitHub!
+Using the commit message: `Add day 5`, add, commit, and push your changes to GitHub!

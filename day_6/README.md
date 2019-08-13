@@ -20,4 +20,4 @@ In the day_6 directory, create another file called `day6-exercises.md`. This is 
 
 ## Save your day 6 file in git and push to GitHub
 
-Using the commit message: `day6-exercises.md`, add, commit, and push your changes to GitHub!
+Using the commit message: `Add day 6`, add, commit, and push your changes to GitHub!

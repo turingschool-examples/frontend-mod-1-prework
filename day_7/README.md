@@ -37,7 +37,7 @@ In the day_6 directory, create another file called `day7-exercises.md`. This is 
 
 ## Save your day 7 file in git and push to GitHub
 
-Using the commit message: `day7-exercises.md`, add, commit, and push your changes to GitHub!
+Using the commit message: `Add day 7`, add, commit, and push your changes to GitHub!
 
 ## Submission
 

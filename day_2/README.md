@@ -46,4 +46,4 @@
 
 ## Save your day 2 file in git and push to GitHub
 
-Using the commit message: `day2-exercises.md`, add, commit, and push your changes to GitHub!
+Using the commit message: `Add day 2`, add, commit, and push your changes to GitHub!

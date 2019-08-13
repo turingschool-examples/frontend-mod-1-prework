@@ -27,4 +27,4 @@ In the day_4 directory, create another file called `day4-exercises.md`. This is 
 
 ## Save your day 4 file in git and push to GitHub
 
-Using the commit message: `day4-exercises.md`, add, commit, and push your changes to GitHub!
+Using the commit message: `Add day 4`, add, commit, and push your changes to GitHub!
