@@ -22,7 +22,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 Before we're able to write javascript that can be run from the command line (you'll be doing this in mod 1), we need to install `Node.js` and `NPM` and it'll be expected that you've run through these instructions.
 
-These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup).
+These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions).
 
 ## Install Node.js:
 JavaScript was originally intended to be run in the browser (ie. Chrome). But over time there were a lot of good reasons to allow it to be run server side. Node.js is a framework that allows us to to do just that.

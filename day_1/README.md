@@ -1,24 +1,38 @@
 # Day 1: HTML and CSS
 
+## Open your local copy of frontend_module_0_capstone in Atom
 
-#### Start a Gist to Track Your Technical Module 0 Capstone Progress
-    A gist is basically a file where you can add text, and the gist file is tied to your GitHub account. Here is some documentation about [how to create a gist](https://help.github.com/articles/creating-gists/).
+1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
-    Sign in to GitHub. From your GitHub account, create a public gist with the filename that includes "mod-0-capstone" and your name. Something like: `JimSmith-mod-0-capstone.md`
+```
+cd ~
+ls
+cd turing
+ls
+cd 1module
+ls
+cd frontend_module_0_capstone
+ls
+cd day_1
+ls
+atom .
+```
 
-    The `.md` file extension for your gist refers to markdown formatting. Markdown is a simple markup language to help format your text. For example, you can add a heading in markdown using the hash: `# This is my main title`. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+This will open the day_1 directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
-    You should put all of the answers to questions asked in the mod 0 capstone in this new gist. Every time you work on more of the mod 0 capstone, track your progress by adding to this gist.
+#### Add a file to track your day one progress
 
-*   #### Create a [CodePen](https://codepen.io) Account
+In the day_1 directory, create another file called `day1-exercises.md`. This is where you'll put your answers to the following questions and a link to the CodePen you create below.
+
+### Create a [CodePen](https://codepen.io) Account
 
     CodePen is a website where you can quickly create small projects using HTML, CSS, and JavaScript. It is lightweight, and you can see the output of your code right away!
 
     In order to save your CodePen projects, you need to have an account. It's free - you just have to sign up!
 
-*   #### Read Chapters 1 and 2 on Structure and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+### Read Chapters 1 and 2 on Structure and Text from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
-    Open the mod 0 capstone gist you created earlier, and answer these questions about the reading in your gist:
+    Open the `day1-exercises.md` file you created earlier, and answer these questions about the reading in that file:
 
     1.  On a website, what is the purpose of HTML code?
     2.  What is the difference between an element and a tag?
@@ -37,7 +51,7 @@
     *   Multiple paragraphs.
     *   The paragraph text should be about what drives you to learn about web development.
 
-    When you are done, save the "pen", and paste the link into your mod 0 capstone gist. You're doing it! You're starting the beginning of your web development career.
+    When you are done, save the "pen", and paste the link into your `day1-exercises.md` file. You're doing it! You're starting the beginning of your web development career.
 
     Some resources about using CodePen:
 
