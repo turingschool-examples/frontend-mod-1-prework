@@ -117,8 +117,8 @@ $ cd .
 // This is a shortcut for `cd ~`, which is "change into the home directory"
 $ mkdir turing
 $ cd turing
-$ mkdir 1module
-$ cd 1module
+$ mkdir 0module
+$ cd 0module
 $ git clone <ctrl-v to paste ssh link here >
 Cloning into 'frontend-module-0-capstone'...
 remote: Enumerating objects: 678, done.
@@ -126,7 +126,7 @@ remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
 Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
 Resolving deltas: 100% (332/332), done.
 
-$ cd module_1_capstone
+$ cd frontend-module-0-capstone
 $ git status .
 // If everything worked correctly, you should see:
 On branch master
