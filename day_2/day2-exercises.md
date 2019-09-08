@@ -21,10 +21,12 @@
 <h2> Chapter 10, 11 and 12</h2>
 
 <p> <h3>What is the purpose of CSS?</h3>
+   <i> The purpose of CSS is to provide more interesting and feature rich web experience.
+   CSS, gives plain html webpages color and stronger visual impact. </i>
 <p><h3>What does CSS stand for? What does cascading mean in this case?</h3>
 <p><h3>What is the basic structure of a CSS rule?</h3>
 <p><h3>How do you link a CSS stylesheet to your HTML document?</h3>
-<p><h3>hen is it useful to use external stylesheets as opposed to using interal CSS?</h3>
+<p><h3>When is it useful to use external stylesheets as opposed to using interal CSS?</h3>
 <p><h3>Describe what a color hex code is.</h3>
 <p><h3>What are the three parts of an HSL color property?</h3>
 <p><h3>In the world of typeface, what are the three main categories of fonts?</h3>
