@@ -21,13 +21,13 @@
 <p> <h3>List five different HTML elements and what they are used for. For example, < p >< / p > is a paragraph element, and it is used to represent a paragraph of text.</h3></p>
       <br>
 
-    <ol>
-       <li> <i> < br > - is a break in the text element. Lets you start new line.</i> </li>
-      <li> <i> < h1, h2, h3 > - is a header element.</i></li>
-    <li><i> < i > - lets you italicize text inside the tags.</i></li>
-    <li> <i> < img >- indicates image inside tags. </i></li>
-    <li><i> < b > - lets you <b>bold</b> whats inside the tags.</i></li>
-    </ol>
+       *  < br > - is a break in the text element. Lets you start new line.
+       *  < h1, h2, h3 > - is a header element.
+    
+       * < i > - lets you italicize text inside the tags.
+       * < img >- indicates image inside tags.
+       * < b > - lets you <b>bold</b> whats inside the tags.
+
 
 
 
