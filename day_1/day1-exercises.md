@@ -22,11 +22,11 @@
       <br>
 
     <ol>
-       <li> <i> < br > - is a break in the text element. Lets you start new line.</i> </li>
-      <li> <i> < h1, h2, h3 > - is a header element.</i></li>
-    <li><i> < i > - lets you italicize text inside the tags.</i></li>
-    <li> <i> < img >- indicates image inside tags. </i></li>
-    <li><i> < b > - lets you <b>bold</b> whats inside the tags.</i></li>
+       <li> < br > - is a break in the text element. Lets you start new line.</li>
+      <li> < h1, h2, h3 > - is a header element.</li>
+    <li> < i > - lets you italicize text inside the tags.</li>
+    <li> < img >- indicates image inside tags.</li>
+    <li> < b > - lets you <b>bold</b> whats inside the tags.</li>
     </ol>
 
 
