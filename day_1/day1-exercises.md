@@ -35,7 +35,7 @@ View > Developer > View Page Source
 
 <a href="http://google.com/">The a tag is for links. This one goes to Google.</a>
 
-<img src="https://en.wikipedia.org/wiki/File:CSS3_taxonomy_and_status-v2.png" height="50" width="50" alt="CSS image"> The img tag displays an image, and requires a src attribute.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/CSS3_taxonomy_and_status-v2.png/1201px-CSS3_taxonomy_and_status-v2.png" height="50" width="50" alt="CSS image"> The img tag displays an image, and requires a src attribute.
 
 B or strong tags are used to <strong>create bold text</strong>.
 
