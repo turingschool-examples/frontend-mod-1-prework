@@ -1,3 +1,17 @@
+<head>
+
+<style type="text/ css">
+
+h2 {
+   font-family: Arial;
+   color: red;
+ }
+  </style>
+
+</head>
+
+
+
 <h2> Chapter 3 and 4 Lists and Links</h2>
 
    <p><h3> There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?</h3></p>
