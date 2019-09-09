@@ -31,13 +31,13 @@ View > Developer > View Page Source
 
 <h1>H1 is the highest-level heading.</h1>
 
-<hr> inserts a horizontal ruler on the page.
+<hr> HR inserts a horizontal ruler on the page.
 
-<a href="http://google.com/"The <a> tag is for links. This one goes to Google.</a>
+<a href="http://google.com/">The <a> tag is for links. This one goes to Google.</a>
 
 <img src="https://en.wikipedia.org/wiki/File:CSS3_taxonomy_and_status-v2.png"> The <img> tag displays an image, and requires a src attribute.
 
-<b> or <strong> tags are used to create bold text.
+B or strong tags are used to <strong>create bold text</strong>.
 
 
 7. What are empty elements?
