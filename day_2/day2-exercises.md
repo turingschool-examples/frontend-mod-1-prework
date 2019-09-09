@@ -40,8 +40,13 @@
 <p> <i> You would need to use an external linking method. You would create a .css file. Its best to either place
 it in the same folder as HTML file or in root css folder. You will need to use link  element with href attribute and specify the type of document you are linking with type attribute. You will also need to use rel attribute to specify relationship between html page and the file you are linking. This should be set to "stylesheet"</i>
 
-<p><h3>When is it useful to use external stylesheets as opposed to using interal CSS?</h3>
+<p><h3>When is it useful to use external stylesheets as opposed to using internal CSS?</h3>
+<i> Its best to use external stylesheets when you have multiple webpages. It lets you easier control styles of multiple pages without having to replicate same code on each page. It also keeps the content of the page separate from the styling aspects. </i>
+
 <p><h3>Describe what a color hex code is.</h3>
+<i>Hex code is a 6 digit code that represents an amount of red, green and blue in a color. Its preceded by a hash/pound sign. EX: #ee3e80. </i>
+
+
 <p><h3>What are the three parts of an HSL color property?</h3>
 <p><h3>In the world of typeface, what are the three main categories of fonts?</h3>
 <p><h3>What are the differences between them?</h3>
