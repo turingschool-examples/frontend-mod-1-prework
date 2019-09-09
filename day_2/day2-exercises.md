@@ -28,6 +28,14 @@
 <p><i>CSS stands for Cascading Style Sheet. Cascading refers to order that rules are applied if multiple rules are applied to a particular element. This priority scheme provides predictability</i>
 
 <p><h3>What is the basic structure of a CSS rule?</h3>
+<p><i> Basic structure of a CSS rule includes:
+  <ul>
+     <li>Selector- indicates which HTML element is being targeted.
+     <li> Declaration- indicates how the targeted element should be styled. Declarations are split in two.
+     <li> Two parts of Declarations are: Priorities- indicates what aspect of the element you want to style
+     like: color, font, height, boarder, ect. Values- specify the setting of the property like value for color, hight or font style.
+  </ul></i>
+
 <p><h3>How do you link a CSS stylesheet to your HTML document?</h3>
 <p><h3>When is it useful to use external stylesheets as opposed to using interal CSS?</h3>
 <p><h3>Describe what a color hex code is.</h3>
