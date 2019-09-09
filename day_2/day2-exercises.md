@@ -24,6 +24,9 @@
    <i> The purpose of CSS is to provide more interesting and feature rich web experience.
    CSS, gives plain html webpages color and stronger visual impact. </i>
 <p><h3>What does CSS stand for? What does cascading mean in this case?</h3>
+
+<p><i>CSS stands for Cascading Style Sheet. Cascading refers to order that rules are applied if multiple rules are applied to a particular element. This priority scheme provides predictability</i>
+
 <p><h3>What is the basic structure of a CSS rule?</h3>
 <p><h3>How do you link a CSS stylesheet to your HTML document?</h3>
 <p><h3>When is it useful to use external stylesheets as opposed to using interal CSS?</h3>
