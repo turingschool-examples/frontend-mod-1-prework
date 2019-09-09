@@ -37,6 +37,9 @@
   </ul></i>
 
 <p><h3>How do you link a CSS stylesheet to your HTML document?</h3>
+<p> <i> You would need to use an external linking method. You would create a .css file. Its best to either place
+it in the same folder as HTML file or in root css folder. You will need to use <link> element with href attribute and specify the type of document you are linking with type attribute. You will also need to use rel attribute to specify relationship between html page and the file you are linking. This should be set to "stylesheet"</i>
+
 <p><h3>When is it useful to use external stylesheets as opposed to using interal CSS?</h3>
 <p><h3>Describe what a color hex code is.</h3>
 <p><h3>What are the three parts of an HSL color property?</h3>
