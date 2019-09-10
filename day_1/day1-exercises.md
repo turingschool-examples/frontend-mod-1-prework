@@ -2,7 +2,7 @@ Codepen: https://codepen.io/ryanbahan/pen/gOYerdN
 
 1. On a website, what is the purpose of HTML code?
 
-HTML describes the structure of a webpage, and provides content that will be displayed within tags and elements.
+HTML describes the structure of a webpage, and provides content (text, image, audio, or visual) that will be displayed within tags and elements.
 
 2. What is the difference between an element and a tag?
 
