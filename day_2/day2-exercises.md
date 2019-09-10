@@ -50,10 +50,21 @@ it in the same folder as HTML file or in root css folder. You will need to use l
 <i> Hue, Saturation and Lightness. </i>
 
 <p><h3>In the world of typeface, what are the three main categories of fonts?</h3>
-
+<i> Serif, Sans-Serif and Monospace. </i>
 
 <p><h3>What are the differences between them?</h3>
+
+<i>
+   <ul>
+   <li><b>Serif</b>- gives a a font extra detail at the ends of the strokes. These elements are called serifs.</li>
+   <li><b>Sans-Serif</b>- these fonts have straight ends to letters, giving them cleaner look. They are well suited for screen with lower resolution.</li>
+   <li> <b>Monospace</b>- Every letter in a monospace font has the same width. Great for code as it aligns well and easy to read.</li>
+   </ul>
+   </i>
+
 <p><h3>When specifing font-size, what are the main three units used?</h3>
+ <i>Pixels, Percentages and EMS.</i>
+
 
 <hr />
 
