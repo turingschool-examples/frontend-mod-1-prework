@@ -46,9 +46,12 @@ it in the same folder as HTML file or in root css folder. You will need to use l
 <p><h3>Describe what a color hex code is.</h3>
 <i>Hex code is a 6 digit code that represents an amount of red, green and blue in a color. Its preceded by a hash/pound sign. EX: #ee3e80. </i>
 
-
 <p><h3>What are the three parts of an HSL color property?</h3>
+<i> Hue, Saturation and Lightness. </i>
+
 <p><h3>In the world of typeface, what are the three main categories of fonts?</h3>
+
+
 <p><h3>What are the differences between them?</h3>
 <p><h3>When specifing font-size, what are the main three units used?</h3>
 
