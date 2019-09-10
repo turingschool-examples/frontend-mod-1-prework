@@ -21,13 +21,39 @@ By creating a valid HTML id, you can link to specific parts of the same page by 
 
 1. What is the purpose of CSS?
 
-
+CSS is used to style and design websites, using rules that specify how the content of an element should appear.
 
 2. What does CSS stand for? What does cascading mean in this case?
+
+CSS stands for cascading style sheets, which means that styles are chosen by cascading down from the more general rules to the specific rule required. The most specific rule is chosen for any given element.
+
 3. What is the basic structure of a CSS rule?
+
+The basic structure of a CSS rule consists of a selector and a declaration. Depending on if the selector is an element, id, or class, it may have a hashtag or full stop preceding the selector. Declarations will contain properties and their respective values to formulate CSS rules.
+
 4. How do you link a CSS stylesheet to your HTML document?
-5. When is it useful to use external stylesheets as opposed to using interal CSS?
+
+You can link stylesheets in the head of a document with a link element containing href, type, and rel attributes.
+
+5. When is it useful to use external stylesheets as opposed to using internal CSS?
+
+It's useful to use external stylesheets whenever you're building something with more than one page. This allows for greater consistency across pages, separation of HTML content and CSS rules, and allows you to globally edit styles across a project.
+
 6. Describe what a color hex code is.
+
+Hex codes are six-digit color codes that represent the amount of red, green, and blue in hexadecimal values.
+
 7. What are the three parts of an HSL color property?
+
+Hue, saturation, and lightness (or luminance).
+
 8. In the world of typeface, what are the three main categories of fonts? What are the differences between them?
-9. When specifiying font-size, what are the main three units used?
+
+Serif fonts, which have extra details on the ends of the main strokes. In print, serif was originally considered easier to read for longer passages.
+
+Sans-serif fonts, which have straight ends to the lettering strokes and are considered much cleaner stylistically.
+
+Monospace fonts, which have fixed-width letters that occupy the same amount of horizontal space.
+
+
+9. When specifying font-size, what are the main three units used?
