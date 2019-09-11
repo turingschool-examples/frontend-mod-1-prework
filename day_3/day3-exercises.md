@@ -20,12 +20,15 @@
 
 <p><h3>Describe the differences between border, margin, and padding.</h3></p>
 <br>
+
 <i>
 <b>Border</b>- The border separates the edge of one box from another
+<br>
 <b>Margin</b>- You can set the width of a margin to create a gap between the borders of two adjacent boxes.
+<br>
 <b>Padding</b>- Padding is the space between the border of a box and any content contained within it.
 </i>
-
+<br>
 
 <p><h3>For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to</h3></p>
 
