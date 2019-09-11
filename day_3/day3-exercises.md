@@ -15,14 +15,22 @@
 <p><i> You can group related form controls together using a < fieldset > element. You will need to have all of the controls and label elements be inside a closed < fieldset > element. </i>
 
 <h2>Chapters 13 and 15 on Boxes and Layout</h2>
+
 <hr  />
 
 <p><h3>Describe the differences between border, margin, and padding.</h3></p>
+
+<i>
+<p> <b>Border</b>- The border separates the edge of one box from another</p>
+<p> <b>Margin</b>- You can set the width of a margin to create a gap between the borders of two adjacent boxes.</p>
+<p> <b>Padding</b>- Padding is the space between the border of a box and any content contained within it.</p>
+</i> 
+
 
 <p><h3>For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to</h3></p>
 
 <p><h3>Describe the difference between block-level and inline elements.</h3></p>
 
-<p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</p></h3>
+<p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3></p>
 
-<p><h3>What is the difference between a fixed and liquid layout?</p></h3>
+<p><h3>What is the difference between a fixed and liquid layout?</h3></p>
