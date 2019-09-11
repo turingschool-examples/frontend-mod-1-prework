@@ -35,6 +35,7 @@
 
 <p><h3>Describe the difference between block-level and inline elements.</h3></p>
         <i><b>Block-Level</b>- Is an element that creates a new paragraph on the webpage or in general spans the entire lenght of the web page. Elements like < p > or < ul > < li > are block-level elements. </i>
+        <br>
         <i><b>Inline</b>- Element which width only extends to its closing tag. Something like < b > or < strong > are inline elemenets. </i>
 
 <p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3></p>
