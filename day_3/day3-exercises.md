@@ -1,15 +1,12 @@
 <h2>Chapter 7 on Forms</h2>
 <hr  />
-<p>
 
-<ol>
+<p><h3>If you're using an input element in a form, what attribute controls the behavior of that input?</h3>
+<p><i> Type attribute</i>
 
-<li>If you're using an input element in a form, what attribute controls the behavior of that input?
 
-<li>What element is used to create a dropdown list?
+<p><h3>What element is used to create a dropdown list?</h3>
 
-<li>If you're using an input element to send form data to a server, what should the type attribute be set to?
+<p><h3>If you're using an input element to send form data to a server, what should the type attribute be set to?</h3>
 
-<li>What element is used to group similar form items together?
-
-</ol>
+<p><h3>What element is used to group similar form items together?</h3>
