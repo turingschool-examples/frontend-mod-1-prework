@@ -6,7 +6,9 @@
 
 
 <p><h3>What element is used to create a dropdown list?</h3>
+<p><i> < select > element is used to create a dropdown list</i>
 
 <p><h3>If you're using an input element to send form data to a server, what should the type attribute be set to?</h3>
+    <p><i>Type attribute should be set to type="submit"</i>
 
 <p><h3>What element is used to group similar form items together?</h3>
