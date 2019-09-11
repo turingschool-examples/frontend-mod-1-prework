@@ -12,3 +12,4 @@
     <p><i>Type attribute should be set to type="submit"</i>
 
 <p><h3>What element is used to group similar form items together?</h3>
+<p><i> You can group related form controls together using a < fieldset > element. You will need to have all of the controls and label elements be inside a closed < fieldset > element. </i>
