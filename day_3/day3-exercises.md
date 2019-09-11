@@ -19,7 +19,6 @@
 <hr  />
 
 <p><h3>Describe the differences between border, margin, and padding.</h3></p>
-<br>
 
 <i>
 <b>Border</b>- The border separates the edge of one box from another
@@ -31,6 +30,8 @@
 <br>
 
 <p><h3>For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to</h3></p>
+ <br>
+ <i>This represents a values in a clockwise order: top, right, bottom, left. 1px-top, 2px-right, 5px-bottom, 10px-left</i>
 
 <p><h3>Describe the difference between block-level and inline elements.</h3></p>
 
