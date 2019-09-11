@@ -19,6 +19,6 @@
 ##  What is semantic markup? ##
   Semantic markup is a method of telling the web browser more information about your page. It can control the look of a page, but more importantly semantic markup stores information for the user. For example it contains abbreviation tags, which the browser can store the full abbreviation spelled out, display the shortened word, and share the information with the user when asked.
 ##  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements. ##
-  2. `<abbr></abbr>` An abbreviation tag stores the un abbreviated name, as mentioned above. While the webpage may show 'NASA' on the web page, the browser is storing the information 'National Aeronautics and Space Administration' for the user to use if needed.
+  2. `<acronym></acronym>` An abbreviation tag stores the un abbreviated name, as mentioned above. While the webpage may show 'NASA' on the web page, the browser is storing the information 'National Aeronautics and Space Administration' for the user to use if needed.
   1. `<dfn></dfn>` A definition tag will tell the web browser the stored word is defined later. This is good for search engines when trying to look up a definition for a word. Though it does nothing to change appearance on the page, it would help to get more search hits on your site.
   3. `<address></address>` The address tag is used specifically as a storage of contact information. Once again it does not appear on the page, but the user can find it in the stored web page element.
