@@ -30,10 +30,12 @@
 <br>
 
 <p><h3>For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to</h3></p>
-
- <i>This represents a values in a clockwise order: top, right, bottom, left. 1px-top, 2px-right, 5px-bottom, 10px-left</i>
+     <i>This represents a values in a clockwise order: top, right, bottom, left. 1px-top, 2px-right, 5px-bottom, 10px-left</i>
+<br>
 
 <p><h3>Describe the difference between block-level and inline elements.</h3></p>
+        <i><b>Block-Level</b>- Is an element that creates a new paragraph on the webpage or in general spans the entire lenght of the web page. Elements like < p > or < ul > < li > are block-level elements. </i>
+        <i><b>Inline</b>- Element which width only extends to its closing tag. Something like < b > or < strong > are inline elemenets. </i>
 
 <p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3></p>
 
