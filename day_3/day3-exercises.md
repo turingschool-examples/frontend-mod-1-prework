@@ -1,7 +1,6 @@
 <h1>Day 3 HTML and CSS<h1>
-hr  />
+
 <h2>Chapter 7 on Forms</h2>
-<hr  />
 
 <p><h3>If you're using an input element in a form, what attribute controls the behavior of that input?</h3>
 <p><i> Type attribute</i>
@@ -18,7 +17,6 @@ hr  />
 
 <h2>Chapters 13 and 15 on Boxes and Layout</h2>
 
-<hr  />
 
 <p><h3>Describe the differences between border, margin, and padding.</h3></p>
 
