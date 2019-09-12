@@ -39,8 +39,8 @@
         <i><b>Inline</b>- Element which width only extends to its closing tag. Something like < b > or < strong > are inline elements. </i>
 
 <p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3></p>
-      
-       <i>Fixed positioning allows you to "float" an element in relation to the browser window as opposed to the containing element. The reason for z-index is to allow you to control which box appears on top</i>
+
+       <i> Fixed positioning allows you to "float" an element in relation to the browser window as opposed to the containing element. The reason for z-index is to allow you to control which box appears on top </i>
 
 
 <p><h3>What is the difference between a fixed and liquid layout?</h3></p>
