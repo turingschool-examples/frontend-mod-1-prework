@@ -36,8 +36,14 @@
 <p><h3>Describe the difference between block-level and inline elements.</h3></p>
         <i><b>Block-Level</b>- Is an element that creates a new paragraph on the webpage or in general spans the entire lenght of the web page. Elements like < p > or < ul > < li > are block-level elements. </i>
         <br>
-        <i><b>Inline</b>- Element which width only extends to its closing tag. Something like < b > or < strong > are inline elemenets. </i>
+        <i><b>Inline</b>- Element which width only extends to its closing tag. Something like < b > or < strong > are inline elements. </i>
 
 <p><h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3></p>
+       <br>
+       <i>Fixed positioning allows you to "float" an element in relation to the browser window as opposed to the containing element. The reason for z-index is to allow you to control which box appears on top</i>
+
 
 <p><h3>What is the difference between a fixed and liquid layout?</h3></p>
+ <i> <b>Fixed layout</b> do not change in size as the user increase or decreases the size of their browser windows. This layout uses pixels for measurements. </i>
+<br>
+      <b>Liquid layout</b> change with the size of the browser windows, stretching and contracting. This layout tends to use percentages for measurements.</i>     
