@@ -61,8 +61,8 @@
   Alternatively Sans-Serif means without serif. Sans-serif fonts have straight ends, and therefore have a cleaner design.
   Monospace font keeps every letter the same width. Monospace fonts are commonly used for code because they align nicely.
 
-#3 When specifying font-size, what are the main three units used? ##
+## When specifying font-size, what are the main three units used? ##
   **Pixels, Percentages, & EMS**
   Pixels are commonly used because they allow web designers very precise control over how much space their text takes up. The number refers to actual pixel size.
   Percentages refer to standard pixel size of 16px. Percentages tell the browser a percentage to multiply times 16.
-  An EM is equivalent to the width of a letter m. For example `font size: 1.3em` 
+  An EM is equivalent to the width of a letter m. For example `font size: 1.3em`
