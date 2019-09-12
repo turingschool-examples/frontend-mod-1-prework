@@ -1,0 +1,40 @@
+body {
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/03/25/309277/411802b2b7a65ce575cfb16671f24899.jpg);
+  background-size: 90%;
+}
+
+h1 {
+  color: #006399;
+  font-family: serif;
+  width: 45%;
+  background-color: #d8eff4;
+}
+
+h2 {
+  color: #95b211;
+  font-family: serif;
+  background-color: #e4ebeb;
+  width: 43%;
+}
+
+p {
+  font-family: sans-serif;
+  width: 42%;
+}
+
+.intro {
+  font-style: italic;
+}
+
+.likes {
+  font-style: oblique;
+}
+
+img.align-left {
+  float: left;
+  margin-right: 10px;
+}
+img.medium {
+  width: 75px;
+  height: 75px;
+}
