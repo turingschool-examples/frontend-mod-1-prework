@@ -12,7 +12,7 @@ You would use a target_blank attribute to open a new window after the href="" at
 
 <b>How do you link to a specific part of the same page?</b>
 
-If you are linking to a part of the same page you must use an id attribute to name the part of the page you want to link to and start the href attribute within the &gt;a&lt; tag with a # preceding the name you gave in the id attribute.
+If you are linking to a part of the same page you must use an id attribute to name the part of the page you want to link to and start the href attribute within the &lt;a&gt; tag with a # preceding the name you gave in the id attribute.
 
 <b>What is the purpose of CSS?</b>
 
