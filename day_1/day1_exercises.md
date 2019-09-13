@@ -4,7 +4,7 @@ HTML, the Hypertext Markup Language, is like the skeleton that gives a webpage s
 
 ## What is the difference between an **element** and a **tag**?
 
-An element and a tag both refer to the markup used to write HTML. While they are often used interchangeably, there is a slight difference between the two. An **element** is an individual component of HTML and generally consists of an opening tag, content, and an end tag. **Tags** act like containers, used to mark up the start and end of an element.
+An element and a tag both refer to the markup used to write HTML. While they are often used interchangeably, there is a slight difference between the two. An **element** is an individual component of HTML and generally consists of an opening tag, content, and an end tag. **Tags** act like containers, used to mark up the start and end of an element. Tags usually come in pairs.
 
 ## Why do we use attributes in HTML elements?
 
@@ -16,7 +16,20 @@ HTML code reflects a hierarchy of HTML elements. The **head element** contains i
 
 ## In your browser (Chrome), how do you view the source of a website?
 
+To view the source of a website, first you'll want to make sure Chrome is open as the current program. In the "View" menu, hover over the option "Developer". Select "View Source" in the side menu that appears. Another way to do this is by using the shortcut option + command + U.
+
 ## List five different HTML elements and what they are used for.
+
+* <h1>This is a Main Heading</h1>
+
+    <h2>This is a Level 2 Heading</h2>
+
+    <h6>This is a Level 6 Heading</h6>
+
+*
+*
+*
+*
 
 ## What are empty elements?
 
