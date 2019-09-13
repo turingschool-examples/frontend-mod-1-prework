@@ -1,17 +1,6 @@
 
-<html>
-<head>
 
-<style type="text/css">
 
-body {
-  background-color: grey;
-}
-
-</style>
-</head>
-
-<body>
 <h1> Day 4: HTML, CSS and JavaScript
 
 <h2> Chapter 5: Images HTML</h2>
@@ -21,7 +10,7 @@ body {
 
 
 <p><h3>What determines if an image element is inline or block?</h3></p>
-<i>As < img > element itself is an inline element its placement will determine  if it will show as inline or block element if you place image element before a block element like < p > element it will act as a block element but if you put it inside the < p > element it will show up inline with the rest of the contect. </i>
+<i>As < img > element itself is an inline element its placement will determine  if it will show as inline or block element if you place image element before a block element like < p > element it will act as a block element but if you put it inside the < p > element it will show up inline with the rest of the content. </i>
 
 
 <p><h3>What are the benefits of jpg or png image file formats?</h3></p>
@@ -37,5 +26,3 @@ body {
 
 <p><h3>What is an image sprite, and why is it useful?
 </h3></p>
-</body>
-<html>
