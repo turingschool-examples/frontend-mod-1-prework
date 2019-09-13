@@ -25,4 +25,4 @@
 
 
 <p><h3>What is an image sprite, and why is it useful?
-</h3></p>
+</h3></p> Sprite is an optimization technique that allows you to reuse multiple images in one reference  image file. This is useful for things like button or icons that change behavior when you push them or hoover over them. This technical benefit is ability to reduce the load times and browser requests as you only need to load one image vs a number of images.</i>
