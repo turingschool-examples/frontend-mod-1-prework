@@ -24,7 +24,7 @@ Cmd+Option+u
 
 <b>What are empty elements?</b>
 
-Elements that don't have any words between the opening and closing tags, and usually only have one tag.
+Elements that do not have any words between the opening and closing tags, and usually only have one tag.
 
 <b>What is semantic markup?</b>
 
