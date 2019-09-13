@@ -18,7 +18,7 @@ In your browser (Chrome), how do you view the source of a website?
 
 Cmd+Option+u
 
-List five different HTML elements and what they are used for. For example, <p> is a paragraph element, and it is used to represent a paragraph of text.
+List five different HTML elements and what they are used for. For example, <!-- <p></p> -->is a paragraph element, and it is used to represent a paragraph of text.
 
  <h1-6> are for headings, h1 being the biggest and then becoming smaller font as you approach h6 for use as subheadings. <b> elements are used to make text appear bold. <i> elements make text appear in italics. <sup> makes text appear superscript and <sub> makes text appear subscript.
 
