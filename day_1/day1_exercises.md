@@ -20,10 +20,10 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## List five different HTML elements and what they are used for.
 
-1. &lt;body&gt;This is a body element. Everything inside this element is shown inside the main browser window.&lt;/body&gt;
-1. ###### &lt;h6&gt;This is a Level 6 Heading Element, used for the smallest size subheading.&lt;/h6&gt;
+1. &lt;body&gt; This is a body element. Everything inside this element is shown inside the main browser window. &lt;/body&gt;
+1. ###### &lt;h6&gt; This is a Level 6 Heading Element, used for the smallest size subheading. &lt;/h6&gt;
 
-1. <p>&lt;p&gt;This element is used to create a paragraph.&lt;/p&gt;</p> <p>&lt;p&gt;By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.&lt;/p&gt;</p>
+1. <p>&lt;p&gt; This element is used to create a paragraph. &lt;/p&gt;</p> <p>&lt;p&gt; By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph. &lt;/p&gt;</p>
 
 1. &lt;b&gt; **This element is used to make characters appear bold.** &lt;/b&gt;
 1. &lt;i&gt; _This element is used to make characters appear italic_ &lt;/i&gt;
@@ -31,5 +31,7 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 ## What are empty elements?
 
 ## What is semantic markup?
+
+_Semantic markup_ is an element that is not intended to affect the presentation of a web page. Semantic markup introduces meaning/information to a page. The reason for using these elements is that other programs, such as screen readers or search engines, can use this information. For example, the voice of a screen reader may add emphasis to the words inside the &lt;em&gt; element (the &lt;em&gt; element indicates where emphasis should be placed on selected words).
 
 ## What are three new semantic elements introduced in HTML 5?
