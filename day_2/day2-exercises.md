@@ -8,6 +8,42 @@ An &lt;a&gt; tag is used with a href="" attribute. The content between the "" sh
 
 <b>What attribute should you include in a link to open a new tab when the link is clicked?</b>
 
-
+You would use a target_blank attribute to open a new window after the href="" attribute within an &lt;a&gt; tag. (I could not figure out how to style this without it editing the rest of the file)
 
 <b>How do you link to a specific part of the same page?</b>
+
+If you are linking to a part of the same page you must use an id attribute to name the part of the page you want to link to and start the href attribute within the &gt;a&lt; tag with a # preceding the name you gave in the id attribute.
+
+<b>What is the purpose of CSS?</b>
+
+
+
+<b>What does CSS stand for? What does cascading mean in this case?</b>
+
+
+
+<b>What is the basic structure of a CSS rule?</b>
+
+
+
+<b>How do you link a CSS stylesheet to your HTML document?</b>
+
+
+
+<b>When is it useful to use external stylesheets as opposed to using interal CSS?</b>
+
+
+
+<b>Describe what a color hex code is.</b>
+
+
+
+<b>What are the three parts of an HSL color property?</b>
+
+
+
+<b>In the world of typeface, what are the three main categories of fonts? What are the differences between them?</b>
+
+
+
+<b>When specifiying font-size, what are the main three units used?</b>
