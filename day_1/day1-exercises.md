@@ -20,7 +20,7 @@ Cmd+Option+u
 
 List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.
 
- &lt;h1-6&gt;&lt;/h1-6&gt; are for headings, h1 being the biggest and then becoming smaller font as you approach h6 for use as subheadings. &lt;b>&lt;/b elements are used to make text appear bold. &lt;i&gt;&lt;/i&gt; elements make text appear in italics. &lt;sup&gt;&lt;/sup&gt; makes text appear superscript and &lt;sub&gt;&lt;/sub&gt; makes text appear subscript.
+ &lt;h1-6&gt;&lt;/h1-6&gt; are for headings, h1 being the biggest and then becoming smaller font as you approach h6 for use as subheadings. &lt;b>&lt;/b&gt; elements are used to make text appear bold. &lt;i&gt;&lt;/i&gt; elements make text appear in italics. &lt;sup&gt;&lt;/sup&gt; makes text appear superscript and &lt;sub&gt;&lt;/sub&gt; makes text appear subscript.
 
 What are empty elements?
 Elements that don't have any words between the opening and closing tags, and usually only have one tag.
@@ -29,6 +29,6 @@ What is semantic markup?
 Semantic markup is a way of describing the content on your page. The tags may change the way the text looks but should not be used for this purpose. They are meant to add extra information.
 
 What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
-They have introduced <article> to replace <div class="article"> the same with <nav> for <div id="nav"> and <aside> for <div id="sidebar"> as a means for simplifying and to better work with other programs, such as screen readers.
+They have introduced &lt;article&gt; to replace &lt;div class="article"&gt; the same with &lt;nav&gt; for &lt;div id="nav"&gt; and &lt;aside&gt; for &lt;div id="sidebar"&gt; as a means for simplifying and to better work with other programs, such as screen readers.
 
 <b><a href="https://codepen.io/pjanks/pen/WNeJEwX">Link to CodePen</a></b>
