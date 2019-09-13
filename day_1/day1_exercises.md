@@ -20,17 +20,17 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## List five different HTML elements and what they are used for.
 
-1. # <h1>This is a Main Heading</h1>
+1. # &lt;h1&gt; This is a Main Heading element &lt;/h1&gt;
 
-    ## <h2>This is a Level 2 Heading</h2>
+    <h2>This is a Level 2 Heading</h2>
 
-    ### <h3>This is a Level 3 Heading</h3>
+    <h3>This is a Level 3 Heading</h3>
 
-    #### <h4>This is a Level 4 Heading</h4>
+    <h4>This is a Level 4 Heading</h4>
 
-    ##### <h5>This is a Level 5 Heading</h5>
+    <h5>This is a Level 5 Heading</h5>
 
-    ###### <h6>This is a Level 6 Heading</h6>
+    <h6>This is a Level 6 Heading</h6>
 1. <p>This is used to create a paragraph.</p> <p>By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.</p>
 *
 *
