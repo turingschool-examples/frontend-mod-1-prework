@@ -20,22 +20,23 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## List five different HTML elements and what they are used for.
 
-1. # &lt;h1&gt;This is a Main Heading element&lt;/h1&gt;
+1. # **&lt;h1&gt;** This is a Main Heading Element **&lt;/h1&gt;**
 
-    ## &lt;h2&gt;This is a Level 2 Heading&lt;/h2&gt;
+    ## **&lt;h2&gt;** This is a Level 2 Heading Element **&lt;/h2&gt;**
 
-    ### &lt;h3&gt;This is a Level 3 Heading&lt;/h3&gt;
+    ### **&lt;h3&gt;** This is a Level 3 Heading Element **&lt;/h3&gt;**
 
-    #### &lt;h4&gt;This is a Level 4 Heading&lt;/h4&gt;
+    #### **&lt;h4&gt;** This is a Level 4 Heading Element **&lt;/h4&gt;**
 
-    ##### &lt;h5&gt;This is a Level 5 Heading&lt;/h5&gt;
+    ##### **&lt;h5&gt;** This is a Level 5 Heading Element **&lt;/h5&gt;**
 
-    ###### &lt;h6&gt;This is a Level 6 Heading&lt;/h6&gt;
+    ###### **&lt;h6&gt;** This is a Level 6 Heading Element **&lt;/h6&gt;**
 
-1. <p>&lt;p&gt;This is used to create a paragraph.&lt;/p&gt; <p>&lt;p&gt;By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.&lt;/p&gt;</p>
-*
-*
-*
+1. <p>**&lt;p&gt;** This element is used to create a paragraph. **&lt;/p&gt;**</p> <p>**&lt;p&gt;** By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph. **&lt;/p&gt;**</p>
+
+1. _&lt;b&gt;_ **This element is used to make characters appear bold.** _&lt;/b&gt;_
+1. 
+1.
 
 ## What are empty elements?
 
