@@ -1,4 +1,4 @@
-#Part One#
+# Part One #
 
 ##  If you're using an input element in a form, what attribute controls the behavior of that input? ##
   **~~Text~~, Name, Size, & Maxlength**
@@ -24,7 +24,7 @@
 ##  What element is used to group similar form items together? ##
 `<fieldset>` element groups similar forms together. A `<legend>` element can come directly after the opening fiedset tag and contains a caption which helps identify the purpose of that group of form controls.
 
-#Part Two#
+# Part Two #
 
 ## Describe the differences between border, margin, and padding. ##
 **Border** is on every box, even if it is not visible or specified. The border separates the edge of one box to another.
