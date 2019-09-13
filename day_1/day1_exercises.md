@@ -30,6 +30,8 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## What are empty elements?
 
+_Empty elements_ do not have any words between an opening and closing tag. They usually only have one tag. Before the closing bracket of an empty element there will often be a space and a forward slash character. An example, when typing a poem with multiple line breaks in a paragraph you would use the line break tag &lt;br /&gt;.
+
 ## What is semantic markup?
 
 _Semantic markup_ is an element that is not intended to affect the presentation of a web page. Semantic markup introduces meaning/information to a page. The reason for using these elements is that other programs, such as screen readers or search engines, can use this information. For example, the voice of a screen reader may add emphasis to the words inside the &lt;em&gt; element (the &lt;em&gt; element indicates where emphasis should be placed on selected words).
