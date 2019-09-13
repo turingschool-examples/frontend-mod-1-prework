@@ -18,9 +18,9 @@ In your browser (Chrome), how do you view the source of a website?
 
 Cmd+Option+u
 
-List five different HTML elements and what they are used for. For example, <!-- <p></p> -->is a paragraph element, and it is used to represent a paragraph of text.
+List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.
 
- <h1-6> are for headings, h1 being the biggest and then becoming smaller font as you approach h6 for use as subheadings. <b> elements are used to make text appear bold. <i> elements make text appear in italics. <sup> makes text appear superscript and <sub> makes text appear subscript.
+ &lt;h1-6&gt;&lt;/h1-6&gt; are for headings, h1 being the biggest and then becoming smaller font as you approach h6 for use as subheadings. &lt;b>&lt;/b elements are used to make text appear bold. &lt;i&gt;&lt;/i&gt; elements make text appear in italics. &lt;sup&gt;&lt;/sup&gt; makes text appear superscript and &lt;sub&gt;&lt;/sub&gt; makes text appear subscript.
 
 What are empty elements?
 Elements that don't have any words between the opening and closing tags, and usually only have one tag.
