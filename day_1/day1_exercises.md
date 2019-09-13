@@ -1,10 +1,10 @@
 ## On a website, what is the purpose of HTML code?
 
-HTML, the Hypertext Markup Language, is like the skeleton that gives a webpage structure. Without HTML, a browser would not know how to display text. Developers use HTML code to instruct an Internet browser application how to properly format and display its content. HTML supports many features including text and multimedia and is traditionally learned along with CSS and JavaScript.
+HTML, the Hypertext Markup Language, is like the skeleton that gives a webpage structure. Without HTML, a browser would not know how to display text. _Developers use HTML code to instruct an Internet browser application how to properly format and display its content._ HTML supports many features including text and multimedia and is traditionally learned along with CSS and JavaScript.
 
 ## What is the difference between an **element** and a **tag**?
 
-An element and a tag both refer to the markup used to write HTML. While they are often used interchangeably, there is a slight difference between the two. An _element_ is an individual component of HTML and generally consists of an opening tag, content, and an end tag. _Tags_ act like containers, used to mark up the start and end of an element.
+An element and a tag both refer to the markup used to write HTML. While they are often used interchangeably, there is a slight difference between the two. An _**element**_ is an individual component of HTML and generally consists of an opening tag, content, and an end tag. _**Tags**_ act like containers, used to mark up the start and end of an element.
 
 ## Why do we use attributes in HTML elements?
 
@@ -12,7 +12,7 @@ Attributes provide additional information about the contents of an element. An a
 
 ## Describe the purpose of the head, title, and body HTML elements.
 
-HTML code reflects a hierarchy of HTML elements. The _head element_ contains information about the page. The head element comes before the body element and will usually contain a title element. The _title element_ is either shown in the top of the browser, above the URL, or on the tab for that page. The _body element_ is used to store everything displayed inside the main browser window, or the text and images that you see when visiting a Web page.
+HTML code reflects a hierarchy of HTML elements. The _**head element**_ contains information about the page. The head element comes before the body element and will usually contain a title element. The _**title element**_ is either shown in the top of the browser, above the URL, or on the tab for that page. The _**body element**_ is used to store everything displayed inside the main browser window, or the text and images that you see when visiting a Web page.
 
 ## In your browser (Chrome), how do you view the source of a website?
 
