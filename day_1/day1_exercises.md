@@ -20,13 +20,14 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## List five different HTML elements and what they are used for.
 
-1. ###### &lt;h6&gt;This is a Level 6 Heading Element&lt;/h6&gt;
+1. &lt;body&gt;This is a body element. everything inside this element is shown inside the main browser window&lt;/body&gt;
+
+1. ###### &lt;h6&gt;This is a Level 6 Heading Element, used for the smallest size subheading.&lt;/h6&gt;
 
 1. <p>&lt;p&gt;This element is used to create a paragraph.&lt;/p&gt;</p> <p>&lt;p&gt;By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.&lt;/p&gt;</p>
 
 1. &lt;b&gt; **This element is used to make characters appear bold.** &lt;/b&gt;
-1.
-1.
+1. &lt;i&gt; _This element is used to make characters appear italic_ &lt;/i&gt;
 
 ## What are empty elements?
 
