@@ -25,7 +25,7 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 1. `<p>This element is used to create a paragraph.</p>`
 
-`<p>By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.</p>`
+    `<p>By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.</p>`
 
 1. `<b>**This element is used to make characters appear bold.**</b>`
 1. `<i>_This element is used to make characters appear italic_</i>`
