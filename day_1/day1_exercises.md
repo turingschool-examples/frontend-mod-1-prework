@@ -21,16 +21,16 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 ## List five different HTML elements and what they are used for.
 
 1. `<body>This is a body element. Everything inside this element is shown inside the main browser window.</body>`
-1. ###### &lt;h6&gt; This is a Level 6 Heading Element, used for the smallest size subheading. &lt;/h6&gt;
+1. ###### `<h6>This is a Level 6 Heading Element, used for the smallest size subheading.</h6>`
 
-1. <p>&lt;p&gt; This element is used to create a paragraph. &lt;/p&gt;</p> <p>&lt;p&gt; By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph. &lt;/p&gt;</p>
+1. `<p>This element is used to create a paragraph.</p> <p>By default, a browser will show each paragraph on a new line with some space between it and any subsequent paragraph.</p>`
 
-1. &lt;b&gt; **This element is used to make characters appear bold.** &lt;/b&gt;
-1. &lt;i&gt; _This element is used to make characters appear italic_ &lt;/i&gt;
+1. `<b>**This element is used to make characters appear bold.**</b>`
+1. `<i>_This element is used to make characters appear italic_</i>`
 
 ## What are empty elements?
 
-_Empty elements_ do not have any words between an opening and closing tag. They usually only have one tag. Before the closing bracket of an empty element there will often be a space and a forward slash character. For example, when typing a poem that has multiple line breaks in the middle of a paragraph, you would use the line break tag &lt;br /&gt;.
+_Empty elements_ do not have any words between an opening and closing tag. They usually only have one tag. Before the closing bracket of an empty element there will often be a space and a forward slash character. For example, when typing a poem that has multiple line breaks in the middle of a paragraph, you would use the line break tag &lt;br /&gt;
 
 ## What is semantic markup?
 
