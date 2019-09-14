@@ -30,7 +30,7 @@ To view the source of a website, first you'll want to make sure Chrome is open a
 
 ## What are empty elements?
 
-_Empty elements_ do not have any words between an opening and closing tag. They usually only have one tag. Before the closing bracket of an empty element there will often be a space and a forward slash character. An example, when typing a poem with multiple line breaks in a paragraph you would use the line break tag &lt;br /&gt;.
+_Empty elements_ do not have any words between an opening and closing tag. They usually only have one tag. Before the closing bracket of an empty element there will often be a space and a forward slash character. For example, when typing a poem that has multiple line breaks in the middle of a paragraph, you would use the line break tag &lt;br /&gt;.
 
 ## What is semantic markup?
 
