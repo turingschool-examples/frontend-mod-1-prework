@@ -20,11 +20,11 @@
 
 6.  List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.
 
-  -<b></b> is used to Bold the containing text
-  -<br /> is ued to indicate a line break
-  -<i></i> is used to italicize the encapsulated text
-  -<h[1-6]></h[1-6]> is used to indicate the content between tags is a header, with various levels of header achievable by passing in a value from 1 to 6. These fit into a hierarchy accordingly, with <h1></h1> being the top level.  
-  -<blockquote></blockquote> is used to block out larger chunks of text, browsers generally indent the content placed between these tags.
+  -\<\b\>\<\/\b\> is used to Bold the containing text
+  -\<\b\r \/\> is ued to indicate a line break
+  -\<\i\>\<\/\i\> is used to italicize the encapsulated text
+  -<h[1-6]></h[1-6]> is used to indicate the content between tags is a header, with various levels of header achievable by passing in a value from 1 to 6. These fit into a hierarchy accordingly, with \<\h\1\>\<\/\h\1\> being the top level.  
+  -\<blockquote\>\<\/blockquote\> is used to block out larger chunks of text, browsers generally indent the content placed between these tags.
 
 7.  What are empty elements?
 
