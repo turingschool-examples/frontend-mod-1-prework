@@ -1,3 +1,4 @@
+#JAKE FROM STATE FARM
 ## On a website, what is the purpose of HTML code?
 
 HTML, the Hypertext Markup Language, is like the skeleton that gives a webpage structure. Without HTML, a browser would not know how to display text. _Developers use HTML code to instruct an Internet browser application how to properly format and display its content._ HTML supports many features including text and multimedia and is traditionally learned along with CSS and JavaScript.
