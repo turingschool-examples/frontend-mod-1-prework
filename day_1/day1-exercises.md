@@ -28,9 +28,7 @@ main browser window.
 Right click and select "inspect" or cmd + opt + j.
 
 6. List five different HTML elements and what they are used for. For example,
-```
-<p></p>
-```
+`<p></p>`
 is a paragraph element, and it is used to represent a paragraph of text.
 ```
 <b></b> defines a text as bold.
@@ -42,9 +40,7 @@ is a paragraph element, and it is used to represent a paragraph of text.
 7. What are empty elements?
 
 Usually consists of just one tag. Such as
-```
-<hr />
-```
+`<hr />`
  that adds a horizontal break
 between themes.
 
