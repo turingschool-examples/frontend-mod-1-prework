@@ -50,6 +50,6 @@ _Semantic markup_ Introduces meaning/information to a page. It's not intended to
 
 1. **`<section>`**
 
-  The `<section>` element groups related content together. For example, on a homepage there may be several `<section>` elements to contain different sections of the page, such as latest news or top products. It may can contain several distinct `<article>` elements that have a common theme or purpose.
+    The `<section>` element groups related content together. For example, on a homepage there may be several `<section>` elements to contain different sections of the page, such as latest news or top products. It may can contain several distinct `<article>` elements that have a common theme or purpose.
 
   [CodePen](https://codepen.io/madisonrandle/pen/yLBEmYz)
