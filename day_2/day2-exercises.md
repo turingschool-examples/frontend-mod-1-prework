@@ -13,24 +13,16 @@ Definition lists are made up of a set of terms along with the definitions for ea
 
 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
-```
-"target="_blank"
-```
+`"target="_blank"`
 as in
-```
-<a href="https://www.google.com"> "target="_ blank" Google</a>
-```
+`<a href="https://www.google.com"> "target="_ blank" Google</a>`
 
 4. How do you link to a specific part of the same page?
 
 By adding an id such as
-```
-<h1 id="top">Tippity Top</h1>
-```
+`<h1 id="top">Tippity Top</h1>`
 attribute to the desired location on the page. Then use an <a> element with the href attribute and the same id word such as
-```
-<p><a href="#top>Go to top</a></p>
-```
+`<p><a href="#top>Go to top</a></p>`
 1. What is the purpose of CSS?
 
 To add more design to a web page by adding rules that specify how each element should appear.
