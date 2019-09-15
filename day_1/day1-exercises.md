@@ -28,33 +28,41 @@ main browser window.
 Right click and select "inspect" or cmd + opt + j.
 
 6. List five different HTML elements and what they are used for. For example,
-<p></p> is a paragraph element, and it is used to represent a paragraph of text.
-
+```
+<p></p>
+```
+is a paragraph element, and it is used to represent a paragraph of text.
+```
 <b></b> defines a text as bold.
 <div></div> defines a section in a web page.
 <h1></h1> defines the largest size heading in HTML.
 <img></img> defines an image.
 <ol></ol> defines an ordered list.
-
+```
 7. What are empty elements?
 
-Usually consists of just one tag. Such as <hr /> that adds a horizontal break
+Usually consists of just one tag. Such as
+```
+<hr />
+```
+ that adds a horizontal break
 between themes.
 
 8. What is semantic markup?
 
 A text element that adds extra information to a page but not affect the
-structure it. For example <em></em> indicates an emphasis on the contents inside
+structure it. For example
+`<em></em>`indicates an emphasis on the contents inside
 the tag.
 
 9. What are three new semantic elements introduced in HTML 5? Use page 431 in
 the book to find more about these new elements.
 
-<strong></strong> Indicates that it's content has a strong importance and makes
+`<strong></strong>`Indicates that it's content has a strong importance and makes
 it bold.
-<s></s> Indicates something is no longer accurate by displaying a line through
+`<s></s>`Indicates something is no longer accurate by displaying a line through
 the contents in the tag.
-<address></address> Used to contain contact details for the author of the page.
+`<address></address>` Used to contain contact details for the author of the page.
 Such as a physical address or phone number. Usually displays contents in italics.
 
 https://codepen.io/chaiz15/pen/BaBPQdr
