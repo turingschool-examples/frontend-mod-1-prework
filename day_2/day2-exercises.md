@@ -49,3 +49,5 @@ Serif, which has extra details on the letters, sans-serif which have straight en
 <b>When specifiying font-size, what are the main three units used?</b>
 
 Pixels, percentages, and ems.
+
+<b><a href="https://codepen.io/pjanks/pen/WNeJEwX">Link to CodePen</a></b>
