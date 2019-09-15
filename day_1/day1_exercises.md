@@ -36,6 +36,20 @@ _Empty elements_ do not have any words between an opening and closing tag. They 
 
 ## What is semantic markup?
 
-_Semantic markup_ is an element that is not intended to affect the presentation of a web page. Semantic markup introduces meaning/information to a page. The reason for using these elements is that other programs, such as screen readers or search engines, can use this information. For example, the voice of a screen reader may add emphasis to the words inside the &lt;em&gt; element (the &lt;em&gt; element indicates where emphasis should be placed on selected words).
+_Semantic markup_ Introduces meaning/information to a page. It's not intended to affect the presentation of a web page. The reason for semantic elements is so that other programs, such as screen readers or search engines, can use the information. For example, the voice of a screen reader may add emphasis to the words inside the &lt;em&gt; element (the &lt;em&gt; element indicates where emphasis should be placed on selected words).
 
 ## What are three new semantic elements introduced in HTML 5?
+
+1. **`<article>`**
+
+    The `<article>` element acts as a container for any section of a page that could stand alone. This could be an individual blog post, a newspaper article or any other independent piece of content.
+
+1. **`<aside>`**
+
+    The `<aside>` element defines some content _aside_ from the content it is place in (like a sidebar). When used inside an `<article>` element, its content should be related to the article but it's not essential to its overall meaning. When used outside of an `<article>` element, its like a container for content that's related to the entire page.
+
+1. **`<section>`**
+
+  The `<section>` element groups related content together. For example, on a homepage there may be several `<section>` elements to contain different sections of the page, such as latest news or top products. It may can contain several distinct `<article>` elements that have a common theme or purpose.
+
+  [CodePen](https://codepen.io/madisonrandle/pen/yLBEmYz)
