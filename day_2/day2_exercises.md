@@ -20,9 +20,9 @@ Links are created using the `<a>` element. You specify which page you want to li
 
   **CLOSING LINK TAG** `</a>`
 
-  **https://turing.io** is the page the link takes you to
+  * **https://turing.io** is the page the link takes you to
 
-  **Turing** is the text the user clicks on
+  * **Turing** is the text the user clicks on
 
 ### 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
@@ -49,12 +49,30 @@ The value of the href attribute starts with the `#` symbol, followed by the valu
 
 ### 1. What is the purpose of CSS?
 
+CSS provides developers with a standard way to define, apply, and manage sets of style characteristics. These characteristics include colors, layout, and fonts. With CSS you can control the design of your web pages and create rules that specify how the content of an element should appear.
 
 ### 2. What does CSS stand for? What does cascading mean in this case?
+
+**C**ascading **S**tyle **S**heet
 
 
 ### 3. What is the basic structure of a CSS rule?
 
+SELECTOR {DECLARATION}
+
+* **Selectors** indicate which element the rule applies to.
+* **Declarations** indicate how the elements referred to in the selector should be styled. Declarations are split into two parts.
+    * **Properties** indicate the aspects of the element you want to change.
+
+        **color**: yellow
+
+        **font-family**: Ariel
+
+    * **Values** specify the settings you want to use for the chosen properties.
+
+        color: **yellow**
+
+        font-family: **Ariel**
 
 ### 4. How do you link a CSS stylesheet to your HTML document?
 
