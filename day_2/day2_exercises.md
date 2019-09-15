@@ -2,14 +2,47 @@
 
 ### 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
+* An **ordered list** typically is a numbered list of items. It's created with the `<ol>` element. Each item in the list is placed between an opening `<li>` tag and a closing `</li>` tag. The _li_ stands for list item.
+
+* An **unordered list** typically is a bulleted list of items. It's created with the `<ul>` element. Each item in the list is placed between an opening `<li>` tag and a closing `</li>` tag. The _li_ stands for list item.
+
+* A **definition list** commonly consists of a series of terms and their definitions. It's created with the `<dl>` element. Inside the `<dl>` element you will usually see pairs of `<dt>` and `<dd>` elements.
+  * The `<dt>` element is used to contain the term being defined.
+  * The `<dd>` element is used to contain the definition.
 
 ### 2. What is the basic structure of an element used to link to another website?
 
+Links are created using the `<a>` element. You specify which page you want to link to using the href attribute.
+
+  `<a href="https://turing.io">Turing</a>`
+
+  **OPENING LINK TAG** `<a href="https://turing.io">`
+
+  **CLOSING LINK TAG** `</a>`
+
+  **https://turing.io** is the page the link takes you to
+
+  **Turing** is the text the user clicks on
 
 ### 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
+To open a new tab (or window, if that's the user's preference) you would use the **target** attribute on the opening `<a>` tag. The value of this attribute should be  **_blank**.
+
+`<a href="https://turing.io" target="_blank">Turing</a>`
+
+**OPENING TAG** `<a href="https://turing.io" target="_blank">`
 
 ### 4. How do you link to a specific part of the same page?
+
+First, identify the points in the page that the link will go to. This is done by using the id attribute.
+
+`<h1 id="top">TAKE ME TO THE TOP OF THE PAGE</h1>`
+
+To link to an element that uses an id attribute you use the `<a>` element again
+
+The value of the href attribute starts with the `#` symbol, followed by the value of the id attribute of the element you want to link to
+
+`<a href="#top">TAKE ME TO THE TOP OF THE PAGE</a>`
 
 
 ## What is CSS, Color, and Text
