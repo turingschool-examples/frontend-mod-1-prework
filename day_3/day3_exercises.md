@@ -48,10 +48,20 @@ This rule is using a shorthand, where the pixel values are listed in clockwise o
 
 ### 3. Describe the difference between block-level and inline elements.
 
-* A **block-level** element begins a new line on a web page. It creates large blocks of content like paragraphs. Most HTML elements are block-level elements.
+* A **block-level** element begins a new line and acts as the main building blocks of any layout. Examples include:
 
-* **Inline** elements do not start a new line. They can begin within a line and its width only extends as far as it is defined by its tags. An example is the `<strong>` element. 
+ `<h1>` `<p>` `<ul>` `<ol>`
+
+* **Inline** elements flow between surrounding text. Examples include:
+
+  `<img>` `<b>` `<i>`
 
 ### 4. What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?
 
+
+
 ### 5. What is the difference between a fixed and liquid layout?                                
+
+* A **fixed** layout
+
+* A **liquid** layout
