@@ -16,6 +16,18 @@
 
 <h2>What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names?</h2>
 
+<i><ul>
+<li><b>Rule 1</b>- The name must begin with a letter, dollar sign or an underscore. Never with a number.
+<li><b>Rule 2</b>- The name can contain letters, numbers, dollar sign or an underscore. You can not use a dash or a period in a variable name.
+<li><b>Rule 3</b>- You can't use keywords or reserved words.
+<li><b>Rule 4</b>- All variables are case sensitive.
+<li><b>Rule 5</b>- Use name that describes the kind of information that the variable stores.
+<li><b>Rule 6</b>- Use camel case if variable has more than one word. EX: firstName.
+<ul>
+
+A few JS reserved words are: else, debugger, for, function, catch, new, true.
+</i> 
+
 <h2>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h2>
 
 <h2>What is the difference between an expression and a statement?</h2>
