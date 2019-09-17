@@ -1,5 +1,6 @@
 ## Lists and Links
 
+
 ### 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
 * An **ordered list** typically is a numbered list of items. It's created with the `<ol>` element. Each item in the list is placed between an opening `<li>` tag and a closing `</li>` tag. The _li_ stands for list item.
