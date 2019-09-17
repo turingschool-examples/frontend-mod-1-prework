@@ -1,0 +1,178 @@
+body {
+  background-image: linear-gradient(to right, #e3e3e3 , #000000);
+}
+
+h1 {
+  color: #e3e3e3;
+}
+
+#top-title {
+  position: relative;
+  top: 2em;
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  padding 0;
+  height: 7.5%;
+  top: 0;
+  left: 0;
+  background-color: hsla(0, 90%, 61%, 0.9);
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+  color: #e3e3e3;
+  list-style: none;
+  padding: 1em 1em 1em 1em;
+}
+
+nav li:hover {
+  color: #a9c1d4;
+}
+
+nav a {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #a9c1d4;
+}
+
+#overflow-container {
+  overflow: hidden;
+  height: 30em;
+}
+
+#animation-1 {
+  color: #ffffff;
+  background-image: linear-gradient(to left, red , yellow);
+  min-height: 2em;
+  position: relative;
+  top: 5em;
+  animation-duration: 7s;
+  animation-name: slideinleft;
+  animation-iteration-count: infinite;
+}
+
+#animation-2 {
+  color: hsla(170, 50%, 45%, 0);
+  background-color: green;
+  min-height: 2em;
+  position: relative;
+  top: 4em;
+  animation-duration: 6s;
+  animation-name: slideinright;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#animation-3 {
+  color: blue;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+  position: relative;
+  top: 3em;
+  min-height: 2em;
+  justify-content: center;
+  animation-duration: 8s;
+  animation-name: slideinleft-2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#animation-4 {
+  color: hsla(170, 50%, 45%, 0);
+  background-color: pink;
+  position: relative;
+  top: 2.1em;
+  min-height: 2em;
+  animation-duration: 4s;
+  animation-name: slideinright-2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#animation-5 {
+  color: #ffffff;
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  position: relative;
+  min-height: 2em;
+  top: 1em;
+  justify-content: center;
+  animation-duration: 5s;
+  animation-name: slideinleft-3;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: 125%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 200%;
+  }
+}
+
+@keyframes slideinleft-2 {
+  from {
+    margin-left: 150%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 200%;
+  }
+}
+
+@keyframes slideinleft-3 {
+  from {
+    margin-left: 165%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 200%;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    margin-right: 105%;
+
+  }
+
+  to {
+    margin-right: 0%;
+
+  }
+}
+
+@keyframes slideinright-2 {
+  from {
+    margin-right: 115%;
+
+  }
+
+  to {
+    margin-right: 0%;
+
+  }
+}
