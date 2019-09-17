@@ -23,10 +23,10 @@
 <li><b>Rule 4</b>- All variables are case sensitive.
 <li><b>Rule 5</b>- Use name that describes the kind of information that the variable stores.
 <li><b>Rule 6</b>- Use camel case if variable has more than one word. EX: firstName.
-<ul>
+</ul>
 
 A few JS reserved words are: else, debugger, for, function, catch, new, true.
-</i> 
+</i>
 
 <h2>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h2>
 
