@@ -14,6 +14,9 @@
 *   Change a snippet of paragraph text to be italic using the font-style property (do not use the `<i></i>` in this case).
 
 ### Day 3
+
+Add a form that could be used to submit your top three music artists. It should include:
+
 *   Text boxes for each artist (three artists total).
 *   Labels for each text box.
 *   Dropdowns for the genre of each artist.
