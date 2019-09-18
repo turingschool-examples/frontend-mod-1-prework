@@ -2,7 +2,7 @@
 
 ### Chapter 5
 1. The ‘alt’ attribute is important because it describes a summary about the picture incase you can not properly see the picture.
-2. The placement of the code determines where the image will appear on the webpage. Placing the image element before the <p> element makes it block on its own line. Placing the image element inside of the <p> element causes it to be inline with the text of the paragraph.
+2. The placement of the code determines where the image will appear on the webpage. Placing the image element before the `<p>` element makes it block on its own line. Placing the image element inside of the `<p>` element causes it to be inline with the text of the paragraph.
 3. Real life pictures, like those of nature that typically have a lot of color, are better seen if formatted in jpg. Images that contain a lot of flat color, like logos or diagrams, are preferably displayed in a png format.
 
 ### Chapter 16
