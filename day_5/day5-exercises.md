@@ -41,3 +41,105 @@ What are three types of operators and how are they used?
     Assignment operators- assign value to a variables
     Arithmetic operators- perform basic math
     String operators- combine two strings
+
+
+Console log exercises:
+
+```
+25
+25
+"this is my string"
+"this is my string"
+var myNewString = "Hello Turing!";
+undefined
+myNewString
+"Hello Turing!"
+var myNum = 9;
+undefined
+myNum
+9
+var anotherString = "How are you?";
+undefined
+"Connect" + " " + "these" + " " +"strings."
+"Connect these strings."
+myNewString + anotherString
+"Hello Turing!How are you?"
+5>3
+true
+5<3
+false
+"2" === 2
+false
+"2" == 2
+true
+if (8 < 9) else {console.log("Hey!")}
+VM917:1 Uncaught SyntaxError: Unexpected token else
+if (3 < 1){console.log("if block")} else {console.log("else block")}
+VM924:1 else block
+undefined
+var numberOfChildren = 0
+undefined
+var partnerName = Orion
+VM1038:1 Uncaught ReferenceError: Orion is not defined
+at <anonymous>:1:19
+(anonymous) @ VM1038:1
+var partner nemae = "Orion"
+VM1093:1 Uncaught SyntaxError: Unexpected identifier
+var partnerName = "Orion"
+undefined
+var geographicLocation = "Moab"
+undefined
+var jobTitle = "Chief Dog Wrangler"
+undefined
+var fortune = "You will be a " + jobTitle + " in " + geographicLocation + ", and married to " + partnerName + " with " + numberOfChildren + " kids. ";
+undefined
+console.log(fortune)
+VM1821:1 You will be a Chief Dog Wrangler in Moab, and married to Orion with 0 kids.
+undefined
+var = numberOfChildren = 2
+VM1898:1 Uncaught SyntaxError: Unexpected token =
+numberOfChildren = 2
+2
+var fortune = "You will be a " + jobTitle + " in " + geographicLocation + ", and married to " + partnerName + " with " + numberOfChildren + " kids. ";
+undefined
+fortune
+"You will be a Chief Dog Wrangler in Moab, and married to Orion with 2 kids. "
+var currentYear = 2019
+undefined
+var birthYear = 1980
+undefined
+var age = currentYear - birthYear
+undefined
+age
+39
+console.log ("You are either " + age + " or " + (age-1));
+VM2332:1 You are either 39 or 38
+undefined
+var maxAge = 100
+undefined
+var dailyQuac = 1
+undefined
+var year = 365
+undefined
+var lifetimeGuac = (maxAge - age)365 *dailyQuac
+VM2617:1 Uncaught SyntaxError: Unexpected number
+var lifetimeGuac = (maxAge - age)365 *dailyGuac
+VM2642:1 Uncaught SyntaxError: Unexpected number
+var lifetimeGuac = ((maxAge - age)365) *dailyGuac
+VM2654:1 Uncaught SyntaxError: Unexpected number
+var lifetimeGuac = ((maxAge - age)year) *dailyGuac
+VM2666:1 Uncaught SyntaxError: Unexpected identifier
+var lifetimeGuac = (dailyQuac * year) * (maxAge - age)
+undefined
+lifetimeGuac
+22265
+console.log ("you will need " + lifetimeGuac + "pounds of guacamole to last you until you are " + age;
+VM3060:1 Uncaught SyntaxError: missing ) after argument list
+var message = "You will need " + lifetimeGuac + "pounds of guacamole to last you until you are " + age;
+undefined
+console.log(message)
+VM3164:1 You will need 22265pounds of guacamole to last you until you are 39
+undefined
+message = "You will need " + lifetimeGuac + "pounds of guacamole to last you until you are " + maxAge;
+"You will need 22265pounds of guacamole to last you until you are 100"
+```
