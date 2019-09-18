@@ -64,6 +64,6 @@ The **z-index** property helps to control which element sits on top. It prevents
 
 ### 5. What is the difference between a fixed and liquid layout?                                
 
-* A **fixed** layout
+* A **fixed** layout is the classic website design style where a specific width is predetermined usually in pixels.
 
-* A **liquid** layout
+* A **liquid** layout uses percentages to specify the width of each box so that the design will stretch to fit the size of the screen.
