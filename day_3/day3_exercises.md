@@ -3,9 +3,9 @@
 ### Chapter 7
 
 1. The value of the ‘type’ attribute will determine the behavior of the input.
-2. The <select> element is used to create a drop down list box.
+2. The `<select>` element is used to create a drop down list box.
 3. It should be set to “submit”.
-4. <fieldset> is used to group related form controls together.
+4. `<fieldset>` is used to group related form controls together.
 
 ### Chapters 13 & 15
 1. The border is the physical line, no matter if it’s set to a zero value, that is the outside of the box. The margin is the amount of space on the outside of the box between the box and any objects next to it. The padding is the space between the border of the box and any of the content that is inside of the box.
