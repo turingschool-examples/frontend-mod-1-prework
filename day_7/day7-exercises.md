@@ -1,0 +1,34 @@
+## Psychology ##
+**Calm.com Supports**
+First off, this website obtained the perfect domain name for what the user would be looking for. If anyone typed in "calm" this would be the first hit. The purpose of this website is to sell an app, but the psychology of this website is meditation, peace, and relax. Right away a button in the center has you take a test to asses your needs, with a beautiful mountain scape as the wallpaper. Who doesn't feel calm in the mountains.
+
+**Arngren.net Violates**
+I warn you, do not go to this website lightly. Immediately upon loading you are bombarded with an overwhelming number of pictures and texts, ranging in size, color, and font. This website is a design nightmare, causing seizures more often than satisfaction. The website is a German Craigslist I believe, though I couldn't be sure. Google attempts to translate the page, and suddenly the format fails even further, with text now overlapping on top of each other. It seems to be one large square of links and photos, because you can scroll left and right, or up and down. Nothing about this website is intuitive, leading, or trustworthy.
+
+## Usability ##
+**Play.HBO.com Supports**
+This website is well known, and well used. Right up front the webpage cycles through it's top movies and shows for the user to look at. Search is easy to locate and works great, pulling up hits on the webpage as soon as you type. The website is organized, straight forward, and clean. Different genres are listed one after the other, and all roll over affects work. Highly successful usability page.
+
+**Oakatfourteenth.com Violates**
+This website is basic, with an option for reservations at the top. Intuitive yes, helpful no. Once you open the reservation option, it only shows three times for any day. Using any other site, such as open table or yelp!, you get a dozen more times available for reservation. Usability wise this cuts back significantly on the number of people who can guarantee to show up, which is vital for a restaurant. This usability feature is almost completely broken on a mobile device. It doesn't load properly, and doesn't allow the user to select a time.
+
+## Design ##
+**CSSZenGarden.com Supports**
+This has been a favorite of mine for some time. The purpose of this website is to showcase how CSS pairs with HTML to create any number of web designs you can imagine. Design may be too easy for this one, but overall the designs presented do exactly what is needed of them. They vary extensively, they are clean and easy to read, and they teach the main lesson of how CSS works. Not only does the website seamlessly jump from one design to the next, every page explains how CSS works in its basic format. This website inspires and informs.
+
+**SnapGuide.com/guides/Shoot-Pool_billiards Violates**
+I found this website after searching for "How to shoot pool". The website Snapguide looks reliable, fun, and interactive. Once navigating to my specific article though it seems all regulating goes out the window. The article is written by Ron Jaxon, with a suave looking man peering through a hole as his author icon. The page appears to be well laid out, but as soon as you start scrolling down to read, you see that the entire data of information is displayed between 400 px of frame. 50% of the page isn't being used for its purpose of teaching you how to shoot pool. Every article is interrupted by an ad, and every picture is so low quality you can count the squares. I'm not sure where he found these pictures but they look like screenshots from an online game he may have played.  Across the top are tabs that cannot be clicked to direct you to a different chapter, though it seems they should. At the bottom of his article he states himself to be a graphic designer, painful.
+
+## Copywriting ##
+**United.com Supports**
+The landing page to this website hits you right up front with a table to book a flight. The table loads in fastest, is clear and concise, and has large readable text with good use of white space. This website wants you to book a flight, and makes it easy, and encouraging almost, to do so. The website shows you perks to booking a flight, such as earning bonus miles, or visitng all the beautiful places shown in the rotating background. The website has consistent font use and hierarchy of text size. It is clear, direct, and functional as a website.
+
+**SuzanneCollinsBooks.com Violates**
+This website is dedicated to an author, and was possibly written by her as well. At first glance the website lacks a hierarchy of information, with the biography competing with book covers and what is possible a picture of the author (You don't know because the photo isn't labeled or linked to an answer.) Further investigation of the webpage shows an overwhelming use of white space. Her website drags down with nothing but space between photos of her book covers. Further diving led to an interview page that has no consistent spacing format. The hipperelement.com asks, "Is it clear, direct, simple, and functional?", and unfortunately no, this website does not help the user or reader understand the message being sent.
+
+## Analysis ##
+**Reddit.com Supports**
+I chose this website because it adapts, improves, and listen to its users. Reddit allows its users to determine the content displayed on the webpage with 'upvote' or 'downvote' controls. Reddit allows anyone to post and share on their website, opening their content up significantly. Reddit is home to many programmers and tech crowds, so the interface is seamless, with many iterations and revisions. They have a simple how to page that is easy to locate and understand. They have a stats section showcasing how well their website is doing on the web, coming in at fifth most visited site. Although Reddit is a content website for posts and pictures, used mostly for laughs and community sharing, they do a great job listening to their clientele and implementing necessary changes. 
+
+**Historianofthefuturex.com Violates**
+This website violates in so many ways. To start it has inconsistent font sizes, with no real header or direction of site. The background is very busy making it hard to read the text, or even locate a paragraph body. There doesn't seem to be any consistency in color or page layout. Images used on the site aren't properly labeled for assisted readers. There seems to be no proof of information, or sources to back up claims made on the page. Articles have no authors tied to them for validity, except the one Charles Ostman, who seems to have written everything, and there is no overall comment section for people to respond to. One bad link leads to another on this website. Overall this website seems to be designed by someone with no formal training, who was simply inspired by a kaleidoscope.
