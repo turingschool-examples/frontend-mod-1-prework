@@ -58,7 +58,9 @@ This rule is using a shorthand, where the pixel values are listed in clockwise o
 
 ### 4. What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?
 
+</br> **Fixed positioning** is a type of absolute positioning that requires the position property to have a value of fixed. It positions the element in relation to the browser window. </br> `position:fixed`
 
+The **z-index** property helps to control which element sits on top. It prevents any other elements' content from overlapping with the element who's position property is fixed.
 
 ### 5. What is the difference between a fixed and liquid layout?                                
 
