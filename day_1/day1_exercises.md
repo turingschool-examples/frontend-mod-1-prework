@@ -9,3 +9,7 @@
 7.   Empty elements are very different because they usually only have 1 tag. Due to that fact, there is typically no words between the tags, yet the element has a preset style that it will add onto the webpage.
 8. A semantic markup is an alternate way of defining an element, and it already has a preset style it will set the font and appearance of the wording to. Instead of trying to set multiple element styles, some semantic markups are preset to style words in multiple ways at once, changing the color, boldness, italics, or even underlining.
 9. There is a new aside element, which creates a more vertically stacker text box off to the side of your body work. There is a footer element, which creates text at the very bottom of your webpage. There is also a nav element which creates almost like a menu bar at the top of your webpage that is used for easy navigation.
+
+
+
+Codepen link-https://codepen.io/ryannovak95/pen/bGbjBjm
