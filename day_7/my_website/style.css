@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica,sans-serif;
+  background-color: #B0BDBD;
+  max-width: 800px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+h1 {
+  background-color: #BDB0B0;
+  padding: 10px;
+  font-weight:  lighter;
+  font-size: 45px;
+  border: 1px solid;
+  text-align: center;
+}
+h2 {
+  font-family: Helvetica,sans-serif;
+  padding: 5px;
+  font-weight:  lighter;
+  font-size: 28px;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  text-align: center;
+  font-family: serif;
+}
+h4 {
+  font-weight: bold;
+}
+#emailSub {
+  text-align: center;
+}
+img {
+   border:1px solid #021a40;
+}
+.intro {
+  font-style: italic;
+}
+#audio {
+  padding: 0px 0px 0px 250px;
+}
+#click {
+  text-align: center;
+}
