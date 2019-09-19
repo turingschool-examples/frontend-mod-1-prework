@@ -1,7 +1,11 @@
 # Part One #
 
 ## There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences? ##
-  **Ordered Lists**  `<ol></ol>` are lists where each item in the list is numbered. For example a set of steps in a recipe that must be performed in the proper order. Another example would be a daily routine, where events happen sequentially. **Unordered Lists** `<ul></ul>` are lists that begin with a bullet point. For example a table of contents or a grocery food list. **Definition Lists** `<dl></dl>` are made up of a set of terms along with the definitions for each of those terms. An example would be a dictionary list of terms, or a glossary. Both ordered and unordered lists will also use the notation tag `<li></li>` for each item listed. Definition lists will use the tag `<dt></dt>` to conttain the term being defined, and `<dd></dd>` to contain the definition.
+  **Ordered Lists**  `<ol></ol>` are lists where each item in the list is numbered. For example a set of steps in a recipe that must be performed in the proper order. Another example would be a daily routine, where events happen sequentially.
+ 
+**Unordered Lists** `<ul></ul>` are lists that begin with a bullet point. For example a table of contents or a grocery food list. 
+
+**Definition Lists** `<dl></dl>` are made up of a set of terms along with the definitions for each of those terms. An example would be a dictionary list of terms, or a glossary. Both ordered and unordered lists will also use the notation tag `<li></li>` for each item listed. Definition lists will use the tag `<dt></dt>` to conttain the term being defined, and `<dd></dd>` to contain the definition.
 
 ## What is the basic structure of an element used to link to another website? ##
   `<a href-"http://www.turing.io">Turing</a>` Is a basic link element. The text between the opening and closing <a> tag, *Turing* is the link text. This is what the user reads on the page. This text should be used to inform the user where the link will take them. The text, "http://www.turing.io" is the page the link takes you to. The "a href" is simply the opening link tag structure.
@@ -45,6 +49,7 @@
 
 ## When is it useful to use external stylesheets as opposed to using internal CSS? ##
   External is recommended when building more than one webpage that would use the same CSS. This saves you the time of typing it out more than once, and allows you to edit one sheet for all pages, instead of editing each one individually. It also allows you to link more than one CSS to a page.
+  
   Internal is good for when you are specifically editing one web page, separate from the others. It allows you to build the style rules directly into the page.
 ## Describe what a color hex code is. ##
   A six digit code that represents the amount of red, green, and blue in a color, proceeded by a hash or pound sign. `color: #ee3e80`
@@ -52,13 +57,17 @@
 ## What are the three parts of an HSL color property? ##
   **Hue, Saturation, & Lightness**
   Hue is color. Hue is often represented as a color wheel, or a slider bar from 0 to 360.
+  
   Saturation is the amount of gray in a color. Saturation is represented as a percentage of zero 0% to full 100%.
+  
   Lightness is the amount of white or black in a color. Lightness is also represented as a percentage with white 100% and black 0%.
 
 ## In the world of typeface, what are the three main categories of fonts? What are the differences between them? ##
   **Serif, Sans-Serif, & Monospace**
   Serif fonts have extra details on the ends of the main strokes of the letters. These details, or tails, are known as serifs.
+  
   Alternatively Sans-Serif means without serif. Sans-serif fonts have straight ends, and therefore have a cleaner design.
+  
   Monospace font keeps every letter the same width. Monospace fonts are commonly used for code because they align nicely.
 
 ## When specifying font-size, what are the main three units used? ##
