@@ -3,6 +3,7 @@
 ##  If you're using an input element in a form, what attribute controls the behavior of that input? ##
   **~~Text~~, Name, Size, & Maxlength**
   ~~When the type attribute has a value of text, it creates a single line text input.~~
+  
   Name attributes identify the form control and is sent along with the information they enter to the server.
   
   Size attribute indicates the width of the text input, measured by the number of characters that would be seen.
@@ -48,4 +49,5 @@
 
 ## What is the difference between a fixed and liquid layout? ##
   **Fixed Width Layout** designs do not change size as the user increases the size of their browser window. Measurements tend to be given in pixels.
+  
   **Liquid Layout** designs stretch and contract as the user increases or decreases the size of their browser window. They tend to use percentages. Useful when transferring web page from desktop, to ipad, to mobile. zs
