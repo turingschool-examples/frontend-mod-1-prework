@@ -4,7 +4,9 @@
   **~~Text~~, Name, Size, & Maxlength**
   ~~When the type attribute has a value of text, it creates a single line text input.~~
   Name attributes identify the form control and is sent along with the information they enter to the server.
+  
   Size attribute indicates the width of the text input, measured by the number of characters that would be seen.
+  
   Maxlength attribute limits the number of characters a user may enter into the text field. Its value is the max number of allowed characters.
 
 ##  What element is used to create a dropdown list? ##
@@ -28,7 +30,9 @@
 
 ## Describe the differences between border, margin, and padding. ##
 **Border** is on every box, even if it is not visible or specified. The border separates the edge of one box to another.
+
 **Margin** sit outside the edge of the border. You can set the width of a margin to create a gap between the borders of two adjacent boxes.
+
 **Padding** is the space between the border of a box and any content contained within it. Adding padding can increase the readability of its contents.
 
 ## For a CSS rule `padding: 1px 2px 5px 10px`, what sides of the content box does each pixel value correspond to? ##
@@ -39,6 +43,7 @@
 
 ## What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning? ##
   Fixed is a dorm of absolute positioning that positions the element in relation to the browser window, as opposed to the containing element. Elements with fixed positioning do not affect the position of surrounding elements and they do not move when the user scrolls up or down the page. The element requires a position with a fixed value.
+  
   The z-index has a numerical value, and the higher the number the closer that element is to the front. For example 10 would come in front of 5. The z-index is sometimes referred to as the stacking context, as if blocks have been stacked on top of each other.
 
 ## What is the difference between a fixed and liquid layout? ##
