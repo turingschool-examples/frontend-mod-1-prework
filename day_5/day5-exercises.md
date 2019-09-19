@@ -1,11 +1,15 @@
 ## How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript? ##
 **Variables** define bits of stored data or information. A variables data is temporary and can change, *or vary*, each time you run a script command. Variables need to be declared and given a name. To declare a variable a programmer will use an identifier, which is simply the name following the keywords "var".
+
 **Equal Signs** are called assignment operators. An equal sign tells the webpage you are going to assign a value to the defined variable.
 
 ## There are three big data types in JavaScript: numbers, strings, and booleans. Describe what each of them are. ##
 **Numbers** are straight forward - they handle numerical data. Anything working with numbers in integer or decimal form, from a page size to a timer.
+
 **Strings** contain text. This text can be data for the page to load in, numbers, or HTML markup. Strings are good for storing character data, and are enclosed in quotes.
+
 **Booleans** store true/false operations. They help direct the webpage when operating the code. For example they can control when a certain line of code runs, or doesn't run.
+
 **Undefined** is the fourth data type, when a value has not yet been assigned.
 
 ## What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names? ##
