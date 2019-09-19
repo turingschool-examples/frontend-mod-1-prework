@@ -1,0 +1,4 @@
+1. If we have a function defined as function sayHello(){console.log("Hello!")}, what is the difference between entering sayHello and sayHello() in the console? A function name without parentheses is a reference to the function
+2. What is the difference between function parameters and arguments? Parameters act as variables passed into a function, arguments are the specific values or variables it should use
+3. What is the keyword return used for? Return stops the function and returns a value
+4. How are local variables better than global variables? Are there instances you can think of where you might want to use a variable that is globally scoped over local? Local variables eliminate naming conflicts as well as take up less memory. Global variables probably wouldn't be as big an issue in a very basic page, but it doesn't sound like they're ever really a great option
