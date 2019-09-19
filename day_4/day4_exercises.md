@@ -1,5 +1,6 @@
 ## Images HTML
 
+
 ### 1. In an image element, why is the `alt` attribute important?
 
 The **alt** attribute (often referred to as _alt text_) provides a text description of the image. It should give an accurate description of the image content so it can be understood by screen reader software and search engines. It's especially important for people with visual impairments.
@@ -22,4 +23,4 @@ You would benefit using CSS to specify the dimensions whenever the images are co
 
 ### 2. What is an image sprite, and why is it useful?
 
- An image **sprite** is a collection of images put into a single image, which is used for several different parts of an interface. In return means the browser only needs to request one image rather than many images helping to reduce the number of service requests and load the content faster. 
+ An image **sprite** is a collection of images put into a single image, which is used for several different parts of an interface. In return means the browser only needs to request one image rather than many images helping to reduce the number of service requests and load the content faster.
