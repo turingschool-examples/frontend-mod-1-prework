@@ -5,7 +5,11 @@
 ##  Why do we use attributes in HTML elements? ##
   *Attributes provide additional information about the contents of an element.* An attribute allows us to pair more detailed information to an element. It tells the browser how to better read your code, your instructions. Attributes require a name and a value.
 ##  Describe the purpose of the head, title, and body HTML elements. ##
-  The head *contains information about the page.* It does not appear on a web page without directly viewing the source code. It is used in one regard, for search engines to distinguish web pages. A head tag usually contains a title element. The body is everything we do see on the web page. *Everything inside the element is shown on the main browser window.* The title element lives usually within the head tags. Anything written between the title tags appears in the title bar at the top of the web page, above the url.
+  The head *contains information about the page.* It does not appear on a web page without directly viewing the source code. It is used in one regard, for search engines to distinguish web pages. A head tag usually contains a title element. 
+  
+  The body is everything we do see on the web page. *Everything inside the element is shown on the main browser window.* The title element lives usually within the head tags. 
+  
+  Anything written between the title tags appears in the title bar at the top of the web page, above the url.
 ##  In your browser (Chrome), how do you view the source of a website? ##
   Right click + view page source. Another source is in the url, which should show the directory path.
 ##  List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text. ##
