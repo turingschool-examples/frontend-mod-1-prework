@@ -1,0 +1,131 @@
+html {
+    background-color: #572301;
+}
+#header {
+    background-color: #743207;
+    font-family: cursive;
+    font-size: 2em;
+    width: 100%;
+    position: fixed;
+    height: 150px;
+    top: 0;
+    z-index: 10;
+}
+#logo {
+    float: left;
+    margin: 20px;
+}
+#title {
+    color: #e0a500;
+}
+body {
+    margin: 0;
+    margin-top: 220px;
+}
+nav {
+    width: 100vw;
+    background-color: #006600;
+    position: fixed;
+    top: 150px;
+    z-index: 9;
+}
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    color: #e0a500;
+    font-family: monospace;
+    font-size: 1.5em;
+    padding: 16px;
+}
+nav a:hover {
+    background-color: #ffd700;
+    color: #000000;
+}
+section {
+    padding: 16px;
+    margin: 16px;
+    background-image: url(../images/1-certificate-paper-texture.jpg);
+    opacity: 0.8;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+article {
+    margin-left: 16px;
+    padding: 16px;
+    width: 60%;
+    float: left;
+    background-image: url(../images/1-certificate-paper-texture.jpg);
+    opacity: 0.8;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+aside {
+    width: 30%;
+    float: right;
+    margin-right: 16px;
+    padding: 0 16px;
+    background-color: #006600;
+    font-family: monospace;
+    font-size: 1.25em;
+    color: #e0a500;
+}
+aside a {
+    color: #e07700;
+}
+cite {
+    background-color: #004200;
+}
+h1, h2 {
+    font-family: cursive;
+}
+
+/* FORM FORMATTING */
+fieldset {
+    background-color: #663100;
+    border: thick #e0a500 solid;
+    border-radius: 20px 0px 20px 0px;
+}
+legend {
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 20px 0px;
+    border: thick #e0a500 solid;
+    background-color: #006600;
+    color: #e0a500;
+    width: 40%;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    color: #e0a500;
+}
+input {
+    padding: 5px;
+    border: none;
+    width: 55%;
+    background-image: url(../images/1-certificate-paper-texture.jpg);
+    opacity: 0.8;
+    font-family: monospace;
+    font-size: .75em;
+}
+textarea {
+    padding: 10px;
+    border: none;
+    width: 65%;
+    background-image: url(../images/1-certificate-paper-texture.jpg);
+    opacity: 0.8;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: .75em;
+}
+#submit, #reset {
+    margin: 5px 5px 5px 10px;
+    width: 30%;
+    background-image: none;
+    background-color: #e0a500;
+}
