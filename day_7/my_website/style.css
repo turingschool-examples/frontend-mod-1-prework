@@ -1,0 +1,91 @@
+
+h1{
+     width: auto;
+     margin: 0 auto;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     font-family: 'Georgia';
+     color: #C36BEA;
+     background-color: #2C2C2C;
+     text-align: center;
+     text-shadow:
+          0 1px 0 #2e2e2e,
+          0 2px 0 #2c2c2c,
+          0 3px 0 #2a2a2a,
+          0 4px 0 #282828,
+          0 5px 0 #262626,
+          0 6px 0 #242424,
+          0 7px 0 #222,
+          0 5px 5px rgba(0, 0, 0, 0.9);}
+
+.paragraph1{
+
+        background-color: #2C2C2C;
+        border: 0px;
+        padding: 15px;
+        margin: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        display: inline-block;
+        font-family: Verdana;
+        color: white;
+        font-style: normal;
+        text-align: left;}
+
+
+.intro{
+         color: white;
+         font-style: italic;
+         text-align: center;}
+
+ul{
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #333;}
+
+li{
+         float: left;}
+
+li a{
+         font-family: 'Arial Black';
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover{
+         background-color: #C36BEA;
+         color: #333}
+
+body{
+         background-color: #333;}
+
+fieldset{
+            width: 300px;
+            border: 4px solid #dcdcdc;
+            border-radius: 30px;
+            padding: 20px;
+            text-align: left;}
+
+legend{
+            background-color: #2C2C2C;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 10px 20px;
+            text-align: left;}
+
+img{
+            float: left;
+            background-color: #2C2C2C;
+            border: 0px;
+            padding: 25px;
+            margin-top: 30px;
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            width: 300px;
+            height: 300px;}
