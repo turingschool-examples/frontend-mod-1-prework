@@ -25,4 +25,4 @@ When you write a function and expect it to provide you with an answer, the respo
 
 **Global variables** are stored in the memory for as long as the web page is loaded into the browser. Not only does this take up more memory, it also increases the risk of naming conflicts.
 
-It might be easier to use global variables in a simple program because you don't have to search through difficult or endless code for possible variable collision. It may also be useful when multiple functions are accessing the same data. _**I am not sure why though, I can't out it together from my research.**_
+It might be easier to use global variables in a simple program because you don't have to search through difficult or endless code for possible variable collision. It may also be useful when multiple functions are accessing the same data. 
