@@ -7,3 +7,4 @@
 1. Empty elements are elements that only have a start tag, i.e.: img, br, input
 1. A semantic markup is a text element that does not effect the structure of the page, but instead provides more information about the text on the page
 1. HTML5 introduces the <article>, <header> and <footer> elements
+My Website-https://codepen.io/THoltz13/pen/GRKdGQX
