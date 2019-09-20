@@ -1,0 +1,4 @@
+1. 'sayHello' Returns the entire function and does not run the function. 'sayHello()' runs the function and returns 'Hello!'.
+2. Parameters are used when the function is declared. Inside of the function, these parameters act as variables. Arguments are values that you assign to the variables in order to run the code and get a return value.
+3. The return keyword stops a function from running and returns a value to the console/user. Otherwise the function will return 'undefined'.
+4. Local variables are contained within a function and cannot be called outside of the function. This is better than a global variable because you can have the same variable name in different functions and not have a naming conflict. A global variable might be better in an instance where you know a variable won't change and simply need to reference it.
