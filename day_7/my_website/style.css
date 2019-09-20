@@ -1,0 +1,13 @@
+body {
+ background-image: url("siteBg.jpg");
+
+}
+h1 {background-color : #5ceb34;
+    width: 550px;}
+h1, h2, h3 {color : #8934eb;
+            font-family : Times, Georgia, serif;}
+h4 {color : #348feb;
+    font-family : Times, Georgia, serif;}
+p {font-family : Arial, Verdana, sans-serif;}
+.i {font-style : italic}
+legend {Font-size : 20px}
