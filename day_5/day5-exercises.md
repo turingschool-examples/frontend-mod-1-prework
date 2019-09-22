@@ -31,8 +31,15 @@ A few JS reserved words are: else, debugger, for, function, catch, new, true.
 <h2>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h2>
 <i> Its useful when creating list with an unknown number of items because when creating an array you do not need to specify how many values it will hold. After you create an array you can change one of the item in the array by calling its index ( first item starts with a 0). So if your array is var colors = ['white', 'black', 'green']; and you need to change green to red you would do the following  colors[2] = 'red';</i>
 
-
-
 <h2>What is the difference between an expression and a statement?</h2>
+  <i> Expression is a unit of code that resolves to a value, ex: color x = 2;. A statement is an instruction to do something that will eventually result to a value. Its like a recipe</i>
+
 
 <h2>What are three types of operators and how are they used?</h3>
+
+<i> <ul>
+ <li> <b>Assignment Operator</b>- This operator assigns a value to a variable. its expressed using an equals sign (=).
+ <li><b>Arithmetic Operators</b>- These operators perform basic mathematics. Multiplication, addition devision etc.
+ <li><b>String Operators</b>- This operator combines two strings.
+ <ul>
+ 
