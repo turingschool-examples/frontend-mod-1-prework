@@ -37,9 +37,10 @@ A few JS reserved words are: else, debugger, for, function, catch, new, true.
 
 <h2>What are three types of operators and how are they used?</h3>
 
-<i> <ul>
+<i>
+<ul>
  <li> <b>Assignment Operator</b>- This operator assigns a value to a variable. its expressed using an equals sign (=).
  <li><b>Arithmetic Operators</b>- These operators perform basic mathematics. Multiplication, addition devision etc.
  <li><b>String Operators</b>- This operator combines two strings.
  <ul>
- 
+ </i>
