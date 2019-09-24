@@ -16,3 +16,5 @@
 <h3>How are local variables better than global variables? Are there instances you can think of where you might want to use a variable that is globally scoped over local?</h3>
 
 <i>Local variables take up less memory space. With local variables you can use variables with same name without any naming conflicts. Local variable only affects the function its been declared in. I would think that if you want to use the same variable in multiple function without having to re-declare it you would want to use a global variable.</i>
+
+<b>Done</b>
