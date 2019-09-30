@@ -1,0 +1,83 @@
+body {
+  background-color: #efefef;
+  font-family: Palatino;
+  border: 2px double black;
+  margin: 10px;
+  padding: 15px;
+}
+
+.banner {
+  background-image: url("https://i.etsystatic.com/6262900/r/il/78f704/1616274328/il_fullxfull.1616274328_k7ph.jpg");
+  background-size: cover;
+  height: 250px;
+  padding: 20px;
+}
+
+.title {
+  font-family: Verdana;
+  font-size: 55px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.banner-content {
+  font-family: Palatino;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-weight: bold;
+}
+
+.content {
+  border: 5px double white;
+  margin: 15px;
+}
+
+.navigation {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 60px
+}
+
+a {
+  color: black;
+}
+
+.drinks, .breakfast, .dinner, .sides, .sweets {
+  border-bottom: 2px dotted black;
+  color: #b59a69;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+}
+
+.name {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.ingredients {
+  border: 2px solid #0d5b85;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 390px;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  margin: 40px;
+}
+
+.directions {
+  font-size: 18px;
+}
+
+.comment {
+  border-bottom: 2px dotted black;
+  font-size: 45px;
+}
