@@ -6,6 +6,7 @@ h1 {
   color: #ff1f0f;
   border-style: double;
   border-width: thick;
+  text-align: center;
 }
 
 h2, h3 {
@@ -23,6 +24,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 img {
+
   width: 100%;
-  height: inherit;
+  height: 75%;
 }
