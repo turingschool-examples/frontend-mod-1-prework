@@ -13,9 +13,11 @@ body {
 
 #nav{
   margin: 5%;
-  background-color: purple;
   width: auto;
+  min-width: 700px;
   padding: 10px;
+  border-style: solid;
+  border-color: purple;
   border-radius: 8px;
   text-align: center;
   letter-spacing: 0.2em;
@@ -26,7 +28,8 @@ body {
 
 
 li a {
-  color: #27B751;
+  color: purple;
+
   }
 
 li {
@@ -103,12 +106,16 @@ h2{
 #links{
   width: 30%;
   padding: auto;
-  margin-bottom: 20px;
-  background-color: purple;
+  border-style: solid;
+  border-color: purple;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: left;
   border-radius: 8px;
   font-size: auto;
   font-style: italic;
+  letter-spacing: 0.2em;
   clear: both;
   float: left;
 }
@@ -140,6 +147,7 @@ fieldset{
 
 .gallery{
   width: auto;
+  min-width: 700px;
   margin: 10px 50px;
   align-items: center;
 }
@@ -174,11 +182,20 @@ fieldset{
 .video{
   width: 60%;
   padding: 10px;
-  filter: grayscale(100%);
   transition: 1s;
 }
 
 .video:hover{
-   filter: grayscale(0);
    transform: scale(1.1);
  }
+
+ul li:hover{
+  background: green;
+  border-radius: 20px;
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+ul li:click{
+  background: red;
+}
