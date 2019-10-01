@@ -1,6 +1,6 @@
 <h1> Day 7 Exercise</h1>
 
-<h3>Design</h3>
+<h3><strong>Design</strong></h3>
 
   <h4>Worst Site</h4>
 
@@ -13,7 +13,7 @@
 
 
 
-<h3>Copywriting</h3>
+<h3><strong>Copywriting</strong></h3>
 
 <h4>Worst Site</h4>
 
@@ -24,7 +24,7 @@
 <a href="http://www.bbc.com"> BBC</a>
 
 
-<h3>Analysis</h3>
+<h3><strong>Analysis</strong></h3>
 
 <h4>Worst Site </h4>
 
