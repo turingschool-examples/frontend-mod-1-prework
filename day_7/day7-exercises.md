@@ -2,8 +2,34 @@
 
 <h3>Design</h3>
 
-  <h4>The worst design site</h4>
+  <h4>Worst Site</h4>
 
 <a href="http://www.craigslist.com"> Craigslist</a>
 
-<h4> Best design site</h4>
+<h4> Best Site</h4>
+
+<a href="http://www.carsforsale.com"> Cars For Sale</a>
+
+
+
+
+<h3>Copywriting</h3>
+
+<h4>Worst Site</4>
+
+<a href="http://www.cnn.com"> CNN</a>
+
+<h4> Best Site</h4>
+
+<a href="http://www.bbc.com"> BBC</a>
+
+
+<h3>Analysis</h3>
+
+<h4>Worst Site </h4>
+
+<a href="http://www.breitbart.com">Breitbart</a>
+
+<h4>Best Site</h4>
+
+<a href="http://www.fivethirtyeight.com"> Five Thirty Eight</a> 
