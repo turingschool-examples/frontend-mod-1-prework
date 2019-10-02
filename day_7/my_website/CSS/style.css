@@ -12,7 +12,7 @@ body {
 }
 
 #nav{
-  margin: 5%;
+  margin: 3%;
   width: auto;
   min-width: 700px;
   padding: 10px;
@@ -40,6 +40,7 @@ li {
 img.main {
   display: block;
   width: 30%;
+  min-width: 300px;
   height: 30%;
   float: left;
   margin-bottom: 25px;
@@ -68,14 +69,15 @@ img.main {
 
 
 div.greeting{
-  width: 40%;
+  width: 55%;
+  min-width: 400px;
   padding: 10px;
   margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
   float: left;
   background-color: green;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   border-radius: 8px;
   font-size: 25px;
@@ -104,9 +106,8 @@ h2{
 }
 
 #links{
-  width: 30%;
+  width: auto;
   padding: auto;
-  border-style: solid;
   border-color: purple;
   margin-bottom: 5px;
   margin-left: 5px;
