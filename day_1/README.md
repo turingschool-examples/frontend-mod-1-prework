@@ -9,7 +9,7 @@ cd ~
 ls
 cd turing
 ls
-cd 1module
+cd 0module
 ls
 cd frontend_module_0_capstone
 ls
