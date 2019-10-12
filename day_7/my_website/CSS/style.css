@@ -2,14 +2,19 @@
 @import url(https://fonts.googleapis.com/css?family=Monoton);
 
 
-body {
+body{
   width: 90%;
+  height: 100%;
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  background-color: grey;
   color: white;
+  background-image: url(https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 5%
 }
+
+
 
 #nav{
   margin: 3%;
@@ -190,13 +195,134 @@ fieldset{
    transform: scale(1.1);
  }
 
-ul li:hover{
-  background: green;
-  border-radius: 20px;
-  transition: 1s;
-  transform: scale(1.1);
+
+.navbutton {
+color: purple;
+background-color: transparent;
+border: 1px solid #1F0BEC;
+border-radius: 4px;
+padding: 0 15px;
+margin: 5px;
+cursor: pointer;
+height:47px;
+font-size:30px;
+font-family: 'Monoton';
+transition: all 0.2s ease-in-out;
+}
+.navbutton:hover {
+animation: swing 1s ease;
+animation-iteration-count: 1;
 }
 
-ul li:click{
-  background: red;
+.navbutton:active{
+background-color:#292d3e;
+background-size: 100%;
+transition: background 0s;
+}
+
+@keyframes swing {
+15% {
+transform: translateX(5px);
+}
+30% {
+transform: translateX(-5px);
+}
+50% {
+transform: translateX(3px);
+}
+65% {
+transform: translateX(-3px);
+}
+80% {
+transform: translateX(2px);
+}
+100% {
+transform: translateX(0);
+}
+}
+
+.conbutton {
+color: purple;
+font-family: "Ubuntu";
+background-color: grey;
+border: 2px solid purple;
+border-radius: 4px;
+padding: 15px 18px 30px 15px
+cursor: pointer;
+height:32px;
+font-size:20px;
+box-shadow: 0 0 4px #999;
+background-position: center;
+transition: background 0.8s;
+}
+.conbutton:hover {
+background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+color: white;
+}
+.conbutton:active{
+background-color:#292d3e;
+background-size: 100%;
+transition: background 0s;
+}
+}
+
+
+
+
+.logo {
+  text-align: center;
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+}
+
+.logo b{
+  font: 400 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
 }
