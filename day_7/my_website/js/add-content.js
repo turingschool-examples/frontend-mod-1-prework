@@ -13,3 +13,8 @@ greeting = 'Welcome!' ;
 }
 
 document.write('<h3>'+ greeting +'</h3>');
+
+
+
+var dialog = document.querySelector('dialog');
+    dialogPolyfill.registerDialog(dialog);
