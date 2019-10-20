@@ -13,12 +13,12 @@ A head element provides information about the page. A title element describes th
 5. In your browser (Chrome), how do you view the source of a website?
 View -> Developer -> View Source
 
-6. List five different HTML elements and what they are used for. For example, \<p>\</p> is a paragraph element, and it is used to represent a paragraph of text.
-\<h1>\</h1> is a primary heading tag, and it is used to provide a top-level heading to a document.
-\<b>\</b> is a bold element, and it is used to change text to bold.
-<sup></sup> is used to contain characters that should be shown in superscript.
-<br /> is a line break element, and it is used to insert a line break.
-<i></i> is an italics element, and it is used to change text to italics.
+6. List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.  
+`<h1></h1>` is a primary heading tag, and it is used to provide a top-level heading to a document.
+`<b></b>` is a bold element, and it is used to change text to bold.
+`<sup></sup>` is used to contain characters that should be shown in superscript.
+`<br />` is a line break element, and it is used to insert a line break.
+`<i></i>` is an italics element, and it is used to change text to italics.
 
 7. What are empty elements?
 Empty elements do not have any words between an opening and closing tag. It usually has only one tag. Before the closing angled bracket, there is often a space or a forward slash.
