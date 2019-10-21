@@ -1,6 +1,6 @@
 ## Day 7: Create a Site for Show and Tell! Also, UI/UX and Submit Your Module 0 Capstone.
 
-## Open your local copy of frontend_module_0_capstone in Atom
+## Open your local copy of frontend-module-0-capstone in Atom
 
 In the day_7 directory, create a file called `day7-exercises.md`. This is where you'll put your answers to the following questions.
 

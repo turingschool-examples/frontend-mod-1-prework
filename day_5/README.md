@@ -1,6 +1,6 @@
 # Day 5: JavaScript
 
-## Open your local copy of frontend_module_0_capstone in Atom
+## Open your local copy of frontend-module-0-capstone in Atom
 
 In the day_5 directory, create another file called `day5-exercises.md`. This is where you'll put your answers to the following questions.
 

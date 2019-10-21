@@ -1,6 +1,6 @@
 # Day 1: HTML and CSS
 
-## Open your local copy of frontend_module_0_capstone in Atom
+## Open your local copy of frontend-module-0-capstone in Atom
 
 1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
@@ -11,7 +11,7 @@ cd turing
 ls
 cd 0module
 ls
-cd frontend_module_0_capstone
+cd frontend-module-0-capstone
 ls
 cd day_1
 ls
@@ -119,7 +119,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JaneDoe/frontend_module_0_capstone.git
+To github.com:JaneDoe/frontend-module-0-capstone.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
