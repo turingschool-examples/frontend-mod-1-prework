@@ -6,7 +6,7 @@
 
 ## 2. What element is used to create a dropdown list?
 
-  The <select> element is used to create a dropdown list, which contains two or more <option> elements.
+  The `select` element is used to create a dropdown list, which contains two or more `option` elements.
 
 ## 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
@@ -14,7 +14,7 @@
 
 ## 4. What element is used to group similar form items together?
 
-  The element you would use to group similar form items together is <fieldset>.
+  The element you would use to group similar form items together is `fieldset`.
 
 
 # Chapters 13 & 15 Questions:
