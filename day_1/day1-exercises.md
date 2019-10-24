@@ -13,9 +13,11 @@ We use attributes to provide extra information about the contents of an element 
 
 ## 4. Describe the purpose of the head, title, and body HTML elements.
   
-  The head: this part contains information about the page and it displayed in the title bar of the tabs.
-  The title: this contains the elements that are displayed in the URL or in the tab, it's the words you see that describes the page you are on.
-  The body: everything that is inside of the body element is displayed in the web page that you see.
+  The head: This part contains information about the page and it displayed in the title bar of the tabs.
+  
+  The title: This contains the elements that are displayed in the URL or in the tab, it's the words you see that describes the page you are on.
+  
+  The body: Everything that is inside of the body element is displayed in the web page that you see.
 
 ## 5. In your browser (Chrome), how do you view the source of a website?
 
@@ -23,11 +25,15 @@ We use attributes to provide extra information about the contents of an element 
 
 ## 6. List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
  
-  <h1></h1> is a heading element and is used to represent the first main heading.
-  <h2></h2> is a sub heading and is used to help structure the page, it shows it in larger text than the body text.
-  <body></body> everything inside of this element is shown inside the main browser window.
-  <b></b> makes the characters inside of this tag bold
-  <i></i> this makes the characters inside of this tag italic
+  `h1` Is a heading element and is used to represent the first main heading.
+  
+  `h2` Is a sub heading and is used to help structure the page, it shows it in larger text than the body text.
+  
+  `body` Everything inside of this element is shown inside the main browser window.
+  
+  `b` Makes the characters inside of this tag bold
+  
+  `i` This makes the characters inside of this tag italic
 
 ## 7. What are empty elements?
   
@@ -39,9 +45,11 @@ We use attributes to provide extra information about the contents of an element 
 
 ## 9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
   
-  <strong></strong> shows that the contents have a strong importance, it makes them appear in bold text
-  <em></em> makes a subtle change on the emphasized text, this makes the words inside the tags italic
-  <q></q> puts the text inside this tag into quotes, meant for short quotes
+  `strong` Shows that the contents have a strong importance, it makes them appear in bold text
+  
+  `em` Makes a subtle change on the emphasized text, this makes the words inside the tags italic
+  
+  `q` Puts the text inside this tag into quotes, meant for short quotes
 
 
   codepen link: https://codepen.io/LeahWinters24/pen/WNNpQPY
