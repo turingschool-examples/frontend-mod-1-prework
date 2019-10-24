@@ -1,4 +1,4 @@
-/*
+
 // Get modal element
 
 var modal = document.getElementById('simpleModal');
@@ -33,9 +33,7 @@ function clickOutside(event){
   if(event.target == modal){
   modal.style.display = 'none';
   }
-} */
-
-/*
+}
 
 // Log email input
 
@@ -56,12 +54,12 @@ function logEmailInput(e) {
 
 const heroSubmitButton = document.getElementById('hero-form-submit')
 
-heroSubmitButton.addEventListener('click', preventSubmit)
+/*heroSubmitButton.addEventListener('click', preventSubmit)
 
 function preventSubmit (e) {
 //  console.log("submitted")
   e.preventDefault();
-}
+}*/
 
 // Autocomplete hero Search
 
@@ -103,10 +101,7 @@ const outputHtml = matches => {
   }
 }
 
-
 // Add listener for search input
 const search = document.getElementById('where')
 
 search.addEventListener('input', xhr.onload)
-
-*/

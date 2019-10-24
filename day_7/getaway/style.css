@@ -148,19 +148,65 @@ nav li {
 }
 
 #nav-left {
-  float: left;
-  display: inline-block;
-  padding: 0;
-  position: relative;
-  left: 2%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  height: 125px;
 }
 
 #nav-right {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 125px;
+  overflow: scroll;
+}
+
+#nav-right li {
   float: right;
-  display: inline-block;
-  position: relative;
-  right: 5%;
+  margin: 10px 10px;
+}
+
+#results-nav {
+  position: sticky;
+  background-color: #fff;
+  color: #000;
+  border: solid 1.5px #e4e4e4;
+  height: 195px;
+  margin-top: 0px;
+  display: flex;
+  /*min-width: 1050px;*/
+}
+
+#results-nav a {
+  color: #403f3c;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#nav-search {
+  width: 90%;
+  height: 50px;
+  display: inline;
+}
+
+#results-secondary-nav-left li {
+  border: solid 1px gray;
+  padding: 15px 30px;
+  border-radius: 7px;
+  margin: 20px 15px 20px 0px;
+  background-color: #459c40;
+  color: #fff;
+}
+
+#results-secondary-nav-left li:hover {
+  background-color: #2b6128;
+}
+
+#results-secondary-nav-left {
   padding: 0;
+  white-space: nowrap;
 }
 
 input {
@@ -267,6 +313,14 @@ input[type=date] {
   padding: 5% 5%;
 }
 
+#nav-search {
+  display: inline-block;
+}
+
+#secondary-nav-right {
+  float: right;
+}
+
 .closeButton {
   color: #000;
   font-size: 30px;
@@ -284,4 +338,31 @@ input[type=date] {
 @keyframes modalOpen {
   from{opacity: 0}
   to {opacity: 1}
+}
+
+#results-container {
+  display: flex;
+}
+
+#results-collection {
+  border: solid 5px black;
+  position: relative;
+  z-index: -1;
+  width: 850px;
+}
+
+.result-card {
+  border: solid 5px black;
+  height: 200px;
+  margin: 10px;
+  width: 800px;
+}
+
+#map {
+  width: 40%;
+  min-height: 550px;
+  background-color: #e4e4e4;
+  right: 0;
+  margin-right: 0px;
+  z-index = -2;
 }
