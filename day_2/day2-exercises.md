@@ -1,0 +1,16 @@
+## Chapters 3 and 4
+1. Ordered lists are lists where the items in the list are numbered. An example might be a list that describes the order in which to do something, and each number is a step. Unordered lists are lists that begin with a bullet point rather than characters that indicate an order. Finally, definition lists are made up of a set of terms along with the definitions for the terms.
+2. The basic structure of an element to link to another website is `<a> </a>` with an attribute called href. The value of the href attribute will be the full web address, which is known as the absolute URL.
+3. You would include the target attribute, and the value would be `_blank`.
+4. You would link to a specific part of the same page by using the id attribute. id attributes can be used on every HTML element. The id attribute should start with a letter or an underscore, but not a number or any other character, and on a single page multiple id attributes should not have the same value. To link to an element that uses the id attribute, you would use the `<a>` element again, and the value of the href attribute would start with the # symbol followed by the value of the id attribute of the element you want to link to.
+
+## Chapters 10,11,12
+1.  The purpose of CSS is to allow you to specify how you want the content of an element to appear. Some examples include the background color and the font color.
+2. Cascading Style Sheets
+3. CSS rules contain two parts: a selector and a declaration. Selectors indicate which element the rule applies to, and the declaration indicates how the elements referred to in the selector should be styled. Declarations are split into two parts, which are separated by a colon. These are the property and a value.
+4. You use the `<link>` element in the HTML doc to tell the browser where to find the CSS stylesheet. It will live inside the `<head>` tag, and should use the following three attributes: href, type, and rel. The value of type should be text/css, and the value of rel should be stylesheet.
+5. It is useful to use external stylesheets instead of internal CSS when you are building a site with more than one page. This allows the pages to use the same styles and keeps the content separate from how the page looks.
+6. Hex codes are six-digit codes that represent the amount of red, green, and blue in a color, preceded by a pound sign.
+7. The three parts of an HSL color property are hue, saturation, and lightness. Hue is expressed as an angle between 0 and 360. Saturation is a percentage. Lightness is also a percentage, with 0% being white and 100% being black.
+8. The three categories of fonts are serif, sans-serif, and monospace. Serif fonts have extra details on the ends of the main strokes of the letters, which are called serifs. Sans-serif fonts have straight ends to the letters. Monospace fonts have a fixed-width for every letter.
+9. The three units used when specifying font-size are pixels, percentages, and ems. The default size of text in browsers is 16px, so if you use a percentage it would be in relation to 16px. An em is equivalent to the width of a letter m, so you would be using similar rules to those shown for percentages when using ems.
