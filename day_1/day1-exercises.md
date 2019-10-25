@@ -16,7 +16,7 @@
        <br><i><b>Title</b>- title element typically lives inside head element. The contents of the title element is shown in the top of the browser above where URL is shown. Or it will show as the name of the tab in the browser.  </i>
 
 <p><h3> In your browser (Chrome), how do you view the source of a website?</h3></p>
- <i>Either use short cut which is Shift + Control + C or right click on page and click inspect.
+ <i>Either use short cut which is Shift + Control + C (PC) or Shift + Cmd + C (MAC) or right click on page and click inspect.
 
 <p> <h3>List five different HTML elements and what they are used for. For example, < p >< / p > is a paragraph element, and it is used to represent a paragraph of text.</h3></p>
       <br>
@@ -43,6 +43,10 @@
 
   <hr />
 
+<<<<<<< HEAD
 
 <h2> Code Pen Practice</h2>
+=======
+  <h2> Code Pen Practice</h2>
+>>>>>>> 8bb214712bcb5098a506e244f06cf64232ac092c
   <p> <a href= "https://codepen.io/ttarlov/pen/OJLOaMg?editors=1000">My Pen- Click Here</a>
