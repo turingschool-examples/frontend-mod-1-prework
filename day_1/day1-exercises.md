@@ -43,5 +43,5 @@
 
   <hr />
 
-  h2> Code Pen Practice</h2>
+  <h2> Code Pen Practice</h2>
   <p> <a href= "https://codepen.io/ttarlov/pen/OJLOaMg?editors=1000">My Pen- Click Here</a>
