@@ -1,4 +1,4 @@
-Q: On a website, what is the purpose of HTML code?...
+Q: On a website, what is the purpose of HTML code? <br>
 A: HTML describes the structures of web pages.
 
 Q: What is the difference between an element and a tag?
