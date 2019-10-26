@@ -27,7 +27,9 @@ A: Empty elements do not have words between opening and closing tags.
 A: Semantic markup does not affect the structure of a web page, but do add extra information.
 
 #### What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
-A: `<abbr></abbr>`, is the tag for both abbreviations and acronyms. `<cite></cite>`, cites a page, should not be used for a persons name. `<header></header>`, contains logo and primary navigation.
+* `<abbr></abbr>`, is the tag for both abbreviations and acronyms.
+* `<cite></cite>`, cites a page, should not be used for a persons name.
+* `<header></header>`, contains logo and primary navigation.
 
 #### Codepen:
 https://codepen.io/ebcampbell/pen/rNBYPzd
