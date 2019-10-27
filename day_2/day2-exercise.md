@@ -48,7 +48,10 @@ A: The three parts are:
 * Lightness
 
 #### In the world of typeface, what are the three main categories of fonts? What are the differences between them?
-A: The three main categories of typeface are serif - extra details on the ends of the main strokes of the letters, sans-serif - have strait ends to letters, and monospace - every letter is the same width.
+A: The three main categories of typeface are:
+* serif - extra details on the ends of the main strokes of the letters
+* sans-serif - have strait ends to letters
+* monospace - every letter is the same width.
 
 #### When specifying font-size, what are the main three units used?
 A: The three main units used are:
