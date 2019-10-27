@@ -3,7 +3,7 @@
 
    The name should describe the kind of data the variable holds.
 
-Once you have created the variable you can assign a value.
+* Once you have created the variable you can assign a value.
 * The = sign is an assignment operator, and says you are going to assign a value to the variable name `keyword variable-name;` `variable-name = value;` Can be put in the same statement.
 
 #### There are three big data types in JavaScript: numbers, strings, and booleans. Describe what each of them are.
@@ -27,6 +27,6 @@ use camelCase.
 #### What is the difference between an expression and a statement?
 A: An expression evaluates a value while a statement represents an action or a command.
 
-####What are three types of operators and how are they used?
+#### What are three types of operators and how are they used?
 * Assignment operators assign a value to a variable.
 * Arithmetic operator performs basic math. String operators combine two strings.
