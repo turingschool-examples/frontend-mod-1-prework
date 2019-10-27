@@ -30,4 +30,5 @@ A: It goes in a clockwise order: top, right, bottom, left.
 A: Fixed positioning is absolute positioning that places the element in relation to the browser window. They do not effect the position of surrounding elements and do not move when the user scrolls up and down the page. Z-index controls which element sits on top of all the other elements.
 
 #### What is the difference between a fixed and liquid layout?
-* Fixed layouts do not change size as the user increases or decreases the size of the window. * Liquid layouts stretch and contract as the user increases or decreases the size of the window.
+* Fixed layouts do not change size as the user increases or decreases the size of the window.
+* Liquid layouts stretch and contract as the user increases or decreases the size of the window.
