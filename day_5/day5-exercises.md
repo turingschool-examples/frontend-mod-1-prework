@@ -1,8 +1,7 @@
 #### How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript?
 * In order to create a variable you have to create and give it a name.
 
-    The name should describe the kind of data the variable holds.
-
+   The name should describe the kind of data the variable holds.  
 * Once you have created the variable you can assign a value.
 * The = sign is an assignment operator, and says you are going to assign a value to the variable name `keyword variable-name;` `variable-name = value;` Can be put in the same statement.
 
