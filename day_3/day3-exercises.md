@@ -4,7 +4,7 @@
 A: The `type=` attribute controls the behavior.
 
 #### What element is used to create a dropdown list?
-A:`<select>`
+A: `<select>`
 
 #### If you're using an input element to send form data to a server, what should the type attribute be set to?
 A: "Submit"
