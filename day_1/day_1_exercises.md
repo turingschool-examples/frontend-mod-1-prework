@@ -24,32 +24,41 @@
 is the meat of the webpage being displayed inside of the browser window.
 
 <head>
-comes before the body; This contains info about the page (rather than the info that is being displayed on the webpage).
+comes before the body; This contains info about the page (rather than the info that is being displayed
+on the webpage).
 
 <title>
 elements will usually be found within the <head>
 elements are displayed in the Title Bar above the URL.
 
 5.  In your browser (Chrome), how do you view the source of a website?
-- To view the source of a website - on any webpage, control+click (right click) and chose "View Page Source" from the drop down menu.
+- To view the source of a website - on any webpage, control+click (right click) and chose "View Page
+Source" from the drop down menu.
 
-6.  List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
-- 1.<h1, h2, h3, …h6> headings HTML has 6 "levels" of headings.Headings introduce the paragraph content that will immediately follow
-- 2.<p> paragraph - consists of one or more sentences that form a self-contained unit of discourse. Text is easier to understand when it is broken up into units aka. paragraphs.
+6.  List five different HTML elements and what they are used for. For example, <p></p> is a paragraph
+element, and it is used to represent a paragraph of text.
+- 1.<h1, h2, h3, …h6> headings HTML has 6 "levels" of headings.Headings introduce the paragraph content
+that will immediately follow
+- 2.<p> paragraph - consists of one or more sentences that form a self-contained unit of discourse.
+  Text is easier to understand when it is broken up into units aka. paragraphs.
 - 3.<sup> superscript is seen as the number 2 in E=MC2 (where mc is raised to the power of 2)
 - 4.<hr /> horitzontal rule - this will put a line between two different themes on a page.
 - 5.<i> italic - this will italicize any text within its tags.
 
 7.  What are empty elements?
-- <hr /> is an empty element - an element that does not have any words between an opening and closing tag.
-- an empty element usually only has one opening tag (and it will contain a space and a /) with no closing tag.
+- <hr /> is an empty element - an element that does not have any words between an opening and
+closing tag.
+- an empty element usually only has one opening tag (and it will contain a space and a /) with no
+closing tag.
 
 8.  What is semantic markup?
-- a text element that is not intended to alter the structure of a webpage, but add extra information to the page.
+- a text element that is not intended to alter the structure of a webpage, but add extra information
+to the page.
 - ie. <em> - indicates where emphasis should be placed on text
 - <blockquote> - indiactes that a block of text is a quote (used for quotes longer that 1 sentence)
 
-9.  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
+9.  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more
+about these new elements.
 -many <div> elements have been replaced by new HTML5 layout elements.
 - <div id="page">
   - <header>
