@@ -1,3 +1,5 @@
+<h1>Day 1</h1>
+
 1. On a website, what is the purpose of HTML code?<br />
   The purpose to html code is to provide the structure and the information that is on a web page.<br />
 2. What is the difference between an element and a tag?<br />
