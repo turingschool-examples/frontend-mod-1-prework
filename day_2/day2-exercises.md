@@ -11,18 +11,6 @@ The basic structure is &lt; a href="URL"&gt; Link&lt;/a&gt; the a href= URL sets
 ex: ```&lt;a href= "https://www.imdb.com/title/tt0347149/?ref_=nv_sr_1?ref_=nv_sr_1" target="_blank"&gt; Amazing Movie&lt;/a&gt;```
 
 4. How do you link to a specific part of the same page?<br />
- you have to use the id attribute to specify location in-relation to the Link then uses the href to link it to that id value. ex:
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+ you have to use the id attribute to specify location in-relation to the Link then uses the href to link it to that id value. ex: at bottom of page
+
 <p><a href ="#Top"> Top</a></p>
