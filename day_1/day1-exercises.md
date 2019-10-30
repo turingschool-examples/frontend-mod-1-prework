@@ -14,11 +14,11 @@ Describe the purpose of the head, title, and body HTML elements.
 In your browser (Chrome), how do you view the source of a website?
   The source code of a website can be found in chrome by clicking the customization button on chrome, then by going down to the more tools then selecting dev tools in the console that opens up one can select sources. Some short cuts to this are option+command+c option+command+j both will open the console and allow one to select what information your after at the top of the tool.
 List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
-  "<b></b>" this element bolds text
-  "<i></i>" this element italicizes the text  
-  "<s></s>" this element causes strikethrough which shows that information is no longer accurate with out deleting the information.
-  "<table></table>" this code creates a table
-  "<img src= alt= />" this code allows one to add an image to their site src allows you to grab its url and alt allow you to describe it if the viewer can not see the image.
+  &lt;b&gt;&lt;/b&gt; this element bolds text
+  &lt;i&gt;&lt;/i&gt; this element italicizes the text  
+  &lt;s&gt;&lt;/s&gt; this element causes strikethrough which shows that information is no longer accurate with out deleting the information.
+&lt;table&gt;&lt;&lt;/table&gt; this code creates a table
+  &lt;img src= alt= /&gt; this code allows one to add an image to their site src allows you to grab its url and alt allow you to describe it if the viewer can not see the image.
 What are empty elements?
   An empty element usually has no text in it is also normally doesn't have a closing tag for example the <hr /> element which adds a horizontal rule that splits information.
 What is semantic markup?
