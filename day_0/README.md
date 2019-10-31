@@ -65,3 +65,5 @@ Lets get a little practice with the `rm` command. Please be careful!
 ### Practice
 
 Use `rm` and `rm -rf` to delete each of the files and directories you created in the Making Things section above. Note, that it would be possible to delete the entire directory that you created with just `rm -rf secret_library`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
+
+`There's nothing to indicate that I did all of this stuff since I deleted it per the instructions, but since I'm already here I figured I'd leave a note :)`
