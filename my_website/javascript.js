@@ -12,7 +12,6 @@ document.querySelector("#submit").addEventListener("click", addRec);
 function addRec() {
   var rec = document.createElement("LI");
   var value = document.getElementById("title").value + " by " + document.getElementById("author").value + " - " + document.getElementById("genre").value;
-  // memba to reset input u dork
   document.getElementById("title").value = "";
   document.getElementById("author").value = "";
   document.getElementById("genre").value = "unknown genre";
