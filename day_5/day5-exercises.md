@@ -1,4 +1,4 @@
-Javascript and JQuery: Chapter 3 Questions
+Javascript and JQuery: Chapter 2 Questions
 
 1.  How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript?
   You declare a variable in JS by using a variable keyword followed by the variable name and a semicolon.
