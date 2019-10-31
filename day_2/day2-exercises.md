@@ -13,4 +13,17 @@ ex: ```&lt;a href= "https://www.imdb.com/title/tt0347149/?ref_=nv_sr_1?ref_=nv_s
 4. How do you link to a specific part of the same page?<br />
  you have to use the id attribute to specify location in-relation to the Link then uses the href to link it to that id value. ex: at bottom of page
 
+
+ 1. What is the purpose of CSS?
+ it is code that allows you to alter the style of a web page controlling how things look  
+ 2. What does CSS stand for? What does cascading mean in this case?
+ Cascading Style Sheet. cascading means that one styles can fall from one sheet to another allowing multiple sheets to affect one document.
+ 3. What is the basic structure of a CSS rule?
+
+ 4. How do you link a CSS stylesheet to your HTML document?
+ 5. When is it useful to use external stylesheets as opposed to using interal CSS?
+ 6. Describe what a color hex code is.
+ 7. What are the three parts of an HSL color property?
+ 8. In the world of typeface, what are the three main categories of fonts? What are the differences between them?
+ 9. When specifying font-size, what are the main three units used?
 <p><a href ="#Top"> Top</a></p>
