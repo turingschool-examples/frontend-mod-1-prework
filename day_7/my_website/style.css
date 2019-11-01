@@ -1,0 +1,99 @@
+body {
+background: url(https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-attachment: fixed;
+
+
+}
+
+h1 {
+  text-align: center;
+  margin: 200px 720px 10px 200px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: black;
+  font-variant: small-caps;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: black;
+  margin: 10px 750px 10px 200px;
+}
+
+.intro {
+  margin: 200px 640px 10px 50px;
+  background-color: #E6F3EC;
+  padding: 0px 10px 0px 10px;
+  border: solid black 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.block2 {
+    margin: 10px 640px 10px 50px;
+  background-color: #E6F3EC;
+  padding: 10px 15px 15px 10px;
+  border: solid black 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+
+.block4 {
+    margin: 10px 640px 10px 50px;
+  background-color: #E6F3EC;
+  padding: 10px 15px 15px 10px;
+  border: solid black 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+form {
+  margin: 15px 50px 15px 50px;
+  text-align: center
+
+}
+
+.block5 {
+  margin: 10px 640px 700px 50px;
+  background-color: #E6F3EC;
+  padding: 0px 10px 0px 10px;
+  border: solid black 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.padded-dropcap {
+
+  padding-left: 5px;
+  padding-right: 10px;
+  float: left;
+  position: relative;
+  top: -0.25em;
+  margin-bottom: -0.5em;
+  margin-left: -6px;
+  margin-right: 2px;
+  font-size: 100px;
+}
+
+.plant1 {
+ height: 600px;
+ margin: 10px 750px 10px 130px;
+}
+
+.plant2 {
+  height: 700px;
+  margin: 10px 750px 10px 130px;
+}
+
+.plant3 {
+  height: 700px;
+  margin: 10px 750px 10px 130px;
+}
