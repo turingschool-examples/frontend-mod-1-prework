@@ -2,7 +2,7 @@
 
 ## Open your local copy of frontend_module_0_capstone in Atom
 
-In the day_6 directory, create another file called `day7-exercises.md`. This is where you'll put your answers to the following questions.
+In the day_7 directory, create another file called `day7-exercises.md`. This is where you'll put your answers to the following questions.
 
 ## User Interface/User Experience (UI/UX)
 

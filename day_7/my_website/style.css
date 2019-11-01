@@ -1,0 +1,82 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+  /* background-image: url("background_image1.gif"), url("backgroundlayer2.gif"); */
+	font: normal .08em arial, sans-serif;
+	line-height: 1.337;
+	color: #5b1b8b;
+	background: #5b1b8b url(https://d1vs4ggwgd7mlq.cloudfront.net/wp-content/uploads/2018/10/DSC05543.jpg) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+  background-color: #5c1c8c;
+	}
+p {
+	margin-top: 0;
+  font: normal .08em arial, sans-serif;
+	text-align: justify;
+	}
+h1 {
+	font: bold underline 1.6em Times, serif;
+  letter-spacing: 1vw;
+  margin-bottom: 0;
+  color: #9d365c;
+  }
+h2 {
+  	font: underline 1.4em arial, sans-serif;
+  	letter-spacing: 1px;
+  	margin-bottom: 0;
+  	color: #4d365c;
+  	}
+h3 {
+	font: italic normal 1.4em arial, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #5d365c;
+	}
+
+/* divs */
+
+.rockpane1 {
+  background-color: pink;
+  width: 4em;
+  height: 5em;
+  position: justify;
+  left: 50px;
+  top: 100px;
+  z-index: 3;
+}
+.rockpane2 {
+  background-color: blue;
+  width: 4em;
+  height: 5em;
+  position: justify;
+  left: 50px;
+  top: 100px;
+  z-index: 3;
+}.rockpane3 {
+  background-color: red;
+  width: 4em;
+  height: 5em;
+  position: justify;
+  left: 50px;
+  top: 100px;
+  z-index: 3;
+}.rockpane4 {
+  background-color: white;
+  width: 4em;
+  height: 5em;
+  position: justify;
+  left: 50px;
+  top: 100px;
+  z-index: 3;
+}.rockpane5 {
+  background-color: orange;
+  width: 4em;
+  height: 5em;
+  position: justify;
+  left: 50px;
+  top: 100px;
+  z-index: 3;
+}
