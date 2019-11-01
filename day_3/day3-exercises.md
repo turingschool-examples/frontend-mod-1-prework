@@ -8,6 +8,7 @@ type="submit"
 fieldset element is used to group related from controls together
 
 
+
 1. Describe the differences between border, margin, and padding.
 Border is the edge of the box that an element it in.
 Padding controls the amount of space between the content and the border
