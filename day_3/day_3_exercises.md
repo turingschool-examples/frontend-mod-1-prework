@@ -1,12 +1,11 @@
 # Day 3 Exercises
 
-## Chapter 7
-
-1. While using an input element in a form, the action attribute controls the behavior of that input.
-2. The <select> element is used to create a dropdown list.
-3. To send a form to the server, the type attribute should be set to "submit".
-4. To group similar form items together, one would use the "fieldset" element.
-
+## Chapter 7   
+1. While using an input element in a form, the action attribute controls the behavior of that input.  
+2. The <select> element is used to create a dropdown list.  
+3. To send a form to the server, the type attribute should be set to "submit".  
+4. To group similar form items together, one would use the "fieldset" element.  
+  
 ## Chapters 13 and 15
 1. Border vs. margin vs. padding:  
   -Border: The border separates the edge of one box from another.  
