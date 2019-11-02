@@ -4,79 +4,82 @@ html {
 	}
 body {
   /* background-image: url("background_image1.gif"), url("backgroundlayer2.gif"); */
-	font: normal .08em arial, sans-serif;
+	font: normal 1em arial, sans-serif;
 	line-height: 1.337;
 	color: #5b1b8b;
-	background: #5b1b8b url(https://d1vs4ggwgd7mlq.cloudfront.net/wp-content/uploads/2018/10/DSC05543.jpg) no-repeat bottom right;
-	margin: 0;
+	background: #9b1b8b url(https://d1vs4ggwgd7mlq.cloudfront.net/wp-content/uploads/2018/10/DSC05543.jpg) center;
+	margin: 5vw;
 	padding: 0;
   background-color: #5c1c8c;
 	}
 p {
 	margin-top: 0;
-  font: normal .08em arial, sans-serif;
-	text-align: justify;
+  font: normal 1.8em arial, sans-serif;
+	text-align: left;
 	}
 h1 {
-	font: bold underline 1.6em Times, serif;
-  letter-spacing: 1vw;
-  margin-bottom: 0;
-  color: #9d365c;
-  }
+  color: #fff;
+  font-size: 5em;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow:
+    0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
 h2 {
-  	font: underline 1.4em arial, sans-serif;
-  	letter-spacing: 1px;
-  	margin-bottom: 0;
-  	color: #4d365c;
+  color: #abc123;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: Times New Roman;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 0;
   	}
 h3 {
-	font: italic normal 1.4em arial, sans-serif;
-	letter-spacing: 1px;
+	font: bold 2.4em calibri;
+	letter-spacing: 2px;
 	margin-bottom: 0;
 	color: #5d365c;
 	}
+li {
+  text-align: left;
+}
 
 /* divs */
-
-.rockpane1 {
-  background-color: pink;
-  width: 4em;
-  height: 5em;
-  position: justify;
-  left: 50px;
-  top: 100px;
-  z-index: 3;
+div.rockpane {
+  width: 900px;
+  margin: 1.337;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
-.rockpane2 {
-  background-color: blue;
-  width: 4em;
-  height: 5em;
-  position: justify;
-  left: 50px;
-  top: 100px;
-  z-index: 3;
-}.rockpane3 {
-  background-color: red;
-  width: 4em;
-  height: 5em;
-  position: justify;
-  left: 50px;
-  top: 100px;
-  z-index: 3;
-}.rockpane4 {
-  background-color: white;
-  width: 4em;
-  height: 5em;
-  position: justify;
-  left: 50px;
-  top: 100px;
-  z-index: 3;
-}.rockpane5 {
-  background-color: orange;
-  width: 4em;
-  height: 5em;
-  position: justify;
-  left: 50px;
-  top: 100px;
-  z-index: 3;
+
+div.textbox {
+  padding: 10px;
+  background-color: #fff;
+
+}
+
+
+/* effects */
+
+.rockpane {
+  animation: shadey 3s linear infinite;
+}
+
+@keyframes shadey {
+  50% {
+    background-color: black;
+    }
+
+    }
 }
