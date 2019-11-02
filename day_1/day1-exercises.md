@@ -26,16 +26,16 @@
 9.  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 
 ## HTML5 introduced the following new semantic elements:
-  - <article>
-  - <aside>
-  - <details>
-  - <figcaption>
-  - <figure>
-  - <footer>
-  - <header>
-  - <main>
-  - <mark>
-  - <nav>
-  - <section>
-  - <summary>
-  - <time>
+  - `<article>`
+  - `<aside>`
+  - `<details>`
+  - `<figcaption>`
+  - `<figure>`
+  - `<footer>`
+  - `<header>`
+  - `<main>`
+  - `<mark>`
+  - `<nav>`
+  - `<section>`
+  - `<summary>`
+  - `<time>`
