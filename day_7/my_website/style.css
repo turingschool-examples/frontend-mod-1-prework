@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
+
+body {
+    margin: 0;
+    background-color: #e0fff1;
+    font-family: 'Palanquin', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.p-left {
+  padding-right: 30px
+}
+
+.p-right {
+  padding-left: 30px
+}
+
+.centered {
+  text-align: center;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    background-image: url(images/julie1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+.hero-inner {
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+
+h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 85px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Carme', sans-serif;
+  text-align: center;
+  padding: 30px 0 15px 0;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 50px 20px;
+}
+
+#inner-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 40%;
+  margin-top: 25px;
+}
+
+ul {
+  padding: 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 6px 18px;
+}
+
+a:hover{
+  color: aquamarine;
+}
+
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.right-tab {
+  display: inline-block;
+  width: 70%;
+}
+
+.input-field {
+  height: 20px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+#comments {
+  height: 60px;
+}
+
+#contact {
+  margin-top: 45px;
+}
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  padding: 50px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+  background-color: #73d3ff;
+  color: white;
+  border: 0px solid;
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+}
