@@ -40,13 +40,14 @@ h2 {
   color: #abc123;
   font-size: 3em;
   font-weight: bold;
-  font-family: Times New Roman;
+  font-family: Palatino, serif;
   letter-spacing: 1px;
   font-weight: bold;
   margin-bottom: 0;
   	}
 h3 {
-	font: bold 2.4em calibri;
+	font-size: 2.4em;
+  font-family: Helvetica;
 	letter-spacing: 2px;
 	margin-bottom: 0;
 	color: #5d365c;
@@ -56,6 +57,7 @@ li {
 }
 
 /* divs */
+
 div.rockpane {
   width: 900px;
   margin: 1.337;
@@ -73,7 +75,7 @@ div.textbox {
 /* effects */
 
 .rockpane {
-  animation: shadey 3s linear infinite;
+  animation: shadey 6s linear infinite;
 }
 
 @keyframes shadey {
