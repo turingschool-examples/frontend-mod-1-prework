@@ -61,6 +61,7 @@ img.medium {
   width: 500px;
   height: 500px;
   display: inline;
+  align: right;
 }
 li {
   text-align: left;
