@@ -40,7 +40,7 @@ It is useful to use an external stylesheet when your website has more than one p
 A hex color is a six digit value preceded by a hash sign. The number values represent amounts of red green and blue color. If all 6 characters are the same, you shorten the values to three for example: #ffffff is the same as #fff.  
 
 ### What are the three parts of an HSL color property?
-The parts of the HSL color property are Hue, Saturation and Lightness. Hue represents a color circle with values ranging from 0 - 360. Saturation is the amount of gray in a color. Saturation is a percentage value where %100 is all gray and 0% is no gray. Lightness is the white and black in a color. This is represented by a percentage where 0% lightness all the way to 100% blackness, where 50% is normal. 
+The parts of the HSL color property are Hue, Saturation and Lightness. Hue represents a color circle with values ranging from 0 - 360. Saturation is the amount of gray in a color. Saturation is a percentage value where %100 is all gray and 0% is no gray. Lightness is the white and black in a color. This is represented by a percentage where 0% lightness all the way to 100% blackness, where 50% is normal.
 
 ### In the world of typeface, what are the three main categories of fonts? What are the differences between them?
 The three main categories of fonts include serif, sans-serif and monospace. Serif fonts have small ticks or strokes coming of the end of each character. Serif fonts are considered easier to read in large sections of text. Sans-serif fonts have straight letters and a cleaner design. Monospace fonts have a fixed character width. Every character is the same width as the m.
