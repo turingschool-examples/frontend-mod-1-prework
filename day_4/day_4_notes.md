@@ -136,3 +136,86 @@ p {
   background-image: url(insert.web.url.here.com);
 }
 ```
+# JavaScript / JQuery #
+## Chapter 1 ##
+### Section A: What is a script and how do I create one? ###
+`Scripts` are a series of instructions.
+  - a computer can follow a script to achieve a goal.
+  - scripts are analogous to the following:
+    - Recipes
+    - Handbooks
+    - User Manuals
+
+1. Writing a script:
+  - frist the goal needs to be stated, and then a list of the tasks needed to comlpete that goal.
+  - Humans are able to do things (after learning how to do them) without a detailed instruction set, this is not true of computers.
+    - `COMPUTERS` need details to perform a task as if every time was their first.
+
+  Start with the big picture, and break that down into smaller steps (TOP DOWN DESIGN)
+    1. Define the goal  
+      - define the task that needs to be achieved
+    2. Design the Script
+      - split the goal out into a series of tasks
+      - easily represented using a flow chart
+      - write down individual steps that the computer will need to complete each tasks
+      - like writing a recipe that it can follow
+    3. Code Each Step
+      - each step needs to be written in a programming language that the computer can understand — in this case JavaScript
+
+### Section B: How do computers fit in with the world around them? ###
+Computer create models of the world using data…
+
+1. Objects and Properties
+  - Each physical thing in the world can be represented by an `object`
+  - Each `object` can have its own:
+    - `Properties` (Characteristics)
+      - each property has a `name` and `value`
+    - `Events`
+    - `Methods`
+    - Where there are more than one of an `object`, these are refered to as `instances` of that `object`
+
+`Events`
+  - these are the ways in which a user interacts with an object
+    `events` are triggered by user interaction.
+  - ie. a user clicks on a contact link, a contact form pops up, the user enters their information into the field.
+  - an `event` is a way of a computer raising its hand to say that *this thing* just happened.
+  - events can trigger a specific section of code to run
+
+`Methods`
+  - represent things that people need to do with objects
+  - they can retrieve or update an object's properties
+  - are like *QUESTIONS* or *INSTRUCTIONS* that:
+    - tell you something about that object (using info stored in its Properties)
+    - change the value of one or more of the object's properties
+
+In the *HOTEL* example:
+- `makeBooking()` increases value of the *bookings* property
+- `cancelBooking()` decreases value of the *bookings* property
+- `checkAvailablity()` subtracts value of *bookings* property from vlaue of *rooms* property and return the number of available rooms
+
+### Section C: How do I write a script for a webpage? ###
+#### How HTML, CSS and JavaScript fit together: ####
+- Each language should be used in its own file, that links inside the HTML document.
+- think of each document: html, css, js, as its own layer
+`HTML` is the content layer
+`CSS` is the presentation layer
+`JavaScript` is the behaviors layer
+  - JS enhances usability of the site, and experience interacting with it.
+- This approach to building websites is called *progressive enhancement*
+
+#### Creating a basic JavaScript ####
+- JS is written in plain text just like html and CSS
+```
+ document.write('Good Afternoon!');
+ ```
+  - document is the *object*
+  - write() is the method
+  - (paramenters) are located inside parenthesis
+  - . is the member operator
+    - the *document* object can have several methods and properties
+    - they are known as *members* of that object
+    - you can access the member of an object by placing a dot . between the object name and the member that you want to access
+
+JavaScript runs where it is placed in the HTML doc.
+- this is the HTML element that calls on the script:
+`<script src="folder/file_name.js"></script>`
