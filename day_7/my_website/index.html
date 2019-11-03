@@ -13,7 +13,7 @@
     </div>
     <hr />
     <div class="rockpane">
-      <img src="https://i.imgur.com/oQyDVUb.jpg" alt="A picture highlighting a V2-V4 route" style="width:100%" align="right" />
+      <img src="https://i.imgur.com/oQyDVUb.jpg" alt="A picture highlighting a V2-V4 route" class="medium" />
         <div class="textbox">
           <p>Route 1:Thunder - 200 points
             <ul>
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="rockpane">
-      <img src="https://i.imgur.com/Bj1JpvI.jpg?1" alt="A picture highlighting a V4-V6 route" style="width:100%" align="right" />
+      <img src="https://i.imgur.com/Bj1JpvI.jpg?1" alt="A picture highlighting a V4-V6 route" class="medium" />
         <div class="textbox">
           <p>Route 2:Jump For It - 400 points
             <ul>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="rockpane">
-      <img src="https://i.imgur.com/CfHQ8Te.jpg?1" alt="A picture highlighting a V6-V8 route" style="width:100%" align="right" />
+      <img src="https://i.imgur.com/CfHQ8Te.jpg?1" alt="A picture highlighting a V6-V8 route" class="medium" />
         <div class="textbox">
           <p>Route 3: Reach for the Sky - 600 points
             <ul>
@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="rockpane">
-      <img src="https://i.imgur.com/f8O03WX.jpg?1" alt="A picture highlighting a V8-V10 route" style="width:100%" align="right" />
+      <img src="https://i.imgur.com/f8O03WX.jpg?1" alt="A picture highlighting a V8-V10 route" class="medium" />
         <div class="textbox">
           <p>Route 4: Rainfall - 1200 points
             <ul>
@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="rockpane">
-      <img src="https://i.imgur.com/KPMaJU2.jpg?1" alt="A picture highlighting a V10-V12 route" style="width:100%" align="right" />
+      <img src="https://i.imgur.com/KPMaJU2.jpg?1" alt="A picture highlighting a V10-V12 route" class="medium" />
         <div class="textbox">
           <p>Route 5: Twister - 2400 points
             <ul>
@@ -84,11 +84,31 @@
         <img id="blank" src="https://i.imgur.com/lxdQtIh.jpg?1" style="width:100px">
         <button onclick="document.getElementById('hardest').src='https://i.imgur.com/KPMaJU2.jpg?1'">Hardest</button>
       </p>
-  </body>
 
-  <footer>
-    <div id="footer">Running low on chalk? <a href="https://www.whiteout-climbing.de/">WhiteOut Climbing</a> has awesome products, though bulk orders are recommended to save shipping costs.
+    <div id="link">Running low on chalk? <a href="https://www.whiteout-climbing.de/">WhiteOut Climbing</a> has awesome products, though bulk orders are recommended to save shipping costs.
     </div>
+
+    <fieldset>
+      <legend>
+        <h3>Have you been to any other climbing gyms nearby?</h3>
+      </legend>
+      <br />
+      <label>Genre:<br />
+      <select name="gym">
+          <option value="mcfrino">Movement - Rino</option>
+          <option value="mcfbaker">Movement - Baker</option>
+          <option value="mcfboulder">Movement - Boulder</option>
+          <option value="dbc">Denver Bouldering Club</option>
+          <option value="thespot">The Spot</option>
+          <option value="other">Other</option>
+        </select>
+      <br />
+      <label>Comments:<br />
+      <input type="text" name="comments" />
+      </label>
+      <br />
+      <input type="submit" name="climbinfo" value="Send answers"
+  </fieldset>
     Have you ever clicked a button for no reason?
     <form>
       <input type="radio" name="buttoneer" value="Y" checked> Yes<br />

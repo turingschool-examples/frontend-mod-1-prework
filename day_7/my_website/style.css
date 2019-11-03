@@ -52,6 +52,16 @@ h3 {
 	margin-bottom: 0;
 	color: #5d365c;
 	}
+img.small {
+  width: 200px;
+  height: 200px;
+  display: inline;
+  }
+img.medium {
+  width: 500px;
+  height: 500px;
+  display: inline;
+}
 li {
   text-align: left;
 }

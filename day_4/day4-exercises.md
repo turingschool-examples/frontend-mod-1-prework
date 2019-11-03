@@ -2,6 +2,7 @@
 
 
 1.  In an image element, why is the `alt` attribute important?
+  - This attribute is used by screen readers or in case the image fails to display.
 2.  What determines if an image element is inline or block?
 3.  What are the benefits of `jpg` or `png` image file formats?
 
