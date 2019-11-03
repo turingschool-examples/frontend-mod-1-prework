@@ -9,7 +9,7 @@ body {
 	color: #5b1b8b;
 	background: #9b1b8b url(https://d1vs4ggwgd7mlq.cloudfront.net/wp-content/uploads/2018/10/DSC05543.jpg) center;
 	margin: 5vw;
-	padding: 0;
+	padding: 10px;
   background-color: #5c1c8c;
 	}
 p {
@@ -59,7 +59,7 @@ li {
 /* divs */
 
 div.rockpane {
-  width: 900px;
+  width: 90vw;
   margin: 1.337;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -68,7 +68,15 @@ div.rockpane {
 div.textbox {
   padding: 10px;
   background-color: #fff;
+}
 
+div.previewer {
+  padding: 10px;
+  background-color: #fff;
+}
+div.footer{
+  padding: 10px;
+  background-color: #fff;
 }
 
 
