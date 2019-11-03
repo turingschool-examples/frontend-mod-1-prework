@@ -12,7 +12,8 @@
 4.  How do you link to a specific part of the same page?
   - Set the `id="section_name"` attribute for a section of your web page and you can then use `<a href="#section_name">` to link to it.
 
-1.  What is the purpose of CSS? It changes the appearance of a webpage as opposed to its content.
+1.  What is the purpose of CSS?
+  - It changes the appearance of a webpage as opposed to its content.
 2.  What does CSS stand for? What does cascading mean in this case?
   - Cascading Style Sheet. Cascading refers to the order in which rules are applied.
 3.  What is the basic structure of a CSS rule?
@@ -34,6 +35,6 @@
   - sans-serif: These fonts do not have the tiny serif details and are therefore better suited to small screen applications.
   - monotype: Fonts in these families have a fixed width for all letters, meaning that they have equal spacing for smaller or larger letters.
 9.  When specifying font-size, what are the main three units used?
-  1. Pixels
-  1. Percentages
-  1. Ems
+  - Pixels
+  - Percentages
+  - Ems

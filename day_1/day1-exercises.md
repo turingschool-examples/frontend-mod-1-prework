@@ -1,5 +1,7 @@
 ## Day 1 Exercises
 
+### <a href="https://codepen.io/chris-reynders/pen/NWWyKNv">CodePen Link</a>
+
 1.  On a website, what is the purpose of HTML code?
   - HMTL code is the language a developer uses to create and modify elements of a website, it 'describes the structure of a web page,' as the book puts it.
 2.  What is the difference between an element and a tag?
