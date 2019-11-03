@@ -1,0 +1,28 @@
+body {
+  background-color: #7CA5B8;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+h1 {
+  text-align: center
+}
+
+.picture-section {
+  text-align: center
+}
+
+.puppy-love-paragraph {
+  text-align: center;
+  font-family:fantasy;
+}
+
+.goldenDoodlePic {
+  height: 250px;
+  width: 250px
+}
+
+.englishBullDogPic {
+  height: 250px;
+  width: 250px
+}
