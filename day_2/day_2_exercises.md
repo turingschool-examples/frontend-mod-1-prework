@@ -5,16 +5,12 @@
 
 #### 2.  What is the basic structure of an element used to link to another website? ####
 -the basic structure is:
-```html
-<a href="http://www.thewebsite.com">Text_the_user_sees</a>
-```
+`<a href="http://www.thewebsite.com">Text_the_user_sees</a>`
+
 #### 3.  What attribute should you include in a link to open a new tab when the link is clicked? ####
 
-```html
-target=_blank
-
-<a href=“http://www.imdb.com" target=“_blank”>Internet MovieDatabase</a>
-```
+`target=_blank`
+`<a href=“http://www.imdb.com" target=“_blank”>Internet MovieDatabase</a>`
 - in this example: this will open IMDB in another window*
 
 #### 4.  How do you link to a specific part of the same page? ####
@@ -37,21 +33,22 @@ target=_blank
 
 #### 3.  What is the basic structure of a CSS rule? ####
 - The basic structure of a CSS rule is that it contains two parts:
-```css
-    p {
-      font-family : Arial;
-    }
-  - where p is the selector
-  - and font-family : Arial; is the declaration
 ```
+p {
+  font-family : Arial;
+}
+```
+- where `p` is the selector
+- and `font-family : Arial;` is the declaration
+
 #### 4.  How do you link a CSS stylesheet to  your HTML document? ####
-```css
+```
 <head>
     <title>
       <link href="css/styles.css" type="text/css" rel="stylesheet" />
     </title>
   </head>
-  ```
+```
 
 `<link>`
 the link element is used to tell the HTML file where to find the CSS file, it is an empty element (meaning it doesn't need a closing tag), and it is found in the head of the HTML doc.
