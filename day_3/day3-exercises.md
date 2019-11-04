@@ -26,7 +26,10 @@ For this example, the top padding is 1px, the right padding is 2px, the bottom p
 Inline elements sit on the same line. The do not create line breaks for each instances, they appear within the flow of the content. Block level elements display on their own line.
 
 **4. What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?**
-Fixed positioning fixes the element in relation to the browser window. If an element has a property of position:fixed and top:0px, it will be positioned at the top of the page and does not move it the user scrolls. z-index is important to use here to position the z-index of the fixed element on top of any other content of the page. This allows the rest of the content to scroll under the fixed element. This is often used with navigation menus so that they are always displayed regardless of position on the page. 
+Fixed positioning fixes the element in relation to the browser window. If an element has a property of position:fixed and top:0px, it will be positioned at the top of the page and does not move it the user scrolls. z-index is important to use here to position the z-index of the fixed element on top of any other content of the page. This allows the rest of the content to scroll under the fixed element. This is often used with navigation menus so that they are always displayed regardless of position on the page.
 
 **5. What is the difference between a fixed and liquid layout?**
 Fixed layouts have a specified with. This means that the content can not go larger than that width. Liquid layouts stretch and contract based on the users screen size. Liquid layouts are often achieved by using percentages for the widths of the containers and columns. This allows them to grow and shrink with different browser sizes.
+
+**Link to Codepen project**
+https://github.com/hborrelli1/frontend-module-0-capstone/tree/master/day_3
