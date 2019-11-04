@@ -5,8 +5,12 @@
 #### How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript?
 You need to declare a variable in order to use it. To be able to use a variable you need to declare it and give it a name like so `var firstName;`. Variables do not need values to be declared, they can be defined without a value. The equals sign is called an assignment operator. The assignment operator assigns a value to the variables name. For example: `var firstName = "Harry"`.
 
+---
+
 #### There are three big data types in JavaScript: numbers, strings, and booleans. Describe what each of them are.
 Numbers are any numeric value. Numbers can be integers (whole numbers) or floats (numbers with decimals). Strings contains letters and other characters. Strings are surrounded by quotes (either double or single). Booleans data types hold one of two values; either true or false. Booleans are also referred to as similar to a light switch, they are either on or off.
+
+---
 
 #### What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names?
 1. Variables must start with a letter, dollar sign, underscore and cannot begin with a number.
