@@ -1,0 +1,378 @@
+/*Base rules
+
+are the defaults. They are almost exclusively single element
+selectors but it could include attribute selectors, pseudo-class
+selectors, child selectors or sibling selectors. Essentially, a base
+style says that wherever this element is on the page, it should look
+like this.*/
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #e5e5e5;
+	scroll-behavior: smooth;
+}
+
+a {
+	color: #ff8f00;
+	text-decoration: none;
+}
+
+section a:hover {
+	border-bottom: 1px solid #ff8f00;
+}
+
+form {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #fafafa;
+	text-align: center;
+}
+
+ol {
+	padding: 0;
+}
+
+ol li {
+    list-style-type: none;
+}
+
+ol#ol1 li:before {
+	content: counter(li) '. ';
+	counter-reset: li;
+	counter-increment: li;
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+ol#ol2 li:before {
+	content: counter(li) '. ';
+	counter-reset: li;
+	counter-increment: li 2;
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+ol#ol3 li:before {
+	content: counter(li) '. ';
+	counter-reset: li;
+	counter-increment: li 3;
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.25);
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgb(51, 51, 51);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*Layout rules
+
+divide the page into sections. Layouts hold one or
+more modules together.*/
+
+footer {
+	width: 100%;
+	background-color: #495057;
+	height: 400px;
+}
+
+footer p {
+	color: #fafafa;
+	text-align: center;
+}
+
+footer h1 {
+	margin-top: 60px;
+}
+
+header {
+	width: 100%;
+	background-color: black;
+	height: 500px;
+	background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+				url(images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+main {
+	width: 75%;
+	margin: auto;
+}
+
+section {
+	height: 100%;
+	padding: 30px 40px;
+	background-color: #fafafa;
+	margin: 0 auto 60px auto;
+	border-radius: 6px;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),
+				0 6px 30px 5px rgba(0,0,0,.12),
+				0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+section img {
+	width: 100%;
+}
+
+/*Modules
+
+are the reusable, modular parts of our design. They are
+the callouts, the sidebar sections, the product lists and so on.*/
+
+.back-to-top {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #e5e5e5;
+	margin-bottom: -25px;
+	z-index: 98;
+	font-size: 30px;
+	color: #495057;
+	text-decoration: none;
+}
+
+.back-to-top > a {
+	text-decoration: none;
+}
+
+#btn-top a:hover {
+	text-decoration: none
+}
+
+.blurb {
+	color: rgb(51, 51, 51);
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: -50px auto 60px auto;
+	padding: 0;
+}
+
+.blurb > p:first-of-type {
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	line-height: 24px;
+}
+
+.blurb > p:last-of-type {
+	font-style: italic;
+	margin: 5px 0 0 0;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #fafafa;
+	line-height: 24px;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.copyright {
+	color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-file-upload {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    width: 200px;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
+    background: #fafafa;
+    text-align: left;
+}
+
+.custom-submit-btn {
+	margin-left: 10px;
+	border: 1px solid #ff8f00;
+	color: #ff8f00;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.custom-submit-btn:hover {
+	background-color: #ff8f00;
+	color: #fafafa;
+	border-color: #fafafa;
+}
+
+.footer-content {
+	border: 1px solid #495057;
+	max-width: 780px;
+	margin: auto;
+}
+
+img.portrait {
+	border-radius: 100%;
+	height: 100px;
+	border: 1px solid #fafafa;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.nav {
+	background-color: #fafafa;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	border: 1px solid #e5e5e5;
+	padding: 3px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: rgb(51, 51, 51);
+}
+
+.nav a {
+	color: #495057;
+}
+
+.nav a:hover {
+	color: rgba(73, 80, 87, .7);
+	text-decoration: none;
+}
+
+
+.overlay {
+	background-color: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+}
+
+.share {
+	max-width: 500px;
+	height: 100px;
+	margin: auto
+}
+
+.title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: normal;
+	color: white;
+	max-width: 780px;
+	text-align: center;
+	-webkit-animation: fadein 0.3s;
+	-moz-animation: fadein 0.3s;
+	-ms-animation: fadein 0.3s;
+	-o-animation: fadein 0.3s;
+	animation: fadein 0.3s;
+}
+
+.two-thirds {
+	width: 66.67%;
+}
+
+/*State rules
+
+are ways to describe how our modules or layouts will
+look when in a particular state. Is it hidden or expanded? Is it active
+or inactive? They are about describing how a module or layout
+looks on screens that are smaller or bigger. They are also about describing
+how a module might look in different views like the home
+page or the inside page.*/
+
+i:hover {
+	transform: scale(1.4);
+	color: #ff8f00;
+}
+
+@keyframes fadein {
+    from {
+    	transform: translateY(10px);
+    	opacity: 0;
+    }
+    to {
+    	transform: translateY(0px);
+		opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+    	transform: translateY(10px);
+    	opacity: 0;
+    }
+    to {
+    	transform: translateY(0px);
+		opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+    	transform: translateY(10px);
+    	opacity: 0;
+    }
+    to {
+    	transform: translateY(0px);
+		opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    from {
+    	transform: translateY(10px);
+    	opacity: 0;
+    }
+    to {
+    	transform: translateY(0px);
+		opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+    	transform: translateY(10px);
+    	opacity: 0;
+    }
+    to {
+    	transform: translateY(0px);
+		opacity: 1;
+    }
+}
+
+/*Theme rules
+
+are similar to state rules in that they describe
+how modules or layouts might look. Most sites don’t require a layer
+of theming but it is good to be aware of it.*/
+
+
+	

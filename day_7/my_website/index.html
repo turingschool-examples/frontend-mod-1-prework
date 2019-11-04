@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Turing | Day 7 Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/solid.css" integrity="sha384-+0VIRx+yz1WBcCTXBkVQYIBVNEFH1eP6Zknm16roZCyeNg2maWEpk/l/KsyFKs7G" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="nav center">
+		<ul class="center-nav two-thirds">
+			<li><a href="#section1">Flagstaff</a></li>
+			<li><a href="#section2">Brainard</a></li>
+			<li><a href="#section3">Sunshine</a></li>
+			<li><a href="#footer">Submit a route</a></li>
+		</ul>
+	</nav>
+	<header class="center">
+		<div class="overlay center">
+			<h1 class="title">Favorite road cycling routes after six months in Boulder</h1>
+		</div>
+	</header>
+	<main>
+		<div class="blurb center column">
+			<img class="portrait" src="images/selfPortrait.jpg" alt="Self portrait of author">
+			<p>Chris Postma</p>
+			<p>Last updated Dec 19, 2018</p>
+		</div>
+		<section id="section1">
+			<ol id="ol1">
+				<li>
+					<h1>Super Flagstaff</h1>
+					<p><a href="https://www.mapmyride.com/us/boulder-co/super-flagstaff-route-1565726" target="_blank">View map</a></p>
+					<p>A Boulder classic that starts right from downtown. The ride actually begins at the base of Gregory Canyon and the best way to get there from downtown Boulder is via 6th Street to Baseline. The ride is divided into two segments, depending on how much time you have, either to the Amphitheater or to the mailboxes at the top. The views are incredible from the outset and only get better, especially if you try this ride after dark. You're likely to run into professional cyclists here too.</p>
+					<img src="images/flagstaff.png" alt="Map of Flagstaff">
+				</li>
+			</ol>
+		</section>
+		<section id="section2">
+			<ol id="ol2">
+				<li>
+					<h1>Brainard Lake</h1>
+					<p><a href="https://www.mapmyride.com/us/boulder-co/brainard-lake-and-back-route-1938093" target="_blank">View map</a></p>
+					<p>A gradual climb to 10,200 ft with a spectacular payoff at the end in the form of panoramic views of the mountains surrounding Brainard lake. This route comprises a number of smaller, linked routes which are all equally amazing - Olde Stage, Left Hand Canyon, and the climb up to Ward. You can even hit Lee Hill on the way back or take the peak to peak highway to find a different return route. All in all, a great way to get over 5,000 ft of climbing done in about 25 miles.</p>
+					<img src="images/brainard.png" alt="Map of Brainard">
+				</li>
+			</ol>
+		</section>
+		<section id="section3">
+			<ol id="ol3">
+				<li>
+					<h1>Sunshine Canyon to Switzerland Trail</h1>
+					<p><a href="https://www.mapmyride.com/us/boulder-co/boulder-sunset-switzerland-trail-gold-hi-route-2526411" target="_blank">View map</a></p>
+					<p>This is a beautiful ride up into Sunshine Canyon, with the road changing from paved to dirt to an old, abandoned narrow gauge railroad track. I enjoy this ride the most in the evening because the sunsets are incredible to see from Bald Mountain. The roads typically have very few vehicles on them, making for a relaxing ride.</p>
+					<img src="images/sunshine.png" alt="Map of Sunshine Canyon">
+				</li>
+			</ol>
+		</section>
+		<div id="btn-top" class="center">
+			<a href="#">
+				<div class="back-to-top center">
+					<i class="fas fa-angle-up"></i>		
+				</div>
+			</a>
+		</div>
+	</main>
+	<footer id="footer">
+		<div class="footer-content">
+			<h1 class="title">Share your favorite route!</h1>
+			<p>Upload a Garmin .gpx file.</p>
+			<div class="share">
+				<form action="" method="post" id="route-form">
+					<label class="custom-file-upload" for="route-file">Choose file...</label>
+		            <input type="file" id="route-file" name="route-file">
+					<input class="custom-submit-btn" type="submit" name="submit" id="route-submit">
+				 </form>
+			</div>
+		</div>
+		<p class="copyright">Copyright 2019, Chris Postma</p>
+	</footer>
+</body>
+</html>
+
+
