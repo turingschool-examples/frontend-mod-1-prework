@@ -84,41 +84,45 @@ Pro tip: If you want to write more than one line of code in the console before r
 
 For each task listed below, enter it in the console:
 
--   `25`
--   `"this is my string"` (notice the output's color difference between a number and a string)
-  - numbers show as green and return as purple
-  - strings show as orange and return as red
+`25`
 
--   `var myNewString = "Hello Turing!";`
--   `myNewString` Before you hit Enter, what do you expect to see in the console?
-  - I expect to see "Hello Turing"
+`"this is my string"` (notice the output's color difference between a number and a string)
+- numbers show as green and return as purple
+- strings show as orange and return as red
 
--   `var myNum = 9;`
--   `myNum` Before you hit Enter, what do you expect to see in the console?
-  - the number 9
+`var myNewString = "Hello Turing!";`
 
--   `var anotherString = "How are You?"`
--   `"Connect" + " " + "these" + " " + "strings."` What happened? This is called string concatenation. Notice the strings with spaces.
-  - the console returned this: Connect these string. (with spaces)
+`myNewString` Before you hit Enter, what do you expect to see in the console?
+- I expect to see "Hello Turing"
 
--   `myNewString + anotherString` This is also string concatenation using variables.
-  - returns: "Hello Turing!How are you?"
+`var myNum = 9;`
 
--   `5 > 3` returns a boolean value of true. How could you change this expression to return false?
-  - `5 < 3` would return false
+`myNum` Before you hit Enter, what do you expect to see in the console?
+- the number 9
 
--   `"2" === 2` and `"2" == 2` Why does one of those expressions return true and one return false?
-  - Strict equality (===) means values which we are comparing must have the same type. This means "2" will not be equal to 2. One is a string, the other is an integer. The types are __NOT__ the same
+`var anotherString = "How are You?"`
 
--   `if (8 < 9) {console.log("Hey!")}` Before you enter this code in the console, what do you think will happen? Will it log Hey to the console?
-  - yes it will log 'Hey' because it is solving for is `8 < 9` eight less than 9.
+`"Connect" + " " + "these" + " " + "strings."` What happened? This is called string concatenation. Notice the strings with spaces.
+- the console returned this: Connect these string. (with spaces)
 
--   Write an if/else statement where the code in the `else` block is executed. For example: `if (3 < 1){console.log("if block")} else {console.log("else block")}`
- - `if ((9-4) > 5){console.log("if block")} else {console.log("else block")}`
- - retuns `else block` because 5 is not `>` 5.
+`myNewString + anotherString` This is also string concatenation using variables.
+- returns: "Hello Turing!How are you?"
+
+`5 > 3` returns a boolean value of true. How could you change this expression to return false?
+- `5 < 3` would return false
+
+`"2" === 2` and `"2" == 2` Why does one of those expressions return true and one return false?
+- Strict equality (===) means values which we are comparing must have the same type. This means "2" will not be equal to 2. One is a string, the other is an integer. The types are __NOT__ the same
+
+`if (8 < 9) {console.log("Hey!")}` Before you enter this code in the console, what do you think will happen? Will it log Hey to the console?
+- yes it will log 'Hey' because it is solving for is `8 < 9` eight less than 9.
+
+Write an if/else statement where the code in the `else` block is executed. For example: `if (3 < 1){console.log("if block")} else {console.log("else block")}`
+- `if ((9-4) > 5){console.log("if block")} else {console.log("else block")}`
+- retuns `else block` because 5 is not `>` 5.
 
 
--   Use the console to solve [these problems](https://s3.amazonaws.com/TrainingNerd/JavaScriptForBeginners/exercises/variables.html).
+Use the console to solve [these problems](https://s3.amazonaws.com/TrainingNerd/JavaScriptForBeginners/exercises/variables.html).
 1. `numChildren = 0;`
 `var partnerName = 'Genevieve';`
 `var geoLocation = 'Denver';`
