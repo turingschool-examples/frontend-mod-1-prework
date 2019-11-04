@@ -1,3 +1,5 @@
+### Reading (Chapters 1 and 2 of HTML/CSS)
+
 **1. On a website, what is the purpose of HTML code?**
 
 HTML describes the structure of pages.
