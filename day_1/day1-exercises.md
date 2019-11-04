@@ -1,7 +1,3 @@
-## Day 1
-
-### Assignment 1: Reading (Chapters 1 and 2 of HTML/CSS)
-
 **1. On a website, what is the purpose of HTML code?**
 
 HTML describes the structure of pages.
@@ -70,12 +66,8 @@ Semantic markup includes certain tags that add extra meaning to text. The purpos
      
    3. `<aside></aside>` When used outside of an `<article>` element, it acts as a container for content that is related to the entire page. When used inside an `<article>` element, it should contain information that is related to the article but not essential to the overall meaning.
    
-   <br />
+<br />
    
-### Assignment 2: CodePen
-
-**Create a new "pen", and start to write some HTML code in CodePen using what you read from the Structure and Text chapters...When you are done, save the "pen", and paste the link into your prework gist.**
-
 Link to CodePen: [https://codepen.io/cjrpostma](https://codepen.io/cjrpostma/pen/bQjpLm?editors=1100)
 
 <br />
