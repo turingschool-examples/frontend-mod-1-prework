@@ -22,8 +22,12 @@ Numbers are any numeric value. Numbers can be integers (whole numbers) or floats
 
 Some reserved keywords to be avoided are: var, break, case, else, finally, switch, throw, void, etc.
 
+---
+
 #### How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?
 Array are useful because they can store multiple values. Arrays are constructed with a variable name and values inside square brackets separated by commas; `var mySiblings = ['Maddie', 'John', 'Spencer']`. Each value in an array is given an index. The index of an array starts are the 0 not 1. To access or change a value in an array, you use square brackets followed by the index of the value you want to change.
+
+---
 
 #### What is the difference between an expression and a statement?
 Statements are a set of instructions given to the computer. A statement starts on a new line and ends with a semicolon. Each step in a set of instructions would be considered a statement. Example of statement: `var firstName;`. This statement declares a variable.
@@ -35,6 +39,8 @@ var lastName = "Borrelli";
 var fullName = firstName + " " + lastName;
 ```
 The variable of fullName would return "Harry Borrelli".
+
+---
 
 #### What are three types of operators and how are they used?
 Three types of operators are +, - and ++. The plus can be used to get the sum of two numbers, or to combine two or more strings like so `var fullName = "Harry " + "Borrelli";`. The minus is used to subtract two numbers `8 - 5`. And the ++ operator is used to increment a value by one:
