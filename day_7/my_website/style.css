@@ -1,0 +1,376 @@
+/*h1 {
+  font-size: 60px;
+  color: #EEAA7B;
+}*/
+
+.header .wavey_lines{
+  width: 1425px;
+  transform: translate(0px, 20px);
+}
+.header .trout_silhouette{
+  display: run-in;
+  height: 235px;
+  transform: translate(345px, 220px);
+  z-index: -1;
+  position: relative;
+  margin-top: -190px;
+}
+
+
+.fish_tales_content p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  color: #66B9BF;
+  font-weight: 400;
+  line-height: 2.6em;
+  font-kerning: auto;
+}
+a {
+text-decoration: none;
+}
+/*HEADER STYLES*/
+.header h1 {
+  font-family: Roboto slab;
+  font-weight: 700;
+  text-align: center;
+  font-size: 75px;
+  color: #07889B;
+  height: 75px;
+}
+.header h3{
+  color: #FDE3A7;
+  font-family: Montserrat;
+  font-weight: 400;
+  text-align: center;
+  background-color: #66B9BF;
+  padding: 15px 0px 15px 0px;
+  font-size: 22px;
+}
+/*Footer Styling*/
+.hero_image_1{
+  background: url(images/chicago_lakes_2.jpg) no-repeat top center;
+  display: block;
+  height: 600px;
+  background-size: cover;
+}
+.hero_image_rollover_1_caption{
+      background:#fff;
+      opacity:0;
+      position: absolute;
+}
+.hero_image_1:hover .hero_image_rollover_1_caption{
+      height: 250px;
+      width: 1074px;
+      opacity:0.7;
+      text-align: center;
+      color:#e37222;
+      font-size:35px;
+      font-weight:700;
+      font-family: Roboto slab;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding:175px;
+      -o-transition: opacity 0.55s ease;
+      -moz-transition: opacity 0.55s ease;
+      -webkit-transition: opacity 0.55s ease;
+      transition: opacity 0.55s ease;
+}
+.first_hero_horizontal_rule hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #e37222;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.fly_icon{
+  height: 50px;
+}
+.icon_row {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  text-transform: capitalize;
+  color: black;
+}
+.icon_row_left{
+  background-color: #FDE3A7;
+  height: 80px;
+  padding-top: 20px;
+}
+.icon_row_center{
+  background-color: #66B9BF;
+  height: 80px;
+  padding-top: 20px;
+}
+.icon_row_right{
+  background-color: #07889B;
+  height: 80px;
+  padding-top: 20px;
+}
+.chicago_lakes_content{
+  padding-top: 100px;
+}
+
+
+
+.hero_image_2{
+  background: url(images/peterson_lake_1.jpg) no-repeat top center;
+  display: block;
+  height: 395px;
+  background-size: cover;
+}
+.hero_image_rollover_2_caption{
+      background:#FFF;
+      opacity:0;
+      position: absolute;
+}
+.hero_image_2:hover .hero_image_rollover_2_caption{
+      width: 336px;
+      opacity:0.7;
+      text-align: center;
+      color:#e37222;
+      font-family: Roboto slab;
+      font-weight:700;
+      font-size:35px;
+      font-style: normal;
+      letter-spacing: 2px;
+      padding:60px;
+      height: 275px;
+      -o-transition: opacity 0.55s ease;
+      -moz-transition: opacity 0.55s ease;
+      -webkit-transition: opacity 0.55s ease;
+      transition: opacity 0.55s ease;
+}
+
+
+
+.hero_image_3{
+  background: url(images/s_boulder_creek_1.jpg) no-repeat top center;
+  display: block;
+  height: 395px;
+  background-size: cover;
+}
+.hero_image_rollover_3_caption{
+  background:#FFF;
+  opacity:0;
+  position: absolute;
+}
+.hero_image_3:hover .hero_image_rollover_3_caption{
+  width: 336px;
+  opacity:0.7;
+  text-align: center;
+  color:#e37222;
+  font-family: Roboto slab;
+  font-weight:700;
+  font-size:35px;
+  font-style: normal;
+  letter-spacing: 2px;
+  padding:60px;
+  height: 275px;
+  -o-transition: opacity 0.55s ease;
+  -moz-transition: opacity 0.55s ease;
+  -webkit-transition: opacity 0.55s ease;
+  transition: opacity 0.55s ease;
+}
+
+
+.hero_image_4{
+  background: url(images/chinns_lake_image_1.jpg) no-repeat top left;
+  display: block;
+  height: 395px;
+  width: 456px;
+  background-size: cover;
+  margin-left: 28px;
+}
+.hero_image_rollover_4_caption{
+  background:#FFF;
+  opacity:0;
+  position: absolute;
+}
+.hero_image_4:hover .hero_image_rollover_4_caption{
+  /*width: 336px;*/
+  opacity:0.7;
+  text-align: center;
+  color:#e37222;
+  font-family: Roboto slab;
+  font-weight:700;
+  font-size:35px;
+  font-style: normal;
+  letter-spacing: 2px;
+  padding:60px;
+  height: 275px;
+  -o-transition: opacity 0.55s ease;
+  -moz-transition: opacity 0.55s ease;
+  -webkit-transition: opacity 0.55s ease;
+  transition: opacity 0.55s ease;
+}
+
+.two .chicago_lakes_thumbnail{
+    background: url(images/chicago_lake_thumbnail.jpg) no-repeat top center;
+    display: block;
+    height: 200px;
+    background-size: cover;
+    margin-top: 173px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #FDE3A7;
+
+}
+.two .peterson_lake_thumbnail{
+    background: url(images/peterson_lake_thumbnail.jpg) no-repeat top center;
+    display: block;
+    height: 200px;
+    background-size: cover;
+    margin-top: 73px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #FDE3A7;
+}
+.two .s_boulder_creek_thumbnail{
+    background: url(images/s_boulder_creek_thumbnail.jpg) no-repeat top center;
+    display: block;
+    height: 200px;
+    background-size: cover;
+    margin-top: 15px;
+    margin-top: 73px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #FDE3A7;
+}
+.two .chinns_lake_thumbnail{
+    background: url(images/chinns_lake_thumbnail.jpg) no-repeat top center;
+    display: block;
+    height: 200px;
+    background-size: cover;
+    margin-top: 73px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #FDE3A7;
+}
+.fish_tales_content h3{
+  text-transform: capitalize;
+  font-family: roboto slab;
+  font-weight: 700;
+  color: #eeaa7b;
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+.fish_tales_content p, h3{
+  padding-left: 65px;
+}
+.fish_tales_content hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1.7px solid #FDE3A7;
+  margin: 1em 0;
+  padding: 0;
+  margin-left: 65px;
+}
+
+.author {
+  border-radius: 15px;
+  background-color: #FDE3A7;
+  padding: 20px;
+  width: 1075px;
+  height: 310px;
+  margin-left: 65px;
+  padding-top: 20px;
+}
+.author p{
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-kerning: auto;
+  width: 350px;
+  transform: translate(-140px, -30px);
+}
+.author img {
+    border-radius: 50%;
+    width: 310px;
+    box-shadow: 0 0 0 4px #66B9BF;
+
+}
+.author h3{
+  display: inline-flex;
+  font-family: roboto slab;
+  font-weight: 700;
+  font-size: 29px;
+  color: #eeaa7b;
+  letter-spacing: 2.7px;
+  transform: translate(-195px, -140px);
+}
+.email_input{
+  display: block;
+  border-radius: 8px;
+  background-color: gray;
+  padding: 30px;
+  width: 1075px;
+  height: 160px;
+  line-height: 1em;
+  transform: translate(0px, 45px);
+}
+.email_input h1{
+  font-family: roboto slab;
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 1.3px;
+  padding-left: 65px;
+  transform: translate(0px, 25px);
+}
+.email_input p, option, label{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  padding-left: 65px;
+  padding-top: 17px;
+}
+.email_input #email{
+  width: 275px;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+
+footer li{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  color: gray;
+  font-weight: 400;
+  line-height: 2.6em;
+  font-kerning: auto;
+}
+footer{
+  padding-top: 75px;
+  padding-left: 65px;
+}
+
+footer ul li{
+  display:inline;
+  padding: 0px 10px 0px 10px;
+  padding-left: 25px;
+}
+footer h4{
+  display: inline;
+  color: #07889B;
+  text-align: left;
+  font-family: roboto slab;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-style: normal;
+}
