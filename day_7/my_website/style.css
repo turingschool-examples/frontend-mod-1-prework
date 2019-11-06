@@ -1,13 +1,12 @@
-/*h1 {
+a/*h1 {
   font-size: 60px;
   color: #EEAA7B;
 }*/
 
-.header .wavey_lines{
-  width: 1425px;
-  transform: translate(0px, 20px);
+.wavey_lines{
+  transform: translate(0px, 100px);
 }
-.header .trout_silhouette{
+.trout_silhouette{
   display: run-in;
   height: 235px;
   transform: translate(345px, 220px);
