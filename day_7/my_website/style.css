@@ -20,8 +20,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 #mountain-banner {
   background-color: black;
   padding: 0px;
-  background-image: url('images/everest-trek.jpg');
-  background-repeat: no-repeat;
+  background: rgb(138, 181, 229) url('images/everest-trek.jpg') left no-repeat;
   height: 600px;
   width: 100%;
 }
@@ -35,6 +34,11 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   text-shadow: -4px 4px 5px #747780;
 }
 
+#banner-links {
+  display: inline;
+  text-align: right;
+}
+
 .nav-link {
   font-size: 28px;
   position: relative;
@@ -43,6 +47,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   font-style: oblique;
   color: white;
   text-shadow: -4px 4px 5px #747780;
+  margin: 0px auto 0px auto;
 }
 
 .nav-link:hover {
@@ -50,12 +55,12 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 }
 
 #github-link {
-  left: 1060px;
+  left: 960px;
   top: -110px;
 }
 
 #turing-link {
-  left: 1100px;
+  left: 1000px;
   top: -110px;
 }
 
@@ -96,8 +101,9 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 }
 
 #left-content-column {
-  margin: 0px 50px 0px 50px;
+  margin: 0px auto 0px auto;
   width: 100%;
+  text-align: center
 }
 
 #bucket-list-container {
@@ -105,6 +111,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   border-style: solid;
   width: 400px;
   background-color: #5eb2db;
+  margin: 0px auto 50px auto;
 }
 
 #bucket-list-title {
@@ -125,6 +132,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   padding-left: 70px;
   padding-top: 3px;
   background: url('images/aircraft-bullet.png') no-repeat top left;
+  text-align: left !important;
 }
 
 #message-form {
@@ -135,6 +143,8 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
   height: 400px;
   background-color: #5eb2db;
   font-family: 'Roboto Condensed', verdana, sans-serif;
+  margin: 0px auto 0px auto;
+  text-align: left !important;
 }
 
 .message-form-field {
@@ -144,7 +154,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 }
 
 #name-field {
-  width: 340px;
+  width: 360px;
 }
 
 #message-form-title {
@@ -155,7 +165,7 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 
 #right-image-gallery {
   width: 840px;
-  margin: 0px;
+  margin: 0px auto 0px auto;
   display: grid;
   display: inline;
 }
@@ -163,4 +173,35 @@ dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
 img.gallery-img {
   float: left;
   padding: 2px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #page-body {
+    grid-template-columns: auto;
+  }
+
+  #left-content-column {
+    /* float: left; */
+  }
+
+  #bucket-list-container {
+    float: left;
+    margin-left: 8%;
+  }
+
+  #message-form {
+    float: left;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  #github-link {
+    left: 700px;
+    top: -110px;
+  }
+
+  #turing-link {
+    left: 740px;
+    top: -110px;
+  }
 }
