@@ -18,39 +18,53 @@ text-align: center;
   border: solid;
 margin: 25px;
 float: left;
+clear: none;
 width: 45%}
 .powers_ma_magic{
   background-color: #fffdd0;
   border: solid;
 margin: 25px;
-float: left;
+float: right;
+clear: none;
 width: 45%}
 .origin{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
 float: left;
+clear: none;
 width: 45%}
 .costume{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
-float: left;
+float: right;
+clear: none;
 width: 45%}
 .hero_heroin{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
-float: left;
+float: right;
+clear: none;
 width: 45%}
-.myhero{ width: 280px;
-  float: inherit;
+.myhero{
+  background-color: #fffdd0;
+  border: solid;
+  margin: 25px;
+  float: left;
+  clear: none;
+  width: 45%;
+  text-align: center;
 }
+.portrait{width: 90%;
+border: solid;}
 .your_turn{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
-float: left;
+float: right;
+clear: none;
 width: 45%}
 .footer{
   opacity: 0;
