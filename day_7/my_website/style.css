@@ -1,1 +1,61 @@
-body {background-color: DarkGreen;}
+body {background-image: url(Images/superhero-background-4321804_1920.jpg);
+  background-size: 100% 100%;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+.top{
+  background-color: #fffdd0;
+  border: solid;
+margin: 25px;
+float: none;
+width: 95%;
+text-align: center;
+}
+.compass{
+  background-color: #fffdd0;
+  border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.powers_ma_magic{
+  background-color: #fffdd0;
+  border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.origin{
+  background-color: #fffdd0;
+border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.costume{
+  background-color: #fffdd0;
+border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.hero_heroin{
+  background-color: #fffdd0;
+border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.myhero{ width: 280px;
+  float: inherit;
+}
+.your_turn{
+  background-color: #fffdd0;
+border: solid;
+margin: 25px;
+float: left;
+width: 45%}
+.footer{
+  opacity: 0;
+  height: 250px;
+  width: 100%;
+  background-size: 100% 100%;
+  float: left;
+}
