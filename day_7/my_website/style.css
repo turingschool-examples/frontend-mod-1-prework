@@ -10,7 +10,7 @@ body {background-image: url(Images/superhero-background-4321804_1920.jpg);
   border: solid;
 margin: 25px;
 float: none;
-width: 95%;
+width: 96%;
 text-align: center;
 }
 .compass{
@@ -19,53 +19,59 @@ text-align: center;
 margin: 25px;
 float: left;
 clear: none;
-width: 45%}
+width: 44%;
+padding:5px}
 .powers_ma_magic{
   background-color: #fffdd0;
   border: solid;
 margin: 25px;
 float: right;
 clear: none;
-width: 45%}
+width: 44%;
+padding:5px;}
 .origin{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
 float: left;
 clear: none;
-width: 45%}
+width: 44%;
+padding:5px}
 .costume{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
 float: right;
 clear: none;
-width: 45%}
+width: 44%;
+padding:5px;}
 .hero_heroin{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
 float: right;
 clear: none;
-width: 45%}
+width: 44%;
+padding:5px;}
 .myhero{
   background-color: #fffdd0;
   border: solid;
   margin: 25px;
   float: left;
   clear: none;
-  width: 45%;
+  width: 44%;
   text-align: center;
+  padding:5px;
 }
-.portrait{width: 90%;
+.portrait{width: 85%;
 border: solid;}
 .your_turn{
   background-color: #fffdd0;
 border: solid;
 margin: 25px;
-float: right;
+float: left;
 clear: none;
-width: 45%}
+width: 96%}
 .footer{
   opacity: 0;
   height: 250px;
@@ -74,14 +80,14 @@ width: 45%}
   float: left;
 }
 
-p, ul{
+p, ul, label{
   font-family: "Comic3","Times New Roman", serif;
 }
 p, ul{font-size:16px}
 h1{font-size: 300%}
 h2{font-size: 200%}
 h3{font-size: 175%}
-h1, h2, h3{font-family: "Comic4", sans-serif;}
+h1, h2, h3, legend{font-family: "Comic4", sans-serif;}
 @font-face {
             font-family: 'Comic1';
             src: url("fonts/comic_cover.ttf");}
@@ -94,3 +100,75 @@ h1, h2, h3{font-family: "Comic4", sans-serif;}
 @font-face {
             font-family: 'Comic4';
             src: url("fonts/ninja-naruto/njnaruto.ttf");}
+.powers{
+  background-image: url(Images/power.png);
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+  margin: .5%;
+  padding: 4.7%;
+
+}
+.links{height: 10%;
+margin:70px}
+.magic {
+  background-image: url(Images/Magic.png);
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+  margin: .5%;
+  padding: 5%;
+  padding-bottom: 3.5%;
+}
+.creator{
+  background-image: url(Images/character_creator.png);
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+  margin: .5%;
+  padding: 4% 5% 5.5% 5%;
+}
+.ma{
+  background-image: url(Images/ma.png);
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+  margin: .5%;
+  padding: 5%;
+  padding-left: 4.5%
+}
+.hero_name{
+  background-image: url(Images/name_generator.png);
+  background-size: 100% 100%;
+  width: 20%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
+  margin: .5%;
+  padding: 5%;
+  padding-top: 3.8%
+}
+a{
+  font-family: "Comic2" ;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:visited{
+  color: grey;
+}
+a:link{
+  color:black;
+}
