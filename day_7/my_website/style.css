@@ -73,3 +73,24 @@ width: 45%}
   background-size: 100% 100%;
   float: left;
 }
+
+p, ul{
+  font-family: "Comic3","Times New Roman", serif;
+}
+p, ul{font-size:16px}
+h1{font-size: 300%}
+h2{font-size: 200%}
+h3{font-size: 175%}
+h1, h2, h3{font-family: "Comic4", sans-serif;}
+@font-face {
+            font-family: 'Comic1';
+            src: url("fonts/comic_cover.ttf");}
+@font-face {
+            font-family: 'Comic2';
+            src: url("fonts/comiccity.ttf");}
+@font-face {
+            font-family: 'Comic3';
+            src: url("fonts/good-times/good_times_rg.ttf");}
+@font-face {
+            font-family: 'Comic4';
+            src: url("fonts/ninja-naruto/njnaruto.ttf");}
