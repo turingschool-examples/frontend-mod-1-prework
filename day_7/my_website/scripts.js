@@ -1,3 +1,4 @@
+//The Following runs verification on the form data and returns a roll number to the alert menu.
 function dieRoll() {
   var dieSides = document.getElementById("dieSides").value;
   var dieRolled = 0;
