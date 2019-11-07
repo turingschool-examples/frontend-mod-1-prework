@@ -71,7 +71,8 @@ border: solid;
 margin: 25px;
 float: left;
 clear: none;
-width: 96%}
+width: 96%;
+padding:5px}
 .footer{
   opacity: 0;
   height: 250px;
@@ -80,14 +81,14 @@ width: 96%}
   float: left;
 }
 
-p, ul, label{
+p, ul, .outputDiv, .hname, .hero_selection{
   font-family: "Comic3","Times New Roman", serif;
 }
 p, ul{font-size:16px}
 h1{font-size: 300%}
 h2{font-size: 200%}
 h3{font-size: 175%}
-h1, h2, h3, legend{font-family: "Comic4", sans-serif;}
+h1, h2, h3, legend {font-family: "Comic4", sans-serif;}
 @font-face {
             font-family: 'Comic1';
             src: url("fonts/comic_cover.ttf");}
@@ -113,7 +114,9 @@ h1, h2, h3, legend{font-family: "Comic4", sans-serif;}
 
 }
 .links{height: 10%;
-margin:70px}
+margin:70px;
+float:left;
+width: 100%}
 .magic {
   background-image: url(Images/Magic.png);
   background-size: 100% 100%;
@@ -171,4 +174,31 @@ a:visited{
 }
 a:link{
   color:black;
+}
+.outputDiv{
+  float: right;
+  border: 2px ridge;
+  width: 55%;
+  height: 43px;
+  margin-top: 8.2px;
+  margin-right: 2px;
+  border-color:#BEBEBE;
+font-size: 30px
+
+
+}
+fieldset{
+  width: 40%;
+  clear:none;
+  float: left;
+}
+.help{
+  float: left;
+  font-family: "Comic1", sans-serif;
+}
+.artistCredit{
+  opacity: 0;
+  width: 0%;
+  height: 0%;
+  float:left;
 }

@@ -1,5 +1,6 @@
 <html lang= "en">
 <header><link rel="stylesheet" type="text/css" href="style.css"/></header>
+<script src="script.js"></script>
 <body>
 <div class = "hero_heroine_creation">
 <div class= "top">
@@ -87,29 +88,38 @@
   <div class = "your_turn">
   <h2>Your Turn</h2>
 
-  <form>
+  <form id= "input" name= "hero_type" enctype="multipart/form-data" onsubmit= "return false">
          <fieldset class= "hero/heroine_type">
            <legend class= "legend">Hero/Heroine Type!</legend>
-            <label> Hero/Heroine Name: <input type="text" name="hero/heroine_type"/></label><br />
-            <label> <input type="radio" name="hero/heroine_type" value="Power" checked="checked"/><b>Power</b> </label>
-             <label> <input type="radio" name="hero/heroine_type" value="Martial Artist" /> <b>Martial Artist</b> </label>
-             <label> <input type="radio" name="hero/heroine_type" value="Magic" /> <b>Magic</b> </label>
-           <input class= "submit" type="submit" name="To The Rescue" value="To The Rescue"/>
+<input class= "hname" type="text" id="hname" value="Hero Name">
+<select class= "hero_selection" id="hero_type" name="Hero type">
+<option value="Select Type" name = "select_type" >Select hero type</option>
+<option id = "power" name="hero/heroine_type" value="Power" checked="checked"<b>Power</b> </option>
+<option id="martial_artist" name="hero/heroine_type" value="Martial Artist" ><b>Martial Artist</b></option>
+<option id="magic" name="hero/heroine_type" value="Magic"><b>Magic</b></option>
+</select>
+<input type="submit" name="To The Rescue" value="To The Rescue" onclick="formProcess()"/>
          </fieldset>
          </form>
-         <div class="links">
-<a class= "hero_name" href="https://www.name-generator.org.uk/hero/" target="_blank">Name Generator</a>
-<a class ="creator" href="http://www.heromachine.com/heromachine-3-lab/" target="_blank"> Character Creator</a>
-  <a class= "powers"href="https://www.ign.com/lists/100-best-superpowers/97" target="_blank">Superpowers</a>
-
-<a class = "ma" href="https://www.fantasynamegenerators.com/martial-art-descriptions.php" target="_blank">Martial Art</a>
-<a class = "magic" href="https://www.fantasynamegenerators.com/spell-names.php" target="_blank">Magic</a>
+         <div class = "outputDiv" id="outputDiv">
+         </div>
+        <h3 class= "help">If you Need Help:</h3>
+      <div class="links">
+        <a class= "hero_name" href="https://www.name-generator.org.uk/hero/" target="_blank">Name Generator</a>
+        <a class ="creator" href="http://www.heromachine.com/heromachine-3-lab/" target="_blank"> Character Creator</a>
+          <a class= "powers"href="https://www.ign.com/lists/100-best-superpowers/97" target="_blank">Superpowers</a>
+        <a class = "ma" href="https://www.fantasynamegenerators.com/martial-art-descriptions.php" target="_blank">Martial Art</a>
+        <a class = "magic" href="https://www.fantasynamegenerators.com/spell-names.php" target="_blank">Magic</a>
+      </div>
 </div>
-           </div>
-<h7>credit the artist</h7>
-<a href='https://pngtree.com/so/explosion vector' target="_blank">explosion vector png from pngtree.com</a>
-<a href='https://pngtree.com/so/bubbles' target="_blank">bubbles png from pngtree.com</a>
-  </div>
+<div class="artistCredit">
+  <h7>credit the artist</h7><br />
+  <a href='https://pngtree.com/so/explosion vector' target="_blank">explosion vector png from pngtree.com</a><br />
+  <a href='https://pngtree.com/so/bubbles' target="_blank">bubbles png from pngtree.com</a>
+</div>
+</div>
+
+
 
 <div class ="footer">
   <p></p>
