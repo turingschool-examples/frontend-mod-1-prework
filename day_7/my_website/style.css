@@ -1,0 +1,94 @@
+body {
+  margin: 40px;
+
+  /*SVG Output Below*/
+  background-color: #747474;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%231d9e6a' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23272727' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2373aa64' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%234d4d4d' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%239fbf53' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23505050' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b7be49' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23717171' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23dad03d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%236c6c6c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23d9c411' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%237f7f7f' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  /*END OF SVG BACKGROUND*/
+
+/*
+  background: linear-gradient(rgba(72%, 98%, 87%, 0.9), rgba(72%, 98%, 87%, 1.0));
+*/
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.sidebar2 {
+  grid-area: sidebar2;
+}
+
+.content {
+  grid-area: content;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wrapper {
+
+  color: blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-areas:
+    "header"
+    "sidebar"
+    "content"
+    "sidebar2"
+    "footer"
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: 30% auto;
+    grid-template-areas:
+      "header   header"
+      "sidebar  content"
+      "sidebar2 sidebar2"
+      "footer   footer";
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .wrapper {
+    grid-gap: 20px;
+    grid-template-columns: 220px auto 220px;
+    grid-template-areas:
+      "header  header  header"
+      "sidebar content sidebar2"
+      "footer  footer  footer";
+    max-width: 1024px;
+  }
+}
+
+.box {
+  background-color: #272727;
+  color: #FF652F;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.header,
+.footer {
+  background-color: #272727;
+}
+
+.sidebar2 {
+  background-color: #272727;
+  color: #444;
+}
+h3{
+  text-align: center;
+}
