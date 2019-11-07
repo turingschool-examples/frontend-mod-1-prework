@@ -1,0 +1,134 @@
+body {
+  background-color:#f1f1f1;
+  color:#3d3d40;
+  margin:0px;
+  padding:0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Font Styles */
+.mini-title {
+  font-size:12px;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-family:sans-serif;
+  color:#CBD2D0;
+  opacity:.5;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  color:#CBD2D0;
+  font-size:50px;
+  letter-spacing:1px;
+  line-height:56px;
+  margin:0px;
+  font-family: 'Roboto Slab', serif;
+}
+h2 {
+
+}
+
+p {
+  font-size:14px;
+  line-height:24px;
+}
+
+a {
+  color: #246A73;
+  font-weight: bold;
+  letter-spacing: .5px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:underline;
+}
+
+/* Main Styles */
+.content-margins {
+  max-width:800px;
+  margin:0 auto;
+  display:block;
+}
+
+header {
+  margin-bottom:50px;
+  background-color:#313131;
+  padding:30px 20px;
+}
+
+
+/* Traveling Destinations styles */
+.destination-list {
+  column-count:3;
+  padding-left:0px;
+}
+
+.destination-list li {
+  list-style-type:none;
+  margin-bottom:8px;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+/* Contact Form styles */
+.contact-wrap {
+  background-color:#dadada;
+  padding:30px 0px;
+}
+
+.contact-wrap .content-margins {
+  max-width:600px;
+}
+
+.contact-form {
+  overflow:auto;
+}
+
+.contact-form .col2 {
+  width: 49%;
+  float: left;
+  display: inline-block;
+  margin-right: 2%;
+}
+.contact-form .col2:nth-of-type(2) {
+  margin-right:0px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width:100%;
+  display:block;
+  margin-bottom:20px;
+  padding:10px 5px;
+  background-color:transparent;
+  border-style:solid;
+  border:1px solid #fff;
+  box-sizing:border-box;
+}
+
+.contact-form input::-webkit-input-placeholder,
+.contact-form textarea::-webkit-input-placeholder { /* Edge */
+  color: #3d3d40;
+}
+
+.contact-form input:-ms-input-placeholder,
+.contact-form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #3d3d40;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #3d3d40;
+}
+
+.submit-btn {
+  width:100px !important;
+  float:right;
+}
+
+/* Footer Styles */
+footer {
+  background-color:#313131;
+  padding:30px 20px;
+}
