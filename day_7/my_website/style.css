@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color:#f1f1f1;
   color:#3d3d40;
@@ -25,8 +29,14 @@ h1 {
   margin:0px;
   font-family: 'Roboto Slab', serif;
 }
-h2 {
 
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight:600;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -42,21 +52,62 @@ a {
 }
 a:hover {
   text-decoration:underline;
+  cursor:pointer;
 }
 
 /* Main Styles */
+header {
+  margin-bottom:50px;
+  background-color:#313131;
+  padding:50px 20px;
+  padding-bottom:150px !important;
+}
+
+.content-body {
+  margin-top:-150px !important;
+}
+
 .content-margins {
   max-width:800px;
   margin:0 auto;
   display:block;
 }
 
-header {
+p.intro {
+  font-family: 'Roboto Slab', serif;
+  font-size:18px;
+  letter-spacing:1px;
+  line-height:30px;
+  font-style:italic;
   margin-bottom:50px;
-  background-color:#313131;
-  padding:30px 20px;
 }
 
+.content {
+  margin-bottom:100px;
+}
+
+.content img {
+  width:100%;
+}
+
+.travel-photos {
+  margin:50px 0px;
+}
+
+.img-wrap {
+  overflow:auto;
+}
+
+.img-wrap img {
+  width:32%;
+  margin-right:2%;
+  float:left;
+  clear:none;
+}
+
+.img-wrap img:last-of-type {
+  margin-right:0px !important;
+}
 
 /* Traveling Destinations styles */
 .destination-list {
@@ -67,14 +118,15 @@ header {
 .destination-list li {
   list-style-type:none;
   margin-bottom:8px;
-  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Roboto Slab', serif; */
 }
 
 
 /* Contact Form styles */
 .contact-wrap {
-  background-color:#dadada;
+  background-color:#313131;
   padding:30px 0px;
+  color:#f1f1f1;
 }
 
 .contact-wrap .content-margins {
@@ -83,6 +135,7 @@ header {
 
 .contact-form {
   overflow:auto;
+  margin-top:50px;
 }
 
 .contact-form .col2 {
@@ -103,32 +156,81 @@ header {
   padding:10px 5px;
   background-color:transparent;
   border-style:solid;
-  border:1px solid #fff;
+  border:0;
+  border-bottom:1px solid #fff;
   box-sizing:border-box;
+  transition:all .3s;
+  color:#f1f1f1;
 }
 
+/* Placeholder styles */
 .contact-form input::-webkit-input-placeholder,
 .contact-form textarea::-webkit-input-placeholder { /* Edge */
-  color: #3d3d40;
+  color: #f1f1f1;
+  text-transform:uppercase;
+  letter-spacing:1px;
 }
 
 .contact-form input:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #3d3d40;
+  color: #f1f1f1;
+  text-transform:uppercase;
+  letter-spacing:1px;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #3d3d40;
+  color: #f1f1f1;
+  text-transform:uppercase;
+  letter-spacing:1px;
 }
 
 .submit-btn {
   width:100px !important;
   float:right;
+  color:#f1f1f1;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  transition:all .2s;
+  border:1px solid #f1f1f1 !important;
+}
+.submit-btn:hover {
+  color:#246A73;
+  border:1px solid #246A73 !important;
+  transition:all .2s;
+  letter-spacing:1.5px;
+  cursor:pointer;
 }
 
 /* Footer Styles */
 footer {
-  background-color:#313131;
+  background-color:#232323;
   padding:30px 20px;
+  position:relative;
+}
+
+footer .content-margins {
+  text-align:center;
+}
+
+footer a {
+  margin:0px 10px;
+}
+
+footer a:hover {
+  opacity:.5;
+}
+
+footer a i {
+  font-size:20px;
+}
+
+.back-to-top {
+  position:absolute;
+  right:50px;
+  top:25px;
+}
+
+.back-to-top a i {
+  font-size:30px;
 }
