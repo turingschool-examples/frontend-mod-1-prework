@@ -1,0 +1,75 @@
+
+body {
+  background-color: #F2EDE4;
+  color: #731702;
+}
+
+#clickimg {
+  text-align: center;
+  font-family: "Aleo";
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.obygif , .deadpool , .veg {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #731702;
+}
+
+
+.images {
+  text-align: center;
+  width: 92.5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-width: 5;
+  border-color: #731702;
+  background-color: #F19A65;
+}
+
+.p2 , ul , h2 , #toolsUsed , .formDiv , form , .backToTop , .outro{
+  font-family: "Biryani"
+}
+h1 {
+  font-family: "Eczar";
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: -30px;
+  color: #F19A65;
+  font-family: "Aleo"
+}
+
+.p1 {
+  font-family: "Aleo";
+  padding-left: 210px;
+  padding-right: 210px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+form {
+  border-style: solid;
+  border-width: 5;
+  border-color: F19A65;
+  width: 400px;
+}
+.radioText {
+  margin-left: 20px;
+}
+#vegParagraph , form , .formDiv , .backToTop , #hipsParagraph , #deadParagraph , .outro {
+  margin: 80px;
+}
