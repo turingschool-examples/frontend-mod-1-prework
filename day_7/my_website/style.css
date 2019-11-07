@@ -6,9 +6,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   /*END OF SVG BACKGROUND*/
-  /*
-  background: linear-gradient(rgba(72%, 98%, 87%, 0.9), rgba(72%, 98%, 87%, 1.0));
-*/
+
 }
 
 .sidebar {
@@ -130,18 +128,6 @@ img {
   float: left;
   width: 25%;
   margin-top: 6px;
-}
-.col-25-l {
-    float: left;
-  width: 25%;
-  margin-top: 6px;
-  position: relative;
-}
-.col-25-r {
-
-  width: 25%;
-  margin-top: 6px;
-  position: relative;
 }
 .col-50 {
   float: left;
