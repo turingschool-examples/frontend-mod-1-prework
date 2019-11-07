@@ -1,20 +1,19 @@
-a/*h1 {
-  font-size: 60px;
-  color: #EEAA7B;
-}*/
-
-.wavey_lines{
-  transform: translate(0px, 100px);
-}
 .trout_silhouette{
   display: run-in;
-  height: 235px;
-  transform: translate(345px, 220px);
+  /*height: 235px;*/
+  width: 42%;
+  transform: translate(340px, 215px);
   z-index: -1;
-  position: relative;
+  position: sticky;
   margin-top: -190px;
 }
 
+.row .header {
+  display: run-in;
+  background: url(images/wavey_lines.png) no-repeat top center;
+  transform: translate(0, 7%);
+  z-index: 4;
+}
 
 .fish_tales_content p{
   font-family: Montserrat;
@@ -46,12 +45,12 @@ text-decoration: none;
   padding: 15px 0px 15px 0px;
   font-size: 22px;
 }
-/*Footer Styling*/
 .hero_image_1{
   background: url(images/chicago_lakes_2.jpg) no-repeat top center;
   display: block;
   height: 600px;
   background-size: cover;
+  margin-top: 2%;
 }
 .hero_image_rollover_1_caption{
       background:#fff;
@@ -60,7 +59,7 @@ text-decoration: none;
 }
 .hero_image_1:hover .hero_image_rollover_1_caption{
       height: 250px;
-      width: 1074px;
+      width: 74.04%;
       opacity:0.7;
       text-align: center;
       color:#e37222;
@@ -124,14 +123,18 @@ text-decoration: none;
   display: block;
   height: 395px;
   background-size: cover;
+  border-bottom: 4px solid #FDE3A7;
+  border-left: 4px solid #FDE3A7;
+  border-right: 4px solid #FDE3A7;
+
 }
 .hero_image_rollover_2_caption{
-      background:#FFF;
-      opacity:0;
+      background: #FFF;
+      opacity: 0;
       position: absolute;
 }
 .hero_image_2:hover .hero_image_rollover_2_caption{
-      width: 336px;
+      width: 22.6%;
       opacity:0.7;
       text-align: center;
       color:#e37222;
@@ -155,6 +158,9 @@ text-decoration: none;
   display: block;
   height: 395px;
   background-size: cover;
+  border-bottom: 4px solid #66B9BF;
+  border-left: 4px solid #66B9BF;
+  border-right: 4px solid #66B9BF;
 }
 .hero_image_rollover_3_caption{
   background:#FFF;
@@ -162,7 +168,7 @@ text-decoration: none;
   position: absolute;
 }
 .hero_image_3:hover .hero_image_rollover_3_caption{
-  width: 336px;
+  width: 22.6%;
   opacity:0.7;
   text-align: center;
   color:#e37222;
@@ -179,22 +185,22 @@ text-decoration: none;
   transition: opacity 0.55s ease;
 }
 
-
 .hero_image_4{
-  background: url(images/chinns_lake_image_1.jpg) no-repeat top left;
+  background: url(images/chinns_lake_image_1.jpg) no-repeat top Right;
   display: block;
   height: 395px;
-  width: 456px;
   background-size: cover;
-  margin-left: 28px;
+  transform: translate(6.25%);
+  border-bottom: 4px solid #07889B;
+  border-left: 4px solid #07889B;
+  border-right: 4px solid #07889B;
 }
 .hero_image_rollover_4_caption{
-  background:#FFF;
+  background: #FFF;
   opacity:0;
   position: absolute;
 }
 .hero_image_4:hover .hero_image_rollover_4_caption{
-  /*width: 336px;*/
   opacity:0.7;
   text-align: center;
   color:#e37222;
@@ -312,7 +318,7 @@ text-decoration: none;
   background-color: gray;
   padding: 30px;
   width: 1075px;
-  height: 160px;
+  height: 170px;
   line-height: 1em;
   transform: translate(0px, 45px);
 }
@@ -332,7 +338,7 @@ text-decoration: none;
   font-size: 17px;
   color: #fff;
   padding-left: 65px;
-  padding-top: 17px;
+  margin-top: 40px;
 }
 .email_input #email{
   width: 275px;
