@@ -3,7 +3,7 @@
 ## DAY 2
 ---
 
-### Read Chapters 3 and 4
+### Read Chapters 3 and 4 [HTML and CSS:Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
 1. **There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?**
  * ordered:  numbered list by default, can be changed to letters upper and lower as well as roman numberals
@@ -14,12 +14,12 @@
 1. **What attribute should you include in a link to open a new tab when the link is clicked?**
  * target="blank"
 1. **How do you link to a specific part of the same page?**
- 1. **add a id tag to an element on the same page that will be used in the reference in the link: id = "test"
+ 1. add a id tag to an element on the same page that will be used in the reference in the link: id = "test"
  2. \<a href="#test"\> Link Text\<\/a\>
 
 
 
-### Read Chapters 10,11 and 12
+### Read Chapters 10,11 and 12 [HTML and CSS:Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
 
 1. **What is the purpose of CSS?**
  * CSS allows for specific control of content appearance. This is a quicker way of adding styling to each element with a specific tag instead of specifying the same appearance at each use of a specific tag. Great timesaver.
