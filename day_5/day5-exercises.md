@@ -11,17 +11,17 @@
  * '=' is an assignment operator. This assigns a variable name with a variable value.
  ***
 2.  **There are three big data types in JavaScript: numbers, strings, and booleans. Describe what each of them are.**
- * Number : Numerical data type(decimals, integers)
- * Boolean :  These are binary true false values.
- * String : This represents characters and letters.
+  * Number : Numerical data type(decimals, integers)
+  * Boolean :  These are binary true false values.
+  * String : This represents characters and letters.
  ***
 3.  **What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names?**
-  1. The name must begin with a `letter`, `$`, or `_`.
-  2. The name can contain `letters`, `$`, or `_`, but cannot contain `-` or `.`.
-  3. You cannot use `keywords` or `reserved` words that tell the interpreter to do something. IE `var`,`and`,`or` etc.
-  4. All variables are case sensitive so two of the same `variableName` can have a different variable meaning based on the `VariableName` capitalization.
-  5. Use a descriptive name for the kind of information that the variable stores.
-  6.  If a variableName has two words capatalize the second word or use an underscore between each word.
+	 1. The name must begin with a `letter`, `$`, or `_`.
+	 1. The name can contain `letters`, `$`, or `_`, but cannot contain `-` or `.`.
+	 1. You cannot use `keywords` or `reserved` words that tell the interpreter to do something. IE `var`,`and`,`or` etc.
+	 1. All variables are case sensitive so two of the same `variableName` can have a different variable meaning based on the `VariableName` capitalization.
+	 1. Use a descriptive name for the kind of information that the variable stores.
+	 1. If a variableName has two words capatalize the second word or use an underscore between each word.
   ***
 4.  **How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?**
  * Arrays are useful since they create a list of items, instead of creating multiple independent items that are similar it is useful to group these into an array for easy access.
@@ -29,8 +29,8 @@
  * Chaning an item in the array is as easy as using an assignment operator on the array index number. IE cars[2] = 'Mazda' would take the 3rd element in the cars[] array and change the value to 'Mazda'
  ***
 5.  **What is the difference between an expression and a statement?**
- 1. An expression can be used in any location a value is expected. This would be var numberOne=3, varNumberTwo=3+x, myfunc("a","b")
- 2. A statement performs an action. Loops and if statements perform an action, but do not have a value.
+	 1. An expression can be used in any location a value is expected. This would be var numberOne=3, varNumberTwo=3+x, myfunc("a","b")
+	 1. A statement performs an action. Loops and if statements perform an action, but do not have a value.
  ***
 6.  **What are three types of operators and how are they used?**
  * String: Performs modifications to strings.
