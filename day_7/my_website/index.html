@@ -1,28 +1,143 @@
-<!doctype html>sd
+<!doctype html>
 
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Preparing for DND</title>
+  <meta name="description" content="DND Dice Roll Weather">
+  <meta name="Erik Raith" content="SitePoint">
 
   <link rel="stylesheet" href="style.css">
-
+  <script src="scripts.js"></script>
 </head>
+<script src="scripts.js"></script>
 
 <body>
+  <!-- Scripts List-->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="scripts.js"></script>
+  <!-- Scripts List-->
   <div class="wrapper">
-    <div class="box header">Hdeasdder</div>
-    <div class="box sidebar">Sidebar</div>
-    <div class="box sidebar2">Sidebar 2</div>
-    <div class="box content">Content
-      <br /> More content than we had before so this column is now quite tall.</div>
-    <div class="box footer">Footer</div>
+    <div class="box header">
+      <h1>Prepare for Adventure!</h1>
+    </div>
+    <div class="box sidebar">
+      <h2>Choose a Class</h2>
+      <div class="col-75">
+        <p>
+          Choosing your class is a critical decision as you move forward on your way.
+        </p>
+
+      </div>
+      <div class="col-75">
+        <a href="https://www.dndbeyond.com/classes/wizard" target="_blank">
+          <i class="fas fa-hat-wizard" style='font-size:20px'>Wizard</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/bard" target="_blank">
+          <i class="fas fa-music" style='font-size:20px'>Bard</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/sorcerer" target="_blank">
+          <i class="fas fa-fire" style='font-size:20px'>Sorcerer</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/monk" target="_blank">
+          <i class="fas fa-fist-raised" style='font-size:20px'>Monk</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/warlock" target="_blank">
+          <i class="fas fa-pastafarianism" style='font-size:20px'>Warlock</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/paladin" target="_blank">
+          <i class="fas fa-utensil-spoon" style='font-size:20px'>Paladin</i>
+        </a>
+        <a href="https://www.dndbeyond.com/classes/cleric" target="_blank">
+          <i class="fas fa-heartbeat" style='font-size:20px'>Cleric</i>
+        </a>
+      </div>
+      <div class="col-75">
+        <p>
+          No matter what you choose, the friends you make on your path will help. Take a peak at some of the available classes below:
+        </p>
+      </div>
+    </div>
+    <div class="box sidebar2">
+      <h2>Roll the Dice!</h2>
+      <div class="col-265">
+        <p> A good adventure always has starts with a dice roll. Enter the number in the following form and hit the <b><em>"Roll the Number"</em></b> button to see the result!
+        </p>
+      </div>
+      <div class="col-650">
+
+        <fieldset>
+          <legend class="w-auto">Roll the Dice!</legend>
+
+          <ul>
+            <form onsubmit="dieRoll()">
+              <script src="scripts.js"></script>
+
+              First: How Many Sides?: <input type="dieSides" value=6 id="dieSides"><br>
+              Second: Roll! : <input type="submit" value="Roll The Die">
+            </form>
+
+
+          </ul>
+        </fieldset>
+      </div>
+    </div>
+    <div class="box content">
+      <h2>Create your Backstory</h2>
+      <div>
+      <img src="https://www.toplessrobot.com/wp-content/uploads/2009/04/adnd-cvr.jpg" width=25% alt="DND Players Handbook">
+      <p class="backstory"> A character's backstory in Dungeons and Dragons is where all the fun begins, think back to your favorite book, movie, orwellian podcast. This is your time to start your journey. You may start with a dis-respected sewer rat, but along your adventure some part of your core backstory evolves and you may just find that you have more good in you than originally thought.
+      </p>
+    </div>
+      <p>
+    <h3>A few questions to start with:</h3>
+<ul>
+
+
+<li>What is your character’s name?
+  <iframe width="420" height="345" src="https://www.youtube.com/embed/6JGp7Meg42U">
+</iframe>
+<li>How old is your character?
+<li>What would somebody see at first glance (i.e. height, weight, skin color, eye color, hair color, physique, race, and visible equipment)?
+<li>What additional attributes would be noticed upon meeting the character (i.e. Speech, mannerisms)?
+<li>Where was your character born? Where were you raised? By who?
+<li>Who are your parents? Are they alive? What do they do for a living?
+<li>Do you have any other family or friends?
+<li>What is your character’s marital status? Kids?
+<li>What is your character’s alignment?
+<li>What is your character’s moral code?
+<li>Does your character have goals?
+<li>What are your character’s personal beliefs?
+<li>Does your character have any personality quirks (i.e. anti-social, arrogant, optimistic, paranoid)?
+<li>Why does your character adventure?
+<li>How does your character view his/her role as an adventurer?
+<li>Does your character have any distinguishing marks (birth-marks, scars, deformities)?
+<li>How does your character get along with others?
+  <img src="https://s.yimg.com/ny/api/res/1.2/8Je9kW3WnO6OD5_FDe5EKA--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9MTAyMztoPTY4NDtpbD1wbGFuZQ--/http://media.zenfs.com/en_us/Movies/PhotoG/beauty-beast-1991-walt-disney-pictures-66679.jpg" class="questionImg" width="420">
+<li>Is there anything that your character hates?
+<li>Is there anything that your character fears?
+</ul>
+</p>
+    </div>
+
+
+    <div class="box footer">
+      <div class="ico">
+        <i class='fab fa-wizards-of-the-coast' style='font-size:50px'></i>
+      </div>
+      <div class="ico2">
+        <i class='fab fa-acquisitions-incorporated' style='font-size:50px'></i>
+      </div>
+      <div class="ico">
+        <i class='fab fa-d-and-d-beyond' style='font-size:50px'></i></div>
+    </div>
   </div>
+
 </body>
+<!-- used for reference color code
+<img src="https://visme.co/blog/wp-content/uploads/2016/09/website17.jpg" width=600px>
+-->
 
 </html>
