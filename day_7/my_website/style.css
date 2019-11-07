@@ -58,7 +58,7 @@ img.small {
   display: inline;
   }
 img.medium {
-  width: 500px;
+  width: 700px;
   height: 500px;
   display: inline;
   align: right;
@@ -70,10 +70,11 @@ li {
 /* divs */
 
 div.rockpane {
-  width: 90vw;
+  width: 800px;
+  padding: 15px;
   margin: 1.337;
+  background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
 }
 
 div.textbox {
@@ -94,12 +95,12 @@ div.footer{
 /* effects */
 
 .rockpane {
-  animation: shadey 6s linear infinite;
+  animation: shadey 16s linear infinite;
 }
 
 @keyframes shadey {
   50% {
-    background-color: black;
+    background-color: #8dfc92;
     }
 
     }
