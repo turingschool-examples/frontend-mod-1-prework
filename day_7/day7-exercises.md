@@ -1,36 +1,36 @@
 # Day 7 - User interface/User Experience
 
-##Psychology
+## Psychology
 
-###How much work does the user have to do to get what they want?
+### How much work does the user have to do to get what they want?
 Reddit is a great example of a website that understands what their users want and how to provide that want with as little work as possible.  Reddit, which is found at <www.reddit.com> knows that their users comes to the site for easily accessible entertainment across a wide variety of topics.  The users don't want to expend a lot of work into finding and browsing new content and they likely have short attention spans.  So reddit offers the content into a simple to use list of ranked things which get voted on by the users.  This ordered list is simple to scroll through and automatically opens up the next page of listed items when reaching the bottom of the page. Reddit makes it easy for users to immediately get an idea of what the topic of a post is as well as a general description of what it might include and the subject it relates to.  Viewers have to put in very little effort into discovering and accessing new content, and can quickly access one source of entertainment followed shortly by another.
 
 A website that I think does a poor job of minimizing the amount of work a user has to do is Pinterest at <www.pinterest.com>.  Every time I've done a Google search for something that produces some of its top listed results from Pinterest I access the site because it looks like it may be useful to what I am looking for.  But once I arrive at the site, the particular information I am looking for is blocked out by a screen stating that I must create an account to view the content.  I never want to put in that amount of work because I don't regularly visit the site, so I end up just leaving without obtaining what I wanted.
 
 
-##Usability
-###Could you get the job done with less input from the users?
+## Usability
+### Could you get the job done with less input from the users?
 
 An example of a website that does well at minimizing the input from the user is Amazon which can be found at <www.amazon.com>.  Amazon has spent years getting to know and understand the user experience which has an objective of making a purchase.  Amazon has simplified the amount of input required from users by helping them to easily set up and use one-click shopping where items can be purchased and shipped with just one click.  Users also have few inputs to worry about in browsing products because Amazon sets up pages so that products can be quickly viewed, compared, and accessed.  
 
 One website that stands out to me which could use improvement in this aspect is <www.breazy.com>.  This website sells products and juices for vaping.  When a website sells these types of goods, they must have the user verify that they are the required legal age to use those products.  While this is a common thing to encounter for these sites, Breazy has the issue of requiring the user to verify they are of legal age at many different points.  You have to do this when first visiting the site, whenever you add a product to your cart, when accessing the cart, and when making a purchase.  All of these verifications are the same thing which involves simply check marking the boxes, but forcing the user to repetitively do this can discourage them from using the site for their vaping needs.
 
-##Design
-###Does the design lead the user's eyes to the right places? How do you know?
+## Design
+### Does the design lead the user's eyes to the right places? How do you know?
 
 Google is an example of a company that really understands the role of design for their site <www.google.com>.  Google's search bar is incredibly simple with just the search bar and an image of Google's brand above it.  When users use this web search, Google provides them with a list of results that most closely match their search.  But since Google's objective in providing this service is to sell advertisements they need to know how they can use this service to redirect the user's eyes to the right places.  So over time, Google has slowly started putting their advertisements near the top of the search results page which force the user to notice the advertisements and sometimes even confuse that advertisement for a search result.
 
 A website that doesn't lead the user eyes to the right places is <https://slokratom.com/>.  This website sells a product called Kratom so their main objective is to make sales of their product.  To do this, they should do their best to make the product look desirable and for it to be the user's main focus.  But the layout of the website as you browse through the various pages uses a horrible color scheme of bright pink for some text and areas of the page, black background for the page itself, and neon green for clickable links/buttons.  This is a problematic design because the unusual color brings a lot of attention to areas of the webpage that aren't as important and it also has the effect of making the website look unprofessional and possibly untrustworthy.
 
-##Copywriting
-###Is it clear, direct, simple, and functional?
+## Copywriting
+### Is it clear, direct, simple, and functional?
 
 Yahoo fantasy football's website is a good example of this question and can be found at <https://football.fantasysports.yahoo.com/>.  This particular site is used to manage your fantasy football team which require tasks such as creating a league of friends to compete with, managing the roster of each person's team, and seeing the performance that your team has each week.  Completing each of these tasks has a clearly labeled button that guides you through completing your task.  When making changes to your roster or viewing the performance of your team, the areas where you do each of these tasks has a very intuitive layout where users can quickly identify how they go about making the necessary changes or where to look to learn how their team is performing in various categories.
 
 One website that could use improvement in this area in my opinion is <https://www.uchealth.org/access-my-health-connection/>.  This website is for the medical service providers and hospitals under the UC Health brand.  The user creates an account to have access to things such as their medical records, appointments, test results, or seeking out additional services.  Once you are logged into your account, it can become very confusing to figure out how to access and use the many services it offers.  For example, I couldn't find a directory that could provide me a list of different types of doctors and the contact information associated with them.  I had to use a confusing schedule an appointment function that didn't have the exact parameters I would use.  Test results and appointment results can be a little hard to locate and understand because there are so many different categories of these types of results and therefore there are multiple buttons that look like they could contain this information.  It has been becoming more direct, simple, and functional over time though as they are making dedicated efforts to improving these features.
 
-##Analysis
-###Are you using data to prove that you are right, or to learn the truth?
+## Analysis
+### Are you using data to prove that you are right, or to learn the truth?
 
 Facebook is a good example of a website that provides a lot data to backup their claims about their services products offered <www.facebook.com>.  Facebook's overall objective is to sell advertisement to businesses and in order to do this, they must demonstrate how their network achieves this goal.  For businesses that want to purchase advertisement, Facebook can show just how detailed their demographic data is and how it utilizes those demographic to produce effective targeted advertising.  Facebook backs up their claims of the impact their advertisement can have by offering data that shows the price of their services and the amount of reach that level of services achieves.  It has years of data that can back up how much their advertising has helped businesses in the past and can even break down the conversion of the return on investment that each dollar spent in advertising could achieve.
 
