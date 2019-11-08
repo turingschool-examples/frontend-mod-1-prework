@@ -12,7 +12,7 @@ An element that is used to link to another website uses the tags <a></a> and the
 
 #### What attribute should you include in a link to open a new tab when the link is clicked?
 
-In order to open a link in a new tab, you use the target attribute inside your '<a>' tag so it would be target="(underscore)blank".  This opens a link in either a new tab or a new window depending on what browser the user has.
+In order to open a link in a new tab, you use the target attribute inside your '<a>' tag so it would be target="\_blank".  This opens a link in either a new tab or a new window depending on what browser the user has.
 
 #### How do you link to a specific part of the same page?
 
