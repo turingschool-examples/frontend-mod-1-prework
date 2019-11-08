@@ -6,7 +6,7 @@ The attribute that controls the behavior of the input is the 'type' attribute wh
 
 #### What element is used to create a dropdown list?
 
-The element used to create a dropdown list is <select>
+The element used to create a dropdown list is \<select\>
 
 #### If you're using an input element to send form data to a server, what should the type attribute be set to?
 
