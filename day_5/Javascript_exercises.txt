@@ -1,0 +1,83 @@
+Exercises: Variables
+The Fortune Teller
+Why pay a fortune teller when you can just program your fortune yourself?
+
+Store the following into variables: number of children, partner's name, geographic location, job title.
+Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+var job = "pianist";
+var kids = 3;
+var name = "shrek";
+var place = "Norway";
+undefined
+var fortune = "You will be a " + job + " in " + place +
+", and married to " + name + " with " + kids + " kids. ";
+undefined
+fortune
+"You will be a pianist in Norway, and married to shrek with 3 kids. "
+kids = 17;
+17
+fortune
+"You will be a pianist in Norway, and married to shrek with 3 kids. "
+var kids = 17;
+undefined
+var job = "pianist";
+var kids = 17;
+var name = "shrek";
+var place = "Norway";
+undefined
+var fortune = "You will be a " + job + " in " + place +
+", and married to " + name + " with " + kids + " kids. ";
+undefined
+fortune
+"You will be a pianist in Norway, and married to shrek with 17 kids. "
+
+The Age Calculator
+Forgot how old you are? Calculate it!
+
+Store the current year in a variable.
+Store your birth year in a variable.
+Calculate your 2 possible ages based on the stored values.
+Output them to the screen like so: "You are either NN or NN", substituting the values.
+
+var currentYear = 2019
+undefined
+var birthYear = 1967
+undefined
+var older = currentYear - birthYear
+undefined
+older
+52
+var younger = older - 1
+undefined
+younger
+51
+undefined
+alert("You are either " + younger + " or " + older);
+undefined
+
+
+The Lifetime Supply Calculator
+Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+Store your current age into a variable.
+Store a maximum age into a variable.
+Store an estimated amount per day (as a number).
+Calculate how many you would eat total for the rest of your life.
+Output the result to the screen like so: "You will need NN to last you until the ripe old age of X".
+
+var age = 52
+undefined
+var max = 110
+undefined
+var amount = 5
+undefined
+var oreos = 5
+undefined
+var lifeSpan = max - age
+undefined
+var numoreosyear = oreos * 365
+undefined
+var totalOreos = numoreosyear * lifeSpan
+undefined
+alert("You will need " + totalOreos + " Oreos to last you until the ripe old age of " + max + ".");
+undefined
