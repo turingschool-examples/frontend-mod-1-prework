@@ -1,58 +1,62 @@
-body {background-image: url(Images/superhero-background-4321804_1920.jpg);
+body {
+  background-image: url(Images/superhero-background-4321804_1920.jpg);
   background-size: 100% 100%;;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-
 }
 .top{
   background-color: #fffdd0;
   border: solid;
-margin: 25px;
-float: none;
-width: 96%;
-text-align: center;
+  margin: 25px;
+  float: none;
+  width: 96%;
+  text-align: center;
 }
 .compass{
   background-color: #fffdd0;
   border: solid;
-margin: 25px;
-float: left;
-clear: none;
-width: 44%;
-padding:5px}
+  margin: 25px;
+  float: left;
+  clear: none;
+  width: 44%;
+  padding:5px;
+}
 .powers_ma_magic{
   background-color: #fffdd0;
   border: solid;
-margin: 25px;
-float: right;
-clear: none;
-width: 44%;
-padding:5px;}
+  margin: 25px;
+  float: right;
+  clear: none;
+  width: 44%;
+  padding:5px;
+}
 .origin{
   background-color: #fffdd0;
-border: solid;
-margin: 25px;
-float: left;
-clear: none;
-width: 44%;
-padding:5px}
+  border: solid;
+  margin: 25px;
+  float: left;
+  clear: none;
+  width: 44%;
+  padding:5px;
+}
 .costume{
   background-color: #fffdd0;
-border: solid;
-margin: 25px;
-float: right;
-clear: none;
-width: 44%;
-padding:5px;}
+  border: solid;
+  margin: 25px;
+  float: right;
+  clear: none;
+  width: 44%;
+  padding:5px;
+}
 .description{
   background-color: #fffdd0;
-border: solid;
-margin: 25px;
-float: right;
-clear: none;
-width: 44%;
-padding:5px;}
+  border: solid;
+  margin: 25px;
+  float: right;
+  clear: none;
+  width: 44%;
+  padding:5px;
+}
 .myhero{
   background-color: #fffdd0;
   border: solid;
@@ -63,16 +67,19 @@ padding:5px;}
   text-align: center;
   padding:5px;
 }
-.portrait{width: 85%;
-border: solid;}
+.portrait{
+  width: 85%;
+  border: solid;
+}
 .your_turn{
   background-color: #fffdd0;
-border: solid;
-margin: 25px;
-float: left;
-clear: none;
-width: 96%;
-padding:5px}
+  border: solid;
+  margin: 25px;
+  float: left;
+  clear: none;
+  width: 96%;
+  padding:5px;
+}
 .footer{
   opacity: 0;
   height: 250px;
@@ -81,26 +88,32 @@ padding:5px}
   float: left;
 }
 
-p, ul, .outputDiv, .hname, .hero_selection{
+p,
+ul,
+.outputDiv,
+.hname,
+.hero_selection{
   font-family: "Comic3","Times New Roman", serif;
 }
-p, ul{font-size:16px}
-h1{font-size: 300%}
-h2{font-size: 200%}
-h3{font-size: 175%}
-h1, h2, h3, legend {font-family: "Comic4", sans-serif;}
-@font-face {
-            font-family: 'Comic1';
-            src: url("fonts/comic_cover.ttf");}
-@font-face {
-            font-family: 'Comic2';
-            src: url("fonts/comiccity.ttf");}
-@font-face {
-            font-family: 'Comic3';
-            src: url("fonts/good-times/good_times_rg.ttf");}
-@font-face {
-            font-family: 'Comic4';
-            src: url("fonts/ninja-naruto/njnaruto.ttf");}
+p,
+ul{
+  font-size:16px;
+}
+h1{
+  font-size: 300%
+}
+h2{
+  font-size: 200%
+}
+h3{
+  font-size: 175%
+}
+h1,
+h2,
+h3,
+legend {
+  font-family: "Comic4", sans-serif;
+}
 .powers{
   background-image: url(Images/power.png);
   background-size: 100% 100%;
@@ -111,12 +124,13 @@ h1, h2, h3, legend {font-family: "Comic4", sans-serif;}
   text-align: center;
   margin: .5%;
   padding: 4.7%;
-
 }
-.links{height: 10%;
-margin:70px;
-float:left;
-width: 100%}
+.links{
+  height: 10%;
+  margin:70px;
+  float:left;
+  width: 100%;
+}
 .magic {
   background-image: url(Images/Magic.png);
   background-size: 100% 100%;
@@ -183,9 +197,7 @@ a:link{
   margin-top: 8.2px;
   margin-right: 2px;
   border-color:#BEBEBE;
-font-size: 30px
-
-
+  font-size: 30px
 }
 fieldset{
   width: 40%;
@@ -196,9 +208,27 @@ fieldset{
   float: left;
   font-family: "Comic1", sans-serif;
 }
+/* NOTE: Required by PNGtree for use of the images on the buttons didnt want visable */
 .artistCredit{
   opacity: 0;
   width: 0%;
   height: 0%;
   float:left;
+}
+/* NOTE: Fonts pathways for document. */
+@font-face {
+            font-family: 'Comic1';
+            src: url("fonts/comic_cover.ttf");
+}
+@font-face {
+            font-family: 'Comic2';
+            src: url("fonts/comiccity.ttf");
+}
+@font-face {
+            font-family: 'Comic3';
+            src: url("fonts/good-times/good_times_rg.ttf");
+}
+@font-face {
+            font-family: 'Comic4';
+            src: url("fonts/ninja-naruto/njnaruto.ttf");
 }
