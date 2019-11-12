@@ -4,192 +4,139 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.top{
+/* NOTE: box full width */
+.box_full {
   background-color: #fffdd0;
   border: solid;
   margin: 25px;
-  float: none;
+  float: left;
   width: 96%;
   text-align: center;
+  padding: 5px;
+  clear: none;
 }
-.compass{
+#footer{
+  margin-bottom: 275px;
+  padding-bottom: 25px;
+}
+/* NOTE: box_left */
+.box_left {
   background-color: #fffdd0;
   border: solid;
-  margin: 25px;
+  margin: 25px 12.5px 25px 25px;
   float: left;
   clear: none;
-  width: 44%;
+  width: 45%;
   padding:5px;
 }
-.powers_ma_magic{
+/* NOTE: box_right */
+.box_right {
   background-color: #fffdd0;
   border: solid;
-  margin: 25px;
+  margin: 25px 25px 25px 12.5px;
   float: right;
   clear: none;
-  width: 44%;
+  width: 45%;
   padding:5px;
 }
-.origin{
-  background-color: #fffdd0;
+/* NOTE: picture sizing & placement*/
+.portrait {
+  width: 86.9%;
   border: solid;
-  margin: 25px;
-  float: left;
-  clear: none;
-  width: 44%;
-  padding:5px;
 }
-.costume{
-  background-color: #fffdd0;
-  border: solid;
-  margin: 25px;
-  float: right;
-  clear: none;
-  width: 44%;
-  padding:5px;
-}
-.description{
-  background-color: #fffdd0;
-  border: solid;
-  margin: 25px;
-  float: right;
-  clear: none;
-  width: 44%;
-  padding:5px;
-}
-.myhero{
-  background-color: #fffdd0;
-  border: solid;
-  margin: 25px;
-  float: left;
-  clear: none;
-  width: 44%;
+#costume{
   text-align: center;
-  padding:5px;
 }
-.portrait{
-  width: 85%;
-  border: solid;
-}
-.your_turn{
-  background-color: #fffdd0;
-  border: solid;
-  margin: 25px;
+/* NOTE: h4 in p spaving */
+.inp{
+  margin: -10px 10px -10px 0px;
   float: left;
-  clear: none;
-  width: 96%;
-  padding:5px;
+  clear: right;
 }
-.footer{
-  opacity: 0;
-  height: 250px;
-  width: 100%;
-  background-size: 100% 100%;
-  float: left;
-}
-
+/* NOTE: text font */
 p,
 ul,
+h4,
 .outputDiv,
 .hname,
-.hero_selection{
+.hero_selection {
   font-family: "Comic3","Times New Roman", serif;
 }
-p,
-ul{
-  font-size:16px;
-}
-h1{
-  font-size: 300%
-}
-h2{
-  font-size: 200%
-}
-h3{
-  font-size: 175%
-}
+
 h1,
 h2,
 h3,
 legend {
   font-family: "Comic4", sans-serif;
 }
-.powers{
-  background-image: url(Images/power.png);
-  background-size: 100% 100%;
-  width: 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  text-align: center;
-  margin: .5%;
-  padding: 4.7%;
+/* NOTE: text sizes */
+p,
+ul {
+  font-size:16px;
 }
-.links{
+h1 {
+  font-size: 300%
+}
+h2 {
+  font-size: 200%
+}
+h3 {
+  font-size: 175%
+}
+h4{
+  font-size: 125%
+}
+/* NOTE: buttons at the bottom */
+.links {
   height: 10%;
-  margin:70px;
   float:left;
   width: 100%;
+  text-align: center;
 }
-.magic {
-  background-image: url(Images/Magic.png);
+.button {
   background-size: 100% 100%;
   width: 20%;
   height: 20%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   text-align: center;
-  margin: .5%;
+  margin: 1.5%;
+}
+#powers {
+  background-image: url(Images/power.png);
+  padding: 4.7%;
+}
+#magic {
+  background-image: url(Images/Magic.png);
   padding: 5%;
   padding-bottom: 3.5%;
 }
-.creator{
+#creator {
   background-image: url(Images/character_creator.png);
-  background-size: 100% 100%;
-  width: 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  text-align: center;
-  margin: .5%;
   padding: 4% 5% 5.5% 5%;
 }
-.ma{
+#ma {
   background-image: url(Images/ma.png);
-  background-size: 100% 100%;
-  width: 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  text-align: center;
-  margin: .5%;
   padding: 5%;
   padding-left: 4.5%
 }
-.hero_name{
+#hero_name {
   background-image: url(Images/name_generator.png);
-  background-size: 100% 100%;
-  width: 20%;
-  height: 20%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  text-align: center;
-  margin: .5%;
   padding: 5%;
   padding-top: 3.8%
 }
-a{
+a {
   font-family: "Comic2" ;
   font-size: 16px;
   text-decoration: none;
 }
-a:visited{
+a:visited {
   color: grey;
 }
-a:link{
+a:link {
   color:black;
 }
-.outputDiv{
+.outputDiv {
   float: right;
   border: 2px ridge;
   width: 55%;
@@ -199,21 +146,19 @@ a:link{
   border-color:#BEBEBE;
   font-size: 30px
 }
-fieldset{
+.heroheroine_type {
   width: 40%;
   clear:none;
   float: left;
 }
-.help{
+.help {
   float: left;
   font-family: "Comic1", sans-serif;
+  height: 50px;
 }
 /* NOTE: Required by PNGtree for use of the images on the buttons didnt want visable */
-.artistCredit{
+.artistCredit {
   opacity: 0;
-  width: 0%;
-  height: 0%;
-  float:left;
 }
 /* NOTE: Fonts pathways for document. */
 @font-face {
