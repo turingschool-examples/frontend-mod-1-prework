@@ -15,8 +15,8 @@ body {
   padding: 5px;
   clear: none;
 }
-#footer{
-  margin-bottom: 275px;
+.foot{
+  margin-bottom: 10%;
   padding-bottom: 25px;
 }
 /* NOTE: box_left */
@@ -102,28 +102,28 @@ h4{
   text-align: center;
   margin: 1.5%;
 }
-#powers {
-  background-image: url(Images/power.png);
-  padding: 4.7%;
-}
-#spells {
-  background-image: url(Images/Magic.png);
+.button:nth-child(1) {
+  background-image: url(Images/name_generator.png);
   padding: 5%;
-  padding-bottom: 3.5%;
+  padding-top: 3.8%
 }
-#creator {
+.button:nth-child(2) {
   background-image: url(Images/character_creator.png);
   padding: 4% 5% 5.5% 5%;
 }
-#ma {
+.button:nth-child(3) {
+  background-image: url(Images/power.png);
+  padding: 4.7%;
+}
+.button:nth-child(4) {
   background-image: url(Images/ma.png);
   padding: 5%;
   padding-left: 4.5%
 }
-#hero_name {
-  background-image: url(Images/name_generator.png);
+.button:nth-child(5) {
+  background-image: url(Images/Magic.png);
   padding: 5%;
-  padding-top: 3.8%
+  padding-bottom: 3.5%;
 }
 a {
   font-family: "Comic2" ;

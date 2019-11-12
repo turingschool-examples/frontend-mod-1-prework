@@ -1,6 +1,5 @@
 (function() {
   'use strict';
-  debugger;
 let button = document.getElementById("creation-button");
 let heroName = document.getElementById("hero-name");
 let output = document.getElementById("output-div");
