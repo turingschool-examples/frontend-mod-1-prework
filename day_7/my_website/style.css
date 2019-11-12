@@ -88,7 +88,7 @@ h4{
 }
 /* NOTE: buttons at the bottom */
 .links {
-  height: 10%;
+  height: 60px;
   float:left;
   width: 100%;
   text-align: center;
@@ -106,7 +106,7 @@ h4{
   background-image: url(Images/power.png);
   padding: 4.7%;
 }
-#magic {
+#spells {
   background-image: url(Images/Magic.png);
   padding: 5%;
   padding-bottom: 3.5%;
@@ -159,6 +159,7 @@ a:link {
 /* NOTE: Required by PNGtree for use of the images on the buttons didnt want visable */
 .artistCredit {
   opacity: 0;
+  float: left;
 }
 /* NOTE: Fonts pathways for document. */
 @font-face {
