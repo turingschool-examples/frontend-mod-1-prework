@@ -1,9 +1,11 @@
 body {
   background-image: url(Images/superhero-background-4321804_1920.jpg);
-  background-size: 100% 100%;;
+  background-size: 100% 100%;
+  ;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 /* NOTE: box full width */
 .box_full {
   background-color: #fffdd0;
@@ -15,10 +17,12 @@ body {
   padding: 5px;
   clear: none;
 }
-.foot{
+
+.foot {
   margin-bottom: 10%;
   padding-bottom: 25px;
 }
+
 /* NOTE: box_left */
 .box_left {
   background-color: #fffdd0;
@@ -27,8 +31,9 @@ body {
   float: left;
   clear: none;
   width: 45%;
-  padding:5px;
+  padding: 5px;
 }
+
 /* NOTE: box_right */
 .box_right {
   background-color: #fffdd0;
@@ -37,22 +42,26 @@ body {
   float: right;
   clear: none;
   width: 45%;
-  padding:5px;
+  padding: 5px;
 }
+
 /* NOTE: picture sizing & placement*/
 .portrait {
   width: 86.9%;
   border: solid;
 }
-#costume{
+
+#costume {
   text-align: center;
 }
+
 /* NOTE: h4 in p spaving */
-.inp{
+.inp {
   margin: -10px 10px -10px 0px;
   float: left;
   clear: right;
 }
+
 /* NOTE: text font */
 p,
 ul,
@@ -60,7 +69,7 @@ h4,
 .outputDiv,
 .hname,
 .hero_selection {
-  font-family: "Comic3","Times New Roman", serif;
+  font-family: "Comic3", "Times New Roman", serif;
 }
 
 h1,
@@ -69,30 +78,37 @@ h3,
 legend {
   font-family: "Comic4", sans-serif;
 }
+
 /* NOTE: text sizes */
 p,
 ul {
-  font-size:16px;
+  font-size: 16px;
 }
+
 h1 {
   font-size: 300%
 }
+
 h2 {
   font-size: 200%
 }
+
 h3 {
   font-size: 175%
 }
-h4{
+
+h4 {
   font-size: 125%
 }
+
 /* NOTE: buttons at the bottom */
 .links {
   height: 60px;
-  float:left;
+  float: left;
   width: 100%;
   text-align: center;
 }
+
 .button {
   background-size: 100% 100%;
   width: 20%;
@@ -102,40 +118,49 @@ h4{
   text-align: center;
   margin: 1.5%;
 }
+
 .button:nth-child(1) {
   background-image: url(Images/name_generator.png);
   padding: 5%;
   padding-top: 3.8%
 }
+
 .button:nth-child(2) {
   background-image: url(Images/character_creator.png);
   padding: 4% 5% 5.5% 5%;
 }
+
 .button:nth-child(3) {
   background-image: url(Images/power.png);
   padding: 4.7%;
 }
+
 .button:nth-child(4) {
   background-image: url(Images/ma.png);
   padding: 5%;
   padding-left: 4.5%
 }
+
 .button:nth-child(5) {
   background-image: url(Images/Magic.png);
   padding: 5%;
   padding-bottom: 3.5%;
 }
+
 a {
-  font-family: "Comic2" ;
+  font-family: "Comic2";
   font-size: 16px;
   text-decoration: none;
 }
+
 a:visited {
   color: grey;
 }
+
 a:link {
-  color:black;
+  color: black;
 }
+
 .outputDiv {
   float: right;
   border: 2px ridge;
@@ -143,38 +168,45 @@ a:link {
   height: 43px;
   margin-top: 8.2px;
   margin-right: 2px;
-  border-color:#BEBEBE;
+  border-color: #BEBEBE;
   font-size: 30px
 }
+
 .heroheroine_type {
   width: 40%;
-  clear:none;
+  clear: none;
   float: left;
 }
+
 .help {
   float: left;
   font-family: "Comic1", sans-serif;
   height: 50px;
 }
+
 /* NOTE: Required by PNGtree for use of the images on the buttons didnt want visable */
 .artistCredit {
   opacity: 0;
   float: left;
 }
+
 /* NOTE: Fonts pathways for document. */
 @font-face {
-            font-family: 'Comic1';
-            src: url("fonts/comic_cover.ttf");
+  font-family: 'Comic1';
+  src: url("fonts/comic_cover.ttf");
 }
+
 @font-face {
-            font-family: 'Comic2';
-            src: url("fonts/comiccity.ttf");
+  font-family: 'Comic2';
+  src: url("fonts/comiccity.ttf");
 }
+
 @font-face {
-            font-family: 'Comic3';
-            src: url("fonts/good-times/good_times_rg.ttf");
+  font-family: 'Comic3';
+  src: url("fonts/good-times/good_times_rg.ttf");
 }
+
 @font-face {
-            font-family: 'Comic4';
-            src: url("fonts/ninja-naruto/njnaruto.ttf");
+  font-family: 'Comic4';
+  src: url("fonts/ninja-naruto/njnaruto.ttf");
 }
