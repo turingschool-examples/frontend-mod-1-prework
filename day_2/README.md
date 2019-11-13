@@ -40,6 +40,9 @@
   *   Make your headings a serif font, and make the paragraph text a sans-serif font.
   *   Change a snippet of paragraph text to be italic using the font-style property (do not use the `<i></i>` in this case).
 
+  LINK to my CODEPen work:
+  https://codepen.io/infamouskeyduster/pen/MWWoaOG
+
 ## For later: Something for Show-and-Tell
 
   You've notice that we've been building on the same "pen" throughout the mod 0 capstone so far. On day 7, you will spend the day building a completely new site using Atom (not CodePen). You'll take what you've learned throughout days 1-6 and apply it to a completely new webpage. During the first couple days of class, you'll share what you've made on day 7 with your cohort. Just something to keep in mind over these next few days!
