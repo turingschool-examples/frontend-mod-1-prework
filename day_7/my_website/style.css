@@ -51,7 +51,7 @@ body {
   border: solid;
 }
 
-#costume {
+.costume {
   text-align: center;
 }
 
@@ -111,40 +111,49 @@ h4 {
 
 .button {
   background-size: 100% 100%;
-  width: 20%;
-  height: 20%;
+  width: 7%;
+  height: 5%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   text-align: center;
-  margin: 1.5%;
+  margin: .5%;
+  clear: right;
+  float: left;
+  margin-top:-50px;
+  font-size: 1.2vw
 }
 
+/* NOTE: name_generator */
 .button:nth-child(1) {
   background-image: url(Images/name_generator.png);
-  padding: 5%;
-  padding-top: 3.8%
+  padding: 6.3%;
+  padding-top: 2.5%
 }
 
+/* NOTE: creator */
 .button:nth-child(2) {
   background-image: url(Images/character_creator.png);
-  padding: 4% 5% 5.5% 5%;
+  padding: 3% 5% 6.9% 5%;
 }
 
+/* NOTE: power */
 .button:nth-child(3) {
   background-image: url(Images/power.png);
-  padding: 4.7%;
+  padding: 4% 5% 5%;
 }
 
+/* NOTE: martial_artist */
 .button:nth-child(4) {
   background-image: url(Images/ma.png);
-  padding: 5%;
-  padding-left: 4.5%
+  padding: 4% 6% 5% 5%;
 }
 
+/* NOTE: magic */
 .button:nth-child(5) {
   background-image: url(Images/Magic.png);
   padding: 5%;
-  padding-bottom: 3.5%;
+  padding-bottom: 4%;
+  padding-left:6%
 }
 
 a {
@@ -154,7 +163,7 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: #ed4407;
 }
 
 a:link {
@@ -209,4 +218,11 @@ a:link {
 @font-face {
   font-family: 'Comic4';
   src: url("fonts/ninja-naruto/njnaruto.ttf");
+}
+
+@media(max-width: 650px) {
+  .button {
+    float: none;
+    clear: none;
+  }
 }

@@ -135,7 +135,7 @@
         </p>
       </div>
       <!-- NOTE: Costume Image -->
-      <div class="box_left" id="Costume">
+      <div class="box_left costume">
         <p>Costume:<br />
           <img class="portrait" src="Images/the_scarlet_guard.png" alt="Strong man in a red and crimson costume in a dojo with a brick wall and a staff leaning up against it."><br />
         </p>
@@ -147,17 +147,17 @@
       <form id="jsinput" name="hero_type" enctype="multipart/form-data">
         <fieldset class="heroheroine_type">
           <legend class="legend">Hero/Heroine Type!</legend>
-          <input class="hname" type="text" id="hname" placeholder="Hero Name">
+          <input class="hname" type="text" id="hero-name" placeholder="Hero Name">
           <select class="hero_selection" id="hero_type" name="Hero type">
-            <option value="Select Type" name="select_type">Select hero type</option>
+            <option value="" name="select_type" disabled selected hidden>Select hero type</option>
             <option id="power" name="hero/heroine_type" value="Power" checked="checked" <b>Power</b> </option>
             <option id="martial_artist" name="hero/heroine_type" value="Martial Artist"><b>Martial Artist</b></option>
             <option id="magic" name="hero/heroine_type" value="Magic"><b>Magic</b></option>
           </select>
-          <input type="submit" name="To The Rescue" value="To The Rescue" id="creation-button" />
+          <input disabled=true type="submit" name="To The Rescue" value="To The Rescue" id="creation-button" />
         </fieldset>
       </form>
-      <div class="outputDiv" id="outputDiv">
+      <div class="outputDiv" id="output-div">
       </div>
       <h3 class="help">If you Need Help:</h3>
       <div class="links">
