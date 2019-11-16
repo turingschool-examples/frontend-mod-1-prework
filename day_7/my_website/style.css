@@ -6,7 +6,7 @@ body {
   text-align: center;
   list-style-position: inside;
   box-sizing: border-box;
-  background-image: url("img/cooking.jpg");
+  background-image: url("img/main_page/cooking.jpg");
 }
 
 header {
@@ -101,24 +101,24 @@ footer nav a {
 }
 
 .drink_content {
-  background-image: url("img/drinks.jpg");
+  background-image: url("img/drinks/drinks.jpg");
 }
 
 .breakfast_content {
-  background-image: url("img/breakfast.jpg");
+  background-image: url("img/breakfast/breakfast.jpg");
 }
 
 .sides_content {
-  background-image: url("img/sides.jpg");
+  background-image: url("img/sides/sides.jpg");
 }
 
 .dinner_content {
-  background-image: url("img/dinner.jpg");
+  background-image: url("img/dinner/dinner.jpg");
 
 }
 
 .dessert_content {
-  background-image: url("img/dessert.jpg");
+  background-image: url("img/sweets/dessert.jpg");
 }
 
 .boarder_box {
