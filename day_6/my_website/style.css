@@ -1,0 +1,46 @@
+.main-heading {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Vollkorn SC', serif;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Vollkorn SC', serif;
+}
+
+p, ul {
+  font-size: 15px;
+}
+input {
+  font-size: 10px;
+}
+
+.owl {
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px 2px #e9ecef;
+  width: 900px;
+  vertical-align: top;
+}
+.info-section {
+  display: inline-block;
+  width: 300px;
+  margin: 0 25px;
+  background: #85F5F9;
+  padding: 15px;
+  text-align: left;
+  overflow: scroll;
+  max-height: 500px;
+}
+.more-info {
+  text-align: center;
+}
+.email {
+  text-align: center;
+}
+.info-wrapper {
+  text-align: center;
+}
+
+.habitat-heading {
+  margin-top: 0;
+}
