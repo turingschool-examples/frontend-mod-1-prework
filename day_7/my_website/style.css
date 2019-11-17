@@ -133,8 +133,9 @@ a:hover{
   height: 60px;
 }
 
-#contact {
-  margin-top: 45px;
+.contact {
+  display: inline-block;
+  bottom: 50px;
 }
 
 footer {
@@ -154,3 +155,152 @@ footer {
   font-size: 18px;
   border-radius: 4px;
 }
+
+.ill-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.illustration {
+  padding: 0px;
+  height: 300px;
+  display: inline-block;
+  width: 50%;
+  z-index: 0;
+}
+
+.dog {
+  background-color: #d9a673;
+  height: 75px;
+  width: 120px;
+  position: relative;
+  border-radius: 0px 0px 50px 120px;
+}
+ .body{
+  height: 150px;
+  width: 250px;
+  position: relative;
+  top: 40px;
+  left: 80px;
+  border-radius: 20% 0 0 60%;
+  background: linear-gradient(#523f2c 20%, #d9a673 80%);
+  z-index: -1;
+ }
+
+ .stomach {
+  background-color: #ededed;
+  height: 75px;
+  width: 125px;
+  position: relative;
+  bottom: 35px;
+  left: 80px;
+  border-radius: 0 40% 0 120%;
+  z-index: 1;
+ }
+
+ .leg1, .leg2, .leg3, .leg4 {
+   background-color: #d9a673;
+   height: 90px;
+   width: 30px;
+   position: relative;
+ }
+
+ .leg1{
+   left: 150px;
+   bottom: 50px;
+ }
+
+ .leg2{
+   left: 185px;
+   bottom: 140px;
+ }
+
+ .leg3{
+   left: 265px;
+   bottom: 230px;
+ }
+
+ .leg4{
+   left: 300px;
+   bottom: 320px;
+ }
+
+ .foot1, .foot2, .foot3, .foot4{
+   width: 30px;
+   height: 30px;
+   background-color: #ededed;
+   position: relative;
+ }
+
+ .foot1 {
+   left: 150px;
+   bottom: 350px;
+ }
+
+ .foot2 {
+   left: 185px;
+   bottom: 380px;
+ }
+
+ .foot3 {
+   left: 265px;
+   bottom: 410px;
+ }
+
+ .foot4 {
+   left: 300px;
+   bottom: 440px;
+ }
+
+ .tail {
+   width: 0;
+   height: 0;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 100px solid #523f2c;
+   position: relative;
+   bottom: 750px;
+   left: 310px;
+   transform: rotate(40deg);
+   transform-origin: bottom;
+   animation: wag .5s infinite;
+ }
+
+ @keyframes wag{
+   50%{
+     transform: rotate(10deg);
+   }
+ }
+
+ .ear {
+   width: 30px;
+   height: 55px;
+   background-color: #b88d63;
+   border-radius: 0 0 30% 30%;
+   position: relative;
+   bottom: 805px;
+   left: 90px;
+   background: linear-gradient(90deg, #523f2c, #b88d63 50%, #ffcc99 90%)
+ }
+
+ .nose {
+   width: 15px;
+   height: 15px;
+   border-radius: 50% 50% 50% 50%;
+   background-color: black;
+   position: relative;
+   bottom: 865px;
+   left: -5px;
+ }
+
+ .eye {
+   width: 10px;
+   height: 10px;
+   border-radius: 50% 50% 50% 50%;
+   background-color: black;
+   position: relative;
+   bottom: 860px;
+   left: 60px;
+ }
