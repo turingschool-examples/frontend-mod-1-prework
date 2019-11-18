@@ -83,6 +83,7 @@ img.center {
   border-width: thick;
   border-style: solid;
   margin-bottom: 20px;
+  border-radius: 7px;
 
 }
 
@@ -92,7 +93,8 @@ img.medium {
   border-color:white;
   border-width: medium;
   border-style: solid;
-  padding-right: 50px;
+  border-radius: 7px;
+  margin-left: 30px;
 
 }
 
@@ -102,6 +104,7 @@ img.JVN {
   height: 300px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
 }
 
 div.poll {
