@@ -265,14 +265,8 @@ footer {
    left: 310px;
    transform: rotate(40deg);
    transform-origin: bottom;
-   animation: wag .5s infinite;
  }
 
- @keyframes wag{
-   50%{
-     transform: rotate(10deg);
-   }
- }
 
  .ear {
    width: 30px;
