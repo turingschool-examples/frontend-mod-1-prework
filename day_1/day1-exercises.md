@@ -47,5 +47,7 @@ Semantic markup is a text element that is not intended to affect the structure o
 1. The `<header>` element specifies a header for a document or section. It displays introductory content.
 
 View my CodePen: [Why I'm Learning Web Development](https://codepen.io/mdelarosa/pen/MWWzXYZ)
+
 Another [CodePen](https://codepen.io/mdelarosa/pen/bvPzKY) I created during TryCoding event in April 2018
+
 Try Coding [Vending Machine Example](https://codepen.io/mdelarosa/pen/MVMMXW)
