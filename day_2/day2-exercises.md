@@ -13,7 +13,7 @@ Definition lists are made up of a set of terms.
 <a href="http://www.google.com">Google</a>
 
 
-<a href="website address for google">Google</a>
+<a href="website address for google">   </a>
 
 ### 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
