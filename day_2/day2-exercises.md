@@ -1,12 +1,19 @@
 ### 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
-..* Ordered lists are lists where each item is listed in numbered order.
-..* Unordered lists are displayed in list form without a numbered structure. They are displayed with bullet points.
-..* Definition lists are made up of a set of terms.
+Ordered lists are lists where each item is listed in numbered order.
+
+
+Unordered lists are displayed in list form without a numbered structure. They are displayed with bullet points.
+
+
+Definition lists are made up of a set of terms.
 
 ### 2. What is the basic structure of an element used to link to another website?
 
 <a href="http://www.google.com">Google</a>
+
+
+<a href="website address for google">Google</a>
 
 ### 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
@@ -49,12 +56,20 @@ Hue, Saturation, and Lightness.
 
 ### 8. In the world of typeface, what are the three main categories of fonts? What are the differences between them?
 
-Serif - Serif fonts have extra detail on the ends of the letters.  Lie feet!
+Serif - Serif fonts have extra detail on the ends of the letters.  Like feet!
+
+
 Sans-Serif - San-Serif fonts have straight ends to their letters.
+
+
 Monospace - Monospace fonts have the same width.
 
 ### 9. When specifying font-size, what are the main three units used?
 
 Pixels
+
+
 Percentages
+
+
 EMS
