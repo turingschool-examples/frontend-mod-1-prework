@@ -5,7 +5,7 @@ The purpose of HTML is to allow users to format their website so that it is easi
 **2 What is the difference between an element and a tag?**
 An element is the opening tag, the closing tag and all of the info between the two tags. A tag opens or closes an element. (`<p>`, `<body>`)
 
-**3. Why do we use attributes in HTML elements?*
+**3. Why do we use attributes in HTML elements?**
 We use attributes to provide extra information about the elements contents.
 
 **4 Describe the purpose of the head, title, and body HTML elements.**
@@ -35,5 +35,5 @@ Semantic markup shares information about the page as opposed to changing the lay
 * The `<nav>` element is used to contain major navigational blocks on a site. It is not used for things like links to related posts.
 * The `<header>` & `<footer>` elements are used to create the main header or footer that are on the top and bottom of every page on the site.  
 
-**Codepen Project**
+**Codepen Project:**
 https://codepen.io/joehaefling/pen/OJPbjzg
