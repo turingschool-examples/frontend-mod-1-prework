@@ -11,7 +11,7 @@ To link to another page you use an opening and closing `<a>` tag and set the `hr
 You would use the "target" attribute to open a new tab when the link is clicked. The target attribute is typically set to `"_blank"` and it is good practice to let the user know that a new tab will be opened.
 
 1. **How do you link to a specific part of the same page?**
-To link to a specific part of the same page you would use the `"*id*"` attribute to name the specific part of the page that you would like to link to. When it's time to create the actual link you assign the value of `"href"` hashtag (ID defined earlier).
+To link to a specific part of the same page you would use the `"id"` attribute to name the specific part of the page that you would like to link to. When it's time to create the actual link you assign the value of `"href"` hashtag (ID defined earlier).
 `<a href= "#top">Back to Top</a>`
 
 1. **What is the purpose of CSS?**
@@ -54,6 +54,6 @@ The three main categories of fonts are :
 
 1. **When specifying font-size, what are the main three units used?**
 When specifying font size the main units that are used are:
-- *Pixels* pixels allow you precise control over the font size.
+- *Pixels* allows you precise control over the font size.
 - *Percentages* will adjust the size of the font based on the percentage of the default size.
 - *ems* adjust the size of the font based on the width of the letter m.
