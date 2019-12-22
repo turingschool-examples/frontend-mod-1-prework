@@ -36,7 +36,7 @@ An element that does not have an opening and closing tag. Like line breaks and H
 
 8. What is semantic markup?
 
-Elements not used solely for the purpose of presentation, instead semantic markup provides more in depth meaning to the data wrapped in a semantic markup. <strong> and <em> are examples of semantic markups.
+Elements not used solely for the purpose of presentation, instead semantic markup provides more in depth meaning to the data wrapped in a semantic markup. ```<strong>``` and ```<em>``` are examples of semantic markups.
 
 9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 
