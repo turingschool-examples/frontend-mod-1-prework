@@ -6,7 +6,7 @@ Definition- Similar to this list explaining the answer. Ordered, unordered, and 
 
 2. What is the basic structure of an element used to link to another website?
 
-<a href="example website url">Title of website</a>
+```<a href="example website url">Title of website</a>```
 
 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
@@ -14,7 +14,7 @@ href= " ". Inserting the url within the quotation marks will send the user to th
 
 4. How do you link to a specific part of the same page?
 
-To link to a specific part of the page <b>(that is already defined)</b>, you can just use the relative url. For example, if you have a page (http://www.example.org) with multiple files located within (.../example1.html, example2.html, example3.html) you can simply type <a href="example2.html"></a> in the code to navigate to an exact part of the page when clicked.
+To link to a specific part of the page <b>(that is already defined)</b>, you can just use the relative url. For example, if you have a page (http://www.example.org) with multiple files located within (.../example1.html, example2.html, example3.html) you can simply type ```<a href="example2.html"></a>``` in the code to navigate to an exact part of the page when clicked.
 
 5. What is the purpose of CSS?
 
@@ -30,7 +30,7 @@ A CSS rule will have 2 basic elements: A selector, which is a defined element yo
 
 8. How do you link a CSS stylesheet to your HTML document?
 
-By using the <link> command. An example of a linked CSS stylesheet could look like <link href="css/styles.css" type="text/css" rel="stylesheet" />. This has 3 parts; the href tells where to grab the information from, type describes the category that is being linked, and rel defines how HTML interacts with the link.
+By using the ```<link>``` command. An example of a linked CSS stylesheet could look like ```<link href="css/styles.css" type="text/css" rel="stylesheet" />```. This has 3 parts; the href tells where to grab the information from, type describes the category that is being linked, and rel defines how HTML interacts with the link.
 
 9. When is it useful to use external stylesheets as opposed to using interal CSS?
 
