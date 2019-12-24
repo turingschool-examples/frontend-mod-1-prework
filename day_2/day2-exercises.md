@@ -10,9 +10,9 @@
 
 <a href="http://www.google.com">Google</a>
 
-
-* <a href="website address for google">   </a>
-
+```
+<a href="http://www.google.com">Google</a>
+```
 ### 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
 You should be using the target attribute.
