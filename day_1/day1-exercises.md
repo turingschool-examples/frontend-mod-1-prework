@@ -40,9 +40,9 @@ Semantic markup is used to provide additional information, meaning, and clarity.
 
 ## What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 
-<header>
-<article>
-<nav>
+* header
+* article
+* nav 
 
 
 https://codepen.io/hborrego/pen/KKwNXXO
