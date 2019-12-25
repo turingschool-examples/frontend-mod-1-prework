@@ -19,4 +19,7 @@
 
 8) A semantic markup is a style of markup used to provide extra information to certain text that appears on your page. This extra information can be used by other programs such as screen readers and search engines. Some examples of when to use semantic markup would be when placing emphasis in a sentence, noting that something is a quotation, the meaning of an acronym, etc. This type of markup is not intended to affect the structure of a web page.
 
-9)  
+9)  The new semantic elements introduced in HTML 5 are:
+    - The header now sits in a new <header> element instead of <div id="header"
+    - In addition to the new header element there is also the <footer> element as well. Where as the <header> element is used to contain the site name and the main navigation, the <footer> element contains the copyright information.
+    - Another new element introduced is the <nav> or navigation element. This is used to contain the major navigational blocks on a site.
