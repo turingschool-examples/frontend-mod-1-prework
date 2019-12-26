@@ -6,7 +6,7 @@ The type attribute controls the behavior of the form.
 - `<input type = "radio">`
 - `<input type = "checkbox"`
 
-1. ** What element is used to create a dropdown list?**
+1. **What element is used to create a dropdown list?**
 To create a dropdown list you would use the `<select>` element along with the `<option>` element.
 `<select name = "dropdown">
  <option value = "option1">option1</option>
