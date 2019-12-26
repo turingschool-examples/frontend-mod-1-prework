@@ -6,21 +6,21 @@ The type attribute controls the behavior of the form.
 - `<input type = "radio">`
 - `<input type = "checkbox"`
 
-1. **What element is used to create a dropdown list?**
+2. **What element is used to create a dropdown list?**
 To create a dropdown list you would use the `<select>` element along with the `<option>` element.
 `<select name = "dropdown">
  <option value = "option1">option1</option>
  <option value = "option2">option1</option>
 </select>`
 
-1. **If you're using an input element to send form data to a server, what should the type attribute be set to?**
+3. **If you're using an input element to send form data to a server, what should the type attribute be set to?**
 The type attribute should be set to the type of form control that you would like to present to the user.
 - `type = "checkbox"`
 - `type = "text"`
 - `type = "password"`
 
-1. **What element is used to group similar form items together?**
-The `<fieldset` attribute is used to group similar form items together it is used along with the `<legend>` attribute. The `<legend>`
+4. **What element is used to group similar form items together?**
+The `<fieldset>` attribute is used to group similar form items together it is used along with the `<legend>` attribute. The `<legend>`
 attribute which allows you to identify the purpose of those form controls.
 
 # Chapter 13 & 15 Questions
