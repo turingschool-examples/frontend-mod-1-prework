@@ -5,12 +5,10 @@ The method attribute basically  determines how the information input in the form
 2. What element is used to create a dropdown list?
 
 The <select> element, an example of how this would like like is:
-```
 <select name="examples">
   <option value="example1">Example1</option>
   <option value="example2">Example2</option>
   <option value="example3">Example3</option>
-```  
   
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
