@@ -1,3 +1,5 @@
+https://codepen.io/attom2/pen/wvBqWbY
+
 1.  On a website, what is the purpose of HTML code?
 HTML code allows the user to create the structure of a website and content. It acts like a skeleton that you can change and add information.
 2.  What is the difference between an element and a tag?
