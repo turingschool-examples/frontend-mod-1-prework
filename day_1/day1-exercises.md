@@ -16,15 +16,15 @@ The head element provides information about the page that you don't want shown i
 ## 5. In your browser (Chrome), how do you view the source of a website?
 Go to the View menu in your browser and then hover over the Developer option, which will give you the View Source option. A new window will open with the source code.
 
-## 6. List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
-+ <b> </b> is a bold element
-+ <i> </i> is an italic element
-+ <sup> </sup> is a superscript element. For example raising something to the second power.
-+ <br /> is the line break element
-+ <hr /> is the horizontal rule element
+## 6. List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.
++ `<b> </b>` is a bold element
++ `<i> </i>` is an italic element
++ `<sup> </sup>` is a superscript element. For example raising something to the second power.
++ `<br />` is the line break element
++ `<hr />` is the horizontal rule element
 
 ## 7. What are empty elements?
-Elements that don't have any words between the opening and closing tags, such as the <br /> element.
+Elements that don't have any words between the opening and closing tags, such as the `<br />` element.
 
 ## 8. What is semantic markup?
 Semantic markup isn't intended to affect the structure of your web page, but they add extra information to the page. It's less about the aesthetic output and more about giving additional information for a search engine, for example.
