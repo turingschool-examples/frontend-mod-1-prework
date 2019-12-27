@@ -5,10 +5,11 @@ The method attribute basically  determines how the information input in the form
 2. What element is used to create a dropdown list?
 
 The <select> element, an example of how this would like like is:
-```<select name="examples">
+
+<select name="examples">
   <option value="example1">Example1</option>
   <option value="example2">Example2</option>
-  <option value="example3">Example3</option>```
+  <option value="example3">Example3</option>
   
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
@@ -17,7 +18,7 @@ Submit, this will have 3 elements to it: First, you need to set the input type t
 
 4. What element is used to group similar form items together?
 
-The ```<fieldset>``` element will group similar items within a form together. This can be helpful for large forms as it can break larger tasks down into more manageable groupings.
+The <fieldset> element will group similar items within a form together. This can be helpful for large forms as it can break larger tasks down into more manageable groupings.
 
 5. Describe the differences between border, margin, and padding.
 
