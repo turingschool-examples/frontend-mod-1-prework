@@ -31,9 +31,9 @@ Semantic markup isn't intended to affect the structure of your web page, but the
 
 ## 9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 The following help describe the structure of the page and make the code easier to follow and read.
-+ <header>
-+ <article>
-+ <nav>
++ `<header>`
++ `<article>`
++ `<nav>`
 
 ## Codepen
 Link: https://codepen.io/allyjarjour/pen/RwNZRbR
