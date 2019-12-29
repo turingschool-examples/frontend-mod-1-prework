@@ -8,13 +8,13 @@
 <dd>A list of items followed by their definition; </dd>
 </dl>
 2.  What is the basic structure of an element used to link to another website?
-<br /> Hypertext links are put in `<a> </a>` tags, where the URL is put into the opening tag in the form of  `<a href= "http://imdb.com">`
+<br /> Hypertext links are put in a tags, where the URL is put into the opening tag in the form of  a href= ""
+
 3.  What attribute should you include in a link to open a new tab when the link is clicked?
 <br /> You should include the absolute URL containing the entire web address.
 4.  How do you link to a specific part of the same page?
 <br /> You include the relative URL since the domain name is shared.
-<hr />
-<ol>
+*****
 1.  What is the purpose of CSS?
 <br />CSS is an easy way to change the look of a webpage using the same information on HTML.
 2.  What does CSS stand for? What does cascading mean in this case?
@@ -35,4 +35,4 @@
 <br /> Monospace: every letter has a fixed-width, making code align easily
 9.  When specifying font-size, what are the main three units used?
 <br /> Pixels, Percentage, and EMS.
-</ol>
+
