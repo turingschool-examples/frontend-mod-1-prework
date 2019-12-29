@@ -17,6 +17,7 @@ Answer these questions about the reading in your `day4-exercises.md` file:
 Answer these questions about the reading in your `day4-exercises.md` file:
 
 1.  What is the benefit of specifying the height and width of images in CSS compared to specifying in the HTML?
+
 2.  What is an image sprite, and why is it useful?
 
 Continue working with the page you created in CodePen, and add a couple relevant images to your paragraph text.
