@@ -3,7 +3,7 @@
 <br />
 
 
-1.    #### There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?<br />
+1. #### There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?<br />
     **Ordered lists** are when a list must follow a specific order, the list is numbered 1, 2, 3(can use letter or roman numerals with an added type attribute).
     **Unordered lists** are marked with bullet points because the order it comes in isn't critical, it can be random order. Can also change bullet point style with an added type attribute. **Definition lists** is when you have terms(dt) and definitions(dd) of those terms that you want to list. These are shown by indentation rather than bullet or numbered list.  
 
@@ -66,4 +66,3 @@ It's a 6 digit code that represents the amount of red, green and blue in a color
   **EMS,** an em is equivalent to the letter m.
   <hr />
   CODEPEN UPDATE: https://codepen.io/stephlsohns/pen/ZEYeXEq
-  
