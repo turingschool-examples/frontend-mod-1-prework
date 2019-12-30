@@ -1,3 +1,5 @@
+# JavaScript & JQuery Chapter 2 Questions
+
 1. **How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript?**
 
 
