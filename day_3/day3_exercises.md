@@ -16,7 +16,7 @@ Boxes and Layout:
 
 2) for the CSS rule padding: 1px 2px 5px 10px you read the values in a clockwise order of top, right, bottom, and left. so 1px would be the padding-top, 2px would be padding-right, 5px would be padding-bottom and 10px would be padding-left.
 
-3) The difference between the two is that block elements always appear on a new line (e.g. <h1>, <li> and <p> elements) and act as the main building blocks of a layout. Whereas, inline elements sit within a block level element and do not start a new line (e.g. <b>, <em> and <img> elements) and instead flow between the surrounding text.
+3) The difference between the two is that block elements always appear on a new line (e.g. `h1`, `li` and `p` elements) and act as the main building blocks of a layout. Whereas, inline elements sit within a block level element and do not start a new line (e.g. `b`, `em` and `img` elements) and instead flow between the surrounding text.
 
 4) Fixed positioning is used to position an element in relation to the browser window, instead of the containing element. Elements that are placed in fixed positions do not affect the placement of the surrounding elements and also don't move when the page is scrolled up or down. When you move an element from a normal flow into fixed positioning the boxes can start to overlap. With the z-index property you can control which box appears/ sits on top. The higher the number the closer the element is to the front.
 
