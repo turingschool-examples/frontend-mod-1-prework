@@ -10,7 +10,7 @@ Elements refer to characters within angled brackets that are used to structure a
 
 Attributes provide provide additional information about the contents of an element.  Attributes are also useful in that they can provide additional functionality or adjust the behavior of their associated element.
 
-### Describe the purpose of the head, title, and body HTML elements.
+### 4. Describe the purpose of the head, title, and body HTML elements.
 
 The head of a website contains important information about the website. The information contained in the head will not be displayed on the website. The head also serves as an area for the website title and where additional functionality can be implemented via metadata.
 
@@ -18,31 +18,31 @@ The title element displays the title of the website and lives in the head.  The 
 
 The body is where all of the information displayed on the website is stored.  Anything you'd like to display to the user must be stored in the body element.
 
-### In your browser (Chrome), how do you view the source of a website?
+### 5. In your browser (Chrome), how do you view the source of a website?
 
 Right click and choose View page source.
 
-### List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
+### 6. List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
 
-<h1></h1> The h1-h6 elements are used to display headings on a website.
-<div></div> The div element is used as a container for content.
-<hr> The hr element is used to display a visual break in content.
-<li> The li element is used to display a list.
-<br> The br element is used to produce a line break in text.  It creates space in between content.  
+* The h1-h6 elements are used to display headings on a website.
+* The div element is used as a container for content.
+* The hr element is used to display a visual break in content.
+* The li element is used to display a list.
+* The br element is used to produce a line break in text.  It creates space in between content.  
 
-### What are empty elements?
+### 7. What are empty elements?
 
 Empty elements provided a particular outcome when used and do not require any text.  
 
-## What is semantic markup?
+## 8. What is semantic markup?
 
 Semantic markup is used to provide additional information, meaning, and clarity.  They also assist screen reading tools by providing additional meaning to the content being displayed.
 
-## What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
+## 9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 
 * header
 * article
-* nav 
+* nav
 
 
 https://codepen.io/hborrego/pen/KKwNXXO
