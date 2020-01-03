@@ -12,3 +12,5 @@ CSS Images:
 1) To start with, using CSS to specify the height and width of images is that when you need to have your pictures all be the same size across your site you can use CSS to control the dimensions of the images instead is having to put them over and over again in the HTML. Along with this you can more easily align or center images using CSS. You can even place a background-image behind any HTML element using CSS. It can be the whole page or even just a portion of one due to the control the CSS has over the boxes they represent. CSS also introduces the ability to specify a gradient/ contrast for the background of a box including an image.     
 
 2) An image sprite is when a single image is used for several different parts of an interface. This can encompass things such as the logo, buttons to the image, and other interface elements. The advantage to using sprites is that the web browser will only need to get one image rather than many images, which in turn help the page load more quickly.  
+
+[CodePen](https://codepen.io/Muggins1265/pen/RwNKeGV?editors=1100)
