@@ -1,0 +1,26 @@
+
+body {
+  background-color: #d3f76f;
+  text-align: center;
+}
+
+h2 {
+  border: 2px solid blue;
+  font: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+}
+h1 {
+  background-color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  color: gold;
+
+}
+p {
+  font-size: 20px;
+  color: blue;
+}
+
+li {
+  font-size: 25px;
+  font-weight: bold;
+}
