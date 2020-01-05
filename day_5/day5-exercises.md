@@ -18,7 +18,7 @@ To declare a variable you first need to create it and give it a name that descri
 ### 4. How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?
 It's useful because you don't need to know how many items a list will contain because you don't need to specify how many values it will hold. You can access or change a value in an array by specifying the array name followed by the index number in brackets (which starts at 0). Then, you would assign it a new value with the `=` sign. For example, `employeeNames[3]='Samantha'`.
 ### 5. What is the difference between an expression and a statement?
-An expression results in a single value using an assignment operator by assigning a value to a variable or returning a single value from two or more values, like an equation. It yields a single value whereas a statement doesn't need an equal sign and doesn't need to return a value at all.
+An expression results in a single value using an assignment operator by assigning a value to a variable or returning a single value from two or more values, like an equation. It yields a single value. A statement is like a step in a recipe and is an individual instruction that the computer should follow. It's a series of actions that make up a script. `If` is an example of a statement.
 ### 6. What are three types of operators and how are they used?
 - Assignment operator `(=)` - assigns a value to a variable
 - Arithmetic operator - performs basic math (for example: `area = 5 * 3;`)
