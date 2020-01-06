@@ -9,15 +9,15 @@
 <h2>5. In your browser (Chrome), how do you view the source of a website?</h2>
 <p>Right click anywhere on the page and go down to view source code is one way. Ctrl + U is another way. You can also click the Menu (three dots), select More Tools, then Developer Tools. I think maybe F12 if you have function keys also works?</p>
 <h2>6. List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.<h2>
-<p><h1></h1> Is used for a main heading.
-<b></b> Is used to make characters bold.
-<br /> Is used for a line break.
-<strong></strong> Is used to show importance and usually appears in bold.
-<q></q> Is used for shorter quotes that sit within a paragraph.</p>
+<p>&lt;h1&gt;&lt;/h1&gt; Is used for a main heading.
+&lt;b&gt;&lt;/b&gt; Is used to make characters bold.
+&lt;br /&gt; Is used for a line break.
+&lt;strong&gt;&lt;/strong&gt; Is used to show importance and usually appears in bold.
+&lt;q&gt;&lt;/q&gt; Is used for shorter quotes that sit within a paragraph.</p>
 <h2>7. What are empty elements?</h2>
-<p>Empty elements do not have an opening and a closing tag. They usually have just one tag that contains a “ /” before the closing angled bracket. <br /> and <hr /> are examples.</p>
+<p>Empty elements do not have an opening and a closing tag. They usually have just one tag that contains a “ /” before the closing angled bracket. &lt;br /&gt; and &lt;hr /&gt; are examples.</p>
 <h2> 8. What is semantic markup?</h2>
-<p>Semantic markup are text elements that are not intended to affect the structure of a web page, but to add extra information to the pages. <em></em> and <strong></strong> are examples. Their purpose is to describe the content of the web page more accurately and are often used in screen readers and search engines. A screen reader voice can add emphasis to <em></em>.</p>
+<p>Semantic markup are text elements that are not intended to affect the structure of a web page, but to add extra information to the pages. &lt;em&gt;&lt;/em&gt; and &lt;strong&gt;&lt;/strong&gt; are examples. Their purpose is to describe the content of the web page more accurately and are often used in screen readers and search engines. A screen reader voice can add emphasis to &lt;em&gt;&lt;/em&gt;.</p>
 <h2>9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.</h2>
 <p>Header, nav and article are new elements for HTML5 that have to do with the layout of the page. They replace previously used div elements. They are used to describe the structure of the page and to make the code easier to follow. They are also useful for screen readers and search engines.</p>
 <a href="https://codepen.io/pernstrong/pen/NWPRPLO?editors=1010">Code Pen Day 1 Exercise</a>
