@@ -2,7 +2,7 @@
 <h2> 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?</h2>
 Ordered lists will be numbered. Unordered lists will be bulleted. Definition lists contains both a term and a definition. They are not numbered or bulleted but the definition is indented.
 <h2> 2. What is the basic structure of an element used to link to another website?</h2>
-&lt;a href=”http://www.google.com”&gt;Google&lt;/a&gt;
+&lt;a href=”http://www.google.com”&gt;Google&lt;/a&gt;.
 &lt;a&gt;&lt;/a&gt; is the element used, anchor. http://www.google.com is the link. Google is the text the user clicks on.
 <h2> 3. What attribute should you include in a link to open a new tab when the link is clicked?</h2>
 In the opening tag you should include, target=&quot_blank&quot.
@@ -13,8 +13,8 @@ With CSS you can create rules that specify how the content of an element should 
 <h2> 2. What does CSS stand for? What does cascading mean in this case?</h2>
 Cascading Style Sheets. Cascading means that if there are two or more rules that apply to the same element, one will take precedence. Properties can also be inherited. This allows simpler style sheets because generic rules can be created that apply to most elements and that can be overridden for individual elements.
 <h2> 3. What is the basic structure of a CSS rule?</h2>
-Body {
-		Font-family: arial;
+Body { <br>
+		Font-family: arial;<br>
 		Background color: blue; }
 <h2> 4. How do you link a CSS stylesheet to your HTML document?</h2>
 By linking the style sheet in the &lt;head&gt;&lt;/head&gt; element. &lt;link href=”css/styles.css” type=”text/css” rel=”stylesheet” /&gt;
