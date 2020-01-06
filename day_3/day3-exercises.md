@@ -2,11 +2,11 @@
 <h2> 1. If you're using an input element in a form, what attribute controls the behavior of that input?</h2>
 The type attribute.
 <h2> 2. What element is used to create a dropdown list?</h2>
-&lt;select&gt;&lt;/select&gt;
+<p>&lt;select&gt;&lt;/select&gt;</p>
 <h2> 3. If you're using an input element to send form data to a server, what should the type attribute be set to?</h2>
 type=”submit”
-<h2> 4. What element is used to group similar form items together?
-&lt;fieldset&gt;&lt;/fieldset&gt;</h2>
+<h2> 4. What element is used to group similar form items together?</h2>
+<p>&lt;fieldset&gt;&lt;/fieldset&gt;</p>
 <h2> 1. Describe the differences between border, margin, and padding.</h2>
 Border: separates the edge of one box from another.
 Margin: sit outside the edge of the border. Can be set to create a gap between the borders of two adjacent boxes.
