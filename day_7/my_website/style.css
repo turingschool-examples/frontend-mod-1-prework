@@ -1,4 +1,13 @@
 body {
+  background: content-box linear-gradient(#2D3142, #4F5D75);
+}
+
+p, li {
+  color: #F7F9FC;
+}
+
+label {
+  display: block;
 }
 
 h1 {
@@ -7,25 +16,30 @@ h1 {
   font-weight: bold;
   text-align: center;
   padding:1%;
+  color: #F7F9FC;
 }
 
 h2 {
   font-size: 200%;
-  font-family: ;
+  font-family: 'Open Sans';
   font-weight: bold;
   text-align: center;
   border-bottom: solid 1px #C1982F;
+  color: #F7F9FC;
 }
 
 h3 {
-  font-size: 100%;
+  font-size: 125%;
+  font-family: "Open Sans";
+  border-bottom: solid 1px #C1982F;
+  color: #F7F9FC;
 }
 
 .navBar {
   height:10%;
   width: 100%;
-  background-color: #C1982F;
-  border-bottom: solid #C1982F 3px;
+  //background-color: #C1982F;
+  //border-bottom: solid #C1982F 1px;
 }
 
 .navigation {
@@ -48,9 +62,8 @@ h3 {
 .discription {
   font-family: helvetica;
   padding: 2% 5%;
-  width:auto;
   text-align: justify;
-  //border: solid blue;
+  line-height: 125%;
 }
 
 .dog-favs {
@@ -58,12 +71,13 @@ h3 {
   padding: 2% 5%;
   height: auto;
   position: absolute;
-  top:875px;
+  top: 875px;
+  width: 15%;
 }
 
 .medium {
-  border: solid 5px #E5C82C;
-  border-radius: 50%;
+  //border: solid 5px #E5C82C;
+  border-radius: 5%;
   margin: 0 auto;
   display: block;
 }
