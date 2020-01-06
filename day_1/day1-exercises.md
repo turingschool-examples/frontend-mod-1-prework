@@ -8,7 +8,7 @@
 <p>The head element contains information about the page like the title of the page, which is shown at the top of the browser window.. It is not shown in the browser window. The title element contains is a brief description of the page and is shown at the top of the browser or the tab for that page. It is part of the head element. The body element contains all the information that is shown inside the main browser window. The body contains the actual content of the web page.</p>
 <h2>5. In your browser (Chrome), how do you view the source of a website?</h2>
 <p>Right click anywhere on the page and go down to view source code is one way. Ctrl + U is another way. You can also click the Menu (three dots), select More Tools, then Developer Tools. I think maybe F12 if you have function keys also works?</p>
-<h2>6. List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.<h2>
+<h2>6. List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.<h2>
 <p><h1></h1> Is used for a main heading.
 <b></b> Is used to make characters bold.
 <br /> Is used for a line break.
