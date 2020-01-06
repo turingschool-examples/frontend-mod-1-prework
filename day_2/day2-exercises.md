@@ -2,12 +2,12 @@
 <h2> 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?</h2>
 Ordered lists will be numbered. Unordered lists will be bulleted. Definition lists contains both a term and a definition. They are not numbered or bulleted but the definition is indented.
 <h2> 2. What is the basic structure of an element used to link to another website?</h2>
-<a href=”http://www.google.com”>Google</a>
-<a></a> is the element used, anchor. http://www.google.com is the link. Google is the text the user clicks on.
+&lt;a href=”http://www.google.com”&gt;Google&lt;/a&gt;
+&lt;a&gt;&lt;/a&gt; is the element used, anchor. http://www.google.com is the link. Google is the text the user clicks on.
 <h2> 3. What attribute should you include in a link to open a new tab when the link is clicked?</h2>
 In the opening tag you should include, target=&quot_blank&quot.
 <h2> 4. How do you link to a specific part of the same page? </h2>
-	With the id attribute. For example, <h1 id=”news”>News</h1>...........<a href=”#news”>
+	With the id attribute. For example, &lt;h1 id=”news”&gt;News&lt;/h1&gt;...........&lt;a href=”#news”&gt;
 <h2> 1 .What is the purpose of CSS?</h2>
 With CSS you can create rules that specify how the content of an element should appear. CSS stylesheets can be used for several web pages, creating a consistent look and feel. It is also faster to use just one style sheet as it is less code for the browser to download. It also makes the HTML code easier to read and edit.
 <h2> 2. What does CSS stand for? What does cascading mean in this case?</h2>
@@ -16,8 +16,8 @@ Cascading Style Sheets. Cascading means that if there are two or more rules that
 Body {
 		Font-family: arial;
 		Background color: blue; }
-<h2> 4. How do you link a CSS stylesheet to your HTML document?<h2>
-By linking the style sheet in the <head></head> element. <link href=”css/styles.css” type=”text/css” rel=”stylesheet” />
+<h2> 4. How do you link a CSS stylesheet to your HTML document?</h2>
+By linking the style sheet in the &lt;head&gt;&lt;/head&gt; element. &lt;link href=”css/styles.css” type=”text/css” rel=”stylesheet” /&gt;
 <h2> 5. When is it useful to use external stylesheets as opposed to using internal CSS?</h2>
 External is usually best, especially if you are building a site with more than one page. Internal can be used for a single page.
 <h2> 6. Describe what a color hex code is. </h2>
