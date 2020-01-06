@@ -8,12 +8,14 @@
 <p>The head element contains information about the page like the title of the page, which is shown at the top of the browser window.. It is not shown in the browser window. The title element contains is a brief description of the page and is shown at the top of the browser or the tab for that page. It is part of the head element. The body element contains all the information that is shown inside the main browser window. The body contains the actual content of the web page.</p>
 <h2>5. In your browser (Chrome), how do you view the source of a website?</h2>
 <p>Right click anywhere on the page and go down to view source code is one way. Ctrl + U is another way. You can also click the Menu (three dots), select More Tools, then Developer Tools. I think maybe F12 if you have function keys also works?</p>
-<h2>6. List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.<h2>
-<p>&lt;h1&gt;&lt;/h1&gt; Is used for a main heading.
-&lt;b&gt;&lt;/b&gt; Is used to make characters bold.
-&lt;br /&gt; Is used for a line break.
-&lt;strong&gt;&lt;/strong&gt; Is used to show importance and usually appears in bold.
-&lt;q&gt;&lt;/q&gt; Is used for shorter quotes that sit within a paragraph.</p>
+<h2>6. List five different HTML elements and what they are used for. For example, &lt;p&gt;&lt;/p&gt; is a paragraph element, and it is used to represent a paragraph of text.</h2>
+<ol>
+  <li>&lt;h1&gt;&lt;/h1&gt; Is used for a main heading.</li>
+  <li>&lt;b&gt;&lt;/b&gt; Is used to make characters bold.</li>
+  <li>&lt;br /&gt; Is used for a line break.</li>
+  <li>&lt;strong&gt;&lt;/strong&gt; Is used to show importance and usually appears in bold.</li>
+  <li>&lt;q&gt;&lt;/q&gt; Is used for shorter quotes that sit within a paragraph.</li>
+ </ol>
 <h2>7. What are empty elements?</h2>
 <p>Empty elements do not have an opening and a closing tag. They usually have just one tag that contains a “ /” before the closing angled bracket. &lt;br /&gt; and &lt;hr /&gt; are examples.</p>
 <h2> 8. What is semantic markup?</h2>
