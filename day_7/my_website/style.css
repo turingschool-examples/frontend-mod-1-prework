@@ -1,25 +1,40 @@
 body {
-  background-color: #E2E8F5;
 }
 
 h1 {
   font-size: 400%;
-  font-family: georgia;
+  font-family: 'Open Sans';
   font-weight: bold;
   text-align: center;
-  background-color: #C4AB80;
-  color: #E5C82C;
+  padding:1%;
 }
 
 h2 {
   font-size: 200%;
-  font-family: georgia;
+  font-family: ;
   font-weight: bold;
   text-align: center;
+  border-bottom: solid 1px #C1982F;
 }
 
 h3 {
   font-size: 100%;
+}
+
+.navBar {
+  height:10%;
+  width: 100%;
+  background-color: #C1982F;
+  border-bottom: solid #C1982F 3px;
+}
+
+.navigation {
+  float: right;
+  display: inline;
+  padding: 1%;
+  margin: 1%;
+  //border: solid black 5px;
+  color: #E2E8F5;
 }
 
 .Estes, .Peaches, .Zeke {
@@ -33,6 +48,8 @@ h3 {
 .discription {
   font-family: helvetica;
   padding: 2% 5%;
+  width:auto;
+  text-align: justify;
   //border: solid blue;
 }
 
@@ -41,19 +58,12 @@ h3 {
   padding: 2% 5%;
   height: auto;
   position: absolute;
-  top:850px;
-}
-
-
-.navBar {
-  height:auto;
-  width: 100%;
-  background-color: #E5C82C;
+  top:875px;
 }
 
 .medium {
   border: solid 5px #E5C82C;
-  border-radius: 20%;
+  border-radius: 50%;
   margin: 0 auto;
   display: block;
 }
