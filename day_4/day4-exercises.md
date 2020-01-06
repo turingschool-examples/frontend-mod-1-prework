@@ -2,7 +2,7 @@
 <h2>1. In an image element, why is the alt attribute important?</h2>
 <p>The alt attribute provides a text description of the image which describes the image if you cannot see it. It is very important for screen readers for use by people who are visually impaired. It is also read by search engines, so having an accurate description can help people find your page.  It can also explain what the picture is if someone is using an old browser.</p>
 <h2> 2. What determines if an image element is inline or block?</h2>
-<p>If the image element is followed by a block level element it will also be block level, or start on a new line. If the image element is inside a block level element, it will be inline. For example, a <img> element between <p></p> will be inline.</p>
+<p>If the image element is followed by a block level element it will also be block level, or start on a new line. If the image element is inside a block level element, it will be inline. For example, a &lt;img&gt; element between &lt;p&gt;&lt;/p&gt; will be inline.</p>
 <h2>3. What are the benefits of jpg or png image file formats?</h2>
 <p>JPEG is useful for pictures that have many different colors. For example, a nature picture would most likely be best in JPEG format because of the many subtleties in color. PNG is best used for pictures that have a lot of flat color or areas filled in with the same color. For example, logos and illustrations are most likely best in PNG format.</p>
 
