@@ -23,6 +23,7 @@
 <a href="https://www.nytimes.com/">New York Times</a>
 <p>Also, the NYT website for the simple reason that add space takes up the upper half to a third of the page when first opened on my browser. The size of the ad may change but currently there is a giant Acura ad that takes away from the rest of the design of the page. This seems to be an area where business goals and user goals are a bit unaligned.
 <h2>Copywriting</h2>
+<h3>Question: Does it reduce anxiety?</h3>
 <h4>Good Example</h4>
 <a href="https://www.tempurpedic.com">Tempurpedic</a>
 <p>This site does a good job of conveying a comfortable feel that goes along with the mattress company's image. It has a lot of information but does not overwhelm. The color combos and pictures help to reduce user anxiety as well.</p>
