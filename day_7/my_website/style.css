@@ -1,5 +1,6 @@
 body {
-  background: content-box linear-gradient(#2D3142, #4F5D75);
+  //background: content-box linear-gradient(#2D3142, #4F5D75);
+  background-color: #2D3142;
 }
 
 p, li {
@@ -8,6 +9,8 @@ p, li {
 
 label {
   display: block;
+  color: #F7F9FC;
+  margin: 1% 1%;
 }
 
 h1 {
@@ -16,10 +19,10 @@ h1 {
   font-weight: bold;
   text-align: center;
   padding:1%;
-  color: #F7F9FC;
+  color: #E5C82C;
 }
 
-h2 {
+h2, legend {
   font-size: 200%;
   font-family: 'Open Sans';
   font-weight: bold;
@@ -38,7 +41,6 @@ h3 {
 .navBar {
   height:10%;
   width: 100%;
-  //background-color: #C1982F;
   //border-bottom: solid #C1982F 1px;
 }
 
@@ -56,6 +58,7 @@ h3 {
   width: 31.3%;
   margin:1%;
   float: left;
+  background: content-box linear-gradient(#2D3142, #4F5D75);
   //border: solid green;
 }
 
@@ -85,4 +88,8 @@ h3 {
 .your-dog-form{
   border: solid red;
   clear: left;
+}
+.background-image {
+  width: 100%;
+  //top: 20%;
 }
