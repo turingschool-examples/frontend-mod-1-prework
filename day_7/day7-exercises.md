@@ -38,3 +38,12 @@
 <h4>Bad Example</h4>
 <a href="https://www.foxnews.com/">Fox News</a>
 <p>Despite your political leanings, it is not hard to see that the Fox News website is more concerned with using data to prove their views than to get to the truth. The website is designed with headlines and keywords that point the reader in a certain direction. Keywords are often used to trigger the reader for example; "socialism seduces Americans," "Fake News," and "Fox News: Democracy 2020." If Fox News were simply a political organization it would be much different. However, many people go to Fox News in order to get the news and in many cases are not seeing the whole truth.  The bias in the articles has been confirmed by many third party reports. To be fair there are sites on the left that are similar in bias such as Huffington Post or New Republic.</p>
+<h2>Analysis: Part 2</h2>
+<p>I'm not 100% satisfied with my above response. Although I do think it answers the question, I feel like the reasons for each site to be how they are have more to do with the companys objective than the UX that was developed. For that reason I decided to answer another question that I believe has more to do with the UX.</p>
+<h3>Question: Are you looking for subjective opinions or objective facts?</h3>
+<h4>Good Example</h4>
+<a href="https://www.airbnb.com/">Airbnb</a>
+<p>At the end of every stay, Airbnb sends the customer a brief survey that is used to rate the host. The questions they ask are excellent and are used to not only rate the host but also to verify the amneties, etc. It's been a few months since my last Airbnb survey but the quesitons are along the line of; "Was the house/room clean?", "Was there parking?", "Were there any stairs?", "Was the host friendly?" The questions do a really good job of answering the important questions that will be relevant to other users and to gather the information objectively. There is spot for comments as well.</p>
+<h4>Bad Example</h4>
+<a href="https://www.yelp.com/">Yelp</a>
+<p>Yelp allows users to rate restaurants, businesses and more. It is very wide open on how someone rates by just giving the user 1-5 stars in order to rate. There is a spot for comments as well but it allows for to much subjectivity.</p>
