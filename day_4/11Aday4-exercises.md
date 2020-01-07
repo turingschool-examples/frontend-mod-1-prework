@@ -19,6 +19,6 @@ It's when a single image is used for several different parts  of an interface. I
 
 <hr />
 
-### Read the Introduction and Chapter 1 from JavaScript & jQuery: Interactive Front-End Web Development and watch short video on Chrome Developer Tools: **DONE** 
+### Read the Introduction and Chapter 1 from JavaScript & jQuery: Interactive Front-End Web Development and watch short video on Chrome Developer Tools: **DONE**
 <hr />
 CODEPEN UPDATE:
