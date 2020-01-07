@@ -1,5 +1,6 @@
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <title>My Furry Kids</title>
   <link href = "style.css" type = "text/css" rel = "stylesheet" />
 </head>
@@ -72,25 +73,14 @@
       <img class = "background-image" src = "images/background-image.jpg " alt "larg black and white dog" title = "Photo by Nick Fewings on Unsplash" />
       <form>
         <legend>What's Your Kid Like?</legend>
-        <label>Your dog's name:
-          <input type = "text" name = "dog-name"required = "required"/>
-        </label>
-        <label>Date of Birth:
+          <input type = "text" name = "dog-name" placeholder = "What's your dog's name?" required = "required"/>
+        <label>Birthday</label>
           <input type = "date" name = "date-of-birth" />
-        </label>
-        <label>Weight:
-          <input type = "text" placeholder ="i.e. 100lbs "/>
-        </label>
-        <label>Breed
-          <input type = "text" placeholder = "i.e. Pit Bull Terrier"/>
-        </label>
-        <label>Pictures of your dog:
+          <input type = "text" placeholder ="Weight" />
+          <input type = "text" placeholder = "Breed" />
           <input type = "file" />
-          <input type = "submit" value = "upload">
-        </label>
-        <label>Tell me about your dog:
-          <textarea maxlength = "250" placeholder = "250 words or less please"></textarea>
-        </label>
+          <textarea maxlength = "250" placeholder = "Tell me about your dog." class = "dog-story"></textarea>
+          <input type = "submit" value = "Submit" />
       </form>
     </div>
     <div class = "resources">
@@ -144,37 +134,5 @@
           <a href = "http://coloradohumane.org/">The Colorado Humane Society</a>
         </li>
     </div>
-
-
-//Make a list of links to dog parks, and a list of links to canine rescues. Add a form what's your dog like?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>

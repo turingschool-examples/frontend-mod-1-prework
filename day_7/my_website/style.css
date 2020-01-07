@@ -1,16 +1,11 @@
 body {
-  //background: content-box linear-gradient(#2D3142, #4F5D75);
+  background: content-box linear-gradient(#2D3142, #4F5D75);
   background-color: #2D3142;
+  font-family: helvetica;
 }
 
 p, li {
   color: #F7F9FC;
-}
-
-label {
-  display: block;
-  color: #F7F9FC;
-  margin: 1% 1%;
 }
 
 h1 {
@@ -38,6 +33,29 @@ h3 {
   color: #F7F9FC;
 }
 
+form {
+  position: relative;
+  bottom: 650px;
+}
+
+input {
+  display: block;
+  margin: 1% 1%;
+  width: 33%;
+  height: 6%;
+  font-size: 100%;
+}
+
+label {
+  display: block;
+  color: #F7F9FC;
+  margin: 1% 1%;
+}
+
+legend {
+  margin-bottom: 75px;
+}
+
 .navBar {
   height:10%;
   width: 100%;
@@ -58,7 +76,7 @@ h3 {
   width: 31.3%;
   margin:1%;
   float: left;
-  background: content-box linear-gradient(#2D3142, #4F5D75);
+  //background: content-box linear-gradient(#2D3142, #4F5D75);
   //border: solid green;
 }
 
@@ -70,11 +88,10 @@ h3 {
 }
 
 .dog-favs {
-  //border: solid black;
   padding: 2% 5%;
   height: auto;
   position: absolute;
-  top: 875px;
+  top: 137%;
   width: 15%;
 }
 
@@ -85,11 +102,18 @@ h3 {
   display: block;
 }
 
-.your-dog-form{
-  border: solid red;
-  clear: left;
-}
 .background-image {
   width: 100%;
-  //top: 20%;
+  opacity: .3;
+}
+.dogname {
+  height: 75px;
+  width: 200px;
+}
+.dog-story {
+  color: black;
+  width: 33%;
+  height: 25%;
+  margin: 1% 1%;
+  font-size: 100%;
 }
