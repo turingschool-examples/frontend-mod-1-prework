@@ -12,7 +12,7 @@
     - Select was used to create a dropdown list. `Cars` is the name given to the `select` element. `<option>` element is used to specify the option given to the user, the words like "mustang, corvette and charger" that are written in between the `<option>` element will appear to the user as choices. The `value=""` element used, is to indicate the value sent to the server.  
 
 ## If you're using an input element to send form data to a server, what should the type attribute be set to?
-  The `type=""` attribute should be set to what ever the input element type you are using calls for. So if you are using a 'file input box' the type attribute called for is `type="file"`. Or for instance a 'image button' the `type=""` called for is the 'image': `type="image"`.
+  The `type=""` attribute should be set to what ever the input element type you are using calls for. So if you are using a "file input box" the type attribute called for is `type="file"`. Or for instance a 'image button' the `type=""` called for is the 'image': `type="image"`.
 
 ## What element is used to group similar form items together?
   With the element ``<fieldset>`` we are able to group similar forms together.
