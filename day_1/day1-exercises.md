@@ -26,10 +26,10 @@
   `C <sub> O2 </sub> `
 
 ## What are empty elements?
-  Is an element that only requires a opening tag.
+  Are elements that only requires a opening tag.
 
 ## What is semantic markup?
-  Semantic markup is is used to describe the content of your web pages more accurately. The are elements that were designed add extra info to the pages for screen readers or search engines.
+  Semantic markup is is used to describe the content of your web pages more accurately. They are elements that were designed add extra info to the pages for screen readers or search engines.
 
 ## What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
   1. <div>
