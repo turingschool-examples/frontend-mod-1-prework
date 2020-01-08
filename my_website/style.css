@@ -7,7 +7,7 @@ h1{
 }
 body{
   text-align: center;
-  font-size: 16px;
+  font-size: 25px;
   background-color: rgb(255,255,204);
 }
 h2{
@@ -15,6 +15,9 @@ h2{
   font-family: fantasy;
   letter-spacing: 0.3em;
 
+}
+p{
+  //display: inline-block;
 }
 ul{
   text-align: left;
@@ -31,7 +34,7 @@ form{
   border-style: solid;
   width: 250px;
   padding-bottom: 20px;
-  float: right;
+  //float: right;
 }
 a{
   font-size: 20px;
