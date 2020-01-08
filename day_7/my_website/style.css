@@ -116,7 +116,7 @@ li {
 }
 
 .medium {
-  border: inset 1px #E5C82C; 
+  border: inset 1px #E5C82C;
   border-radius: 5%;
   margin: 0 auto;
   display: block;
@@ -187,7 +187,7 @@ li {
   height: 7%;
   overflow: hidden;
   cursor: pointer;
-}
+  }
 
 .upload-image:before {
   width: 33%;

@@ -25,5 +25,6 @@
 
 
 
-1. **How will you measure this? Are you measuring the right things?**
--
+1. **How can you use this analysis to make improvements?**
+
+ You can use analysis to see what users are actually doing versus what you expect them to do. It can help to tell you what is working well and what could use improvements. A layout that makes sense to you maybe confusing to someone else, analysis help you to identify areas that need improvement. 
