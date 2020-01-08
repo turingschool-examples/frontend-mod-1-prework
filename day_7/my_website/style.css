@@ -17,12 +17,15 @@ h1 {
 }
 
 h2 {
-  margin: 0px auto;
-  color:
+  color: #00838e;
   border: none;
+  margin: 0px auto;
   padding: 5px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  font-size: 40px;
+  text-decoration: underline;
 }
 
 img.align-right {
@@ -40,8 +43,8 @@ img.align-right {
 }
 
 h3 {
-  color: #ffff;
-  border: 3px dotted #78002e;
+  color: #ffffff;
+  border: 3px dotted #4fb3bf;
   background-color: #005662;
   padding: 5px;
   width: 25%;
@@ -73,14 +76,14 @@ h4 {
   border: 1.5px solid #29434e;
   background-color: #ad1457;
   padding: 5px;
-  width: 14%;
+  width: 18%;
   margin-top: 20px;
   text-align: center;
 
 }
 img.main-images {
   margin-left: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 20px;
   border: 1.5px solid
 }
@@ -95,10 +98,6 @@ h1, h3, h4{
 p {
   font-family: "Verdana";
   margin-top: .5px;
-}
-
-span {
-  font-style: italic;
 }
 
 form {
@@ -128,7 +127,4 @@ article {
 .button {
   margin-top: 3px;
   margin-left: 100px;
-}
-article {
-  column-count: 2;
 }
