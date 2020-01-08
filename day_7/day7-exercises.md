@@ -1,8 +1,6 @@
-# Day 7 Exercises
+# Day 7 Exercises - UI/UX Assignment
 
-## UI/UX Assignment
-
-### Psychology
+## Psychology
 _"How are you rewarding good behavior?"_
 
 __Good:__ https://www.cotopaxi.com/
@@ -11,7 +9,7 @@ __Good:__ https://www.cotopaxi.com/
 __Room for improvement:__ https://www.fjallraven.com/us/en-us
 - I don't think this site is bad by any means, but I do think they could do a better job of rewarding the user for "good behavior". They don't offer any discounts through email acquisition and they also don't incorporate any of their blog posts on the homepage to break up the product promotion. I think offering users interesting, rich content in a more accessible way on the homepage would help users make more of a connect with the brand.
 
-### Usability
+## Usability
 _"Are you basing your decisions on your own logic or categories, or the user’s intuition? How do you know?"_
 
 __Good:__ https://www.everlane.com/
@@ -20,7 +18,7 @@ __Good:__ https://www.everlane.com/
 __Room for improvement:__ https://57hours.com/
 - I think there should be a way to search the adventures by location since that will be one of the biggest deciding factors outside of the sport category. I think not having that option is more convenient for the company (because locations are limited) but not the user.
 
-### Design
+## Design
 _"Do users think it looks good? Do they trust it immediately?"_
 
 __Good:__ https://castirondesign.com/
@@ -29,7 +27,7 @@ __Good:__ https://castirondesign.com/
 __Room for improvement:__ https://deppecommunications.com/?utm_source=UpCity&utm_medium=referral&utm_campaign=top_local_agency&utm_term=top%20local%20agency
 - This homepage looks messy and isn't very visually appealing. They used a bunch of stock photography, so it looks generic and doesn't seem like they've invested in their online presence. Needs some rejuvenation!
 
-### Copywriting
+## Copywriting
 _"Is it clear, direct, simple, and functional?_"
 
 __Good:__ http://nymag.com/
@@ -38,7 +36,7 @@ __Good:__ http://nymag.com/
 __Room for improvement:__ http://www.awesometravelandtours.com/
 - It's not clear what is a link and what's not. The titles are all pretty random and the website offers no real information on travel packages. It's not functional, clear or direct.
 
-### Analysis
+## Analysis
 _"Are you looking for subjective opinions or objective facts? // Have you collected information that can give you those types of answers?"_
 
 __Good:__ https://www.instagram.com/
