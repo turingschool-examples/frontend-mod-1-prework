@@ -160,3 +160,13 @@ li {
 .fav-activities {
   width: 50%
 }
+.submitBtn {
+  cursor: pointer;
+  padding: 2%;
+  border: outset 3px #E5C82C;
+  border-radius: 3%;
+  color: #4F5D75;
+  font-weight: bold;
+  font-size: 125%;
+  padding: .35% 1% 1% 1%;
+}
