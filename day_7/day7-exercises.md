@@ -7,7 +7,7 @@ __Good:__ https://www.cotopaxi.com/
 - They provide a fifteen percent discount through a pop-up for email signups. It's mutually beneficial because they acquire email addresses and the user gets a discount on their purchase.
 
 __Room for improvement:__ https://www.fjallraven.com/us/en-us
-- I don't think this site is bad by any means, but I do think they could do a better job of rewarding the user for "good behavior". They don't offer any discounts through email acquisition and they also don't incorporate any of their blog posts on the homepage to break up the product promotion. I think offering users interesting, rich content in a more accessible way on the homepage would help users make more of a connect with the brand.
+- I don't think this site is bad by any means, but I do think they could do a better job of rewarding the user for "good behavior". They don't offer any discounts through email acquisition and they also don't incorporate any of their blog posts on the homepage to break up the product promotion. I think offering users interesting, rich content in a more accessible way on the homepage would help users make more of a connection with the brand.
 
 ## Usability
 _"Are you basing your decisions on your own logic or categories, or the user’s intuition? How do you know?"_
