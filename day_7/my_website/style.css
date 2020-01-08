@@ -116,6 +116,7 @@ li {
 }
 
 .medium {
+  border: inset 1px #E5C82C; 
   border-radius: 5%;
   margin: 0 auto;
   display: block;
