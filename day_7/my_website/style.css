@@ -1,0 +1,46 @@
+body {
+  background-color: #FFF0E7;
+  margin: 30px;}
+h1, h2 {
+  font-family: optima;
+  color: #3A3A3A;}
+h1 {
+  font-weight: bold;
+  letter-spacing: .2em;
+  text-align: center;
+  font-size: 40px;}
+.headshot {
+  width: 168px;
+  height: 112px;
+  float: left;
+  margin-right: 15px;}
+#aboutMe {
+  background-color: white;
+  padding: 10px 20px 40px 20px;
+  border: 1px solid;}
+p, #travelForm, ul {
+  margin: 20px;
+  font-family: avenir;}
+fieldset {
+  background-image: url("photos/world_map.gif");
+  background-size: contain;
+  background-position: center center;
+  width: 375px;}
+p.list {
+  font-family: optima;}
+img {
+  margin-left: 20px;}
+img.photoGallery {
+  width: 350px;
+  length: 350px;
+  margin: 10px;}
+#photoGallery {
+  text-align: center;}
+#travel {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid;}
+#recommendations, fieldset {
+  text-align: center;}
+#fieldset {
+  margin: auto;}
