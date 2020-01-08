@@ -34,12 +34,11 @@ h3 {
 form {
   position: relative;
   bottom: 700px;
-  margin-left: 2%;
 }
 
 input {
   display: block;
-  margin: 1% 1%;
+  margin: 1% 2%;
   width: 33%;
   height: 6%;
   font-size: 100%;
@@ -51,7 +50,7 @@ input {
 a {
   text-decoration: none;
   outline: none;
-  padding:1%;
+  padding:1% 1% 0 1%;
 }
 
 a:link {
@@ -79,6 +78,7 @@ label {
 
 legend {
   margin-bottom: 75px;
+  border-top: solid 1px #C1982F;
 }
 
 li {
@@ -130,7 +130,7 @@ li {
   color: black;
   width: 33%;
   height: 25%;
-  margin: 1% 1%;
+  margin: 1% 2%;
   font-size: 100%;
   border: ridge 4px #E5C82C;
   border-radius: 2%;
@@ -169,4 +169,19 @@ li {
   font-weight: bold;
   font-size: 125%;
   padding: .35% 1% 1% 1%;
+}
+
+input[type = "date"] {
+  cursor: pointer;
+  font-family: "open sans";
+  color: grey;
+  background: white
+}
+
+input[type = "text"]:hover, textarea:hover, .submitBtn:hover, input[type = "date"]:hover {
+  background-color: #E2E8F5;
+}
+
+input[type = "text"]:focus, textarea:focus, input[type "date"]:focus {
+  outline: none;
 }
