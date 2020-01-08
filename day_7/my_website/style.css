@@ -1,10 +1,33 @@
 body {
-  height: 150vh;
+  width: 90%;
+  margin: 0 auto;
   background-image: url("https://images.pexels.com/photos/120066/pexels-photo-120066.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-size: 500px;
   background-position-x: center;
   background-position-y: top;
   background-repeat: no-repeat;
+}
+
+p {
+  font-family: "Verdana";
+  margin-top: .5px;
+}
+
+p.list-paragraph {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-family: "Trebuchet MS";
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.packing-paragraph {
+  margin-top: 30px;
+}
+
+h1, h3, h4{
+  font-family: "Georgia";
 }
 
 h1 {
@@ -14,6 +37,7 @@ h1 {
   padding: 5px;
   margin-bottom: 740px;
   text-align: center;
+  width: 20%;
 }
 
 h2 {
@@ -28,20 +52,6 @@ h2 {
   text-decoration: underline;
 }
 
-img.align-right {
-  position: relative;
-  right: 105px;
-  left: 700px;
-  top: 10px;
-  width: 300px;
-  border: 1.5px solid #29434e;
-  padding: 10px;
-  overflow: auto;
-  margin-left: 40px;
-  margin-bottom: 50px;
-  margin-top: -120px;
-}
-
 h3 {
   color: #ffffff;
   border: 3px dotted #4fb3bf;
@@ -52,22 +62,29 @@ h3 {
 }
 
 h3.second-header {
-    margin-top: 20px;
-    margin-left: 520px;
+    margin: 0px auto;
     margin-bottom: 60px;
     text-align: center;
     height: 40px;
     font-size: 40px;
-    display: block;
+    width: 20%;
 }
 h3.third-header {
-    margin-top: 20px;
-    margin-left: 520px;
+    margin: 0px auto;
     margin-bottom: 60px;
     text-align: center;
     height: 40px;
     font-size: 30px;
-    display: block;
+    width: 28%;
+}
+h3.fourth-header {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 40px;
+  font-size: 40px;
+  width: 28%;
+  margin-top: 50px;
 }
 
 h4 {
@@ -79,30 +96,75 @@ h4 {
   width: 18%;
   margin-top: 20px;
   text-align: center;
+}
 
+img.align-center {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  width: 20%;
+  border: 1.5px solid #29434e;
+  padding: 10px;
+  margin-bottom: 50px;
 }
+
 img.main-images {
+  width: 20%;
+  margin: 0px auto;
   margin-left: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 20px;
-  border: 1.5px solid
+  border: 1.5px solid;
+  margin-right: -60px;
 }
+
 img.medium {
   width: 290px;
   height: 200px;
 }
 
-h1, h3, h4{
-  font-family: "Georgia";
+.ordered-list {
+  border: 1.5px solid;
+  padding: 20px;
+  padding-left: 40px;
+  width: 40%;
+  margin: 0px auto;
 }
-p {
-  font-family: "Verdana";
-  margin-top: .5px;
+
+div.packing-link {
+  margin: 0px auto;
+  border-top-left-radius: 50px 50px;
+  border-top-right-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  border: 2.5px solid #4fb3be;
+  padding: 15px;
+  width: 18%;
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 form {
-  margin-top: 20px;
   margin-bottom: 30px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+div.form-paragraph {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.form {
+    display: block;
+    text-align: center;
 }
 
 fieldset {
