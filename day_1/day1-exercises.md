@@ -31,11 +31,11 @@ When on a desired web page you can use the keyboard shortcut option + command + 
 **6.  List five different HTML elements and what they are used for.**
 
 
--  **<b> /b>** is a bold element, it is used to make characters appear bold
--  **<q> </q>** is a quotation element, it is used for shorter quotes inside a paragraph (many avoid using this element because it is not compatible with Internet Explorer)
--  **<address> </address>** is an address element, it is used to contain contact details for the author of the web page (ex. physical address, phone number, email)
--  **<del> </del>** is a delete element, it is used to show text that has been deleted from a document
--  **<br />** is a line break element, it is used to add a line break in the middle of a paragraph
+-  bold element, it is used to make characters appear bold, it appears as b and /b inside brackets
+-  quotation element, it is used for shorter quotes inside a paragraph (many avoid using this element because it is not compatible with Internet Explorer), it appears as q and /q inside of brackets
+-  address element, it is used to contain contact details for the author of the web page (ex. physical address, phone number, email), it appears as address and /address inside brackets
+-  delete element, it is used to show text that has been deleted from a document, it appears as del and /del inside brackets
+-  line break element, it is used to add a line break in the middle of a paragraph, it appears as br / inside brackets
 
 
 **7.  What are empty elements?**
@@ -53,9 +53,9 @@ Some text elements, known as semantic markup, are not intended to affect the str
 **9.  What are three new semantic elements introduced in HTML 5?**
 
 
-- "**<header></header>**" is a header element, it defines a header of a page or section
-- **<nav> </nav>** is a navigation element, it defines a major block of navigation links
-- **<details> </details>** is a details element, it specifies additional details that a viewer can view or hide as they wish
+- header element, it defines a header of a page or section, it appears as header and /header inside of brackets
+- navigation element, it defines a major block of navigation links, it appears as nav and /nav inside of brackets
+- details element, it specifies additional details that a viewer can view or hide as they wish, it appears as details and /details inside of brackets
 
 
 CodePen HTML code: https://codepen.io/krogowsk/pen/WNbEXLY
