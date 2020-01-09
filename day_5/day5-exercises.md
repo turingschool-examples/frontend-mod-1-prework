@@ -19,3 +19,5 @@ Some JavaScript reserved words: class, else, return, this, true, false, const, v
 <p>Assignment Operators: used to assign a value to a variable. Ex: lastName = ‘Mahmoud’
 Arithmetic Operators: used to perform basic math. Ex: classSize = 160 / 12;
 String Operators: used to combine two strings. Ex: favoriteColor = “My favorite color is ‘ + ‘green’;</p>
+<h3>JavaScript Console Problems</h3>
+<p>It doesn't look like these need to be included but I do have screenshots if needed.</p>
