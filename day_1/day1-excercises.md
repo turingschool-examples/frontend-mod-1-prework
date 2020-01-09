@@ -11,7 +11,7 @@
 5.  In your browser (Chrome), how do you view the source of a website?
     f12
 6.  List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.
-    <h1> is would be a the largest heading on a webpage, usually the declaration of what the webpage is - ie in the <title> element.
+    <h1> is would be a the largest heading on a webpage, used in the <body> element.
     <b> is the bolding of text </bold>
     <em> is the emphasis of a word </em>
     <abbr> is a cool tag that will allow the full spelling of an abbreviated word or acronym </abbr>
