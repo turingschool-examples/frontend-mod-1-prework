@@ -19,18 +19,21 @@ If I wanted the pervious link to be opened in a new tag, I would use the `target
 `<a href="http://www.genericurl.com" target="_blank">
 Generic URL <a/>`
 ## How do you link to a specific part of the same page?
-If I wanted to include a "Take me to the top of this page" link on the bottom of my page, I would add an id attribute to the line of code nearest the top of my page:
+If I wanted to include a **"Take me to the top of this page"** link on the bottom of my page, I would add an id attribute to the line of code nearest the top of my page:
+
 `<h1 id="top">Generic Header</h1>`
-Then, I would need a corresponding element and the bottom of the page which returns the user to the first line with the id attribute:
+
+Then, I would need a corresponding element at the bottom of the page which returns the user to the first line with the id attribute:
+
 `<p><a href=""#top">Top</a></p>`
 
 ### Chapters 10, 11, and 12:
 ##  What is the purpose of CSS?
 CSS allows us to create rules for how our content should be displayed.
 ## What does CSS stand for? What does cascading mean in this case?
-_CSS_ stands for __Cascading Style Sheet__. _Cascading_ here means that the different style fall from one style sheet to another, allowing us to use multiple style sheets on one HTML document.
+_CSS_ stands for __Cascading Style Sheet__. "_Cascading_" here means that the different styles fall from one style sheet to another, allowing us to use multiple style sheets on one HTML document.
 ## What is the basic structure of a CSS rule?
-A basic CSS rule contains a _Selector_ (indicates which element the rule applies to), and a _Declaration_ (indicates how the indicated elements should be styled).
+A basic CSS rule contains a _Selector_ (tells which element the rule applies to), and a _Declaration_ (tells how the indicated elements should be styled).
 
 ```css
 h1 {
@@ -51,7 +54,7 @@ Using an external stylesheet is useful when you are building a site with more th
 * it allows you to make changes to all pages by altering just one file
 
 ## Describe what a color hex code is.
-A color hex code is a 6 digit codes preceded by a pound sign _#_ that represents the amount of red, green and blue in a color.
+A color hex code is a 6 digit code preceded by a pound sign _#_ that represents the amount of red, green and blue are in a color.
 ## What are the three parts of an HSL color property?
 1. __Hue__
 * "The colloquial idea of color." It is represented by a value between 0-360
@@ -61,11 +64,11 @@ A color hex code is a 6 digit codes preceded by a pound sign _#_ that represents
 * The amount of white or black in a color. It is represented as a percentage. 0% lightness is black, 100% lightness is white, and 50% lightness is referred to as _luminosity_.
 ## In the world of typeface, what are the three main categories of fonts? What are the differences between them?
 1. __Serif__
-* These fonts have extra details on the end of the main strokes of the letters. (Georgia, Times and Times New Roman are all _serif_ fonts)
+* These fonts have extra details on the end of the main strokes of the letters. (Georgia, Times and Times New Roman are all **serif** fonts)
 2. __Sans-Serif__
-* These fonts have straight ends to letters and provide a clean design. (Ariel, Verdana and Helvetica are examples of _sans-serif_ fonts)
+* These fonts have straight ends to letters and provide a clean design. (Ariel, Verdana and Helvetica are examples of **sans-serif** fonts)
 3. __Monospace__
-* Every letter in these fonts are the same width. (Courier and Courier New are common examples of _monospace_ fonts)
+* Every letter in these fonts are the same width. (Courier and Courier New are common examples of **monospace** fonts)
 ## When specifying font-size, what are the main three units used?
 1. __Pixels__
 * Pixels are used when a designer wants precise control over how much space their text takes up. (identified by a number followed by '_px_')

@@ -1,7 +1,7 @@
 ## Psychology
 # __How much work does the user have to do to get what they want?__
 * amazon.com does a 'great' job of anticipating what a user is looking for (however intrusive their data collection policies are). When you visit your amazon homepage, little work is required to find your order history, prime video options, or the search function to order next months supply of coffee filters. The amount of work required for a user to get what they need is minimal. (www.amazon.com)
-* I've always found reddit.com's search function to be infuriating. Let's say you come across an interesting article about some obscure topic, and then two months later the topic comes up while you're out to dinner with your friends. In order to search reddit you would need to either remember which subreddit you were visiting or the exact name of the post from two months ago. It's not impossible, but you do need to put in the work to find what you are looking for.(reddit.com)
+* I've always found reddit.com's search function to be infuriating. Let's say you come across an interesting article about some obscure topic, and then two months later the topic comes up while you're out to dinner with your friends. In order to search reddit you would need to either remember which subreddit you were visiting or the exact name of the post from two months ago. It's not impossible, but you do need to put in the work to find what you are looking for (reddit.com).
 
 ## Usability
 # __Could you get the job done with less input from the user?__
@@ -25,4 +25,4 @@
 # __Are you using data to prove that you are right, or to learn the truth?__
 * While managing a YouTube channel for two years, I dove headfirst into the analytics of the site. Once you understand a little about how and why users discover or watch a video on your channel, you can create strategies to drive more traffic based on topic, thumbnail, etc.
 
-* Along the same lines, I found it much harder to decipher the analytics of content posted on Facebook. Views are counted differently therefore one view on Facebook isn't as 'valuable' as a view on Youtube. 
+* Along the same lines, I found it much harder to decipher the analytics of content posted on Facebook. Views are counted differently therefore one view on Facebook isn't as 'valuable' as a view on Youtube.
