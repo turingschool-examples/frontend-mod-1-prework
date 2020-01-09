@@ -13,12 +13,18 @@ p {
   margin-top: .5px;
 }
 
-p.list-paragraph {
+.list-paragraph {
   text-align: center;
   margin-top: -40px;
   margin-bottom: 40px;
   font-family: "Trebuchet MS";
   font-style: italic;
+  font-weight: bold;
+}
+.lower-paragraph {
+  text-align: center;
+  margin-top: ;
+  margin-bottom: 40px;
   font-weight: bold;
 }
 
@@ -41,7 +47,7 @@ h1 {
 }
 
 h2 {
-  color: #00838e;
+  color: #880e4f;
   border: none;
   margin: 0px auto;
   padding: 5px;
@@ -97,6 +103,19 @@ h4 {
   margin-top: 20px;
   text-align: center;
 }
+h4.lower-header {
+  background-color: #4fb3be;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 44px;
+  width: 32%;
+  font-size: 20px;
+  margin-top: 50px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
 
 img.align-center {
   display: block;
@@ -130,8 +149,16 @@ img.medium {
   width: 40%;
   margin: 0px auto;
 }
+.unordered-list{
+  border: 5px double;
+  padding: 20px;
+  padding-left: 40px;
+  width: 15%;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
 
-div.packing-link {
+.packing-link {
   margin: 0px auto;
   border-top-left-radius: 50px 50px;
   border-top-right-radius: 50px 50px;
@@ -165,6 +192,26 @@ div.form-paragraph {
 div.form {
     display: block;
     text-align: center;
+}
+
+.definition-list {
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+}
+.definition-list::after {
+  content: "";
+  background: url("https://www.trzcacak.rs/myfile/detail/113-1137908_crowd-silhouettecrowd-silhouette-party-dancing-silhouette-dance-party.png");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 fieldset {
