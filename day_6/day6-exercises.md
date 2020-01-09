@@ -7,3 +7,5 @@
 <p>The return keyword is used to return a value to the code that called the function. The result of the calculation is returned to the code that called it.</p>
 <h2>4. How are local variables better than global variables? Are there instances you can think of where you might want to use a variable that is globally scoped over local?</h2>
 <p>Local variables are usually preferred for several reasons. Local variables use less memory than global variables. Local variables also cut down on naming conflicts. Local variables also allow the variable to have different values if the function is run more than once. You might want to use a global variable if multiple functions need to access the same variable.</p>
+<h3>JavaScript Console Problems</h3>
+<p>It doesn't look like these need to be included but I do have screenshots if needed.</p>
