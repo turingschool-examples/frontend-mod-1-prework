@@ -20,11 +20,11 @@ When on a desired web page you can use the keyboard shortcut option + command + 
 
 6.  List five different HTML elements and what they are used for.
 
-  a.  <b></b> is a bold element, it is used to make characters appear bold
-  b.  <q></q> is a quotation element, it is used for shorter quotes inside a paragraph (many avoid using this element because it is not compatible with Internet Explorer)
-  c.  <address></address> is an address element, it is used to contain contact details for the author of the web page (ex. physical address, phone number, email)
-  d.  <del></del> is a delete element, it is used to show text that has been deleted from a document
-  e.  <br /> is a line break element, it is used to add a line break in the middle of a paragraph
+-  <b></b> is a bold element, it is used to make characters appear bold
+-  <q></q> is a quotation element, it is used for shorter quotes inside a paragraph (many avoid using this element because it is not compatible with Internet Explorer)
+-  <address></address> is an address element, it is used to contain contact details for the author of the web page (ex. physical address, phone number, email)
+-  <del></del> is a delete element, it is used to show text that has been deleted from a document
+-  <br /> is a line break element, it is used to add a line break in the middle of a paragraph
 
 7.  What are empty elements?
 
@@ -36,9 +36,9 @@ Some text elements, known as semantic markup, are not intended to affect the str
 
 9.  What are three new semantic elements introduced in HTML 5?
 
-  a.  <header></header> is a header element, it defines a header of a page or section
-  b.  <nav></nav> is a navigation element, it defines a major block of navigation links
-  c.  <details></details> is a details element, it specifies additional details that a viewer can view or hide as they wish
+- <header></header> is a header element, it defines a header of a page or section
+- <nav></nav> is a navigation element, it defines a major block of navigation links
+- <details></details> is a details element, it specifies additional details that a viewer can view or hide as they wish
 
 
 CodePen HTML code: https://codepen.io/krogowsk/pen/WNbEXLY
