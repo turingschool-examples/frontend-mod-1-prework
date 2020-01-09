@@ -24,4 +24,4 @@
     I used two as an example in question #6 - <em></em> and <abbr> </abbr> where added with HTML5, along with <blockquote></blockquote> (changes the look to be more "codey")  In addition to the looks, it allows you to tell more about your webpage behind the scenes.
 
 
-    CodePen link:
+    CodePen link: https://codepen.io/Melizzo/pen/jOEzZGd
