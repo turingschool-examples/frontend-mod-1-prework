@@ -53,7 +53,7 @@ Some text elements, known as semantic markup, are not intended to affect the str
 **9.  What are three new semantic elements introduced in HTML 5?**
 
 
-- **<header> </header>** is a header element, it defines a header of a page or section
+- "**<header></header>**" is a header element, it defines a header of a page or section
 - **<nav> </nav>** is a navigation element, it defines a major block of navigation links
 - **<details> </details>** is a details element, it specifies additional details that a viewer can view or hide as they wish
 
