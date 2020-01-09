@@ -39,3 +39,4 @@ Analysis- The use of data in order to make improvements to the sight. Managing f
   Supports- https://www.ultimate-guitar.com/ This is a site that I have been using for well over a decade, initially to learn songs on guitar. Over time I have noticed however, that more of their content has been geared towards news within the musical industry. This could be based on the fact that user engagement has been higher in articles, therefore the site dedicates more resources to cater to this.
 
   Violates- https://www.uat.edu/ Where to start, I think this is a good case of a site trying to do too much. First, there are so many elements that the site takes a while to load. Second, the font on the drop down menu is way to small. 
+  
