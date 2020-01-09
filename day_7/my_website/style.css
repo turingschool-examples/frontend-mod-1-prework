@@ -141,7 +141,20 @@ img.medium {
   width: 290px;
   height: 200px;
 }
-
+img.last-image1 {
+  width: 20%;
+  padding: 10px;
+  border: 1.5px solid;
+  float:left;
+  margin-left: 70px;
+}
+img.last-image2 {
+  width: 20%;
+  padding: 10px;
+  border: 1.5px solid;
+  float: right;
+  margin-left: 70px;
+}
 .ordered-list {
   border: 1.5px solid;
   padding: 20px;
@@ -155,7 +168,7 @@ img.medium {
   padding-left: 40px;
   width: 15%;
   margin: 0px auto;
-  margin-bottom: 50px;
+  margin-bottom: 300px;
 }
 
 .packing-link {
