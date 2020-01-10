@@ -1,13 +1,14 @@
 Reading Response Ch. 1 & 2 from HTML and CSS
 1. The purpose of HTML code is to describe the structure of a web page.
 
-2. The difference between an element and a tag is that an element comprises the opening tag, the closing tag and any content that lies between.
-The tag itself is just the opening and closing brackets and characters.
+2. The difference between an element and a tag is that an element comprises the opening tag,
+the closing tag and any content that lies between
+The tag itself is just the opening and closing brackets and characters
 i.e. <p> </p> paragraph tags show an empty paragraph element
 
-3. Attributes tell us additional information about the contents of an element.
-They are in the opening tag and made of up a name and value.
-i.e. <p lang="en-us>" specifies that the language used in this element us US English.
+3. Attributes tell us additional information about the contents of an element
+They are in the opening tag and made of up a name and value
+i.e. <p lang="en-us>" specifies that the language used in this element us US English
 
 4. The <body> element is everything that is shown inside the main browser </body>
 The <head> element contains information about the page in the form of a title </head>
