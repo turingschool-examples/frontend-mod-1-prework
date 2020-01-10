@@ -23,3 +23,4 @@
 - Analysis: Are you looking for subjective opinions or objective facts?
   Good Website: https://www.bbc.com/news/world // The information on this website has proven to be that more of the time than not objective facts.
   Bad Website: https://www.cnn.com/ // The information on the website is one of many subjective opinions rather than objective facts.
+- ALL Done
