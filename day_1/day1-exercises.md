@@ -3,13 +3,12 @@
 3. Why do we use attributes in HTML elements? Attributes provided additional information about an element.
 4. Describe the purpose of the head, title, and body HTML elements. The head element provides information about the page itself. The title tag provides the title of the web page, which is shown above the page itself and in its specific tab. The body element tells the browser that everything within it should be displayed inside the main browser window.
 5. In your browser (Chrome), how do you view the source of a website? You can view the source by right clicking on the page and clicking "view page source."
-6. List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
-<h1> is used to indicate the main heading.
-<b> bolds text.
-<i> italicizes text.
-<sub> indicates text that should be subscript.
-<br /> creates a line break.
-
+6. List five different HTML elements and what they are used for.
+//<h1>// is used to indicate the main heading.
+//<b>// bolds text.
+//<i>// italicizes text.
+//<sub>// indicates text that should be subscript.
+//<br />// creates a line break.
 7. What are empty elements? Empty elements only have one tag.
 8. What is semantic markup? Semantic markup provides extra information to the web page without providing structure.
 9. What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
