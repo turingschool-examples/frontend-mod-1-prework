@@ -1,0 +1,143 @@
+/* || GENERAL STYLES */
+body {
+     width: 60%;
+     background-color: #f4f4f4;
+     margin: 0 auto;
+     font-family: verdana, arial, sans-serif;
+}
+
+ h1 {
+     color: #f4f4f4;
+     background-color: #373737;
+     font-family: Georgia, Times New Roman, serif;
+     letter-spacing: 1pt;
+     text-align: center;
+     height: 5%;
+     padding: 1em;
+}
+
+h2 {
+    color: #373737;
+    text-align: center;
+    font-family: Georgia, Times New Roman, serif;
+    padding: 3px;
+}
+
+ p {
+     font-family: verdana, arial, sans-serif;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+h2 {
+    color: #373737;
+    text-align: center;
+    font-family: Georgia, Times New Roman, serif;
+    padding: 3px;
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* || HEADER */
+ #header_img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     margin-bottom: 2em;
+}
+
+/* || CONTENT BOX */
+ #content {
+     border: 2px solid #000000;
+     padding: 1em;
+}
+
+/* || TABLE & LEGEND */
+ #legend li {
+     list-style-type: none;
+     padding-left: 2em;
+     display: inline-block;
+     margin-left: 2em;
+     margin-bottom: 1em;
+}
+ th {
+     text-decoration: underline;
+}
+ td {
+     text-align: center;
+}
+ #green {
+     background-image: url('images/checked.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+ #yellow {
+     background-image: url('images/warning.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+ #red {
+     background-image: url('images/forbidden.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+/* || MAINTAING OUR TRAILS */
+ #img2 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2em;
+     margin-bottom: 2em;
+     width: 60%;
+}
+ #img3 {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2em;
+     margin-bottom: 2em;
+     width: 50%;
+}
+ #important {
+     font-family: times;
+     font-size: 110%;
+     border: 2px solid #000000;
+     padding: .5em;
+}
+ #tips li {
+     margin-bottom: .5em;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+/* || EMAIL SIGNUP */
+ .emailSignUp, .lists {
+     text-align: center;
+     margin-top: 2em;
+     text-decoration: none;
+}
+ #form {
+     margin-top: 1em;
+}
+ .input {
+     height: 2em;
+     width: 15em;
+     font-size: 110%
+}
+ .button {
+     font-size: 110%;
+     height: 2em;
+}
