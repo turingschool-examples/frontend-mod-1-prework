@@ -22,3 +22,61 @@ An expression is a piece of code that produces a value, such as `10 * 3` or `a =
 Assignment - `x = 10`, `giraffes = "yes"`, `y = z`
 Arithmetic - `bananas + oranges`, `i++`, `eggs / omelets`
 Logical - `true && false`, `hasLetters || hasNumbers`, `rainbows == tears`
+
+###Console outputs:
+- `25`
+- `"this is my string"`
+- `undefined`
+- `"Hello Turing!"`
+- `undefined`
+- `9`
+- `undefined`
+- `"Connect these strings."` (The strings were connected into one string.)
+- `Hello Turing!How are you?`
+- `true` (Flipping the operator around would result in `false`, as in `5 < 3`)
+- `false`, `true` (`===` means "equal value and equal type," where `==` means "equal value")
+- `Hey!`
+- My statement: `if ("100" === 100) {console.log("true!")} else {console.log("false!")}`
+
+Console output for exercises:
+```
+var numberOfChildren = 3
+undefined
+var partnerName = "Alex"
+undefined
+var locationName = "Denver"
+undefined
+var job = "programmer"
+undefined
+console.log("You will be a " + job + " in " + locationName + ", and married to " + partnerName + " with " + numberOfChildren + " kids.");
+VM817:1 You will be a programmer in Denver, and married to Alex with 3 kids.
+undefined
+```
+
+```
+var currentYear = 2020;
+undefined
+var birthYear = 2001;
+undefined
+var olderAge = currentYear - birthYear;
+undefined
+var youngerAge = olderAge - 1;
+undefined
+console.log("You are either " + youngerAge + " or " + olderAge)
+VM1353:1 You are either 18 or 19
+undefined
+```
+
+```
+var currentAge = 18
+undefined
+var maxAge = 80
+undefined
+var numberPerDay = 2
+undefined
+var numberNeededForLife = (maxAge - currentAge) * 365.25 * numberPerDay
+undefined
+console.log("You will need " + numberNeededForLife + " to last you until the ripe old age of " + maxAge);
+VM1897:1 You will need 45291 to last you until the ripe old age of 80
+undefined
+```
