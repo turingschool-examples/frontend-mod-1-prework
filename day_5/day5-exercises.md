@@ -19,9 +19,9 @@ If you do not know the number of items you'll be dealing with, it's better to us
 An expression is a piece of code that produces a value, such as `10 * 3` or `a = b + c`. A statement is a piece of code that performs an action, like calling a function or an `if` statement.
 
 ### What are three types of operators and how are they used?
-Assignment - `x = 10`, `giraffes = "yes"`, `y = z`
-Arithmetic - `bananas + oranges`, `i++`, `eggs / omelets`
-Logical - `true && false`, `hasLetters || hasNumbers`, `rainbows == tears`
+1. Assignment - `x = 10`, `giraffes = "yes"`, `y = z`
+1. Arithmetic - `bananas + oranges`, `i++`, `eggs / omelets`
+1. Logical - `true && false`, `hasLetters || hasNumbers`, `rainbows == tears`
 
 ### Console outputs:
 - `25`
