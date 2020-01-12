@@ -5,28 +5,28 @@
 
   To show the differences between the three, I believe it is best to look at the structure of the elements. Let's begin!
 
-*<ol>ordered_lists</ol>*
+```<ol>ordered_lists</ol>
 
-  ```<ol class="store_list">
+  <ol class="store_list">
       <li> Cut the bread </li>
       <li> Spread the yogurt </li>
       <li> Cook the pasta </li>
   </ol>
-  ```
 
-*<ul>unordered_lists</ul>*
 
-  ```<ul class="cooking_measurements">
+<ul>unordered_lists</ul>
+
+  <ul class="cooking_measurements">
       <li> 12oz liquid smoke </li>
       <li> 5 onions </li>
       <li> 5lbs beef loin</li>
       <li> 6 garlic </li>
     </ul>
-    ```
 
-*<dl>definition_list</dl>*
 
-  ```<dl class="favorite_sushi">
+<dl>definition_list</dl>
+
+  <dl class="favorite_sushi">
       <dt>Sashimi</dt>
       <dd>Sliced raw fish that would be served with condiments such as radish or ginger</dd>
       <dt>Nigiri</dt>
