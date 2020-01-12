@@ -16,7 +16,7 @@
 
   ```
 
-*<ul>unordered_lists</li>*
+*<ul>unordered_lists</ul>*
 
   ```
   <ul class="cooking_measurements">
@@ -37,7 +37,6 @@
       <dt>Nigiri</dt>
       <dd>Is a slice of raw fish over pressed vinegared rice.</dd>
     </dl>
-
     ```
 
 ## What is the basic structure of an element used to link to another website?
