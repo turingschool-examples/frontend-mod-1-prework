@@ -21,12 +21,12 @@
   2. <b> : Bold, to bold something `<b> Hello </b>`
   3. <i> : Italic, to make something italic.
   4. <sup> : superscript, allows for things like
-  `4 <sup> th </sup>`
+  `4 <sup> the </sup>`
   5. <sub> :subscript, allows for Carbon Monoxide to be
   `C <sub> O2 </sub> `
 
 ## What are empty elements?
-  Are elements that only requires a opening tag.
+  Are elements that only requires a opening tag. `<img>`
 
 ## What is semantic markup?
   Semantic markup is is used to describe the content of your web pages more accurately. They are elements that were designed add extra info to the pages for screen readers or search engines.
@@ -37,4 +37,4 @@
   3. <article>
 
 ## Here is the link to my personal page for Capstone_day1
-  <a href ='https://codepen.io/Quinn0011'> </a>
+  <a href ='https://codepen.io/Quinn0011/pen/VwwrVeQ'> </a>
