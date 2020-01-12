@@ -6,27 +6,39 @@
   To show the differences between the three, I believe it is best to look at the structure of the elements. Let's begin!
 
 *<ol>ordered_lists</ol>*
-  ``<ol class="store_list">``<enter>
-      ``<li> Cut the bread </li>``<enter>
-      ``<li> Spread the yogurt </li>``<enter>
-      ``<li> Cook the pasta </li>``<enter>
-  ``</ol>``
+
+  ```
+  <ol class="store_list">
+      <li> Cut the bread </li>
+      <li> Spread the yogurt </li>
+      <li> Cook the pasta </li>
+  </ol>
+
+  ```
 
 *<ul>unordered_lists</li>*
-  ``<ul class="cooking_measurements">``
-      ``<li> 12oz liquid smoke </li>``
-      ``<li> 5 onions </li>``
-      ``<li> 5lbs beef loin</li>``
-      ``<li> 6 garlic </li>``
-    ``</ul>``
+
+  ```
+  <ul class="cooking_measurements">
+      <li> 12oz liquid smoke </li>
+      <li> 5 onions </li>
+      <li> 5lbs beef loin</li>
+      <li> 6 garlic </li>
+    </ul>
+
+    ```
 
 *<dl>definition_list</dl>*
-  ``<dl class="favorite_sushi">``
-      ``<dt>Sashimi</dt>``
-      ``<dd>Sliced raw fish that would be served with condiments such as radish or ginger</dd>``
-      ``<dt>Nigiri</dt>``
-      ``<dd>Is a slice of raw fish over pressed vinegared rice.</dd>``
-    ``</dl>``
+
+  ```
+  <dl class="favorite_sushi">
+      <dt>Sashimi</dt>
+      <dd>Sliced raw fish that would be served with condiments such as radish or ginger</dd>
+      <dt>Nigiri</dt>
+      <dd>Is a slice of raw fish over pressed vinegared rice.</dd>
+    </dl>
+
+    ```
 
 ## What is the basic structure of an element used to link to another website?
   ``<a href="http://www.facebook.com">facebook</a>``Within the first link elements we use an "href" to link to another page and place a name of the link within both link elements. I.E. facebook
@@ -37,21 +49,25 @@
 ## How do you link to a specific part of the same page?
   To link a specific part of a same page you must first identify the points on the page where the link will go to. We can do that with the 'id' attribute. Lets, get down to business! #MULAN
 
-  ``<header id="top" class="main_head"> BLAH BLAH BLAH </header>``
+  - ``<header id="top" class="main_head"> BLAH BLAH BLAH </header>``
         -notice how we not only have a class but we also have the "id" attribute set to "top"?
-  ``<p id="mid" class="half_way"> BAH BAH BAH </p> ``
+  - ``<p id="mid" class="half_way"> BAH BAH BAH </p> ``
         -same here but a little different...
-  ``<footer id="end" class="last_thing"></footer>``
+  - ``<footer id="end" class="last_thing"></footer>``
         -footer has an "id" of "end" for the end of the page, get it?
 
-  -Now lets say that we are scrolled all the way to the bottom of a really really long web page you could put this link at the bottom to allow users to jump to the top of the page rather than scroll.
-    `<footer>`
-      ``<a href="top"> Top </a>``
-    `</footer>`
-  Just to note that we can also put this link at the top, nested in the <header>. So we can jump to the bottom. We would just need to change the href="" link value from "top" to the appropriate id, "end".
-    ``<header>``
-      ``<a href="End"> End </a>``
-    ``</header>``
+  - Now lets say that we are scrolled all the way to the bottom of a really really long web page you could put this link at the bottom to allow users to jump to the top of the page rather than scroll.
+    ```
+    <footer>
+      <a href="top"> Top </a>
+    </footer>
+    ```
+  - Just to note that we can also put this link at the top, nested in the <header>. So we can jump to the bottom. We would just need to change the href="" link value from "top" to the appropriate id, "end".
+    ```
+    <header>
+      <a href="End"> End </a>
+    </header>
+    ```
 
 ## What is the purpose of CSS?
   CSS: Also known as Cascading Style Sheets allows us to create rules that specify how the content of an element should appear.
@@ -60,13 +76,14 @@
 ## What is the basic structure of a CSS rule?
   In my opinion I think the best way describe something is to have an example of what it is we are looking at.
 
-  CSS example 1-A: `p {
+  CSS example 1-A: ```p {
                   color: black;
                   font-size: 1.5rem;
                   margin-left: 30px;
                   margin-right: 30px;
                   display: inline-block;
-                }``
+                }```
+  ```
   1 CSS Rule
     1.1 Selector
       1.1.1 Selectors indicate what elements the rule applies to.
@@ -78,6 +95,7 @@
       1.2.2 Values
         1.2.2.1 Values specify the setting you want to use for the chosen properties.
           1.2.2.1.1 Example 1-A: black, 1.5rem, 30px, inline-block.
+          ```
 
 ## How do you link a CSS stylesheet to your HTML document?
   *usually found in the head* ``<link href="css/style.css" type="text/css" rel="stylesheet" />``
@@ -91,10 +109,10 @@
   - Hue: expressed as an angle between 0 and 360 degrees.
   - Saturation: expressed as a percentage.
   - Lightness: expressed as a percentage with 0% being white, 50% being normal, 100% is black.
-  Example: `p {
+  Example: ```.p {
                 background-color: #ee3e80;
                 background-color: hsl(0,0%,68%)
-              }``
+              }```
 ## In the world of typeface, what are the three main categories of fonts? What are the differences between them?
   - Serif: Has extra detail on the end of the main strokes of letters.
   - sans-serif: Has straight ends to letters and therefore have much cleaner look.
