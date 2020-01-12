@@ -2,8 +2,8 @@
   HTML describes the structure of pages.
 
 ## What is the difference between an element and a tag?
-  1. Elements are to describe the structure of a page. The 'p' in <p> and </p> stands for paragraph.
-  2. Tags usually come in a set that includes an opening tag i.e. <p> which entails that this is the beginning of a paragraph. And not to forget the closing tag </p> "notice the forward hash" marking the end of the paragraph.  
+  1. Elements are to describe the structure of a page. The 'p' in `<p>` and `</p>` stands for paragraph.
+  2. Tags usually come in a set that includes an opening tag i.e. <p> which entails that this is the beginning of a paragraph. And not to forget the closing tag `</p>` "notice the forward hash" marking the end of the paragraph.  
 
 ## Why do we use attributes in HTML elements?
   Attributes provide additional information about the contents of an element. They appear on the opening tag of an element and contain two parts: Name and Value.
