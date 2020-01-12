@@ -6,10 +6,10 @@
   To show the differences between the three, I believe it is best to look at the structure of the elements. Let's begin!
 
 *<ol>ordered_lists</ol>*
-  ``<ol class="store_list">``
-      ``<li> Cut the bread </li>``
-      ``<li> Spread the yogurt </li>``
-      ``<li> Cook the pasta </li>``
+  ``<ol class="store_list">``<enter>
+      ``<li> Cut the bread </li>``<enter>
+      ``<li> Spread the yogurt </li>``<enter>
+      ``<li> Cook the pasta </li>``<enter>
   ``</ol>``
 
 *<ul>unordered_lists</li>*
