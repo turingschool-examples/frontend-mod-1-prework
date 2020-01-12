@@ -4,11 +4,12 @@
 
 ## What element is used to create a dropdown list?
   The select element is used to create a dropdown list.
-  EXAMPLE: `<select name="cars">
+  EXAMPLE: ```<select name="cars">
               <option value="Mustang">Mustang</option>
               <option value='Corvette'>Corvette</option>
               <option value='Charger'>Charger</option>
-            </select>`
+            </select>```
+
     - Select was used to create a dropdown list. `Cars` is the name given to the `select` element. `<option>` element is used to specify the option given to the user, the words like "mustang, corvette and charger" that are written in between the `<option>` element will appear to the user as choices. The `value=""` element used, is to indicate the value sent to the server.  
 
 ## If you're using an input element to send form data to a server, what should the type attribute be set to?
@@ -16,7 +17,7 @@
 
 ## What element is used to group similar form items together?
   With the element ``<fieldset>`` we are able to group similar forms together.
-  EXAMPLE: `<fieldset>
+  EXAMPLE: ```<fieldset>
             <legend> Contact Information </legend>
             <label>Email:<br />
             <input type="text" name="email" /><label><br />
@@ -24,7 +25,7 @@
             <input type="txt" name="mobile" /></label><br />
             <label>home phone<br />
             <input type="txt" name="home_phone" /><label>
-           </fieldset>`
+           </fieldset>```
 
 ## Describe the differences between border, margin, and padding.
   - border: Every box has a border. Even if it was instructed to have a 0px. It separates the margin and the padding.
