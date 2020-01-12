@@ -2,12 +2,11 @@
 
 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
-<ol> - ordered lists - are numbered lists, and you can list these items using a <li> example_item </li>. Ordered lists also require to be closed out using a
-</ol>
+* ol - ordered lists - are numbered lists, and you can list these items using a "li example_item li". Ordered lists also require to be closed out using a "ol"
 
-<ul> - unordered lists - are bulleted lists. Similarly, it requires items for the list to be placed between <li> </li> and is closed using a </ul>
+* ul - unordered lists are bulleted lists. Similarly, it requires items for the list to be placed between li open/close  and is closed using a ul.
 
-<dl> - definition lists - are used for defining elements. It creates a tab like indentation useful for separating an item and defining it with emphasis. It uses to <dt> item_title </dt> and <dl> definition_item </dl>. It needs a closing </dl>
+* dl - definition lists are used for defining elements. It creates a tab like indentation useful for separating an item and defining it with emphasis. It uses to dt item_title dt and dl definition_item dl. It needs a closing item. 
 
 #### CSS Questions
 
