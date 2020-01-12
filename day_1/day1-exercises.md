@@ -21,7 +21,7 @@
 8. What is a semantic markup?
   It is a markup to provide extra information or emphasis, like explaining an acronym.
 9. What are three new semantic elements used in HTML5?
-  Examples like <nav>, <hgroup>, and <section> are all new semantic elements used in HTML5. 
+  Examples like nav, hgroup, and section are all new semantic elements used in HTML5. 
 
 
 
