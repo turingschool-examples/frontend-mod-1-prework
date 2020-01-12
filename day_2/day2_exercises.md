@@ -29,13 +29,13 @@
     </dl>``
 
 ## What is the basic structure of an element used to link to another website?
-  ``<a href="http://www.facebook.com">facebook</a>``
+  ``<a href="http://www.facebook.com">facebook</a>``Within the first link elements we use an "href" to link to another page and place a name of the link within both link elements. I.E. facebook
 
 ## What attribute should you include in a link to open a new tab when the link is clicked?
-  ``<a href="https://facebook.com" target="_blank">facebook</a>``
+  ``<a href="https://facebook.com" target="_blank">facebook</a>`` The `target="_blank` is what is added to open link on a new page.
 
 ## How do you link to a specific part of the same page?
-  To link a specific part of the same page you must first identify the points on the page that the link will go to. We can do that with the 'id' attribute. Lets get down to business! #MULAN
+  To link a specific part of a same page you must first identify the points on the page where the link will go to. We can do that with the 'id' attribute. Lets, get down to business! #MULAN
 
   ``<header id="top" class="main_head"> BLAH BLAH BLAH </header>``
         -notice how we not only have a class but we also have the "id" attribute set to "top"?
@@ -45,13 +45,13 @@
         -footer has an "id" of "end" for the end of the page, get it?
 
   -Now lets say that we are scrolled all the way to the bottom of a really really long web page you could put this link at the bottom to allow users to jump to the top of the page rather than scroll.
-    <footer>
+    `<footer>`
       ``<a href="top"> Top </a>``
-    </footer>``
+    `</footer>`
   Just to note that we can also put this link at the top, nested in the <header>. So we can jump to the bottom. We would just need to change the href="" link value from "top" to the appropriate id, "end".
-    <header>
+    ``<header>``
       ``<a href="End"> End </a>``
-    </header>
+    ``</header>``
 
 ## What is the purpose of CSS?
   CSS: Also known as Cascading Style Sheets allows us to create rules that specify how the content of an element should appear.
@@ -69,7 +69,7 @@
                 }``
   1 CSS Rule
     1.1 Selector
-      1.1.1 Selectors indicate which element the rule applies to.
+      1.1.1 Selectors indicate what elements the rule applies to.
         1.1.1.1 Example 1-A: p is the selector. *p for paragraph <p>*
     1.2 Declarations indicate how the elements referred to in the selector should be styled. They are split into two parts Properties and Values.
       1.2.1 Properties
@@ -82,7 +82,7 @@
 ## How do you link a CSS stylesheet to your HTML document?
   *usually found in the head* ``<link href="css/style.css" type="text/css" rel="stylesheet" />``
 ## When is it useful to use external stylesheets as opposed to using interal CSS?
-  It is important to know when to use each one and for what reason. So lets define when to use them, yay!
+  It is important to know when to use each one and for what reason. So. Lets define when we are to use them. Yay!
     - external: We primarily want to use external for the fact that it is a general practice and it creates less code and smaller HTML pages. All by a simple link.
     - internal: We will tend to use this only if we are creating one page and we want to keep everything together and in the same file.
 ## Describe what a color hex code is.
