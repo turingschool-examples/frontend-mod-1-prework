@@ -51,17 +51,15 @@
         -footer has an "id" of "end" for the end of the page, get it?
 
   - Now lets say that we are scrolled all the way to the bottom of a really really long web page you could put this link at the bottom to allow users to jump to the top of the page rather than scroll.
-    ```
-    <footer>
+    ``<footer>
       <a href="top"> Top </a>
     </footer>
-    ```
+    ``
   - Just to note that we can also put this link at the top, nested in the <header>. So we can jump to the bottom. We would just need to change the href="" link value from "top" to the appropriate id, "end".
-    ```
-    <header>
+    ``<header>
       <a href="End"> End </a>
     </header>
-    ```
+    ``
 
 ## What is the purpose of CSS?
   CSS: Also known as Cascading Style Sheets allows us to create rules that specify how the content of an element should appear.
@@ -77,8 +75,8 @@
                   margin-right: 30px;
                   display: inline-block;
                 }```
-  ```
-  1 CSS Rule
+
+  ``1 CSS Rule
     1.1 Selector
       1.1.1 Selectors indicate what elements the rule applies to.
         1.1.1.1 Example 1-A: p is the selector. *p for paragraph <p>*
@@ -89,7 +87,7 @@
       1.2.2 Values
         1.2.2.1 Values specify the setting you want to use for the chosen properties.
           1.2.2.1.1 Example 1-A: black, 1.5rem, 30px, inline-block.
-          ```
+          ``
 
 ## How do you link a CSS stylesheet to your HTML document?
   *usually found in the head* ``<link href="css/style.css" type="text/css" rel="stylesheet" />``
