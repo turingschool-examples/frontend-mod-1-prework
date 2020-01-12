@@ -75,7 +75,7 @@
                   display: inline-block;
                 }```
 
-  ```1 CSS Rule
+  `1 CSS Rule
     1.1 Selector
       1.1.1 Selectors indicate what elements the rule applies to.
         1.1.1.1 Example 1-A: p is the selector. *p for paragraph <p>*
@@ -85,8 +85,7 @@
           1.2.1.1.1 Examples 1-A: Colors, font-size, margin-left, margin-right.
       1.2.2 Values
         1.2.2.1 Values specify the setting you want to use for the chosen properties.
-          1.2.2.1.1 Example 1-A: black, 1.5rem, 30px, inline-block.
-          ```
+          1.2.2.1.1 Example 1-A: black, 1.5rem, 30px, inline-block.`
 
 ## How do you link a CSS stylesheet to your HTML document?
   *usually found in the head* ``<link href="css/style.css" type="text/css" rel="stylesheet" />``
