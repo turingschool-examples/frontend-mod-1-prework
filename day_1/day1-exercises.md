@@ -29,12 +29,12 @@
   Are elements that only requires a opening tag. `<img>`
 
 ## What is semantic markup?
-  Semantic markup is is used to describe the content of your web pages more accurately. They are elements that were designed add extra info to the pages for screen readers or search engines.
+  Semantic markup is is used to describe the content of your web pages more accurately. They are elements that were designed add extra info to the pages for screen readers or search engines. This is primarily used for people with disabilities.
 
 ## What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
-  1. <div>
-  2. <section>
-  3. <article>
+  1. A `<header>`element should be used as a container for introductory content.
+  2. A `<section>` element defines section in a document
+  3. An `<article>` element specifies independent, self-contained content.
 
 ## Here is the link to my personal page for Capstone_day1
-  <a href ='https://codepen.io/Quinn0011/pen/VwwrVeQ'> </a>
+  https://codepen.io/Quinn0011/pen/VwwrVeQ
