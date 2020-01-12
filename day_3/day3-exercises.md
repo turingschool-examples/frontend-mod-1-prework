@@ -1,5 +1,5 @@
 ### 1.  If you're using an input element in a form, what attribute controls the behavior of that input?
-The attribute `type` with the associated `"text"` variable will control the input type that the user is allowed to input.  
+The attribute `type` will control what the input does.  There are different `type` options that would allow for different kinds of input.
 
 ### 2.  What element is used to create a dropdown list?
 The `<select>` element can create dropdown lists.  nested within this element will be `<option>` elements with a value equal to one of the options listed.  The structure is: `<option value="choice_1>Choice 1</option>"`
