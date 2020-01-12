@@ -17,12 +17,12 @@
   Once in Google Chrome go to the view tab in the top left. Then click on the source or view source tab.
 
 ## List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.
-  1. <hr  /> : horizontal rules, creates a break between themes.
-  2. <b> : Bold, to bold something `<b> Hello </b>`
-  3. <i> : Italic, to make something italic.
-  4. <sup> : superscript, allows for things like
+  1. `<hr  />` : horizontal rules, creates a break between themes.
+  2. `<b>` : Bold, to bold something `<b> Hello </b>`
+  3. `<i>` : Italic, to make something italic.
+  4. `<sup>` : superscript, allows for things like
   `4 <sup> the </sup>`
-  5. <sub> :subscript, allows for Carbon Monoxide to be
+  5. `<sub>` :subscript, allows for Carbon Monoxide to be
   `C <sub> O2 </sub> `
 
 ## What are empty elements?
