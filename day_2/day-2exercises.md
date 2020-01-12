@@ -1,13 +1,13 @@
 ### 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
   Ordered lists are lists that are numbered.  This could be steps in an instruction manual.  An unordered list is a list that starts with bullet points.  This might be a shopping list or list of chores.  Definition lists are made up of a list of words and their definitions.  Think dictionary or encyclopedia entries.
 
-###2.  What is the basic structure of an element used to link to another website?
+### 2.  What is the basic structure of an element used to link to another website?
   `<a href='url_link'>Text in Document</a>`
 
-###3.  What attribute should you include in a link to open a new tab when the link is clicked?
+### 3.  What attribute should you include in a link to open a new tab when the link is clicked?
   You would use the `<target>` attribute.  This attribute's value should be `_blank`.  The structure of this would look like this: ```<a href='url_link' target=`_blank`>Text in Document</a>```
 
-###4.  How do you link to a specific part of the same page?
+### 4.  How do you link to a specific part of the same page?
   First you would need to use the id attribute to name the part of your page.  If I want to make a link to the top of my page I would set the value of the id attribute to "top".  Then in my anchor, it would read something like this: `<a href="#top">Top of page</a>`
 
 ### 1.  What is the purpose of CSS?
