@@ -8,7 +8,7 @@
 
   `<select></select>` is used to create a dropdown list.
 
-3.  If you're using an input element to send form data to a server, what should the `type` attribute be set to?
+3.  If you're using an input element to send form data to a server, what should the `type` attribute be set to? 
 
   `type="submit"` should be used to send data to a server.
 
