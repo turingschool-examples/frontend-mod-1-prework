@@ -1,0 +1,43 @@
+html {
+    background-color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-family: serif;
+    text-align: center;
+    float: none;
+    clear: both;
+}
+
+p, li, a {
+    color: #ddd;
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 5px;
+}
+li a{
+    font-size: 1em;
+    font-family: monospace;
+}
+
+img {
+    width: 100%;
+    padding: 1px 0px 1px 0px;
+}
+
+form {
+    max-width: 600px;
+}
+
+.left-column, .right-column {
+    float: left;
+    width: 45%;
+    padding: 1.25%;
+    font-size: 1em;
+}
+.smalltext {
+    font-size: .7em;
+}
