@@ -33,4 +33,9 @@
   >The z-index can be considerably relevant in this case because it allows you to set a prioritization of the element boxes as they are scrolled in relation to the browser. You can give the z-index a specific integer value to use as a way of knowing which box should be prioritized while the boxes overlap, which is bound to happen given that it has a fixed absolute position. They refer to this as "stackin context".
 
 5. **What is the difference between a fixed and liquid layout?**
-  >Fixed layout is a website layout that does not to any of the changes a user might do to his browser size. They usually are specified in pixels. While a liquid layout adapts to any of the changes a user might do to his browser window size. Liquid layouts are specified in percentages. These percentages depending on the way the width sections were controlled can make for pretty awkward reading. 
+  >Fixed layout is a website layout that does not to any of the changes a user might do to his browser size. They usually are specified in pixels. While a liquid layout adapts to any of the changes a user might do to his browser window size. Liquid layouts are specified in percentages. These percentages depending on the way the width sections were controlled can make for pretty awkward reading.
+
+### Additions to codepen
+
+  >[CodePen Profile](https://codepen.io/carflor/pen/zYxjejO)
+  
