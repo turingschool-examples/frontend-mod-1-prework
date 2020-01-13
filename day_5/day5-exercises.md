@@ -26,4 +26,7 @@
 5. **What is the difference between an expression and a statement?**
   >Statements is what they call every single line of instruction in a script. Every step is a single statement. An expression is a type of statement which assigns a value, either through a string, a math formula, compare or even do some good old logic.
 
-6. What are three types of operators and how are they used? 
+6. What are three types of operators and how are they used?
+  >* Assignment operators assign a value to a variable. An arithmetic operator performs basic math and provides a single result value. Comparison operators are able to return boolean true or false answers.
+
+  
