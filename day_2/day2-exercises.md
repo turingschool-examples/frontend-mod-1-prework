@@ -1,4 +1,4 @@
-# Day 2: HTML and class
+# Day 2: HTML and CSS
 
 ## Chapter 3 and 4 Questions
 
@@ -100,10 +100,6 @@ Color hex codes are references to specific colors made up of red, green, and blu
 * Percentages
 * Ems
 
+## Practice Webpage
 
-    Add to the page you created in CodePen on Day 1:
-
-    *   Add a color to the text of all of your headings (using hex codes).
-    *   For your `h1` heading, add a background color.
-    *   Make your headings a serif font, and make the paragraph text a sans-serif font.
-    *   Change a snippet of paragraph text to be italic using the font-style property (do not use the `<i></i>` in this case).
+[Practice Webpage](https://codepen.io/kcwill/pen/abzKpLp)
