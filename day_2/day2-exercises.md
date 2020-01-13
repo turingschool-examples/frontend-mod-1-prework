@@ -83,7 +83,7 @@ Color hex codes are references to specific colors made up of red, green, and blu
 
 * Hue: The colloquial idea of color.
 * Saturation: Amount of gray in a color. 0% is gray, 100% is the color.
-* Lightness: Amount of white or black in a color. 50% is normal, 100% lightness is white, 0% lightness is black.
+* Lightness: Amount of white or black in a color. 50% is normal, 100% lightness is white, 0% lightness is black. 
 
 
     8.  In the world of type face, what are the three main categories of fonts? What are the differences between them?
