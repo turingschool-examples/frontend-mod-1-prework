@@ -13,7 +13,8 @@ User would click on Google to go to google.com
 i.e. <a href="http://www.google.com" target="_blank">Google</a>
 Opens Google in a new window
 
-4. When linking to other pages on the same site you can use shorthand known as relative URL rather than the full domain name
+4. When linking to other pages on the same site you can use shorthand known as relative URL 
+rather than the full domain name
 i.e. <a href-"home.html">Home</a> takes users to the homepage of a site
 
 Reading Response Chapters 10, 11, 12 on What is CSS, Color, Text from HTML and class
