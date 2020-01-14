@@ -1,7 +1,7 @@
 Ch. 3 Functions & Scope from JavaScript & jQuery
 
 1. sayHello(); is a function name and the parentheses call the function
-sayHello without parentheses is like a variable name
+sayHello without parentheses would not call a function like a variable name
 
 2. Function parameters are used like variables within the function
 Arguments are the values that you pass into the code (the information it needs to function)
