@@ -34,7 +34,7 @@ The width of a margin can be set to create a gap between adjacent boxes
 
 3. The difference between block-level and inline elements:
 -block level elements are usually structural and start on a new line i.e. <h> <p> <li>
--inline elements are usually text based and flow between surrounding text i.e. <img> <b> <i>
+-inline elements are usually text based and flow between surrounding text i.e. <img> bold italic
 You can turn an inline element into a block element or vice versa
 
 4. The role of fixed positioning is to position the element in relation to the browser window,
