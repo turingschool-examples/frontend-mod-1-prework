@@ -17,4 +17,9 @@
 
 4) How are local variables better than global variables? Are there instances you can think of where you might want to use a variable that is globally scoped over local?
   * Local or function-level variables cannot be accessed outside of the function in which it was declared, which decreases the risk of naming conflicts as well as helps to not take up as much memory as global variables do.
-  * You would want to use a global variable over a local variable when it comes to storing constant variables that you know you will need to refer to often in multiple functions and want to ensure consistency and accuracy. 
+  * You would want to use a global variable over a local variable when it comes to storing constant variables that you know you will need to refer to often in multiple functions and want to ensure consistency and accuracy.
+
+## Exercises
+
+- [x] Work through the linked problems in the console about functions.
+- [x] Practice through some JavaScript basics exercises on w3resource and check code against their solutions.
