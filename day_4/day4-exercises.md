@@ -1,6 +1,7 @@
 Reading Response Ch. 5 Images HTML from HTML & CSS
 
-1. An alt attribute is important in an image element because
+1. An alt attribute is important in an image element because it provides text if the image cannot be 
+displayed or seen by the use
 
 2. Where you place the image in the code determines if an image element is inline or block
 
