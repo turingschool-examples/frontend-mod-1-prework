@@ -1,0 +1,142 @@
+header {
+  background: black;
+  border:1px solid #ffffff;
+}
+
+header img {
+  border-color:white;
+}
+
+
+body {
+  background-color:#1c3f76;
+  background-image: url(https://vignette.wikia.nocookie.net/sims/images/d/da/TS4_Logo_Plumbob.jpg.png/revision/latest/scale-to-width-down/340?cb=20130805025749),
+  url(https://vignette.wikia.nocookie.net/sims/images/d/da/TS4_Logo_Plumbob.jpg.png/revision/latest/scale-to-width-down/340?cb=20130805025749);
+  background-repeat: no-repeat;
+  background-position:
+  right,
+  left;
+}
+
+#logo {
+  padding:15px;
+}
+
+ul {
+  margin-top:30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display:inline;
+  background-color:black;
+  margin:0;
+  padding: 10px;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration:none;
+  color: #149CE8
+}
+
+a:visited {
+  text-decoration: none;
+  color: #149CE8;
+}
+
+a:hover {
+  color: #40A917;
+}
+
+figure {
+  text-align: center;
+  margin-top: 50px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 20px;
+  color:white;
+  padding:10px;
+}
+
+figcaption span {
+  background:black;
+}
+
+
+
+h2 {
+  font-family: monospace;
+  color: #40A917;
+  text-align: center;
+  font-size:30px;
+}
+
+span {
+  background-color:black;
+  margin:0;
+  padding: 5px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+p {
+  font-size:20px;
+  font-family:sans-serif;
+  width: 650px;
+  margin: 10px auto 10px auto;
+}
+
+#survey {
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family:monospace;
+  color:black;
+  text-align: center;
+  width:600px;
+}
+
+em {
+font-weight: bold;
+}
+
+hr {
+  border-color:black;
+  margin-top: 50px;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+legend {
+  font-family:monospace;
+  font-size:20px;
+}
+
+fieldset {
+  width:300px;
+  margin: auto;
+  border-color:black;
+}
+
+.Survey {
+  font-family:monospace;
+}
+
+.SimsGameplay {
+  width:600px;
+  display:block;
+  margin:0 auto;
+}
+
+#submission {
+  display:block;
+  margin:10px;
+
+}
