@@ -1,0 +1,38 @@
+body {
+  background-color:#FDDCE4;
+  font-family: Georgia, Times, serif;
+}
+#tableLinks {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+#FDAText {
+  font-family: Helvetica, cursive;
+}
+#tagLine {
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+}
+h1 {
+  font-family: Impact, arial;
+}
+
+th, td {
+  padding: 7px 10px 10px 10px
+}
+
+
+
+a:link, a:visited {
+  background-color: #BE415F;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Georgia, Times, Serif;
+  border-radius: 5px 5px 5px 5px;
+}
+
+a:hover, a:active {
+  background-color:#bc002d;
+}
