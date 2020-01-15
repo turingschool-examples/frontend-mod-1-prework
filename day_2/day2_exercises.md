@@ -72,4 +72,4 @@ A color hex code represents the values for red, green, and blue in hexadecimal c
 
 ## Link to my CodePen
 
-[Here it is!](link here)
+[Here it is!](https://codepen.io/chadiwack/pen/ZEYjrvj)
