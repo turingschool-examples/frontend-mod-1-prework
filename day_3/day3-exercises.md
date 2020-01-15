@@ -10,7 +10,7 @@ The input element controls the behavior, ie `<input type="text"` for a text box 
 
 #### If you're using an input element to send form data to a server, what should the type attribute be set to?
 The input type would be `name` attribute. It helps the server know which form input is being used.
-`<input type="text" name="informationForServer">`
+`<input type="text" name="informationForServer">`  
 
 #### What element is used to group similar form items together?
 `fieldset`
@@ -29,4 +29,4 @@ Inline elements will cause a block-level to act as it if is an in-element, vs a 
 Fixed positioning allows for elements to be in an absolute postion that does not move when you move the page. Think of a header in a spreadsheet with all the values.  Z-index allows you to control which box is on top when they elements move from the normal flow, so when you scroll that spreadsheet, the values don't flow into the header as well.  Cleaner, tighter look on the page.  
 
 #### What is the difference between a fixed and liquid layout?
-Liquid layouts are reactive to the size of the browser screen - no side gaps, vs fixed will have often have vertical side gaps and do not resize depending on browser size. 
+Liquid layouts are reactive to the size of the browser screen - no side gaps, vs fixed will have often have vertical side gaps and do not resize depending on browser size.
