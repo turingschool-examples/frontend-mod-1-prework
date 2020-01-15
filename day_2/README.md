@@ -31,7 +31,7 @@
   6.  Describe what a color hex code is.
   7.  What are the three parts of an HSL color property?
   8.  In the world of typeface, what are the three main categories of fonts? What are the differences between them?
-  9.  When specifiying font-size, what are the main three units used?
+  9.  When specifying font-size, what are the main three units used?
 
   Add to the page you created in CodePen on Day 1:
 
