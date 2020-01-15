@@ -27,7 +27,7 @@
 
 
 6)  What are three types of operators and how are they used?
-* Answer:  Expressions have operators in then to evaluate the value or values. The 3 types are:
+* Answer:  Expressions have operators in them to evaluate the value or values. The 3 types are:
   * Assignment Operators: `color = 'blue'`
   * Arithmetic Operators: `area = 3 *3`
   * String Operators: `greeting = 'Hello' + 'Nick'`
