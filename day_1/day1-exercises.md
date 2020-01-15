@@ -18,7 +18,7 @@
 
 6) List five different HTML elements and what they are used for. For example, ``<p></p>`` is a paragraph element, and it is used to represent a paragraph of text.
 * Answer:
-  * ``<h1></h1>`` is the header element, used for the main heading of a page.  Headings from from ``<h1>`` to ``<h6>``, each heading getting smaller as the number gets bigger. ``<h2>`` through ``<h6>`` are used for subheadings of a webpage.
+  * ``<h1></h1>`` is the a header element, used for the headings on a page.  Headings from from ``<h1>`` to ``<h6>``, each heading getting smaller as the number gets bigger. ``<h2>`` through ``<h6>`` are used for subheadings of a webpage.
   * ``<b></b>`` is the Bold text element.  You wrap text inside of these tags when you want the text to be bold.
   * ``<i></i>`` is the italics element. You wrap text inside of these tags when you want the text to be in italics.
   * ``<br />`` is the line break element. There is no closing tag for this one, the user simply places the ``<br />`` after the characters to indicate a line break at the point.
