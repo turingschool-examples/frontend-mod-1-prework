@@ -14,6 +14,7 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  cursor: default;
 }
 
 /* LINKS */
@@ -193,6 +194,44 @@ figure :hover,
 figure :active {
   filter: grayscale(0);
 }
+
+/* --------------------------------------------------- */
+/* CONTACT FORM */
+/* --------------------------------------------------- */
+
+.contact-form {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fill-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 120%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 2%;
+}
+
+.form-input {
+  padding-top: 5px;
+}
+
+input[type=submit] {
+  width: 30%;
+  color: #fff;
+  background-color: #e9bb2f;
+  font-size: 70%;
+  text-align: center;
+  cursor: pointer;
+}
+
 
 /* --------------------------------------------------- */
 /* FOOTER */
