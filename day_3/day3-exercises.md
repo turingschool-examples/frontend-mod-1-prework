@@ -8,7 +8,7 @@
 * Answer: A dropdown list is also known as a select list.  The `<select>` element is used to create a dropdown list. Along with the `<select>` element, you need to name the form control with the 'name' attribute and then create options to select with the `<option>` element.
 
 3)  If you're using an input element to send form data to a server, what should the `type` attribute be set to?
-* Answer: The input type should be set to "Submit", which will add a submit button to send a form to the sever.  For example: `<input type="submit"  value="submit" />` will create a button titled 'submit.' The value attribute sets the name of the button.  
+* Answer: The input type should be set to "Submit", which will add a submit button to send a form to the server.  For example: `<input type="submit"  value="submit" />` will create a button titled 'submit.' The value attribute sets the name of the button.  
 
 4)  What element is used to group similar form items together?
 * Answer: The ``<fieldset></fieldset>`` element will group form items together.  This is handy when you need similar items from a user, such as their contact information(email, cell phone).  The `<fieldset>` element will usually wrap a little box around all the input types needed.
