@@ -30,7 +30,7 @@ The a element is used for linking websites. <a href ="www.turing.io">turing.com<
 
 #### What attribute should you include in a link to open a new tab when the link is clicked?
 
-<a href="www.turing.io" target="_blank">turing.com</a>
+`a href="www.turing.io"> <target="_blank">turing.com`
 
 <h4 id="TLDR"> How do you link to a specific part of the same page?</h4>
 
@@ -70,7 +70,7 @@ External stylesheets are very useful for multiple reasons, some of which are:
 
 #### Describe what a color hex code is.
 
-Hex abbreviates the 3 letter code for red/blue/green into a 6 digit RRGGBB code.
+Hex abbreviates the 3 letter code for each red/blue/green into a 6 digit RRGGBB code.
 
 #### What are the three parts of an HSL color property?
 Hue, saturation and lightness
