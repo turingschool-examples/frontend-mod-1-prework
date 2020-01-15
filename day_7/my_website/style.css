@@ -1,0 +1,25 @@
+h1, h2, h3, h4 {
+  font-family: Arial Black, sans-serif;
+  color: #ffffcc;
+  background-color: #993333;
+  border-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+}
+p {
+  font-family: georgia, condensed;
+  
+
+}
+
+font-family: georgia;
+  color: #3366ff;
+  background-color: #c2c2d6;
+  border-width: 2px;
+  border-color: #3366ff;
+  border-style: solid;
+  padding: 3px;
+  text-align: center;
+  overflow: auto;
+  width: 100%;
