@@ -3,6 +3,7 @@
 3. You should include the target attribute (with a value of `_blank`) in order to open a link in a new window.
 4. In order to link to another part of the same page, you would use the id attribute in the opening tag of a particular section to which you would like to link back. Then, in the href attribute of the a tag, you would use a #, followed by the value of the id attribute. No two id attributes on a page should have the same name.
 
+
 1. CSS determines how the contents of each element appear on a web page.
 2. CSS stands for Cascading Style Sheets. "Cascading" refers to how the style sheet determines which style to use when there are multiple applied to the same selector.  
 3. CSS rules have a selector and a declaration. Selectors indicate the element to which the declaration should be applied. The declaration indicate how the selector should be styled.
