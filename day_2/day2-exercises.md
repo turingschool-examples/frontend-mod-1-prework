@@ -10,7 +10,9 @@ Unordered list – A list that begins with a bullet point.
 Definition list – Made up of a set of terms along with the definitions for each of those terms.
 
 ## What is the basic structure of an element used to link to another website?
+```
 <a href=”http://www.linkhere.com”>Link Here</a>
+```
 
 ## What attribute should you include in a link to open a new tab when the link is clicked?
 The target attribute.
@@ -20,7 +22,7 @@ Before you can link to a specific part of a page, you need to identify the point
 
 The value of the id attribute should start with a letter or underscore (not a number or any other character) and, on a single page, no two id attributes should have the same value.
 
-To link to an element that uses an id attribute, you use the <a> element again, but the value of the href attribute starts with the # symbol, followed by the value of the id attribute of the element you want to link to.
+To link to an element that uses an id attribute, you use the `<a>` element again, but the value of the href attribute starts with the `#` symbol, followed by the value of the id attribute of the element you want to link to.
 
 ## Chapter 10, 11, & 12
 
@@ -35,14 +37,16 @@ CSS stands for Cascading Style Sheets. Cascading means that styles can fall (or 
 A CSS rule contains two parts: a selector and a declaration.
 
 ## How do you link a CSS stylesheet to your HTML document?
-The <link> element can be used in an HTML document to tell the browser where to find the CSS file used to style the page. It is an empty element (meaning it does not need a closing tag), and it lives inside the <head> element. It uses three attributes: href, type, and rel. Example below:
+The `<link>` element can be used in an HTML document to tell the browser where to find the CSS file used to style the page. It is an empty element (meaning it does not need a closing tag), and it lives inside the <head> element. It uses three attributes: href, type, and rel. Example below:
+```
 <link href=”css/style.css” type=”text/css” rel=”stylesheet” />
+```
 
 ## When is it useful to use external stylesheets as opposed to using internal CSS?
 When building a site with more than one page, you should use an external CSS style sheet.
 
 ## Describe what a color hex code is.
-A hex code is a six-digit code that represent the amount of red, green and blue in a color, preceded by a pound or hash # sign. For example: #ee3e80.
+A hex code is a six-digit code that represent the amount of red, green and blue in a color, preceded by a pound or hash # sign. For example: `#ee3e80.`
 
 ## What are the three parts of an HSL color property?
 Hue, Saturation, and Lightness
