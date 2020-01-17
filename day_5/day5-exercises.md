@@ -22,6 +22,8 @@ Arrays are especially helpful when you do not know how many items a list will co
 An expression evaluates into a single value. A statement can have a variable evaluate into different values.
 
 ## What are three types of operators and how are they used?
-Assignment Operators – Assign a value to a variable (e.g: color = ‘beige’;)
-Arithmetic Operators – Perform basic math (e.g: area = 3 * 2;)
-String Operators – Combine two stings. (e.g: greeting = ‘Hi ‘ + ‘Molly’;)
+`Assignment Operators – Assign a value to a variable (e.g: color = ‘beige’;)`
+
+`Arithmetic Operators – Perform basic math (e.g: area = 3 * 2;)`
+
+`String Operators – Combine two stings. (e.g: greeting = ‘Hi ‘ + ‘Molly’;)`
