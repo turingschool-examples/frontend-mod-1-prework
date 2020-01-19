@@ -36,7 +36,7 @@ form {
   bottom: 700px;
 }
 
-input {
+input, select {
   display: block;
   margin: 1% 2%;
   width: 33%;
@@ -205,4 +205,9 @@ li {
 
 .upload-image::-webkit-file-upload-button {
   visibility: hidden;
+}
+
+.nickname, .dogSelector, .nicknameBTN {
+  height: 6%;
+  width: 20%;
 }
