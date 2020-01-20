@@ -1,24 +1,27 @@
-body{
+body {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
-.header{
-  width: 960px;
-  margin-top: 0;
-  margin-bottom: 81px;
-  height: 410px;
-  left: 0px;
-  top: 0px;
-  background: #000000;
+
+.header {
+background: #000000;
+left: 0;
+height: 410px;
+margin-top: 0;
+margin-bottom: 81px;
+top: 0;
+width: 960px;
 }
-.btsLogo{
+
+.btsLogo {
   position: absolute;
   margin: inherit;
   padding-left: 368px;
   padding-top: 72px;
 }
-h1{
+
+h1 {
   position: relative;
   width: 584px;
   height: 34px;
@@ -31,7 +34,8 @@ h1{
   text-transform: uppercase;
   color: #9CF43D;
 }
-h2{
+
+h2 {
   font-family: Montserrat;
   font-size: 25px;
   line-height: 30px;
@@ -40,8 +44,9 @@ h2{
   padding-top: 40px;
   width: 545px;
 }
-.dates{
-  margin-top:2px;
+
+.dates {
+  margin-top: 2px;
   margin-bottom: 15px;
   font-family: Montserrat;
   font-weight: 500;
@@ -51,33 +56,39 @@ h2{
   padding-left: 45px;
   clear: left;
 }
+
 .tv {
   padding-left: 45px;
 }
+
 .brain {
   padding-left: 45px;
 }
+
 .theater {
   padding-left: 45px;
 }
-.caption{
+
+.caption {
   font-family: Lato;
   font-style: italic;
   font-size: 18px;
   padding-left: 220px;
   padding-top: 2px;
   margin-top: 2px;
-  width:230px;
+  width: 230px;
   color: #909090;
 }
-.content{
+
+.content {
   width: 540px;
   font-family: Lato;
-  padding-left: 45px;
+  padding-left:  45px;
   padding-top: 12px;
   line-height: 25px;
 }
-.topTen{
+
+.topTen {
   position:absolute;
   width: 240px;
   height: 145px;
@@ -92,10 +103,12 @@ h2{
   text-align: center;
   color: #9CF43D;
 }
-.topTenSub{
+
+.topTenSub {
   margin-bottom: 5px;
 }
-.creep{
+
+.creep {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -104,7 +117,8 @@ h2{
   color: #FFFFFF;
   margin-top: 5px;
 }
-.list{
+
+.list {
   position: absolute;
   width: 240px;
   height: 788px;
@@ -115,44 +129,50 @@ h2{
   background: rgba(144, 144, 144, 0.3);
   border-radius: 5px;
   font-family: Montserrat;
-  text-align:left;
-  font-weight:600;
+  text-align: left;
+  font-weight: 600;
   font-size: 15px;
 }
 
-.look{
+.look {
   margin-top: 30px;
   margin-bottom: 2px;
   font-weight: lighter;
   text-align: center;
   height: 5px;
 }
-li{
+
+li {
   margin-bottom: 0;
   width: 200px;
 }
-.dates2{
+
+.dates2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: #919191;
   opacity: 0.93;
 }
-.topList{
+
+.topList {
   width: 200px;
   text-align: center;
-  padding-left:20px;
+  padding-left: 20px;
 }
-a:hover{
+
+a:hover {
   color: #FD5944;
 }
-.footer{
+
+.footer {
   width: 960px;
   height: 308px;
   background: #000000;
   text-align: center;
   margin-top: 70px;
 }
-.who{
+
+.who {
   font-family: Montserrat;
   font-size: 28px;
   line-height: 34px;
@@ -160,7 +180,8 @@ a:hover{
   color: #9CF43D;
   margin: auto;
 }
-.keep{
+
+.keep {
   font-family: Montserrat;
   color: #FFFFFF;
   font-size: 16px;
@@ -169,14 +190,16 @@ a:hover{
   padding-left: 12px;
   padding-bottom: 40px;
 }
-.have{
+
+.have {
   color: #FFFFFF;
   font-family: Montserrat;
   font-size: 13px;
   line-height: 16px;
   padding-top: 20px;
 }
-.email{
+
+.email {
   width: 250px;
   height: 44px;
   background: #FFFFFF;
@@ -184,7 +207,8 @@ a:hover{
   font-size: 16px;
   text-align: center;
 }
-.subscribe{
+
+.subscribe {
   width: 121px;
   height: 50px;
   background: #9CF43D;
@@ -195,7 +219,8 @@ a:hover{
   font-weight: bold;
   font-size: 13px;
 }
-.subscribe:hover{
+
+.subscribe:hover {
   background: #FD5944;
-  transition:.5s;
+  transition: .5s;
 }
