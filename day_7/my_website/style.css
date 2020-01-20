@@ -188,10 +188,10 @@ textarea:hover,
 }
 
 textarea:focus,
-.text-input:hover,
-#birthday-input:hover,
-.nickname:hover,
-.dogSelector:hover {
+.text-input:focus,
+#birthday-input:focus,
+.nickname:focus,
+.dogSelector:focus {
   outline: none;
 }
 
