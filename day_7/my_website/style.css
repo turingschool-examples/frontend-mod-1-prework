@@ -14,7 +14,8 @@ h1 {
   color: #E5C82C;
 }
 
-h2, legend {
+h2,
+legend {
   font-size: 250%;
   font-family: 'Open Sans';
   font-weight: bold;
@@ -36,7 +37,8 @@ form {
   bottom: 700px;
 }
 
-input, select {
+input,
+select {
   display: block;
   margin: 1% 2%;
   width: 33%;
@@ -87,22 +89,16 @@ li {
   padding: .5%;
 }
 
-.navigation {
-  float: right;
-  display: inline;
-  padding: 1%;
-  margin: 1%;
-  color: #E2E8F5;
-}
-
-.Estes, .Peaches, .Zeke {
+.Estes,
+.Peaches,
+.Zeke {
   height: 140%;
   width: 31.3%;
   margin: 4% 1%;
   float: left;
 }
 
-.discription {
+p {
   font-family: helvetica;
   height: 33%;
   padding: 2% 5%;
@@ -110,19 +106,20 @@ li {
   line-height: 140%;
 }
 
-.dog-favs {
+ul {
   padding: 1% 5%;
   width: auto;
+  width: 50%;
 }
 
-.medium {
+img {
   border: inset 1px #E5C82C;
   border-radius: 5%;
   margin: 0 auto;
   display: block;
 }
 
-.dog-story {
+textarea {
   color: black;
   width: 33%;
   height: 25%;
@@ -137,6 +134,12 @@ li {
   display: inline-block;
   height: 650px;
   background-image: url(images/background-image.jpg);
+  width: 100%;
+}
+
+#background-image {
+  border-radius: 0;
+  border: 0;
 }
 
 .resources {
@@ -144,19 +147,21 @@ li {
   display: block;
   margin-top: 3%;
 }
-.dog-parks, .dog-rescues {
-  width: 45%;
+
+.dog-parks,
+.dog-rescues {
   margin: 1% 1% 1% 1%;
   float: left;
+  width: 38%;
 }
+
 .resource-titles {
   padding: 1%;
   width: 30%
 }
-.fav-activities {
-  width: 50%
-}
-.submit-button, .nicknameBTN {
+
+.submit-button,
+.nicknameBTN {
   cursor: pointer;
   padding: 2%;
   border: outset 3px #E5C82C;
@@ -167,18 +172,26 @@ li {
   padding: .35% 1% 1% 1%;
 }
 
-.birthday-input {
+#birthday-input {
   cursor: pointer;
   font-family: "open sans";
   color: grey;
   background: white
 }
 
-.text-input:hover, textarea:hover, .birthday-input:hover, .nickname:hover, .dogSelector:hover {
+textarea:hover,
+#text-input:hover,
+.birthday-input:hover,
+.nickname:hover,
+.dogSelector:hover {
   background-color: #E2E8F5;
 }
 
-.text-input:focus, textarea:focus, .birthday-input:focus, .upload-image:focus, .nickname:focus, .dogSelector:hover {
+textarea:focus,
+.text-input:hover,
+#birthday-input:hover,
+.nickname:hover,
+.dogSelector:hover {
   outline: none;
 }
 
@@ -207,7 +220,9 @@ li {
   visibility: hidden;
 }
 
-.nickname, .dogSelector, .nicknameBTN {
+.nickname,
+.dogSelector,
+.nicknameBTN {
   height: 6%;
   width: 29.25%;
   display: inline;
