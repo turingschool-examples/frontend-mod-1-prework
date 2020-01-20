@@ -13,7 +13,8 @@ h1, h2 {
   margin: 0px;
   left: 0px;
   top: 0px;
-  padding-left: 10px;}
+  padding-left: 10px;
+  text-align: center;}
 #name {
   color: #FFF0E7;}
 h1 {
@@ -44,24 +45,23 @@ fieldset {
   width: 375px;}
 p.list {
   font-family: avenir;}
-img {
-  margin-left: 20px;}
 img.photoGallery {
   width: 350px;
-  length: 350px;
-  margin: 10px;}
+  length: 350px;}
 #photoGallery {
-  text-align: center;}
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
 #travel {
   background-color: white;
-  padding: 20px;
-  border: 1px solid;}
-#recommendations, fieldset {
+  border: 1px solid;
+  padding: 15px;}
+#recommendationsContainer, fieldset, #recommendationsTitle, #travelTitle {
   text-align: center;}
 #fieldset {
   margin: auto;}
-#recommendationsTitle, #travelTitle {
-  text-align: center;}
 .img_container {
   margin-top: 100px;
   margin-left: auto;
@@ -83,8 +83,6 @@ img.photoGallery {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background: #FF7E51;
@@ -99,3 +97,37 @@ img.photoGallery {
   font-weight: bold;
   letter-spacing: .2em;
   font-family: futura;}
+.tripContainer {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  display: inline-block;}
+.locationOverlay {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background: #FF7E51;
+  color: #FFF0E7;
+  font-size: 30px;}
+.tripContainer:hover .locationOverlay {
+  opacity: .6;}
+.tripText {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-weight: bold;
+  letter-spacing: .2em;
+  font-family: futura;}
+#recommendationsContainer {
+  padding: 15px;
+  clear: left;}
+#recommendationsContent {
+  margin: 0 auto;
+  width: 1000px;}

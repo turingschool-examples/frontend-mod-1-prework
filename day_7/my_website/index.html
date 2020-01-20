@@ -6,7 +6,7 @@
   </head>
   <body>
     <div id="header">
-      <h1 id="name"> ALLY JARJOUR </h1>
+      <h1 id="name">ALLY'S TRAVEL BLOG</h1>
     </div>
     <div class="img_container">
       <a href="aboutMe.html">
@@ -17,7 +17,7 @@
       </a>
     </div>
     <br />
-    <h1 id="travelTitle">TRAVEL</h1>
+    <h1 id="travelTitle">TRIP IDEAS</h1>
     <div id="travel">
       <p>Ever since I graduated high school, I've been saving up for various trips abroad, both solo and with friends.
         Mostly I've explored Central America, South America, Europe and also the Caribbean. I've taken breaks from college
@@ -32,25 +32,67 @@
         matter where you go.</p>
       </p>
       <div id="photoGallery">
-        <img src="photos/havana.jpg" class="photoGallery" alt="Cuba" title="Havana, Cuba" />
-        <img src="photos/guate.jpg" class="photoGallery" alt="Guatemala" title="Market in Guatemala" />
-        <img src="photos/asturias.jpg" class="photoGallery" alt="Spain" title="Asturias, Spain" />
-        <img src="photos/bolivia.jpg" class="photoGallery" alt="Bolivia" title="La Paz, Bolivia" />
-        <img src="photos/chile.jpg" class="photoGallery" alt="Chile" title="Atacama Desert, Chile" />
-        <img src="photos/oaxaca.jpg" class="photoGallery" alt="Mexico" title="Oaxaca, Mexico" />
-        <img src="photos/bolivia_2.jpg" class="photoGallery" alt="Bolivia" title="Uyuni Salt Flats, Bolivia" />
-        <img src="photos/oaxaca2.jpg" class="photoGallery" alt="Mexico" title="Hierve el Agua, Oaxaca" />
-        <img src="photos/granada.jpg" class="photoGallery" alt="Spain" title="Granada, Spain" />
+        <div class="tripContainer">
+          <img src="photos/havana.jpg" class="photoGallery" alt="Cuba" title="Havana, Cuba" />
+          <div class="locationOverlay">
+            <div class="tripText">Cuba</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/guate.jpg" class="photoGallery" alt="Guatemala" title="Market in Guatemala" />
+          <div class="locationOverlay">
+            <div class="tripText">Guatemala</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/asturias.jpg" class="photoGallery" alt="Spain" title="Asturias, Spain" />
+          <div class="locationOverlay">
+            <div class="tripText">Northern Spain</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/bolivia.jpg" class="photoGallery" alt="Bolivia" title="La Paz, Bolivia" />
+          <div class="locationOverlay">
+            <div class="tripText">La Paz</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/chile.jpg" class="photoGallery" alt="Chile" title="Atacama Desert, Chile" />
+          <div class="locationOverlay">
+            <div class="tripText">Atacama Desert</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/oaxaca.jpg" class="photoGallery" alt="Mexico" title="Oaxaca, Mexico" />
+          <div class="locationOverlay">
+            <div class="tripText">Volunteer with enVía</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/bolivia_2.jpg" class="photoGallery" alt="Bolivia" title="Uyuni Salt Flats, Bolivia" />
+          <div class="locationOverlay">
+            <div class="tripText">Salar de Uyuni</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/oaxaca2.jpg" class="photoGallery" alt="Mexico" title="Hierve el Agua, Oaxaca" />
+          <div class="locationOverlay">
+            <div class="tripText">Oaxaca</div>
+          </div>
+        </div>
+        <div class="tripContainer">
+          <img src="photos/granada.jpg" class="photoGallery" alt="Spain" title="Granada, Spain" />
+          <div class="locationOverlay">
+            <div class="tripText">Southern Spain</div>
+          </div>
+        </div>
       </div>
-      <h2>On the horizon</h2>
-      <p>Next year, or realistically in the next couple of years, I hope to take the following trips! It's overwhelming choosing where to go sometimes, but my mind keeps going back to these:</p>
-        <ul>
-          <li><a href="https://www.snowboarder.com/videos/japan-with-jamie-anderson-and-friends-jamie-andersons-unconditional/">Snowboarding in Japan</a> (plus a ton of eating).</li>
-          <li><a href="https://travel.usnews.com/rankings/best-places-to-visit-in-eastern-europe/">Explore Eastern/Central Europe</a> (Czech Republic, Hungary, Slovenia).</li>
-          <li><a href="https://www.cntraveler.com/story/how-to-see-portugals-most-creative-city">Portugal</a> , return to Spain and hit northern Africa.</li>
-        </ul>
     </div>
-    <h1 id="recommendationsTitle">RECOMMENDATIONS?</h1>
+    <br />
+    <br />
+    <div id="recommendationsContainer">
+      <div id="recommendationsContent">
+      <h1 id="recommendationsTitle">RECOMMENDATIONS?</h1>
       <p id="recommendations">I'd love to hear your ideas for future destinations. Any countries or regions you'd recommend checking out?</p>
       <fieldset id="fieldset">
       <p class="list">
@@ -73,5 +115,7 @@
         </label>
       </p>
       </fieldset>
+      </div>
+    </div>
   </body>
   </html>
