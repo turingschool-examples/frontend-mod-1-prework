@@ -156,7 +156,7 @@ li {
 .fav-activities {
   width: 50%
 }
-.submit-button {
+.submit-button, .nicknameBTN {
   cursor: pointer;
   padding: 2%;
   border: outset 3px #E5C82C;
@@ -174,11 +174,11 @@ li {
   background: white
 }
 
-.text-input:hover, textarea:hover, .birthday-input:hover {
+.text-input:hover, textarea:hover, .birthday-input:hover, .nickname:hover, .dogSelector:hover {
   background-color: #E2E8F5;
 }
 
-.text-input:focus, textarea:focus, .birthday-input:focus, .upload-image:focus {
+.text-input:focus, textarea:focus, .birthday-input:focus, .upload-image:focus, .nickname:focus, .dogSelector:hover {
   outline: none;
 }
 
@@ -209,5 +209,7 @@ li {
 
 .nickname, .dogSelector, .nicknameBTN {
   height: 6%;
-  width: 20%;
+  width: 29.25%;
+  display: inline;
+  float: left;
 }
