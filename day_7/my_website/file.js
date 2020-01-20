@@ -5,20 +5,19 @@ var dogSelector = document.querySelector('.dogSelector');
 var changeEstes = document.querySelector('.changeEstes');
 var changePeaches = document.querySelector('.changePeaches');
 var changeZeke = document.querySelector('.changeZeke');
-document.nickname.required = true;
-
 
 nicknameBTN.addEventListener('click', updateNickname);
 
 function updateNickname() {
-  if (dogSelector.value === "Estes") {
+  if (dogSelector.value === "Estes" && document.querySelector('.nickname').value !== '') {
     changeEstes.innerText = nickname.value;
-  } else if (dogSelector.value === "Peaches") {
+  } else if (dogSelector.value === "Peaches" && document.querySelector('.nickname').value !== '') {
     changePeaches.innerText = nickname.value;
-  } else if (dogSelector.value === "Zeke") {
+  } else if (dogSelector.value === "Zeke" && document.querySelector('.nickname').value !== '') {
     changeZeke.innerText = nickname.value;
   } else {
-    console.log('Invalid Dog Selection');
+    console.log('error');
   }
+    document.querySelector('.nickname').value = '';
   }
 }
