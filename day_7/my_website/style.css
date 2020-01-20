@@ -161,7 +161,7 @@ textarea {
 }
 
 .submit-button,
-.nicknameBTN {
+.nickname-button {
   cursor: pointer;
   padding: 2%;
   border: outset 3px #E5C82C;
@@ -180,8 +180,8 @@ textarea {
 }
 
 textarea:hover,
-#text-input:hover,
-.birthday-input:hover,
+.text-input:hover,
+#birthday-input:hover,
 .nickname:hover,
 .dogSelector:hover {
   background-color: #E2E8F5;
@@ -222,9 +222,13 @@ textarea:focus,
 
 .nickname,
 .dogSelector,
-.nicknameBTN {
+.nickname-button {
   height: 6%;
   width: 29.25%;
   display: inline;
   float: left;
+}
+
+#nickname-form{
+position: static;
 }

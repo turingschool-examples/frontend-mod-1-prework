@@ -8,15 +8,16 @@
   <body>
     <h1>My Furry Kids</h1>
     <div>
-      <input type = "text" placeholder = "Input a nickname!" class = "nickname" />
-      <select name = "chooseDog" class = "dogSelector">
-        <option value = "Estes">Estes</option>
-        <option value = "Peaches">Peaches</option>
-        <option value = "Zeke">Zeke</option>
-      </select>
-      <input type = "submit" class = "nicknameBTN" />
+      <form id ="nickname-form">
+        <input type = "text" placeholder = "Input a nickname!" class = "nickname" required = "required" />
+        <select name = "chooseDog" class = "dogSelector">
+          <option value = "Estes">Estes</option>
+          <option value = "Peaches">Peaches</option>
+          <option value = "Zeke">Zeke</option>
+        </select>
+        <input type = "submit" class = "nickname-button" />
+      </form>
     </div>
-
     <div class = "Estes">
       <img src = "images/Estes.jpg" alt = "Large black labradoodle laying on couch." />
       <h2 class = "changeEstes">Estes</h2>
