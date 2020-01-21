@@ -25,8 +25,6 @@ function updateNickname(event) {
     errorMessage.innerText = '';
   } else if (nickname.value == '') {
     errorMessage.innerText = 'Please input a nickname';
-    //nickname.value = document.querySelector('.error-message');
-    //nickname.placeholder = "Please input a nickname";
   } else {
     }
   }
