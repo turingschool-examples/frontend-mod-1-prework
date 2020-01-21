@@ -5,19 +5,29 @@ var dogSelector = document.querySelector('.dogSelector');
 var changeEstes = document.querySelector('.changeEstes');
 var changePeaches = document.querySelector('.changePeaches');
 var changeZeke = document.querySelector('.changeZeke');
+var errorMessage = document.querySelector('.error-message');
 
 nicknameBTN.addEventListener('click', updateNickname);
 
-function updateNickname() {
-  if (dogSelector.value === "Estes" && document.querySelector('.nickname').value !== '') {
+function updateNickname(event) {
+  event.preventDefault();
+  if (dogSelector.value === "Estes" && nickname.value !== '') {
     changeEstes.innerText = nickname.value;
-  } else if (dogSelector.value === "Peaches" && document.querySelector('.nickname').value !== '') {
-    changePeaches.innerText = nickname.value;
-  } else if (dogSelector.value === "Zeke" && document.querySelector('.nickname').value !== '') {
-    changeZeke.innerText = nickname.value;
-  } else {
-    console.log('error');
-  }
     document.querySelector('.nickname').value = '';
+    errorMessage.innerText = '';
+  } else if (dogSelector.value === "Peaches" && nickname.value !== '') {
+    changePeaches.innerText = nickname.value;
+    document.querySelector('.nickname').value = '';
+    errorMessage.innerText = '';
+  } else if (dogSelector.value === "Zeke" && nickname.value !== '') {
+    changeZeke.innerText = nickname.value;
+    document.querySelector('.nickname').value = '';
+    errorMessage.innerText = '';
+  } else if (nickname.value == '') {
+    errorMessage.innerText = 'Please input a nickname';
+    //nickname.value = document.querySelector('.error-message');
+    //nickname.placeholder = "Please input a nickname";
+  } else {
+    }
   }
 }

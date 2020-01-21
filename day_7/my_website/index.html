@@ -8,7 +8,7 @@
   <body>
     <h1>My Furry Kids</h1>
     <div>
-      <form id = "nickname-form">
+      <form name = "nickname-form" id = "nickname-form" onsubmit="return validation();">
         <input type = "text" placeholder = "Rename my kids!" class = "nickname" required = "required"/>
         <select name = "chooseDog" class = "dogSelector">
           <option value = "Estes">Estes</option>
@@ -16,6 +16,7 @@
           <option value = "Zeke">Zeke</option>
         </select>
         <input type = "submit" class = "nickname-button" />
+        <div class = "error-message"></div>
       </form>
     </div>
     <div class = "Estes">

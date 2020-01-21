@@ -230,5 +230,10 @@ textarea:focus,
 }
 
 #nickname-form{
-position: static;
+  position: static;
+}
+
+.error-message{
+  color: red;
+  margin: 2%
 }
