@@ -1,0 +1,45 @@
+h1{
+  font-size: 45px;
+  font-family: fantasy;
+  text-align: center;
+
+
+}
+body{
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(255,255,204);
+}
+h2{
+  text-align: left;
+  font-family: fantasy;
+  letter-spacing: 0.3em;
+
+}
+p{
+  //display: inline-block;
+}
+ul{
+  text-align: left;
+  font-family: andale mono;
+  font-size: 18px;
+  background-color: orange;
+  border-style: hidden;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+form{
+  border-style: solid;
+  width: 250px;
+  padding-bottom: 20px;
+  //float: right;
+}
+a{
+  font-size: 20px;
+
+}
+hr{
+  width: 250px;
+}
