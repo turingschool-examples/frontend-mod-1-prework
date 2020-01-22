@@ -1,10 +1,14 @@
 body {
   background-color: #FFF0E7;
-  margin: 30px;}
+  margin: 30px;
+}
+
 h1, h2, h3 {
   font-family: futura;
   color: #3A3A3A;
-  text-align: center;}
+  text-align: center;
+}
+
 #header {
   position: fixed;
   z-index: 10;
@@ -15,28 +19,42 @@ h1, h2, h3 {
   left: 0px;
   top: 0px;
   padding-left: 10px;
-  text-align: center;}
-#itineraryTitle {
-  padding-top: 100px;}
+  text-align: center;
+}
+
+#itinerary-title {
+  padding-top: 100px;
+}
+
 #name {
-  color: #FFF0E7;}
+  color: #FFF0E7;
+}
+
 h1 {
   font-weight: bold;
   letter-spacing: .2em;
-  font-size: 30px;}
-#headerImage_container {
-  text-align: center;}
-.headerImage {
+  font-size: 30px;
+}
+
+#header-image-container {
+  text-align: center;
+}
+
+.header-image {
   width: 600px;
   height: 390px;
   margin: 20px auto;
-  display: inline-block;}
+  display: inline-block;
+}
+
 .headshot {
   width: 350px;
   height: 350px;
   float: left;
-  margin: 0px 15px 10px 20px;}
-#aboutMe {
+  margin: 0px 15px 10px 20px;
+}
+
+#about-me {
   background-color: white;
   padding: 30px;
   border: 2px solid;
@@ -44,7 +62,9 @@ h1 {
   margin-top: 100px;
   width: 600px;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
+
 .itinerary {
   background-color: white;
   padding: 20px;
@@ -52,47 +72,69 @@ h1 {
   border-color: #79B694;
   width: 800px;
   margin-left: auto;
-  margin-right: auto;}
-p, #travelForm, ul {
+  margin-right: auto;
+}
+
+p, #travel-form, ul {
   margin: 20px;
-  font-family: avenir;}
+  font-family: avenir;
+}
+
 fieldset {
   background-image: url("photos/world_map.gif");
   background-size: contain;
   background-position: center center;
-  width: 375px;}
+  width: 375px;
+}
+
 p.list {
-  font-family: avenir;}
-img.photoGallery {
+  font-family: avenir;
+}
+
+img.photo-gallery {
   width: 350px;
-  length: 350px;}
-#photoGallery {
+  length: 350px;
+}
+
+#photo-gallery {
   display: inline-block;
   margin: 0 auto;
   padding: 10px;
-  text-align: center;}
+  text-align: center;
+}
+
 #travel {
   background-color: white;
   border: 2px solid;
   padding: 15px;
-  border-color: #79B694;}
-#recommendationsContainer, fieldset, #recommendationsTitle, #travelTitle,
-#itineraryTitle {
-  text-align: center;}
+  border-color: #79B694;
+}
+
+#recommendations-container, fieldset, #recommendations-title, #travel-title,
+#itinerary-title {
+  text-align: center;
+}
+
 #fieldset {
-  margin: auto;}
-.img_container {
+  margin: auto;
+}
+
+.img-container {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 50%;}
+  width: 50%;
+}
+
 .image {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 100%;
-  height: auto;}
+  height: auto;
+}
+
 .overlay {
   margin-left: auto;
   margin-right: auto;
@@ -106,23 +148,31 @@ img.photoGallery {
   transition: .5s ease;
   background-color: #FF7E51;
   color: #FFF0E7;
-  font-size: 30px;}
-.img_container:hover .overlay {
-  opacity: .6;}
+  font-size: 30px;
+}
+
+.img-container:hover .overlay {
+  opacity: .6;
+}
+
 .text {
   text-align: center;
   position: relative;
   top: 50%;
   font-weight: bold;
   letter-spacing: .2em;
-  font-family: futura;}
-.tripContainer {
+  font-family: futura;
+}
+
+.trip-container {
   position: relative;
   width: 350px;
   height: 350px;
   margin: 20px;
-  display: inline-block;}
-.locationOverlay {
+  display: inline-block;
+}
+
+.location-overlay {
   width: 350px;
   height: 350px;
   position: absolute;
@@ -134,27 +184,39 @@ img.photoGallery {
   transition: .5s ease;
   background-color: #FF7E51;
   color: #FFF0E7;
-  font-size: 30px;}
-.tripContainer:hover .locationOverlay {
-  opacity: .6;}
-.tripText {
+  font-size: 30px;
+}
+
+.trip-container:hover .location-overlay {
+  opacity: .6;
+}
+
+.trip-text {
   text-align: center;
   position: relative;
   top: 50%;
   font-weight: bold;
   letter-spacing: .2em;
-  font-family: futura;}
-#recommendationsContainer {
-  text-align: center;}
-#recommendationsContent {
+  font-family: futura;
+}
+
+#recommendations-container {
+  text-align: center;
+}
+
+#recommendations-content {
   margin: 0 auto;
-  display: block;}
-#proTip {
-  background-color: #FF7E51;
+  display: block;
+}
+
+#pro-tip {
   padding: 20px 80px;
-  background-image: url("photos/basquecross.png");
+  background-image: url("photos/basque_cross.png");
+  background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;}
+  background-position: center;
+}
+
 hr {
  border-color: #79B694;
  width: 80%;
