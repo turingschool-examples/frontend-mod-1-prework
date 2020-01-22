@@ -9,23 +9,32 @@ var errorMessage = document.querySelector('.error-message');
 
 nicknameBTN.addEventListener('click', updateNickname);
 
+function clearNickname() {
+  document.querySelector('.nickname').value = '';
+}
+
+function clearErrorMessage() {
+  errorMessage.innerText = '';
+}
+
 function updateNickname(event) {
   event.preventDefault();
   if (dogSelector.value === "Estes" && nickname.value !== '') {
     changeEstes.innerText = nickname.value;
-    document.querySelector('.nickname').value = '';
-    errorMessage.innerText = '';
+    clearNickname();
+    clearErrorMessage();
   } else if (dogSelector.value === "Peaches" && nickname.value !== '') {
     changePeaches.innerText = nickname.value;
-    document.querySelector('.nickname').value = '';
-    errorMessage.innerText = '';
+    clearNickname();
+    clearErrorMessage();
   } else if (dogSelector.value === "Zeke" && nickname.value !== '') {
     changeZeke.innerText = nickname.value;
-    document.querySelector('.nickname').value = '';
-    errorMessage.innerText = '';
+    clearNickname();
+    clearErrorMessage();
   } else if (nickname.value == '') {
     errorMessage.innerText = 'Please input a nickname';
   } else {
+    return;
     }
   }
 }
