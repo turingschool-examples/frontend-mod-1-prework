@@ -24,6 +24,7 @@ legend {
   color: #F7F9FC;
 }
 
+
 h3 {
   font-size: 125%;
   font-family: "Open Sans";
@@ -32,23 +33,7 @@ h3 {
   color: #F7F9FC;
 }
 
-form {
-  position: relative;
-  bottom: 700px;
-}
-
-input,
-select {
-  display: block;
-  margin: 1% 2%;
-  width: 33%;
-  height: 6%;
-  font-size: 100%;
-  border: ridge 4px #E5C82C;
-  border-radius: 2%;
-  padding: 1%;
-}
-
+/*Style all links*/
 a {
   text-decoration: none;
   outline: none;
@@ -71,17 +56,6 @@ a:hover {
 
 [type = "file"] {
   border: none;
-}
-
-label {
-  display: block;
-  color: #F7F9FC;
-  margin: 1% 2%;
-}
-
-legend {
-  margin-bottom: 75px;
-  border-top: solid 1px #C1982F;
 }
 
 li {
@@ -112,11 +86,41 @@ ul {
   width: 50%;
 }
 
+/*Syle dog images*/
 img {
   border: inset 1px #E5C82C;
   border-radius: 5%;
   margin: 0 auto;
   display: block;
+}
+
+/*Style What's your kid like form and nickname form*/
+legend {
+  margin-bottom: 75px;
+  border-top: solid 1px #C1982F;
+}
+
+form {
+  position: relative;
+  bottom: 700px;
+}
+
+input,
+select {
+  display: block;
+  margin: 1% 2%;
+  width: 33%;
+  height: 6%;
+  font-size: 100%;
+  border: ridge 4px #E5C82C;
+  border-radius: 2%;
+  padding: 1%;
+}
+
+label {
+  display: block;
+  color: #F7F9FC;
+  margin: 1% 2%;
 }
 
 textarea {
@@ -140,24 +144,6 @@ textarea {
 #background-image {
   border-radius: 0;
   border: 0;
-}
-
-.resources {
-  width: 100%;
-  display: block;
-  margin-top: 3%;
-}
-
-.dog-parks,
-.dog-rescues {
-  margin: 1% 1% 1% 1%;
-  float: left;
-  width: 38%;
-}
-
-.resource-titles {
-  padding: 1%;
-  width: 30%
 }
 
 .submit-button,
@@ -236,4 +222,24 @@ textarea:focus,
 .error-message{
   color: red;
   margin-left: 2%;
+}
+
+
+/*Style Resources section at bottom of page*/
+.resources {
+  width: 100%;
+  display: block;
+  margin-top: 3%;
+}
+
+.dog-parks,
+.dog-rescues {
+  margin: 1% 1% 1% 1%;
+  float: left;
+  width: 38%;
+}
+
+.resource-titles {
+  padding: 1%;
+  width: 30%
 }
