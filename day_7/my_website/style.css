@@ -3,13 +3,15 @@ body {
   margin: 30px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: futura;
   color: #3A3A3A;
   text-align: center;
 }
 
-#header {
+.header {
   position: fixed;
   z-index: 10;
   top: 0px;
@@ -22,11 +24,11 @@ h1, h2, h3 {
   text-align: center;
 }
 
-#itinerary-title {
+.itinerary-title {
   padding-top: 100px;
 }
 
-#name {
+.blog-name {
   color: #FFF0E7;
 }
 
@@ -36,7 +38,7 @@ h1 {
   font-size: 30px;
 }
 
-#header-image-container {
+.header-image-container {
   text-align: center;
 }
 
@@ -75,7 +77,8 @@ h1 {
   margin-right: auto;
 }
 
-p, #travel-form, ul {
+p,
+ul {
   margin: 20px;
   font-family: avenir;
 }
@@ -87,39 +90,40 @@ fieldset {
   width: 375px;
 }
 
-p.list {
+.list {
   font-family: avenir;
 }
 
-img.photo-gallery {
+.location-photo {
   width: 350px;
   length: 350px;
 }
 
-#photo-gallery {
+.photo-gallery-container {
   display: inline-block;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
 }
 
-#travel {
+.page-summary {
   background-color: white;
   border: 2px solid;
   padding: 15px;
   border-color: #79B694;
 }
 
-#recommendations-container, fieldset, #recommendations-title, #travel-title,
-#itinerary-title {
+#recommendations-container,
+fieldset,
+#recommendations-title {
   text-align: center;
 }
 
-#fieldset {
+fieldset {
   margin: auto;
 }
 
-.img-container {
+.header-overlay-image-container {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -151,11 +155,11 @@ img.photo-gallery {
   font-size: 30px;
 }
 
-.img-container:hover .overlay {
+.header-overlay-image-container:hover .overlay {
   opacity: .6;
 }
 
-.text {
+.image-overlay-text {
   text-align: center;
   position: relative;
   top: 50%;
@@ -164,7 +168,7 @@ img.photo-gallery {
   font-family: futura;
 }
 
-.trip-container {
+.specific-trip-container {
   position: relative;
   width: 350px;
   height: 350px;
@@ -187,7 +191,7 @@ img.photo-gallery {
   font-size: 30px;
 }
 
-.trip-container:hover .location-overlay {
+.specific-trip-container:hover .location-overlay {
   opacity: .6;
 }
 
@@ -200,16 +204,12 @@ img.photo-gallery {
   font-family: futura;
 }
 
-#recommendations-container {
-  text-align: center;
-}
-
 #recommendations-content {
   margin: 0 auto;
   display: block;
 }
 
-#pro-tip {
+.pro-tip {
   padding: 20px 80px;
   background-image: url("photos/basque_cross.png");
   background-repeat: no-repeat;

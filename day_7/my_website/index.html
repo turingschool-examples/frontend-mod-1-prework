@@ -5,20 +5,20 @@
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <div id="header">
-      <h1 id="name">ALLY'S TRAVEL BLOG</h1>
+    <div class="header">
+      <h1 class="blog-name">ALLY'S TRAVEL BLOG</h1>
     </div>
-    <div class="img-container">
+    <div class="header-overlay-image-container">
       <a href="about-me.html">
         <img src="photos/beach.jpg" alt="Beach day photo" class="image">
         <div class="overlay">
-          <div class="text">About me</div>
+          <div class="image-overlay-text">About me</div>
         </div>
       </a>
     </div>
     <br />
-    <h1 id="travel-title">TRIP IDEAS</h1>
-    <div id="travel">
+    <h1>TRIP IDEAS</h1>
+    <div class="page-summary">
       <p>Ever since I graduated high school, I've been saving up for various
         trips abroad, both solo and with friends. Mostly I've explored Central
         America, South America, Europe and also the Caribbean. I've taken breaks
@@ -37,67 +37,67 @@
         daily groove and began to realize despite completely different customs
         and traditions, it's all fundamentally relatable no matter where you go.
       </p>
-      <div id="photo-gallery">
-        <div class="trip-container">
-          <img src="photos/havana.jpg" class="photo-gallery" alt="Cuba"
+      <div class="photo-gallery-container">
+        <div class="specific-trip-container">
+          <img src="photos/havana.jpg" class="location-photo" alt="Cuba"
             title="Havana, Cuba" />
           <div class="location-overlay">
             <div class="trip-text">Cuba</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/guate.jpg" class="photo-gallery" alt="Guatemala"
+        <div class="specific-trip-container">
+          <img src="photos/guate.jpg" class="location-photo" alt="Guatemala"
             title="Market in Guatemala" />
           <div class="location-overlay">
             <div class="trip-text">Guatemala</div>
           </div>
         </div>
         <a href="basque-country.html">
-          <div class="trip-container">
-            <img src="photos/basque.jpg" class="photo-gallery" alt="Basque
+          <div class="specific-trip-container">
+            <img src="photos/basque.jpg" class="location-photo" alt="Basque
               Country" title="Basque Country"/>
             <div class="location-overlay">
               <div class="trip-text">San Sebastián</div>
             </div>
           </div>
         </a>
-        <div class="trip-container">
-          <img src="photos/bolivia.jpg" class="photo-gallery" alt="Bolivia"
+        <div class="specific-trip-container">
+          <img src="photos/bolivia.jpg" class="location-photo" alt="Bolivia"
             title="La Paz, Bolivia" />
           <div class="location-overlay">
             <div class="trip-text">La Paz</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/chile.jpg" class="photo-gallery" alt="Chile"
+        <div class="specific-trip-container">
+          <img src="photos/chile.jpg" class="location-photo" alt="Chile"
             title="Atacama Desert, Chile" />
           <div class="location-overlay">
             <div class="trip-text">Atacama Desert</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/oaxaca.jpg" class="photo-gallery" alt="Mexico"
+        <div class="specific-trip-container">
+          <img src="photos/oaxaca.jpg" class="location-photo" alt="Mexico"
             title="Oaxaca, Mexico" />
           <div class="location-overlay">
             <div class="trip-text">Volunteer with enVía</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/bolivia_2.jpg" class="photo-gallery" alt="Bolivia"
+        <div class="specific-trip-container">
+          <img src="photos/bolivia_2.jpg" class="location-photo" alt="Bolivia"
             title="Uyuni Salt Flats, Bolivia" />
           <div class="location-overlay">
             <div class="trip-text">Salar de Uyuni</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/oaxaca_2.jpg" class="photo-gallery" alt="Mexico"
+        <div class="specific-trip-container">
+          <img src="photos/oaxaca_2.jpg" class="location-photo" alt="Mexico"
             title="Hierve el Agua, Oaxaca" />
           <div class="location-overlay">
             <div class="trip-text">Oaxaca</div>
           </div>
         </div>
-        <div class="trip-container">
-          <img src="photos/granada.jpg" class="photo-gallery" alt="Spain"
+        <div class="specific-trip-container">
+          <img src="photos/granada.jpg" class="location-photo" alt="Spain"
             title="Granada, Spain" />
           <div class="location-overlay">
             <div class="trip-text">Southern Spain</div>
@@ -112,7 +112,7 @@
       <h1 id="recommendations-title">RECOMMENDATIONS?</h1>
       <p id="recommendations">I'd love to hear your ideas for future destinations.
         Any countries or regions you'd recommend checking out?</p>
-      <fieldset id="fieldset">
+      <fieldset>
       <p class="list">
         <label><b>Country or region:</b><br />
         <input type="text" name="location" /></label><br />
