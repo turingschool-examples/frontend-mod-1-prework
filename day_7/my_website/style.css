@@ -2,6 +2,7 @@ h1{
   font-size: 45px;
   font-family: fantasy;
   text-align: center;
+  width: auto;
 
 
 }
@@ -22,19 +23,44 @@ p{
 ul{
   text-align: left;
   font-family: andale mono;
-  font-size: 18px;
+  font-size: 20px;
   background-color: orange;
   border-style: hidden;
-  width: 350px;
+  width: 700px;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 65px;
+  margin: auto;
 
 }
+
+#kundaliniyoga {
+  background-color: pink;
+  border-style: hidden;
+  width: auto;
+  text-align: center;
+  line-height: 1;
+  padding: 10px
+  margin: auto;
+
+}
+
+#alextechnique{
+  background-color: YellowGreen;
+  border-style: hidden;
+  width: auto;
+  text-align: center;
+  line-height: 1;
+  padding: 15px;
+  margin: auto;
+}
+
 form{
   border-style: solid;
-  width: 250px;
+  width: 400px;
   padding-bottom: 20px;
-  //float: right;
+  display: inline-block;
 }
 a{
   font-size: 20px;
