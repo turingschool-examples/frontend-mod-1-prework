@@ -63,6 +63,29 @@ li {
   padding: .5%;
 }
 
+/* Style page jumps*/
+
+#back-to-top {
+float:right;
+margin: 1%;
+font-size: 50px;
+}
+
+.page-jumps {
+  color: white;
+}
+
+.page-jumps:visited {
+  color: white;
+}
+
+.page-jumps:hover {
+  border-bottom: 1px solid;
+  background: none;
+  border-radius: 2%;
+}
+
+/*Style individual dog info*/
 .Estes,
 .Peaches,
 .Zeke {

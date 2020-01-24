@@ -3,17 +3,18 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>My Furry Kids</title>
     <link href = "style.css" type = "text/css" rel = "stylesheet" />
+    <script src="https://kit.fontawesome.com/2b9089e1af.js" crossorigin="anonymous"></script>
     <script src = "file.js" type = "text/javascript"></script>
   </head>
   <div id = "navigation">
-    <a href = "#your-dog-form" id = "to-dog-form">Upload Your Dog</a>
-    <a href = "#resources" id = "to-resources">Resources</a>
+    <a href = "#your-dog-form" id = "to-dog-form" class = "page-jumps">Upload Your Dog</a>
+    <a href = "#resources" id = "to-resources" class = "page-jumps">Resources</a>
     <a name = "to-top"></a>
   </div>
   <body>
     <h1 >My Furry Kids</h1>
     <div>
-      <div class = "error-message"></div>
+      <div class = "error-  message"></div>
       <form name = "nickname-form" id = "nickname-form" onsubmit="return validation();">
         <input type = "text" placeholder = "Rename my kids!" class = "nickname" required = "required"/>
         <select name = "chooseDog" class = "dogSelector">
@@ -136,7 +137,7 @@
           <a href = "http://coloradohumane.org/">The Colorado Humane Society</a>
         </li>
         <a name = "resources"></a>
-        <a href = "#to-top" id = "back-to-top">To Top</a>
+        <a href = "#to-top" id = "back-to-top" class = "page-jumps"><i class="fas fa-caret-square-up"></i></a>
     </div>
   </body>
 </html>
