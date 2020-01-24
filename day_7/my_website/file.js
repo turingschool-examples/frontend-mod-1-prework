@@ -37,4 +37,17 @@ function updateNickname(event) {
     return;
     }
   }
+
+  var toDogForm = document.getElementById('to-dog-form');
+  var toResources = document.getElementById('to-resources');
+  var toTop = document.getElementById('back-to-top');
+
+  toDogForm.addEventListener('click', jump(toDogForm));
+  toResources.addEventListener('click', jump(toResources));
+  toTop.addEventListener('click', jump(toTop));
+
+  function jump (className) {
+    var top = document.querySelector(className).offsetTop;
+    return window.scrollTo(0, top);
+  }
 }
