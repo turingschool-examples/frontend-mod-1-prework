@@ -1,0 +1,24 @@
+h1 {
+  color: #0078d7;
+  background-color: #ffbf00;
+  font-family: serif;
+}
+
+h2 {
+  color: #cc0033;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.language-form {
+  border: solid;
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+}
