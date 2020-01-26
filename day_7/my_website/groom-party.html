@@ -4,9 +4,10 @@
     <title>Groom Party</title>
       <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
-
   <body>
-
+    <header>
+      <p><sup>Our </sup>Wedding!</p>
+      <h1>Groom Party</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -15,12 +16,10 @@
         <li><a href="our-motto.html">Our Motto</a></li>
       </ul>
     </nav>
-
+  </header>
     <h1>We are the <strong>Groom Party!</strong></h1>
-    <div class="groom">
-      <p><img class = "tennisNick" src="images/NickTennis.jpg" alt="Picture of Nick"/>
-
-      <form>
+    <div>
+      <form class ="align-right">
         <fieldset>
           <legend> Bachelor Party Location?</legend>
           <label> Your absolute favorite:<br /></label>
@@ -30,7 +29,6 @@
             <option value="New York">New York</option>
             <option value="Vail">Vail</option>
           </select><br />
-
           <label> Your next favorite:<br /></label>
           <select name="bachlocale">
             <option value="Montreal">Montreal</option>
@@ -38,18 +36,20 @@
             <option value="New York">New York</option>
             <option value="Vail">Vail</option>
           </select><br />
-
           <label> Your Choice<br /></label>
             <input type="text" name="other"/>
             <input type="submit" name="localeResponses" value="Submit All"/>
         </fieldset>
       </form>
+      <p><img class = "groom" src="images/NickTennis.jpg"
+        alt="Picture of Nick" />
+        <img class = "groom" src="images/Hangover.jpg"
+         alt="Hangover Movie Picture" />
+
       </p>
     </div>
-
-    <h2>Groomsmen</h2>
-
-    <table>
+    <h1>Groomsmen</h1>
+    <table class="groomsmen">
       <title>Groomsmen</title>
         <tr>
           <th>Name</th>
@@ -82,5 +82,6 @@
           <td>Sarah(wife)</td>
         </tr>
       </table>
-    </body>
+    </div>
+  </body>
 </html>

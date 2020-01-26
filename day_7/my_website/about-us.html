@@ -4,11 +4,10 @@
     <title>About Us</title>
     <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
-
   <body>
-
     <header>
       <p><sup>Our </sup>Wedding!</p>
+      <h1>About Us</h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,38 +17,51 @@
           </ul>
         </nav>
     </header>
-
-
-    <p>Meet Erin and Nick</p>
-    <p>Erin is the sensible one. Nick is the child-like one!</p>
-    <p> <img class="large" src="images/ErinNick.jpg" alt="Erin and Nick hiking"></p>
-      <section>
-        <h2>Erin-Bride Extraordininaire</h2>
-        <p><img class="small" src="images/Erin.jpg" alt="Picture of Erin"/>
-        </p>
-        <p>Erin is a cheesehead from Madison, WI.  She's very loving, hilarious, and about the only time she raises her voice is when the Packer Defense allows any type of yardage gain.  In her spare time, she's a dedicated Middle School ELL Teacher.</p>
+    <!--<div>-->
+        <p>Meet Erin and Nick</p>
+        <p>Erin is the sensible one. Nick is the child-like one!</p>
+        <section class = "MainPhotos">
+        <p> <img class="large" src="images/ErinNick.jpg"
+          alt="Erin and Nick hiking"><img class="large" src="images/Doors.jpg"
+        alt="Erin and Nick in front of doors" /></p>
       </section>
+      <article>
+      <!--<div class = "bio">-->
+        <hr />
+        <h2>Erin - Bride Extraordininaire</h2>
 
-      <section>
-        <h2>Nick-Kitty Loving Groom</h2>
-        <p><img class="small" src="images/NickLambeau.jpg" alt="Picture of Nick"></p>
-        <p>Nick grew up in Aurora, CO.  In addition to his kitties, he loves tennis and reading.  After a decade as an elementary teacher, Nick's back in school for Front End Software Design.</p>
-      </section>
+        <p><img class="align-right medium" src="images/Erin.jpg"
+          alt="Picture of Erin"/>Erin is a cheesehead from Madison, WI.
+          She's very loving, hilarious, and about the only time she raises her
+          voice is when the Packer Defense allows any type of yardage gain.
+          In her spare time, she's a dedicated Middle School ELL Teacher.</p>
+        <!--</div>
+        <div class = "bio">
+          <br /><br /><br />
+        <div>-->
 
-        <section>
-          <h2> The Awesome Kitties</h2>
-          <p> Maxie and Big-O are our lovable kitties.  They get along swimmingly, even taking turns cleaning themselves!</p>
-          <img class="small" id="display-image" onclick="swapImage()" src="images/cat.jpg" alt="Maxie and Big-O"/></p>
-          <p>Click the image to change it!</p>
-
+        <h2 class = "clear">Nick - Kitty-Loving Groom</h2>
+        <p><img class="align-left medium" src="images/NickLambeau.jpg"
+          alt="Picture of Nick" /> Nick grew up in Aurora, CO.
+            In addition to his kitties, he loves tennis and reading.  After
+            a decade as an elementary teacher, Nick is back in school for
+            Front End Software Design.</p>
+      <!--</div>-->
+      <div id="kitties">
+        <hr />
+        <h2 class="clear">The Awesome Kitties</h2>
+        <p> Maxie and Big-O are our lovable kitties.  They get along
+            swimmingly, even taking turns cleaning themselves!</p>
+        <img class="small" id="js-display-image" onclick="swapImage()"
+         src="images/cat.jpg" alt="Maxie and Big-O"/></p>
+        <p>Click the image to change it!</p>
           <script>
-          function swapImage() {
-            var imageDisplayed = document.getElementById('display-image');
+            function swapImage() {
+            var imageDisplayed = document.getElementById("js-display-image");
             if(imageDisplayed.src.match("images/cat.jpg")){
-          imageDisplayed.src = "images/Cats.jpg";}
-          else {imageDisplayed.src = "images/cat.jpg";}}
+              imageDisplayed.src = "images/Cats.jpg";}
+            else {imageDisplayed.src = "images/cat.jpg";}}
           </script>
-      </section>
-
+      </div>
   </body>
 </html>

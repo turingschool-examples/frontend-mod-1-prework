@@ -1,97 +1,201 @@
 body {
-    background-color: thistle;
-    border: 2px solid Gray;
-    border-radius: 16px;
-    font-family: fantasy; sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1024px;
-    min-width: 256px;
-    padding-top: 8px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
+  background-color: thistle;
+  border: 2px solid Gray;
+  border-radius: 16px;
+  font-family: fantasy, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
+
 html {
-    background: radial-gradient(farthest-side, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
-    background-size: 32px 32px;
+  background: radial-gradient(farthest-side, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+  background-size: 16px 16px;
 }
+
 nav ul {
-    list-style-type: none;
-    background-color: #B577B5;
-    border: 4px solid #111111;
-    border-radius: 10px;
-    font-family: fantasy; sans-serif;
-    font-weight: bold;
-    padding: 16px;
+  list-style-type: none;
+  background-color: #B577B5;
+  border: 4px solid #111111;
+  border-radius: 10px;
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
 }
+
 nav ul li {
-    display: inline;
-    border-right: 2px solid #111111;
-    padding-right: 16px;
-    padding-left: 16px;
+  display: inline;
+  border-right: 2px solid #111111;
+  padding-right: 32px;
+  padding-left: 32px;
 }
-nav ul li:last-child{
-    border-right: none;
+
+nav ul li:last-child {
+  border-right: 0;
 }
+
 nav ul li a {
-    text-decoration: none;
-    color: #111111;
+  cursor: pointer;
+  text-decoration: none;
+  color: #111111;
 }
-nav li.selected{color: #606060;
+
+nav li.selected {
+  color: #606060;
 }
+
 nav li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 h1 {
-    color: #111111;
-    font-family: fantasy;
-    font-size: 32px;
+  color: #111111;
+  font-family: fantasy;
+  font-size: 32px;
 }
-p.wedding-tip{
-    border: 4px solid #00AFEB;
-    border-radius: 10px;
-    padding: 16px;
-    background-color: #C5EBFB;
+
+p.wedding-tip {
+  border: 4px solid #00AFEB;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #C5EBFB;
 }
+
 p.wedding-tip::before {
-    color:orangered;
-    content: "Wedding Tip: ";
-    font-weight: bold;
+  color:orangered;
+  content: "Wedding Tip: ";
+  font-weight: bold;
 }
-table{
-    font-size: 70%;
-    font-family: sans-serif;
-    width: 70%;
-    border-collapse: collapse;
+
+table {
+  font-size: 90%;
+  font-family: sans-serif;
+  width: 70%;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 5px purple;
 }
-th, td{
-    border: 1px solid #000000;
-    padding: 8px;
-    text-align: left;
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
 }
-th{
-    background-color: #FCAB68;
-    font-family: fantasy;
+
+th {
+  background-color: #FCAB68;
+  font-family: fantasy;
 }
-td{
-    background-color: #BA99C0;
+
+td {
+  background-color: #BA99C0;
 }
+
 img.small {
-    height: 200px;
-}
-img.large {
-    width: 50%;
-}
-img.tennisNick{
-  float: left;
-  width: 30%;
   height: 200px;
-  padding-right: 100px;
+  border-radius: 8px;
+  border: 1px solid gray;
 }
+
+img.medium {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+img.large {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 16px;
+  border: 2px solid black;
+}
+
+img.groom {
+  width: 300px;
+  height: 225px;
+  margin-right: 2em;
+  border: 2px solid black;
+}
+
+img.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+img.align-left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+/*img.align-center {
+  display: inline;
+  margin: 10px auto;*/
+}
+
 fieldset {
   width: 250px;
 }
-p.groom {
-  columns: 2
+
+
+/*.groomsmen {
+  margin: auto;
+}*/
+
+/*.groomsmen1 {
+  width: 10em;
+  font-size: 3em;
+  margin: auto;
+  text-align: center;
+}*/
+
+#kitties {
+  clear: left;
+}
+
+#bio {
+  margin-bottom: 24px
+  border: 2px solid black;
+  min-height: 320px;
+  clear: both;
+}
+
+h2.clear{
+  clear: both;
+}
+
+h2.Kitty {
+  margin-top: 100px;
+}
+
+header h1 {
+  font-size: 16px;
+  text-align: right;
+}
+
+header p {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+form.align-right {
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.MainPhotos {
+  /*margin: auto;*/
+  text-align: center;
 }
