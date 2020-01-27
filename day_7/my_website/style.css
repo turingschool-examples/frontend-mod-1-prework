@@ -132,16 +132,12 @@ fieldset {
 }
 
 .image {
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   width: 100%;
   height: auto;
 }
 
 .overlay {
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   text-align: center;
   top: 0;
