@@ -24,7 +24,7 @@ header {
 hr {
   display: inline-block;
   width: 80%;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 h1,
@@ -61,7 +61,8 @@ ul {
 ol {
   font-family: 'Source Sans Pro', sans-serif;
   display: inline-block;
-  font-size: 18px
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 nav {
@@ -89,10 +90,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #f4ad25;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding: 8px;
+  color: #f4ad25
 }
 
 footer {
@@ -123,6 +121,12 @@ footer nav a {
 
 .dessert_content {
   background-image: url("img/sweets/dessert.jpg");
+}
+
+.header_bar {
+  display: inline-block;
+  width: 80%;
+  border: 1px solid white;
 }
 
 .boarder_box {
@@ -220,4 +224,8 @@ input {
   width: 100px;
   font: inherit;
   font-size: 16px;
+}
+
+#submit:disabled {
+  background-color: lightpink;
 }

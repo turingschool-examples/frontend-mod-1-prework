@@ -12,6 +12,7 @@
         <h1>Paper, Paper Everywhere</h1>
         <h3>A collection of clipped recipes</h3>
       </div>
+      <hr class="header_bar">
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -73,23 +74,24 @@
     </div>
     <div class="form">
       <!-- stylize this form box -->
-      <form action=" " method="post">
+      <form>
         <fieldset>
           <legend>Follow Me!</legend>
           <p>Subscribe to my email list to keep up with the recipes we find.</p>
           <div class="form_content">
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" maxlength="30" required>
+            <input id="name" class="name-input" type="text" name="name" maxlength="30" required>
           </div>
           <div class="form_content">
             <label for="email">Email:</label>
-            <input type="text" name="email" id="email" maxlength="30" required>
+            <input id="email" class="email-input" type="text" name="email"  maxlength="30" required>
           </div>
           <div class="form_content">
-            <input id="submit" type="submit" name="submit" value="Subscribe">
+            <input id="submit" class="submit-btn" type="button" name="submit" value="Subscribe" disabled>
           </div>
         </fieldset>
       </form>
     </div>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
