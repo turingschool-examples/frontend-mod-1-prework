@@ -1,0 +1,102 @@
+Exercises: Functions
+These exercises are based on the variables exercises, so you may start from those (your solutions or ours) or start from scratch.
+
+The Fortune Teller
+Why pay a fortune teller when you can just program your fortune yourself?
+
+Write a function named tellFortune that:
+takes 4 arguments: number of children, partner's name, geographic location, job title.
+outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+Call that function 3 times with 3 different values for the arguments.
+
+function tellFortune(kids, name, place, job)
+{
+ alert ("You will be a " + job + " in " + place +
+", and married to " + name + " with " + kids + " kids.");
+
+
+}
+undefined
+tellFortune(3, "shrek", "Norway", "pianist")
+undefined
+tellFortune(11, "Brad Pitt", "Norway", "director")
+undefined
+tellFortune(1, "Dracula", "Romania", "bloodbank manager")
+undefined
+tellFortune(7, "Dracula", "Romania", "bloodbank manager")
+undefined
+
+
+
+The Age Calculator
+Forgot how old you are? Calculate it!
+
+Write a function named calculateAge that:
+takes 2 arguments: birth year, current year.
+calculates the 2 possible ages based on those years.
+outputs the result to the screen like so: "You are either NN or NN"
+Call the function three times with different sets of values.
+Bonus: Figure out how to get the current year in JavaScript instead of passing it in.
+
+function calculateAge(birthYear, currentYear){}
+undefined
+function calculateAge(birthYear, currentYear){
+var older = currentYear - birthYear;
+var younger = older - 1;
+return "You are either " + older + " or " + younger;
+}
+undefined
+calculateAge(1967, 2019)
+"You are either 52 or 51"
+calculateAge(1975, 2050)
+"You are either 75 or 74"
+calculateAge(2000, 2095)
+"You are either 95 or 94"
+function calculateAgeThisYear(birthYear){
+var older = currentYear - birthYear;
+var younger = older - 1;
+return "You are either " + older + " or " + younger;
+}
+
+
+The Lifetime Supply Calculator
+Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no more!
+
+Write a function named calculateSupply that:
+takes 2 arguments: age, amount per day.
+calculates the amount consumed for rest of the life (based on a constant max age).
+outputs the result to the screen like so: "You will need NN to last you until the ripe old age of X"
+Call that function three times, passing in different values each time.
+Bonus: Accept floating point values for amount per day, and round the result to a round number.
+
+
+function calculateSupply(age, amount){
+var maxAge = 104;
+var lifeRemaining = maxAge - age;
+var totalThings = amount * 365 * lifeRemaining;
+return "You will need " + totalThings +
+"to last you until the ripe old age of " + lifeRemaining;
+}
+undefined
+calculateSupply(30, 15)
+"You will need 405150to last you until the ripe old age of 74"
+function calculateSupply(age, amount){
+var maxAge = 104;
+var lifeRemaining = maxAge - age;
+var totalThings = amount * 365 * lifeRemaining;
+return "You will need " + totalThings +
+" to last you until the ripe old age of " + lifeRemaining;
+}
+undefined
+calculateSupply(45, 3)
+"You will need 64605 to last you until the ripe old age of 59"
+function calculateSupply(age, amount){
+var maxAge = 104;
+var lifeRemaining = maxAge - age;
+var totalThings = amount * 365 * lifeRemaining;
+return "You will need " + totalThings +
+" to last you until the ripe old age of " + maxAge;
+}
+undefined
+calculateSupply(45, 3)
+"You will need 64605 to last you until the ripe old age of 104"
