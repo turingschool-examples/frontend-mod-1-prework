@@ -1,26 +1,28 @@
-h1{
+h1 {
   font-size: 45px;
   font-family: fantasy;
   text-align: center;
   width: auto;
-
-
+  text-shadow: 2px 2px 3px;
 }
-body{
+
+body {
   text-align: center;
   font-size: 25px;
   background-color: rgb(255,255,204);
 }
-h2{
+
+h2 {
   text-align: left;
   font-family: fantasy;
   letter-spacing: 0.3em;
-
 }
-p{
+
+p {
   //display: inline-block;
 }
-ul{
+
+ul {
   text-align: left;
   font-family: andale mono;
   font-size: 20px;
@@ -32,7 +34,6 @@ ul{
   padding-left: 40px;
   padding-right: 65px;
   margin: auto;
-
 }
 
 #kundaliniyoga {
@@ -43,11 +44,10 @@ ul{
   line-height: 1;
   padding: 10px
   margin: auto;
-
 }
 
-#alextechnique{
-  background-color: YellowGreen;
+#alextechnique {
+  background-color: yellowgreen;
   border-style: hidden;
   width: auto;
   text-align: center;
@@ -56,16 +56,33 @@ ul{
   margin: auto;
 }
 
-form{
+form {
   border-style: solid;
   width: 400px;
   padding-bottom: 20px;
   display: inline-block;
 }
-a{
-  font-size: 20px;
 
+a {
+  font-size: 20px;
 }
-hr{
+
+hr {
   width: 250px;
+}
+
+#formcomments:hover {
+  background-color: purple;
+}
+
+.orange-border {
+  border: 10px solid orange;
+}
+
+.pink-border {
+  border: 15px solid pink;
+}
+
+.yellowgreen-border {
+  border: 10px solid yellowgreen;
 }
