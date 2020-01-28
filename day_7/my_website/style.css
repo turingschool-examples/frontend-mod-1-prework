@@ -11,17 +11,14 @@ h3 {
   text-align: center;
 }
 
-.header {
+header {
   position: fixed;
   z-index: 10;
-  top: 0px;
   background-color: #79B694;
   width: 100%;
   margin: 0px;
   left: 0px;
   top: 0px;
-  padding-left: 10px;
-  text-align: center;
 }
 
 .itinerary-title {
@@ -38,15 +35,11 @@ h1 {
   font-size: 30px;
 }
 
-.header-image-container {
-  text-align: center;
-}
-
 .header-image {
   width: 600px;
   height: 390px;
   margin: 20px auto;
-  display: inline-block;
+  display: block;
 }
 
 .headshot {
@@ -56,7 +49,7 @@ h1 {
   margin: 0px 15px 10px 20px;
 }
 
-#about-me {
+.about-me {
   background-color: white;
   padding: 30px;
   border: 2px solid;
@@ -72,9 +65,8 @@ h1 {
   padding: 20px;
   border: 2px solid;
   border-color: #79B694;
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 p,
@@ -88,25 +80,10 @@ fieldset {
   background-size: contain;
   background-position: center center;
   width: 375px;
-}
-
-.list {
   font-family: avenir;
 }
 
-.location-photo {
-  width: 350px;
-  length: 350px;
-}
-
-.photo-gallery-container {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-}
-
-.page-summary {
+.travel-section {
   background-color: white;
   border: 2px solid;
   padding: 15px;
@@ -131,7 +108,7 @@ fieldset {
   width: 50%;
 }
 
-.image {
+.home-header-image {
   display: block;
   width: 100%;
   height: auto;
@@ -164,12 +141,24 @@ fieldset {
   font-family: futura;
 }
 
+.photo-gallery-container {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
 .specific-trip-container {
   position: relative;
   width: 350px;
   height: 350px;
   margin: 20px;
   display: inline-block;
+}
+
+.location-photo {
+  width: 350px;
+  length: 350px;
 }
 
 .location-overlay {
@@ -198,11 +187,6 @@ fieldset {
   font-weight: bold;
   letter-spacing: .2em;
   font-family: futura;
-}
-
-#recommendations-content {
-  margin: 0 auto;
-  display: block;
 }
 
 .pro-tip {
