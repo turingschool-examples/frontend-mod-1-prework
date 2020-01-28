@@ -1,0 +1,231 @@
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  min-height: 1000px;
+  text-align: center;
+  list-style-position: inside;
+  box-sizing: border-box;
+  background-image: url("img/main_page/cooking.jpg");
+  overflow: scroll;
+}
+
+header {
+  width: 75%;
+  background-color: rgb(0, 0, 0, 0.95);
+  color: white;
+  font-size: 40px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin: 40px;
+  display: inline-block;
+}
+
+hr {
+  display: inline-block;
+  width: 80%;
+  border: 1px solid black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+img {
+  border: 3px solid black;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+  display: inline-block;
+}
+
+ol {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px; /* adds space between buttons */
+  padding: 20px; /*for hover bar */
+}
+
+nav a {
+  color: #faf8e8;
+  text-decoration: none; /* takes away bullets */
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #f4ad25
+}
+
+footer {
+  margin: 20px;
+}
+
+footer nav a {
+  color: black;
+  padding: 15px;
+}
+
+.drink_content {
+  background-image: url("img/drinks/drinks.jpg");
+}
+
+.breakfast_content {
+  background-image: url("img/breakfast/breakfast.jpg");
+}
+
+.sides_content {
+  background-image: url("img/sides/sides.jpg");
+}
+
+.dinner_content {
+  background-image: url("img/dinner/dinner.jpg");
+
+}
+
+.dessert_content {
+  background-image: url("img/sweets/dessert.jpg");
+}
+
+.header_bar {
+  display: inline-block;
+  width: 80%;
+  border: 1px solid white;
+}
+
+.boarder_box {
+  width: 60%;
+  background-color: rgb(85, 139, 89, 0.95);
+  color: black;
+  padding: 15px;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.title {
+   margin: 0px;
+   padding-top: 15px;
+}
+
+.intro,
+.recipe_intro,
+.directions {
+  padding: 5px 20px;
+}
+
+.intro {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.recipe_intro {
+  text-align: center;
+  font-size: 18px;
+}
+
+.ingredients {
+  margin: 20px 180px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-right: 45px;
+  text-align: center;
+  background-color: white;
+  font-size: 18px
+}
+
+.directions {
+  font-size: 18px;
+  text-align: left;
+}
+
+fieldset {
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.80);
+  color: white;
+  display: inline-block;
+  width: 90%;
+  font-size: 20px;
+}
+
+legend {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.form {
+  border: 3px solid #0a0a0a;
+  border-radius: 10px;
+  margin: 30px 50px;
+  padding: 30px;
+  background-color: rgb(0, 0, 0, 0.95);
+  display: inline-block;
+  width: 75%
+}
+
+.form_content {
+  font-family: font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  padding: 10px;
+}
+
+label {
+  padding: 5px;
+}
+
+input {
+  height: 25px;
+  width: 250px;
+}
+
+#submit {
+  display: block;
+  height: 30px;
+  width: 100px;
+  font: inherit;
+  font-size: 16px;
+}
+
+#submit:disabled {
+  background-color: lightpink;
+}
