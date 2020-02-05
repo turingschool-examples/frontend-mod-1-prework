@@ -35,6 +35,6 @@ Provides extra information; such as where emphasis is placed in a sentence, that
 
 What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
 
-<abbr>
-<cite>
-<define>
+abbr
+cite
+define
