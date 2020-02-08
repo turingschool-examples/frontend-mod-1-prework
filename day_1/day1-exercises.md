@@ -6,7 +6,7 @@
 
 4. The purposes of the head, title, and body HTML elements is this; the head contains the information about the page. You will find the head element, using the <head> tags, before the body element and you will usually find the title element inside the head element. The title element is shown in the top of the browser, above where you usually type in the URL. Anything written in between the <title> tags will appear there. The body element has all the information that is shown in the main browser window. You must use the <body> tags to trap all the elements in to make the text show in this location.
 
-5. When viewing the source of a website you must start off by going to your web browser's View menu, go down to developer, and click on View source. That ios how you will view the source.
+5. When viewing the source of a website you must start off by going to your web browser's View menu, go down to developer, and click on View source. That is how you will view the source.
 
 6. Five different HTML elements are; <h1>-<h6><h/1></h6> this represents different sizes of headings, h1 being the largest vs. h6 being the smallest. <b></b> this makes the elements inside the tag bold. <i></i> this makes the elements inside the tag italic. <sub></sub> this makes the elements inside the tag subscript, i.e, the 2 in H20 is subscript. <br  /> this causes line breaks in the middle of a paragraph. These are five different HTML elements.
 
