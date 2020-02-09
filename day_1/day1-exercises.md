@@ -1,3 +1,6 @@
+
+### Day 1 exercises;
+
 1. The purpose of HITML code is it will describe the structure of the page when using the code.
 
 2. The differences between an element and a tag are as follows; elements tell the BROWSER something about the information that sits between these "containers", while tags are the "containers" and will tell YOU something about the information. Tags consist of a an opening and closing container that will let the browser know that the text (elements) that are inside the tags need to be changed.
