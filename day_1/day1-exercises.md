@@ -7,3 +7,5 @@
 7. empty elements are elements that that do not have words between the opening and closing tags. Empty elements usually only have one tag. Ex; <hr /> adds a horizontal line.
 8. Semantic markup is using elements that not only change the way the texts looks, but also lets the browser know to emphasize certain words, and identify quotes. These are helpful for screen reader users and search engines.
 9. html5 merged the <acronym> element with the <abbr> element. html5 has new elements to divide the body of the page <div>. html5 has <article> that specifies independent, self contained content.
+
+https://codepen.io/Keithcrofton/pen/KKpdJrj
