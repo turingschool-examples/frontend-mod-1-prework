@@ -54,5 +54,9 @@ colorSocks = 'blue'
 
 ## What is the difference between an expression and a statement?
 
+An expression can be a statement, but a statement isn't always an expression. More specifically, an **expression** results in a **single value**, such as when we assign a value to a variable or run an arithmetic expression (adding, multiplying, etc... numbers into one single value), or joining two or more strings together to form one.
+A **statement** has a broader definition: any individual instructions that the computer should follow, like the steps of a recipe, and may not always return a value as expressions do. Each new statements should start in a new line and end in a semicolon; however, a statement does not have to end on the same line it began. Multiple statements may be grouped together into **code blocks**, beginning and ending in curly braces.     
 
 ## What are three types of operators and how are they used?
+
+At the top of this page, we got acquainted with the assignment operator. There are **arithmetic operators** which performs basic math: 'PEMDAS' - 'PE' also includes increment '++', decrement '--' (adds or subtracts one from current number, respectively), and modulus '%' (divides two values and returns the remainder). There are **comparison operators** which compares two values an returns either true or false; for example, `grade = 80 > 70;` returns true (Note that this is an expression). **Logical operators** combine expressions to return either true or false; for example, `grade = (80 > 70) && (60 > 70);` returns false (Note since it combines two expressions, this is better defined as a statement).    
