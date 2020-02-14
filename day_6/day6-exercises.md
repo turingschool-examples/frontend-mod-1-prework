@@ -1,5 +1,9 @@
 #### Chapter 3 (Functions & Scope) questions;
 
-1.
-2.
-3. 
+1. The difference between entering `sayHello` and `sayHello()` is whether or not the function will run. `sayHello()` has the parentheses causing there to be parameters within those parentheses indicating the information needed in order to run the code properly. Without the parenthesis like `sayHello` the code will not run and you will get a syntax error.
+
+2. The difference between function parameters and arguments is function parameters have variables within the function and arguments have the values of the variables and pass it to the function of the parameters. Examples are; `function getArea(length, width)` The length and width are function parameters, while the arguments is when we substitute the length and width with values or variables where their value has been defined, like, `getArea(4,7);` or `wallLength = 4; and wallWidth = 7; getArea(wallLength,wallWidth);`
+
+3. The keyword return is used to return a value to the code that called for this specific calculation. Example; `{return length * height;}` causing the calculation to return a value of 28.
+
+4. Local variables are better than global variables because local variables are created inside the function and can only be used inside that function as well as when the function with the variable has completed its task, it is then removed. This does not cause confusion like it can cause when using global variables. Global variables take up more memory because as long as the web page is loaded, the function with the variable will still be running. This also means that there is an increase in naming conflicts, because the function with variable has not been removed. 
