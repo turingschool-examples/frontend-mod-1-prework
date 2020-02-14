@@ -2,3 +2,5 @@
 2. <a href="http://www.website.com">bodytext</a>
 3. Add target="_blank" at the end of the opening tag. If my answer to question two was changed to open in a new window it would look like this <a href="http://www.website.com" target="blank">bodytext</a> (opens in new window) Its good form to let the user know another window is opening.
 4. To link to a specific part of the same page is similar to linking to a different page. The difference is the href doesnt have a url, it has a "#linklocation" that connects via an id attribute located farther down the page that looks like <h1 id="linklocation">
+
+https://codepen.io/Keithcrofton/pen/KKpdJrj
