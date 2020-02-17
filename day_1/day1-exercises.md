@@ -13,7 +13,7 @@
       <li><b></b> is used to make characters bold.<i></i> will make characters appear italic.<strong></strong> element indicates that its content has strong importance.<q></q> element is used for shorter quotes that fall within a paragraph.<s></s> indicates something is no longer accurate or relevant.</li>
       <li>Empty elements do not have any words between the opening and closing tag and they are written differently</li>
       <li>They add additional information to the pages without affecting the structure of your web page.</li>
-      <li><header>,<nav>, and <article> are three new semantic elements introduced in HTML 5.</li>
+      <li>`<header>`,`<nav>`, and `<article>` are three new semantic elements introduced in HTML 5.</li>
     </ol>
   </body>
 </html>
