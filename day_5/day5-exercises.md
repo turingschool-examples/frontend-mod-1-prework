@@ -1,6 +1,6 @@
 #### Chapter 2 (Statements, Variables, Data Types, & Arrays) questions;
 
-1. You declare a variable by starting with the "var", this is a  variable keyword and following with a variable name. You just declared the variable by giving it a name. The equal sign means you are assigning the value to the variable. It is called the assignment operator and can be used to update the value of the variable.
+1. You declare a variable by starting with the `var`, this is a  variable keyword and following with a variable name. You just declared the variable by giving it a name. The equal sign means you are assigning the value to the variable. It is called the assignment operator and can be used to update the value of the variable.
 
 2. The number data types are numbers or negative numbers that are used for tasks involving counting or calculating the total. They can also be used to determine the size of a screen, moving the position of an element, or setting how long an item fades in. String data types are letters and characters enclosed in "quotes" (straight not curly). Strings are used to contain any kind of text, whether it be phone numbers or a school name, and are used to add new content to any page. Booleans are used to give the variable the value of either true or false. This is helpful determining which path the script might take.
 
@@ -10,4 +10,4 @@
 
 5. The difference between an expression and a statement is; an expression results into a single value whether it be assigning a value to a variable or using two or more values to get to a single value and a statement does something. A statement uses the values made by the expressions to give an action or command to that variable.
 
-6. The three types of operators are assignment operators, arithmetic operators, and string operators. Assignment operators ``(=)`` are used to assign a value to a variable, Arithmetic operators ``(*)`` are used to perform math, and String operators ``(+)`` are used to combine two strings.
+6. The three types of operators are assignment operators, arithmetic operators, and string operators. Assignment operators `(=)` are used to assign a value to a variable, Arithmetic operators `(*)` are used to perform math, and String operators `(+)` are used to combine two strings.
