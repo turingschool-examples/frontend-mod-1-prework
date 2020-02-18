@@ -1,11 +1,11 @@
 
-### Day 1 exercises;
+### Chapters 1 and 2 on Structure and Text questions;
 
 1. The purpose of HITML code is it will describe the structure of the page when using the code.
 
-2. The differences between an element and a tag are as follows; elements tell the BROWSER something about the information that sits between these "containers", while tags are the "containers" and will tell YOU something about the information. Tags consist of a an opening and closing container that will let the browser know that the text (elements) that are inside the tags need to be changed.
+2. The differences between an element and a tag are as follows; elements tell the BROWSER something about the information that sits between its opening and closing tags, while tags are the containers and will design the element of which the tags describe, examples are; `<p></p>` which stand for a paragraph form and `<h1></h1>` stands for heading one. Tags consist of a an opening and closing container that will let the browser know that the text (elements) that are inside the tags need to be changed.
 
-3. We use attributes in HTML elements because attributes provide additional information about the contents of an element. These elements are made up of two parts a name and a value. The name indicates what kind of information you are supplying about the element content while the value is the information of that attribute.
+3. We use attributes in HTML elements because attributes provide additional information about the contents of an element. These elements are made up of two parts; a name and a value. The name indicates what kind of information you are supplying about the element content while the value is the information of that attribute.
 
 4. The purposes of the head, title, and body HTML elements is this; the ``<head>`` contains the information about the page. You will find the head element, before the body element and you will usually find the title element inside the head element. The ``<title>`` element is shown in the top of the browser, above where you usually type in the URL. Anything written in between the title tags will appear there. The ``<body>`` element has all the information that is shown in the main browser window. You must use the body tags to trap all the elements in to make the text show in this location.
 
