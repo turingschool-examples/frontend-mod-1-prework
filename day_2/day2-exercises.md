@@ -1,12 +1,10 @@
 Chapter 3 + 4 questions
 
-1.  There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
+1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
 A:
 An ordered list is contained in between <ol></ol> elements. An ordered list uses numbers.
-
 An unordered list is contained in between <ul></ul> elements. An unordered list uses bullet points.
-
 A definition list is made using the <dl></dl> elements. A definition list is used to define terminology.
 
 
