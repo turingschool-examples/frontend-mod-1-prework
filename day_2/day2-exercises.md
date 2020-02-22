@@ -31,3 +31,5 @@ Color Hex Code: Six digit code that represents the ammount of red, green, and bl
 3 types of fonts: Serif; extra detail. Sans-Serif; straight ends, cleaner. Monospace; fixed width.
 
 Font size units: Pixels, Percentages, EMS (equivalent to the width of the letter M).
+
+
