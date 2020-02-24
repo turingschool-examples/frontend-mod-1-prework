@@ -42,12 +42,42 @@ img.logo-photo{
 a {
     color: inherit;
     text-decoration: none;
-    text
-
 }
 h3 {
     color: aliceblue;
+    display: inline;
 }
 li {
     list-style: none;
+}
+.navigation {
+    padding: 0px;
+}
+.navigation a {
+    display: block;
+    min-width: 100px;
+    padding: 10% 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.music-link {
+    background-image: url(assets/pictures/music-pano.jpg);
+}
+.picture-link {
+    background-image: url(assets/pictures/smoke-pic.jpg);
+}
+.about-us-link {
+    background-image: url(assets/pictures/horn-landscape.jpg);
+}
+.shows-link {
+    background-image: url(assets/pictures/show-shot.jpg);
+}
+.contact-link {
+    background-image: url(assets/pictures/contact-us-shot.jpg);
 }
