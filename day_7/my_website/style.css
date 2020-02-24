@@ -5,14 +5,13 @@ body {
     background-color: #2b2a2a;
     max-width: 100vw;
     max-height: 100vh;
-    font
 }
 div.enter-button {
     font-size: 25px;
     display: flex;
     width: 60vw;
     max-width: 200px;
-    margin: 5vh auto;
+    margin: 3vh auto;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -21,11 +20,9 @@ div.enter-button {
     border-radius: 30px;
     box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343, inset 1px 1px 5px 0px #171717db, inset -1px -1px 6px 0px #444343;
 }
-.enter-button.clicked {
+.enter-button:hover {
     box-shadow: inset 6px 5px 17px 1px #111111, inset -1px -1px 12px 3px #444343, 1px 1px 5px 0px #171717db, -1px -1px 6px 0px #444343;
-    filter: blur(10px) grayscale(100%);
     transition-property: all;
-    transition-duration: 500ms;
 }
 div.hawk-logo {
     margin-top: 5vh;
@@ -46,6 +43,9 @@ a {
 h3 {
     color: aliceblue;
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
 }
 li {
     list-style: none;
@@ -57,7 +57,6 @@ li {
     display: block;
     min-width: 100px;
     padding: 10% 0px;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -65,19 +64,51 @@ li {
     box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 0px 0px 12px black;  
 }
 .music-link {
     background-image: url(assets/pictures/music-pano.jpg);
+    background-position: top center;
 }
 .picture-link {
     background-image: url(assets/pictures/smoke-pic.jpg);
+    background-position: center;
 }
 .about-us-link {
     background-image: url(assets/pictures/horn-landscape.jpg);
+    background-position: center;
 }
+
 .shows-link {
     background-image: url(assets/pictures/show-shot.jpg);
+    background-position: center;
 }
 .contact-link {
     background-image: url(assets/pictures/contact-us-shot.jpg);
+    background-position: center;
+}
+p {
+    color: aliceblue;
+    text-shadow: 0px 0px 12px black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.hero-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.hero-images img {
+    align-self: auto;
+    flex-grow: 1;
+    flex-basis: 20%;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343;
 }
