@@ -1,0 +1,35 @@
+
+
+  body {
+    background-color : seashell;
+    padding: 30px;
+  }
+h1 {
+  color : DarkBlue;
+  font : georgia;
+}
+
+p {
+  font-family: sans-serif;
+  font : verdana;
+
+}
+
+.image1 {
+  float : right;
+  height : 125px;
+  width : 150px;
+  margin : 10px;
+  padding : 10px;
+  border-style : double;
+
+}
+
+.image2 {
+  float : left;
+  height : 100px;
+  width : 150px;
+  margin : 10px;
+  padding : 10px;
+  border-style : double;
+}
