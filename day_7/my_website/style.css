@@ -1,3 +1,5 @@
+/*general*/
+
 body {
   background-image: linear-gradient(rgb(189, 214, 172), rgb(221, 213, 183));
   font-family: Georgia, Times, serif;
@@ -49,7 +51,6 @@ blockquote {
   border-left: 1px solid rgb(102, 102, 102);
   padding-left: 5px;
   margin-right: 35%;
-
 }
 
 /*images*/
@@ -79,10 +80,6 @@ width: 412.5px;
   margin-left: 22px;
 }
 
-#img {
-  float:
-}
-
 /*links*/
 
 a:link {
@@ -98,5 +95,3 @@ a:visited {
 button {
   color: rgb(102, 102, 102);
 }
-
-/*sections*/
