@@ -1,4 +1,4 @@
-#Chapter 5 Questions#
+# Chapter 5 Questions #
 
 1. In and image element, why is the alt attribute important?
 
@@ -12,7 +12,7 @@
 
 - A `jpg` image file format should be used for saving pictures that have rich and complex colors or many different colors in general. The `jpg` format advantages include: high resolution, a small file size, and adjustable compression (good for modification). A `png` image file format should be used to save images with simple or few colors, or when there are large areas with the same color (flat color). The `png` format advantages include: supports opacity or transparency and uses lossless compression (which is better for saving, restoring, and re-saving repeatedly).
 
-#Chapter 16 questions#
+# Chapter 16 questions #
 
 1. What is the benefit of specifying the height and width of images in CSS compared to specifying in the HTML?
 
