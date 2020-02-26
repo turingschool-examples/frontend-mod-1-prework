@@ -28,11 +28,11 @@
   * In order to link to a specific part of the same page, you need to use the *id* attribute.
   For example, if you wanted to create a table of contents with links to its corresponding section, you would use:
 
-  <a href="#prologue">Prologue</a><br />
+  a href="#prologue">Prologue</a><br /
 
   and then it would be followed with:
 
-  <h2 id="prologue">Prologue</h2>
+  h2 id="prologue">Prologue</h2
 
   Which would be the section that it is linked with.
 
