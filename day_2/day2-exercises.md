@@ -4,7 +4,7 @@
 
 1. There are three main types of lists in `HTML`: ordered, unordered, and definition. What are their differences?
 
-- An ordered list is contained in the `<ol>` element. An ordered list uses numbers. An unordered list is contained in the `<ul>` element. An unordered list uses bullet points. A definition list is made using the `<dl>` element. A definition list is used to define terminology.
+- An ordered list is contained in the ordered element. An ordered list uses numbers. An unordered list is contained in the unordered element. An unordered list uses bullet points. A definition list is made using the definition element. A definition list is used to define terminology.
 
 
 2. What is the basic structure of an element used to link to another website?
