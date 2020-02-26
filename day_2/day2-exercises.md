@@ -3,19 +3,18 @@
 
 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
 
-- An ordered list is contained in between `<ol> </ol>` elements. An ordered list uses numbers.An unordered list is contained in between `<ul> </ul>` elements. An unordered list uses bullet points.A definition list is made using the `<dl> </dl>` elements. A definition list is used to define terminology.
+- An ordered list is contained in between `<ol>` `</ol>` elements. An ordered list uses numbers. An unordered list is contained in between `<ul>` `</ul>` elements. An unordered list uses bullet points.A definition list is made using the `<dl>` `</dl>` elements. A definition list is used to define terminology.
 
 
 2. What is the basic structure of an element used to link to another website?
 
- - Anything in between the <a> and </a> elements will be part of the link.
- Use the `href` attribute name between the first 'a' and the '>' and assign a webpage with the address wrapped in quotes as the attribute value.
- In between the <a> and the </a> elements place the text that will show up on the web page. This is known as the link text.
+ - Anything in between the `<a>` and `</a>` elements will be part of the link. Use the `href` attribute name between the first 'a' and the '>' and assign a webpage with the address wrapped in quotes as the attribute value.
+ In between the `<a>` and the `</a>` elements place the text that will show up on the web page. This is known as the link text.
 
 
 3. What attribute should you include in a link to open a new tab when the link is clicked?
 
-- The target attribute name is used to create a new tab or window for clicking the link. The attribute value assigned to target should "blank" with an underscore before the 'b'. This attribute is between the 'href="www.xyz"' and the '>' of the opening '<a>'
+- The **target** attribute name is used to create a new tab or window for clicking the link. The attribute value assigned to target should `_blank` with an underscore before the 'b'. This attribute is located between the `href="www.xyz"`and the `>` of the opening `<a>`.
 
 
 4. How do you link to a specific part of the same page?
