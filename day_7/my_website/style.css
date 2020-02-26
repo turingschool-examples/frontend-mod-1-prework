@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 400%;
+  font-family: Georgia, Times, Serif;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+h2 {
+  font-size: 150%;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+body {
+  background-color: #7ba1db;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  text-align: center;
+  font-size: 120%;
+  font-family: Arial, Verdana, sans-serif;
+  width: 90%;
+  margin: 0 auto;}
+#content {overflow: auto;}
+#nav, #feature, #footer {
+  margin: 1%;
+}
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;}
+.column3 {margin-right: 0%;}
+li {
+  display: inline;
+  padding: 0.5em;}
+#nav, #footer {
+  background-color: #46454d;
+  padding: 0.5em 0;
+  text-align: center;
+}
+#feature, .article {
+  height: 15em;
+  margin-bottom: 1em;
+  background-color: #7ba1db;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+}
