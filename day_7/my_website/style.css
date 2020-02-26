@@ -7,7 +7,6 @@ body {
     max-height: 100vh;
 }
 div.enter-button {
-    font-size: 25px;
     display: flex;
     width: 60vw;
     max-width: 200px;
@@ -17,8 +16,8 @@ div.enter-button {
     flex-direction: column;
     text-align: center;
     color: aliceblue;
-    border-radius: 30px;
-    box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343, inset 1px 1px 5px 0px #171717db, inset -1px -1px 6px 0px #444343;
+    border-radius: 15px;
+    box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343, inset -3px -3px 5px 0px #171717db, inset 1px 3px 14px 0px #444343;
 }
 .enter-button:hover {
     box-shadow: inset 6px 5px 17px 1px #111111, inset -1px -1px 12px 3px #444343, 1px 1px 5px 0px #171717db, -1px -1px 6px 0px #444343;
@@ -47,6 +46,19 @@ h3 {
     font-size: 40px;
     font-weight: 600;
 }
+.scrollbar {
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+    display: none;
+}
+.force-overflow {
+    min-height: 450px;
+}
 li {
     list-style: none;
 }
@@ -68,7 +80,7 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 600;
-    text-shadow: 0px 0px 12px black;  
+    text-shadow: 0px 0px 12px black;
 }
 .music-link {
     background-image: url(assets/pictures/music-pano.jpg);
@@ -114,15 +126,24 @@ div.hero-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 .hero-images img {
     align-self: auto;
-    flex-grow: 2;
+    flex-grow: 1;
     flex-basis: 20%;
     border-radius: 15px;
     margin: 5px;
     box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343;
+    max-width: 200px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.row-2 {
+    display: flex;
+    justify-content: space-evenly; 
 }
 .contact-us-form {
     color: aliceblue;
@@ -136,16 +157,7 @@ input {
     padding: 3px;
     margin: 2px;
 }
-.scrollbar {
-    float: left;
-    height: 300px;
-    margin-bottom: 25px;
-    margin-left: 30px;
-    margin-top: 40px;
-    width: 65px;
-    overflow-y: scroll;
+.pedal-picture {
+    border-radius: 15px;
+    box-shadow: 6px 5px 17px 1px #111111, -1px -1px 12px 3px #444343;
 }
-.force-overflow {
-    min-height: 450px;
-}
-
