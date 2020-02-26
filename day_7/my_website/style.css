@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, verdana, sans-serif;
+  text-align: left;
+  width:95%;
+  margin: 0 auto;
+}
+nav{
+  text-align: center;
+  top: 5px;
+  margin:0.5em;
+  padding:0.5em;
+  width: 100%;
+  z-index: 10;
+}
+li {
+  display: inline;
+  margin-right: 3em;
+}
+  h1, h2, h3 {
+    font-family: Times, Georgia, serif;
+  }
+  div{
+    position: relative;
+    margin:0.5em;
+    margin-top: 2em;
+    padding:0.5em;
+    top: 25px;
+    height:835px;
+    width: 1375px;
+
+  }
+div.searchBar{
+  height:75px;
+  width:250px;
+  text-align:center;
+}
+article{
+  margin:0.2em;
+  padding:0.2em;
+  z-index: 12;
+}
+article.text{
+  height: 48%;
+  margin:0.5em;
+  padding:0.5em;
+  overflow: scroll;
+}
+aside{
+  margin:0.2em;
+  padding: 0.2em;
+  width:62.6%;
+  min-width: 850px;
+  z-index: 12;
+  overflow:scroll;
+}
+article.landInBetween.Text{
+  width:31.3%;
+  float:right;
+
+}
+aside.landInBetween.Imgs{
+  float:left;
+
+}
+article.westCoast.Text{
+  width:31.3%;
+  float:left;
+}
+aside.westCoast.Imgs{
+  float:right;
+}
+
+article.eastCoast.Text{
+  width:31.3%;
+  float:left;
+
+}
+
+aside.eastCoast.Imgs{
+  width:62.6%;
+  float:right;
+
+}
+article.mexico.Text{
+  width: 31.3%;
+  float:right;
+
+}
+aside.mexico.Imgs{
+  float:left;
+}
+article.southKorea.Text{
+  width:31.3%;
+  float:left;
+}
+aside.southKorea.Imgs{
+  float: right;
+}
+
+img.pano{
+  height: 400px;
+  width: 100%;
+}
+img.land{
+  height:400px;
+  width:525px;
+}
+img.portrait{
+  height:400px;
+  width:320px;
+}
+img.align-right{
+  align: right;
+  margin-left: 0.2em;
+  margin-top:0.2em;
+}
+img.align-left{
+  align: left;
+  margin-right:0.2em;
+  margin-top:0.2em;
+}
