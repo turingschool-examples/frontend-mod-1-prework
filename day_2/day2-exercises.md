@@ -16,7 +16,8 @@
   * The attribute you would use is the *target* attribute. Which does have a value of *_blank*.
 
   In code it would look like:
-  a href="http://www.google.com" target="_ blank"
+
+  a href="http ://www.google.com" target="_ blank"
 
 
 (I added a space between the underscore and the word "blank" because it kept italicizing everything, but there should not be a space in between.)
