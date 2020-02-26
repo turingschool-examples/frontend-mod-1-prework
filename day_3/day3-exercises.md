@@ -1,4 +1,6 @@
-# Chapter 7 Questions #
+# Day 3 Capstone #
+
+## Chapter 7 Questions ##
 
 1. If you're using an input element in a form, what attribute controls the behavior of that input?
 
@@ -20,7 +22,7 @@
 - Related form items can be grouped inside the <fieldset></fieldset> element. When <fieldset> is used a line will show on the web page around the boxes and characters in the group (in most browsers). A <legend></legend> element is used to create the caption at the top of the group. This setup can be helpful for long forms.
 
 
-# Chapter 13 and 15 Questions #
+## Chapter 13 and 15 Questions ##
 
 
 1. Describe the differences between border, margin, and padding.
@@ -47,3 +49,5 @@
 
 - In a **fixed width layout** the designs stay the same size even if the user increases or decreases the size of the browser window. This gives the designer greater control of the look and location of items on the page.
 - A **liquid layout** will allow content size to change as the user adjusts the size of the browser window. This is nice if the user has a small window since the content can be viewed with little to no scrolling.
+
+.
