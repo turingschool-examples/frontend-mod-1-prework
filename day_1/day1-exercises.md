@@ -23,7 +23,7 @@ When in your browser, select 'View' in the menu. Move down to 'Developer' and se
 
 <h3>List five different HTML elements and what they are used for. For example, <p></p> is a paragraph element, and it is used to represent a paragraph of text.</h3>
 
-h1 is used for main headings. h2 is used for subheadings. b will make characters appear bold. i will make characters italic. br will add a line break inside the middle of a paragraph
+h1 is used for main headings. h2 is used for subheadings. b will make characters appear bold. i will make characters italic and br will add a line break inside the middle of a paragraph
 
 <h3>What are empty elements?</h3>
 
