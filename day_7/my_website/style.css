@@ -2,7 +2,7 @@
 
 body {
   width: 960px
-margin:  0 auto;
+  margin:  0 auto;
 
   background-image: url('https://i.postimg.cc/gjgPDxkF/stone2.jpg');
 }
@@ -33,7 +33,6 @@ h1 {
   background-color: #add8e6;
   width: 840px;
   font-family: Arial, Verdana, sans-serif;
-  font: maroon;
   text-shadow: 3px 2px black;
 }
 
