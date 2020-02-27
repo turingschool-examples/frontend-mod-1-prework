@@ -8,7 +8,7 @@ Function parameters, defined in the parentheses of the function name, use words 
 
 <h3>What is the keyword return used for?</h3>
 
-The return keyword is used to return a value to the code the called the function.
+The return keyword is used to return a value to the code that called the function.
 
 <h3>How are local variables better than global variables? Are there instances you can think of where you might want to use a variable that is globally scoped over local?</h3>
 
