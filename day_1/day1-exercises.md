@@ -35,6 +35,6 @@ Provides extra information; such as where emphasis is placed in a sentence, that
 
 <h3>What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.</h3>
 
-* abbr
-* cite
-* define
+* header - the main header that appears at the top of the page.
+* footer - appears at the bottom of the page.
+* article - acts as a container for any section of a page the could stand alone.
