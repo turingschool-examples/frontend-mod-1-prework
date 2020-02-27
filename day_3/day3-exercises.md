@@ -7,7 +7,7 @@ If you're using an input element in a form, what attribute controls the behavior
 
 
 What element is used to create a dropdown list?
-    The element used to create a drop down list is the select box: <select> The select element will include two or more option elements within the opening and closing tags. It will also include a name attribute of the form control sent to the server, and values for each option that can be selected.
+    The element used to create a drop down list is the select box: <select> The select element will include two or more <option> elements within the opening and closing tags. It will also include a name attribute of the form control sent to the server, and values for each option that can be selected.
 
 
 If you're using an input element to send form data to a server, what should the type attribute be set to?
@@ -37,4 +37,4 @@ What is the role of fixed positioning, and why is z-index important in the scena
 
 
 What is the difference between a fixed and liquid layout?
-    With fixed-width layouts, the design element of the page won't change size when the user increases or decreases the size of the window. The liquid layout will adjust with the browser window size and. Both have advantages and disadvantages. 
+    With fixed-width layouts, the design element of the page won't change size when the user increases or decreases the size of the window. The liquid layout will adjust with the browser window size and. Both have advantages and disadvantages.
