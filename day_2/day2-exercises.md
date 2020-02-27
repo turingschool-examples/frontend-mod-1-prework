@@ -6,11 +6,11 @@ Ordered lists are just that: lists that have a particular order. They are number
 
 2.  What is the basic structure of an element used to link to another website?
 
-<a href=”LINK”>WEBSITE</a>
+< a href = ”LINK” > WEBSITE < /a >
 
 3.  What attribute should you include in a link to open a new tab when the link is clicked?
 
-<a href=”LINK” target="_ blank">WEBSITE</a>. Adding the target=”_ blank” will open the link in a new tab.
+< a href= ” LINK ” target = "_ blank">WEBSITE < /a >. Adding the target = ”_ blank ” will open the link in a new tab.
 
 4.  How do you link to a specific part of the same page?
 
