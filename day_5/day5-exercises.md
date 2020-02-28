@@ -19,7 +19,7 @@ Some reserved words in JavaScript to avoid include boolean, break, case, if, fal
 
 <h3>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h3>
 
-Arrays are especially helpful when you don't know how many items a list will contain because, when you create an array you do not need to specify how many items a list will contain. To access a value from an item in an array, after the array name you specify, the index number for that value inside square brackets. You can change the value of an item in an array by selecting it and assigning it a new value just as you would any other variable.
+Arrays are especially helpful when you don't know how many items a list will contain because, when you create an array you do not need to specify how many items a list will contain. To access a value from an item in an array, after the array name you specify, place the index number for that value inside square brackets. You can change the value of an item in an array by selecting it and assigning it a new value just as you would any other variable (using the equals sign and the new value for that item)
 
 <h3>What is the difference between an expression and a statement?</h3>
 
