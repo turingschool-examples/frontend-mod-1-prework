@@ -1,7 +1,7 @@
 
 
 body {
-  
+
   width: 1400px;
   margin: 0 auto;
   background-image: url(https://i.postimg.cc/gjgPDxkF/stone2.jpg);
@@ -89,3 +89,7 @@ hr {
   background: #228b22;
   margin: 0;
 border-radius: 180px;}
+
+p.subscribe {
+  font-family: Helvetica, Verdana, sans-serif;
+}
