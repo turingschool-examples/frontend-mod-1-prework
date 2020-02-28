@@ -15,6 +15,8 @@ Numbers are just as they sound, numbers. Numbers are not just used for things li
 5. Use a name that describes the kind of information that the variable stores.
 6. If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. This is known as camelCase.
 
+Some reserved words in JavaScript to avoid include boolean, break, case, if, false, null, return, package, static, and while.
+
 <h3>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h3>
 
 Arrays are especially helpful when you don't know how many items a list will contain because, when you create an array you do not need to specify how many items a list will contain. To access a value from an item in an array, after the array name you specify, the index number for that value inside square brackets. You can change the value of an item in an array by selecting it and assigning it a new value just as you would any other variable.
