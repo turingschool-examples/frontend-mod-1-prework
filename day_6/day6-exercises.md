@@ -1,6 +1,6 @@
 <h3>If we have a function defined as function sayHello(){console.log("Hello!")}, what is the difference between entering sayHello and sayHello() in the console?</h3>
 
-When writing this in the console as sayHello(), the console returns undefined. When you run sayHello, it returns a syntax error: unexpected token '{'. I believe this is because theres no parameters given, so the call to function never starts.
+When entering sayHello, the console returns '*sayHello(){console.log("Hello!")}*'. When you run sayHello(), it returns 'Hello!'. I believe this because no parameters were given so the call to function never starts.
 
 <h3>What is the difference between function parameters and arguments?</h3>
 
