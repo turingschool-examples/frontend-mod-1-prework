@@ -4,7 +4,7 @@ When entering sayHello, the console returns '*sayHello(){console.log("Hello!")}*
 
 <h3>What is the difference between function parameters and arguments?</h3>
 
-Function parameters, defined in the parentheses of the function name, use words to act like variable names inside the function. Arguments are defined in the parentheses of the function name as values or as variables to perform the calculation of the function.
+Function parameters, defined in the parentheses of the function name, use words to act like variable names inside the function. Arguments are defined in the parentheses when calling the function with real numbers to perform the calculation (or variables that hold real numbers). These values that you pass into the code are called arguements.
 
 <h3>What is the keyword return used for?</h3>
 
