@@ -1,5 +1,5 @@
 # Chapter 2 Answers
-
+---
 ### 1. How do you declare a variable. What does the equals sign really mean in JavaScript? What is it called in JavaScript?
 
 #### 1. To declare a variable you must create it and give it a name. Var is an example what programmers call a keyword. In order to use that variable you must give it a name. Sometimes it is called an identifier. An example would be var quantity; in this case the variable is called quantity. The equal sign is an assignment operator. It says that you are going to assign a value to the variable. An example is var quantity = 3;
