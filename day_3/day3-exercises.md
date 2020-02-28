@@ -2,7 +2,7 @@
 
 ## Chapter 7 questions:
 
-###If you're using an input element in a form, what attribute controls the behavior of that input?
+### If you're using an input element in a form, what attribute controls the behavior of that input?
 The attribute that would be used to control input is the type. The value of the type input determines the type of information being gathered. Examples of different type values: text, password, radio, checkbox.
 
 ### What element is used to create a dropdown list?
