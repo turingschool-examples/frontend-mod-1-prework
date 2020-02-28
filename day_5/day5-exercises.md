@@ -4,11 +4,16 @@ You declare a variable by giving it a name. This consists of using the variable 
 
 <h3>There are three big data types in JavaScript: numbers, strings, and booleans. Describe what each of them are.</h3>
 
-Numbers are just as they sound, numbers. Numbers are not just used for things like calculators; they are used for tasks such as determining the size of the screen or moving the position of an element around the screen. String data types consist of letters and other characters. String data types are enclosed in a pair of quotes. Boolean value types can have on of two values: True or False.
+Numbers are just as they sound, numbers. Numbers are not just used for things like calculators; they are used for tasks such as determining the size of the screen or moving the position of an element around the screen. String data types consist of letters and other characters. String data types are enclosed in a pair of quotes. Boolean value types can have one of two values: True or False.
 
 <h3>What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names?</h3>
 
-1. The name myst begin with a letter, a dollar sign ($), or an underscore. It must not start with a number. 2. The name can contain letters, dollar sign, or an underscore. Note that you must not use a dash or period. 3. You cannot use keywords or reserved words. Some examples of reserved words to avoid are boolean, true, false, typeof, null, and var. 4. All variables are case sensitive. 5. Use a name that describes the kind of information that the variable stores. 6. If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. This is known as camelCase.
+1. The name must begin with a letter, a dollar sign ($), or an underscore. It must not start with a number.
+2. The name can contain letters, dollar sign, or an underscore. Note that you must not use a dash or period.
+3. You cannot use keywords or reserved words. Some examples of reserved words  to avoid are boolean, true, false, typeof, null, and var.
+4. All variables are case sensitive.
+5. Use a name that describes the kind of information that the variable stores.
+6. If your variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. This is known as camelCase.
 
 <h3>How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?</h3>
 
