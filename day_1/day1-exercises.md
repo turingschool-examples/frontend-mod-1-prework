@@ -39,9 +39,4 @@ What are three new semantic elements introduced in HTML 5? Use page 431 in the b
 
 Code Pen assignment:
 
-<p class="codepen" data-height="265" data-theme-id="default" data-default-tab="html,result" data-user="dladue" data-slug-hash="NWqNydw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Day 1">
-  <span>See the Pen <a href="https://codepen.io/dladue/pen/NWqNydw">
-  Day 1</a> by Dustin LaDue (<a href="https://codepen.io/dladue">@dladue</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+https://codepen.io/dladue/pen/NWqNydw?editors=1100
