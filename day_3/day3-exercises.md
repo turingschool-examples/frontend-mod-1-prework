@@ -4,7 +4,7 @@ The value of the type attribute will determine what kind of input they will be c
 
 <h3>What element is used to create a dropdown list?</h3>
 
-The select element is used to create a drop down list box. It contains two or more drop down list boxes.
+The select element is used to create a drop down list box. It contains two or more option elements.
 
 <h3>If you're using an input element to send form data to a server, what should the type attribute be set to?</h3>
 
@@ -25,8 +25,8 @@ Block-level elements always on appear on a new line. Inline elements sit within 
 
 <h3>What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</h3>
 
-This is a form of absolute positioning that positions the element in relation to the browser window, as opposed to its containg element. Fixed elements do not move when the user scrolls up or down the page and  and do not effect the position of surrounding elements. The z-index  property is important in relation to fixed position because it determines which box appears on top.
+This is a form of absolute positioning that positions the element in relation to the browser window, as opposed to its containing element. Fixed elements do not move when the user scrolls up or down the page and  and do not effect the position of surrounding elements. The z-index  property is important in relation to fixed position because it determines which box appears on top.
 
 <h3>What is the difference between a fixed and liquid layout?</h3>
 
-Fixed layouts dont not change size as the user increases or decreases the size of their browser window. Liquid layouts stretch and contract as the user increases and decreases the size of their browser window.
+Fixed layouts do not change size as the user increases or decreases the size of their browser window. Liquid layouts stretch and contract as the user increases and decreases the size of their browser window.
