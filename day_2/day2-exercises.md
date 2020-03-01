@@ -8,7 +8,7 @@
 
   2.  What is the basic structure of an element used to link to another website?
   * a href="URL">name of website</a
-  (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
+  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
 
   3.  What attribute should you include in a link to open a new tab when the link is clicked?
   * A "target" attribute on the opening tag.  The value of the attribute should be underscore blank.
@@ -19,7 +19,7 @@
   * Second to link to the element that uses an is attribute, you use a "a" element again with the addition of an href element, # symbol followed by the value of the id attribute.
     ie:  h1 id="top"
          a href="#top">Top</a
-(Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
+  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
 
 
   Answer these questions about the reading in your `day2-exercises.md`:
@@ -41,7 +41,7 @@
     2. type = specifies the type of document being linked to  
     3. rel = specifies the relationship b/t the html page and the file it is linked to
   * The structure would look like this:  link href="css/styles.css" type="text/css" rel="stylesheet"
-  (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
+  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
 
   5.  When is it useful to use external stylesheets as opposed to using internal CSS?
   * When building a site with more than one page.  
