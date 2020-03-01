@@ -7,20 +7,23 @@
   * "dl" Definition lists are made up of a set of terms followed by their definition.
 
   2.  What is the basic structure of an element used to link to another website?
-  * a href="URL">name of website</a
-  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
+  ```
+  * <a href="https://www.google.com/">Google</a>
+  ```
 
   3.  What attribute should you include in a link to open a new tab when the link is clicked?
   * A "target" attribute on the opening tag.  The value of the attribute should be underscore blank.
-  * ie: "<a href="URL" target="underscoreblank"</a.>" (Note: I intentionally typed out underscore to not run the code in md)
+  ```
+  * ie: <a href="URL" target="_blank"</a>
+  ```
 
   4.  How do you link to a specific part of the same page?
   * First you need to and id attribute to identify the points in the page that the link will go to.
   * Second to link to the element that uses an is attribute, you use a "a" element again with the addition of an href element, # symbol followed by the value of the id attribute.
-    ie:  h1 id="top"
-         a href="#top">Top</a
-  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
-
+  ```
+    ie:  <h1 id="top">
+         <a href="#top">Top</a>
+         ```
 
   Answer these questions about the reading in your `day2-exercises.md`:
 
@@ -40,8 +43,11 @@
     1. href = specifies the CSS path
     2. type = specifies the type of document being linked to  
     3. rel = specifies the relationship b/t the html page and the file it is linked to
-  * The structure would look like this:  link href="css/styles.css" type="text/css" rel="stylesheet"
-  * (Note: In the example above, I intentionally removed open and closing brackets to not run the code in md)
+  * The structure would look like this:  
+```
+  <link href="css/styles.css" type="text/css" rel="stylesheet" />
+  ```
+
 
   5.  When is it useful to use external stylesheets as opposed to using internal CSS?
   * When building a site with more than one page.  
