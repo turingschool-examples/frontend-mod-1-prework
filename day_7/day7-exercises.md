@@ -15,7 +15,7 @@
 ### After you're done reading the third post, read through the each section of questions again: Psychology, Usability, Design, Copywriting, and Analysis. Choose one question from each of these sections (so 5 total questions), and find one site that is good at supporting that question, and find another site that violates that question.
 <b>Psychology: How much work does the user have to do to get what they want?</b>
 <br />
-Dating sites: <a href="http://www.eharmony.com>EHarmony</a> - This site might be good for some people but setting up a profile is a lot more difficult than using a site like <a href="http://www.hinge.com">Hinge</a>.
+Dating sites: <a href="http://www.eharmony.com">EHarmony</a> - This site might be good for some people but setting up a profile is a lot more difficult than using a site like <a href="http://www.hinge.com">Hinge</a>.
 <br />
 <b>Usability: Have you provided everything the user needs to know?</b>
 <br />
@@ -31,4 +31,4 @@ A site that does a great job making a complicated and stressful thing like taxes
 <br />
 <b>Analysis: Do you know why users do that, or are you interpreting their behavior?</b>
 <br />
-<a href="http://www.instagram.com">Instagram</a> is a site that knows what it's doing when it comes to understanding the user. Every part of the experience is customized by the persons behavior. Another example of this would be Youtube. A site that doesn't do the best at this would be <a href="http://www.zillow.com">Zillow</a>. Zillow is a great site that has made finding real estate much simpler for users. However, it gives users results based on what they are already looking for, rather than making suggestions based on analyzing past behavior. 
+<a href="http://www.instagram.com">Instagram</a> is a site that knows what it's doing when it comes to understanding the user. Every part of the experience is customized by the persons behavior. Another example of this would be Youtube. A site that doesn't do the best at this would be <a href="http://www.zillow.com">Zillow</a>. Zillow is a great site that has made finding real estate much simpler for users. However, it gives users results based on what they are already looking for, rather than making suggestions based on analyzing past behavior.
