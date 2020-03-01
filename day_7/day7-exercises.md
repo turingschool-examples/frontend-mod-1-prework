@@ -11,7 +11,7 @@
 3. What are the 5 Main Ingredients of UX?
 * The 5 Main Ingredients of UX are Psychology, Usability, Design, Copywriting & Analysis.
 
-*   After you're done reading the third post, read through the each section of questions again: Psychology, Usability, Design, Copywriting, and Analysis. Choose one question from each of these sections (so 5 total questions), and find one site that is good at supporting that question, and find another site that violates that question.
+###   After you're done reading the third post, read through the each section of questions again: Psychology, Usability, Design, Copywriting, and Analysis. Choose one question from each of these sections (so 5 total questions), and find one site that is good at supporting that question, and find another site that violates that question.
 * Post links to the sites and brief descriptions in your `day7-exercises.md` file.
 
 1.  Psychology: Are you thinking of the user’s wants and needs, or your own?
