@@ -23,7 +23,7 @@
   ```
     ie:  <h1 id="top">
          <a href="#top">Top</a>
-         ```
+  ```
 
   Answer these questions about the reading in your `day2-exercises.md`:
 
@@ -44,7 +44,7 @@
     2. type = specifies the type of document being linked to  
     3. rel = specifies the relationship b/t the html page and the file it is linked to
   * The structure would look like this:  
-```
+  ```
   <link href="css/styles.css" type="text/css" rel="stylesheet" />
   ```
 
