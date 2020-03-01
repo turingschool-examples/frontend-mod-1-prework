@@ -1,5 +1,5 @@
 1.  On a website, what is the purpose of HTML code?
-.. 1.  To build structure or to describe the structure of pages.
+* 1.  To build structure or to describe the structure of pages.
 
 2. What is the difference between an element and a tag?
   2.1  Elements tell the browser something about the information that sits between its opening and closing tags.
