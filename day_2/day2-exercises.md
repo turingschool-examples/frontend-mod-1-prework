@@ -8,21 +8,21 @@
 
   2.  What is the basic structure of an element used to link to another website?
   ```
-  * <a href="https://www.google.com/">Google</a>
+  <a href="https://www.google.com/">Google</a>
   ```
 
   3.  What attribute should you include in a link to open a new tab when the link is clicked?
   * A "target" attribute on the opening tag.  The value of the attribute should be underscore blank.
   ```
-  * ie: <a href="URL" target="_blank"</a>
+  ie: <a href="URL" target="_blank"</a>
   ```
 
   4.  How do you link to a specific part of the same page?
   * First you need to and id attribute to identify the points in the page that the link will go to.
   * Second to link to the element that uses an is attribute, you use a "a" element again with the addition of an href element, # symbol followed by the value of the id attribute.
   ```
-    ie:  <h1 id="top">
-         <a href="#top">Top</a>
+  ie:  <h1 id="top">
+       <a href="#top">Top</a>
   ```
 
   Answer these questions about the reading in your `day2-exercises.md`:
