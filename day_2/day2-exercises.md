@@ -37,7 +37,7 @@ It is useful to use external stylesheets when building a website with more than 
 
 <h3>Describe what a color hex code is.</h3>
 
-A color hex code is a six digit code that represent the amount of green, red, and blue in a color proceeded by a hash symbol.
+A color hex code is a six digit code that represent the amount of green, red, and blue in a color preceded by a pound or hash symbol.
 
 <h3>What are the three parts of an HSL color property?</h3>
 
