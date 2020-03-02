@@ -1,0 +1,97 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px ;
+  font-family: Impact, fantasy;
+  color: darkred;
+  text-shadow: 3px 3px white;
+}
+
+p {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+form {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+.intro {
+  border-style: outset;
+  border-color: gold;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+li {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+.subtitle {
+  font-family: Courier New, monospace;
+  font-style: italic;
+  font-size: 14px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  align: top;
+}
+
+.titleCard {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  border: solid 2px black;
+  padding: 10px;
+  width: 400px;
+  background-color: white;
+}
+
+.intro {
+
+}
+
+.form {
+  border-style: outset;
+  border-color: gold;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.timeline {
+  border-style: outset;
+  border-color: gold;
+  padding: 10px;
+  text-align: left;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+footer {
+  margin-top: 20px;
+  border-style: outset;
+  border-color: gold;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
