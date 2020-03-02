@@ -1,0 +1,20 @@
+h1, h2 {color: #FFFFFF;}
+h1, h2 {background-color: #1E90FF;}
+h1, h2 {border: 3px solid #FF0000;}
+h1, h2 {font-family: serif; text-align: center;}
+.arial {font-family: Arial; text-align: center;}
+.other {font-family: Fantasy; text-align: center;}
+body {background-color: #FFFFFF}
+img.align-center{display: block; margin: 0px auto;}
+img.medium {width: 350px; height: 200px;}
+#baseball {
+  background-image: url("images/baseball.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
