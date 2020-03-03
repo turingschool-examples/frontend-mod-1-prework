@@ -16,7 +16,6 @@
         <option value="ipod">iPod</option>
             
         <option value="radio">Radio</option>
-        ```
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
