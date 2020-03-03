@@ -10,11 +10,13 @@
     A dropdown list (or select box) uses the element `<select>` with 2(+) `<option>` elements.
     
     i.e.
-    ```<select name="devices">
+    ```html
+        <select name="devices">
     
-         <option value="ipod">iPod</option>
+        <option value="ipod">iPod</option>
             
-         <option value="radio">Radio</option>
+        <option value="radio">Radio</option>
+        ```
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
