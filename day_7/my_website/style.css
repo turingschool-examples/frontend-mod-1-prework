@@ -1,0 +1,93 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: darkred;
+  font-family: Impact, fantasy;
+  font-size: 70px ;
+  text-align: center;
+  text-shadow: 3px 3px white;
+}
+
+.intro {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  font-family: Times, serif;
+  font-size: 20px
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+.titleCard {
+  background-color: white;
+  border: solid 2px black;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+img {
+  align: top;
+  height: 400px;
+  width: 400px;
+}
+
+.subtitle {
+  font-family: Courier New, monospace;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+form {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+.timeline {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: left;
+  width: 50%;
+}
+
+li {
+  font-family: Times, serif;
+  font-size: 20px
+}
+
+footer {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
