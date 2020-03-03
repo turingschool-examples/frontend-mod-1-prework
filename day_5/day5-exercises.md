@@ -16,17 +16,17 @@
 
 3. What are the six rules for naming variables? What are a few JavaScript reserved words that you should avoid using for variable names?
 
-  1. The name must begin w/ a letter, dollar sign (``$``), or underscore (`_`). Can NOT start w/ a #;
+  - The name must begin w/ a letter, dollar sign (``$``), or underscore (`_`). Can NOT start w/ a #;
   
-  2. Name can contain letters, `$`, or `_`, but no `-` or `.` in the name;
+  - Name can contain letters, `$`, or `_`, but no `-` or `.` in the name;
   
-  3. Can NOT use keywords/reserved words. Ex: `var`;
+  - Can NOT use keywords/reserved words. Ex: `var`;
   
-  4. Variables are case sensitive, score and Score would be different variables. But it is bad practice to use both of these kind of variables together;
+  - Variables are case sensitive, score and Score would be different variables. But it is bad practice to use both of these kind of variables together;
   
-  5. Use names that describe the kind of info the variables stores;
+  - Use names that describe the kind of info the variables stores;
   
-  6. camelCase names with multiple words within it. Ex: thisIsCamelCase;
+  - camelCase names with multiple words within it. Ex: thisIsCamelCase;
 
 4. How can an array be useful when dealing with multiple related values? How do you access/change a value in an array?
 
