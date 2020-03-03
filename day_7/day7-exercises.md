@@ -13,7 +13,7 @@
 
     Post links to the sites and brief descriptions.
 
-    a. PSYCHOLOGY: What is the user's motivation to be here in the first place?
+    **a. PSYCHOLOGY**: What is the user's motivation to be here in the first place?
 
       Good ex: https://www.google.com/
 
@@ -23,7 +23,7 @@
 
         Yahoo's website has so many functionality's piled up together, making it look like an early 2000's scrapbook. Their news, weather, horoscope, search engine, and mailbox are all jumbled on top of each other on the front page. What is the main purpose and intention of this webpage?
 
-    b. USABILITY: Could you get the job done with less input from the user?
+    **b. USABILITY**: Could you get the job done with less input from the user?
 
       Good ex: https://google.com/
 
@@ -33,7 +33,7 @@
 
         As previously stated, this website overwhelms the user. Detracting information and adding in more white space could help the user digest the information better.
 
-    c. DESIGN: Does it represent the bran? Does it all feel like the same site?
+    **c. DESIGN**: Does it represent the bran? Does it all feel like the same site?
 
       Good ex: https://twitter.com/
 
@@ -43,7 +43,7 @@
 
         Facebook recently updated the look of their website. This is a subjective opinion, but I think it looks more confusing now. It seems like they're copying Twitter, but it's confusing as Facebook has more social media functioning than Twitter. So some of their functions are now hidden and less intuitive.
 
-    d. COPYWRITING: Does it motivate the user to complete their goal? Is that what we want?
+    **d. COPYWRITING**: Does it motivate the user to complete their goal? Is that what we want?
 
       Good ex: https://amazon.com/
 
@@ -53,7 +53,7 @@
 
         EBay's website is dated to me. I think it's the sharp boxes, text font, search bar, and bidding setup on individual items. It doesn't feel updated even though I think it is slightly. Perhaps this is why the younger generation is moving to re-sale sites such as Depop and Poshmark.
 
-    e. ANALYSIS: Are you using data to prove that you are right, or to learn the truth?
+    **e. ANALYSIS**: Are you using data to prove that you are right, or to learn the truth?
 
       Good ex: https://amazon.com/
 
