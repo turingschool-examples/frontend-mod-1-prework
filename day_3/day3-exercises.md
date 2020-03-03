@@ -1,13 +1,19 @@
 CH7
 1. If you're using an input element in a form, what attribute controls the behavior of that input?
+
     The "type" attribute controls the behavior of an input.
+    
     ex: `<input type="text" name="username" maxlength="30" />`
 
 2. What element is used to create a dropdown list?
+
     A dropdown list (or select box) uses the element `<select>` with 2(+) `<option>` elements.
-    i.e. `<select name="devices">
+    
+    i.e. ```<select name="devices">
+    
             <option value="ipod">iPod</option>
-            <option value="radio">Radio</option>`
+            
+            <option value="radio">Radio</option>
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
     `<input type="submit" name="subscribe"
