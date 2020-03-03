@@ -1,0 +1,67 @@
+h2 {
+  color: #66cdaa;
+  font-family: Helvetica;
+  border-width: 3px;
+  border-style: outset;
+  padding: 2px;
+  text-align: center;
+}
+
+h1 {
+	position: relative;
+	font: 100px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px color red !important;
+	color: #66cdaa;
+}
+
+h1:after {
+  content: "Rock Climbing";
+  position: absolute;
+  width: 900px;
+  left: 4px;
+  top: 2px;
+  color: rgba(155,0,0,0.5);
+}
+
+h2 {
+  background-color: darkgoldenrod;
+}
+
+p, ul {
+  font-family: Helvetica;
+}
+
+.cursive {
+  font-family: monospace;
+  font-style: italic;
+}
+
+img.standard {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0px auto;
+}
+
+img.trad_climbing {
+  width: 350px;
+  height: 400px;
+  display: block;
+  margin: 0px auto;
+}
+
+.column1of2 {
+  float: left;
+  width: 600px;
+  margin: 5px;
+}
+
+.column2of2 {
+  float: right;
+  width: 550px;
+  margin: 5px;
+}
