@@ -36,10 +36,12 @@
 
 3. What is the basic structure of a CSS rule?
 
-    ```h1, h2, h3 {
+    `h1, h2, h3 {
                 font-family: Arial;
-                color: yellow;}``
-    selector (HTML element) {property: value}
+                color: yellow;}`
+                
+                
+    `selector (HTML element) {property: value}`
 
 4. How do you link a CSS stylesheet to your HTML document?
 
@@ -59,8 +61,8 @@
 
     Hue, Saturation, Lightness
     
-    ```p {
-      background-color: hsl(0,0%,78%);}
+    `p {
+      background-color: hsl(0,0%,78%);}`
 
 8. In the world of typeface, what are the three main categories of fonts? What are the differences between them?
 
