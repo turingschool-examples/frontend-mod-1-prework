@@ -19,10 +19,20 @@ console.log(states);
 console.log(animals.length);
 
 # Write code below that will log the number of elements in the array of
-#foods from above.
+# foods from above.
 # YOUR CODE HERE
 
 # Write code below that will log "Zebra" from the animals array
+# YOUR CODE HERE
+
+# Write code using bracket notation that will log the first item in the animals array
+# YOUR CODE HERE
+
+# Write code using bracket notation that will log the last item in the animals array
+# YOUR CODE HERE
+
+# Write code using bracket notation that will reassign the last item in the animals 
+# array to "Gorilla"
 # YOUR CODE HERE
 
 # Write code below that will log the last item from the foods array.

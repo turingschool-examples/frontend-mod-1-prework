@@ -1,11 +1,13 @@
-// In the exercises below, write your own code where indicated
-// to achieve the desired result. Run this code using node in terminal.
+/*
+In the exercises below, write your own code where indicated
+to achieve the desired result. Run this code using node in terminal.
 
 //TODO: change node description
 
-// If/Else Statements are expressions your program uses evaluate to different outcomes.
-// Below is a dynamic story that is created based on the value of three variables: doorChoice, bearClothing, bearChoice.
-// Spend some time changing the variables and running the file to see how the story changes.
+If/Else Statements are expressions your program uses evaluate to different outcomes.
+Below is a dynamic story that is created based on the value of three variables: doorChoice, bearClothing, bearChoice.
+Spend some time changing the variables and running the file to see how the story changes.
+*/
 
 var doorChoice = 1;
 var bearClothing = "";
@@ -40,17 +42,19 @@ else {
     console.log("You stay with the bear and become it's best friend!");
 }
 
-// Reflection Questions
-// 1. In English, using technical vocabulary, describe what is happening between lines 17 and 22.
+/*
+Reflection Questions
+1. In English, using technical vocabulary, describe what is happening between lines 17 and 22.
 
-// 2. What variable has a new value assigned to it after the first if statement executes?
+2. What variable has a new value assigned to it after the first if statement executes?
 
-// 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
-// 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 42.
+4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 42.
 
-// 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
-// 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
-// 7. What is your favorite ending?
+7. What is your favorite ending?
+*/
