@@ -29,7 +29,8 @@
 
     `<fieldset>` is used for this. Useful for longer forms. `<legend>` labels the set for organization and readability purposes.
     
-    ex: ```<fieldset>
+    ex:
+    ```<fieldset>
             <legend>Contact details</legend>
             <label>Email:<br />
             <input type="text" name="email" /></label><br />
