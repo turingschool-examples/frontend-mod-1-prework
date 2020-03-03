@@ -25,6 +25,7 @@
 
     ```html
         <input type="submit" name="subscribe"
+               
         value="Subscribe" />
         
 4. What element is used to group similar form items together?
@@ -32,12 +33,14 @@
     `<fieldset>` is used for this. Useful for longer forms. `<legend>` labels the set for organization and readability purposes.
     
     ex:
-    ```<fieldset>
+    ```html
+    <fieldset>
             <legend>Contact details</legend>
             <label>Email:<br />
             <input type="text" name="email" /></label><br />
             <label>Mobile:<br />
             <input type="text" name="mobile" /></label><br />
+    </fieldset>
 
 **CH 13 & 15**
 
@@ -62,14 +65,16 @@
 
     Positions elements in relation to the browser window, not to the containing elements.
     
-    ```h1{
+    ```css
+    h1{
       position: fixed;
       padding: 10px;}
       ```
       
     Z-index (or stacking context) ensures the intended element to be on top when elements overlap is the one that shows to the user. The higher # z-index sits on top of the lower ones.
     
-    ```p{
+    ```css
+    p{
       background-color: #efefef;
       z-index: 10;}
       ```
