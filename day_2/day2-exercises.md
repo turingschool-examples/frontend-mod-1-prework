@@ -1,4 +1,4 @@
-CH 3 & 4
+*CH 3 & 4*
 
 
 1. There are three main types of lists in HTML: ordered, unordered, and definition. What are their differences?
@@ -23,7 +23,7 @@ CH 3 & 4
     
     Then, instead of using a URL, link to the section of the page with # (ex: ``<a href="#top">top</a>``)
 
-CH 10, 11 & 12
+*CH 10, 11 & 12*
 
 
 1. What is the purpose of CSS?
@@ -39,7 +39,7 @@ CH 10, 11 & 12
     ```h1, h2, h3 {
                 font-family: Arial;
                 color: yellow;}``
-    selector (HTML element) {property: value}```
+    selector (HTML element) {property: value}
 
 4. How do you link a CSS stylesheet to your HTML document?
 
@@ -60,7 +60,7 @@ CH 10, 11 & 12
     Hue, Saturation, Lightness
     
     ```p {
-      background-color: hsl(0,0%,78%);}```
+      background-color: hsl(0,0%,78%);}
 
 8. In the world of typeface, what are the three main categories of fonts? What are the differences between them?
 
