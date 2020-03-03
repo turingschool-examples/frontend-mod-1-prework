@@ -20,7 +20,6 @@
 
     ```<input type="submit" name="subscribe"
         value="Subscribe" />
-        ```
         
     The input type is "submit", "value" is what shows on the webpage button
 
@@ -35,18 +34,17 @@
             <input type="text" name="email" /></label><br />
             <label>Mobile:<br />
             <input type="text" name="mobile" /></label><br />
-            ```
 
 **CH 13 & 15**
 
 
 1. Describe the differences between border, margin, and padding.
 
-    Border: Separates the edge of one box from another.
+    *Border*: Separates the edge of one box from another.
     
-    Margin: Outside the border, can give a gap between the borders of 2 adjacent boxes.
+    *Margin*: Outside the border, can give a gap between the borders of 2 adjacent boxes.
     
-    Padding: Space between the border + the content or text within it. Helps with readability.
+    *Padding*: Space between the border + the content or text within it. Helps with readability.
 
 2. For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to?
 
@@ -74,4 +72,4 @@
 
 5. What is the difference between a fixed and liquid layout?
 
-    Fixed layout designs do not change sizes based on a users screen or browser window. Whereas, liquid layouts stretch and contract to accommodate the users browser window size.
+    *Fixed layout* designs do not change sizes based on a users screen or browser window. Whereas, *liquid layouts* stretch and contract to accommodate the users browser window size.
