@@ -1,4 +1,4 @@
-CH7
+**CH7**
 1. If you're using an input element in a form, what attribute controls the behavior of that input?
 
     The "type" attribute controls the behavior of an input.
@@ -9,11 +9,12 @@ CH7
 
     A dropdown list (or select box) uses the element `<select>` with 2(+) `<option>` elements.
     
-    i.e. `<select name="devices">`
+    i.e. ```<select name="devices">
     
-         `<option value="ipod">iPod</option>`
+         <option value="ipod">iPod</option>
             
-         `<option value="radio">Radio</option>`
+         <option value="radio">Radio</option>
+         ```
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
@@ -35,7 +36,7 @@ CH7
             <input type="text" name="mobile" /></label><br />
             ```
 
-CH 13 & 15
+**CH 13 & 15**
 
 
 1. Describe the differences between border, margin, and padding.
