@@ -10,7 +10,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Arrays
 
-1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. After you read this section, research the following methods on the MDN documentations found here [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of the array section.
+1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. After you read this section, research the following methods on the MDN documentations found here [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
     1. Methods to study: "pop", "push", "shift", "unshift".
     1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead. 
 1. Sometimes when we have collection of data (like an array) and we want to do something to each of item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection. A tool commonly used for iterating is the FOR loop. Read pages 170 through 175 in the JAVASCRIPT & JQUERY book to learn more about this tool.
@@ -21,15 +21,6 @@ Using your terminal, open the local copy of the repository that you created duri
 1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
     1. arrays
     1. iteration
-
-## Vocabulary you'll encounter in the reading
-
-The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and methods to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! Here are some quick definitions to help you become familiar with them.
-
-* document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
-* document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
-* el.innerHTML(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-* el.textContent(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 
 ## Save your work in Git
 
@@ -50,3 +41,12 @@ git push origin master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+## Vocabulary you'll encounter in the reading
+
+The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and methods to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! Here are some quick definitions to help you become familiar with them.
+
+* document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+* document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
+* el.innerHTML(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+* el.textContent(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
