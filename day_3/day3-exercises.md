@@ -9,7 +9,8 @@
 
     A dropdown list (or select box) uses the element `<select>` with 2(+) `<option>` elements.
     
-    i.e. ```<select name="devices">
+    i.e.
+    ```<select name="devices">
     
          <option value="ipod">iPod</option>
             
