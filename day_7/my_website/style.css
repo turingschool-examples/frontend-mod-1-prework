@@ -3,11 +3,22 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-size: 70px ;
-  font-family: Impact, fantasy;
   color: darkred;
+  font-family: Impact, fantasy;
+  font-size: 70px ;
+  text-align: center;
   text-shadow: 3px 3px white;
+}
+
+.intro {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  font-family: Times, serif;
+  font-size: 20px
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 p {
@@ -15,20 +26,56 @@ p {
   font-size: 20px
 }
 
+.titleCard {
+  background-color: white;
+  border: solid 2px black;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+}
+
+img {
+  align: top;
+  height: 400px;
+  width: 400px;
+}
+
+.subtitle {
+  font-family: Courier New, monospace;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form {
+  background-color: white;
+  border-color: gold;
+  border-style: outset;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
 form {
   font-family: Times, serif;
   font-size: 20px
 }
 
-.intro {
-  border-style: outset;
-  border-color: gold;
-  padding: 10px;
-  text-align: center;
+.timeline {
   background-color: white;
-  margin-bottom: 20px;
-  font-family: Times, serif;
-  font-size: 20px
+  border-color: gold;
+  border-style: outset;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: left;
+  width: 50%;
 }
 
 li {
@@ -36,62 +83,11 @@ li {
   font-size: 20px
 }
 
-.subtitle {
-  font-family: Courier New, monospace;
-  font-style: italic;
-  font-size: 14px;
-}
-
-img {
-  height: 400px;
-  width: 400px;
-  align: top;
-}
-
-.titleCard {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  text-align: center;
-  border: solid 2px black;
-  padding: 10px;
-  width: 400px;
-  background-color: white;
-}
-
-.intro {
-
-}
-
-.form {
-  border-style: outset;
-  border-color: gold;
-  padding: 10px;
-  text-align: center;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: 50%;
-}
-
-.timeline {
-  border-style: outset;
-  border-color: gold;
-  padding: 10px;
-  text-align: left;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  width: 50%;
-}
-
 footer {
-  margin-top: 20px;
-  border-style: outset;
+  background-color: white;
   border-color: gold;
+  border-style: outset;
+  margin-top: 20px;
   padding: 10px;
   text-align: center;
-  background-color: white;
 }
