@@ -16,14 +16,16 @@
         <option value="ipod">iPod</option>
             
         <option value="radio">Radio</option>
+        
+        </select>
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
     The input type is "submit", "value" is what shows on the webpage button
 
-    ```<input type="submit" name="subscribe"
+    ```html
+        <input type="submit" name="subscribe"
         value="Subscribe" />
-        ```
         
 4. What element is used to group similar form items together?
 
