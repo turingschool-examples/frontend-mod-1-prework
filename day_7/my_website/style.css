@@ -1,0 +1,55 @@
+
+p1 {font-family: Helvetica, sans-serif;}
+p2 {font-family: Times, serif;}
+p3 {font-family: Courier,  monospace;}
+
+p1 {color: white;}
+p2 {color: white;}
+p3 {color: white;}
+
+h1 {color: purple;}
+h3 {color: white;}
+h4 {color: white;}
+h5 {color: maroon;}
+
+h1 {text-align: center;}
+h3 {text-align: center;}
+
+b {color: green;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* image background */
+#trees {
+  background: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80);
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper{
+width: 80%;
+margin: 60px auto;}
+
+#wrapper > div{
+  margin: 0 0 50px 0;
+  min-width: 500px;
+  width: 100%;}
+
+#columns{display: table;}
+
+#columns .col{display: table-cell;
+              width: 25%;
+              padding: 10px;}
+
+#columns .col:nth-child(even){
+  background-color: #ccc;}
+
+#columns .col:nth-child(odd){
+  background-color: #eee;}
