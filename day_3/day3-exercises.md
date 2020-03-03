@@ -18,11 +18,11 @@
 
 3. If you're using an input element to send form data to a server, what should the type attribute be set to?
 
+    The input type is "submit", "value" is what shows on the webpage button
+
     ```<input type="submit" name="subscribe"
         value="Subscribe" />
         
-    The input type is "submit", "value" is what shows on the webpage button
-
 4. What element is used to group similar form items together?
 
     `<fieldset>` is used for this. Useful for longer forms. `<legend>` labels the set for organization and readability purposes.
@@ -52,7 +52,7 @@
 
 3. Describe the difference between block-level and inline elements.
 
-    Block-Level elements start on new lines. Whereas, inline elements stay on the same line until there is not more room.
+    *Block-Level elements* start on new lines. Whereas, *inline elements* stay on the same line until there is not more room.
 
 4. What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?
 
