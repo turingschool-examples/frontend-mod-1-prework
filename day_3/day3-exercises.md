@@ -26,5 +26,8 @@ Liquid layout designs stretch and contract as the user changes the size or their
 
 https://codepen.io/akarnaze/pen/zYGZoNZ
 
+edited
+https://codepen.io/akarnaze/pen/zYGZoNZ?editors=1100
+
 
 edited codepen: https://codepen.io/akarnaze/pen/zYGZoNZ?editors=1100
