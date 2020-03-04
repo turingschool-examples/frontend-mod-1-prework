@@ -1,0 +1,57 @@
+html {
+    background-color: #99a6b2;
+    font-size: 15pt;
+  }
+
+
+  body {
+      width: 960px;
+      margin: 10px;
+      padding: 10px;
+      font-size: 12pt;
+  }
+
+
+  h1 {
+      font-size: 40pt;
+      border-color: #191970;
+      background-color: ;
+      padding: 10px;
+      margin: 10px;
+      color: #191970;
+      text-align: center;
+  }
+
+
+  .caught {
+      width: 996;
+      float: right;
+      padding:10px;
+      margin: 10px;
+
+
+  h2 {
+    color: #191970;
+    font-size: 35pt;
+  }
+
+
+
+
+  h3 {
+    font-size: 25pt;
+    color:  #9d4e15;
+    font-family: sans serif;
+  }
+
+
+  ul {
+    font-size: 20pt;
+  }
+
+
+  p {
+    font-size: 15pt;
+    color:  #9d4e15;
+    font-family: sans serif;
+  }
