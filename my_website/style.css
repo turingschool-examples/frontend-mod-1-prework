@@ -1,0 +1,111 @@
+html {
+    background-color: #99a6b2;
+    font-size: 15pt;
+  }
+
+
+  body {
+      width: auto;
+      margin: 10px;
+      padding: 10px;
+      font-size: 12pt;
+  }
+
+
+  h1 {
+      font-size: 80pt;
+      border-color: #191970;
+      background-color: ;
+      padding: 10px;
+      margin: 10px;
+      color: #191970;
+      text-align: center;
+  }
+
+  .caught {
+    width: auto;
+    margin: 30px;
+  }
+
+  figcaption {
+    align-self: center;
+  }
+/*
+  .caught {
+      width: auto;
+      float: center;
+      padding:10px;
+      margin: 10px;
+   }
+*/
+
+  .list {
+      width: 1100;
+      float: left;
+      color:
+
+  }
+
+  .form {
+      float: left;
+      border: 5px dashed #191970;
+
+  }
+
+  .links {
+      width: 1300;
+      float: left;
+      color: #9d4e15;
+
+  }
+
+  p {
+    font-size: 20pt;
+    color: #9d4e15;
+    font-family: sans serif;
+
+  }
+
+  p1 {
+    font-size: 15pt;
+    color: #191970;
+  }
+
+  h2 {
+    color: #191970;
+    font-size: 35pt;
+
+  }
+
+  h3 {
+    font-size: 35pt;
+    color:  #191970;
+    font-family: sans serif;
+
+  }
+
+  h4 {
+    font-size: 30pt;
+    color: #9d4e15;
+
+  }
+
+  h5 {
+    font-size: 25pt;
+    color: #191970;
+
+  }
+
+  ul {
+    font-size: 20pt;
+    color: #9d4e15;
+  }
+
+  fieldset {
+    color: #191970;
+  }
+
+  h6 {
+    font-size: 25pt;
+    color: #9d4e15;
+  }
