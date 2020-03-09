@@ -1,8 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. Run this code using node in terminal.
-
-//TODO: change node description
+to achieve the desired result. You should be able to run this
+file from your terminal with the command `node day_3/exercises/decision-making.js`
 
 If/Else Statements are expressions your program uses evaluate to different outcomes.
 Below is a dynamic story that is created based on the value of three variables: doorChoice, bearClothing, bearChoice.

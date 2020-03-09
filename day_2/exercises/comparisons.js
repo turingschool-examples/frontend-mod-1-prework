@@ -1,9 +1,8 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. Run this code using node in terminal.
+to achieve the desired result. You should be able to run this
+file from your terminal with the command `node day_2/exercises/comparisons.js`
 */
-
-//TODO: change node description
 
 var firstVar = 10;
 var secondVar = 20;

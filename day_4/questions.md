@@ -2,9 +2,6 @@
 
 1. In your own words, what is the purpose of a function?
 
-<!-- 1. What are the key pieces of information a function declaration needs? -->
-<!-- function, name -->
-
 1. What is a parameter? 
 
 1. What is a return value?
