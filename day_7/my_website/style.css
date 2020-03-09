@@ -1,0 +1,58 @@
+.heading {
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Times';
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Arial';
+}
+
+p, ul {
+  font-size: 18px;
+}
+input {
+  font-size: 12px;
+}
+
+.picture {
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px 2px #e9ecef;
+  width: 300px;
+  vertical-align: top;
+}
+.about-section {
+  display: inline-block;
+
+  float: left;
+  width: 300px;
+  margin: 0 25px;
+  background: #FF0741;
+  padding: 15px;
+  text-align: left;
+  max-height: 830px;
+}
+.about-section-right {
+  display: inline-block;
+
+  float: left;
+  width: 300px;
+  margin: 0 25px;
+  background: #2492FF;
+  padding: 15px;
+  text-align: left;
+  max-height: 830px;
+}
+.Reference {
+  text-align: left;
+}
+.favorite {
+  text-align: left;
+}
+.info-wrapper {
+  text-align: left;
+}
+
+.about-heading {
+  margin-top: 0;
+}
