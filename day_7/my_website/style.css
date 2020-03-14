@@ -1,11 +1,21 @@
 
 
   body {
-    background-color : seashell;
+    background-color : papayawhip;
     padding: 30px;
   }
+
+a:visited {
+  color:green;
+}
+
 h1 {
-  color : DarkBlue;
+  color : darkGreen;
+  font : georgia;
+}
+
+h4 {
+  color : darkGreen;
   font : georgia;
 }
 
@@ -19,8 +29,8 @@ p {
   float : right;
   height : 125px;
   width : 150px;
-  margin : 10px;
-  padding : 10px;
+  margin : 15px;
+  padding : 5px;
   border-style : double;
 
 }
@@ -29,7 +39,7 @@ p {
   float : left;
   height : 100px;
   width : 150px;
-  margin : 10px;
-  padding : 10px;
+  margin : 15px;
+  padding : 5px;
   border-style : double;
 }
