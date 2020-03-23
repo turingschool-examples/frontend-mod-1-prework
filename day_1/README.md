@@ -1,4 +1,4 @@
-# Day 1 - Strings and Numbers
+# Day 1 - Strings, Numbers, and Booleans
 
 Today, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
@@ -46,35 +46,28 @@ Code comments can be a very useful part of your programs. While we work to write
 // Text after two backslashes is a single line comment.
 // Anything that follows two backslashes
 // will be ignored by the JavaScript interpreter.
-
-/* If you have comments that extend across multiple lines or within a line of otherwise executable code, your comments will look a little bit different than a single line comment. Note the different character set used to mark the beginning and end of this longer comment */
 ```
 
-You can manually add the characters around the text you want to be a comment, or you can use a key command. `command + /` will make any highlighted text into a comment.
-
-<!-- Make a new file called `ex1.js` in the `day_1/exercises` directory. Take a crack at adding comments by typing out the following in this new file (remember, don't copy and paste!): -->
+* For additional context about code comments, read page 57 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
 ```JavaScript
-// A comment, this is so you can read your program later.
 // Anything after the // is ignored by the JavaScript interpreter.
+/* This is another fancy way to write a code comment */
 
 console.log("I could have code like this."); // and the comment after is ignored
 
 // You can also use a comment to "disable" or comment out a piece of code:
 // console.log("This won't run.");
+console.log(/*"This won't run either"*/)
 
 console.log("This will run.");
 ```
-What is logged when you run this code?
 
-### You Turn
-
-* What do the `//` characters do?
-
+What is logged to the console when you run this code?
 
 ## Data Types
 
-* Read pages 62 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+* Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
 JavaScript distinguishes between different kinds of data that programmers may need to use. We'll talk about three of the primitive, or most fundamental, data types today: numbers, strings, and booleans.
 
@@ -127,7 +120,7 @@ You can declare a variable and assign a value at the same time:
 var foo = 6;
 ```
 
-You can also assign a value to an existing variable:
+You can also re-assign a value to an existing variable:
 
 ```javascript
 foo = 4;  // change variable `foo`
@@ -170,57 +163,15 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at snackCount, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-## Loops
-
-* read pages 170 - 173 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
-
-Loops allow us to easily run the same piece of code numerous times.  There are many types of loops, but we'll only learn about `for` loops for now.
-
-Let's take a look at a `for` loop:
-
-```JavaScript
-for (var i = 0; i < 5; i++) {
-   console.log(i);
-}
-
-// when run, this code will log:
-// 0
-// 1
-// 2
-// 3
-// 4
-```
-
-There are a few things to break down here, so let's start with structure of the code above. We see that it's made of the following parts:
-
-* the keyword for
-* a set of rules, or conditions (var i = 0; i < 5; i++ )
-* opening and closing curly braces which contain our code
-* the code that we want our loop to execute: console.log(i);
-
-Let’s dig into the three statements separated by semicolons that make up or our conditions:
-
-```JavaScript
-for ([initialization]; [condition]; [final-expression]) {
-   executable code
- }
-```
-
-* We begin with *initialization*. Where do we want our loop to start? The first statement `var i = 0`; creates a variable that is assigned the value of 0. This variable is commonly named `i`, or index, and will act as the counter. It is created the first time the loop is run.
-* The next statement *sets the condition* that tells the loop when to stop running: `i < 10`;. In this case, the condition indicates that the loop will stop when `i` equals 10. The condition may use a variable that is assigned a value.
-* Finally, with the statement `i++` we *update the value* of our counter i. This adds 1 to the value of i. This syntax is using the increment operator `++`, which is a way of writing `i = i + 1`. It is also possible to decrement downwards using the decrement operator `--`, which is a way of writing `i = i - 1`.
-
-The statement within the curly braces executes each time the loop runs. In this case, we can see we are logging the value of i to the console.
 
 ## Exercises
 
 1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
-    1. strings
     1. numbers
+    1. strings
     1. booleans
     1. variables
     1. concatenation
-    1. loops
 
 ## Questions
 
@@ -246,59 +197,33 @@ Changes not staged for commit:
 	modified:   exercises/variables.js
 	modified:   questions.md
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	ex1.md
-	ex11.md
-	ex2.md
-	ex3.md
-	ex4.md
-	ex5.md
-	ex6.md
-
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
 
-1. Enter `git add ex1.md`.
+1. Enter `git add questions.md`.
 1. Enter `git status`. Your status should now look a little different:
 
 ```On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	new file:   ex1.md
+	modified:   questions.md
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-  modified:   exercises/interpolation.md
-  modified:   exercises/loops.md
-  modified:   exercises/numbers.md
-  modified:   exercises/strings.md
-  modified:   exercises/variables.md
-  modified:   questions.md
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	ex11.md
-	ex2.md
-	ex3.md
-	ex4.md
-	ex5.md
-	ex6.md
+  modified:   exercises/interpolation.js
+  modified:   exercises/loops.js
+  modified:   exercises/numbers.js
+  modified:   exercises/strings.js
+  modified:   exercises/variables.js
 ```
 
-Under "Changes to be committed", It now lists "ex1.rb". This means that git is getting ready to save this file. We want to do this for each file.
+Under "Changes to be committed", It now lists "questions.md". This means that git is getting ready to save this file. We want to do this for each file.
 
-1. Enter `git add ex2.rb`
-1. Enter `git status`. "ex2.rb" should now be listed under "Changes to be committed".
-1. Do this for each of your "ex#.rb" files you created for Learn Ruby the Hard Way and your "questions.md" file.
-1. Enter `git status`. Under "Changes not staged for commit", you should see all the files in the exercises directory.
 1. Enter `git add exercises`.
 1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
 1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".

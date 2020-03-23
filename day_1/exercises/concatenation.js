@@ -23,7 +23,9 @@ console.log(/*YOUR CODE HERE*/);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
-var slowPoke = "tortoise";
-var speedy = "hare";
+// Note that we are omitting the var keyword below, because we are re-assigning the variables
+
+slowPoke = "tortoise";
+speedy = "hare";
 
  // YOUR CODE HERE

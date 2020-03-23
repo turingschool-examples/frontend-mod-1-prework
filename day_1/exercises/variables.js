@@ -8,7 +8,7 @@ console.log(name);
 
  // Write code below to assign the string 'Dobby' to a variable and
  // log that variable to the console:
-var house-elf = "Dobby";
+var houseElf = "Dobby";
  // YOUR CODE HERE
 
  // Write code below to save the string 'Harry Potter must not return to Hogwarts!'

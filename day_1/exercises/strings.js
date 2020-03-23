@@ -1,5 +1,6 @@
 // In the exercises below, write your own code where indicated
 // to achieve the desired result. Run this code using node in terminal.
+// ie. $ node day_1/exercises/numbers.js
 
 // example: Write code below to log your name in the console:
 console.log("Alan Turing");
