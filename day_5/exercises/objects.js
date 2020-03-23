@@ -15,7 +15,7 @@ console.log(foods);
 
 // Write code below that will print an object of animals and their number
 // at the zoo. (an inventory of animals)
-var zoo = //YOUR CODE HERE
+var zoo = // YOUR CODE HERE
 console.log(zoo)
 
 // Using the zoo that you created above, print all the keys in the object.
