@@ -16,8 +16,8 @@ Objects are created from classes. Think of classes as molds and objects as the t
 
 ```javascript
 var person = {
-    firstName: "Sabrina",
-    lastName: "Spellman"
+  firstName: "Sabrina",
+  lastName: "Spellman"
 }
 
 // Is the same as:
@@ -29,7 +29,7 @@ person.lastName = "Spellman";
 
 But what is the Object class? What even is a class?
 
-Javascript defines the properties and methods of its objects in classes. You can think of classes as basic outlines of what an object should be made of and what it should be able to do. To define a class, we use the keyword `class` and use the CamelCase naming convention to create the name. 
+Javascript defines the properties and methods of its objects in classes. You can think of classes as basic outlines of what an object should be made of and what it should be able to do. To define a class, we use the keyword `class` and use the CamelCase naming convention to create the name.
 
 ```javascript
 class GoodDog {
@@ -49,8 +49,8 @@ Making objects is all well and good, but why would we make objects without any i
 
 ```javascript
 class GoodDog {
-    constructor() {
-    };
+  constructor() {
+  };
 };
 
 var bolt = new GoodDog();
@@ -60,9 +60,9 @@ When defining a class, we typically focus on two things: state and behavior. Sta
 
 ```javascript
 class GoodDog {
-    constructor() {
-        this.name = "Bolt";
-    }
+  constructor() {
+    this.name = "Bolt";
+  }
 };
 
 var bolt = new GoodDog();
@@ -72,7 +72,7 @@ You'll notice something new here. The `this.name` variable looks different becau
 
 ```javascript
 var bolt = {
-    name: "Bolt";
+  name: "Bolt";
 }
 
 console.log(bolt.name); // logs "Bolt"
@@ -82,9 +82,9 @@ Every time we create a new instance of the `GoodDog class`, the dog object that 
 
 ```javascript
 class GoodDog {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 };
 
 var bolt = new GoodDog("Bolt");
@@ -95,11 +95,11 @@ In the above example, our constructor method takes a parameter called name. You 
 
 ```javascript
 class GoodDog {
-    constructor(name, weight, height) {
-        this.name = name;
-        this.weight = weight;
-        this.height = height;
-    }
+  constructor(name, weight, height) {
+    this.name = name;
+    this.weight = weight;
+    this.height = height;
+  }
 };
 
 var bolt = new GoodDog("Bolt", "50lbs", "20in");
@@ -110,15 +110,15 @@ var sparky = new GoodDog("Sparky", "66", "24in");
 
 ```javascript
 var bolt = {
-    name: "Bolt",
-    weight: "50lbs",
-    height: "20in"
+  name: "Bolt",
+  weight: "50lbs",
+  height: "20in"
 }
 
 var sparky = {
-    name: "Sparky",
-    weight: "50lbs",
-    height: "24in"
+  name: "Sparky",
+  weight: "50lbs",
+  height: "24in"
 }
 ```
 
@@ -126,13 +126,13 @@ Even though they're two different objects, both are still object instances of cl
 
 ```javascript
 class GoodDog {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    bark() {
-        console.log("Arf!");
-    }
+  bark() {
+    console.log("Arf!");
+  }
 };
 
 var bolt = new GoodDog("Bolt");
@@ -154,13 +154,13 @@ What if we wanted to not just say "Arf!", but say "Sparky says arf!"? In our met
 
 ```javascript
 class GoodDog {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    bark() {
-        console.log(this.name + " says arf!");
-    }
+  bark() {
+    console.log(this.name + " says arf!");
+  }
 };
 
 var bolt = new GoodDog("Bolt");
@@ -172,17 +172,17 @@ console.log(bolt.bark()); // logs "Bolt says arf!"
 
 ```javascript
 class GoodDog {
-    constructor(name) {
-        this.name = name;
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    bark() {
-        console.log(this.name + " says arf!");
-    }
+  bark() {
+    console.log(this.name + " says arf!");
+  }
 
-    takeForAWalk() {
-        this.walked = true;
-    }
+  takeForAWalk() {
+    this.walked = true;
+  }
 };
 
 var bolt = new GoodDog("Bolt");
@@ -192,7 +192,7 @@ Before we call the `takeForAWalk` **_method_**, the `bolt` object looks like thi
 
 ```javascript
 var bolt = {
-    name: "Bolt"
+  name: "Bolt"
 }
 ```
 
@@ -202,8 +202,8 @@ Now, let's call the `takeForAWalk` **_method_** and see how the `bolt` object ch
 bolt.takeForAWalk();
 
 var bolt = {
-    name: "Bolt",
-    walked: true
+  name: "Bolt",
+  walked: true
 }
 ```
 
@@ -213,22 +213,22 @@ Now, the `takeForAWalk` **_method_** added a **_property_** of `walked`, which i
 
 ```javascript
 class GoodDog {
-    constructor(name) {
-        this.name = name;
-        this.bones = [];
-    }
+  constructor(name) {
+    this.name = name;
+    this.bones = [];
+  }
 
-    bark() {
-        console.log(this.name + " says arf!");
-    }
+  bark() {
+    console.log(this.name + " says arf!");
+  }
 
-    takeForAWalk() {
-        this.walked = true;
-    }
+  takeForAWalk() {
+    this.walked = true;
+  }
 
-    giveABone(bone) {
-        this.bones.push(bone);
-    }
+  giveABone(bone) {
+    this.bones.push(bone);
+  }
 };
 
 var bolt = new GoodDog("Bolt");
@@ -238,8 +238,8 @@ Before we call the `giveABone` **_method_**, the `bolt` object looks like this:
 
 ```javascript
 var bolt = {
-    name: "Bolt",
-    bones: []
+  name: "Bolt",
+  bones: []
 }
 ```
 
@@ -249,8 +249,8 @@ Now, let's call the `giveABone` **_method_** and see how the `bolt` object chang
 bolt.giveABone("rawhide");
 
 var bolt = {
-    name: "Bolt",
-    bones: ["rawhide"]
+  name: "Bolt",
+  bones: ["rawhide"]
 }
 ```
 

@@ -1,6 +1,8 @@
-// In the exercises below, write your own code where indicated
-// to achieve the desired result. Run this code using node in terminal.
-// ie. $ node day_1/exercises/numbers.js
+/*
+In the exercises below, write your own code where indicated
+to achieve the desired result. You should be able to run this
+file from your terminal with the command `node day_3/exercises/comparisons.js`
+*/
 
 // example: log the result of the sum of 2 and 2 to the console:
 console.log(2 + 2);
