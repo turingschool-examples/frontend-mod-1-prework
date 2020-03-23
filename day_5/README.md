@@ -24,9 +24,9 @@ Objects store data but instead of using only numbers to get the data, you can us
 
 ```javascript
 var zebraObject = {
-    name: "Angela",
-    age: 3,
-    height: "5ft"
+  name: "Angela",
+  age: 3,
+  height: "5ft"
 };
 ```
 
@@ -34,10 +34,10 @@ In the `zebraObject`, we store information about the Zebra. This object contains
 
 ```javascript
 var zebraObject = {
-    name: "Angela",
-    age: 3,
-    height: "5ft",
-    diet: ["grass", "leaves", "water"]
+  name: "Angela",
+  age: 3,
+  height: "5ft",
+  diet: ["grass", "leaves", "water"]
 };
 ```
 
@@ -45,27 +45,27 @@ Functions can also be stored as a **_value_** in a **_key-value pair_**. In thes
 
 ```javascript
 var zebraObject = {
-    name: "Angela",
-    age: 3,
-    height: "5ft",
-    diet: ["grass", "leaves", "water"],
-    feedZebra: function() {
-        console.log("Give grass to the Zebra");
-    }
+  name: "Angela",
+  age: 3,
+  height: "5ft",
+  diet: ["grass", "leaves", "water"],
+  feed: function() {
+    console.log("Give grass to the Zebra");
+  }
 };
 ```
 
 Methods can be called using the dot or bracket notation, however, you'll mostly see dot notation.
 
 ```javascript
-zebraObject.feedZebra(); //logs "Give grass to the Zebra"
+zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
 1. Work through these resources to gain some repetition with reading and working with objects.
     1. Read through the [Object Literals lesson plan](https://frontend.turing.io/lessons/module-1/object-literals.html) and work on the [final practice provided at the end](https://repl.it/@ameseee/Partner-Practice).
     1. Read pages 100 through 107 in the JAVASCRIPT & JQUERY: interactive front-end web development book.
         1. Note: You will come across the keyword `this` in the reading. `this` refers to the object that the `this` is contained in. The example in the reading uses a `hotel` object, where `checkAvailability()` uses `this.rooms` and `this.booked`. `this.rooms` refers to the **_value_** that matches the **_key_** `rooms` within the object it is contained in, which is `40`. `this.booked` refers to the **_value_** that matches the **_key_** `booked` within the object it is contained in, which is `25`. `this` is a concept that we will cover more thoroughly in class. This brief overview is provided for your comprehension of the reading.
-    1. Read through the `objects-ppt.pdf`. This is an excerpt from [Code School](https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-1).
+    1. Read through the [objects-ppt.pdf](objects-ppt.pdf). This is an excerpt from [Code School](https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-1).
 
 1. Answer the questions in the `questions.md` file in the day_5 directory.
 

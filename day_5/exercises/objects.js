@@ -6,9 +6,9 @@ file from your terminal with the command `node day_4/exercises/objects.js`
 
 // example: Write code below to print an object that holds grocery store inventory
 var foods = {
-    apples: 23, 
-    grapes: 507, 
-    eggs: 48
+  apples: 23,
+  grapes: 507,
+  eggs: 48
 };
 
 console.log(foods);

@@ -36,14 +36,11 @@ Using your terminal, open the local copy of the repository that you created duri
 
     if (minutesToHeatWater < 7) {
         console.log("The water is not boiling yet.");
-    }
-    else if (minutesToHeatWater == 7) {
+    } else if (minutesToHeatWater == 7) {
         console.log("It's just barely boiling");
-    }
-    else if (minutesToHeatWater == 8) {
+    } else if (minutesToHeatWater == 8) {
         console.log("It's boiling!");
-    }
-    else {
+    } else {
         console.log("Hot! Hot! Hot!");
     };
     ```
