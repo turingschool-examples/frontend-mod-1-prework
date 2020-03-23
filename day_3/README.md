@@ -17,14 +17,11 @@ Using your terminal, open the local copy of the repository that you created duri
     ```javascript     
     if (condition1) {
         //block of code if condition1 is true
-    }
-    else if (condition2) {
+    } else if (condition2) {
         //block of code if condition1 is false and condition2 is true.
-    }
-    else if (condition3) {
+    } else if (condition3) {
         //block of code if condition1 is false and condition2 is false and condition3 is true.
-    }
-    else {
+    } else {
         //block of code if none of the conditions above are true.
     };
     ```
@@ -58,7 +55,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
     When the minutesToHeatWater is 8, it goes like this: "Is it true that 8 is less than 7? No. Next, is it true that 8 is equal to 7? No. Next, is it true that 8 is equal to 8? Yes, it is, so print out the line It's boiling!".
 
-    Lastly, when total is 9, it goes: "Is it true that 9 is less than 7? No. Next, is it true that 9 is equal to 7? No. Next, is it true that 9 is equal to 8? No. Since none of those are true, execute the else and print the line Hot! Hot! Hot!.
+    Lastly, when minutesToHeatWater is 9, it goes: "Is it true that 9 is less than 7? No. Next, is it true that 9 is equal to 7? No. Next, is it true that 9 is equal to 8? No. Since none of those are true, execute the else and print the line Hot! Hot! Hot!.
 
     Only one section of the *if/else if/else* structure can have its instructions run. If the *if* is true, for instance, Javascript will never look at the *else if* or *else*. Once one block executes, that’s it.
 
@@ -94,7 +91,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## Vocabulary you'll encounter in the reading
+## FYI - Vocabulary you'll encounter in the reading
 
 The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and functions to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! We will address these techniques more thoroughly during your first mod, however, here are some quick definitions to help you become familiar with them.
 

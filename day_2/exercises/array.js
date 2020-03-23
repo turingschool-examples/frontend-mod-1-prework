@@ -10,10 +10,6 @@ var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
 // Write code below that will log an array of foods. Store the array in a variable.
-var foods = //YOUR CODE HERE;
-console.log(foods);
-
-// Write code below that will log an array of foods. Store the array in a variable.
 // YOUR CODE HERE
 
 // example: Write code below that will log the number of elements in array of

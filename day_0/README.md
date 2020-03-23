@@ -9,7 +9,7 @@ You already have had some exposure to the terminal in the [mod0 session 2: Termi
 Use the commands listed above to move around your computer.
 
 * Go deep down into one of your the existing directories using `cd` to move and `ls` to see what directories are available.
-* Navigate out using `cd ../` to get back to your home directory. Try to use `pwd` to make sure you don't overshoot it!
+* Navigate up a directory using `cd ..`. Try to use `pwd` to make sure you don't overshoot your home directory!
 * Dig deep into another directory, using `ls` as you go.
 * Use `cd ~/` to navigate back out to your home directory.
 * Navigate into your Downloads directory using `cd Downloads`.

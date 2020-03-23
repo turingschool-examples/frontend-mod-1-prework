@@ -8,9 +8,18 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 README.
 
+
+## Arrays
+
+1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
+1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
+    1. Methods to study: "pop", "push", "shift", "unshift". Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
+    1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead.
+1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
+
 ## Loops
 
-* read pages 170 - 173 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+* read pages 170 - 175 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
 Loops allow us to easily run the same piece of code numerous times.  There are many types of loops, but we'll only learn about `for` loops for now.
 
@@ -50,14 +59,6 @@ for ([initialization]; [condition]; [final-expression]) {
 
 The statement within the curly braces executes each time the loop runs. In this case, we can see we are logging the value of i to the console.
 
-## Arrays
-
-1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
-1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
-    1. Methods to study: "pop", "push", "shift", "unshift". Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
-    1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead.
-1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection. A tool commonly used for iterating is the FOR loop. Read pages 170 through 175 in the JAVASCRIPT & JQUERY book to learn more about this tool.
-
 ## Exercises
 
 1. Work through the following lessons to learn about Javascript Comparison Operators.
@@ -65,8 +66,8 @@ The statement within the curly braces executes each time the loop runs. In this 
     1. Read pages pages 166 and 167 of the JAVASCRIPT & JQUERY book to learn about type coersion and truthy vs falsy values
     1. Work through the `comparisons.js` file
 1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
-    1. `loops.js`
     1. `arrays.js`
+    1. `loops.js`
     1. `iteration.js`
 1. Answer the questions in the `questions.md` file in the day_2 directory.
 
@@ -90,7 +91,7 @@ git push origin master
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
 
-## Vocabulary you'll encounter in the reading
+## FYI - Vocabulary you'll encounter in the reading
 
 The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and methods to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! Here are some quick definitions to help you become familiar with them.
 

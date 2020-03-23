@@ -140,11 +140,11 @@ To start, in your terminal, `cd` into the `day_0` directory. Follow the instruct
 
 ----------------------------------
 
-## Month of Module 0 Capstone: Extended Resources
+# Extension (optional, after capstone completed)
 
 Have longer than a week to prepare for your time at Turing? Looking for more details and a deeper dive into the materials? Just can't get enough? We've put together a collection of resources to help you continue your ramp up before the first day of class.
 
-#### JavaScript Resources
+### JavaScript Resources
 
 * [Codecademy Introduction to JavaScript](https://www.codecademy.com/learn/javascript)
   * An introduction to the JavaScript programming language.
@@ -155,7 +155,7 @@ Have longer than a week to prepare for your time at Turing? Looking for more det
 * [JavaScript and jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=la_B001IR3Q7I_1_3?s=books&ie=UTF8&qid=1457549440&sr=1-3)
   * A thorough and easy-to-reference introduction to JavaScript by John Duckett.
 
-#### HTML and CSS Resources
+### HTML and CSS Resources
 
 * [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
   * Get your HTML and CSS foundation locked in. This course teaches the basics of website markup and styling so you'll be ready to roll on day 1.
@@ -163,7 +163,7 @@ Have longer than a week to prepare for your time at Turing? Looking for more det
 * [Try the BEM css methodology](http://getbem.com/introduction/)
   * Once you've got the basics of HTML and CSS down, BEM show you an approach to writing scalable and reusable CSS.
 
-#### Design, UX, and UI Resources
+### Design, UX, and UI Resources
 
 * [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
   * A collection of 31 bite-sized daily lessons to introduce you to UX principles and techniques.

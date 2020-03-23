@@ -166,12 +166,12 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 
 ## Exercises
 
-1. Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
-    1. numbers
-    1. strings
-    1. booleans
-    1. variables
-    1. concatenation
+Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
+  1. numbers
+  1. strings
+  1. booleans
+  1. variables
+  1. concatenation
 
 ## Questions
 
