@@ -9,7 +9,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 * [Day 0 - More Terminal Practice](day_0)
 * [Day 1 - Strings, Numbers, And Booleans](day_1)
 * [Day 2 - Arrays and Iteration](day_2)
-* [Day 3 - If Statements and Loops](day_3)
+* [Day 3 - If Statements](day_3)
 * [Day 4 - Functions and Return Values](day_4)
 * [Day 5 - Objects](day_5)
 * [Day 6 - Classes](day_6)

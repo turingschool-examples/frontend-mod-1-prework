@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_2/exercises/comparisons.js`
+file from your terminal with the command `node day_3/exercises/comparisons.js`
 */
 
 var firstVar = 10;
@@ -48,7 +48,7 @@ console.log(); // this should return: true
 // log the result of the comparison: is secondVar less than or equal to 21?
 console.log(); // this should return: true
 
-//TODO: Is this a bit wonky of an example? 
+//TODO: Is this a bit wonky of an example?
 
 // log the result of the comparison: is 0 equal to true?
 console.log(0 == true) // this should return: false

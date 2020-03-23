@@ -9,9 +9,9 @@ file from your terminal with the command `nope day_2/exercises/arrays.js`
 var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
-// Write code below that will log an array of states. Store the array in a variable.
-var states = //YOUR CODE HERE;
-console.log(states);
+// Write code below that will log an array of foods. Store the array in a variable.
+var foods = //YOUR CODE HERE;
+console.log(foods);
 
 // Write code below that will log an array of foods. Store the array in a variable.
 // YOUR CODE HERE
@@ -33,7 +33,7 @@ console.log(animals.length);
 // Write code using bracket notation that will log the last item in the animals array
 // YOUR CODE HERE
 
-// Write code using bracket notation that will reassign the last item in the animals 
+// Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
 // YOUR CODE HERE
 

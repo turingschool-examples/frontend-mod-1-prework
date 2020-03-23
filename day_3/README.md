@@ -1,4 +1,4 @@
-# Day 3 - If Statements and Loops
+# Day 3 - If Statements
 
 One of the most important concepts in computer programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements, which you will learn about today.
 
@@ -17,13 +17,13 @@ Using your terminal, open the local copy of the repository that you created duri
     ```javascript     
     if (condition1) {
         //block of code if condition1 is true
-    } 
+    }
     else if (condition2) {
         //block of code if condition1 is false and condition2 is true.
-    } 
+    }
     else if (condition3) {
         //block of code if condition1 is false and condition2 is false and condition3 is true.
-    } 
+    }
     else {
         //block of code if none of the conditions above are true.
     };
