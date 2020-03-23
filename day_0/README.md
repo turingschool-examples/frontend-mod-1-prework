@@ -9,7 +9,7 @@ You already have had some exposure to the terminal in the [mod0 session 2: Termi
 Use the commands listed above to move around your computer.
 
 * Go deep down into one of your the existing directories using `cd` to move and `ls` to see what directories are available.
-* Navigate out using `cd ../` to get back to your home directory. Try to use `pwd` to make sure you don't overshoot it!
+* Navigate up a directory using `cd ..`. Try to use `pwd` to make sure you don't overshoot your home directory!
 * Dig deep into another directory, using `ls` as you go.
 * Use `cd ~/` to navigate back out to your home directory.
 * Navigate into your Downloads directory using `cd Downloads`.
@@ -35,19 +35,19 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
     |
     |--_lib
     |  |
-    |  |--secret_library.rb
-    |  |--secret_book.rb
-    |  |--secret_librarian.rb
-    |  |--patron.rb
-    |  |--library_system.rb
+    |  |--secret_library.js
+    |  |--secret_book.js
+    |  |--secret_librarian.js
+    |  |--patron.js
+    |  |--library_system.js
     |
     |--_test
        |
-       |--secret_library_test.rb
-       |--secret_book_test.rb
-       |--secret_librarian_test.rb
-       |--patron_test.rb
-       |--library_system_test.rb
+       |--secret_library_test.js
+       |--secret_book_test.js
+       |--secret_librarian_test.js
+       |--patron_test.js
+       |--library_system_test.js
 ```     
 
 Don't worry about putting any text into these files. For now, just create this structure and empty files.

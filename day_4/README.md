@@ -1,30 +1,39 @@
-# Day 4: HTML, CSS, and JavaScript
+# Day 4 - Functions and Return Values
 
-## Open your local copy of frontend-module-0-capstone in Atom
+On day 1 of the prework, you learned how to store information in variables. Today, you will learn about another way to store information; more specifically, how to use Functions to create Return Values.  In programming, we _often_ use functions, so this is an important concept to get familiar with!
 
-In the day_4 directory, create another file called `day4-exercises.md`. This is where you'll put your answers to the following questions.
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Read Chapter 5 on Images HTML from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+## Open your local copy of frontend-module-0-capstone
 
-Answer these questions about the reading in your `day4-exercises.md` file:
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-1.  In an image element, why is the `alt` attribute important?
-2.  What determines if an image element is inline or block?
-3.  What are the benefits of `jpg` or `png` image file formats?
+## Functions & Return
 
-## Read Chapter 16 on Images CSS from [HTML and CSS: Design and Build Websites](http://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_3?ie=UTF8&qid=1459879147&sr=8-3&keywords=duckett)
+1. Read page 88, and pages 90 through 94 from the JAVASCRIPT & JQUERY: interactive front-end web development book.
+1. Read page 98 from the JAVASCRIPT & JQUERY book and then work through the `functions-and-variables.js` file in the day_4/exercises directory to learn more about variable scoping and mutation.
+1. Read about Javscript return statements: [What is a Return Statement?](https://codeburst.io/javascript-what-is-the-return-statement-97d8b11a1a0c).
 
-Answer these questions about the reading in your `day4-exercises.md` file:
+1. Work through the `functions.js` file in the day_4/exercises directory.
 
-1.  What is the benefit of specifying the height and width of images in CSS compared to specifying in the HTML?
-2.  What is an image sprite, and why is it useful?
+1. Answer the questions in the `questions.md` file in the day_4 directory.
 
-Continue working with the page you created in CodePen, and add a couple relevant images to your paragraph text.
+## Save your work in Git
 
-## Read the Introduction and Chapter 1 from [JavaScript & jQuery: Interactive Front-End Web Development](https://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=sr_1_5?ie=UTF8&qid=1541447422&sr=8-5&keywords=duckett)
+When you are finished with all of the day_4 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-When you're done reading the Introduction chapter, watch [this short video](https://www.youtube.com/watch?v=JzZFccCEgGA) about the Chrome Developer Tools. We'll be using the console to write some JavaScript code on Day 5 and Day 6.
+1. `$ git add day_4/exercises`
+1. `$ git add day_4/questions.md`
+1. Use `git add day_4/<filename>` to add all additional files that you created today
+1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+1. `$ git commit -m "Add Day 4 Work"`
 
-## Save your day 4 file in git and push to GitHub
+## Push to Github
 
-Using the commit message: `Add day 4`, add, commit, and push your changes to GitHub!
+You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+
+```
+git push origin master
+```
+
+You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
