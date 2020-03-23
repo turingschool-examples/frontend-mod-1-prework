@@ -35,19 +35,19 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
     |
     |--_lib
     |  |
-    |  |--secret_library.rb
-    |  |--secret_book.rb
-    |  |--secret_librarian.rb
-    |  |--patron.rb
-    |  |--library_system.rb
+    |  |--secret_library.js
+    |  |--secret_book.js
+    |  |--secret_librarian.js
+    |  |--patron.js
+    |  |--library_system.js
     |
     |--_test
        |
-       |--secret_library_test.rb
-       |--secret_book_test.rb
-       |--secret_librarian_test.rb
-       |--patron_test.rb
-       |--library_system_test.rb
+       |--secret_library_test.js
+       |--secret_book_test.js
+       |--secret_librarian_test.js
+       |--patron_test.js
+       |--library_system_test.js
 ```     
 
 Don't worry about putting any text into these files. For now, just create this structure and empty files.

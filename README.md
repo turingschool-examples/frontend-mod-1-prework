@@ -140,7 +140,7 @@ To start, in your terminal, `cd` into the `day_0` directory. Follow the instruct
 
 ----------------------------------
 
-### Month of Module 0 Capstone: Extended Resources
+## Month of Module 0 Capstone: Extended Resources
 
 Have longer than a week to prepare for your time at Turing? Looking for more details and a deeper dive into the materials? Just can't get enough? We've put together a collection of resources to help you continue your ramp up before the first day of class.
 
