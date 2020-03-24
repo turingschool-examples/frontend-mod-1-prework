@@ -1,13 +1,61 @@
 ## Day 1 Questions
 
-1. How would you log the string `"Hello World!"` to the console?
+#### 1. How would you log the string `"Hello World!"` to the console?
 
-1. What is the character you would use to indicate comments in a JavaScript file?
+```JavaScript
+console.log('Hello World!');
+```
 
-1. Explain the difference between an integer and a floating-point number?
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`.
+---
 
-1. How would you log the string `"zebra"` using the variable that you created above?
+#### 2. What is the character you would use to indicate comments in a JavaScript file?
 
-1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+```JavaScript
+// comment here please
+/* or here */
+
+```
+
+
+---
+
+#### 3. Explain the difference between an integer and a floating-point number?
+
+An <span style='color:red'>integer </span> is a number without any decimal points. 
+
+<span style='color:red'>Floating-point numbers</span> contain floating decimal points.
+
+
+---
+
+#### 4. In the space below, create a variable `animal` that holds the string `"zebra"`.
+
+
+```JavaScript
+var animal = ('zebra');
+
+```
+
+
+---
+
+#### 5. How would you log the string `"zebra"` using the variable that you created above?
+
+```JavaScript
+console.log(animal);
+```
+
+
+
+---
+
+#### 6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+
+<span style='color:red; font-weight: bold'>Concatenation</span> means "join together" in programming terms. It uses + to join together strings in JavaScript.
+
+```JavaScript
+console:.log('Everytime I see the ' + animal + ' I crave fruit stripe gum.')
+```
+
+---
