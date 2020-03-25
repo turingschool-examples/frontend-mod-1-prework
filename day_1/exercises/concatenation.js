@@ -11,7 +11,7 @@ var team = "Chudley Cannons";
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-var ans2 = "-----Question 1: In concatenation (join together)the other data types and string all become a string. A string is logged when we run the the code below.------";
+var ans2 = "-----Question 1: In concatenation (join together)the other data types and string all become a string due to type coercion. A string is logged when we run the the code below.------";
 console.log(ans2);
 
 var number = 7;
