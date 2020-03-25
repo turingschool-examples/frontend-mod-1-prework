@@ -1,17 +1,74 @@
 ## Day 2 Questions
 
-1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+#### 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+```JavaScript
+["zebra", "giraffe", "elephant"]
 
-1. Save the array you created above to a variable `animals`.
+```
+---
 
-1. using the array `animals`, how would you access `"giraffe"`?
+#### 2. Save the array you created above to a variable `animals`.
 
-1. How would you add `"lion"` to the `animals` array?
+```JavaScript
+var animals= ["zebra", "giraffe","elephant"];
+```
+---
 
-1. Name and describe two additional array methods.
+#### 3. using the array `animals`, how would you access `"giraffe"`?
 
-1. What are the boolean values in JavaScript?
+```JavaScript
+animals = animals[1];
 
-1. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+animals = animals[animals.length - 1]
 
-1. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+```
+---
+
+#### 4. How would you add `"lion"` to the `animals` array?
+```JavaScript
+animals.push("lion");
+
+animals.unshift("lion");
+
+```
+---
+
+#### 5. Name and describe two additional array methods.
+
+<span style="color:red">__indexOf__</span>- finds the index of an item in an array.
+```JavaScript
+console.log(animals.indexOf("zebra"));
+// console returns 0
+```
+<span style="color:red">__shift__</span> removes from the beginning of an array.
+
+```JavaScript
+animals.shift();
+```
+
+---
+
+#### 6. What are the boolean values in JavaScript?
+The boolean values are <span style="color:red">__true__</span> and <span style="color:red">__false__</span>.
+
+
+---
+
+#### 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+
+```JavaScript
+(2 == 25);
+```
+
+<span style="color:red">__false__</span>
+
+---
+
+#### 8. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+```JavaScript
+(25 > 2);
+```
+
+<span style="color:red">__true__</span>
+
+---
