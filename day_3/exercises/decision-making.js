@@ -40,16 +40,17 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
-
+doorChoice uses a stict type comparison so compares equality in value and datatype. If  1st door is chosen it returns true executing the code in the if statement. If second door is chosen returns false moving to the else statement and executing.
 2. What variable has a new value assigned to it after the first if statement executes?
-
+bearClothing
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
-
+Similar to answer 1, if 1 is chosen returns true and executes code "secret passage", if 2 is chosen the if is false no code executes on first else if executing code "too small" from here any there number will execute the else statement due to a an error on var bearClothing when it should have been bearChoice.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+else statement runs due to varible being wrong, so you get "best friends", if you corrected the variable to bearChoice you would get "full of snakes!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+bears hats to small and you point it out making it cry.
 7. What is your favorite ending?
+door 1 so hat and 3 error becoming best friends. Even mistakes can make friends.
 */
