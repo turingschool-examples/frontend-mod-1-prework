@@ -1,13 +1,27 @@
 ## Day 1 Questions
 
-1. How would you log the string `"Hello World!"` to the console?
+## How would you log the string `"Hello World!"` to the console?
 
-1. What is the character you would use to indicate comments in a JavaScript file?
+`console.log('"Hello World!"');`
 
-1. Explain the difference between an integer and a floating-point number?
+## What is the character you would use to indicate comments in a JavaScript file?
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`.
+For a single line comment: two backslashes. For a multi-line comment, or one with code directly following on the line,  a backslash followed by an asterisk to open the comment and an asterisk followed by a backslash to close.
 
-1. How would you log the string `"zebra"` using the variable that you created above?
+## Explain the difference between an integer and a floating-point number?
 
-1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+Integers must be whole numbers. Floating-point numbers can contain decimal values.
+
+## In the space below, create a variable `animal` that holds the string `"zebra"`.
+
+`var animal = "zebra";`
+
+## How would you log the string `"zebra"` using the variable that you created above?
+
+`console.log(animal);`
+
+## What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+
+Concatenation is the combining of multiple strings using the plus operator. It's an important distinction because it uses a mathematical operator outside of arithmetic to add together values that aren't numbers.
+
+```console.log("I was planning on riding my " + animal + "to school every day, but then we were quarantined and I had to send my " + animal + "to a farm so it could get proper exercise while I am housebound.");```
