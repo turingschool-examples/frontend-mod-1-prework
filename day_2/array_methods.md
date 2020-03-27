@@ -1,8 +1,7 @@
-# Arrays
+# Array_methods
 ---------------------------------
 ## Arrays exercise
 
-1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
 -----------------------
 
 *1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.*
@@ -32,12 +31,12 @@ console.log(colors[0]);
 
       * . Methods to study: "pop", "push", "shift", "unshift". Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
 
-**Array methods**  | **syntax** |  **definition**   |
-------------------|-------------------|   |
-pop | *arr.pop();* | This *arr.pop();* method takes the last element from an array and returns it .
-shift | *arr.shift();* | This *arr.shift();* method behaves the same as the pop method, but instead removing the last element,  *arr.shift();*  removes  the first element from the array.
-push | *arr.push();* |This method allow to insert an extra element to the end of an array.This method relies on the length of the array to function.
-unshift | *arr.unshift();* | This method allows us to add an other element at the beginning of an array.
+**Array methods**  | **syntax** |  **definition**  |
+------------------|-------------------|   ---------------- |
+**pop** | *arr.pop();* | This *arr.pop();* method takes the last element from an array and returns it .|
+**shift** | *arr.shift();* | This *arr.shift();* method behaves the same as the pop method, but instead removing the last element, *arr.shift();*  removes  the first element from the array.|
+**push** | *arr.push();* |This method allow to insert an extra element to the end of an array.This method relies on the length of the array to function. |
+**unshift** | *arr.unshift();* | This method allows us to add an other element at the beginning of an array. |
 
 #### Example:
 
