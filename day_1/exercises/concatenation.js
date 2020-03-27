@@ -23,7 +23,8 @@ The Chudley Cannons are Ron's favorite Quidditch team
 var number = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + number + " " + creatures + "!")
+console.log("My zoo has " + number + " " + creatures + "!");
+My zoo has 7 unicorns!
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
