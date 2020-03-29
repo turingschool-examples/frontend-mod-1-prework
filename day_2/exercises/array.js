@@ -26,12 +26,10 @@ console.log(foods.length);
 console.log(animals[0]);
 
 // Write code using bracket notation that will log the first item in the animals array
-animals['firstItem']=animals[0];
-console.log(animals.firstItem);
+console.log(animals[0]); // spoke with Mason France, couldn't figure out if this is looking for something different from the last question.
 
 // Write code using bracket notation that will log the last item in the animals array
-animals['lastItem']=animals[2];
-console.log(animal.lastItem);
+console.log(animals[2]);
 
 // Write code using bracket notation that will reassign the last item in the animals
 animals[2]= "Gorilla";
