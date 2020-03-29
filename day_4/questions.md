@@ -1,15 +1,34 @@
 ## Day 4 Questions
 
-1. In your own words, what is the purpose of a function?
+##. In your own words, what is the purpose of a function?
 
-1. What is a parameter? 
+Functions store statements that can be executed over and over throughout a script. Their variables are kept separate and work independently each time the function is called. This allows programmers to create processes they can use multiple times in varying circumstances.
 
-1. What is a return value?
+## What is a parameter?
 
-1. In the space below, create a function named `hello` that will print `"Sam I am"`.
+Parameters provide data that the function needs in order to operate. This is where the function can refer to variables outside of it's code block, and then pass that information into the statements run in the code block.
 
-1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
+## What is a return value?
 
-1. How would you call or execute the function that you created above?
+Return values are data that is created by a function. For instance, if the function is performing addition it could return a sum. Using return ends the code, and any following statements are not executed. Returns allow data created by a function to be used in other parts of the script.
 
-1. What questions do you still have about functions in Javascript?
+## In the space below, create a function named `hello` that will print `"Sam I am"`.
+
+```function hello() {
+    console.log("Sam I am");
+}
+```
+
+## Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
+
+```function hello_someone(name) {
+    console.log(name + " I am")
+}
+```
+## How would you call or execute the function that you created above?
+
+`hello_someone(Yoda)`
+
+## What questions do you still have about functions in Javascript?
+
+Not at the moment, but I'll be sure to add them here if they come up. 
