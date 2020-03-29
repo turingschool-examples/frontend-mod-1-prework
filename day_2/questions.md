@@ -30,7 +30,7 @@ var first = animals.shift(); // removes item from the first index position
 
 6. What are the boolean values in JavaScript?
 
-**Boolean values**: are used when two data types, called operands, are compared to each other which results in a statement that is either true or false. Operators include the following:
+⋅⋅⋅**Boolean values**: are used when two data types, called operands, are compared to each other which results in ⋅⋅⋅a statement that is either true or false. Operators include the following:⋅
 
  * **IS EQUAL TO**: `==`,
  * **IS NOT EQUAL TO**: `!=`,
@@ -43,10 +43,10 @@ var first = animals.shift(); // removes item from the first index position
 
 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
-In javascript `console.log(2 == 25);` would return `false`.
+⋅⋅⋅In javascript `console.log(2 == 25);` would return `false`.
 
 
 8. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
 
-In JavaScript `console.log(25 > 2);` would return `true`.
+⋅⋅⋅In JavaScript `console.log(25 > 2);` would return `true`.
