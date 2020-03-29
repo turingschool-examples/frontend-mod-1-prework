@@ -18,9 +18,11 @@ If the user clicks something else, then do this. If-statements allow the site to
 
 1. What is the JavaScript syntax for an if statement?
 
+```
 if (variable = value) {
     then do this
 }
+```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -28,11 +30,13 @@ You use the *else* keyword.
 
 1. What is the JavaScript syntax for an if/else if/else statement?
 
+```
 if (variable = value) {
     then do this
 } else {
     do this
 }
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
