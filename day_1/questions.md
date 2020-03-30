@@ -16,7 +16,7 @@ An integer is a whole number that can be positive, negative, or zero, where as a
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 
-var animal = "zebra"
+var animal = "zebra";
 
 1. How would you log the string `"zebra"` using the variable that you created above?
 
