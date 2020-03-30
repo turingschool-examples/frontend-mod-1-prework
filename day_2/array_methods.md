@@ -40,7 +40,7 @@ console.log(colors[0]);
 
 #### Example:
 
-### arr.push(); _removes last element_
+### arr.pop(); _removes last element_
 ```JavaScript
 var favoriteFood = ["tacos", "tlayudas", "tostadas", "quesadillas", "pozole"];
 var dietFood = favoriteFood.pop();
