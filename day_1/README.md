@@ -1,4 +1,4 @@
-# Day 1 - Strings, Numbers, and Booleans
+ # Day 1 - Strings, Numbers, and Booleans
 
 Today, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
