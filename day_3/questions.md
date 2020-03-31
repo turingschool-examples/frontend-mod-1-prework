@@ -26,7 +26,7 @@
   } else {
     console.log("You failed miserably!")
   }
-
+```
 1. Why might you want to use an if-statement?
 
   If-statements are helpful when you want a user to make a decision and the result of that decision determines what path they take. Typically, if the first condition of the statement is true, then a specific code is run. If the condition is untrue, another action of code is performed.
