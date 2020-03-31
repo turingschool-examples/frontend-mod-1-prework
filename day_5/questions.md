@@ -15,15 +15,14 @@ var petStore = {
   'Puppy Chow' : 65,
    staff : 4,
 };
-
 ```
 ---
 
 #### 3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
 ```Javascript
-console.log(states['Iowa']);
-
+states['IA'] = 'Iowa'
+console.log(states['IA']);
 ```
 
 ---
@@ -32,7 +31,6 @@ console.log(states['Iowa']);
 
 ```Javascript
 states['MN'] = 'Minnesota';
-
 ```
 ---
 
@@ -50,12 +48,11 @@ var videoStore = {
   customers : 2;
   videoReturn : 45;
 };
-
 ```
 ##### Array Video Stores
+
 ```Javascript
 var videoStores = ['Blockbuster', 'Hollywood Video', 'Major Video'];
-
 ```
 
 ---
