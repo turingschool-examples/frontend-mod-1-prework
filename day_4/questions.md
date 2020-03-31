@@ -8,7 +8,7 @@ A function is a set of rules or procedures a variable can be passed through to g
 
 #### 2. What is a parameter?
 
-A <span style = "color: red">__Parameters__</span> are variables listed as a part of the function definition. These remain the same as for <span style = "color: red">__arguments__ </span> can be changed by a variable.
+A __Parameters__ are variables listed as a part of the function definition. These remain the same as for __arguments__ can be changed by a variable.
 
 
 ---
