@@ -4,11 +4,11 @@
 
 A conditional statement tells code to run if a certain condition is met.
 
- - <span style = "color:red">if</span> statement is the first conditional, if <span style="color:green">true </span> execute code, if<span style = "color:red"> false </span> move to _else if_ statement or execute _else_ statement.
+ - _if_ statement is the first conditional, if __true__ execute code, if __false__ move to _else if_ statement or execute _else_ statement.
 
-- <span style = "color:red">else if</span> creates another condition if the condition failed in the _if_ or previous _else if_ statement. If true execute code, if false move to next _else if_ or execute _else_ statement.
+- _else if_ creates another condition if the condition failed in the _if_ or previous _else if_ statement. If true execute code, if false move to next _else if_ or execute _else_ statement.
 
-- <span style = "color:red">else</span> executes code if the other conditions returned false, the _else_ statement is always last in conditionals. There is only one _else_ in a _if_ statement.
+- _else_ executes code if the other conditions returned false, the _else_ statement is always last in conditionals. There is only one _else_ in a _if_ statement.
 
 ```javascript
 
@@ -29,7 +29,7 @@ if (correct == perfectScore) {
 
 #### 2. Why might you want to use an if-statement?
 
-The if-statement checks if a condition is met and returns <span style="color:green">true</span>. If true code is executed, if false code does not run in this instance. I might want to us an if statement to do username : password verification, age verification, min or max requirements.
+The if-statement checks if a condition is met and returns __true__. If true code is executed, if false code does not run in this instance. I might want to us an if statement to do username : password verification, age verification, min or max requirements.
 
 ```javascript
 var userPassword = 'Vacation';
@@ -57,7 +57,7 @@ if (variable1 >= variable2) {
 
 We can add multiple conditions to an if statement, by using the "if/else" methods or "if/else if/else" method.
 
-__For example__:  If the _if_ statement returns <span style="color:red">false</span> it moves to _else if_ if still <span style="color:red">false</span> moves to _else_ statement and executes code.
+__For example__:  If the _if_ statement returns __false__ it moves to _else if_ if still __false__ moves to _else_ statement and executes code.
 
 However, we can also us _logical operators_ (&&, ||) to have multiple conditions in a if statement. We can use __*logical and*__ (&&) requiring both conditions to return true for code to execute, or we can use __*logical or*__(||) which only requires one of the conditions to return true to execute code.
 
