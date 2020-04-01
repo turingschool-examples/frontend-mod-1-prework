@@ -48,7 +48,7 @@ if (testScore >= 60) {
   ```
 4. How do you add multiple conditions to an if statement?
 
-  One or more `else if` statements can be added to your code to allow more than two outcomes, this also expands the user's options.
+    One or more `else if` statements can be added to your code to allow more than two outcomes, this also expands the user's options.
 
 5. What is the JavaScript syntax for an if/else if/else statement?
 ```javascript
@@ -62,7 +62,7 @@ if (testScore >= 60) {
   ```
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-  One might use a conditional statement nested within an if-statement. For example, if I were driving my car I might encounter the following decision:
+    One might use a conditional statement nested within an if-statement. For example, if I were driving my car I might encounter the following decision:
 ```javascript
 var greenLight = false;
 var yellowLight = true;
