@@ -11,7 +11,7 @@ console.log(animals);
 3. using the array `animals`, how would you access `"giraffe"`?
 ```javascript
 var pos = animals.indexOf("giraffe");
-``` or
+``` 
 ```JavaScript
 console.log(animals[1]);
 ```
@@ -19,7 +19,8 @@ console.log(animals[1]);
 4. How would you add `"lion"` to the `animals` array?
 ```JavaScript
 var newLength = animals.push("lion"); // add lion to the last index
-``` // or
+```
+
 ```JavaScript
 var newLength = animals.unshift("lion") // adds lion to the first index
 ```
