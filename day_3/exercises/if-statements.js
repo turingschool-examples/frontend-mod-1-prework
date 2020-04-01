@@ -16,13 +16,13 @@ var weather = '';
 if (weather == 'sunny') {
   console.log("Don't forget your sunscreen!")
 } else if (weather == 'rainy') {
-  console.log("It's raining cat and dog outside, don't forget your umbrella!");
+  console.log("It's raining cat and dog outside, don't forget your umbrella!")
 } else if (weather == 'snowy') {
-  console.log("There is snow outside, a coat would advisable.");
+  console.log("There is snow outside, a coat would advisable.")
 } else if (weather == 'icy') {
-  console.log("You know what happened last time you didn't bring your yak traks!");
-} else{
-  console.log("Cloudy days are the best, you're good to go!");
+  console.log("You know what happened last time you didn't bring your yak traks!")
+} else {
+  console.log("Cloudy days are the best, you're good to go!")
 }
 
 /*
@@ -66,14 +66,14 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 */
 
 var cupsOfFlour = 3;
-var hasSauce = false;
+var hasSauce = true;
 
 if (cupsOfFlour <= 1 && hasSauce == true) {
   console.log("I cannot make pizza")
 } else if (cupsOfFlour <= 1 && hasSauce == false) {
   console.log("I cannot make pizza")
-} else if (cupsOfFlour >= 2 && hasSauce == true) {
-  console.log("I can make pizza!")
 } else if (cupsOfFlour >= 2 && hasSauce == false) {
   console.log("I cannot make pizza")
+} else {
+  console.log("I can make pizza!")
 }
