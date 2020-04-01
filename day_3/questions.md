@@ -15,7 +15,7 @@ if (eatYourVeggies == true) {
 ```JavaScript
 var isAwake = false;  // This is an example of an "else" statement
 
-if (awake = true) {
+if (isAwake = true) {
   console.log("I'm awake!")
 } else {
   console.log("I'm sleeping!")
