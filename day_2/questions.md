@@ -12,7 +12,6 @@ console.log(animals);
 ```javascript
 var pos = animals.indexOf("giraffe");
 ```
-    OR
 ```JavaScript
 console.log(animals[1]);
 ```
