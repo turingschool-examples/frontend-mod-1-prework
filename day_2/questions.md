@@ -11,7 +11,8 @@ console.log(animals);
 3. using the array `animals`, how would you access `"giraffe"`?
 ```javascript
 var pos = animals.indexOf("giraffe");
-``` 
+```
+    OR
 ```JavaScript
 console.log(animals[1]);
 ```
