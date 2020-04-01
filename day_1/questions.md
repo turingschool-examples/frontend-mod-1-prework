@@ -18,4 +18,5 @@
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 <p>A concatenation is a really complex word for the concept of joining things together.</p>
+
 `console.log("The " + animal + " was never domesticated due to their panicky nature.")`
