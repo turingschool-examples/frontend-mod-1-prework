@@ -23,7 +23,12 @@ class Dog {
   eat() {
     this.hungry = false;
   }
-}
+
+  play() {
+    this.hungry = true;
+  }
+
+};
 
 var fido = new Dog("Bernese", "Fido", 4)
 console.log(fido.breed);
@@ -31,4 +36,5 @@ console.log(fido.name);
 console.log(fido.age);
 console.log(fido.hungry);
 fido.eat();
+fido.play();
 console.log(fido.hungry);
