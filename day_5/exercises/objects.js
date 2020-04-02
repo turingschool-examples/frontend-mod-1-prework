@@ -23,14 +23,14 @@ var zoo = {
 console.log(zoo);
 
 // Using the zoo that you created above, print all the keys in the object.
-console.log(zoo.keys(zoo));
+console.log(Object.keys(zoo));
 
 // Using the zoo that you created above, print all the values in the object.
-console.log(zoo.values(zoo));
+console.log(Object.values(zoo));
 
 // Using the zoo taht you created above, print the value of the first item in
 // the object
-console.log(zoo.shift(zoo));
+console.log(zoo.lions);
 
 // Add an animal to the zoo object and print the updated object.
 zoo.zebras = 3;
