@@ -1,35 +1,11 @@
+var monkeyCount = 10;
+var text = ' little monkeys jumping on the bed, one fell off and bumped his head, Mama called the doctor and the doctor said, "No more monkeys jumping on the bed!"\n';
+var endText = ' little monkeys jumping on the bed, one fell off and bumped his head, Mama called the doctor and the doctor said, "Get those monkeys right to bed!"\n';
+
 function getCount(number) {
-  var monkeyCount = number
+  monkeyCount = number;
 }
 
-var text = ' little monkeys jumping on the bed, one fell off and bumped his head, Mama called the doctor and the doctor said, "No more monkeys jumping on the bed!"';
+getCount(10);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-> Three little monkeys jumping on the bed,
-> One fell off and bumped his head,
-> Mama called the doctor and the doctor said,
-> "No more monkeys jumping on the bed!"
->
-> Two little monkeys jumping on the bed,
-> One fell off and bumped his head,
-> Mama called the doctor and the doctor said,
-> "No more monkeys jumping on the bed!"
->
-> One little monkey jumping on the bed,
-> He fell off and bumped his head,
-> Mama called the doctor and the doctor said,
-> "Get those monkeys right to bed!"
-*/
+console.log(monkeyCount + text + (monkeyCount - 1) + text + (monkeyCount - 2) + endText);
