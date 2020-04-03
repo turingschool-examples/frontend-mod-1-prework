@@ -26,12 +26,6 @@ class CaesarCipher {
           }
       }
     var secretMessage = translatedPhrase.join('');
-    console.log('USER PHRASE: ' + userPhrase);
-    console.log('SLICED endALPHA: ' + endAlpha);
-    console.log('SLICED begALPHA: ' + beginningAlpha);
-    console.log('CIPHERBET: ' + cipherAlphabet);
-    console.log('SPLIT PHRASE: ' + splitPhrase);
-    console.log('TRANSLATED PHRASE: ' + translatedPhrase);
     console.log(secretMessage);
 
   }
