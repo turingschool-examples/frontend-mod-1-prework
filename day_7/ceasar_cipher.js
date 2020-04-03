@@ -13,26 +13,57 @@ and encode it based on a shift value provided by the user.
 The interaction pattern for this program might look something like this:
 
 
-
-```javascript
 var cipher = new CeasarCipher();
 cipher.encode("Hello World", 5); //should log "CZGGJ RJMGY"
-```
+
+
+var cipher = '';
+
+function encode(str, num) {
+  var plain = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  var cipher = '';
+
+  for(var i = 0; i < cipher.length; i++){
+    var firstLetter = cipher[i];
+    if (firstLetter === ''){
+      cipher += firstLetter;
+      continue;
+    }
+    var firstIndex = plain.indexOf(firstLetter);
+    var newIndex = firstIndex + num;
+    // to loop alphabet on inself
+    if (newIndex > 25) newIndex = newIndex - 26;
+    if (newIndex < 0) newIndex = newIndex + 26;
+    else cipher += plain[newIndex];
+  }
+  return cipher;
+}
+
+
+
+function decode(str, num) {
+  var plain = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  var cipher = '';
+  for(var i = 0; i < cipher.length; i++){
+    var firstLetter = cipher[i];
+    if (firstLetter === ' '){
+      cipher += firstLetter;
+      continue;
+    }
+    var firstIndex = plain.indexOf(firstLetter);
+    var newIndex = firstIndex + num;
+    // to loop alphabet on inself
+    if (newIndex > 25) newIndex = newIndex - 26;
+    if (newIndex < 0) newIndex = newIndex + 26;
+    else cipher += plain[newIndex];
+  }
+  return cipher;
+}
+
+
+
+console.log(encode('Hello World', 5)); //should log "CZGGJ RJMGY"
 */
 
-var cipher = {
-    a: 't', b: 'u', c: 'v', d: 'w', e: 'x', f: 'y',
-    g: 'z', h: 'a', i: 'b', j: 'c', k: 'd', l: 'e',
-    m: 'f', n: 'g', o: 'h', p: 'i', q: 'j', r: 'k',
-    s: 'l', t: 'm', u: 'n', v: 'o', w: 'p', x: 'q',
-    y: 'r', z: 's'
-};
 
-  var encode = 'Hello World';
-  for(var i = 0 ; i < cipher.length; i++){
-    
-    encode += decoded[cipher[i]];
-  }
-
-
-  console.log(encode);
+// I was so close but either got a infinite loop or an undefined. I am gonna keep plugging away at this. I just didmt want to obsess about solving to submit my capstone.

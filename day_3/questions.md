@@ -45,11 +45,9 @@ if (userPassword == password) {
 #### 3. What is the JavaScript syntax for an if statement?
 
 ```javascript
-
 if (variable1 >= variable2) {
   console.log('Lorem ipsum dolor sit amet,');
 };
-
 ```
 ---
 

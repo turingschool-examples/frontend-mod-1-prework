@@ -26,26 +26,18 @@ console.log(elevation);
 
 // Create a Library class. Add properties as you wish, but the be sure to include a `collection` property that starts as an empty array.
 class library {
-  constructor(title, author){
+  constructor(name, city, state){
     this.collection = [''];
-    this.title = title;
-    this.author = author;
-  }
-  addBook(){
-    this.collection.push();
-  }
-  titles(){
-
-  }
-  authors(){
+    this.name = name;
+    this.city = city;
+    this.state = state;
 
   }
 }
 
-book1 = new library("Elevation", "Stephen King");
-book1.addBook();
+library1 = new library("Denver Pubilic Library", "Denver", "CO");
+console.log(library1);   
 
-console.log(library);
 
 // If you have time:
 

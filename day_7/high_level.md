@@ -121,3 +121,7 @@ for (var i = 1; i <= size; i++) {
 #### Idea 1
 
 My first thought was to create a class holding the alphabet(keys) with methods that would fill the value's to the appropriate shift in cipher. Creating variables for the string and shift, I would then be able to create an object with the cipher values being applied to the alphabet key. Than create a function that would loop the string letter by letter and logging the encoded string.
+
+#### Idea 2
+
+Create a encode function to use to shift the index of the alphabet to a shift the user wants. I liked the idea of this since it would also be able to copy function rename and use as a decoder. In theory I would be able to input a (str, num) and shift new index to the num.
