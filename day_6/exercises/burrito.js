@@ -15,12 +15,28 @@ class Burrito {
     this.protein = protein;
     this.base = base;
     this.toppings = toppings;
-  }
+}
 };
+
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-// Call the methods here
+
+function add_topping() {
+dinner.toppings.push("sour cream");
+}
+
+function remove_topping() {
+  dinner.toppings.shift();
+}
+
+function change_protein() {
+  dinner.protein = ("Beef");
+}
+
+add_topping();
+remove_topping();
+change_protein();
 
 console.log(dinner.protein);
 console.log(dinner.base);
