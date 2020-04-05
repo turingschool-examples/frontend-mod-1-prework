@@ -22,7 +22,7 @@ Integers are whole numbers (non-fractional). Floating-point numbers are decimals
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
-// concatenation is the process of joining strings together using the plus (+) operator. It returns the concatenated result in a new string.
+Concatenation is the process of joining strings together using the plus (+) operator. It returns the concatenated result in a new string.
 
 `var age = "10";`
 
