@@ -40,7 +40,6 @@ if (thirstLevel < 3) {
 ```
 2.  Why might you want to use an if-statement?
    * An if-statement is used if there is a decision to make in order to determine what line(s) of code should run.
-
 3. What is the JavaScript syntax for an if statement?
 ```
 var input = 0;
