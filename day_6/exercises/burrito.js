@@ -5,9 +5,9 @@ file from your terminal with the command `node day_4/exercises/burrito.js`
 
 Add the following methods to this burrito class and call the methods below
 the class:
-1. add_topping
-2. remove_topping
-3. change_protein
+1. addTopping
+2. removeTopping
+3. changeProtein
 */
 
 class Burrito {
