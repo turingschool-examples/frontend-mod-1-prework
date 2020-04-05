@@ -118,7 +118,7 @@ $ mkdir turing
 $ cd turing
 $ mkdir 0module
 $ cd 0module
-$ git clone <ctrl-v to paste ssh link here >
+$ git clone git@github.com:rwilliams659/frontend-module-0-capstone.git
 Cloning into 'frontend-module-0-capstone'...
 remote: Enumerating objects: 678, done.
 remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
