@@ -2,7 +2,6 @@
 
 1. What is a conditional statement? Give three examples.
    * A conditional statement is a set of rules performed if a condition is met using the concept if/then/else.  *If* a condition is met, *then* it will run the line(s) of code, *else* it will run the next line(s) of code.
-
 ###### Example:
 ```
 var hungry = 8;
@@ -38,9 +37,8 @@ if (thirstLevel < 3) {
 }
 // returns "I gotta pee!"
 ```
-
 2.  Why might you want to use an if-statement?
-   * An if-statement is used if there is a decision to make in order to determine what line(s) of code should run.
+    * An if-statement is used if there is a decision to make in order to determine what line(s) of code should run.
 3. What is the JavaScript syntax for an if statement?
 ```
 var input = 0;
@@ -53,7 +51,6 @@ if (input === 0) {
 ```
 4. How do you add multiple conditions to an if statement?
    * Multiple conditions can be added to an if statement using the `else if` statement.  You must add another condition after `else if`.  If you only have one condition to evaluate, `else` must be used.
-
 5. What is the JavaScript syntax for an if/else if/else statement?
 ```
 var input = 4;
