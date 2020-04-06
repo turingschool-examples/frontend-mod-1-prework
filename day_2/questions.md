@@ -71,7 +71,9 @@ console.log(animals)
 
 1. What are the boolean values in JavaScript?
 
-A boolean variable can only have two values, true or false. This data type is used to make statements such as yes or no, 1 or 0 ad true or false. It is important to remember that in JS, a variable that contains a value is treated as *true*. "0", "NaN", empty strings, 'undefined' and 'null' are treated as *false*.
+A boolean variable can only have two values, true or false. This data type is used to make statements such as yes or no, 1 or 0 ad true or false. It is important to remember that in JS, a variable that contains a value is treated as *true*. "0", "NaN", empty strings, 'undefined' and 'null' are treated as *false*. Boolean allows us to write instructions that are conditioned by one or several factors.
+for example: is the apple green?, then if the value of the last question returns "true" the next instructions will be set by the person writing the code. If the apple is green the code can say do this but, if the apple is not green, then do this other thing.
+The way I like to conceptualize this data type is by writing my idea and then setting the perspective of the the result I'd like to achieve. This is important for me because sometimes what it might look false to me, might be true for someone else, so perspective is crucial when working with this data types.
 
 1. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
@@ -83,6 +85,24 @@ var num2 = 25;
 console.log(num1 == num2)
 //expected output: false
 console.log(num1 === num2)
+//expected output: false
+
+var n1 = 2;
+var n2 = 25;
+var result = n1 == n2;
+console.log(result);
+// expected output: false
+
+var n1 = 2;
+var n2 = 25;
+var result = n1 <= n2;
+console.log(result);
+//expected output: true
+
+var n1 = 2;
+var n2 = 25;
+var result = n1 >= n2;
+console.log(result);
 //expected output: false
 ```
 1. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
