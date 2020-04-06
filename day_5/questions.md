@@ -11,7 +11,7 @@ var petStore = {
   dogBeds: 22,
   catCastles: 12,
   catios: 4
-  fetchToys: 30,
+  chewToys: 30,
 };
 ```
 3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
@@ -23,10 +23,9 @@ var states = {
 };
 console.log(states.IA);
 ```
-
 4. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
 ```javaScript
-states.MN = "Minnesota"; /// console.log(states.MN) would return "Minnesota"
+states.MN = "Minnesota"; // console.log(states.MN) would return "Minnesota"
 ```
 5. What is another example of when we might use a object? In this case, why is a object better than an array?
 
