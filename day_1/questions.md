@@ -8,7 +8,7 @@ console.log(introduction);
 1. What is the character you would use to indicate comments in a JavaScript file?
 
 Either two forward-slashes (//) before one line of comments, or forward-slash + asterick (/\*) to open the comment, followed by asterick + forward-slash (\*/) to close it.
-/*Omit the backslashs in the later example*/
+//* Omit the backslashs in the later example
 
 1. Explain the difference between an integer and a floating-point number?
 
