@@ -19,7 +19,7 @@ var petStore = {
 var states = {
   CO: "Colorado",
   IA: "Iowa",
-  OK: "Oklahome",
+  OK: "Oklahoma"
 };
 console.log(states.IA);
 ```
