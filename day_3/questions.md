@@ -2,9 +2,9 @@
 
 #### 1. What is a conditional statement? Give three examples.
 
-Conditional statements allow us to organize step by step instructions that need to be taken to reach all the different results that a script can follow. They allows to take specific paths depending on which conditions are met or not. Usually conditional statements will let know which line of code should be running once an action is triggered. In order to successfully use such statements it is important to write all the available scenarios that the code should follow.
+Conditional statements allow us to organize step by step instructions that need to be taken to reach a specific goal, this results are the conditions that a script must met in order to show the desired result. A conditional statement allows to take specific paths depending on which condition is met or not. Usually conditional statements will let know which line of code should be running once an action is triggered. In order to successfully use such statements it is important to write all the available scenarios that the code should follow.
 
-A conditional statement is bases on the *if/then/else* concept, which means that  **if** a condition is met, **then** your code executes one or more statements, **else** the code does something different.
+A conditional statement is bases on the *if/then/else* concept, which means that  **if** a condition is met, **then** your code executes one or more statements, **else** the code does something different, I like to think about this last statement as if none of the above applied to you, then do this.
 
 Examples:
 
@@ -31,7 +31,7 @@ console.log("Are you eating enough calories?; " + (myCalories > caloriesIntake))
 
 #### 1. Why might you want to use an if-statement?
 
-Because they allow to evaluate a conditions that can resolve into a single value; either true or false. This is important because if-statements let us decide which path of code should be run next. There are two main components  to a decision:
+Because they allow us to evaluate or set the first condition, this can resolve into a single value; either true or false. This is important because if-statements let us decide which path of code should be run next. There are two main components  to a decision:
 
 * An expression is evaluated, which returns a value.
 * A conditional statement says what to do in a give scenario.
@@ -45,7 +45,7 @@ In an if-statement, if the condition evaluated results in a *true* statement, a 
 var parkedCars = 10;
 var notParked = 0;
 
-if (notParked > parkedCars){
+if (notParked > parkedCars) {
   console.log()
 }
 
