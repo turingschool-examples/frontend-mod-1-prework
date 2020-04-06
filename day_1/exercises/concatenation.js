@@ -12,7 +12,8 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination?
 //What data type is logged after we run this code?
-
+//expected output: My zoo has 7 unicorns!
+//This line of code is run because of type coercion.
 var number = 7;
 var creatures = "unicorns";
 
