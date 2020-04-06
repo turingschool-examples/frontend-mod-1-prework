@@ -16,13 +16,22 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 
 for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
+  console.log(animal[i] "is awesome!");
 }
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-// YOUR CODE HERE
+var foods = ["Cranberries", "Almonds", "Sesame Seeds"];
+
+for (var i = 0; i < foods.length; i ++) {
+  console.log("Add " foods[i] " to shopping list");
+}
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+var numbers = [8, 6, 9];
+var map1 = (numbers.map, x === x * 2));
+console.log(map1);
+
+//Used a map function to iterate over the original array.
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
