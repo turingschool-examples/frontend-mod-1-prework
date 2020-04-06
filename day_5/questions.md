@@ -10,8 +10,8 @@
 var petStore = {
   dogBeds: 22,
   catCastles: 12,
-  catios: 4
-  chewToys: 30,
+  catios: 4,
+  chewToys: 30
 };
 ```
 3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
