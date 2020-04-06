@@ -47,7 +47,10 @@ if (monkey === "one") {
   console.log("Mama called the doctor and the doctor said,");
   console.log("'No more monkeys jumping on the bed!'");
 } else{
-  console.log("");
+  console.log(monkey + " little monkeys jumping on the bed");
+  console.log("One fell off and bumped his head,");
+  console.log("Mama called the doctor and the doctor said,");
+  console.log("'No more monkeys jumping on the bed!'");
 }
 /* expected output: One houndred little monkeys jumping on the bed,
                     One fell off tand bumped his head,
