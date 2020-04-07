@@ -4,7 +4,8 @@ when a numerical value is written.
                     One fell off and bimped his head
                     Mama called the doctor and the doctor said,
                     'No more monkeys jumping on the bed!'
-*/var monkey = 100
+*/
+var monkey = 100
 
 if (monkey ==  1) {
   console.log( monkey + " little monkey jumping on the bed," );
@@ -53,11 +54,8 @@ if (monkey === "one") {
   console.log("'No more monkeys jumping on the bed!'");
 }
 /* expected output: One houndred little monkeys jumping on the bed,
-                    One fell off tand bumped his head,
-                    Mama called the doctor and the doctor said,
-                    'No more monkeys jumping on the bed!'
+                    "One fell off tand bumped his head,",
+                    "Mama called the doctor and the doctor said,",
+                    'No more monkeys jumping on the bed!'*/
 // ---------------------------------------------------
-// /* expected output: twenty little monkeys jumping on the bed,
-//                     One fell off and bumped his head,
-//                     Mama called the doctor and the doctor said,
-//                     "No m"*/
+//
