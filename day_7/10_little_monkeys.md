@@ -19,3 +19,5 @@ Create a file named `10_little_monkeys.js` and within that file, write a program
 
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
+
+Yes, just change the condition and expressions that constitute the for loop.
