@@ -31,7 +31,7 @@ if (bearChoice === 1) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearClothing === 3) {
+} else if (bearChoice === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become its best friend!");
