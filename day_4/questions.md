@@ -2,7 +2,7 @@
 
 1. In your own words, what is the purpose of a function?
 
-A function is a set of instructions that you give a program.
+A function is a set of instructions that you give a program - a function allows your program to carry out tasks.
 
 1. What is a parameter?
 
@@ -16,7 +16,7 @@ A return value is the result of your function - when you specify a return value,
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
 ```
-function hello () {
+function hello() {
   console.log("Sam I am");
 }
 ```
