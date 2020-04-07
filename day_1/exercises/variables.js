@@ -23,5 +23,5 @@ console.log(moreStudents);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
-var students = students - 2;
-console.log(students);
+var lessStudents = students - 2;
+console.log(lessStudents);
