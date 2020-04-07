@@ -41,15 +41,34 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+The code is checking if the doorChoice is exactly equal to the integer 1.
+If so the code is assiging the variable bearClothing to the string value "hat".
+If doorChoice is anything other than the integer 1, the code assigns bearClothing the stirng value "scarf"
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+The output log will be "You offer the bear the scarf and the bear shows you a secret passage out!"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+The code fist checks if bearChoice is exactly the integer 1. If so it outputs the message regarding giving the bear your bearClothing and it showing you the way out.
+If bearChoice is not integer 1, the code then checks if bearChoice is exactly integer 2. If so it outputs the message about talking to the bear about bearClothing and it starting to cry.
+If bearChoice is not integer 1 or integer 2, the code checks if it is exactly integer 3. If so it ouptups code about running into a room of snakes.
+Finally if bearClothing is anything other than exactly integer 1, 2, or 3, the code will execute to output that you and th bear become friends.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+The ouput log will be "You run as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+The output log will be "You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+I like the hidden ending of not making one of the given choices of reaction to the bear and becoming the bears friend.
 */
