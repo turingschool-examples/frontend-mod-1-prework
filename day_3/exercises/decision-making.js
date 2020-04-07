@@ -41,15 +41,35 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+The code between lines 17 and 21 is the first if/else statement. It's making a decision based on the user's input -
+if the user assigns the value 1 to the variable doorChoice, then the variable bearClothing is declared with the value
+of "hat". If the user assigns any other value to doorChoice, the variable bearClothing is declared with a value of "scarf".
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+"scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+This is another if/else statement. It has a list of options, with specific scenarios for variable assignments of 1, 2, 3,
+and then another scenario for any other input. It works through each option in the statement to see where the value of the
+variable matches, and then performs whatever actions are specified inside after the corresponding if statement. If the variable
+value doesn't match either 1, 2, or 3, then the script performs whatever's specified inside of the final else statement.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+If you assign a value of 3 to the variable bearChoice, you end up running into a room full of snakes.
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+"You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+I'm torn between being the bear's best friend and finding the secret escape tunnel. On one hand, having a bear as a best friend
+would be pretty cool. On the other, I don't want to be stuck down there forever, and secret tunnels are pretty sweet.
 */
