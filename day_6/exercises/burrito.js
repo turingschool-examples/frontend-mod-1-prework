@@ -22,6 +22,6 @@ var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
 // Call the methods here
 
-console.log(dinner.protein);
-console.log(dinner.base);
-console.log(dinner.toppings);
+console.log(dinner.protein); Beans
+console.log(dinner.base); Rice
+console.log(dinner.toppings); ["cheese", "salsa", "guacamole"]
