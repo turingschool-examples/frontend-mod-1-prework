@@ -3,7 +3,7 @@
 ---
 I would need to start by assigning each letter in the alphabet a number value, so I would create an "alphabet" object doing exactly that, with the letters as the keys and the numbers as the values.  
 ```
-var alphabet {
+var alphabet = {
   'A': 1,
   'B': 2,
   'C': 3,
