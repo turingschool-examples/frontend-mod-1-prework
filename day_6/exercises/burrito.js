@@ -22,21 +22,21 @@ class Burrito {
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
 
-function add_topping() {
+function addTopping() {
 dinner.toppings.push("sour cream");
 }
 
-function remove_topping() {
+function removeTopping() {
   dinner.toppings.shift();
 }
 
-function change_protein() {
+function changeProtein() {
   dinner.protein = ("Beef");
 }
 
-add_topping();
-remove_topping();
-change_protein();
+addTopping();
+removeTopping();
+changeProtein();
 
 console.log(dinner.protein);
 console.log(dinner.base);
