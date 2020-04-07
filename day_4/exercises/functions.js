@@ -14,8 +14,8 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName("Ian Holladay") { // hint.. add a parameter on this line :)
-console.log(printName)
+ian = "Ian Holladay";
+function printName(ian) { // hint.. add a parameter on this line :)
 };
 
 printName();
@@ -31,6 +31,7 @@ printSum(2, 5);
 // the end result might be "When Harry Met Sally".  Then, call that function.
 var fox = "The quick brown fox";
 var dog = " jumped over the lazy dog.";
-function goodBoy(fox, dog); {
-  console.log(fox + dog);
-}
+function goodBoy(fox, dog) {
+};
+
+ console.log(fox + dog);
