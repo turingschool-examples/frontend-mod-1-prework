@@ -15,3 +15,8 @@ console.log(1 == 2);
 
 // example: log to the console the result of 7 is  not equal to 2:
 console.log(1 == 2);
+//there didn't seem to be any prompts so i made my own. 
+var isON = true
+console.log(isON);
+var isOff = false
+console.log(isOff);
