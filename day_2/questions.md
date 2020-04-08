@@ -1,17 +1,34 @@
-## Day 2 Questions
+# Day 2 Questions
 
-1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
+## Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-1. Save the array you created above to a variable `animals`.
+`var animals = ["zebra", "giraffe", "elephant"];`
 
-1. using the array `animals`, how would you access `"giraffe"`?
+## Save the array you created above to a variable `animals`.
 
-1. How would you add `"lion"` to the `animals` array?
+`var animals = ["zebra", "giraffe", "elephant"];`
 
-1. Name and describe two additional array methods.
+## using the array `animals`, how would you access `"giraffe"`?
 
-1. What are the boolean values in JavaScript?
+`animals[1];`
 
-1. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+## How would you add `"lion"` to the `animals` array?
 
-1. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+`animals.push("lion");`
+
+## Name and describe two additional array methods.
+
+`pop()` removes the last array item
+`shift()` removes the first array item
+
+## What are the boolean values in JavaScript?
+
+`true` or `false`
+
+## In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
+
+`2 == 25` expected output: false
+
+## In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
+
+`25 > 2` expected output: true

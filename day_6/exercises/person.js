@@ -9,3 +9,23 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person {
+  height = "68 inches";
+  age = 26;
+  hungry = false;
+  goJogging() {
+    console.log("Why did I excersize? I'm so hungry now");
+    this.hungry = "true";
+    console.log(this.hungry);
+  }
+  eatFood() {
+    console.log("Oh I could eat this for every meal, it's so good.")
+    this.hungry = "false";
+    console.log(this.hungry)
+  }
+}
+
+var greyson = new Person();
+
+greyson.goJogging();
+greyson.eatFood();

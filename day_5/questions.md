@@ -1,13 +1,32 @@
 ## Day 5 Questions
 
-1. What is an Object, and how is it different from an Array in Javascript?
+## What is an Object, and how is it different from an Array in Javascript?
 
-1. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
+Objects are complex data types which store multiple values. They're different from arrays in that they aren't *ordered* and their values can be called via strings, or *keys*. Data in an object becomes a property or a method of the object, made up of values (data or functions) and keys. They can also store variables.
 
-1. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
+## In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
 
-1. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
+``` var petStore {
+  dogBowls: 40,
+  catFoodBags: 80,
+  leashes: 60,
+  petTags: 30,
+  booties: 30
+};
+```
 
-1. What is another example of when we might use a object?  In this case, why is a object better than an array?
+## Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-1. What questions do you still have about objects?
+`states.IA;`
+
+## How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
+
+`states.MN = "Minnesota";`
+
+## What is another example of when we might use a object?  In this case, why is a object better than an array?
+
+We might want to use an object when it has a function directly related to the data within the object. This is better because arrays cannot store functions.
+
+## What questions do you still have about objects?
+
+I'm good right now. 
