@@ -23,7 +23,7 @@ console.log(animals.length);
 console.log(food.length);
 
 // Write code below that will log "Zebra" from the animals array
-alert(animals[0]);
+console.log(animals[0]);
 
 // Write code using bracket notation that will log the first item in the animals array
 var forbiddenHorse = animals[0];
@@ -38,7 +38,7 @@ console.log(bigFriend);
 animals.splice(2, 1, "Gorilla");
 
 // Write code below that will log the last item from the foods array.
-alert(food[4]);
+console.log(food[4]);
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result

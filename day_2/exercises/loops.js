@@ -3,7 +3,7 @@
 
 // example: Write code that logs to the console your name 5 times:
 for (var i = 0; i < 5; i++) {
-  console.log("Hermione Granger");
+  console.log("Brigette Doelp");
 }
 
  // Write code below that logs to the console the sum of 2 plus 2 7 times:
