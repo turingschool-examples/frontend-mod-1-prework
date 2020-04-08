@@ -14,11 +14,12 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() {
-  console.log("Brigette Doelp")
+function printName(name) {
+  var name = ("Brigette Doelp")
+  console.log(name)
 };
 
-printName();
+printName(name);
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
@@ -28,7 +29,8 @@ function add(one, two) {
 add (6, 7)
 
 //literally spent a half hour on this and overcomplicated the poop outta it till i
-//remembered i'm literally only adding step back you're not splitting the atom AAAAAHHH nailed it.
+//remembered i'm literally only adding!! Step back you're not splitting the atom AAAAAHHH
+//Nailed it tho.
 
 
 // Write a function that takes in two strings and prints a concatenation
