@@ -13,3 +13,5 @@ The output of you program will look something like this:
 
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
+
+Yes, just change the condition and expressions that constitute the for loop.
