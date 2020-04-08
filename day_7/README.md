@@ -4,8 +4,14 @@ Congrats on making it through the first 6 days of Mod 0! Today, you will be putt
 
 When you have completed the activities for day 7 you will submit your work through a GitHub Pull Request - see below for instructions on how to do that.
 
-## Open your local copy of frontend-module-0-capstone
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/0module/frontend-module-0-capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
+## Open your local copy of frontend-module-0-capstone 1. Using your terminal,
+#open the local copy of the repository that you created during setup.  To do
+#this, you will need to use the terminal command `cd` to change into the
+#directory that holds the repository - if you followed the suggested directory
+#structure from the setup, you should be able to run the following command from
+#your home directory `cd turing/0module/frontend-module-0-capstone`. Once you
+#are in the correct directory, use the terminal command `atom .` to open the
+#repository in Atom.
 
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 

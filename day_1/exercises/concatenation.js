@@ -10,8 +10,10 @@ var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
-// What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-
+// What happens if you include other data types when you use concatination?
+//What data type is logged after we run this code?
+//expected output: My zoo has 7 unicorns!
+//This line of code is run because of type coercion.
 var number = 7;
 var creatures = "unicorns";
 
@@ -19,10 +21,11 @@ console.log("My zoo has " + number + " " + creatures + "!")
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
-var speedy = "quick red fox";
+var speedy = "quick red fox ";
 var slowPoke = "lazy brown dog";
+var action = "jumped over ";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + action + "the " + slowPoke );
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -31,4 +34,4 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy);
