@@ -38,7 +38,7 @@ They are statements that are either true or false.
 ```var firstVar = 2```
 ```var secondVar = 25```
 
-console.log(firstVar == secondVar)```
+```console.log(firstVar == secondVar)```
 
 The result would read false.
 
