@@ -1,9 +1,11 @@
 <h1>Pop, Push, Shift, Unshift</h1>
 
-<p>Pop; A method that takes the last element in an array and 'pops' it out of the array. It can be later checked in the console log what was popped from the array. </p>
+___
 
-<p>Push; The opposite of 'pop', a 'push' adds an element to the end of a specified array. </p>
+**Pop;** A method that takes the last element in an array and 'pops' it out of the array. It can be later checked in the console log what was popped from the array.
 
-<p>Shift; This removes the first element in an array, as opposed to removing the last element with 'pop'. The element that was removed can later be checked in the console log.</p>
+**Push;** The opposite of 'pop', a 'push' adds an element to the end of a specified array.
 
-<p>Unshift; Similar to what 'push' is to 'pop', 'unshift' adds an element to the beginning of a specified array.</p>
+**Shift;** This removes the first element in an array, as opposed to removing the last element with 'pop'. The element that was removed can later be checked in the console log.
+
+**Unshift;** Similar to what 'push' is to 'pop', 'unshift' adds an element to the beginning of a specified array.
