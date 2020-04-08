@@ -22,8 +22,8 @@ ___
 
 The 'fill' method fills an array from one specified point to another with a single element. Ex;
 
-```var dndPartyRaces = ["human", "elf", "dwarf", "halfling", "dragonborn"];
-console.log(dndPartyRaces.fill("tiefling", 2, 5));```
+```var dndPartyRaces = ["human", "elf", "dwarf", "halfling", "dragonborn"];```
+```console.log(dndPartyRaces.fill("tiefling", 2, 5));```
 
 The expected output of the array is ;
 
@@ -35,8 +35,8 @@ They are statements that are either true or false.
 
 **7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?**
 
-```var firstVar = 2
-var secondVar = 25
+```var firstVar = 2```
+```var secondVar = 25```
 
 console.log(firstVar == secondVar)```
 
