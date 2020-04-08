@@ -6,7 +6,7 @@ ___
 ```console.log(" 'Hello World! ")```
 
 **2. What is the character you would use to indicate comments in a JavaScript file?**
-```//```
+<p> ```//``` </p>
 
 **3. Explain the difference between an integer and a floating-point number?**
 For simplicities sake, I'll say that an integer is a 'whole' number while a float is either a decimal or a fraction. Even though both include negatives, which aren't technically whole numbers, but yeah.
