@@ -1,14 +1,15 @@
 ## Day 1 Questions
+___
 
-1. How would you log the string `"Hello World!"` to the console?
+**1. How would you log the string `"Hello World!"` to the console?**
 
-```console.log(" 'Hello World!'' ")```
+```console.log(" 'Hello World! ")```
 
-1. What is the character you would use to indicate comments in a JavaScript file?
-<p>//</p>
+**2. What is the character you would use to indicate comments in a JavaScript file?**
+```//```
 
-1. Explain the difference between an integer and a floating-point number?
-<p>For simplicities sake, I'll say that an integer is a 'whole' number while a float is either a decimal or a fraction. Even though both include negatives, which aren't technically whole numbers, but yeah.</p>
+**3. Explain the difference between an integer and a floating-point number?**
+For simplicities sake, I'll say that an integer is a 'whole' number while a float is either a decimal or a fraction. Even though both include negatives, which aren't technically whole numbers, but yeah.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 `var animal = "zebra"`
