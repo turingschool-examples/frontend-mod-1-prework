@@ -45,9 +45,9 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 6;
+var numQuarters = 2;
 
-if (numQuarters >= 2) {
+if (numQuarters > 1) {
   console.log("I have enough money for a gumball");
 } else {
   console.log("I don't have enough money for a gumball");

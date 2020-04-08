@@ -12,7 +12,7 @@ console.log(pick);
 // will return ['tooth', 'guitar', 'ice', 'hair']
 ```
 
-* **Array.push()**. Instead of extracting the last element of an array and storing it, like `.pop()` does, `.push()` takes elements that it is storing, and concatenates them to the end of your existing array. When called to the console, it then prints the new length of the array:
+* **Array.push()**. Instead of extracting the last element of an array and storing it, like `.pop()` does, `.push()` takes elements that it is storing, and adds them to the end of your existing array. When called to the console, it then prints the new length of the array:
 
 ```JavaScript
 var detectives = ['Holmes', 'Poirot', 'Clouseau', 'Monk'];
