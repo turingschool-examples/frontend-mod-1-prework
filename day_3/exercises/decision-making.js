@@ -41,6 +41,9 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+If you choose door 1, and ONLY door 1, then that code block resolves as true, and is executed. If it does not resolve as true,
+then the else statement resolves as true.
+
 2. What variable has a new value assigned to it after the first if statement executes?
 
 bearClothing
@@ -50,6 +53,10 @@ bearClothing
 Scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+Similar to what is happening between lines 17 - 21, only with logging info! If the first statement resolves as true, then
+the statement is logged with the clothing choice. If that first statement resolves as false, it moves onto the next,
+and the next until you hit one that resolves as true and prints the data.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 

@@ -70,5 +70,8 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 if (cupsOfFlour == 1 + hasSauce == true) {
-  console.log("I cannot make a pizza")
+  console.log("I cannot make a pizza");
+}
+else{
+  console.log("I can make a pizza");
 }
