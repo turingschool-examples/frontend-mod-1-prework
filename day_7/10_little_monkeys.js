@@ -1,9 +1,18 @@
-function tenLittleMonkeys(allMonkeys, oneLessMonkey, twoLessMonkeys) {
-  var allMonkeys = "Ten"
-  var oneLessMonkey = "Nine"
-  var twoLessMonkeys = "Eight"
-  console.log(allMonkeys.concat(" little monkeys jumping on the bed, One fell off and bumped his head, Mama called the doctor and the doctor said, 'No more monkeys jumping on the bed!'"));
-  console.log(oneLessMonkey.concat(" little monkeys jumping on the bed, One fell off and bumped his head, Mama called the doctor and the doctor said, No more monkeys jumping on the bed!"));
-  console.log(twoLessMonkeys.concat(" little monkeys jumping on the bed, He fell off and bumped his head, Mama called the doctor and the doctor said, 'Get those monkeys right to bed!'"));
+function monkeyRhyme (numberOfMonkeys) {
+  var oneMonkey = '"Get those monkeys right to bed!"';
+  var moreThanOneMonkey = '"No more monkeys jumping on the bed!"';
 
+  for (var i = numberOfMonkeys; i > 0; i--) {
+    var str = i + ' little monkeys jumping on the bed,\nOne fell off and bumped his head,\nMama called the doctor and the doctor said '
+
+    if (i > 1) {
+      str = str.concat(moreThanOneMonkey);
+    } else {
+      str = str.concat(oneMonkey);
+    }
+
+    console.log(str);
+  }
 }
+
+monkeyRhyme(10);
