@@ -41,7 +41,7 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
-The script has two code blocks it can execute depending on which variable the user chooses (1 or 2). If the user chooses 1, the first code block is executed. Any other choice by the user will result doorchoice != 1, and would allow for the second code block to run. In either circumstance, the variable bearClothing gets a string assignment.
+The script has two code blocks it can execute depending on how the user assigns the variable doorChoice. If the user chooses 1, the first code block is executed. Any other choice by the user will result doorchoice != 1, and second (else) code block would run. In either circumstance, the variable bearClothing gets a certain string assignment.
 
 2. What variable has a new value assigned to it after the first if statement executes?
 
@@ -65,5 +65,5 @@ The script is given 3 specific conditions which can yield different results, and
 
 7. What is your favorite ending?
 
-"You offer the bear your scarf and the bear shows you a secret passage out!" Because it implies that I'm wearing a scarf big enough for a bear. 
+"You offer the bear your scarf and the bear shows you a secret passage out!" because it implies that I'm wearing a scarf big enough for a bear. 
 */

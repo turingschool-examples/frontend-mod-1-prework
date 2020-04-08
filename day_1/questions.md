@@ -6,7 +6,7 @@
 
 ## What is the character you would use to indicate comments in a JavaScript file?
 
-For a single line comment: two backslashes. For a multi-line comment, or one with code directly following on the line,  a backslash followed by an asterisk to open the comment and an asterisk followed by a backslash to close.
+For a single line comment: two backslashes. For a multi-line comment, or one with code directly following on the same line, use a backslash followed by an asterisk to open the comment and an asterisk followed by a backslash to close.
 
 ## Explain the difference between an integer and a floating-point number?
 
@@ -24,4 +24,4 @@ Integers must be whole numbers. Floating-point numbers can contain decimal value
 
 Concatenation is the combining of multiple strings using the plus operator. It's an important distinction because it uses a mathematical operator outside of arithmetic to add together values that aren't numbers.
 
-```console.log("I was planning on riding my " + animal + "to school every day, but then we were quarantined and I had to send my " + animal + "to a farm so it could get proper exercise while I am housebound.");```
+```console.log("I was planning on riding my " + animal + " to school every day, but then we were quarantined and I had to send my " + animal + " to a farm so it could get proper exercise while I am housebound.");```

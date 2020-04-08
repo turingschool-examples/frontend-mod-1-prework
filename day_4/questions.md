@@ -10,7 +10,7 @@ Parameters provide data that the function needs in order to operate. This is whe
 
 ## What is a return value?
 
-Return values are data that is created by a function. For instance, if the function is performing addition it could return a sum. Using return ends the code, and any following statements are not executed. Returns allow data created by a function to be used in other parts of the script.
+Return values are data that is created by a function. For instance, if the function is performing addition it could return a sum. Using `return` ends the code, and any following statements are not executed. Returns allow data created by a function to be used in other parts of the script.
 
 ## In the space below, create a function named `hello` that will print `"Sam I am"`.
 
@@ -27,8 +27,8 @@ Return values are data that is created by a function. For instance, if the funct
 ```
 ## How would you call or execute the function that you created above?
 
-`hello_someone(Yoda)`
+`hello_someone("Yoda")`
 
 ## What questions do you still have about functions in Javascript?
 
-Not at the moment, but I'll be sure to add them here if they come up. 
+I'm not super confident that I can effectively use `return` and return values. 

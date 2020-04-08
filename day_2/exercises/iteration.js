@@ -28,11 +28,12 @@ var shoppingList = [];
 
 for (var i = 0; i < foods.length; i++) {
   shoppingList.push(foods[i]);
+  console.log("Add " + foods[i] + " to shopping list.")
 }
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
 var numbers = [82, 34, 3, 10, 29, 19];
 
-for (var i=0; i < numbers.length; i++) {
+for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] * 2);
 }

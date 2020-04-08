@@ -2,11 +2,11 @@
 
 ## Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-`var animals ["zebra", "giraffe", "elephant"];`
+`var animals = ["zebra", "giraffe", "elephant"];`
 
 ## Save the array you created above to a variable `animals`.
 
-`var animals ["zebra", "giraffe", "elephant"];`
+`var animals = ["zebra", "giraffe", "elephant"];`
 
 ## using the array `animals`, how would you access `"giraffe"`?
 

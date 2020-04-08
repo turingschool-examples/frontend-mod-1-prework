@@ -26,7 +26,7 @@ console.log(foods.length);
 console.log(animals[0]);
 
 // Write code using bracket notation that will log the first item in the animals array
-console.log(animals[0]); // spoke with Mason France, couldn't figure out if this is looking for something different from the last question.
+console.log(animals[0]); // spoke with Mason France, couldn't figure out if this is looking for something different from the last question, he said to answer it the same for now. 
 
 // Write code using bracket notation that will log the last item in the animals array
 console.log(animals[2]);
