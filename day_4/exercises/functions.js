@@ -16,7 +16,7 @@ printName();
 
 function printName(name) { // hint.. add a parameter on this line :)
   var name = 'Stephanie Norton'
-  console.log(name)
+
 };
 
 printName();
