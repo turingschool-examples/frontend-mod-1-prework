@@ -33,7 +33,7 @@ since the firstVar is an integer value and the thirdVar is a string value, altho
 the comparison still evaluates to false.
 */
 
-// log the result of the comparison: is firstVar not equal to secondVar?
+// log the result of the comparison: is firstVar not equal to secondVa
 console.log(firstVar != secondVar); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 20?
