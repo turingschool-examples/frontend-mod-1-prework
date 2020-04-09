@@ -7,7 +7,7 @@ file from your terminal with the command `node day_4/exercises/functions.js`
 //example: Write a function below that, when called will print your name
 function printName() {
   console.log("Severus Snape");
-};
+}
 
 printName();
 
@@ -16,8 +16,8 @@ printName();
 
 function printName(name) { // hint.. add a parameter on this line :)
   var name = 'Stephanie Norton'
-
-};
+  console.log(name)
+}
 
 printName();
 
