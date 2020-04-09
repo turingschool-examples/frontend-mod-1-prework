@@ -23,10 +23,14 @@ for (var i = 0; i < animals.length; i++) {
 // <food> to shopping list" for each food item.
 var food = ["milk", "bread", "bananas", "spinach", "yogurt"]
 
-for (var i=0; i < food.length; i++) {
+for (var i = 0; i < food.length; i++) {
   console.log("Add " + food[i] + " to shopping list")
 }
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+for (var i = 0; i < 7; i++) {
+  console.log(numbers[i] * 2)
+}
