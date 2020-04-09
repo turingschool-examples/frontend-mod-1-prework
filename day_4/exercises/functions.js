@@ -6,7 +6,7 @@ file from your terminal with the command `node day_4/exercises/functions.js`
 
 //example: Write a function below that, when called will print your name
 function printName() {
-  console.log("Severus Snape");
+  console.log();
 }
 
 printName("Severus Snape");
