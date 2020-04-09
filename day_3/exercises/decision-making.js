@@ -41,15 +41,29 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+- Inbetween these lines of code, we see 2 options being presented in the form of an If/else statement. If the user selected door #1, the "if" statement will return true and the user will be presented with a bear putting on a hat. If the user selected choice numnber 2, the "if" statement will return false and the "else" statement will run, in which the bear is wearing a scarf.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+- After the first if statement executes, the variable "bearClothing" has a new value assigned. If the "if" statement returns true, the bearClothing value of "hat" is assigned. If false, the bearClothing value of "scarf" is assigned.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+- If the doorChoice variable was changed to equal 3, and assuming the original doorChoice if/else statement was not changed, the bearClothing would be "scarf".
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+- Between lines 31 through 38, an else if statement is being interjected between an if else statement. This allows for multiple outcomes instead of only 2 outcomes that an if else statement provides. In this scenario, 4 possible outcomes are being presented, depending on the user's choice.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+- If bearChoice === 3, the final outcome would return the results: "You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+- The final outcome in this scenario would return the results: "You tell the bear the hat is too small and it starts to cry"
+
 7. What is your favorite ending?
+
+- My favorite ending would be "You tell the bear the " + bearClothing + " is too small and it starts to cry!" mostly because it's a silly ending that 1: of all things that would be the first thing you'd say upon seeing a bear. And 2: The bear understands you and responds accordingly.
 */
