@@ -19,7 +19,8 @@ var petStore = {
 
 `states.MN = 'Minnesota';`
 
-1. What is another example of when we might use a object?  In this case, why is a object better than an array?
+1. What is another example of when we might use a object?  In this case, why is a object better than an array?  
+   
 A webpage showing a list of hiking trails. An object is better than an array because we want to access the same information over and over again **and** have the ability to change the values of the key-value pairs each time.
 
 i.e. each hiking trail would have the same property (key) names: trailName, length, difficulty, directions, but the values for each of these keys would be different depending on each specific hike.
