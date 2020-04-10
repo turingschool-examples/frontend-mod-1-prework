@@ -1,0 +1,52 @@
+vehicle
+
+make (string)
+model (string)
+year (integer)
+gasCapacity (float)
+color (string)
+tankFullness (float)
+tirePressure (integer)
+recommendedPressure (integer)
+seatbeltOn (boolean)
+
+methods:
+howOld (current year - year)
+changeColor (reassign color)
+fillGas (gasCapacity - tankFullness)
+fixPressure (if recommendedPressure <== tirePressure then fillAir)
+seatbeltUse (if seatbeltOn != true, then print "Put on your seatbelt")
+
+Nick's car
+Make = jeep
+model = renegade
+year = 2016
+gasCapacity = 14
+color = silver
+tankFullness = 2.3
+tirePressure = 35
+recommendedPressure = 35
+seatbeltOn = yes
+
+howOld = 2020 - 2016 = 4
+changeColor = (color = red)
+fillGas (14 - 2.3 = 11.7)
+fixPressure = (no action taken)
+seatbeltUse = true, no action
+
+Cameron's car
+Make = Hyundai
+model = santa fe
+year = 2009
+gasCapacity = 14
+color = silver
+tankFullness = 7
+tirePressure = 35
+recommendedPressure = 35
+seatbeltOn = true
+
+howOld (2020 - 2009 = 11)
+changeColor = (color = black)
+fillGas (14 - 7 = 7)
+fixPressure (no action taken)
+seatbeltUse (true, no action taken)
