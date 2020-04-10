@@ -41,15 +41,38 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+In lines 17 - 21 there is a else if statement tht says if the doorChoice is strictly equal to 1 then the bear clothing is a "hat".
+If it is not strictly equal to 1, then the bearClothing is a scarf.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+After the statement executes the bearClothing has a new value assigned to it.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+I the variable doorChoice was changed to 3, then the bearClothing value would be a scarf.
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+What is happening between these lines is another elseif statement. This states that, if the bearChoice is strictly equal to 1, then
+you offer your "hat" and it shows you a secret way out--in the original instance. If the bear choice is not equal strictly equal to 1,
+but equal to 2, then you tel the bear that his/her hat is too small and it starts to cry. However, if the bearChoice is not strictly
+equal to 1, or 2, but is strictly equal to 3, then you run as fast as you can into the room full of snakes, unfortunately.
+Finally if the bearChoice is not strictly equal to any of these numbers, then you stay with the bear and become its best friend.
+
+Essentially, in these lines its saying if the first option is false, then try the second option, if that is false, then try the third. Once one is
+deemed true, then the console log returns the message specific to the tue statement.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+If the bear choice was changed to equal 3, then the log reads "You run as fast as you can into the next room. It's full of snakes!".
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+Given these parameters, the final outcome would be: "You tell the bear the 'hat' is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+I love the ending where you give it your clothing and it shows you a secret passage out.
+
 */
