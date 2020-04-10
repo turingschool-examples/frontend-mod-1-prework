@@ -13,11 +13,11 @@ var petStore = {
 
 1. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-`Object.values(states)[1];``
+`Object.values(states)[1]`;
 
 1. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
 
-`states.MN = 'Minnesota'`
+`states.MN = 'Minnesota';`
 
 1. What is another example of when we might use a object?  In this case, why is a object better than an array?
 A webpage showing a list of hiking trails. An object is better than an array because we want to access the same information over and over again **and** have the ability to change the values of the key-value pairs each time.
