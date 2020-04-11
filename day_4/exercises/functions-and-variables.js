@@ -13,7 +13,7 @@ why local variables within a function definition cannot access data outside of t
 Note: to run one exercise at a time, comment out the exercises that you don't want to see the results for!
 */
 
-var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
+/*var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
 
 function scopedFunction() {
   var ourNumber = 3;
@@ -28,7 +28,7 @@ What's the value of ourNumber? Still 5, because function definitions create thei
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
 
-var ourNumber = 5;
+/*var ourNumber = 5;
 
 function scopedFunction() {
   var ourNumber = 3;
@@ -49,7 +49,7 @@ does not alter the argument that is passed into it.
 Let's say we have a variable ourArray that stores an array. We'll cover arrays in more depth later as well but
 for now just remember our earlier explanation of arrays as ordered lists. Run this code to see the result.
 */
-
+/*
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray[2]);
 };
