@@ -1,11 +1,31 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/person.js`
+file from your terminal with the command `node day_6/exercises/person.js`
 
 Create a person class with at least 2 properties and 2 behaviors.  Call all
 person methods below the class so that they print their result to the
 terminal.
 */
+class person {
+  constructor(inShape, homeState) {
+    this.inShape = inShape;
+    this.homeState = homeState;
+  }
 
-// YOUR CODE HERE
+  exercise() {
+    this.inShape = true;
+  }
+
+  move() {
+    this.homeState = "Colorado";
+  }
+}
+
+var jp = new person(false, "Wyoming")
+
+jp.exercise();
+jp.move();
+
+console.log(jp.inShape);
+console.log(jp.homeState);
