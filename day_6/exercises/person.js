@@ -9,3 +9,29 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person {
+  constructor (name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.hair = color;
+  }
+  ageOneYear() {
+    this.age = this.age + 1;
+  }
+  grayHair() {
+    this.hair = "gray";
+  }
+}
+
+var nicole = new Person ("Nicole", 30, "brown");
+
+console.log(nicole.name);
+console.log(nicole.age);
+console.log(nicole.hair);
+
+nicole.ageOneYear();
+nicole.grayHair();
+
+console.log(nicole.name);
+console.log(nicole.age);
+console.log(nicole.hair);
