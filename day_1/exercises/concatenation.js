@@ -23,6 +23,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
+ 
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
