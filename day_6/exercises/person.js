@@ -9,3 +9,26 @@ terminal.
 */
 
 // YOUR CODE HERE
+class person {
+    constructor(name, age, city) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+        this.status = true;
+    }
+
+     sendBirthdayMessage() {
+       console.log(`Happy Birthday, ${this.name}!`);
+    }
+
+      thankYouMessage() {
+        if (this.status === true) {
+        console.log("Thanks for being a loyal customer.")
+    }
+  }
+}
+var user1 = new person ("Stephanie Norton", 29, "Boston");
+console.log(user1);
+
+user1.sendBirthdayMessage()
+user1.thankYouMessage()
