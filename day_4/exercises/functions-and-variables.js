@@ -57,7 +57,6 @@ function getLastValue(functionArray) {
 var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
-console.log("Check the array after calling getLastValue: " + ourArray);
 
 /*
 In the above code, we passed ourArray to the getLastValue function. In getLastValue, the value of ourArray
