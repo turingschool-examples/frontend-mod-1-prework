@@ -15,3 +15,5 @@ console.log(1 == 2);
 
 // example: log to the console the result of 7 is  not equal to 2:
 console.log(1 == 2);
+
+//was I supposed to make a phrase here? I didn't see any YOUR CODE HERE lines.
