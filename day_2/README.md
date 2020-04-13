@@ -98,4 +98,4 @@ The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is lik
 * document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 * document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
 * el.innerHTML(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-* el.textContent(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+* el.textContent(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) 

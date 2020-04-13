@@ -1,0 +1,17 @@
+var name = "Elvis";
+console.log(this.name)
+var human = {name: "Imogen"};
+
+function sayName() {
+  console.log("Hello! My name is " + this.name);
+}
+
+sayName();
+
+human.getName = sayName;
+console.log(human);
+human.getName();
+
+var humanoid = {name: "IRobot", getname: sayName};
+console.log(humanoid);
+humanoid.getname(); 

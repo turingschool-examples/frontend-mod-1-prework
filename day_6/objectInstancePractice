@@ -1,0 +1,22 @@
+class Laptop {
+  constructor (color, storageAmount, brand, screenSize) {
+    this.color = color;
+    this.storageAmount = storageAmount;
+    this.brand = brand;
+    this.screenSize = screenSize;
+  }
+
+  turnOn () {
+    this.power = true;
+  }
+}
+
+var rachelsLaptop = new Laptop("silver", "16GB", "Dell", "13.5in");
+var tomsLaptop = new Laptop("black", "16GB", "HP", "17in");
+var sarahsLaptop = new Laptop("white", "4GB", "Apple", "15in");
+
+console.log(rachelsLaptop);
+console.log(tomsLaptop);
+console.log(sarahsLaptop);
+sarahsLaptop.turnOn();
+console.log(sarahsLaptop);
