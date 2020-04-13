@@ -19,15 +19,13 @@ Create a file named `10_little_monkeys.js` and within that file, write a program
 ### Bonus
 Can you write the program so that it will run for any number of monkeys?
 */
+var numbers = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
 
-function littleMonkeys(monkeys) {
-  for (var i = monkeys; i > 0; i--){
+
+  for (var i = 10; i > 0; i--){
     if (i == 1) {
-      console.log(i + ' little monkey jumping on the bed, \nHe fell off and bumped his head, \nMama called the doctor and the doctor said, \n"Get those monkeys right to bed!" \n');
+      console.log(numbers[0] + ' little monkey jumping on the bed, \nHe fell off and bumped his head, \nMama called the doctor and the doctor said, \n"Get those monkeys right to bed!" \n');
     } else {
-      console.log(i + ' little monkeys jumping on the bed, \nOne fell off and bumped his head, \nMama called the doctor and the doctor said, \n"No more monkeys jumping on the bed!" \n');
+      console.log(numbers[i - 1] + ' little monkeys jumping on the bed, \nOne fell off and bumped his head, \nMama called the doctor and the doctor said, \n"No more monkeys jumping on the bed!" \n');
     }
   }
-}
-
-littleMonkeys(10);
