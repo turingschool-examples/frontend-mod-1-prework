@@ -47,8 +47,11 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+}
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
