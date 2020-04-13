@@ -44,7 +44,13 @@ Using your terminal, open the local copy of the repository that you created duri
         console.log("Hot! Hot! Hot!");
     };
     ```
-    What would be logged when minutesToHeatWater is 7? What if we changed it to 5? Or 8? Or 9?
+    What would be logged when minutesToHeatWater is 7?
+    "It's just barely boiling"
+
+    What if we changed it to 5? Or 8? Or 9?
+    5 - "The water is not boiling yet."
+    8 - "Hot! Hot! Hot!"
+    9 - "Hot! Hot! Hot!"
 
     When the minutesToHeatWater is 5, here is how the execution goes: "Is it true that 5 is less than 7? Yes, it is, so print out the line The water is not boiling yet.".
 
