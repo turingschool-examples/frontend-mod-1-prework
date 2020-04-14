@@ -19,7 +19,7 @@ class Burrito {
   add_topping(toppings) {
     this.toppings.push(toppings);
   }
-  remove_topping(toppings) {
+  remove_topping() {
     this.toppings.shift();
   }
   change_protein(protein) {
