@@ -36,6 +36,6 @@ sumOf()
 function fullName(firstName, lastName) {
   var firstName = "Ron";
   var lastName = "Weasley";
-  console.log(firstName + " " + lastName);
+  console.log(firstName + " " + lastName + " is a character in Harry Potter.");
 }
 fullName()

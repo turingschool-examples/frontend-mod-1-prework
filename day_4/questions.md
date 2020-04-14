@@ -2,7 +2,7 @@
 
 1. In your own words, what is the purpose of a function?
 
-The purpose of a function is to separate out, and store, sections of code that preform a specific task.
+The purpose of a function is to separate out, and store, sections of code that perform a specific task.
 
 1. What is a parameter?    
 
@@ -23,14 +23,15 @@ function hello() {
 
 ```
 function hello_someone(name) {
-  var name = "Sam";
   console.log(name + " I am");
 }
 ```
 
-1. How would you call or execute the function that you created above?
-`hello_someone() // prints "Sam I am"`
+1. How would you call or execute the function that you created above?  
+ Call the function by using its name 'hello_someone', followed by the argument (I chose the name Sam) in parentheses:
+
+`hello_someone('Sam')`
 
 1. What questions do you still have about functions in Javascript?  
 
-Is the a best practice for how to format functions if they have multiple statements enclosed in the curly brackets?
+What's the best practice for formatting functions that take in arguments? When is it better to declare the variable locally (or globally) versus passing the argument when it's being called?
