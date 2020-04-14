@@ -39,5 +39,3 @@ dinner.changeProtein("chicken");
 console.log(dinner.protein);
 console.log(dinner.base);
 console.log(dinner.toppings);
-
-console.log(dinner)

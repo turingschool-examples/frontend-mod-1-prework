@@ -16,10 +16,13 @@ class person {
         this.city = city;
         this.status = true;
     }
+      updateCity(newCity) {
+        this.city = newCity;
+      }
 
      sendBirthdayMessage() {
        console.log(`Happy Birthday, ${this.name}!`);
-    }
+     }
 
       thankYouMessage() {
         if (this.status === true) {
@@ -27,8 +30,10 @@ class person {
     }
   }
 }
-var user1 = new person ("Stephanie Norton", 29, "Boston");
+var user1 = new person ("Mr Jelly Bean", 50, "Boston");
 console.log(user1);
 
 user1.sendBirthdayMessage()
 user1.thankYouMessage()
+user1.updateCity('Denver')
+console.log(user1);
