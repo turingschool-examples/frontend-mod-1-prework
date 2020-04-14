@@ -19,14 +19,14 @@
 
 ### 5. Name and describe two additional array methods.
 
-One example is an `array pop method` which has a close to opposite effect as the example above - array push method. The pop method removes the last item in an array. See example below:
+One example is an `Array Pop Method` which has a close to opposite effect as the example above - array push method. The pop method removes the last item in an array. See example below:
 
 `var animals = animals.pop;`
 
 The expected output when you log it would be:<br>
 `Array ["zebra", "giraffe", "elephant"]`
 
-Another example is an `array unshift method`. This adds one or more items to the array. But this time, it adds them at the beginning of the array instead of at the end. See example below:
+Another example is an `Array Unshift Method`. This adds one or more items to the array. But this time, it adds them at the beginning of the array instead of at the end. See example below:
 
 `var animals = animals.unshift("buffalo", "cheetah");`
 
@@ -40,7 +40,6 @@ Boolean values evaluate if a statement is correct or not. It can be expressed by
 ### 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
 You could evaluate it with the statement below:
-
 
 `console.log(2 == 25);`<br>
 or<br>

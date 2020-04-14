@@ -2,7 +2,7 @@
 
 ### 1. In your own words, what is the purpose of a function?
 
- Functions are a form of a statement but are not typically inclusive to all of the code on your page. They are intended to group data types into subcategories in order to better organize code and give the program direction on a specific task.
+ Functions are a form of a statement but are not typically inclusive to all of the code on your page. They usually pertain to another statement such as a variable or a property and are intended to manipulate whatever they are targeting by grouping actions and information together.
 
 ### 2. What is a parameter?
 
@@ -10,13 +10,13 @@ Parameters are used to give more context or information to the function. Paramet
 
 ### 3. What is a return value?
 
-The return value is the answer or output to the code you have written and called. The return itself will end the function execution. Return values are displayed in the form of data types (strings, numbers, and booleans). You can prompt them from a `console.log()` or a `return` statement.
+The return value is the answer or output to the code you have written and called. The return itself will end the function execution. Return values are displayed in the form of data types (strings, numbers, and booleans). You can prompt them from a `console.log()`.
 
 ### 4. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
 ```
-function hello(alias) {
-  console.log(alias)
+function hello() {
+  console.log()
 }
 
 hello("Sam I am");
@@ -37,8 +37,6 @@ hello_someone("JP")
 You can just change the string associated with `hello_someone` in the parentheses at the bottom of the script if you want to call the function or execute it again.
 
 ### 7. What questions do you still have about functions in Javascript?
-
-In the first example I displayed above, do I need to have an `argument` with the function? Is it wrong to have it?
 
 I would love to see real life examples on how functions are used differently from other kinds of inclusive statements.
 

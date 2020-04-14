@@ -34,10 +34,10 @@ else if (footballTeam == "New England Patriots") {
   console.log("BOOOOOOOOOOOOO!!!!!")
 }
 else {
-  console.log("The Bills are going to beat you this year.")
+  console.log("The Bills are going to beat them this year.")
 }
 ```
 
 ### 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-You could use conditional statements in loops to determine when to begin, stop or maybe even when to change the progression of the loop. 
+You could use conditional statements in loops to determine when to begin, stop or maybe even when to change the progression of the loop.

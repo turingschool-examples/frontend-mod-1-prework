@@ -2,9 +2,7 @@
 
 ### 1. What is an Object, and how is it different from an Array in Javascript?
 
-Objects are similar to Arrays in that they are both ways to store data, but otherwise they are very different. Objects can serve as a database whereas arrays are just a simple and limited way to store some data. Arrays are just one data type to provide the value of a variable. Objects store multiple variables in the form of properties and have methods in the form of functions to give the data collection a behavior so that it becomes applicable to every day life and operations.
-
-Objects are comprised of properties in the form of variables and methods in the form of functions. These each have key-value pairs to give the data structure and more information.
+Objects are similar to Arrays in that they are both ways to temporarily hold data, but otherwise they are very different. Objects can serve as a diverse grouping of data storage whereas arrays are just a simple and limited way to store some data (usually of the same type). Arrays are just one data type to provide the value of a variable. Objects store multiple variables in the form of properties and have methods in the form of functions to give the data collection a behavior so that it becomes applicable to every day life and operations.
 
 ### 2. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
 
@@ -39,7 +37,7 @@ var states = {
 
 ### 5. What is another example of when we might use a object?  In this case, why is a object better than an array?
 
-Let's say you need to use multiple 'dimensions' of data to describe something. In this case you will need properties to break that data into it's own meaning or dimension. For example, let's say I want to use an array to represent the Settlers of Catan board game. There is no clean way to describe the number of players, the different resources, the number of dice possibilities, the winner, the owner of the largest army, and the owner of the longest road in a single array. But you can do that in an object! See example below.
+Let's say you need to use multiple 'dimensions' with data to describe something. In this case you will need properties to break that data into it's own meaning or dimension. For example, let's say I want to use an array to represent the Settlers of Catan board game. There is no clean way to describe the number of players, the different resources, the number of dice possibilities, the winner, the owner of the largest army, and the owner of the longest road in a single array. But you can do that in an object! See example below.
 
 ```
 var catan = {
