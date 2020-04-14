@@ -16,14 +16,18 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 var number = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + number + " " + creatures + "!")
+console.log("My zoo has " + number + " + creatures + "!")
+
+It combines the data types.
+The finnished product will be a string.
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
+
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log("The " + speedy + " jumped over the " + slowPoke);
+console.log("The " + speedy + " jumped over the " + slowPoke");
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -32,4 +36,4 @@ console.log("The " + speedy + " jumped over the " + slowPoke);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log("In a predictable result, the " + slowPoke + " beat the "+ speedy);
+console.log("In a predictable result, the " + slowPoke + " beat the "+ speedy");
