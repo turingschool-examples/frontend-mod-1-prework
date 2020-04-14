@@ -33,31 +33,29 @@ console.log(animals.shift());
 
 // Write code using bracket notation that will log the first item in the animals array
 
-var firstAnimal = array[0];
+console.log(animals[0]);
 
 // Write code using bracket notation that will log the last item in the animals array
 
-var lastAnimal = aray[2];
+console.log(animals[2]);
 
 // Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
 
-var count = animals.push("Gorilla");
+animals[2] = "Gorilla"
 
 // Write code below that will log the last item from the foods array.
 
-console.log(foods.pop());
+console.log(foods[2]);
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result
 
-var count = animals.push("lion");
-
+console.log(animals.push("Lion"));
 console.log(animals);
 
 // Write code below that removes the last item of food from the foods array and
 // log the result
 
-var newFoods = foods.pop();
-
-console.log(newFoods);
+console.log(foods.pop());
+console.log(foods);
