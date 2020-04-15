@@ -14,15 +14,14 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName(first, last) { // hint.. add a parameter on this line :)
-
-  console.log(first + last);
+function printName(first, last) {
+  var first = "Cameron"
+  var last = "Romo"
+  console.log(first, last);
 };
 
-printName("Albus", "Dumbledore");
-
-AlbusDumbledore
-
+printName("Cameron", "Romo");
+Cameron Romo
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
 
