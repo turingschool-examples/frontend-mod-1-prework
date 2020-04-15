@@ -34,6 +34,9 @@ var foods = ["Lettuce", "Carrots", "Mixed Nuts", "Kombucha", "Greek Yogurt"];
 }
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
+
+var numbers = [1, 2, 3, 4]
+
 for (var i = 0; i < numbers.length; i++) {
 
   console.log(numbers[i]*2);
