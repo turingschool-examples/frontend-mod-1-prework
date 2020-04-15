@@ -13,3 +13,22 @@ The output of you program will look something like this:
 
 ### Bonus
 Can you write the program so that it will run for any range of numbers?
+
+```javascript
+var upperRange = 100
+
+for (var i = 1; i <upperRange + 1; i++) {
+  if (i % 3 == 0 && i % 5 !== 0) {
+    console.log("fizz");
+  }
+  else if (i % 5 == 0 && i % 3 !== 0) {
+    console.log("buzz");
+  }
+  else if (i % 3 == 0 && i % 5 == 0) {
+    console.log("fizzbuzz");
+  }
+  else if (i % 3 !== 0 && i % 5 !== 0){
+    console.log(i);
+  }
+}
+```
