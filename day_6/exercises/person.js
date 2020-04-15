@@ -8,4 +8,28 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class person {
+  constructor(height, age) {
+    this.height = height;
+    this.age = age;
+  }
+
+  growAFoot() {
+    this.height += 1;
+  }
+
+  yearOlder() {
+    this.age += 1;
+  }
+};
+
+var chris = new person(6, 30);
+
+// Call the methods here
+
+console.log(chris.height);
+console.log(chris.age);
+chris.growAFoot();
+console.log(chris.height);
+chris.yearOlder();
+console.log(chris.age);
