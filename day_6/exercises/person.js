@@ -31,7 +31,6 @@ class person {
   }
 }
 var user1 = new person ("Mr Jelly Bean", 50, "Boston");
-console.log(user1);
 
 user1.sendBirthdayMessage()
 user1.thankYouMessage()

@@ -32,8 +32,4 @@ class Dog {
 var fido = new Dog("Bernese", "Fido", 4)
 
 fido.play();
-
-console.log(fido.breed);
-console.log(fido.name);
-console.log(fido.age);
 console.log(fido.hungry);
