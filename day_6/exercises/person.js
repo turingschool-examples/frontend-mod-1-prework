@@ -9,3 +9,22 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person{
+  constructor(name, height, weight) {
+    this.name = name;
+    this.height = height;
+    this.weight = weight;
+  }
+  playVideoGames() {
+    this.played_video_games = false;
+  }
+  studyForCapstone() {
+    this.studied = true;
+  }
+};
+
+var demaceo = new Person("Demaceo", "6ft", "175lbs");
+demaceo.playVideoGames();
+demaceo.studyForCapstone();
+
+console.log(demaceo);
