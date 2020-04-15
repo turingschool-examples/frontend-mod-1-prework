@@ -22,11 +22,13 @@ console.log(animals);
 ```
 
 1. Name and describe two additional array methods.
--The pop method removes the last element from the array therefor, decreasing the length of the array by one. It also returns the removed element.
--The shift method is similar, but it removes the first element from the array. This also decreases the length of the array by one and returns the element that was removed.
+
+* The pop method removes the last element from the array therefor, decreasing the length of the array by one. It also returns the removed element.
+* The shift method is similar, but it removes the first element from the array. This also decreases the length of the array by one and returns the element that was removed.
 
 1. What are the boolean values in JavaScript?
--true or false
+
+* true or false
 
 1. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 ```JavaScript
