@@ -17,7 +17,7 @@
 * The `.pop()` method removes the last element in an array, and returns it.
 
 1. What are the boolean values in JavaScript?  
-Boolean values are `true` and `false`.
+ `true` or `false`
 
 1. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?  
 The comparison operator `==` 'is equal to' would be used to evaluate if 2 is equal to 25:  
