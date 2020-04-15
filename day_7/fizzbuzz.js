@@ -14,7 +14,7 @@ for (i = 1; i <= 100; i++)
  }
 }
 
-// Bonus: Can you write the program so that it will run for any range of numbers?
+// Bonus:
 // I've written the program as a function that takes two parameters, lowerLimit and upperLimit, so it can run for any range of numbers that are passed as arguments.
 
 function fizzBuzz(lowerLimit, upperLimit) {
