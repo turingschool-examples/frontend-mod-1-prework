@@ -11,7 +11,8 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'sunny';
+var weather = 'winter';
+weather = 'sunny';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
