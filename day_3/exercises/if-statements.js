@@ -29,7 +29,7 @@ if (weather == 'sunny') {
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
 
-var weather = 'sunny'
+console.log("sunny");
 
 'sunscreen'
 
@@ -60,7 +60,9 @@ if (numQuarters < 2) {
 
   console.log("I don't have enough money for a gumball");
 
-} else {
+}
+
+else {
 
   console.log("I have enough money for a gumball");
 
@@ -79,5 +81,11 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
-
-If I am given these variables, then: "I cannot make pizza".
+if (cupsOfFlour >= 2 && hasSauce = true) {
+  console.log("I can make pizza")
+}
+else if (cupsOfFlour < 2 && hasSauce = true || hasSauce = false)
+  console.log("I cannot make pizza");
+}
+console.log(cupsOfFlour(1) && hasSauce = true);
+I cannot make pizza
