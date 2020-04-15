@@ -24,5 +24,7 @@ states.MN = Minnesota
 
 1. What is another example of when we might use a object?  In this case, why is a object better than an array?
 
+You might use an object when creating code about a car. An object is better than an array because an array gives specific examples for one car but an object can be adjusted for any car. 
+
 
 1. What questions do you still have about objects?
