@@ -65,6 +65,27 @@ console.log("This will run.");
 
 What is logged to the console when you run this code?
 
+**error**
+```
+getting:
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌/* This is another fancy way to write a code comment */
+zsh: permission denied: /Applications
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log("I could have code like this."); // and the comment after is ignored
+zsh: unknown file attribute:  
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌// console.log("This won't run.");
+zsh: unknown file attribute: h
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log(/*"This won't run either"*/)
+zsh: unknown file attribute: h
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log("This will run.");
+zsh: unknown file attribute: h
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log("This will run.");
+zsh: unknown file attribute: h
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log
+zsh: command not found: console.log
+/Users/hannakim/turing/0module/frontend-module-0-capstone/day_1 master 🍌console.log("I could have code like this.");
+zsh: unknown file attribute:  
+```
+
 ## Data Types
 
 * Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.

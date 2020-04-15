@@ -10,7 +10,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -40,16 +40,24 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+The program is evaluating if variable `doorChoice` is equal to 1 in data type and value. If that is true, it will log the string "hat" when `bearClothing` is part of the code, and if it is false, it will print `scarf`.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+Variable `bearClothing` has two new possible values: "hat" or "scarf".
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+If doorChoice equals 3, bearClothing would would be `scarf`.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+The execution goes as follows:
+  If it is true that bearChoice is equal to 1 in data type and value, it will print the first message. If that is false, it will evaluate the second condition: is bearChoice equal to 2? If this is true, it will print the second message. If it is false, it will evaluate the third condition: is bearChoice equal to 3? If this is true, it will print out the third message. If this is also false, it will print out the final statement.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+You stay with the bear and become its best friend.
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+The bear will cry because you pointed out its hat is too small.
 
 7. What is your favorite ending?
+My favorite ending is if `bearChoice` meets the condition that it is equal to 1 so that the bear shows you the way out.
 */
