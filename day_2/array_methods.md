@@ -9,7 +9,7 @@
 * Unshift
 
 ## Pop
-`*array*.pop()` removes the last element in an array and returns it, i.e.:
+`array.pop()` removes the last element in an array and returns it. For example:
 
 ```
 var chocolate = ['milk', 'dark', 'white'];
@@ -21,9 +21,8 @@ console.log(chocolate);
 // prints (2) ["milk", "dark"]
 ```
 
-
 ## Push
-`*array*.push()` adds an element to the end of an array, i.e.:
+`array.push()` adds an element to the end of an array. For example:
 
 ```
 var chocolate = ['milk', 'dark', 'white'];
@@ -35,7 +34,7 @@ console.log(chocolate);
 ```
 
 ## Shift
-`*array*.shift()` removes the first element in an array, and returns it i.e.:
+`array.shift()` removes the first element in an array, and returns it. For example:
 
 ```
 var chocolate = ['milk', 'dark', 'white'];
@@ -47,9 +46,8 @@ console.log(chocolate);
 // prints (2) ["dark", "white"].
 ```
 
-
 ## Unshift
-`*array*.unshift()` adds an element to the beginning of an array, i.e.:
+`array.unshift()` adds an element to the beginning of an array. For example:
 
 ```
 var chocolate = ['milk', 'dark', 'white'];
