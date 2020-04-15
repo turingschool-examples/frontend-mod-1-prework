@@ -31,6 +31,6 @@ for (var i = 0; i < food.length; i++) {
 // of each of the number.
 var numbers = ["5", "9", "20", "34"]
 
-for (var i = 0; i < food.length; i++) {
-  console.log()
+for (var i = 0; i < numbers.length; i++) {
+  console.log(i * 2)
 }
