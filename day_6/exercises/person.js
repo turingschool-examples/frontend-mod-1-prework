@@ -9,3 +9,28 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person {
+  constructor (name, age, occupation) {
+    this.name = name;
+    this.age = age;
+    this.occupation = occupation;
+    this.bored = true;
+  }
+  work() {
+    console.log("I'm working!");
+  }
+
+  play() {
+    this.bored = false;
+    console.log("That's more like it!")
+  }
+}
+
+var jeff = new Person ("Jeff", "35", "Attorney/student")
+console.log(jeff.name);
+console.log(jeff.age);
+console.log(jeff.occupation);
+console.log(jeff.bored);
+jeff.work();
+jeff.play();
+console.log(jeff.bored)

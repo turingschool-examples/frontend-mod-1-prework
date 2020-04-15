@@ -39,7 +39,7 @@ function scopedFunction() {
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
-
+//I don't think this is correct...
 ---------------------------------------------------------
 
 Sometimes, when calling a function, the argument can be altered permanently.
@@ -93,3 +93,4 @@ anywhere outside of the function. Those variables exist only in the scope of the
 can change the value of a variable outside of that function if that variable is passed to the function as an
 argument AND an action that mutates the caller is performed on that variable.
 */
+//got it! 
