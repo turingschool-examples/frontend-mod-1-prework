@@ -33,4 +33,4 @@ console.log("The " + speedy + " jumped over the " + slowPoke);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log("In a predictable result, the " + slowPoke + " beat the " + speedy!);
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
