@@ -16,19 +16,16 @@ class Dog {
     this.hungry = true;
   }
 
-  bark() {
-    console.log("woof!");
+  play() {
+    this.hungry = true;
   }
 
   eat() {
     this.hungry = false;
   }
-}
+};
 
 var fido = new Dog("Bernese", "Fido", 4)
-console.log(fido.breed);
-console.log(fido.name);
-console.log(fido.age);
-console.log(fido.hungry);
-fido.eat();
-console.log(fido.hungry);
+fido.play;
+
+console.log(fido);
