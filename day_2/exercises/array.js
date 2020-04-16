@@ -22,24 +22,24 @@ console.log(animals.length);
 console.log(foods.length);
 
 // Write code below that will log "Zebra" from the animals array
-console.log(animals.0);
+console.log(animals.zebra);
 
 // Write code using bracket notation that will log the first item in the animals array
-console.log(animals[0]);
+console.log[animals.zebra];
 
 // Write code using bracket notation that will log the last item in the animals array
-console.log(animals[2]);
+console.log[animals.Elephant];
 
 // Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
-animals[2] = 'Gorilla';
+animals["Giraffe"] = "Gorilla";
 
 // Write code below that will log the last item from the foods array.
-console.log(foods.2)
+console.log[foods.Spaghetti]
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result
-var newAnimal = animals.push(lion)
+var newAnimal = animals.push("lion")
 // ["Zebra", "Giraffe", "Gorilla", "Lion",];
 
 // Write code below that removes the last item of food from the foods array and
