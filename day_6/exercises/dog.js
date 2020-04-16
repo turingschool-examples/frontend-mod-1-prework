@@ -23,12 +23,18 @@ class Dog {
   eat() {
     this.hungry = false;
   }
+
+  play() {
+    this.hungry = true;
+  }
 }
 
-var fido = new Dog("Bernese", "Fido", 4)
-console.log(fido.breed);
-console.log(fido.name);
-console.log(fido.age);
-console.log(fido.hungry);
-fido.eat();
-console.log(fido.hungry);
+var max = new Dog("Dashund", "Max", 1)
+console.log(max.breed);
+console.log(max.name);
+console.log(max.age);
+console.log(max.hungry);
+max.eat();
+console.log(max.hungry);
+max.play();
+console.log(max.hungry);
