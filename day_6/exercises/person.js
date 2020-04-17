@@ -8,4 +8,25 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor (name, gender) {
+    this.name = name;
+    this.gender = gender;
+    }
+
+    change_name(new_name) {
+      this.name = new_name
+    }
+
+    change_gender(new_gender) {
+      this.gender = new_gender
+    }
+}
+
+var cait = new Person ("Bruce Jenner", "male")
+console.log(cait.name);
+console.log(cait.gender);
+cait.change_name("Caitlin Jenner")
+cait.change_gender("female")
+console.log(cait.name)
+console.log(cait.gender)
