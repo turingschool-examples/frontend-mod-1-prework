@@ -1,11 +1,11 @@
-<h2>The <strong>pop</strong> method will remove the last element from an array shortening the length of the array and return the element.</h2>
+The pop method will remove the last element from an array shortening the length of the array and return the element.
 ```javascript
 var cheese = ['cheddar', 'swiss', 'provolone', 'mozzarella', 'muenster'];
 
 console.log(cheese.pop());
 ///expected output: "muenster"
 ```
-<h2>On the other hand we have the <strong>push</strong> method which would add one or more elements to the end of an array and would return the length of the array.</h2>
+On the other hand we have the push method which would add one or more elements to the end of an array and would return the length of the array.
 ```javascript
 var arrayMethods = ['pop', 'push'];
 
@@ -15,7 +15,7 @@ console.log(count);
 console.log(arrayMethods);
 // expected output: Array ["pop", "push", "shift"]
 ```
-<h2>The <strong>shift</strong> method will remove the first element from an array and return the removed element, doing this will change the length of an array</h2>
+The shift method will remove the first element from an array and return the removed element, doing this will change the length of an array.
 ```javascript
 var bandMembers = ['Thom', 'Jonny', 'Ed', 'Colin', 'Philip'];
 
@@ -27,7 +27,7 @@ console.log(bandMembers);
 console.log(firstElement);
 // expected output: "Thom
 ```
-<h2>Lastly, the <strong>unshift</strong> method will add elements to the front of the array and return the new length of the array.</h2>
+Lastly, the unshift method will add elements to the front of the array and return the new length of the array.
 ```javascript
 const hobbits = ['Frodo', 'Sam'];
 
