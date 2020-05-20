@@ -14,4 +14,5 @@
 6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 - Concatenation is the process of joining two or more data types together to long them into one data type
 - `var oneEqualsOne = (1 == 1);
+
 console.log("It is " + oneEqualsOne + " that a " + animal + " has stripes");`
