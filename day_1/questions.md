@@ -1,8 +1,8 @@
 ## Day 1 Questions
 
 1. How would you log the string `"Hello World!"` to the console?
-- `console.log("Hello World!");`
-2. What is the character you would use to indicate comments in a JavaScript file?
+  - `console.log("Hello World!");`
+1. What is the character you would use to indicate comments in a JavaScript file?
 - `// You can add comments like this`
 - `/* Or like this*/`
 3. Explain the difference between an integer and a floating-point number?
