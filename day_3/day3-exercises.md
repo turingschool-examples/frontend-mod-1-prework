@@ -1,0 +1,18 @@
+<p><b> If you're using an input element in a form, what attribute controls the behavior of that input?</p></b>
+<p> The type element controls behavior of input. The value of the type attribute determines what kind of input is being created. </p>
+<p><b> What element is used to create a dropdown list? </p></b>
+<p> You use the select element to create a dropdown list box. in order to add in the options within the dropdown list, you will use the option element with a value attribute. </p>
+<p><b> If you're using an input element to send form data to a server, what should the type attribute be set to? </p></b>
+<p> The type attribute should be set to submit in order to send the form to a server. </p>
+<p><b> What element is used to group similar form items together? </p></b>
+<p> Fieldset element is used to group related form elements together. This can be useful for longer forms. The legend element can be used in conjunction with fieldset to identify the purpose of the group of form controls. </p>
+<p><b> Describe the differences between border, margin, and padding. </p></b>
+<p> Borders, margins, and padding represent different areas around a piece of content. Borders are present on every box but don't have to be visible. They are what separates the edges of one box from another. Margins are outside of the border and can be used to create a gap between the borders of two boxes. Padding is inside of the border and is the space between the border and the content inside of the box. </p>
+<p><b> For a CSS rule padding: 1px 2px 5px 10px, what sides of the content box does each pixel value correspond to?</p></b>
+<p> 1px is for the top padding, 2px is for the right padding, 5px is for the bottom padding, and 10 px is the left padding. When using shorthand for the values it will go in the order of top, right, bottom, left. </p>
+<p><b> Describe the difference between block-level and inline elements. </p></b>
+<p> Block-level elements will always start on a new line in a browser window. They act as building blocks of the layout. These include elements like h1, p, ul, and li. Inline elements do not appear as starting on a new line - instead they appear inline with neighboring elements. They flow between surrounding texts. These include elements img, b, and i. </p>
+<p><b> What is the role of fixed positioning, and why is z-index important in the scenario of using fixed positioning?</p></b>
+<p> Fixed positioning positions an elements in relation  to the browser window instead of in relation to the containing element. When elements have fixed positioning, they do not affect the positioning of other elements and they do not move when scrolling up and down the page. Z-indexing is important here because when using fixed positioning, boxes can overlap. With z-indexing, you can control which element sits on top by giving its value a higher number, indicating that element sits higher closer to the front. Z-indexing is similar to "send to back" or "bring to front" in that it controls what sits where. </p>
+<p><b> What is the difference between a fixed and liquid layout> </p></b>
+<p> A fixed layout will not change size as a user decreased or increases the size of the browser window. This allows  more control over the appearance of items within the layout, but can result in some issues with the appearance of the page like large gaps around the edge and difficulty reading the text. Liquid payouts can stretch and contract as a user changes the size of the browser window. This offers obvious advantages in the appearance of the site and usability for the user, but it can also result in very long lines of text on wide windows and deviation from intended design. </p>

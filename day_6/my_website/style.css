@@ -1,0 +1,60 @@
+
+body {
+  background-color:#FFFAF0;
+}
+
+h1 {
+  font-weight: bold;
+  color:#006400;
+  font-family:Helvetica;
+  text-align: center;
+
+}
+
+h2 {
+  color:#006400;
+  font-family:"cursive";
+  text-align: center;
+}
+
+h3 {
+  font-family:Helvetica;
+  background-color:#006400;
+  color:#FFFAF0;
+}
+
+ul {
+  font-family:Georgia;
+  font-size:16px;
+
+}
+
+p {
+  font-family:Georgia;
+  font-size:16px;
+}
+
+p.conclusion {
+  font-family:Arial;
+  font-size:14px;
+}
+
+img.center {
+  width:600px;
+  height:450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-color:#FFD700;
+  border-width: medium;
+  border-style: solid;
+}
+
+img.medium {
+  width:400px;
+  height:350px;
+  border-color:#FFD700;
+  border-width: medium;
+  border-style: solid;
+}
