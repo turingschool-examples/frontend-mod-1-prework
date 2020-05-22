@@ -1,4 +1,4 @@
-![methods](/users/christopher/downloads/methods.jpg "methods stock photo")
+![methods](/Users/Christopher/Downloads/methods.jpg "methods stock photo")
 
 # Describe what each method does.
 ## Methods to study: "pop", "push", "shift", "unshift"
