@@ -1,4 +1,4 @@
-![methods](www.google.com/url?sa=i&url=http%3A%2F%2Fwww.open.ac.uk%2Fresearchprojects%2Fenduringlove%2Fmethods&psig=AOvVaw2NxVCotbRVp1j_jZ-zZy0J&ust=1590261637145000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJDW7rOYyOkCFQAAAAAdAAAAABAD)
+![methods](https://www.open.ac.uk/researchprojects/enduringlove/sites/www.open.ac.uk.researchprojects.enduringlove/files/styles/hero/public/methods.jpg?itok=mo4ILemm)
 
 # Describe what each method does.
 ## Methods to study: "pop", "push", "shift", "unshift"
