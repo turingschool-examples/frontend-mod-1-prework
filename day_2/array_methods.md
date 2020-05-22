@@ -3,13 +3,13 @@
 # Describe what each method does.
 ## Methods to study: "pop", "push", "shift", "unshift"
 
-### pop
+### Pop
 - The "pop" method removes the last value from an array and logs the removed value to the console
 - Example:
 ```
-var dogs = ["germanShepherd", "husky", "mrWorldwide305"];
+var dogs = ["germanShepherd", "husky", "mrWorldWide305"];
 console.log(dogs.pop());
-// returns: "mrWorldwide305"
+// returns: "mrWorldWide305"
 console.log(dogs);
 // returns: Array ["germanShepherd", "husky"];
 dogs.pop();
@@ -17,7 +17,7 @@ dogs.pop();
 dogs
 // returns "germanShepherd"
 ```
-### push
+### Push
 - The "push" method allows you to add one or more new values to the end of an array and returns the new length of the Array to the console
 - Example:
 ```
@@ -27,7 +27,7 @@ computers.push("google");
 computers;
 // returns: ["mac", "hp", "google"];
 ```
-### shift
+### Shift
 - The "shift" method removes the first value from an array and logs the removed value to the console
 - Example:
 ```
