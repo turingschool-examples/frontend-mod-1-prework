@@ -32,5 +32,5 @@ console.log(animal);
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
 ```JavaScript
-console.log("Marty is a famous" + animal + " from the animated film Madagascar " ".");
+console.log("Marty is a famous " + animal+ " from the animated film Madagascar.");
 ```
