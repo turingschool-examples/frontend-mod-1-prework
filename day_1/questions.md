@@ -1,4 +1,4 @@
-![questions](https://rainamorton.files.wordpress.com/2014/09/questions-chalkboard.jpg?w=640)
+![questions](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
 
 # Day 1 Questions
 
