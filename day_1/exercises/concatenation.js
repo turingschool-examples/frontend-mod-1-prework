@@ -22,7 +22,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + " jumped over the " + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -31,4 +31,6 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+var newCombo = "In a predictable result, the " + slowPoke + " beat the " + speedy + "!";
+//leaving this code to print to console here in case we want it later
+//console.log(newCombo);
