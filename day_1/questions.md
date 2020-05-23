@@ -1,4 +1,4 @@
-![questions](https://cdn.shopify.com/s/files/1/0066/0842/0979/articles/questions_1024x1024.jpg?v=1581491236)
+![questions](https://rainamorton.files.wordpress.com/2014/09/questions-chalkboard.jpg?w=640)
 
 # Day 1 Questions
 
