@@ -1,3 +1,5 @@
+![questions](https://cdn.shopify.com/s/files/1/0066/0842/0979/articles/questions_1024x1024.jpg?v=1581491236)
+
 # Day 1 Questions
 
 1. How would you log the string `"Hello World!"` to the console?
