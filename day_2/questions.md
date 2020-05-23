@@ -1,3 +1,5 @@
+![questions](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
+
 ## Day 2 Questions
 
 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
