@@ -1,4 +1,4 @@
-![questions](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg =730x300)
+![questions|730x300](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
 
 # Day 1 Questions
 
