@@ -26,7 +26,12 @@ animals.push("lion");
 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 ```
 console.log(2 == 25);
+
+false
 ```
 8. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 ```
 console.log(25 > 2);
+
+true
+```
