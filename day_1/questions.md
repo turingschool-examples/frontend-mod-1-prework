@@ -1,6 +1,6 @@
 ![questions|730x300](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
 
-# Day 1 Questions
+## Day 1 Questions
 
 #### 1. How would you log the string `"Hello World!"` to the console?
   - `console.log("Hello World!");`
