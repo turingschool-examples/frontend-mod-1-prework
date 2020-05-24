@@ -1,6 +1,6 @@
 ![questions](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
 
-# Day 3 Questions
+## Day 3 Questions
 
 #### 1. What is a conditional statement? Give three examples.
 
