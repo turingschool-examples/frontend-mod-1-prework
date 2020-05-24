@@ -2,7 +2,7 @@
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
 file from your terminal with the command `node day_2/exercises/iteration.js`
-*/
+*/ 
 
 // example: Write code below that iterates through a list of animals and print
 // each animal.

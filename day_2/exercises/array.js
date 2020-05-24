@@ -7,7 +7,7 @@ file from your terminal with the command `nope day_2/exercises/arrays.js`
 // example: write code below that will log an array of animals.
 // Store the array in a variable.
 var animals = ["Zebra", "Giraffe", "Elephant"];
-console.log(animals);
+console.log(animals); 
 
 // Write code below that will log an array of foods. Store the array in a variable.
 var foods = ["Pizza", "Burrito", "Sandwhich", "Potato"];

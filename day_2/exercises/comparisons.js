@@ -37,7 +37,7 @@ the comparison still evaluates to false.
 console.log(firstVar != secondVar); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 20?
-console.log(secondVar >= 20); // this should return: true
+console.log(secondVar >= 20); // this should return: true 
 
 // log the result of the comparison: is secondVar greater than or equal to 21?
 console.log(secondVar >= 21); // this should return: false

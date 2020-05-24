@@ -1,4 +1,4 @@
- Pop
+ Pop 
   * This _pop_ method removes an item from the end of an array.
  Push
    * This _push_ method adds an item to the end of an array.

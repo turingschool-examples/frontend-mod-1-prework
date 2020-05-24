@@ -1,5 +1,5 @@
 // In the exercises below, write your own code where indicated
-// to achieve the desired result. Run this code using node in terminal.
+// to achieve the desired result. Run this code using node in terminal. 
 
 // example: Write code that logs to the console your name 5 times:
 for (var i = 0; i < 5; i++) {
