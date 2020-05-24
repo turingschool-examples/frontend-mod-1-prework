@@ -19,7 +19,7 @@
 1. Name and describe two additional array methods.
 
   * __Pop__ - This method reomves the last item from the array. 
-  * __
+  * __Unshift__ - This method adds an item to the beginning of the array. 
 
 1. What are the boolean values in JavaScript?
 
