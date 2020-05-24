@@ -18,7 +18,7 @@
   
 1. Name and describe two additional array methods.
 
-  *__Pop__ - This method reomves the last item from the array. 
+  * __Pop__ - This method reomves the last item from the array. 
   * __
 
 1. What are the boolean values in JavaScript?
