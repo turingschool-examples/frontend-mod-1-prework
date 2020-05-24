@@ -2,7 +2,7 @@
 
 1. How would you log the string `"Hello World!"` to the console?
   console.log('"Hello World!"');
-  
+
 Since the string we want includes quotation marks, I used single quotes to demark the string, allowing me to use the double quotes. We could use the '/' as a break character instead.
 
 1. What is the character you would use to indicate comments in a JavaScript file?
@@ -23,6 +23,6 @@ console.log(animal);
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
-Concatenation is the process through which variables may be joined together. 
+Concatenation is the process through which variables may be joined together.
 
-console.log("Lions eat zebras, but I only chew " + animal + "-stripe gum.");
+// console.log("Lions eat zebras, but I only chew " + animal + "-stripe gum.");
