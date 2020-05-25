@@ -18,7 +18,7 @@ if (weather == 'sunny') {
 } else if (weather == 'rainy') {
   console.log("umbrella");
 } else if (weather == 'snowy') {
-  console.log("coat");
+  console.log("nice thick parka");
 } else if (weather == 'icy') {
   console.log("yak traks");
 } else{
@@ -45,11 +45,13 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
-
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else if (numQuarters <= 1) {
+  console.log("I don't have enough money for a gumball");
+}
 /* ----------------------------
 Using the variables defined below, determine if you have the
 ingredients to make a pizza. A pizza requires at least two cups
@@ -62,5 +64,15 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
+
+if (cupsOfFlour >= 2) {
+  console.log("I can make pizza");
+} else if (cupsOfFlour < 2) {
+  console.log("I cannot make pizza");
+} else if (hasSauce == true) {
+  console.log("I can make pizza");
+} else if (hasSauce != true) {
+  console.log("I cannot make pizza");
+}
