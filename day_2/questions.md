@@ -19,10 +19,13 @@ console.log(animals[1]);
 animals.push("lion");
 ```
 #### 5. Name and describe two additional array methods.
-- Pop
-- The "pop" method removes the last value from an array and logs the removed value to the console
-- shift
-- The "shift" method removes the first value from an array and logs the removed value to the console
+
+- These methods will remove a value from an array and...
+- 1. return the removed value to a new variable if you’re declaring a new variable when utilizing these methods
+(Example: `var removeLastAnimal = animals.pop(); )`
+- 2. log the removed value to the console if you’re not declaring a new variable and just utilizing these methods in conjunction with the name of the array `(Example: animals.pop(); )`
+- The difference between `pop` and `shift` is that `pop` works for the last of an array and `shift` is for the first value of an array
+
 #### 6. What are the boolean values in JavaScript?
 - A boolean value is a value of either "true" or "false"
 #### 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
