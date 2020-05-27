@@ -18,9 +18,9 @@
 ```
 class car {
   constructor() {
-    this.year = " ";
-    this.make = " ";
-    this.model = " ";
+    this.year = year;
+    this.make = make;
+    this.model = model;
     this.tires = 4
     this.gasTank = "empty"
   }
