@@ -27,7 +27,7 @@ function hello_someone(name) {
 ```
 1. How would you call or execute the function that you created above?
 ```Javascript
-hello_someone();
+hello_someone("Mike");
 ```
 1. What questions do you still have about functions in Javascript?
 - I don't know what I don't know. Know what I mean? I know that this is an important concept
