@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'sunny';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -47,6 +47,12 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 
 var numQuarters = 0;
 
+if (numQuarters <= 1) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+}
+
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
 
@@ -62,5 +68,12 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
+
+if ((cupsOfFlour > 1) && (hasSauce == true)) {
+  console.log("I can make pizza");
+} else{
+  console.log("I cannot make pizza")
+}
+///The following output printed "I can make pizza"///
