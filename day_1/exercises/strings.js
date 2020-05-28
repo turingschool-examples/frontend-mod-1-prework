@@ -5,10 +5,14 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 */
 
 // example: Write code below to log your name in the console:
+```JavaScript
 console.log("Alan Turing");
-
+```
 // Write code below to log `Welcome to Turing!` in the console:
-console.log(/*YOUR CODE HERE*/);
-
+```JavaScript
+console.log('Welcome to Turing!');
+```
 // Write code below to log `99 bottles of pop on the wall...`:
-// YOUR CODE HERE
+```JavaScript
+console.log('99 bottles of pop on the wall...');
+```
