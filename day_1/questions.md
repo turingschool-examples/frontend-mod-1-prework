@@ -1,4 +1,4 @@
-/## Day 1 Questions
+## Day 1 Questions
 
 1. How would you log the string `"Hello World!"` to the console?
 ```JavaScript
