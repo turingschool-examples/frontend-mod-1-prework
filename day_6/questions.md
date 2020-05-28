@@ -1,6 +1,6 @@
 ![questions](https://citydadsgroup.com/nyc/wp-content/uploads/sites/2/2017/06/questions-scrabble.jpg)
 
-## Day 5 Questions
+## Day 6 Questions
 
 #### 1. In your own words, what is a Class?
 
@@ -38,4 +38,4 @@ class car {
 
 #### 6. What questions do you still have about classes in JavaScript?
 
-- 😪
+- None at this time
