@@ -28,9 +28,9 @@ What's the value of ourNumber? Still 5, because function definitions create thei
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
 
-var ourNumber = 5;
+ var ourNumber = 5;
 
-function scopedFunction() {
+ function scopedFunction() {
   var ourNumber = 3;
 
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
