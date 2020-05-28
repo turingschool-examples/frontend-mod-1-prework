@@ -38,4 +38,4 @@ class car {
 
 #### 6. What questions do you still have about classes in JavaScript?
 
-- None at this time
+- No questions at this time
