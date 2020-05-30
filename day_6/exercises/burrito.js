@@ -16,11 +16,28 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
+
+  addTopping(newTopping) {
+    this.toppings.push(newTopping);
+  }
+
+  removeTopping(noTopping) {
+    var takeAway = this.toppings.indexOf(noTopping)
+    this.toppings.splice(takeAway, 1);
+    //how to account for item entered that's not in array? i.e. sour cream
+  }
+
+  changeProtein(newProtein) {
+    this.protein = newProtein;
+  }
 };
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-// Call the methods here
+  // Call the methods here
+dinner.addTopping("tomato");
+dinner.removeTopping("salsa");
+dinner.changeProtein("chicken");
 
 console.log(dinner.protein);
 console.log(dinner.base);
