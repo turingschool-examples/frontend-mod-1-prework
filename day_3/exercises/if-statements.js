@@ -29,6 +29,8 @@ if (weather == 'sunny') {
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
 
+If I changed the variable 'weather' to `var weather = 'rainy';` the console would print the string 'umbrella'
+
 ----------------------------
 Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
@@ -50,6 +52,14 @@ var numQuarters = 0;
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
 
+//my conditional statement:
+
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else {
+   console.log("I don't have enough money for a gumball");
+}
+
 /* ----------------------------
 Using the variables defined below, determine if you have the
 ingredients to make a pizza. A pizza requires at least two cups
@@ -64,3 +74,11 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+//my code:
+
+if ((cupsOfFlour >= 2) && (hasSauce = true)) {
+  console.log("I can make pizza");
+} else {
+  console.log("I cannot make pizza");
+}
