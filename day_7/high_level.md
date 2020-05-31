@@ -1,9 +1,12 @@
-<h1> __Cesar Cipher__ <h1>
+<h1>Cesar Cipher<h1>
 
-<h2> _Notes_ <h2>
+<h2>_Notes_<h2>
   * Cesar cipher is substitution cipher that transforms a message by shifting its letters by a given offset.
-    * _example_ - shift by 3.
+
+    * example - shift by 3.
+
   * a b c d e f g h i j k l m n o p q r s t u v w x y z
+  
   * d e f g h i j k l m n o p q r s t u v w x y z a b c
 
 <h2> _Steps to do Cesar Cipher in JavaScript_ <h2>
