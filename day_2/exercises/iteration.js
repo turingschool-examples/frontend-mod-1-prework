@@ -33,5 +33,5 @@ for(var i = 0 ;i<foodArray.length;i++){
 // YOUR CODE HERE
 var numbersArray = [1,2,3,4,5,6,7]
 for(var i = 0 ;i < numbersArray.length;i++){
-  console.log(numbersArray[i] * numbersArray[i])
+  console.log(numbersArray[i] + ' ' + numbersArray[i])
 }
