@@ -8,4 +8,25 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(weight, name, nationality) {
+    this.weight = weight;
+    this.name = name;
+    this.nationality = nationality;
+  }
+
+  grow(gain) {
+    var gain = this.weight++;
+  }
+
+  moveCountries(country) {
+    this.nationality = country;
+  }
+};
+
+var thatGuy = new Person(178, 'Ricky', 'Portugal')
+console.log(thatGuy);
+thatGuy.grow();
+console.log(thatGuy.weight);
+thatGuy.moveCountries('Norway')
+console.log(thatGuy.nationality);
