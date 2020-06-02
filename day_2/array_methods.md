@@ -3,11 +3,11 @@ For the explanation of below methods, the following array will be used.
 var names= ['Brett', 'Blake', 'Brianne', 'Mia'];
 
 
-# Pop (Array.prototype.pop())
+## Pop (Array.prototype.pop())
 
-  Pop is used to remove an item from the end of an Array
+  * Pop is used to remove an item from the end of an Array
   
-  "Pop OUT" a value from the end of an array
+  * "Pop OUT" a value from the end of an array
 
   ```
   let last = names.pop(); 
