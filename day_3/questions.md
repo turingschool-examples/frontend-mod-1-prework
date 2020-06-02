@@ -17,7 +17,7 @@
           console.log("Go to bed.");
         }
         ```
-            + I am not certain I have all the code correct for a boolean.
+        ***I am not certain I have all the code correct for a boolean.
 
         + Example 2
 
@@ -55,9 +55,9 @@
 
 1. How do you add multiple conditions to an if statement?
 
-    * I would use `elseif`
+      * I would use `elseif`
 
-          + Example:
+        Example:
 
           `var weather = "rain"`
 
@@ -74,9 +74,9 @@
 
 1. What is the JavaScript syntax for an if/else if/else statement?
 
-    * `else if` designates other conditions that are checked in order. If the variable meets one of those conditions, the code block is executed.
+      * `else if` designates other conditions that are checked in order. If the variable meets one of those conditions, the code block is executed.
 
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-    * I think with booleans, perhaps. Although, I supposed that would still be if-statements. We also used it with loops in day_2. 
+      * I think with booleans, perhaps. Although, I supposed that would still be if-statements. We also used it with loops in day_2.
