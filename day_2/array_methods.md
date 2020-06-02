@@ -16,9 +16,11 @@
 
 //      output is:  ["pushups", "squats", "lunges"]
 
-  `count = exercise.push("pullups");`
+  `exercise.push("pullups");`
 
-//      output is: count = exercise.push("pullups");
+  `console.log(exercise);`
+
+//      output is: (4) ["pushups", "squats", "lunges", "pullups"]
 
 ### shift
   * removes the 1st item in an array, but can also return the first item

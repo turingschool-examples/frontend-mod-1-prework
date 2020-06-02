@@ -36,7 +36,7 @@ console.log(lastAnimal);
 
 // Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
-count = animals.push("Gorilla");
+animals.push("Gorilla");
 
 console.log(animals);
 

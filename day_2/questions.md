@@ -6,7 +6,7 @@
 
 1. Save the array you created above to a variable `animals`.
 
-    * ```console.log(animals);````
+    * ```console.log(animals);```
 
 1. using the array `animals`, how would you access `"giraffe"`?
 

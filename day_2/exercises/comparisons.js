@@ -61,3 +61,4 @@ console.log(1 == true) // this should return: true
 // note: this is an example of a truthy value. In an evalution like this, 1 is considered to be true
 
 //I don't really get the falsy/truthy values. I get it the operations, just not how the heck they would apply.
+//UPDATE: I was just reading for day_3 and now I understand a little bit about why truthy/fasly are important! I wanted to make sure i made note of the connection!
