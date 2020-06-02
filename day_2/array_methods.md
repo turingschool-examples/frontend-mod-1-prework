@@ -6,6 +6,7 @@ var names= ['Brett', 'Blake', 'Brianne', 'Mia'];
 Pop (Array.prototype.pop())
 
   Pop is used to remove an item from the end of an Array.
+  
   "Pop OUT" a value from the end of an array
 
   let last = names.pop(); 
@@ -23,10 +24,13 @@ Pop (Array.prototype.pop())
 Push (Array.prototype.push())
 
   Push is used to add an item to the end of an Array
+  
   "Push IN" a value to the end of an array
 
   var newNames = names.push('John');
+  
   names.push('John');   // can also be used to just adjust the names array
+  
   //this will add the value 'John' to the end of the names Array
 
   //expected log from console.log(names);
