@@ -10,6 +10,7 @@ Pop (Array.prototype.pop())
 
   let last = names.pop();
   names.pop();   // can also be used to just adjust the names array
+  
   // this will remove the 'Mia' string from the names array, and reassign it to  the last variable
 
   //expected log from console.log(last);
