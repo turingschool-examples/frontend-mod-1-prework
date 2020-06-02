@@ -3,15 +3,17 @@ For the explanation of below methods, the following array will be used.
 var names= ['Brett', 'Blake', 'Brianne', 'Mia'];
 
 
-Pop (Array.prototype.pop())
+#Pop (Array.prototype.pop())
 
-  Pop is used to remove an item from the end of an Array.
+  ##Pop is used to remove an item from the end of an Array
   
-  "Pop OUT" a value from the end of an array
+  ##"Pop OUT" a value from the end of an array
 
+  ```
   let last = names.pop(); 
   
-  names.pop();   
+  names.pop();
+  ```  
   
   // this will remove the 'Mia' string from the names array, and reassign it to  the last variable
 
