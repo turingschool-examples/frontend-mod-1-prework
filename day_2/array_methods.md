@@ -8,7 +8,7 @@ Pop (Array.prototype.pop())
   Pop is used to remove an item from the end of an Array.
   "Pop OUT" a value from the end of an array
 
-  let last = names.pop();
+  let last = names.pop(); *OR*
   names.pop();   
   
   // this will remove the 'Mia' string from the names array, and reassign it to  the last variable
