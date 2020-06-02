@@ -10,11 +10,9 @@ var names= ['Brett', 'Blake', 'Brianne', 'Mia'];
   * "Pop OUT" a value from the end of an array
 
   ```
-  let last = names.pop(); 
+  let last = names.pop(); // this will remove the 'Mia' string from the names array, and reassign it to  the last variable
   
-  names.pop();  
-  
-  // this will remove the 'Mia' string from the names array, and reassign it to  the last variable
+  names.pop();  // this will remove the 'Mia' string from the names array, to be used
 
   //expected log from console.log(last);
   ['Mia']
