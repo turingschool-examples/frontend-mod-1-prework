@@ -11,11 +11,15 @@ An example of why you would want to use a if statement for for a simple true fal
 1. What is the JavaScript syntax for an if statement?
 
 ``if``(keyword) ``(condition)`` `{` (opening curly brace)
+
   `console.log`(code to execute if true)
+  
 `}` (closing curly brace)
 
 1. How do you add multiple conditions to an if statement?
+
 Depending on the number of conditions needed you could add an else statement or an else if statement(s).
+
 1. What is the JavaScript syntax for an if/else if/else statement?
 
 ```JavaScript
