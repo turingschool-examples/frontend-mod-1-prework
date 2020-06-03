@@ -1,11 +1,12 @@
-var baseRhyme = " Mama called the doctor and the doctor said,"
-          + " No more monkeys jumping on the bed!";
+var baseRhyme1 = "\nMama called the doctor and the doctor said,"
+
+var baseRhyme2 = "\nNo more monkeys jumping on the bed!\n";
 
 var monkeys = " little monkeys jumping on the bed,"
-          + " One fell off and bumped his head,";
+          + "\nOne fell off and bumped his head,";
 
 var monkey = " little monkey jumping on the bed,"
-          + " He fell off and bumped his head,";
+          + "\nHe fell off and bumped his head,";
 
 var noMonkey = "Get those monkeys right to bed!";
 
@@ -25,9 +26,9 @@ var numNames = [
 
 for (var i = 10; i >= 0; i--) {
   if (i > 1) {
-    console.log(numNames[10-i] + monkeys + baseRhyme);
+    console.log(numNames[10-i] + monkeys + baseRhyme1 + baseRhyme2);
   } else if (i == 1) {
-    console.log(numNames[10-i] + monkey + baseRhyme);
+    console.log(numNames[10-i] + monkey + baseRhyme1);
   } else {
     console.log(noMonkey);
   }
