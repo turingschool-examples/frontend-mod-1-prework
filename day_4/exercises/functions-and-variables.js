@@ -12,7 +12,7 @@ why local variables within a function definition cannot access data outside of t
 
 Note: to run one exercise at a time, comment out the exercises that you don't want to see the results for!
 */
-
+/*
 var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
 
 function scopedFunction() {
@@ -22,12 +22,12 @@ function scopedFunction() {
 };
 
 console.log("ourNumber value outside scopedFunction: " + ourNumber);
-
+*/
 /*
 What's the value of ourNumber? Still 5, because function definitions create their own scope
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
-
+/*
 var ourNumber = 5;
 
 function scopedFunction() {
@@ -35,7 +35,7 @@ function scopedFunction() {
 
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
 };
-
+*/
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
@@ -49,7 +49,7 @@ does not alter the argument that is passed into it.
 Let's say we have a variable ourArray that stores an array. We'll cover arrays in more depth later as well but
 for now just remember our earlier explanation of arrays as ordered lists. Run this code to see the result.
 */
-
+/*
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray[2]);
 };
@@ -58,7 +58,7 @@ var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
 console.log("Check the array after calling getLastValue: " + ourArray);
-
+*/
 /*
 In the above code, we passed ourArray to the getLastValue function. In getLastValue, the value of ourArray
 is assigned to the local variable functionArray, which is scoped at the function definition level. In the function's
@@ -92,4 +92,7 @@ In conclusion, functions create their own scope. Variables defined inside a func
 anywhere outside of the function. Those variables exist only in the scope of their function. Functions
 can change the value of a variable outside of that function if that variable is passed to the function as an
 argument AND an action that mutates the caller is performed on that variable.
+
+
+[x] Got it!
 */
