@@ -72,3 +72,5 @@ replace(string){
 
 7. Instantiate an object called *cipher* from this class *CaesarCipher*.
 8. Call the encode method with the object and log.
+
+// Upon trying to write this code, i saw a few errors. One being that the string.replace() method only always for one argument. I think instead I would use an iteration loop for running through the letters in the alphabet and correlate that with shift() and push() methods.
