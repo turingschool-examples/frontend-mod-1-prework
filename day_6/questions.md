@@ -1,10 +1,10 @@
 ## Day 5 Questions
 
 1. In your own words, what is a Class?
-   * A class is general category or type of object. We can use classes as factories to make multiple objects that have related properties but have different values for said properties.
+   * A class is a general category or type of object. We can use classes as factories to make multiple objects that have related properties but have different values for said properties.
 
 1. In relation to a Class, what is a property?
-   * a property is an attribute associated with an class.
+   * a property is an attribute associated with a class.
 
 1. In relation to a Class, what is a method?
    * a method is a behavior or action of a class
