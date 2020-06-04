@@ -4,10 +4,10 @@
    * A class is a general category or type of object. We can use classes as factories to make multiple objects that have related properties but have different values for said properties.
 
 1. In relation to a Class, what is a property?
-   * a property is an attribute associated with a class.
+   * A property is an attribute associated with a class.
 
 1. In relation to a Class, what is a method?
-   * a method is a behavior or action of a class
+   * A method is a behavior or action of a class.
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
    ```javascript
