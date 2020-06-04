@@ -32,3 +32,4 @@ var animal = "zebra"
 var predator = "lion"
 var herdCount = 20
 console.log("the " + predator + " silently approached the herd of " + herdCount + " " + animal + "s")
+```
