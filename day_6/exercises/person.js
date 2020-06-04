@@ -8,4 +8,27 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, height, location, speed) {
+    this.name = name;
+    this.height = height;
+    this.location = location;
+    this.speed = speed;
+  };
+
+  run(speed) {
+    this.speed = speed;
+    console.log(this.name + " runs at " + speed + "mph.");
+  };
+
+  travel(location) {
+    this.location = location;
+    console.log(this.name + " is in " + location);
+  };
+
+};
+
+var bret = new Person ("Bret","5 feet, 10 inches","Fort Collins",0);
+
+bret.run(8);
+bret.travel("Sydney")
