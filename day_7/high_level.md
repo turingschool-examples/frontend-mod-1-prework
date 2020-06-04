@@ -1,4 +1,4 @@
-# Ceasar Cipher 
+# Ceasar Cipher
 
 * Create a `CeasarCipher` class
    * Within the class create a `constructor()` method.
@@ -19,6 +19,6 @@
 
          * Outside of the `if` statement that checks if the character is a letter, but still inside the loop, change the `result` property to be equal to the `result` property plus the `character` property. This will make the `result` equal the full string of characters once all iterations of the loop have completed.
 
-  * Finally moving on from creating the class definitions, create an instance of the `CeasarCipher` class called `cipher`.
-  * perform the `encode()` method on the instance, giving the string that you wish to be encoded as the first argument, and the shift of the letters you want as the second argument.
-  * log the `result` property of the `cipher` instance to the console. **This is your final coded product!**
+* Finally moving on from creating the class definitions, create an instance of the `CeasarCipher` class called `cipher`.
+* perform the `encode()` method on the instance, giving the string that you wish to be encoded as the first argument, and the shift of the letters you want as the second argument.
+* log the `result` property of the `cipher` instance to the console. **This is your final coded product!**
