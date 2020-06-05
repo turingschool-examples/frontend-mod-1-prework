@@ -8,6 +8,7 @@ the dog being hungry. Call that method below the class, and print the dog's
 hunger status.
 */
 
+
 class Dog {
   constructor(breed, name, age) {
     this.breed = breed;
@@ -23,12 +24,17 @@ class Dog {
   eat() {
     this.hungry = false;
   }
-}
+
+  play() {
+    this.hungry = true;
+  }
+};
 
 var fido = new Dog("Bernese", "Fido", 4)
 console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);
 console.log(fido.hungry);
-fido.eat();
-console.log(fido.hungry);
+console.log(fido.bark);
+console.log(fido.eat;
+console.log(fido.play);

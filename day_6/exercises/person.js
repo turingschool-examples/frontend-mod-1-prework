@@ -9,3 +9,24 @@ terminal.
 */
 
 // YOUR CODE HERE
+
+
+class person {
+  constructor (name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  yell() {
+    console.log("AAAHHH!");
+  }
+
+  cry() {
+    console.log("Boohoo");
+  }
+};
+
+
+var human = new person("Rick", 3);
+console.log(human.yell);
+console.log(human.cry);
