@@ -34,4 +34,4 @@ function concatenateStr(man, woman) {
   console.log(man + woman);
 }
 
-concatenateStr("When Harry", " met Sally.")
+concatenateStr("When Harry", " met Sally.");
