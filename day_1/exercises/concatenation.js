@@ -22,13 +22,13 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + " jumped over " + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
 
-slowPoke = "tortoise";
-speedy = "hare";
+var slowPoke = "tortoise";
+var speedy = "hare";
 
- // YOUR CODE HERE
+console.log("In an unpredictable result, the " + slowPoke + " beat the " + speedy + "!")
