@@ -59,6 +59,12 @@ console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
 console.log("Check the array after calling getLastValue: " + ourArray);
 
+/* this is what I got when I ran
+Check the array before calling getLastValue: 1,2,3
+The value of the last index in my array is: 3
+Check the array after calling getLastValue: 1,2,3
+*/
+
 /*
 In the above code, we passed ourArray to the getLastValue function. In getLastValue, the value of ourArray
 is assigned to the local variable functionArray, which is scoped at the function definition level. In the function's
