@@ -20,10 +20,10 @@ console.log(warning);
 // log the result:
 var students = 22;
 students+2;
-//var addStudents=students+2
-//addStudents=24
+//var addStudents=students+2;
+//addStudents=24;
 console.log(students);
-//console.log(addStudents)
+//console.log(addStudents);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
@@ -31,7 +31,7 @@ students-2
 //var subStudents=students-2
 //subStudents=20
 console.log(students);
-//console.log(subStudents)
+//console.log(subStudents);
 
 
 //I was unsure about whether I should simply add the
