@@ -43,9 +43,9 @@ console.log(lastFavoriteFood);
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result
 var newLength = animals.push("Lion");
-console.log(newLength);
+console.log(animals);
 
 // Write code below that removes the last item of food from the foods array and
 // log the result
 var last = favoriteFoods.pop();
-console.log(last);
+console.log(favoriteFoods);
