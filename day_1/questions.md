@@ -19,4 +19,4 @@
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 ··Concatenation is the joining of strings.
-··```console.log("That "+animal+" is black and white.");
+··```console.log("That "+animal+" is black and white."); ```
