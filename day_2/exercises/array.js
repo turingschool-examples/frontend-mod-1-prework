@@ -11,6 +11,7 @@ console.log(animals);
 
 // Write code below that will log an array of foods. Store the array in a variable.
 var favoriteFoods = ["Sushi", "Ice cream", "Pasta"];
+console.log(favoriteFoods);
 
 // example: Write code below that will log the number of elements in array of
 // animals from above.
