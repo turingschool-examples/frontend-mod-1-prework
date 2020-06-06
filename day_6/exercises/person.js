@@ -9,3 +9,27 @@ terminal.
 */
 
 // YOUR CODE HERE
+class person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+    this.isTired = false;
+  }
+
+  greeting() {
+    console.log("Hey there!");
+  }
+  nap() {
+    this.isTired = true;
+  }
+
+
+  
+}
+
+var dennis = new person ("Dennis", 34)
+console.log(dennis.name);
+console.log(dennis.age);
+dennis.greeting();
+dennis.nap();
+console.log(dennis.isTired);
