@@ -16,12 +16,23 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
+  addTopping(topping){
+    this.toppings.push(topping);// adds a push method to and a topping
+  }
+  removeTopping(topping){
+    var indextoRemove = this.toppings.indexOf(topping)
+    this.toppings.splice(indextoRemove,1); //uses the .splice to remove the index of salsa
+  }
+  changeProtein(){
+    (this.protein = "Chicken"); // assings Chicken as value
+  }
 };
-
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
-
+dinner.addTopping('jalapenos');
+dinner.removeTopping('salsa');
+dinner.changeProtein("Chicken");
 // Call the methods here
-
-console.log(dinner.protein);
-console.log(dinner.base);
-console.log(dinner.toppings);
+console.log("The burrito of the week comes with " + dinner.protein);
+console.log("Which comes with a big helping of " + dinner.base);
+console.log("The other toppings include " + dinner.toppings);
+console.log(dinner);

@@ -32,3 +32,4 @@ console.log(fido.age);
 console.log(fido.hungry);
 fido.eat();
 console.log(fido.hungry);
+console.log(Dog.hugry);
