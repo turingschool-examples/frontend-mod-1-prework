@@ -46,5 +46,5 @@ console.log(newLength);
 
 // Write code below that removes the last item of food from the foods array and
 // log the result
-var last = favoriteFoods.pop()
+var last = favoriteFoods.pop();
 console.log(last);
