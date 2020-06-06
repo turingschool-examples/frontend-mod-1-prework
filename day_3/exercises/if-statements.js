@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'nice';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -28,6 +28,9 @@ if (weather == 'sunny') {
 /*
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
+
+I changed the waether to nice which would pass through the if and if else statements
+resulting in logging "good to go!"
 
 ----------------------------
 Using the numQuarters variable defined below, determine
@@ -47,8 +50,12 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters <= 1) {
+  console.log("I don't have engough money for a gumball");
+} else {
+  console.log ("I have engough money for a gumball");
+}
+
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -64,3 +71,14 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+if (cupsOfFlour <= 1 && hasSauce == true) {
+  console.log("I can't make pizza")
+} else if (cupsOfFlour <= 1 && hasSauce == false) {
+  console.log( "I can't make pizza")
+} else if (cupsOfFlour == 2 && hasSauce == true) {
+  console.log("I can make pizza")
+} else if (cupsOfFlour >= 3 && hasSauce == true) {
+  console.log("I can make pizza")
+} else{ console.log("invaild entry pleazza try again")
+}
+  // I added the last bit to push myself a little more and to give an invaild option
