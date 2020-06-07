@@ -7,6 +7,7 @@ console.log(`"Hello World!"`)
 1. What is the character you would use to indicate comments in a JavaScript file?
 
 // you use two backslashes for a single line comment 
+//and
 /* for a multi-line comment */
 
 1. Explain the difference between an integer and a floating-point number?
