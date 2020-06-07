@@ -1,4 +1,21 @@
 #    Array Methods
+
+## `Different Array Method Types:`
+
+The `Pop Method`
+Removes the last element from an array and return that element
+
+The `Push Method`
+Adds one or more elements to the end of an array, and returns the new `length`
+of the array
+
+The `Shift Method`
+Removes the first element from an array and returns that element
+
+The `Unshift Method`
+Adds one or more elements to the front of an array, and returns the new `length`
+of the array
+
 ## `Quick Reference on Arrays`
 An `array` is a special type of variable that stores a list of values.
 
@@ -16,7 +33,7 @@ CREATING AN ARRAY:
 5. Array values can also be written on separate lines (not preferred); this
    technique is called an `array constructor`
 
-`ARRAY LITERAL EXAMPLE`
+`ARRAY LITERAL EXAMPLE:`
 
 var colors;  
 colors = ['white', 'black', 'custom']
@@ -26,20 +43,3 @@ colors = ['white', 'black', 'custom']
 var colors = new Array('white', \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'black', \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'custom')
-
-
-## `Different Array Method Types:`
-
-The `Pop Method`
-Removes the last element from an array and return that element
-
-The `Push Method`
-Adds one or more elements to the end of an array, and returns the new `length`
-of the array
-
-The `Shift Method`
-Removes the first element from an array and returns that element
-
-The `Unshift Method`
-Adds one or more elements to the front of an array, and returns the new `length`
-of the array
