@@ -18,20 +18,40 @@ console.log(warning);
 
 // example: Write code below to add 2 to the variable `students` and
 // log the result:
+
+//Option 1: the code below works by reassigning the variable students:
 var students = 22;
 students = 22 + 2;
 console.log(students);
 
-//result is 24
+//Option 2: the code below works by concatenating two variables within a third variable, then logging that variable:
+var students = 22;
+var plusTwo = 2;
+var totalStudents = students + plusTwo;
+console.log(totalStudents);
 
-could also work as:
-
+//Option 3: could also work by creating a new variable with the sum of 22 and 2, then logging that variable:
 var students = 22;
 var moreStudents = 22 + 2;
 console.log(moreStudents);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
+
+//Option 1:
 var students = 22;
 students = 22 - 2;
 console.log(students);
+
+//result is 20
+
+//Option 2:
+var students = 22;
+var minusTwo = 2;
+var totalStudents = students - minusTwo;
+console.log(totalStudents);
+
+//Option 3:
+var students = 22;
+var lessStudents = 22 - 2;
+console.log(lessStudents);
