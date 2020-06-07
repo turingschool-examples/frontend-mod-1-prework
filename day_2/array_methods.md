@@ -1,4 +1,4 @@
-#Array methods:
+## Array methods
 
 + **pop = removes the last element from an array and returns that element. This method changes the length of the array**
 
