@@ -2,20 +2,24 @@
 
 ### 1. Create an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-```var animals=["zebra","giraffe","elephant"]```
+```var animals=["zebra","giraffe","elephant"]
+```
 
 
-### 2. Save the array you created above to a variable `animals`.
+### 2. Save the array you created above to a variable "animals".
 
-```console.log(animals)```
+```console.log(animals)
+```
 
-### 3. using the array `animals`, how would you access `"giraffe"`?
+### 3. using the array "animals", how would you access "giraffe"?
 
-```animals.slice(1,2)```
+```animals.slice(1,2)
+```
 
 ### 4. How would you add `"lion"` to the `animals` array?
 
-```animals.push("lion")```
+```animals.push("lion")
+```
 
 ### 5. Name and describe two additional array methods.
 
