@@ -22,9 +22,9 @@ var colors;
 colors = ['white', 'black', 'custom']
 
 `ARRAY CONSTRUCTOR EXAMPLE:`
-var colors = new Array('white',
-                        'black',
-                        'custom')
+var colors = new Array('white',/
+                        'black',/
+                        'custom')/
                         
                         
 ## `Different Array Method types:`
