@@ -16,7 +16,7 @@ console.log(firstVar > secondVar); // this should return: false
 console.log(firstVar < secondVar); // this should return: true
 
 // log the result of the comparison: is firstVar equal to thirdVar? (use the == operator)
-console.log(firstVar == secondVar); // this should return: true
+console.log(firstVar == thirdVar); // this should return: true
 
 /*
 note: this is an example of type coercion. Although thirdVar is a string and secondVar is an integer,
@@ -25,7 +25,7 @@ perform this evaluation
 */
 
 // log the result of the comparison: is firstVar strictly equal to thirdVar? (use the === operator)
-console.log(firstVar == secondVar); // this should return: false
+console.log(firstVar === thirdVar); // this should return: false
 
 /*
 note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
