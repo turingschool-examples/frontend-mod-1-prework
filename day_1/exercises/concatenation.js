@@ -22,9 +22,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-
-console.log("The" " + speedy + " jumped over the " + slowPoke);
-
+ 
 console.log("The " + speedy + " jumped over the " + slowPoke);
 
 
