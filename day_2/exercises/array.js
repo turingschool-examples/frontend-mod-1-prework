@@ -11,7 +11,6 @@ var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
 // Write code below that will log an array of foods. Store the array in a variable.
-// YOUR CODE HERE
 var foods = ["Cheese", "Almonds", "Cheese Dip"]
 console.log(foods);
 
@@ -40,11 +39,10 @@ console.log(animals);
 // Write code below that will log the last item from the foods array.
 console.log(foods.[2]);
 
-// Write code below that uses a method to add "lion" to the animals array and
+// Write code below that uses a method to add "lion" to the animals array.
 var = newLength = animals.push("Lion");
 console.log(animals);
 
-// Write code below that removes the last item of food from the foods array and
-// log the result
+// Write code below that removes the last item of food from the foods array.
 var = newLength = foods.pop();
 console.log(foods);
