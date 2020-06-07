@@ -32,7 +32,8 @@ Two conditions can be added to the if-statement by using `&&` between the two co
 
 ### 5. What is the JavaScript syntax for an if/else if/else statement?
 
-```if (condition) {
+```
+if (condition) {
   //  block of code to execute if condition is true
 } else {
   //  block of code to execute if condition is false
