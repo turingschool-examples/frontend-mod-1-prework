@@ -29,6 +29,7 @@ function total(num1, num2) {
 
 total(3, 4);
 
+//logs 7
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be (man, woman) and
