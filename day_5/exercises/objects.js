@@ -5,13 +5,13 @@ file from your terminal with the command `node day_4/exercises/objects.js`
 */
 
 // example: Write code below to print an object that holds grocery store inventory
-var foods = {
+var groceryStore = {
   apples: 23,
   grapes: 507,
   eggs: 48
 };
 
-console.log(foods);
+console.log(groceryStore);
 
 // Write code below that will print an object of animals and their number
 // at the zoo. (an inventory of animals)
@@ -30,7 +30,7 @@ console.log(Object.values(zoo));
 
 // Using the zoo that you created above, print the value of the first item in
 // the object
-console.log(Object.keys(zoo)[0]);
+console.log(Object.values(zoo)[0]);
 
 // Add an animal to the zoo object and print the updated object.
 zoo.tigers = 4;
