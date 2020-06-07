@@ -14,8 +14,8 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName(argumentName) { // hint.. add a parameter on this line :)
-    console.log(argumentName);
+function printName(name) { // hint.. add a parameter on this line :)
+    console.log(name);
 };
 
 printName("Albus Dumbledore");
@@ -38,3 +38,10 @@ function concatenateString(man, woman) {
 };
 
 concatenateString("Harry", "Sally");
+
+function concatenatePractice(color, object){
+  console.log ("The " + color + " dog jumped over the " + object);
+};
+
+concatenatePractice("brown", "fence");
+// expected output: The brown dog jumped over the fence
