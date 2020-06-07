@@ -28,7 +28,10 @@ if (weather == 'sunny') {
 /*
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
+
+
 I changed the variable 'weather' to 'sunny' & expected output printed is sunscreen.
+If the variable 'weather' is 'sunny', 'rainy', 'icy', or '' then something other than 'coat' will print.
 
 ----------------------------
 Using the numQuarters variable defined below, determine
