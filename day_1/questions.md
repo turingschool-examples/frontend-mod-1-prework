@@ -1,9 +1,9 @@
 ## Day 1 Questions
 
 1. How would you log the string `"Hello World!"` to the console?
-
+```
 console.log(`"Hello World!"`)
-
+```
 
 2. What is the character you would use to indicate comments in a JavaScript file?
 
