@@ -20,6 +20,7 @@ Ex. 1111111
 A floating-point number is/has a decimal. 
 
 Ex. 1.11111
+
 Ex. .1
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
