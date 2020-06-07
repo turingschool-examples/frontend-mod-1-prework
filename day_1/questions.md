@@ -7,7 +7,7 @@
 
 2. What is the character you would use to indicate comments in a JavaScript file?
    ```JavaScript
-      // is the character used to indicate comments in JavaScript files
+      // two forward slashes are characters used to indicate comments in JavaScript files. You can also use: /* comment here followed by */
    ```
 
 3. Explain the difference between an integer and a floating-point number?
@@ -25,9 +25,10 @@ console.log(animal);
 ```
 
 6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
-Concatenation is when you join two strings together. Concatenation is a programming term that literally means "join together."
+Concatenation is when you join two strings together. Concatenation is a programming term that literally means "join together." You can also join a string and a number together & JavaScipt will use type coercion to convert the number into a string.
 ```JavaScript
 var quantity = 40;
-var animalCount = "There here are " + quantity + " " + animal + "'s at the zoo.";
+var animalCount = "There are " + quantity + " " + animal + "s at the zoo.";
 console.log(animalCount);
+//expected output: "There are 40 zebras at the zoo."
 ```

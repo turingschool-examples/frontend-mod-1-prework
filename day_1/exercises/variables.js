@@ -15,16 +15,17 @@ console.log(houseElf);
 // log that variable to the console:
 var newString = (name + " must not return to Hogwarts!");
 console.log(newString);
-//output will be Harry Potter must not return to Hogwarts!
+//output will be: Harry Potter must not return to Hogwarts!
 
 // example: Write code below to add 2 to the variable `students` and
 // log the result:
-var students = 22;
-students = (students + 2);
-console.log(students);
+var students = 22;        //assigned value of 22 to students variable
+studentsAdd = (students + 2);
+console.log(studentsAdd);
+//expected output: 24
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
-var students = 22;
-students = (students - 2);
-console.log(students);
+studentsSubtract = (students - 2);
+console.log(studentsSubtract);
+//expected output: 20
