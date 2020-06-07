@@ -11,7 +11,7 @@
 
 ### 3. using the array "animals", how would you access "giraffe"?
 
-`animals.slice(1,2)``
+`animals.slice(1,2)`
 
 
 ### 4. How would you add `"lion"` to the `animals` array?
