@@ -14,20 +14,21 @@
 
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
-    ///
+    ```
       function hello() {
           console.log("Sam I am");
         };
 
       hello();
-    ///
+    ```
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
-    ///
-      function helloSomeone() {
+    ```
+    function helloSomeone() {
 
-      }
+    }
+    ```
 
 1. How would you call or execute the function that you created above?
 
