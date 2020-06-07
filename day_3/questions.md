@@ -80,56 +80,64 @@ For example, in the second example pertaining to my previous answer, I created a
 
 1. What is the JavaScript syntax for an if statement?
 
-`if (condition) {`
+    ```
+    if (condition) {
 
-  `code to execute if condition is true`
+      code to execute if condition is true;
 
-  `} else {`
+      } else {
 
-    `code to execute if the condition is false`
+        code to execute if the condition is false;
 
-    `}`
+      }
+      ```
 
 1. How do you add multiple conditions to an if statement?
 
-You add multiple conditions to an if statement by inserting the logical AND operator or the logical OR operator between the conditions.  The logical AND operator is represented by `&&` and the logical OR operator is represented by `||`.  If both conditions on either side of `&&` are true, the code will be executed; however, if at least one side evaluates to false, then the entire set of conditions will be evaluated as false.  If at least one condition on either side of `||` is true, then the entire set of conditions will be evaluated as true.  If none evaluate to true, then it will result false.
+    You add multiple conditions to an if statement by inserting the logical AND operator or the logical OR operator between the conditions.  The logical AND operator is represented by `&&` and the logical OR operator is represented by `||`.  If both conditions on either side of `&&` are true, the code will be executed; however, if at least one side evaluates to false, then the entire set of conditions will be evaluated as false.  If at least one condition on either side of `||` is true, then the entire set of conditions will be evaluated as true.  If none evaluate to true, then result will be false.
 
 1. What is the JavaScript syntax for an if/else if/else statement?
 
-`if (condition1) {`
+    ```
+    if (condition1) {
 
-  `code to execute if condition1 is true;`
+      code to execute if condition1 is true;
 
-  `} else if (condition2) {`
+    } else if (condition2) {
 
-    `code to execute if the condition1 is false but condition2 is true;`
+    code to execute if the condition1 is false but condition2 is true;
 
-    `} else {`
+    } else {
 
-      `code to be executed if condition1 is false and condition2 is false`
+      code to be executed if condition1 is false and condition2 is false
 
-      `}`
+      }
+      ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-Other than an if-statement, we might want to use a conditional statement to execute `for loops`, where conditions are written between initialization and the final-expression, all of which are evaluated during code execution.
+    Other than an if-statement, we might want to use a conditional statement to execute `for loops`, where conditions are written between initialization and the final-expression, all of which are evaluated during code execution.
 
-The condition, in this case, is checked by the console prior to performing the final-expression.  
+    The condition, in this case, is checked by the console prior to performing the final-expression.  
 
-Syntax:
+    Syntax:
 
-`for (initialization; condition; final-expression) {`
+    ```
+    for (initialization; condition; final-expression) {
 
-  `executable block of code;`
+      executable block of code;
 
-  `}`
+      }
+      ```
 
-Example:
+      Example:
 
-`for (var i = 0; i < 6; i++) {`
+      ```
+      for (var i = 0; i < 6; i++) {
 
-  `console.log(i);`
+        console.log(i);
 
-  `}`
+        }
+        ```
 
-where `i` is printed by the console under the condition, or as long as, `i` is less than 6.  Otherwise, `i` will not be incremented by 1 per iteration.
+        where `i` is printed by the console under the condition, or as long as, `i` is less than 6.  Otherwise, `i` will not be incremented by 1 per iteration.
