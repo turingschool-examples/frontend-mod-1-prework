@@ -6,7 +6,7 @@ file from your terminal with the command `node day_4/exercises/functions.js`
 
 //example: Write a function below that, when called will print your name
 function printName() {
-  console.log("Severus Snape");
+  console.log("Sarah Osgood");
 };
 
 printName();
@@ -14,17 +14,32 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
+function printName(Sarah, Osgood) {
+  console.log("Sarah Osgood")
 };
 
 printName("Albus Dumbledore");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
-//YOUR CODE HERE
+function calculateVolume(width, height, length) {
+  var volume = width * height * length;
+  return volume;
+};
+
+var volume = calculateVolume(3, 4, 3);
+
+console.log(volume);
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
-// YOUR CODE HERE
+
+//I am struggling with this one. Will come back later - 6/6/2020
+//function makeDrink() {
+//  var drink = ("Tea is my favorite drink.");
+//  return drink;
+//}
+
+//var drink = makeDrink(hotWater, favMug);
+//console.log(drink);
