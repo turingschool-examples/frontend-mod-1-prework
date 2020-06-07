@@ -22,11 +22,11 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-<<<<<<< HEAD
+
 console.log("The" " + speedy + " jumped over the " + slowPoke);
-=======
+
 console.log("The " + speedy + " jumped over the " + slowPoke);
->>>>>>> 6d2448285228f0154617ff99f730b2ba60e852c1
+
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"

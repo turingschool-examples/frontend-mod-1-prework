@@ -11,18 +11,12 @@ console.log(2 + 2);
 console.log(83 - 7);
 
 // log the result of 6 multiplied by 53 to the console:
-<<<<<<< HEAD
+
 console.log(53 * 6)
-=======
-console.log(6 * 53)
->>>>>>> 6d2448285228f0154617ff99f730b2ba60e852c1
 
 // log the result of 20 divided by 4 to console:
 console.log(20 / 4)
 
 // log the result of the modulo of 10 into 54:
-<<<<<<< HEAD
-console.log(50 % 10)
-=======
+
 console.log(54 % 10)
->>>>>>> 6d2448285228f0154617ff99f730b2ba60e852c1
