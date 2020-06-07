@@ -24,7 +24,7 @@ colors = ['white', 'black', 'custom']
 `ARRAY CONSTRUCTOR EXAMPLE:`
 
 var colors = new Array('white', \
-&ensp;                 'black', \
+             &ensp;'black', \
 &ensp;                 'custom') 
                         
                        
