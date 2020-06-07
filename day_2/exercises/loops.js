@@ -14,4 +14,4 @@ for (var i = 0; i < 7; i++) {
  // Write code below that prints the phrase 'She sells seashells down by the seashore'
  // 10 times.
 
- // YOUR CODE HERE
+ // YOUR CODE HER

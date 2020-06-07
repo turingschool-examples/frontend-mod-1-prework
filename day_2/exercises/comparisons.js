@@ -34,19 +34,19 @@ the comparison still evaluates to false.
 */
 
 // log the result of the comparison: is firstVar not equal to secondVar?
-console.log(firstVar ); // this should return: true
+console.log(firstVar != secondVar); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 20?
-console.log(secondVar); // this should return: true
+console.log(secondVar >= 20); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 21?
-console.log(secondVar); // this should return: false
+console.log(secondVar >= 21); // this should return: false
 
 // log the result of the comparison: is secondVar less than or equal to 20?
-console.log(secondVar); // this should return: true
+console.log(secondVar <= 20); // this should return: true
 
 // log the result of the comparison: is secondVar less than or equal to 21?
-console.log(secondVar); // this should return: true
+console.log(secondVar <= 21); // this should return: true
 
 //TODO: Is this a bit wonky of an example?
 

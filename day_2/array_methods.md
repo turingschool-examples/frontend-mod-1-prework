@@ -1,4 +1,4 @@
-#    array methods
+#    Array Methods
 ## `Quick Reference on Arrays`
 An `array` is a special type of variable that stores a list of values.
 
@@ -28,7 +28,7 @@ var colors = new Array('white', \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'custom')
 
 
-## `Different Array Method types:`
+## `Different Array Method Types:`
 
 The `Pop Method`
 Removes the last element from an array and return that element
