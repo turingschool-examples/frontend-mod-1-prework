@@ -32,10 +32,16 @@ var colors = new Array('white',
 
                         'custom')
 
- 
+
 ## `Different Array Method types:`
 
 The `Pop Method`
+
+
 The `Push Method`
+
+
 The `Shift Method`
+
+
 The `Unshift Method`
