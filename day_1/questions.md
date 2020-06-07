@@ -39,7 +39,7 @@ console.log(animal)
 
 6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 ```
-Concatenation is the joining together of strings, strings and variables and different data types within strings.
+>Concatenation is the joining together of strings, strings and variables and different data types within strings.
 
-console.log("Look at that beautiful " + animal + "!")
+>console.log("Look at that beautiful " + animal + "!")
 ```
