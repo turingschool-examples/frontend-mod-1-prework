@@ -23,12 +23,10 @@ colors = ['white', 'black', 'custom']
 
 `ARRAY CONSTRUCTOR EXAMPLE:`
 var colors = new Array('white',
-  
-                        'black',
-  
-                        'custom')
+                       'black',
+                       'custom')
                         
-                        
+                       
 ## `Different Array Method types:`
 
 The `Pop Method`
