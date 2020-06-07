@@ -6,7 +6,7 @@
 
 1. What is a parameter?
 
-    * A parameter is a piece of information that is provided in order to perform a fuction.
+    * A parameter is a piece of information that is provided in order to perform a function.
 
 1. What is a return value?
 
@@ -25,11 +25,18 @@
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
     ```
-    function helloSomeone() {
+    function helloSomeone(name) {
+      return name + " I am";
 
     }
     ```
 
 1. How would you call or execute the function that you created above?
 
+    ```
+    helloSomeone();
+    ```
+
 1. What questions do you still have about functions in Javascript?
+
+    * I am fairly certain that I am not understanding how to do functions with strings. I think I have it down ok for functions that involve math/numbers.

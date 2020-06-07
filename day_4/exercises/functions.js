@@ -36,10 +36,8 @@ console.log(volume);
 // the end result might be "When Harry Met Sally".  Then, call that function.
 
 //I am struggling with this one. Will come back later - 6/6/2020
-//function makeDrink() {
-//  var drink = ("Tea is my favorite drink.");
-//  return drink;
-//}
+function makeDrink(hotWater, favMug) {
+    console.log("Tea is my favorite drink.");
+}
 
-//var drink = makeDrink(hotWater, favMug);
-//console.log(drink);
+makeDrink();
