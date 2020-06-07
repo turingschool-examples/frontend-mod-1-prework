@@ -22,9 +22,15 @@ console.log(animals.length);
 console.log(foods.length);
 
 // Write code below that will log "Zebra" from the animals array
-var firstElement = animals.shift();
+console.log(animals[0]);  //this works if I know the position of Zebra in the array
 
-console.log(firstElement);
+// I also found this function in researching how to search for a specific item in an array
+// animals.find(findZebra);
+
+// function findZebra(item) {
+//    return item === "Zebra";
+// }
+// returns "Zebra" & it works if I switch out the animal in quotations
 
 // Write code using bracket notation that will log the first item in the animals array
 var animals = ["Zebra", "Giraffe", "Elephant"];
@@ -32,19 +38,16 @@ var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals[0]);
 
 // Write code using bracket notation that will log the last item in the animals array
-var animals = ["Zebra", "Giraffe", "Elephant"];
-
-console.log(animals[2]);
+console.log(animals[animals.length - 1]);
 
 // Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
-// YOUR CODE HERE
 animals[animals.length - 1] = "Gorilla"
 
 // Write code below that will log the last item from the foods array.
 var foods = ["Sushi", "Burritos", "Tacos"];
 
-console.log (foods.pop());
+console.log(foods.pop());
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result

@@ -12,6 +12,7 @@ console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage", "kale"]
 
 plants.pop();
+//expected output: "kale"
 
 console.log(plants);
 // expected output: Array ["broccoli", "cauliflower", "cabbage"]
@@ -24,8 +25,9 @@ console.log(plants);
 ```JavaScript
 var animals = ['pigs', 'goats', 'sheep'];
 
-var count = animals.push('cows');
-console.log(count);
+var addCow = animals.push('cows');
+//created a variable to add cows
+console.log(addCow);
 // expected output: 4
 console.log(animals);
 // expected output: Array ["pigs", "goats", "sheep", "cows"]

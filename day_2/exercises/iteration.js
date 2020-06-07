@@ -21,9 +21,9 @@ for (var i = 0; i < animals.length; i++) {
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-var foods = ["apples", "bread", "cheese"];
+var foods = ["apples", "bread", "cheese", "milk"];
 
-for (var i = 0; i < animals.length; i++) {
+for (var i = 0; i < foods.length; i++) {
 console.log("Add "+ (foods[i]) + " to shopping list")
 }
 

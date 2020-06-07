@@ -21,20 +21,20 @@ console.log(animals[1])
 4. How would you add `"lion"` to the `animals` array?
 By using the push() method, you can add lions to the end of the animals array
 ```JavaScript
-var count = animals.push("lion");
-console.log(count);
-//expected output: 4
+animals.push("lion");
 console.log(animals);
-//expected output Array []"Zebra", "giraffe", "elephant", "lion"]
+//expected output Array ["zebra", "giraffe", "elephant", "lion"]
 
 ```
 
 5. Name and describe two additional array methods.
 the ```pop()``` method removes the last element from an array & returns that element. This method changes the length of the array
 the ```unshift()``` method adds one or more elements to the beginning of an array & returns the new length of the array
+the ```slice()``` method returns a shallow copy of a portion of an array into a new array objected selected from the indexed item startpoint and indexed item endpoint
+the ```find()``` method returns the value of the first element in the array that satisfies the provided testing function
 
 6. What are the boolean values in JavaScript?
-A boolean value can be true or false.
+A boolean value is a value that results to either true or false.
 
 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 You would use the ```==```(equal to) operator to write
