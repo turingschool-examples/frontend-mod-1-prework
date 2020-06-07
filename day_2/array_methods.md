@@ -18,10 +18,11 @@ CREATING AN ARRAY:
 
 `ARRAY LITERAL EXAMPLE`
 
-var colors;
+var colors;  
 colors = ['white', 'black', 'custom']
 
 `ARRAY CONSTRUCTOR EXAMPLE:`
+
 var colors = new Array('white', \
 &ensp;                 'black', \
 &ensp;                 'custom') 
