@@ -18,7 +18,8 @@ A **return value** is what is returned, or created, by a method or function.
 
 ### 4. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
-```function hello(){
+```
+function hello(){
    console.log("Sam I am");
    };
    ```
@@ -26,7 +27,8 @@ A **return value** is what is returned, or created, by a method or function.
 
 ### 5. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
-```var name="Kathryn";
+```
+var name="Kathryn";
 
 
 function hello_someone(name){
@@ -37,7 +39,9 @@ function hello_someone(name){
 
 ### 6. How would you call or execute the function that you created above?
 
-```hello_someone(name)
+```
+hello_someone(name)
+
 //I am Kathryn
 ```
 
