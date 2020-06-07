@@ -11,8 +11,11 @@ console.log(`"Hello World!"`)
 /* for a multi-line comment */
 
 1. Explain the difference between an integer and a floating-point number?
+
 An integer is a whole number, no fractions or decimals, and includes negative numbers. 
 Ex. 1111111
+
+
 A floating-point number is/has a decimal. 
 Ex. 1.11111
 Ex. .1
