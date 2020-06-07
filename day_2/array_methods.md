@@ -1,5 +1,5 @@
-    array methods
-# `Quick Reference on Arrays`
+#    array methods
+## `Quick Reference on Arrays`
 An `array` is a special type of variable that stores a list of values.
 
 Arrays are helpful when working with lists or a set of values that are equal
@@ -17,19 +17,23 @@ CREATING AN ARRAY:
    technique is called an `array constructor`
 
 `ARRAY LITERAL EXAMPLE`
+
 var colors;
 colors = ['white', 'black', 'custom']
 
 `ARRAY CONSTRUCTOR EXAMPLE:`
 var colors;
+
 colors
-var colors = new Array ('white',
+
+var colors = new Array('white',
 
                         'black',
-                        
+
                         'custom')
 
-# `Different Array Method types:`
+ 
+## `Different Array Method types:`
 
 The `Pop Method`
 The `Push Method`
