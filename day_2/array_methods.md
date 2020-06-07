@@ -1,5 +1,5 @@
     array methods
-# H1 `Quick Reference on Arrays`
+# `Quick Reference on Arrays`
 An `array` is a special type of variable that stores a list of values.
 
 Arrays are helpful when working with lists or a set of values that are equal
@@ -24,10 +24,12 @@ colors = ['white', 'black', 'custom']
 var colors;
 colors
 var colors = new Array ('white',
+
                         'black',
+                        
                         'custom')
 
-# H1 `Different Array Method types:`
+# `Different Array Method types:`
 
 The `Pop Method`
 The `Push Method`
