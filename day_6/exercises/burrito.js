@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/burrito.js`
+file from your terminal with the command `node day_6/exercises/burrito.js`
 
 Add the following methods to this burrito class and call the methods below
 the class:
@@ -20,7 +20,10 @@ class Burrito {
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-// Call the methods here
+dinner.toppings.push("avacado");
+dinner.toppings.shift();
+dinner.protein = "Mole";
+
 
 console.log(dinner.protein);
 console.log(dinner.base);
