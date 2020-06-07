@@ -2,81 +2,86 @@
 
 1. What is a conditional statement? Give three examples.
 
-A conditional statement is also known as an if statement where the if statement is executed if a condition is truthy.  If the condition is falsy, then another statement can be executed as "else."
+    A conditional statement is also known as an if statement where the if statement is executed if a condition is truthy.  If the condition is falsy, then another statement can be executed as "else."
 
-Examples:
+    Examples:
 
-+ Nicole is ordering sushi.  She is boring, as she only enjoys avocado and sweet potato rolls.  Nicole always wants both kinds of rolls, otherwise she does not order!
+    + Nicole is ordering sushi.  She is boring, as she only enjoys avocado and sweet potato rolls.  Nicole always wants both kinds of rolls, otherwise she does not order!
 
-`var hasAvocadoRolls = true;`
+      ```
+      var hasAvocadoRolls = true;
 
-`var hasSPRolls = true;`
+      var hasSPRolls = true;
 
-`if ((hasAvocadoRolls == true) && (hasSPRolls == true)) { `
+      if ((hasAvocadoRolls == true) && (hasSPRolls == true)) {
 
-  `console.log("Nicole is ordering sushi! Woohoo!");`
+        console.log("Nicole is ordering sushi! Woohoo!");
 
-  `} else {`
+        } else {
 
-    `console.log("Nicole refuses to order sushi.  Boo!");`
+          console.log("Nicole refuses to order sushi.  Boo!");
 
-    `}`
+        }
+       ```
 
-If hasAvocadoRolls == true AND hasSPRolls == true, then it will log "Nicole is ordering sushi! Woohoo!"
+       If hasAvocadoRolls == true AND hasSPRolls == true, then it will log "Nicole is ordering sushi! Woohoo!"
 
-If either one is false, it will log "Nicole refuses to order sushi.  Boo!"
+       If either one is false, it will log "Nicole refuses to order sushi.  Boo!"
 
-+ Harper the dog is very excited to go to the dog park tonight, but she only likes to go with her friend, Brody.  
-  If Brody is not available to go with her, she will not go to the dog park.
+    + Harper the dog is very excited to go to the dog park tonight, but she only likes to go with her friend, Brody.  
+       If Brody is not available to go with her, she will not go to the dog park.
 
-    `var brodyComes = true;`
-
-
-    `if (brodyComes == true) { `
-
-      `console.log("Harper is going to the dog park.  Woohoo!");`
-
-      `} else {`
-
-        `console.log("Harper is not going to the dog park without him.  Boo!");`
-
-        `}`
-
-  If brodyComes == true, then it will log "Harper is going to the dog park.  Woohoo!"
-
-  If brodyComes !== true, then it will log "Harper is not going to the dog park without him. Boo!"
-
-+ Harper got in trouble for being so stubborn, and was told by her dog parents that she will still need to go to the dog park even if Brody does not come with her, but she can only do this if the weather is nice.  However, if the weather is bad, she will not be able to go.
-
-`var brodyComes = false;`
-
-`var weather = "bad";`
+       ```
+       var brodyComes = true;
 
 
-  `if (brodyComes == true) {`
+       if (brodyComes == true) {
 
-    `console.log("Harper is going to the dog park.  Woohoo!");`
+         console.log("Harper is going to the dog park.  Woohoo!");
 
-    `} else if (weather == "nice") {`
+         } else {
 
-      `console.log("Harper is still going to the dog park without him.  Oh well!");`
+           console.log("Harper is not going to the dog park without him.  Boo!");
 
-      `} else {`
+           }
+           ```
 
-          `console.log("Harper will not be going at all.");`
+           If brodyComes == true, then it will log "Harper is going to the dog park.  Woohoo!"
 
-      `}`
+           If brodyComes !== true, then it will log "Harper is not going to the dog park without him. Boo!"
 
-If Brody can come, it will log "Harper is going to the dog park. Woohoo!"
+    + Harper got in trouble for being so stubborn, and was told by her dog parents that she will still need to go to the dog park even if Brody does not come with her, but she can only do this if the weather is nice.  However, if the weather is bad, she will not be able to go.
 
-If Brody can't come, but the weather is nice, it will log "Harper is still going to the dog park without him.  Oh well!"
+      ```
+      var brodyComes = false;
 
-If the weather is not nice, it will log "Harper will not be going at all"
+      var weather = "bad";
+
+      if (brodyComes == true) {
+
+        console.log("Harper is going to the dog park.  Woohoo!");
+
+        } else if (weather == "nice") {
+
+          console.log("Harper is still going to the dog park without him.  Oh well!");
+
+          } else {
+
+            console.log("Harper will not be going at all.");
+
+            }
+            ```
+
+            If Brody can come, it will log "Harper is going to the dog park. Woohoo!"
+
+            If Brody can't come, but the weather is nice, it will log "Harper is still going to the dog park without him.  Oh well!"
+
+            If the weather is not nice, it will log "Harper will not be going at all"
 
 1. Why might you want to use an if-statement?
 
-You might want to use an if-statement when working with conditionals and looking for a condition-specific result.
-For example, in the second example pertaining to my previous answer, I created an if-statement to figure out which conditions would lead to Harper going to the dog park.  I wrote an if-statement based on variables assigned a value, and evaluated each of those variables based on conditions I had written.  If (condition) then {something happens} and, if not, then {something else happens}.
+    You might want to use an if-statement when working with conditionals and looking for a condition-specific result.
+    For example, in the second example pertaining to my previous answer, I created an if-statement to figure out which conditions would lead to Harper going to the dog park.  I wrote an if-statement based on variables assigned a value, and evaluated each of those variables based on conditions I had written.  If (condition) then {something happens} and, if not, then {something else happens}.
 
 1. What is the JavaScript syntax for an if statement?
 
