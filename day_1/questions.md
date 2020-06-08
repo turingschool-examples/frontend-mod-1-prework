@@ -13,7 +13,7 @@
 
     Both integers and floating-point numbers are considered data types in JavaScript.  
 
-    An integer is a whole number value while a float contains a decimal number.
+    An integer is a whole number value (ranging from negative, zero, to positive) while a float contains a decimal number.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 

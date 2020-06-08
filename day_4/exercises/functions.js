@@ -6,8 +6,8 @@ file from your terminal with the command `node day_4/exercises/functions.js`
 
 //example: Write a function below that, when called will print your name
 function printName() {
-  console.log("Severus Snape");
-};
+  console.log("Nicole Gooden");
+}
 
 printName();
 
@@ -16,16 +16,16 @@ printName();
 
 function printName(myName) { // hint.. add a parameter on this line :)
   console.log(myName);
-};
+}
 
-printName("Albus Dumbledore");
+printName("Nicole");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
 
 function total(num1, num2) {
   console.log(num1 + num2);
-};
+}
 
 total(3, 4);
 

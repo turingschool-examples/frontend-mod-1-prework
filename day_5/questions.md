@@ -20,11 +20,11 @@
 
 1. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-    `console.log(states.IA);` or `states.IA;`
+    `console.log(states["IA"]);` or `states.IA;`
 
 1. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
 
-    Use `states.MN = "Minnesota";` to add a new key-value property to the object.  
+    Use `states.MN = "Minnesota";` or `states["MN"] = "Minnesota"` to add a new key-value property to the object.  
 
     The result should be:
 
@@ -47,6 +47,8 @@
     ```
 
     In this case, an object is better than an array because the order of my properties is irrelevant, and the information stored to the variable is in the form of key-value pairing.  Also, when different data types are included as properties, it makes more sense to use an object; whereas, best practice for array items would be to keep them consistent in data type.  An object allows me to access the value associated with various keys, leading to a clear understanding of the details someone would need to know about Harper if they were to dog-sit.
+
+    Also, an object may be better than an array when you want to include a method(behavior).
 
 1. What questions do you still have about objects?
 

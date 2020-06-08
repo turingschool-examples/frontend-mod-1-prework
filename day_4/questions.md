@@ -2,7 +2,7 @@
 
 1. In your own words, what is the purpose of a function?
 
-    The purpose of a function is to perform a task based on parameters and executable code.  
+    The purpose of a function is to perform a task repeatedly based on parameters and executable code.  
 
     Functions can have a set of parameters, which can be considered placeholders that will be addressed later when the function is called.
 
@@ -22,16 +22,16 @@
 
 1. What is a return value?
 
-    A return value immediately ends or halts function execution.  
+    A return value immediately ends or halts function execution.  Returning allows the computer to store the value to be used later in other code.  The `return` keyword is necessary.  
 
-    It is the code that is executed and logged last.
+    It is the code that is executed last.
 
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
     ```
     function hello() {
     console.log("Sam I am");
-    };
+    }
 
     hello();
     ```

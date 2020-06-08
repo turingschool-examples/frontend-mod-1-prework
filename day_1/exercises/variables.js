@@ -24,7 +24,7 @@ var students = 22;
 students = 22 + 2;
 console.log(students);
 
-//Option 2: the code below works by concatenating two variables within a third variable, then logging that variable:
+//Option 2: the code below works by adding two variables within a third variable, then logging that variable:
 var students = 22;
 var plusTwo = 2;
 var totalStudents = students + plusTwo;
@@ -33,6 +33,11 @@ console.log(totalStudents);
 //Option 3: could also work by creating a new variable with the sum of 22 and 2, then logging that variable:
 var students = 22;
 var moreStudents = 22 + 2;
+console.log(moreStudents);
+
+//Option 4:
+var students = 22;
+var moreStudents = students + 2;
 console.log(moreStudents);
 
 // Write the code below to subtract 2 students from the `students` variable and

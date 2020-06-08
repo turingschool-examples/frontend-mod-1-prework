@@ -6,21 +6,21 @@
 
 for (testNumber = 1; testNumber <= 100; testNumber++) {
 
-if ((testNumber % 3 === 0) && (testNumber % 5 === 0)) {
-  console.log("FizzBuzz");
-}
+  if ((testNumber % 3 === 0) && (testNumber % 5 === 0)) {
+    console.log("FizzBuzz");
+  }
 
-if ((testNumber % 3 === 0) && (testNumber % 5 !== 0)) {
-  console.log("Fizz");
-}
+  if ((testNumber % 3 === 0) && (testNumber % 5 !== 0)) {
+    console.log("Fizz");
+  }
 
-if ((testNumber % 5 === 0) && (testNumber % 3 !== 0)) {
-  console.log("Buzz");
-}
+  if ((testNumber % 5 === 0) && (testNumber % 3 !== 0)) {
+    console.log("Buzz");
+  }
 
-if ((testNumber % 5 !== 0) && (testNumber % 3 !== 0)) {
-  console.log(testNumber);
-}
+  if ((testNumber % 5 !== 0) && (testNumber % 3 !== 0)) {
+    console.log(testNumber);
+  }
 }
 
 //expected output:

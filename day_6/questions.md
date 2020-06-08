@@ -18,18 +18,21 @@
 
     ```
     class Car {
-      constructor(make, model, color) {
-        this.make: make;
-        this.model: model;
-        this.color: color;
+      constructor(soundSystem, model, color) {
+        this.soundSystem = soundSystem;
+        this.model = model;
+        this.color = color;
+
       }
 
-      drive() {
-        return true;
+      paint(newColor) {
+        this.color = newColor;
+        return this.color
       }
 
-      brake() {
-        return true;
+      upgradeSoundSystem(betterSoundSystem) {
+        this.soundSystem = betterSoundSystem
+        return this.soundSystem;
       }  
     };
     ```
@@ -42,9 +45,9 @@
 
     You can also include arguments to be passed in through the parameters between the parentheses.  For example:
 
-    `var bestCar = new Car("Ford", "Focus", "Black");`
+    `var bestCar = new Car("Lexicon", "Focus", "Black");`
 
-    `"Ford"` would be passed in for `make`, `"Focus"` would be passed in for `model`, and `"Black"` would be passed in for `color`.
+    `"Lexicon"` would be passed in for `soundSystem`, `"Focus"` would be passed in for `model`, and `"Black"` would be passed in for `color`.
 
 1. What questions do you still have about classes in JavaScript?
 

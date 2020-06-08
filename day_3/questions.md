@@ -110,7 +110,7 @@
 
     } else if (condition2) {
 
-    code to execute if the condition1 is false but condition2 is true;
+    code to execute if condition1 is false but condition2 is true;
 
     } else {
 

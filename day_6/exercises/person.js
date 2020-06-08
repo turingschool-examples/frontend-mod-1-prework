@@ -17,16 +17,18 @@ class Person {
   this.language = language;
   }
 
-  talk() {
-    return true;
+  learnNewLanguage(newLanguage) {
+   this.language = newLanguage;
+   return this.language;
   }
 
-  listen() {
-    return true;
+  applyHairDye(hairDyeColor) {
+    this.hairColor = hairDyeColor;
+    return this.hairColor;
   }
-}
+};
 
 var nicole = new Person("Nicole", 25, "Brown", "English");
 
-console.log(nicole.talk());
-console.log(nicole.listen());
+console.log(nicole.learnNewLanguage("Spanish"));
+console.log(nicole.applyHairDye("Purple"));

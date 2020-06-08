@@ -24,10 +24,11 @@ class Dog {
     return this.hungry = false;
   }
 
-  play() {
-    console.log(this.name + " is hungry!");
-    return this.hungry = true;
-  }
+  play(isHungry) {
+      isHungry = true;
+      console.log(this.name + " has played and his hunger status now returns " + isHungry + "!");
+      return this.hungry = isHungry;
+    }
 }
 
 var fido = new Dog("Bernese", "Fido", 4)

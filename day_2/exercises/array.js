@@ -37,6 +37,10 @@ console.log(animals.[0]);
 
 console.log(animals[2]);
 
+//for an array with an unknown number of items:
+
+console.log(animals[animals.length - 1]);
+
 //to log the last item in the array without bracket notation
 
 console.log(animals.pop());

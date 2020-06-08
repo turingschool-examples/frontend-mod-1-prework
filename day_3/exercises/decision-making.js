@@ -86,9 +86,13 @@ Reflection Questions
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
-    If I changed the variable bearChoice to equal 3, the final outcome will be: "You run as fast as you can into the next room. It's full of snakes!"
+    If I changed the variable bearChoice to equal 3, the final outcome will be: "You stay with the bear and become its best friend!"
+
+    This is due to the fact that line 34 refers to bearClothing, not bearChoice, so the else code would run here.
 
     Side note: I noticed an inconsistency in the variable naming...should line 34's (bearClothing === 3) be changed to (bearChoice === 3) ?
+
+    If bearChoice === 3, then "You run as fast as you can into the next room.  It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
