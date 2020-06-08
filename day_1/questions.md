@@ -24,7 +24,7 @@
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
-    Concatenation is the combination of variables, and their subsequent data types to form one. Literally bringing things         together.
+    Concatenation is the combination of string variables.
     ```JavaScript
     console.log("Weirdly, the plains " + animal + " only has ~26 stripes per side, and the mountan " 
     + animal + " has ~46 stripes per side.");
