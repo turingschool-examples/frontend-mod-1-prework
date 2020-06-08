@@ -82,10 +82,11 @@ console.log("You stay with the bear and become it's best friend!")
 
 7. What is your favorite ending?
 
-/*
+///
 Door one - "You offer the bear your hat and the bear shows you a secret passage out!"
-...not a fan of hats and really don't really want to be stuck in a room with a bear..
+...not a fan of hats and don't really want to be stuck in a room with a bear..
 even if it's a super rad bear, the secret passage *does* exist for a reason ¯\_(ツ)_/¯
+
 doorChoice = 1
 bearChoice = 1
-*/
+///
