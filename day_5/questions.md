@@ -31,7 +31,7 @@ var vehicle = {
   model: 'Telluride',
   fuelCapacity: 18.8,
   mpg: 23,
-};
+}; 
 ```
 
 
