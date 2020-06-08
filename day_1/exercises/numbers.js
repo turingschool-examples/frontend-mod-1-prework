@@ -5,22 +5,22 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 */
 
 // example: log the result of the sum of 2 and 2 to the console:
-```JavaScript
+
 console.log(2 + 2);
-```
+
 // log the result of 7 subtracted from 83 console:
-```JavaScript
+
 console.log(83 - 7);
-```
+
 // log the result of 6 multiplied by 53 to the console:
-```JavaScript
+
 console.log(6 * 53);
-```
+
 // log the result of 20 divided by 4 to console:
-```JavaScript
+
 console.log(20 / 4);
-```
+
 // log the result of the modulo of 10 into 54:
-```JavaScript
+
 console.log(54 % 10);
-```
+
