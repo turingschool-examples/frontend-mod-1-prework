@@ -8,4 +8,29 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, job) {
+    this.name = name;
+    this.job = job;
+  }
+  introduceYou(){
+    let introduction = "Hi, my name is " + this.name+".";
+    return introduction;
+  }
+
+  aboutMe(){
+    let about = "I am a "+ this.job+".";
+    return about;
+  };
+
+
+
+};
+
+const manuel = new Person("Manuel", "doctor");
+console.log(manuel.introduceYou());
+console.log(manuel.aboutMe());
+
+const sam = new Person("Sam", "therapist");
+console.log(sam.introduceYou());
+console.log(sam.aboutMe());
