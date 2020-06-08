@@ -10,10 +10,10 @@ name: "Dennis", //The property name is defined with the value "Dennis"//
 ```
 
 
-1. In relation to a Class, what is a method?
+2. In relation to a Class, what is a method?
 - A function on an object that allows us to perform tasks or calculate values.
 
-1. In the space below, create a Car class with at least 2 attributes and 2 methods
+3. In the space below, create a Car class with at least 2 attributes and 2 methods
 ```JavaScript
 class car {
   constructor(make, model, mileage, color) {
@@ -35,8 +35,8 @@ class car {
 
 
 
-1. How do you create an instance of a class?
+4. How do you create an instance of a class?
 - var ToyotaTacoma = new car("Toyota", "Tacoma", "500", "khaki");
 
-1. What questions do you still have about classes in JavaScript?
+5. What questions do you still have about classes in JavaScript?
 - I really want to get better at proper syntax.
