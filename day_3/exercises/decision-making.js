@@ -10,7 +10,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -40,16 +40,40 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+You are defining what your two options are depending on which door you choose.
+Its determing that door 1 has a bear putting on a hat, and any subsiquent doors (even though
+the only other given option is 2) would have the bear putting on a scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+The bear clothing variable
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+A scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+These lines are outlining the poential outfput for your third input. The value 1-3 you assign will
+determine what string of words is added in for the ending of the "story".
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+When I change the variable to 3 I get out "You stay with the bear...."
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the hat is too small and it starts to cry"
 
 7. What is your favorite ending?
-*/
+*/"Offering the your scarf and the bear shows you a secret passage out!"
+
+
+
+var cupsOfFlour = 1;
+var hasSauce = true;
+
+if ((cupsOfFlour <= 1) + (hasSauce == true) {
+  console.log("I cannot make pizza")
+}
+else if ((cups >= 2) + (hasSauce != true) {
+  console.log("I cannot make pizza")
+}
+else if ((cupsOfFlour >= 2) + (hasSauce === true)) {
+  console.log("I can make pizza")
+}
