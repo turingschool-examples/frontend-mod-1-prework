@@ -39,7 +39,7 @@ function scopedFunction() {
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
-
+  
 ---------------------------------------------------------
 
 Sometimes, when calling a function, the argument can be altered permanently.
