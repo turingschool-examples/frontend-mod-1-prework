@@ -2,7 +2,7 @@
 
 1. What is an Object, and how is it different from an Array in Javascript?
 
-* Objects group together attributes (variables) and methods (functions) to create a blueprint that allows for easy creation of other instances of similar objects. Arrays are indexes of information that are independent from one another. Arrays are variables that store indexed information, objects instead create individual variables or functions for that indexed information, allowing them to be more interactive and functional.  
+* Objects group together attributes (variables) and methods (functions) to create a model of a real-life object. Arrays are indexes of information that are independent from one another. Arrays are variables that store indexed information, objects instead create individual variables or functions for that indexed information, allowing them to be more interactive and dynamic.  
 
 1. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
 
@@ -29,7 +29,7 @@ states.MN = `Minnesota`;
 
 1. What is another example of when we might use a object?  In this case, why is a object better than an array?
 
-* As stated above, Objects make much better blueprints than arrays because of the specificity of the keys. Instead of referencing the index number of an Array to access the value, using object.name to access object values by the variable name makes readability and understanding of code much better. Also, the push, pop, splice, etc function of arrays seems much more limited than what Objects allow. Also, though we have not touched on it, I have become aware of the "Extend" ability that objects hold which allow for much more complex functionality than Arrays.
+* As stated above, Objects make much better models than arrays because of the specificity of the keys. Instead of referencing the index number of an Array to access the value, using object.name to access object values by the variable name makes readability and understanding of code much better. Also, the push, pop, splice, etc function of arrays seems much more limited than what Objects allow.
 
 
 1. What questions do you still have about objects?
