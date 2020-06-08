@@ -18,7 +18,7 @@ if (weather == 'sunny') {
 } else if (weather == 'rainy') {
   console.log("umbrella");
 } else if (weather == 'snowy') {
-  console.log("coat");
+  console.log("snowboard");
 } else if (weather == 'icy') {
   console.log("yak traks");
 } else{
@@ -38,17 +38,20 @@ out both "I have enough money for a gumball" and
 a conditional statement that only logs one or the
 other.
 
-You should be able to change num_quarters and achieve these outputs:
+You should be able to change numQuarters and achieve these outputs:
 When numQuarters = 0, program should log "I don't have enough money for a gumball"
 When numQuarters = 1, program should log "I don't have enough money for a gumball"
 When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 4;
+if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("I don't have enough money for a gumball");
+}
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -62,5 +65,13 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
+
+if (cupsOfFlour < 2) {
+console.log ("I cannot make pizza");
+} else if (hasSauce != true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >= 2) {
+  console.log ("I can make pizza");
+}
