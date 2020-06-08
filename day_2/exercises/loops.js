@@ -7,15 +7,15 @@ for (var i = 0; i < 5; i++) {
 }
 
  // Write code below that logs to the console the sum of 2 plus 2 7 times:
- ``
+ 
 for (var i = 0; i < 7; i++) {
   console.log(2 + 2);
 }
-``
+
  // Write code below that prints the phrase 'She sells seashells down by the seashore'
  // 10 times.
-``
+
 for (var i = 10; i > 0; i--) {
   console.log("She sells seashells down by the seashore");
 }
-``
+
