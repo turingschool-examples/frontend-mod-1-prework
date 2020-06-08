@@ -27,12 +27,12 @@
 
       paint(newColor) {
         this.color = newColor;
-        return this.color
+        console.log(this.color);
       }
 
       upgradeSoundSystem(betterSoundSystem) {
-        this.soundSystem = betterSoundSystem
-        return this.soundSystem;
+        this.soundSystem = betterSoundSystem;
+        console.log(this.soundSystem);
       }  
     };
     ```
