@@ -19,7 +19,7 @@ function hello() {
   console.log("Sam I am");
 }
 
-hello()
+hello();
 ```
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
@@ -34,7 +34,7 @@ function hello_someone(name) {
 
 You could call the above function by entering its name with a value entered for name i.e.
 ```JavaScript
-hello_someone("Sam")`
+hello_someone("Sam");
 ```
 1. What questions do you still have about functions in Javascript?
 
