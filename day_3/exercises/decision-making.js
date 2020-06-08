@@ -35,7 +35,7 @@ if (bearChoice === 1) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
-}
+};
 
 /*
 Reflection Questions
