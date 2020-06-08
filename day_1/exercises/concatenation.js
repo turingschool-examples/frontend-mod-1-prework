@@ -15,7 +15,7 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 var number = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + number + " " + creatures + "!")
+console.log("My zoo has " + number + " " + creatures + "!");
 //The code given would create a string
 
  // Write code that combines the variables below into a string that
