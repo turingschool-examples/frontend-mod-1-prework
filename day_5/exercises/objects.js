@@ -20,9 +20,9 @@ var zoo = {
   zebras: 10,
   ocelots: 4,
   flamingos: 34
-}
+};
 
-console.log(zoo)
+console.log(zoo);
 
 // Using the zoo that you created above, print all the keys in the object.
 

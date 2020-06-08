@@ -29,7 +29,7 @@ class Dog {
   }
 }
 
-var fido = new Dog("Bernese", "Fido", 4)
+var fido = new Dog("Bernese", "Fido", 4);
 console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);

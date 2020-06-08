@@ -3,7 +3,7 @@
 **Original Array:**
 
 ```JavaScript
-var instruments = ['Saxophone', 'Clarinet']
+var instruments = ['Saxophone', 'Clarinet'];
 ```
 
 ## Add item(s) to the end of an array using _.push_
@@ -13,11 +13,10 @@ Using the `.push` method will add one or more elements to the end of an array. T
 Starting with the array `instruments = ['Saxophone', 'Clarinet']`, the example below uses the `.push` method to add 'Flute' and 'Oboe' to the end of the array and increase the length to 4.
 
 ```JAVASCRIPT
-instruments.push('Flute', 'Oboe')
-
-console.log(instruments)
+instruments.push('Flute', 'Oboe');
+console.log(instruments);
 //expected output: ['Saxophone', 'Clarinet', 'Flute', 'Oboe']
-console.log(instruments.length)
+console.log(instruments.length);
 //expected output: 4
 ```
 
@@ -28,14 +27,14 @@ Using the `.pop` method will remove the last indexed item at the end of an array
 Starting with the array `instruments = ['Saxophone', 'Clarinet', 'Flute', 'Oboe']`, the example below uses the `.pop` method to remove 'Flute' and 'Oboe' from the array and decrease the length to 2.
 
 ```JAVASCRIPT
-instruments.pop()
+instruments.pop();
 //expected output: 'Oboe'
-instruments.pop()
+instruments.pop();
 //expected output: 'Flute'
 
-console.log(instruments)
+console.log(instruments);
 //expected output: ['Saxophone', 'Clarinet']
-console.log(instruments.length)
+console.log(instruments.length);
 //expected output: 2
 ```
 
@@ -46,11 +45,10 @@ Using the `.unshift` method will add one or more items to the beginning of an ar
 Starting with the array `instruments = ['Saxophone', 'Clarinet']`, the example below uses the `.unshift` method to add 'Flute' and 'Oboe' to the beginning of the array and increase the length to 4.
 
 ```JAVASCRIPT
-instruments.unshift('Flute', 'Oboe')
-
-console.log(instruments)
+instruments.unshift('Flute', 'Oboe');
+console.log(instruments);
 //expected output: ['Flute', 'Oboe', 'Saxophone', 'Clarinet']
-console.log(instruments.length)
+console.log(instruments.length);
 //expected output: 4
 ```
 
@@ -61,13 +59,12 @@ Using the `.shift` method will remove the first indexed item at the beginning of
 Starting with the array `instruments = ['Flute', 'Oboe', 'Saxophone', 'Clarinet']`, the example below uses the `.shift` method to remove 'Flute' and 'Oboe' from the array and decrease the length to 2.
 
 ```JAVASCRIPT
-instruments.shift()
+instruments.shift();
 //expected output: 'Flute'
-instruments.shift()
+instruments.shift();
 //expected output: 'Oboe'
-
-console.log(instruments)
+console.log(instruments);
 //expected output: ['Saxophone', 'Clarinet']
-console.log(instruments.length)
+console.log(instruments.length);
 //expected output: 2
 ```

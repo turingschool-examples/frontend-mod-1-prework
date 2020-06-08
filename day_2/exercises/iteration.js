@@ -31,5 +31,5 @@ for (var i=0; i<foods.length; i++) {
 
 var numbers = [3, 6, 9];
 for (var i = 0; i < numbers.length; i++) {
-  console.log(numbers[i] * 2)
+  console.log(numbers[i] * 2);
 }

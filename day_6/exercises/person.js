@@ -15,14 +15,14 @@ class Person {
     this.diet = diet;
   };
   exercise() {
-    this.tired = true
+    this.tired = true;
   };
   eat(food) {
-    this.diet.push(food)
-    this.tired = false
+    this.diet.push(food);
+    this.tired = false;
   };
   sleep() {
-    this.tired = false
+    this.tired = false;
   };
 };
 

@@ -31,7 +31,7 @@ if (bearChoice === 1) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearChoice === 3) {
+} else if (bearClothing === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
@@ -54,14 +54,14 @@ bearClothing
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
 
-When bearChoice is equal to 1, the console logs "You offer the bear your <bearClothing> and the bear shows you a secret passage out!".
-When bearChoice is equal to 2, the console logs "You tell the bear the <bearClothing> is too small and it starts to cry!".
-When bearChoice is equal to 3, the console logs "You run as fast as you can into the next room. It's full of snakes!".
-When bear Choice is not equal to 1, 2, or 3; the console logs "You stay with the bear and become it's best friend!".
+If bearChoice is equal to 1, "You offer the bear your <bearClothing> and the bear shows you a secret passage out!" is logged
+If bearChoice is equal to 2, "You tell the bear the <bearClothing> is too small and it starts to cry!" is logged
+If bearChoice is equal to 3, "You run as fast as you can into the next room. It's full of snakes!" is logged
+If bearChoice is not equal to 1, 2, or 3; "You stay with the bear and become it's best friend!" is logged
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
-"You run as fast as you can into the next room. It's full of snakes!"
+"You stay with the bear and become it's best friend!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 

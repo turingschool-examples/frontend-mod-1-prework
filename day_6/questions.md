@@ -18,13 +18,13 @@ A method is something that can be performed by/on a class. For example, `eat` mi
 class Car {
   constructor(color, oilLevel) {
     this.color = color;
-    this.oilLevel = 0
+    this.oilLevel = 0;
   };
   changeColor(color) {
-    this.color = color
+    this.color = color;
   };
   addOil() {
-    this.oilLevel = 100
+    this.oilLevel = 100;
   };
 };
 var chevy = new Car("red", 50);

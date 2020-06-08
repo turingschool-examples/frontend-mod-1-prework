@@ -4,15 +4,15 @@
 
       A function is used when a series of statements grouped together need to be performed multiple times. It's like a shortcut for lines of code that needs to be repeated.
 
-1. What is a parameter?
+2. What is a parameter?
 
       A parameter is a value that is passed to a function. Parameters are used in functions that need additional information. They act similar to variables.
 
-1. What is a return value?
+3. What is a return value?
 
       A return value is the value of a function. It's essentially the "answer" to the coded sequence. Returning a value will not print the value to the console, but it holds the value to be used in other sequences of code.
 
-1. In the space below, create a function named `hello` that will print `"Sam I am"`.
+4. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
 ```Javascript
 function hello() {
@@ -20,7 +20,7 @@ function hello() {
 }
 ```
 
-1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
+5. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
 ```Javascript
 function hello_someone(name) {
@@ -28,13 +28,13 @@ function hello_someone(name) {
 }
 ```
 
-1. How would you call or execute the function that you created above?
+6. How would you call or execute the function that you created above?
 
 ```Javascript
 hello_someone("Sam");
 //expected output: Sam I am
 ```
 
-1. What questions do you still have about functions in Javascript?
+7. What questions do you still have about functions in Javascript?
 
       How would you use a function to go through an array of information?
