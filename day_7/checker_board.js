@@ -42,4 +42,4 @@ function checkerBoard(size) {
 console.log(checkerString);
 };
 
-checkerBoard(28);
+checkerBoard(9);
