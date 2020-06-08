@@ -103,7 +103,7 @@ console.log("You tell the bear the hat is too small and it starts to cry!")
 Door one - "You offer the bear your hat and the bear shows you a secret passage out!"
 ...not a fan of hats and don't really want to be stuck in a room with a bear..
 even if it's a super rad bear, the secret passage *does* exist for a reason ¯\_(ツ)_/¯
-
+FAVORITE OUTCOME:
 doorChoice = 1
 bearChoice = 1
 ```
