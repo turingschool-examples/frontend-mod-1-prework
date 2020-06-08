@@ -37,7 +37,7 @@ if (bearChoice === 1) {
   console.log("You stay with the bear and become it's best friend!");
 }
 
-
+/*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
