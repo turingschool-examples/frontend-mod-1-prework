@@ -30,9 +30,9 @@ class Burrito {
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
 // Call the methods here
-dinner.changeProtein('Ham');
-dinner.addTopping('lettuce');
-dinner.addTopping('Something');
+dinner.changeProtein('Bacon');
+dinner.addTopping('Lettuce');
+dinner.addTopping('Cilantro');
 dinner.removeTopping();
 
 
