@@ -22,7 +22,6 @@
         this.soundSystem = soundSystem;
         this.model = model;
         this.color = color;
-
       }
 
       paint(newColor) {
