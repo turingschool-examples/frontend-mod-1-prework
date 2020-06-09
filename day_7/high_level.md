@@ -1,5 +1,6 @@
-#High Level Notes
-##Caesar Cipher
+# High Level Notes
+
+## Caesar Cipher
 
 
 A **caesar cipher** is an algorithmic method used to encrypt text by replacing a letter with another letter a certain position away in the alphabet.
@@ -93,7 +94,7 @@ Now that the code is complete and no longer returns errors, I log the **function
 
 I used `console.log(cipher('MJQQT BTWQI',-5))` to make sure that the code was consistent. This returned `HELLO WORLD` which tells me that the cipher is complete!
 
-###Extra Testing
+### Extra Testing
 
 `console.log(cipher('With great power comes great repsonsibility', 10))` returns `gsdr qbokd zygob mywoc qbokd bozcyxcslsvsdi`
 
