@@ -20,14 +20,8 @@ var zoo = {
   lion : 4,
   tiger : 5 ,
   bear : 4 ,
-  increaseAnimal :function(animal){
-    zoo[animal] ++
-  },
-  decreaseAnimal :function(animal){
-    zoo[animal] --
 
-  }
-}
+};
 
 // YOUR CODE HERE
 console.log(zoo)
@@ -50,9 +44,10 @@ console.log(Object.values(zoo))
 // the object
 // YOUR CODE HERE
 var values = Object.values(zoo)
-console.log(values[0])
+console.log('First Value'+ ' '+ values[0])
 
 // Add an animal to the zoo object and print the updated object.
 // YOUR CODE HERE
 zoo.cheetah = 6
+
 console.log(zoo)
