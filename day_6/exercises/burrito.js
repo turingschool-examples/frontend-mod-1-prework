@@ -16,11 +16,22 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
+  addTopping(toppings){
+    this.toppings.push(toppings);
+  }
+  removeTopping(toppings){
+    this.toppings.pop(toppings);
+  }
+  changeProtein(protein){
+    this.protein = `chicken`;
+  }
 };
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-// Call the methods here
+dinner.addTopping('queso');
+dinner.removeTopping();
+dinner.changeProtein();
 
 console.log(dinner.protein);
 console.log(dinner.base);
