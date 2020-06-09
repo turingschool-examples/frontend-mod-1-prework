@@ -27,5 +27,8 @@
 
     Concatenation is the joining together, or combining, of data types.  For example, a string and a variable can be concatenated by the plus (+) operator, which allows for an output that contains several pieces of information.
 
-    `var animal = "zebra";`
-    `console.log("My favorite animal is a " + animal + ".");`
+    ```
+    var animal = "zebra";
+
+    console.log("My favorite animal is a " + animal + ".");
+    ```
