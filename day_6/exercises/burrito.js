@@ -28,3 +28,6 @@ dinner.protein = "Mole";
 console.log(dinner.protein);
 console.log(dinner.base);
 console.log(dinner.toppings);
+
+// 6/7/2020: I came back to look at this and I think the methods need to be
+// with in the curly brackets for the class. This way does work? Is it acceptable? 

@@ -1,9 +1,9 @@
 for (var i = 1; i < 101; i++) {
   if ((i % 3 === 0) && (i % 5 === 0)) {
     console.log("FizzBuzz")
-  } if (i % 3 === 0) {
+  } else if (i % 3 === 0) {
     console.log("Fizz");
-  } if (i % 5 === 0) {
+  } else if (i % 5 === 0) {
     console.log("Buzz")
   }  else {
   console.log(i);
@@ -11,6 +11,13 @@ for (var i = 1; i < 101; i++) {
 }
 
 /*
+
+6/7/202: I put a note below about a problem with my code. As I was reviewing the Capstone, I stumbled on my answer! I am leaving the notes below so I will remember this moment! :)
+What I had wrong ... I used `if` instead of `else if`. I had tried elseif, but forgot to put a space between them and it broke my code.
+Thankful to be abel to keep learning! 
+
+
+6/6/2020:
 So, I got this for the most part. But When a number is a multiple of
 3 & 5, I get:
 "FizzBuzz"

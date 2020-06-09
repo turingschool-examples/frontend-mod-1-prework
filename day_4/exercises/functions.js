@@ -15,7 +15,7 @@ printName();
 // prints your name
 
 function printName2(first, last) {
-  console.log("first" + "last")
+  console.log(first + " " + last)
 };
 
 printName2("Sarah", "Osgood");
@@ -36,10 +36,8 @@ console.log(volume);
 // the end result might be "When Harry Met Sally".  Then, call that function.
 
 //I am struggling with this one. Will come back later - 6/6/2020
-function makeDrink(hotWater, favMug) {
-    console.log("Tea is my favorite drink.");
+function makeDrink(favDrink, timeOfDay) {
+    console.log(favDrink + " is my favorite drink in the " + timeOfDay + ".");
 }
 
-makeDrink();
-
-function michaelBolton(blank1, blank2) {   console.log("When a " + blank1 + " loves a " + blank2); }  michaelBolton('man', 'woman');
+makeDrink("Tea", "morning");

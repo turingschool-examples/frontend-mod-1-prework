@@ -53,11 +53,18 @@ Reflection Questions
 
    // "scarf"
 
-4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+4. In English, using technical vocabulary, describe what is happening in lines lines 31 and 38.
 
-   // In line 31, an if code block is being given for if the bearChoice equals 1.
+
+   // A series of decisions are being made depending on the variables from above,
+   // and further decions points are laid in the case that the previous `if` or `else if` returns fasle.
+   // In line 31, an 'if' condition is being given in case that the bearChoice equals 1.
+   // In line 33, the condition is given for when bearChoice equals 2.
+   // Line 35 will never, because of the If/Else statement that was laid out above.
+   // I think I said that better in my answer for question 7. See below!
+   // Line 37 will run if bearChoice equals anything except `1` or `2`.
    // In line 38, the entire else code block is being closed.
-   // If the variableChoice
+
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
