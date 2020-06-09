@@ -10,6 +10,7 @@ the class:
 3. changeProtein
 */
 
+
 class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
