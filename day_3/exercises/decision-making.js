@@ -60,8 +60,11 @@ The console logs a different concatenated string depending on the value of bearC
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 The final outcome would be the running into a room of snakes.
 
+//I changed this question because I thought it was a typo as bearclothing can never be 3 therefore the snakes output can'trun.
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 In changing those variables the result will be "You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
 My favorite ending is the first ending!
 */

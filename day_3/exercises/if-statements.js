@@ -12,6 +12,7 @@ with you to be prepared based on the following conditions:
 */
 
 var weather = 'snowy';
+weather = 'rainy'
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -65,7 +66,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 2;
 var hasSauce = true;
-if(cupsOfFlour >= 2 && hasSauce === true){
+if(cupsOfFlour >= 2 && hasSauce ){
   console.log("I can make pizza")
 }else{
   console.log("I cannot make pizza")
