@@ -20,7 +20,8 @@ var zoo = {
   peacocks: 3,
   koalas: 7,
   impalas: 15
-}
+};
+
 console.log(zoo)
 
 // Using the zoo that you created above, print all the keys in the object.
@@ -38,5 +39,7 @@ console.log(zoo.pandas);
 zoo.macaw = 6;
 
 console.log(zoo);
+
+// This one is for me: 
 
 console.log(zoo.macaw);

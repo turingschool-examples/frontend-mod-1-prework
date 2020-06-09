@@ -14,11 +14,11 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName(Sarah, Osgood) {
-  console.log("Sarah Osgood")
+function printName2(first, last) {
+  console.log("first" + "last")
 };
 
-printName("Albus Dumbledore");
+printName2("Sarah", "Osgood");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
@@ -41,3 +41,5 @@ function makeDrink(hotWater, favMug) {
 }
 
 makeDrink();
+
+function michaelBolton(blank1, blank2) {   console.log("When a " + blank1 + " loves a " + blank2); }  michaelBolton('man', 'woman');

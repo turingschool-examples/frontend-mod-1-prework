@@ -51,21 +51,23 @@ Reflection Questions
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
-   // "hat"
+   // "scarf"
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
 
    // In line 31, an if code block is being given for if the bearChoice equals 1.
    // In line 38, the entire else code block is being closed.
+   // If the variableChoice
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
    // "You stay with the bear and become it's best friend!"
+   // I don't think bearClothing can ever run in this .
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
    // "It looks like the hat is too small for the bear, do you..."
-   // "You tell the bear the hat is too small adn it starts to cry!"
+   // "You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
 
@@ -73,5 +75,5 @@ Reflection Questions
    // However, that one can't be reached in this case. the bearChoice else if code blocks run first, and so bearClothin is never executed.
    // I think you would have to change bearClothing to bearChoice, or make some other kind of change that I am not aware exists yet.
    // I don't know if I am using the correct techical vocabulary yet. I am trying to reference the book, etc., but I have a feeling I am still at the stage where I mix up vocabulary.
-   // I am ok with that. It's all part of the learning curve! :) 
+   // I am ok with that. It's all part of the learning curve! :)
 */

@@ -6,7 +6,7 @@
 
 1. In relation to a Class, what is a property?
 
-    * Properties are keys and values that can be assigned to instances of a class. Properties can be any of the data types, and they can also be methods/functions. (I am still figuring out what the difference between methods and fuctions are. So far, I think it depends on if they are part of a class (method), or on their own(funciton)).
+    * Properties are keys and values (paired) that can be assigned to instances of a class. Properties can be any of the data types, and they can also be methods/functions. (I am still figuring out what the difference between methods and functions are. So far, I think it depends on if they are part of a class (method), or on their own (function)).
 
 1. In relation to a Class, what is a method?
 
@@ -14,7 +14,7 @@
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
 
-    ```
+    ```JavaScript
     class Car {
       constructor(color, milage) {
         this.color = color;
@@ -32,7 +32,8 @@
     ```
 
 1. How do you create an instance of a class?
-    ```
+
+    ```JavaScript
     var fordEdge = new Car("white", 134000);
     ```
 

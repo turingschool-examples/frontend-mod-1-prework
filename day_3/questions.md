@@ -47,9 +47,11 @@
 
       * It is for when there is a decision to be made. They were on a lot of websites my son was using for remote learning this spring. If he got a certain number of problems correct, he could move on to the next concept. Otherwise (else), he had to go back and do all the problems again. (He got super frustrated! lol! Learning is hard! :) )
 
-1. What is the JavaScript syntax for an if statement?
+1. What is the JavaScript syntax for an if statement?  Come back to this!!!!
 
-      * `if` designates the condition that needs to be met. If that condition is met, the first code block is run.
+      if (condition) {        code to execute if condition is true;        } else {          code to execute if the condition is false;        }
+
+      * `if` designates the condition that needs to be met. If that condition is met, the first code block is run. note for: if it resolves to true, then the condition runs).
 
       * `else` designates the last option if none of the other code block conditions are met.
 
@@ -57,25 +59,24 @@
 
       * I would use `elseif`
 
-        Example:
-
-          `var weather = "rain"`
-
-          ```
-            if (weather == "rain") {
-              console.log("Water the grass for 10 minutes.")
-            } else if (weather == "cloudy") {
-              console.log("Water the grass for 15 minutes")
-            } else {
-              console.lot("Water the grass for 20 minutes")
-            }
-          ```
-
 
 1. What is the JavaScript syntax for an if/else if/else statement?
 
       * `else if` designates other conditions that are checked in order. If the variable meets one of those conditions, the code block is executed.
 
+      Example:
+
+        `var weather = "rain"`
+
+        ```JavaScript
+          if (weather == "rain") {
+            console.log("Water the grass for 10 minutes.")
+          } else if (weather == "cloudy") {
+            console.log("Water the grass for 15 minutes")
+          } else {
+            console.lot("Water the grass for 20 minutes")
+          }
+        ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 

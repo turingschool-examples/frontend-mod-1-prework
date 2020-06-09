@@ -6,7 +6,7 @@
 
 1. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
 
-    ```
+    ```JAVASCRIPT
     var petStore = {
       cats: 8,
       dogs: 4,
@@ -17,21 +17,30 @@
 
 1. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
+    ```javascript
+    states.IA;
     ```
-    states.IA
+
+    ```javascript
+    states["IA"]
     ```
 
 1. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
 
+    ```javascript
+    states.MN = "Minnesota";
     ```
-    states.MN = "Minnesota"
+
+    ```javascript
+    states["MN"] = "Minnesota";
+
+    * Does it matter which one?
     ```
 
 1. What is another example of when we might use an object?  In this case, why is an object better than an array?
 
-    * An array is simply a list. An object can be only a list, but it can also include arrays or methods/functions. It has more options for what it can do.
+    * An array is simply a list and can't hold a method. An object can be a list, but it can also include arrays or methods/functions. It has more options for what it can do.
 
 1. What questions do you still have about objects?
 
     * I have a feeling I will have a lot. But for now, I think I am grasping the basics of it.
-    
