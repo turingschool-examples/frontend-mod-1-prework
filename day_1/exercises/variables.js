@@ -35,7 +35,7 @@ var students = 22;
 var moreStudents = 22 + 2;
 console.log(moreStudents);
 
-//Option 4:
+//Option 4: using the variable students within a variable to add 2 to it's initial value:
 var students = 22;
 var moreStudents = students + 2;
 console.log(moreStudents);
@@ -59,4 +59,9 @@ console.log(totalStudents);
 //Option 3:
 var students = 22;
 var lessStudents = 22 - 2;
+console.log(lessStudents);
+
+//Option 4:
+var students = 22;
+var lessStudents = students - 2;
 console.log(lessStudents);
