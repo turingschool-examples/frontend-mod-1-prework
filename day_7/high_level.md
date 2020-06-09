@@ -1,6 +1,6 @@
-# High Level Notes
+# High Level Notes: Caesar Cipher
 
-## Caesar Cipher
+## [Click here to view code](https://github.com/kathrynljackson/frontend-module-0-capstone/blob/master/day_7/caesar_cipher.js)
 
 
 A **caesar cipher** is an algorithmic method used to encrypt text by replacing a letter with another letter a certain position away in the alphabet.
