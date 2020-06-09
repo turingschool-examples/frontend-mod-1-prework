@@ -46,9 +46,9 @@
            }
         ```
 
-           If brodyComes == true, then it will log "Harper is going to the dog park.  Woohoo!"
+        If brodyComes == true, then it will log "Harper is going to the dog park.  Woohoo!"
 
-           If brodyComes !== true, then it will log "Harper is not going to the dog park without him. Boo!"
+        If brodyComes !== true, then it will log "Harper is not going to the dog park without him. Boo!"
 
     + Harper got in trouble for being so stubborn, and was told by her dog parents that she will still need to go to the dog park even if Brody does not come with her, but she can only do this if the weather is nice.  However, if the weather is bad, she will not be able to go.
 
@@ -72,11 +72,11 @@
             }
        ```
 
-            If Brody can come, it will log "Harper is going to the dog park. Woohoo!"
+        If Brody can come, it will log "Harper is going to the dog park. Woohoo!"
 
-            If Brody can't come, but the weather is nice, it will log "Harper is still going to the dog park without him.  Oh well!"
+        If Brody can't come, but the weather is nice, it will log "Harper is still going to the dog park without him.  Oh well!"
 
-            If the weather is not nice, it will log "Harper will not be going at all"
+        If the weather is not nice, it will log "Harper will not be going at all"
 
 1. Why might you want to use an if-statement?
 
