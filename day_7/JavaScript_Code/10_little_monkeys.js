@@ -9,7 +9,7 @@ function monkeyRhyme(num = 10) {
     if (num < 0) {
         return 'Not enough monkeys jumping on the bed';
     }
-    for (var i = num; i > 0; i--)
+    for (var i = num; i > 0; i--){
         if (i === 1) {
             console.log(`One little monkey jumping on the bed,
        He fell off and bumped his head,
@@ -21,6 +21,7 @@ function monkeyRhyme(num = 10) {
       Mama called the doctor and the doctor said,
       No more monkeys jumping on the bed!`);
         }
+      }
 
 }
 
@@ -62,8 +63,9 @@ function turnNumToWords(num) {
         var stringWithoutUpper = ones[num]
         var upperChar = stringWithoutUpper.charAt(0).toUpperCase()
         var restString = stringWithoutUpper.slice(1)
+        
+        return upperChar + restString
 
-    return upperChar + restString
     } else if (num <= 19) {
         var stringWithoutUpper = teens[num]
         var upperChar = stringWithoutUpper.charAt(0).toUpperCase()

@@ -28,7 +28,6 @@ function CeasarCipherWithAsci(string,direction,amount){
 }
 //In this version I decided to create my own array alphabet and change the amount moving based on the amount given
 // This works great when the direction given is right and works for all positive integers
-// However it fails when given punctuation
 function CeasarCipherAlpha(string,amount){
   if(amount <0){
     return 'Amount must be positive'
@@ -45,11 +44,17 @@ function CeasarCipherAlpha(string,amount){
       var letter = words[i].charAt(j)
 
       if(letter !==letter.toUpperCase()){
+        if(alphabet.indexOf(letter) === -1){
+          return "Must only be letters from A-Z"
+        }
       var change = ((alphabet.indexOf(letter)+amount) % 26)
       var finalLetter = (alphabet[change])
      result += finalLetter
     } else if(letter === letter.toUpperCase()){
       var letter = letter.toLowerCase()
+         if(alphabet.indexOf(letter) === -1){
+          return "Must only be letters from A-Z"
+        }
      var change = ((alphabet.indexOf(letter)+amount) % 26)
       var finalLetter = (alphabet[change]).toUpperCase()
               result += finalLetter
@@ -60,7 +65,6 @@ function CeasarCipherAlpha(string,amount){
 
 
   }
-  console.log(result.trim())
   return result.trim()
 }
 CeasarCipherAlpha('This is a string',9)

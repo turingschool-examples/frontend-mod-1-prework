@@ -1,6 +1,6 @@
 //FizzBuzz
 // Log fizz if multiple of 3
-//log buzz if multiple of 5
+//log buzz if mult``iple of 5
 //log fizzbuzz if multiple of 5 and 3
 //else log numbers
 
@@ -76,3 +76,4 @@ function fizzBuzzReverse(startingNum = 100, endingNum = 0) {
     }
     return `Fizz buzz reverse complete for values ${startingNum} to ${endingNum}`
 }
+fizzBuzz(0,100)

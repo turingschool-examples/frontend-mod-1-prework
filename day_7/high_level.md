@@ -1,8 +1,9 @@
  ## Ceasar Cipher Highlevel Walkthrough
+
  ### Step one
  First we need to create a function called CeasarCipher with 2 parameters
- 1. The string we are going to cypher
- 1. The amount we are going to change the letters based on the cypher
+ 1. The string the user is going to input to cypher
+ 1. The amount we are going to change the letters 
 
 ### Step Two
  Our program **doesn't** inherently know the alphabet from a-z so we have to create something so it knows the alphabet
