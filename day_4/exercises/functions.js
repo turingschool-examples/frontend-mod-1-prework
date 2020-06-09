@@ -18,13 +18,13 @@ function printGivenName(name) { // hint.. add a parameter on this line :)
 console.log(name)
 };
 
-printGivenName("Albus Dumbledore");
+printGivenName("Taylor Johnson");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
 //YOUR CODE HERE
-function sum(num1,num2){
-  console.log(num1 +num2)
+function sum(num1, num2){
+  console.log(num1 + num2)
 }
 sum(5,7)
 
@@ -32,7 +32,7 @@ sum(5,7)
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
 // YOUR CODE HERE
-function concatString(string1,string2){
+function concatString(string1, string2){
   console.log(string1 + " " + string2)
 
 }
