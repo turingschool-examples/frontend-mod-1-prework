@@ -44,7 +44,7 @@
            console.log("Harper is not going to the dog park without him.  Boo!");
 
            }
-           ```
+        ```
 
            If brodyComes == true, then it will log "Harper is going to the dog park.  Woohoo!"
 
@@ -70,7 +70,7 @@
             console.log("Harper will not be going at all.");
 
             }
-            ```
+       ```
 
             If Brody can come, it will log "Harper is going to the dog park. Woohoo!"
 
@@ -143,6 +143,6 @@
         console.log(i);
 
         }
-        ```
+      ```
 
-        where `i` is printed by the console under the condition, or as long as, `i` is less than 6.  Otherwise, `i` will not be incremented by 1 per iteration.
+    where `i` is printed by the console under the condition, or as long as, `i` is less than 6.  Otherwise, `i` will not be incremented by 1 per iteration.
