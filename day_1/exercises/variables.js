@@ -10,18 +10,20 @@ console.log(name);
 // log that variable to the console:
 var houseElf = "Dobby";
 // YOUR CODE HERE
-
+console.log(houseElf);
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console:
 // YOUR CODE HERE
-
+var harryMust = `${name} must not return to Hogwarts!`;
 // example: Write code below to add 2 to the variable `students` and
 // log the result:
 var students = 22;
+students += 2
 // YOUR CODE HERE
 console.log(students);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
 // YOUR CODE HERE
-console.log(students);
+students -= 2
+console.log(students );

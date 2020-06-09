@@ -9,3 +9,22 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person{
+  constructor(name,age,occupation){
+    this.name= name;
+    this.age = age;
+    this.occupation = occupation;
+  }
+  birthday(){
+    this.age ++
+    console.log(`Happy birthday ${this.name}!!!`);
+  }
+  changeOccupation(newOccupation){
+    this.occupation = newOccupation;
+
+  }
+}
+var steve = new Person('Steve',35,'Barber');
+steve.birthday();
+steve.changeOccupation('Architect');
+console.log(steve);

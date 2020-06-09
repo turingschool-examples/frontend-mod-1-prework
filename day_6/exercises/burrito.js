@@ -10,17 +10,32 @@ the class:
 3. changeProtein
 */
 
+
 class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
     this.toppings = toppings;
   }
+  addTopping (newTopping){
+    this.toppings.push(newTopping)
+  }
+  removeTopping (){
+    this.toppings.pop()
+  }
+  changeProtein (protein){
+    this.protein = protein
+  }
 };
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
 // Call the methods here
+dinner.changeProtein('Bacon');
+dinner.addTopping('Lettuce');
+dinner.addTopping('Cilantro');
+dinner.removeTopping();
+
 
 console.log(dinner.protein);
 console.log(dinner.base);
