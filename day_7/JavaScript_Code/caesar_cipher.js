@@ -65,6 +65,7 @@ function CeasarCipherAlpha(string,amount){
 
 
   }
+  //must use trim to get rid of white space
   return result.trim()
 }
 CeasarCipherAlpha('This is a string',9)
