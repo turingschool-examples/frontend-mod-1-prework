@@ -27,7 +27,7 @@ console.log("ourNumber value outside scopedFunction: " + ourNumber);
 What's the value of ourNumber? Still 5, because function definitions create their own scope
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
-
+//
 var ourNumber = 5;
 
 function scopedFunction() {
