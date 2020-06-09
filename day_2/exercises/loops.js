@@ -8,7 +8,7 @@ for (var i = 0; i < 5; i++) {
 
  // Write code below that logs to the console the sum of 2 plus 2 7 times:
 for (var i = 0; i < 7; i++) {
-  console.log(2+2);
+  console.log( 2 + 2 );
 
 }
 
@@ -16,6 +16,6 @@ for (var i = 0; i < 7; i++) {
  // 10 times.
 
  // YOUR CODE HERE
- for(var i = 0; i<10;i++){
+ for(var i = 0 ; i < 10 ; i++){
    console.log('She sells seashells down by the seashore')
  }

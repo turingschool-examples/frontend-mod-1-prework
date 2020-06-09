@@ -25,13 +25,13 @@ for (var i = 0; i < animals.length; i++) {
 // <food> to shopping list" for each food item.
 // YOUR CODE HERE
 var foodArray = ['pizza','hummus','avocado']
-for(var i = 0 ;i<foodArray.length;i++){
+for(var i = 0 ;i < foodArray.length ; i++){
   console.log(`Add ${foodArray[i]} to shopping list`)
 }
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
 // YOUR CODE HERE
 var numbersArray = [1,2,3,4,5,6,7]
-for(var i = 0 ;i < numbersArray.length;i++){
+for(var i = 0 ; i < numbersArray.length ; i++){
   console.log(numbersArray[i] + ' ' + numbersArray[i])
 }
