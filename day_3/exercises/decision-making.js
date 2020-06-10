@@ -47,9 +47,11 @@ The bear clothing has a new value assigned to it after the first if statement ex
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 The value would then be "scarf".
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
-Here, we have an elseif statement chaned to the if bearchoice if statement. In these lines the console is evaluating
-what is going to happen depending on the door the bear chooses. In addition to this the bear clothing is being added in
-from the previous if statement regarding the doorChoice variable.
+Between these lines, there is are several elsif statements chaned to an if statement. The code in these lines determines what should
+be run given the variables bearChoice or bearClothing. If bearChoice is equal to `1`, then it prints a message that you offer your hat or scarf and it helps
+you. If the bearChoice is equal to `2`, then it prints a message that you insult the bear's hat or scarf and it cries. If the bear choice is equal to 3, then it
+the else statement runs, because there is no conditions for `bearChoice === 3`. In this case you stay with the bear and become it's best friend.
+It shuld be mentioned that bearClothing will never run because there is no instance where bearClothing will equal `3`.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 The console will log: "You stay with the bear and become it's best friend!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?

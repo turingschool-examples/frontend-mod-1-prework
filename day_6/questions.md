@@ -3,7 +3,11 @@
 
 1. In your own words, what is a Class?
 
+<<<<<<< HEAD
 A class is essentially a template or mold for creating objects for use multiple times and in different variations.
+=======
+A class is essentially a template or mold for creating instances of objects.
+>>>>>>> 24f4ec9fdf7fa4a116c8d174dcad9665a4448fae
 
 1. In relation to a Class, what is a property?
 
@@ -11,7 +15,7 @@ A property tells you about the object. For instance what is its name, hight, wid
 
 1. In relation to a Class, what is a method?
 
-A method is a function that is part of an object.
+A method is a function that is part of the class and can be run more than once (is reusable)
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
 
@@ -22,7 +26,7 @@ class Car {
   this.isDirty = isDurty;
   }
   pumpAir() {
-    this.tirePressure = 35;
+    this.tirePressure += pressureAdded;
   }
   goMudding() {
     this.isDirty = true;

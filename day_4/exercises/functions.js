@@ -13,11 +13,11 @@ printName();
 
 // Update the function below so that it takes an argument of your name and
 // prints your name
-function printName(name) { // hint.. add a parameter on this line
-  console.log(name);
+function printName(firstName, lastName) { // hint.. add a parameter on this line
+  console.log(firstName + lastName);
 };
 
-printName("Cameron Romo");
+printName("Cameron", "Romo");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
