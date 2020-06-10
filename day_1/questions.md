@@ -10,7 +10,8 @@ console.log("Hello World!")
 ```
 // Single-line comment example 1
 
-/* This would be an example of a multi line comment. */
+/* This would be an example
+ of a multi line comment. */
 
 ```
 
