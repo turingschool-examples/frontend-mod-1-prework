@@ -47,13 +47,21 @@
 
       * It is for when there is a decision to be made. They were on a lot of websites my son was using for remote learning this spring. If he got a certain number of problems correct, he could move on to the next concept. Otherwise (else), he had to go back and do all the problems again. (He got super frustrated! lol! Learning is hard! :) )
 
-1. What is the JavaScript syntax for an if statement?  Come back to this!!!!
+1. What is the JavaScript syntax for an if statement?  
 
       if (condition) {        code to execute if condition is true;        } else {          code to execute if the condition is false;        }
 
       * `if` designates the condition that needs to be met. If that condition is met, the first code block is run. note for: if it resolves to true, then the condition runs).
 
       * `else` designates the last option if none of the other code block conditions are met.
+
+      ```
+      if (variable = condition) {
+        console.log("do this");
+      } else {
+        ("do other")
+      }
+      ```
 
 1. How do you add multiple conditions to an if statement?
 
