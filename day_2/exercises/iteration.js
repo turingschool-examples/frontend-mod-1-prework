@@ -33,9 +33,9 @@ for (var i = 0; i < foods.length; i++) {
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
 
-//Come back to this!!
-//var numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
-//for (var i = 0; i < numbers.length; i++) {
-//}
+//Come back to this!! (came back on 6/9/2020. figured it out with no problem ... I think!)
+var numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-numbers = numbers.slice(i + 1) =
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i] * 2);
+}
