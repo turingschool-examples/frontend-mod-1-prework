@@ -29,6 +29,10 @@ var firstAnimal = animals[0];
 
 console.log(firstAnimal);
 
+// I think I could have also coded:
+//console.log(animals[0]);
+// I am coming back to this the night before it is due and am realizing I have learned so much!!
+
 // Write code using bracket notation that will log the last item in the animals array
 var lastAnimal = animals[2];
 
