@@ -8,4 +8,26 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person{
+  constructor(age, hunger, weight){
+    this.age = age;
+    this.hunger = hunger;
+    this.weight = weight;
+  }
+  haveBday(){
+    this.age = this.age + 1;
+  }
+  eat(){
+    this.hunger = this.hunger - 50;
+  }
+  diet(){
+    this.weight = this.weight - 10;
+  }
+};
+
+var personOne = new Person(26, 75, 170);
+
+personOne.haveBday();
+personOne.eat();
+personOne.diet();
+console.log(personOne);

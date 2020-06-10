@@ -8,7 +8,7 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 console.log("Alan Turing");
 
 // Write code below to log `Welcome to Turing!` in the console:
-console.log(/*YOUR CODE HERE*/);
+console.log('Blake Donnelly');
 
 // Write code below to log `99 bottles of pop on the wall...`:
-// YOUR CODE HERE
+console.log('99 bottles of pop on the wall...')
