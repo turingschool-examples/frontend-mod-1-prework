@@ -27,7 +27,7 @@ class Burrito {
   };
 };
 
-var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
+var dinner = new Burrito("beans", "rice", ["cheese", "salsa", "guacamole"]);
 dinner.addTopping("lettuce");
 dinner.removeTopping();
 dinner.changeProtein("beef");
@@ -35,5 +35,11 @@ dinner.changeProtein("beef");
 // Call the methods here
 
 console.log(dinner.protein);
+//expected output: beef
 console.log(dinner.base);
+//expected output: rice
 console.log(dinner.toppings);
+//expected output: ["cheese", "salsa", "guacamole"]
+console.log(dinner);
+//expected output: Burrito {protein: "beef", base: "rice", toppings: ["cheese", "salsa", "guacamole"]
+}
