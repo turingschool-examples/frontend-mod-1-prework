@@ -57,11 +57,11 @@ Reflection Questions
 
 
    // A series of decisions are being made depending on the variables from above,
-   // and further decions points are laid in the case that the previous `if` or `else if` returns fasle.
-   // In line 31, an 'if' condition is being given in case that the bearChoice equals 1.
+   // and further decision points are given in the case that the previous `if` or `else if` returns fasle.
+   // In line 31, an 'if' condition is being given in the case that the bearChoice equals 1.
    // In line 33, the condition is given for when bearChoice equals 2.
-   // Line 35 will never, because of the If/Else statement that was laid out above.
-   // I think I said that better in my answer for question 7. See below!
+   // Line 35 will never run, because of the If/Else statement that was laid out above.
+   // note: I think I said that better in my answer for question 7. See below!
    // Line 37 will run if bearChoice equals anything except `1` or `2`.
    // In line 38, the entire else code block is being closed.
 
