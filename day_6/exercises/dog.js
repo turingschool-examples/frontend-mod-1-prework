@@ -10,7 +10,7 @@ hunger status.
 
 
 class Dog {
-  constructor(breed, name, age) {
+  constructor(breed, name, age, hungry) {
     this.breed = breed;
     this.name = name;
     this.age = age;
@@ -25,8 +25,9 @@ class Dog {
     this.hungry = false;
   }
 
-  play() {
-    this.hungry = true;
+  play() {                            //added play method
+    this.hungry = true;               //changes hunger status to true
+    return(this.name + " is hungry");   //added a string that "[object name] is hungry"
   }
 };
 
@@ -35,6 +36,9 @@ console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);
 console.log(fido.hungry);
-console.log(fido.bark);
-console.log(fido.eat;
-console.log(fido.play);
+fido.eat();
+console.log(fido.hungry)
+
+//Calling Play Method Per Exercise Instructions:
+console.log(fido.play());  //call play method, changes hunger status to true & prints string saying "object is hungry"
+console.log(fido.hungry)    //prints dog's hunger status
