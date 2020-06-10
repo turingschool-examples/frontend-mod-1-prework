@@ -1,3 +1,8 @@
+// Found out prompt is not supported in terminal
+// This is sweet for web-pased execution and was fun to learn
+
+
+
 class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
