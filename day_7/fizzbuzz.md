@@ -1,5 +1,3 @@
-## FizzBuzz
-
 Create a file named `fizzbuzz.js` and within that file, write a program that logs the numbers from 1 to 100 with the following rules:  
 * For any number that is a multiple of 3, log 'Fizz'
 * For any number that is a multiple of 5, log 'Buzz'

@@ -8,4 +8,23 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(clothes, goodMood) {
+  this.clothes = clothes;
+  this.goodMood = goodMood;
+  }
+addClothes() {
+  this.clothes = "New Clothes";
+  }
+changeMood() {
+  this.goodMood = true;
+  }
+};
+
+var sue = new Person("Old Clothes", false);
+
+sue.addClothes();
+sue.changeMood(true);
+
+console.log(sue.clothes);
+console.log(sue.goodMood);
