@@ -1,3 +1,7 @@
+// Rough attempt at creating a cipher, it switches to unicode and black
+// Did not place limiters so switches back to wrong characters ?/ etc
+
+
 class CeaserCipher{
   constructor(text, shift) {
     this.text = text;
