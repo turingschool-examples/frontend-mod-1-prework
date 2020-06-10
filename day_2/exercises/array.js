@@ -33,7 +33,7 @@ var lastAnimal = animals[animals.length - 1];
 console.log(lastAnimal);
 
 // Write code using bracket notation that will reassign the last item in the animals
-animals[animals.length-1] = "Gorilla;
+animals[animals.length-1] = "Gorilla";
 console.log(animals);
 
 // Write code below that will log the last item from the foods array.
