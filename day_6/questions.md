@@ -3,7 +3,7 @@
 
 1. In your own words, what is a Class?
 
-A class is essentially a template for creating objects, instances, behaviors, and calling methods.
+A class is essentially a template or mold for creating objects for use multiple times and in different variations.
 
 1. In relation to a Class, what is a property?
 
@@ -37,7 +37,11 @@ var jeep = new Car(5, false);
 To create an instance of a class you would do as labeled above with the jeep variable.
 once the variable is created and declared as a `new` Car, then you can fill in the attributes that are
 specifically related to that instance.
+i.e.
 
+```Javascript
+var mustang = new Car(35, false);
+```
 1. What questions do you still have about classes in JavaScript?
 
 I suppose I'm just curious of all the complexities related to classes. Seems there are a few different notations and
