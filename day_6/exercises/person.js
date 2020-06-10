@@ -15,6 +15,8 @@ class person {
   constructor (name, age) {
     this.name = name;
     this.age = age;
+    this.happy = true;
+    this.clothes = [];
   }
 
   yell() {
@@ -24,9 +26,31 @@ class person {
   cry() {
     console.log("Boohoo");
   }
+
+  makeSad() {
+    this.happy = false
+    console.log("I'm sad")
+  }
+
+  giveAHat(hat) {
+    this.clothes.push(hat);
+  }
+
+  giveShoes(shoes) {
+    this.clothes.push(shoes);
+  }
 };
 
 
 var human = new person("Rick", 3);
-console.log(human.yell);
-console.log(human.cry);
+
+console.log(human.name)                //prints object name
+console.log(human.age)                 //prints object age
+human.yell();                          //calls yell function & prints "AAAHHH!"
+human.cry();                           // calls cry function & prints "Boohoo"
+console.log(human.happy)               //prints happy status
+human.makeSad()                        //calls makeSad function & changes happy status
+console.log(human.happy)               //prints new status of happy
+human.giveAHat("cowboy hat");            //adds cowboy hat to clothes array
+human.giveShoes("running shoes");        //adds running shoes to clothes array
+console.log(human.clothes)               //prints clothes array
