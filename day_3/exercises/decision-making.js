@@ -56,7 +56,7 @@ bearClothing
 
 If bearChoice is equal to 1, "You offer the bear your <bearClothing> and the bear shows you a secret passage out!" is logged
 If bearChoice is equal to 2, "You tell the bear the <bearClothing> is too small and it starts to cry!" is logged
-If bearChoice is equal to 3, "You run as fast as you can into the next room. It's full of snakes!" is logged
+If bearClothing is equal to 3, "You run as fast as you can into the next room. It's full of snakes!" is logged
 If bearChoice is not equal to 1, 2, or 3; "You stay with the bear and become it's best friend!" is logged
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
@@ -71,5 +71,6 @@ If bearChoice is not equal to 1, 2, or 3; "You stay with the bear and become it'
 
 var doorChoice = 2;
 var bearChoice = 3;
+Because the code for it is tricky, and you have a new friend.
 
 */
