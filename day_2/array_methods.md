@@ -38,7 +38,7 @@ console.log(instruments.length);
 //expected output: 2
 ```
 
-### Add item(s) to the beginning of an array using _.unshift_
+## Add item(s) to the beginning of an array using _.unshift_
 
 Using the `.unshift` method will add one or more items to the beginning of an array, and shift the current indexes over. It's similar to the `.push` method, but places the new items starting in the zeroeth index instead of the last index while moving the other items accordingly. This will also be reflected in the new length of the array.
 
