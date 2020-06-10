@@ -13,9 +13,9 @@ X X X
 
 ### Objective and initial thoughts
 
-    To achieve this output, the goal is to create a string of "X", " ", and line breaks (\n), that will print the pattern the user is asking for. The simplest way for the user to input this information is through a function with a size parameter.
+  To achieve this output, the goal is to create a string of "X", " ", and line breaks (\n), that will print the pattern the user is asking for. The simplest way for the user to input this information is through a function with a size parameter.
 
-    A loop will be needed inside the function that performs **if statements** depending on both the number of characters, and the number of lines. Following these **if statements** will result in the addition of "X", " ", or "\n" to a blank string. When the resulting string is printed it will print in the pattern of a checkerboard with an integer argument.
+  A loop will be needed inside the function that performs **if statements** depending on both the number of characters, and the number of lines. Following these **if statements** will result in the addition of "X", " ", or "\n" to a blank string. When the resulting string is printed it will print in the pattern of a checkerboard with an integer argument.
 
 ### Code Walk-through
 
@@ -24,8 +24,8 @@ X X X
 ```javascript
 function checkerBoard(size) { //function creation
   var checkerString = ""; //string creation
-
 ```
+
 2. Set a loop within the function for the number of lines called for (x).
 
 ```javascript

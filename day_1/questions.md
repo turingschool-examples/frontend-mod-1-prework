@@ -10,23 +10,23 @@ console.log("Hello World!");
 // two backslashes indicate a single line comment
 /* a backslash followed by a "*"
 allows for multiple lines of comments.
-Comments end at with-> */
+Comments end with */
 ```
-
+___
 3. Explain the difference between an integer and a floating-point number?
 
      An integer is a whole number (positive, negative, or zero) whereas a floating-point number is a fraction using a decimal.
-
+___
 4. In the space below, create a variable `animal` that holds the string `"zebra"`.
 ```JavaScript
 var animal = "zebra";
 ```
-
+___
 5. How would you log the string `"zebra"` using the variable that you created above?
 ```JavaScript
 console.log(animal);
 ```
-
+___
 6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
      Concatenation is a string method used to put multiple strings together. It can be used with other data types as well, and will convert numbers or booleans to strings.
@@ -35,4 +35,5 @@ var animal = "zebra";
 var predator = "lion";
 var herdCount = 20;
 console.log("the " + predator + " silently approached the herd of " + herdCount + " " + animal + "s.");
+// expected output: the lion silently approached the herd of 20 zebras.
 ```
