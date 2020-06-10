@@ -5,8 +5,8 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 */
 
 // example: Write code that combines the variables below into another string:
-var name = "Ron";
-var team = "Chudley Cannons";
+var name = "Oliver Wood";
+var team = "Puddlemere";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
