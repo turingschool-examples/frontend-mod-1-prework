@@ -1,4 +1,4 @@
-// Rough attempt at creating a cipher, it switches to unicode and black
+// Rough attempt at creating a cipher, it switches to unicode and back
 // Did not place limiters so switches back to wrong characters ?/ etc
 
 
