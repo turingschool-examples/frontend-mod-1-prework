@@ -69,14 +69,16 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 var cupsOfFlour = 1;
 var hasSauce = true;
 
-if (cupsOfFlour <= 1 && hasSauce != true) {
+if (cupsOfFlour <= 1 || hasSauce != true) {
     console.log("I can't make a pizza.");
 } else if (cupsOfFlour >= 2 && hasSauce == true) {
     console.log("I can make a pizza.");
 }
 
+/*
 if (cupsOfFlour <= 1 && !hasSauce) {
-    console.log("I can't make a pizza.");
+   console.log("I can't make a pizza.");
 } else {
-    console.log("I can make a pizza.");
-}
+     console.log("I can make a pizza.");
+ }
+ */
