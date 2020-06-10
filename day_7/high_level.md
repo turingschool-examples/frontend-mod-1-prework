@@ -30,3 +30,17 @@ cipher.encode("Hello World", 5); // should log "CZGGJ RJMGY"
 * Reassign the unicode value with fromCharCode
 
 * Pass new encoded string through the encode method, and assign output to the cipher instance
+
+## Checker Board
+
+* Prompt user to select size of Board
+
+* Create iteration that places array x, ' ', x
+
+* Iteration alternate each line whether x or '' comes first
+
+* Iteration could start at 0, for every odd number place a X and even place ' ',
+
+* Alternate based on odd or even like FizzBuzz makes each line alternate correctly
+
+* Use I++ as increment to count, set limit of lines to user input size
