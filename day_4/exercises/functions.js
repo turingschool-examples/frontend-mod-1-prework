@@ -11,20 +11,33 @@ function printName() {
 
 printName();
 
+
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
+function printName(Stacy, Potten) {
+  console.log("Stacy Potten");
 };
 
-printName("Albus Dumbledore");
+printName();
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
-//YOUR CODE HERE
+
+function calculateSum(number1, number2) {
+  return number1 + number2;
+};
+  var sum = calculateSum(50, 45)
+  console.log(sum);
+
+calculateSum();
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
-// YOUR CODE HERE
+function snacks(carb, dip) {};
+var carb = "chips";
+var dip = "salsa";
+console.log("I like to snack on " + carb + " and " + dip);
+
+snacks();
