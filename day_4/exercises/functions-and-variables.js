@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_2/exercises/functions-and-variables.js`
+file from your terminal with the command `node day_4/exercises/functions-and-variables.js`
 
 ---------------------------------------------------------
 
@@ -13,20 +13,21 @@ why local variables within a function definition cannot access data outside of t
 Note: to run one exercise at a time, comment out the exercises that you don't want to see the results for!
 */
 
-var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
+//var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
 
-function scopedFunction() {
-  var ourNumber = 3;
+//function scopedFunction() {
+//  var ourNumber = 3;
   // Inside of the function, we create another ourNumber variable and assign it to 3.
   // This is a separate variable from the first ourNumber since it is inside the function
-};
+//};
 
-console.log("ourNumber value outside scopedFunction: " + ourNumber);
+//console.log("ourNumber value outside scopedFunction: " + ourNumber);
 
 /*
 What's the value of ourNumber? Still 5, because function definitions create their own scope
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
-*/
+
+//I am not understanding this at all! 6/6/2020
 
 var ourNumber = 5;
 
@@ -50,14 +51,14 @@ Let's say we have a variable ourArray that stores an array. We'll cover arrays i
 for now just remember our earlier explanation of arrays as ordered lists. Run this code to see the result.
 */
 
-function getLastValue(functionArray) {
-  console.log("The value of the last index in my array is: " + functionArray[2]);
-};
+//function getLastValue(functionArray) {
+//  console.log("The value of the last index in my array is: " + functionArray[2]);
+//};
 
-var ourArray = [1, 2, 3];
-console.log("Check the array before calling getLastValue: " + ourArray);
-getLastValue(ourArray);
-console.log("Check the array after calling getLastValue: " + ourArray);
+//var ourArray = [1, 2, 3];
+//console.log("Check the array before calling getLastValue: " + ourArray);
+//getLastValue(ourArray);
+//console.log("Check the array after calling getLastValue: " + ourArray);
 
 /*
 In the above code, we passed ourArray to the getLastValue function. In getLastValue, the value of ourArray
@@ -68,6 +69,11 @@ because using bracket notation to get a value from an array does not mutate the 
 There are techniques that will perform some action on the argument that mutates the caller.
 We can in fact permanently alter variables outside the function definition's scope.
 */
+
+//(next 3 lines are results from terminal)
+//Check the array before calling getLastValue: 1,2,3
+//The value of the last index in my array is: 3
+//Check the array after calling getLastValue: 1,2,3
 
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray.pop());
