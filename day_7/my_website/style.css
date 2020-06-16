@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4,
+h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl,
+dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@font-family {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mountain-banner {
+  background-color: black;
+  padding: 0px;
+  background: rgb(138, 181, 229) url('images/everest-trek.jpg') left no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+#experience-header {
+  font-size: 40px;
+  font-family: "Noto Sans JP", verdana, sans-serif;
+  font-style: oblique;
+  color: #0632c4;
+  padding: 50px 50px 10px 40px;
+  text-shadow: -4px 4px 5px #747780;
+}
+
+#banner-links {
+  display: inline;
+  text-align: right;
+}
+
+.nav-link {
+  font-size: 28px;
+  position: relative;
+  text-decoration: none;
+  font-family: "Noto Sans JP", verdana, sans-serif;
+  font-style: oblique;
+  color: white;
+  text-shadow: -4px 4px 5px #747780;
+  margin: 0px auto 0px auto;
+}
+
+.nav-link:hover {
+  color: #0632c4;
+}
+
+#github-link {
+  left: 960px;
+  top: -110px;
+}
+
+#turing-link {
+  left: 1000px;
+  top: -110px;
+}
+
+#opening-paragraph {
+  min-width: 300px;
+  max-width: 500px;
+  font-size: 30px;
+  margin: 50px 0px 0px 100px;
+  background: white;
+  opacity: 0.65;
+  padding: 20px;
+  box-shadow: -4px 4px 5px black;
+  font-family: 'Roboto Condensed', verdana, sans-serif;
+}
+
+#mountain-caption {
+  text-align: right;
+  padding: 10px 20px 0px 0px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+#looking-for-beauty-title {
+  font-family: 'Noto Sans JP', verdana, sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#top-hr {
+  width: 70%;
+}
+
+#page-body {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+}
+
+#left-content-column {
+  margin: 0px auto 0px auto;
+  width: 100%;
+  text-align: center
+}
+
+#bucket-list-container {
+  border-width: 3px;
+  border-style: solid;
+  width: 400px;
+  background-color: #5eb2db;
+  margin: 0px auto 50px auto;
+}
+
+#bucket-list-title {
+  font-size: 32px;
+  margin: 0px 20px 20px 0px;
+  font-family: 'Noto Sans JP', verdana, sans-serif;
+  text-align: center;
+}
+
+#bucket-list {
+  list-style: none;
+}
+
+#bucket-list li {
+  font-family: 'Roboto Condensed', verdana, sans-serif;
+  font-size: 24px;
+  height: 70px;
+  padding-left: 70px;
+  padding-top: 3px;
+  background: url('images/aircraft-bullet.png') no-repeat top left;
+  text-align: left !important;
+}
+
+#message-form {
+  border-width: 3px;
+  border-style: solid;
+  margin-top: 50px;
+  max-width: 400px;
+  height: 400px;
+  background-color: #5eb2db;
+  font-family: 'Roboto Condensed', verdana, sans-serif;
+  margin: 0px auto 0px auto;
+  text-align: left !important;
+}
+
+.message-form-field {
+  margin: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+#name-field {
+  width: 360px;
+}
+
+#message-form-title {
+  font-family: 'Noto Sans JP', verdana, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+#right-image-gallery {
+  width: 840px;
+  margin: 0px auto 0px auto;
+  display: grid;
+  display: inline;
+}
+
+img.gallery-img {
+  float: left;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #page-body {
+    grid-template-columns: auto;
+  }
+
+  #left-content-column {
+    /* float: left; */
+  }
+
+  #bucket-list-container {
+    float: left;
+    margin-left: 8%;
+  }
+
+  #message-form {
+    float: left;
+    margin-left: 5%;
+    display: inline-block;
+  }
+
+  #github-link {
+    left: 700px;
+    top: -110px;
+  }
+
+  #turing-link {
+    left: 740px;
+    top: -110px;
+  }
+}
