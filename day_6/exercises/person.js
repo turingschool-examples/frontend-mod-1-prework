@@ -8,4 +8,27 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+
+  constructor(name, age, hairColor, language) {
+  this.name = name;
+  this.age = age;
+  this.hairColor = hairColor;
+  this.language = language;
+  }
+
+  learnNewLanguage(newLanguage) {
+   this.language = newLanguage;
+   return this.language;
+  }
+
+  applyHairDye(hairDyeColor) {
+    this.hairColor = hairDyeColor;
+    return this.hairColor;
+  }
+};
+
+var nicole = new Person("Nicole", 25, "Brown", "English");
+
+console.log(nicole.learnNewLanguage("Spanish"));
+console.log(nicole.applyHairDye("Purple"));

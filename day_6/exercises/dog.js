@@ -21,11 +21,22 @@ class Dog {
   }
 
   eat() {
-    this.hungry = false;
+    return this.hungry = false;
   }
-}
+
+  play(isHungry) {
+      isHungry = true;
+      console.log(this.name + " has played and his hunger status now returns " + isHungry + "!");
+      return this.hungry = true;
+    }
+};
 
 var fido = new Dog("Bernese", "Fido", 4)
+
+console.log(fido.play());
+
+//prints: "Fido has played and his hunger status now returns true!" true
+
 console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);
