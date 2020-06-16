@@ -16,6 +16,10 @@ class Dog {
     this.hungry = true;
   }
 
+  play() {
+    this.hungry = false;
+  }
+
   bark() {
     console.log("woof!");
   }
@@ -23,6 +27,7 @@ class Dog {
   eat() {
     this.hungry = false;
   }
+
 }
 
 var fido = new Dog("Bernese", "Fido", 4)
@@ -32,3 +37,6 @@ console.log(fido.age);
 console.log(fido.hungry);
 fido.eat();
 console.log(fido.hungry);
+fido.play();
+console.log(fido.hungry);
+fido.bark();
