@@ -19,7 +19,7 @@
 
 ### 5. Name and describe two additional array methods.
 
-One example is an `Array Pop Method` which has a close to opposite effect as the example above - array push method. The pop method removes the last item in an array. See example below:
+One example is an `Array Pop Method` which has a close to opposite effect as the example above - the array push method. The pop method removes the last item in an array. See example below:
 
 `var animals = animals.pop;`
 
@@ -35,7 +35,7 @@ The expected output if you logged it would now become:<br>
 
 ### 6. What are the boolean values in JavaScript?
 
-Boolean values evaluate if a statement is correct or not. It can be expressed by either a `true` or a `false` input.
+Boolean values evaluate if a statement is correct or not. It can be expressed by either a `true` or a `false` output.
 
 ### 7. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
