@@ -84,7 +84,7 @@ An instance of a class as seen above would be
 var classicFiero = new Car ("yellow", "Pontiac", "Fiero", 1988, 8000)
 ```
 * var is declaring as variable
-* classicFiero is the object then the "=" called the assessment operator
+* classicFiero is the object then the "=" called the assignment operator
 * "new" is the keyword
 * The "Car ("yellow", "Pontiac", "Fiero", 1988, 8000)" is the constructor
 * inside the constructor we have the values of the properties in the object
