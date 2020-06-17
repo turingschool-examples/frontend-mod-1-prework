@@ -20,11 +20,11 @@ class Burrito {
     this.toppings.push(topping);// adds a push method to and a topping
   }
   removeTopping(topping){
-    var indextoRemove = this.toppings.indexOf(topping)
-    this.toppings.splice(indextoRemove,1); //uses the .splice to remove the index of salsa
+    var indexToRemove = this.toppings.indexOf(topping)
+    this.toppings.splice(indexToRemove,1); //uses the .splice to remove the index of salsa
   }
-  changeProtein(){
-    (this.protein = "Chicken"); // assings Chicken as value
+  changeProtein(newProtein){
+    (this.protein = newProtein); // assings Chicken as value
   }
 };
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);

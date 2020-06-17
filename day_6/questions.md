@@ -84,7 +84,7 @@ An instance of a class as seen above would be
 var classicFiero = new Car ("yellow", "Pontiac", "Fiero", 1988, 8000)
 ```
 * var is declaring as variable
-* classicFiero is the object then the "=" is the assessment operator
+* classicFiero is the object then the "=" called the assessment operator
 * "new" is the keyword
 * The "Car ("yellow", "Pontiac", "Fiero", 1988, 8000)" is the constructor
 * inside the constructor we have the values of the properties in the object
@@ -94,4 +94,4 @@ var classicFiero = new Car ("yellow", "Pontiac", "Fiero", 1988, 8000)
 1. What questions do you still have about classes in JavaScript?
 This was the hardest out of all the days so far I used a ton of resources from
 https://developer.mozilla.org/ I still have questions on the split, filter, splice and other methods
-found but I feel that I really pushed myself on this section to learn a ton. 
+found but I feel that I really pushed myself on this section to learn a ton.
