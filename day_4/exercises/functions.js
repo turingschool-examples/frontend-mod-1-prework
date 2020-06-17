@@ -14,7 +14,7 @@ printName("Severus Snape");
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName(wizard) { // hint.. add a parameter on this line :)
+function printName(wizard) {
   console.log(wizard);
 }
 
@@ -23,19 +23,18 @@ printName("Albus Dumbledore");
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
 
-function getSum(numOne, numTwo) {
-  console.log(numOne + numTwo);
+
+function calculateSum(num_1, num_2) {
+  console.log(num_1 + num_2);
 }
 
-getSum(3, 7);
+calculateSum(3, 7);
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
 // YOUR CODE HERE
-
-function footballTeam(teamOne, teamTwo) {
-  console.log("The " + teamOne + " are going to crush the " + teamTwo + " both times this Year!");
+function footballTeam(team_1, team_2) {
+  console.log("The " + team_1 + " are going to crush the " + team_2 + " both times they play each other this year!");
 }
-
 footballTeam("Bills", "Pats");
