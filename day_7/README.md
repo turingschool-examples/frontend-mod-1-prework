@@ -4,8 +4,8 @@ Congrats on making it through the first 6 days of Mod 0! Today, you will be putt
 
 When you have completed the activities for day 7 you will submit your work through a GitHub Pull Request - see below for instructions on how to do that.
 
-## Open your local copy of frontend-module-0-capstone
-1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/0module/frontend-module-0-capstone`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
+## Open your local copy of frontend-mod-1-prework
+1. Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository - if you followed the suggested directory structure from the setup, you should be able to run the following command from your home directory `cd turing/0module/frontend-mod-1-prework`. Once you are in the correct directory, use the terminal command `atom .` to open the repository in Atom.
 
 1. Using what you have learned in the last week, complete both of the projects below. Put any files related to the projects you choose in a day_7 directory.
 
@@ -41,6 +41,42 @@ When you have completed *all* the activities described above, follow the steps b
 
 ![Create PR](https://i.imgur.com/CQQzfNc.png)
 
-5. Please complete the form to submit your prework available [here](https://sites.google.com/casimircreative.com/enrollment/mod-0-capstone-fka-pre-work). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-module-0-capstone. (using your own GitHub username, of course!)
+5. Please complete the form to submit your prework available [here](https://forms.gle/wxoVuhHKjrRyvGW2A). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-mod-1-prework. (using your own GitHub username, of course!)
 
-And you're done!  Can't wait to see you on the first day of class!!
+You've finished the pre-work! But there's still plenty to learn. Check out the extensions below!
+
+----------------------------------
+
+# Extensions (optional, after pre-work is completed)
+
+Have longer than a week to prepare for your time at Turing? Looking for more details and a deeper dive into the materials? Just can't get enough? We've put together a collection of resources to help you continue your ramp up before the first day of class.
+
+### JavaScript Resources
+
+* [Codecademy Introduction to JavaScript](https://www.codecademy.com/learn/javascript)
+  * An introduction to the JavaScript programming language.
+
+* [Codecademy Introduction to jQuery](https://www.codecademy.com/learn/learn-jquery)
+  * Learn about the most popular JavaScript library on the web.
+
+* [JavaScript and jQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647/ref=la_B001IR3Q7I_1_3?s=books&ie=UTF8&qid=1457549440&sr=1-3)
+  * A thorough and easy-to-reference introduction to JavaScript by John Duckett.
+
+### HTML and CSS Resources
+
+* [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
+  * Get your HTML and CSS foundation locked in. This course teaches the basics of website markup and styling so you'll be ready to roll on day 1.
+
+* [Try the BEM css methodology](http://getbem.com/introduction/)
+  * Once you've got the basics of HTML and CSS down, BEM show you an approach to writing scalable and reusable CSS.
+
+### Design, UX, and UI Resources
+
+* [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
+  * A collection of 31 bite-sized daily lessons to introduce you to UX principles and techniques.
+
+* [Field Guide to Human Centered Design](http://www.designkit.org/resources/1)
+  * A step-by-step guide that will get you solving problems like a designer by [IDEO.org](https://www.ideo.org/)
+
+* [Thinking with Type](http://www.thinkingwithtype.com/)
+  * Typography is a big topic, learn the basics of what you need to know about how to use type effectively.

@@ -6,7 +6,7 @@ In addition to JavaScript, this day will also walk you through the commands you 
 
 At the end of the day, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
 
-## Open your local copy of frontend-module-0-capstone in Atom
+## Open your local copy of frontend-mod-1-prework in Atom
 
 1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
@@ -17,7 +17,7 @@ cd turing
 ls
 cd 0module
 ls
-cd frontend-module-0-capstone
+cd frontend-mod-1-prework
 ls
 cd day_1
 ls
@@ -30,7 +30,7 @@ This will open the day_1 directory in Atom. You should be able to see the direct
 
 The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process -- don't give up if you hit a hard spot. If you are stuck for longer than 30 minutes, know that it is always ok to ask for help! If you consistently practice  every day and don't take short cuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
 
-One of the best things you can do to set yourself for success is to make sure you type out all the code examples you see in the readings and exercises in this capstone, *do not* copy and paste. The more hands-on-keyboard practice you can give yourself, the better. Copying and pasting won't help you solidify these concepts, manually typing all the code in will.
+One of the best things you can do to set yourself for success is to make sure you type out all the code examples you see in the readings and exercises in this pre-work, *do not* copy and paste. The more hands-on-keyboard practice you can give yourself, the better. Copying and pasting won't help you solidify these concepts, manually typing all the code in will.
 
 Details matter: pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
@@ -255,7 +255,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/frontend_module_0_capstone.git
+To github.com:JohnDoe/frontend_mod_1_prework.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
