@@ -1,21 +1,21 @@
-## 10 Little Monkeys
+## 10 Speckled Frogs
 
-Create a file named `10_little_monkeys.js` and within that file, write a program that will print the following nursery rhyme, but for *10* monkeys.
+Create a file named `10_speckled_frogs.js` and within that file, write a program that will print the following nursery rhyme, but for *10* frogss.
 
-> Three little monkeys jumping on the bed,  
-> One fell off and bumped his head,  
-> Mama called the doctor and the doctor said,  
-> "No more monkeys jumping on the bed!"
+> Three speckled frogs sat on a log 
+> eating some most delicious bugs.  
+> One jumped in the pool where its nice and cool,
+> then there were two speckled frogs.
 >
-> Two little monkeys jumping on the bed,  
-> One fell off and bumped his head,  
-> Mama called the doctor and the doctor said,  
-> "No more monkeys jumping on the bed!"
+> Two speckled frogs sat on a log 
+> eating some most delicious bugs.  
+> One jumped in the pool where its nice and cool,  
+> then there was one speckled frogs.
 >
-> One little monkey jumping on the bed,  
-> He fell off and bumped his head,  
-> Mama called the doctor and the doctor said,  
-> "Get those monkeys right to bed!"
+> One speckled frog sat on a log 
+> eating some most delicious bugs.  
+> One jumped in the pool where its nice and cool,  
+> then there was one speckled frog.
 
 ### Bonus
-Can you write the program so that it will run for any number of monkeys?
+Can you write the program so that it will run for any number of frogss?
