@@ -1,6 +1,6 @@
 ## 10 Speckled Frogs
 
-Create a file named `10_speckled_frogs.js` and within that file, write a program that will print the following nursery rhyme, but for *10* frogss.
+Create a file named `10_speckled_frogs.js` and within that file, write a program that will print the following nursery rhyme, but for *10* frogs.
 
 > Three speckled frogs sat on a log 
 > eating some most delicious bugs.  
@@ -18,4 +18,4 @@ Create a file named `10_speckled_frogs.js` and within that file, write a program
 > then there was one speckled frog.
 
 ### Bonus
-Can you write the program so that it will run for any number of frogss?
+Can you write the program so that it will run for any number of frogs?
