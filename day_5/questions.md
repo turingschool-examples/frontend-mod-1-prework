@@ -19,7 +19,7 @@ var petStore = {
 ### 3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
 ```
-console.log(states.IA);
+var iaState = states.IA;
 ```
 
 ### 4. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?
@@ -31,7 +31,7 @@ var states = {
   CO: "Colorado",
   IA: "Iowa",
   OK: "Oklahoma",
-  MN: "Minnesota"
+  MN: "Minnesota",
 };
 ```
 
