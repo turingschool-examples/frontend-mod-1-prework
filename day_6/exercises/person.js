@@ -7,7 +7,7 @@ Create a person class with at least 2 properties and 2 behaviors.  Call all
 person methods below the class so that they print their result to the
 terminal.
 */
-class person {
+class Person {
   constructor(inShape, homeState) {
     this.inShape = inShape;
     this.homeState = homeState;
@@ -20,9 +20,9 @@ class person {
   move() {
     this.homeState = "Colorado";
   }
-}
+};
 
-var jp = new person(false, "Wyoming")
+var jp = new Person(false, "Wyoming")
 
 jp.exercise();
 jp.move();

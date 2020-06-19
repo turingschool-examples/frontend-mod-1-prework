@@ -9,7 +9,6 @@ the class:
 2. remove_topping
 3. change_protein
 */
-
 class Burrito {
   constructor(protein, base, toppings) {
     this.protein = protein;
@@ -18,7 +17,7 @@ class Burrito {
   }
 
   addTopping() {
-    this.toppings.push("sour cream");
+    this.toppings.push("Sour Cream");
   }
 
   removeTopping() {
@@ -30,11 +29,11 @@ class Burrito {
   }
 };
 
-var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
+var dinner = new Burrito("Steak", "Rice", ["Cheese", "Salsa", "Guacamole"]);
+
+console.log(dinner);
 
 dinner.addTopping();
 dinner.removeTopping();
 dinner.changeProtein();
-console.log(dinner.protein);
-console.log(dinner.base);
-console.log(dinner.toppings);
+console.log(dinner);

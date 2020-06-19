@@ -7,13 +7,12 @@ In the dog class below, add a play method that, when called, will result in
 the dog being hungry. Call that method below the class, and print the dog's
 hunger status.
 */
-
 class Dog {
   constructor(breed, name, age) {
     this.breed = breed;
     this.name = name;
     this.age = age;
-    this.hungry = true;
+    this.hungry = false;
   }
 
   bark() {
@@ -27,14 +26,11 @@ class Dog {
   play() {
     this.hungry = true;
   }
-}
+};
 
-var fido = new Dog("Bernese", "Fido", 4)
-console.log(fido.breed);
-console.log(fido.name);
-console.log(fido.age);
-console.log(fido.hungry);
-fido.eat();
-console.log(fido.hungry);
-fido.play();
-console.log(fido.hungry);
+var wendy = new Dog("Labradoodle", "Wendy", 1);
+
+wendy.play();
+
+console.log(wendy);
+console.log(wendy.hungry);
