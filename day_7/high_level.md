@@ -1,0 +1,8 @@
+# Caesar Cipher Explained
+Caesar Ciphers are used to shift the alphabet into a secret code or to resolve a shifted secret code back into a message that is legible. In order to create one, a `function` that takes in a `string` and a  `number` needs to be defined.
+
+Within the `function`, create a few new variables. One variable will be used to associate the function's `string` with a standardized list of characters recognized by the program. One example could be **toLowerCase**. Use another variable to define all the characters in the alphabet and use a `split method` so that each character can be returned individually within a string array. Also, the function will need an output variable with an empty string that will be targeted in a math equation later.
+
+The `function` will need a `loop` in order to list all of the character options it has. Start the `loop` from the first character of the `alphabet string` and end it on the last character. Define a variable within the that `loop` that assigns specific characters to `numbers` in an `index`. For example, **"a"** will become **0** and **"z"** will become **25**. Once the `alphabet string` is tied to the `number index`, a new variable that can shift the letters in the alphabet can be created. This is done by setting the variable with the `number index` equal to the `new variable` plus a `number` of the user's logger's. Use `if statements` to move the loop back to **"a"** after the character has past **"z"**. Lastly, set a `return statement` to the output variable with the empty string.
+
+Logging a word or phrase followed by the mathematical number of alphabetical shifts intended, will yield the desired result.
