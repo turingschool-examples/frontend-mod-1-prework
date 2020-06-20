@@ -25,7 +25,7 @@ class Burrito {
   }
 
   changeProtein() {
-    this.protein = "Chicken";
+    this.protein = ("Chicken");
   }
 };
 
