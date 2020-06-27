@@ -15,6 +15,17 @@ Each day has a folder containing a `README.md` file with instructions for the da
 * [Day 6 - Classes](day_6)
 * [Day 7 - Build A Thing](day_7)
 
+# Materials
+
+Items you need to complete the mod 1 pre-work:
+
+*   The books: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
+  * These can be found online for free. After some quick googling it looks like they can be found here
+  * [html & css](https://www.pdfdrive.com/html-css-e16578853.html)
+  * [javscript & jquery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
+
+The link below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
+
 # Environment
 
 ## Install Node.js and NPM using homebrew
