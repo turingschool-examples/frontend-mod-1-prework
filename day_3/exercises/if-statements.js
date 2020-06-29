@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'perfect';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -45,10 +45,20 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 4;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters == 0) {
+  console.log("I don't have enough money for a gumball")
+} else if (numQuarters == 1) {
+  console.log("I don't have enough money for a gumball")
+} else if (numQuarters == 2) {
+  console.log("I have enough money for a gumball")
+} else if (numQuarters == 3) {
+  console.log("I have enough money for a gumball")
+} else if (numQuarters >= 3) {
+  console.log("I should probably keep saving for a pack of gum or something at this point")
+}
+
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -62,5 +72,31 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 52;
 var hasSauce = true;
+
+if (cupsOfFlour <= 1 && hasSauce == true) {
+  console.log("I cannot make any pizza.")
+} else if (cupsOfFlour <= 1 && hasSauce == false) {
+  console.log("I cannot make any pizza.")
+} else if (cupsOfFlour == 2 && hasSauce == true) {
+  console.log("I can make some pizza!")
+} else if (cupsOfFlour >= 3 && hasSauce == true) {
+  console.log("I can make some pizza!")
+}
+
+//  QUESTION! can i do this with an array?
+
+//practice for questions.md just to make sure my example would run
+
+var cashMoney = 3999
+var gassedCar = false
+if (cashMoney >= 4000 && gassedCar == true) {
+  console.log("I have cash, and I can go buy a new (ISH) car")
+} else if (cashMoney < 4000 && gassedCar == true) {
+  console.log("I can go somewhere, but I can't buy a new (ISH) car")
+} else if (cashMoney >= 4000 && gassedCar == false) {
+  console.log("I have the cash, but I dont have gas to go buy a new (ISH) car")
+} else if (cashMoney < 4000 && gassedCar == false) {
+  console.log("Im totally broke, and I can't go anywhwere")
+}
