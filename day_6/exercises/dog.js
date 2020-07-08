@@ -14,21 +14,30 @@ class Dog {
     this.name = name;
     this.age = age;
     this.hungry = true;
-  }
-
+  };
   bark() {
     console.log("woof!");
-  }
-
+  };
   eat() {
     this.hungry = false;
-  }
-}
+  };
+  play() {
+    this.hungry = true;
+  };
+};
 
-var fido = new Dog("Bernese", "Fido", 4)
+var fido = new Dog("Bernese", "Fido", 4, true);
 console.log(fido.breed);
+//expected output: Bernese
 console.log(fido.name);
+//expected output: Fido
 console.log(fido.age);
+//expected output: 4
 console.log(fido.hungry);
+//expected output: true
 fido.eat();
 console.log(fido.hungry);
+//expected output: false
+fido.play();
+console.log(fido.hungry);
+//expected output: true
