@@ -16,12 +16,36 @@ class Burrito {
     this.base = base;
     this.toppings = toppings;
   }
+
+  addTopping(toppings) {
+    this.toppings.push(toppings);
+  }
+
+  removeTopping(toppings) {
+    this.toppings.pop(toppings)
+  }
+
+  changeProtein(addProtein){
+    this.protein = addProtein;
+  }
+
+  changeBase(addBase){    //created an extra function to change base to an input
+    this.base = addBase
+  }
 };
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-// Call the methods here
+console.log(dinner) //prints new burrito object
 
-console.log(dinner.protein);
-console.log(dinner.base);
-console.log(dinner.toppings);
+dinner.addTopping("lettuce");     //add lettuce to toppings array
+console.log(dinner.toppings); //print new toppings array
+
+dinner.removeTopping();      //remove the last topping in the toppings array
+console.log(dinner.toppings); //print toppings with the last topping item in toppings array removed
+
+dinner.changeProtein("carnitas");     //change protein to carnitas
+console.log(dinner.protein);    //prints new protein
+
+dinner.changeBase("quinoa");    //change base to quinoa
+console.log(dinner.base);     //print new base
