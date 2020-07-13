@@ -8,21 +8,23 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 var name = "Ron";
 var team = "Chudley Cannons";
 
-console.log("The " + team + " are " + name + "'s favorite Quidditch team");
+console.log(name + " really loves to watch the " + team + " on Friday nights!");
+//console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
 
 var number = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + number + " " + creatures + "!")
+//console.log("My zoo has " + number + " " + creatures + "!")
+console.log("Newt has "+ number + " " + creatures + " in his sanctuary.");
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + " jumped over " + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -32,3 +34,4 @@ slowPoke = "tortoise";
 speedy = "hare";
 
  // YOUR CODE HERE
+ console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
