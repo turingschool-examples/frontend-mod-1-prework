@@ -41,15 +41,30 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+If doorChoice strictly equals 1, then the bearClothing will be a hat. Otherwise, the bearClothing will be a scarf.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+Scarf
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+If the bear chooses option #1, the console will log "You offer the bear your hat/scarf and the bear shows you a secret passage out!"
+Options #2 & #3 prompt different strings to the console log and if none of the three options are chosen, the console will log "You stay with the bear and become its best friend!"
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+You run as fast as you can into the next room. It's full of snakes!
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+You tell the bear the hat is too small and it starts to cry!
+
 7. What is your favorite ending?
+
+Offering the bear my hat to be shown the secret passage. 
 */
