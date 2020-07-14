@@ -6,12 +6,14 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 
 // example: log to the console the data type of `true`:
 console.log(typeof true);
-
+console.log("Boolean");
 // example: log to the console the data type of 1 is equal to 1:
 console.log(typeof (1 == 1));
-
+console.log("Boolean");
 // example: log to the console the result of 1 is equal to 2:
 console.log(1 == 2);
+// will log false
 
 // example: log to the console the result of 7 is  not equal to 2:
-console.log(1 == 2);
+console.log (7 != 2);
+// will log true
