@@ -25,6 +25,6 @@ printName("Albus Dumbledore");
 //YOUR CODE HERE
 
 // Write a function that takes in two strings and prints a concatenation
-// of those two strings, for example the arguments could be (man, woman) and
-// the end result might be "When Harry Met Sally".  Then, call that function.
+// of those two strings, for example the arguments could be ("Oscar", "Ruck") and
+// the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 // YOUR CODE HERE
