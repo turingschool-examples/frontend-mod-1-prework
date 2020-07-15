@@ -1,7 +1,11 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_3/exercises/comparisons.js`
+to achieve the desired result. 
+
+A few are completed for you, to provide an example.
+
+You should be able to run this
+file from your terminal with the command `node day_1/exercises/concatenation.js`
 */
 
 // example: Write code that combines the variables below into another string:
@@ -11,14 +15,15 @@ var team = "Chudley Cannons";
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
+// ANSWER to question on line 17: 
 
 var number = 7;
 var creatures = "unicorns";
 
 console.log("My zoo has " + number + " " + creatures + "!")
 
- // Write code that combines the variables below into a string that
- // reads "The quick red fox jumped over the lazy brown dog":
+// Write code that combines the variables below into a string that
+// reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
