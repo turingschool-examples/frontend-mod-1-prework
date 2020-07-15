@@ -9,7 +9,7 @@ file from your terminal with the command `nope day_2/exercises/arrays.js`
 var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
-// Write code below that will log an array of foods. Store the array in a variable.
+// Declare a variable that will store an an array of at least 3 foods (strings)
 // YOUR CODE HERE
 
 // example: Write code below that will log the number of elements in array of
@@ -37,9 +37,9 @@ console.log(animals.length);
 // YOUR CODE HERE
 
 // Write code below that uses a method to add "lion" to the animals array and
-// log the result
+// log the changed array to verify "lion" has been added
 // YOUR CODE HERE
 
 // Write code below that removes the last item of food from the foods array and
-// log the result
+// log the cahnged array to verify that item has been removed
 // YOUR CODE HERE
