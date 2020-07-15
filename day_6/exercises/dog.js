@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/dog.js`
+file from your terminal with the command `node day_6/exercises/dog.js`
 
 In the dog class below, add a play method that, when called, will result in
 the dog being hungry. Call that method below the class, and print the dog's
