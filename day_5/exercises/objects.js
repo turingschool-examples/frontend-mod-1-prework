@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/objects.js`
+file from your terminal with the command `node day_5/exercises/objects.js`
 */
 
 // example: Write code below to print an object that holds grocery store inventory
@@ -13,20 +13,20 @@ var foods = {
 
 console.log(foods);
 
-// Write code below that will print an object of animals and their number
-// at the zoo. (an inventory of animals)
+// Write code below that will print an B=Object of animals and the number
+// of that type of animal at the zoo. (an inventory of animals)
 var zoo = // YOUR CODE HERE
 console.log(zoo)
 
-// Using the zoo that you created above, print all the keys in the object.
+// Using the zoo that you created above, print all the keys in the Object.
 // YOUR CODE HERE
 
-// Using the zoo that you created above, print all the values in the object.
+// Using the zoo that you created above, print all the values in the Object.
 // YOUR CODE here
 
-// Using the zoo taht you created above, print the value of the first item in
-// the object
+// Using the zoo that you created above, print the value of the first item in
+// the Object
 // YOUR CODE HERE
 
-// Add an animal to the zoo object and print the updated object.
+// Add an animal to the zoo Object and print the updated Object.
 // YOUR CODE HERE
