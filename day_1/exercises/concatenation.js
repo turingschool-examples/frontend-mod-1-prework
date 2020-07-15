@@ -11,6 +11,7 @@ var team = "Chudley Cannons";
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
+// It results in a string. When we have two differnt types of variables, JavaScript will convert the number into a string  to combine it together,
 
 var number = 7;
 var creatures = "unicorns";

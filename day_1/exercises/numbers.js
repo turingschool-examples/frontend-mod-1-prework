@@ -8,7 +8,7 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 console.log(2 + 2);
 
 // log the result of 7 subtracted from 83 console:
-console.log(7 - 83);
+console.log(83 - 7);
 
 // log the result of 6 multiplied by 53 to the console:
 console.log(6 * 53);
@@ -17,4 +17,4 @@ console.log(6 * 53);
 console.log(20 / 4);
 
 // log the result of the modulo of 10 into 54:
-console.log(10 % 54);
+console.log(54 % 10);
