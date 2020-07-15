@@ -1,5 +1,5 @@
 // In the exercises below, write your own code where indicated
-// to achieve the desired result. Run this code using node in terminal.
+// to achieve the desired result. Run this file using node in terminal to check the output.
 
 // example: Write code below to assign your name to a variable and
 // log that variable to the console:
