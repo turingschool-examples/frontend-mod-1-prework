@@ -1,4 +1,4 @@
-###Array Methods
+### Array Methods
 **.pop()**
 
 `.pop()` will remove the last item of an array. If placed in a `console.log()` command, console will return the last item of the array and the array will be permanently changed.
