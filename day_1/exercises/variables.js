@@ -24,6 +24,5 @@ console.log(students + num1);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
-var students = 22
-var num2 = 2
-console.log(students - num2);
+// referencing the variables from above!
+console.log(students - num1);
