@@ -5,15 +5,15 @@ file from your terminal with the command `node day_3/exercises/comparisons.js`
 */
 
 // example: Write code that combines the variables below into another string:
-var name = "Ron";
-var team = "Chudley Cannons";
+var name = "Peyton";
+var favAnimal = "sloths";
 
-console.log("The " + team + " are " + name + "'s favorite Quidditch team");
+console.log( + favAnimal + " are " + name + "'s animal");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
 
-var number = 7;
-var creatures = "unicorns";
+var number = 2;
+var creatures = "sloths";
 
 console.log("My zoo has " + number + " " + creatures + "!")
 
@@ -22,7 +22,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The" + speedy + "jumped over the" + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -31,4 +31,4 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+ console.log("In the predictable result, the" + slowPoke + "beat the" + speedy);

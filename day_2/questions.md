@@ -6,7 +6,7 @@
 
 2. Save the array you created above to a variable `animals`.
 
-  - var animals = ["zebra","giraffe","elephant"]
+  - var animals = ["zebra","giraffe","elephant"];
 
 
 3. using the array `animals`, how would you access `"giraffe"`?
@@ -41,5 +41,3 @@
 
     - 25 > 2
   //this evaluates to true
-
-    
