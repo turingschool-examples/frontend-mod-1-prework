@@ -10,7 +10,8 @@ var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
 // Write code below that will log an array of foods. Store the array in a variable.
-// YOUR CODE HERE
+var food = ["pickle","pizza","popsicle"];
+console.log(food);
 
 // example: Write code below that will log the number of elements in array of
 // animals from above.
@@ -18,10 +19,11 @@ console.log(animals.length);
 
 // Write code below that will log the number of elements in the array of
 // foods from above.
-// YOUR CODE HERE
+console.log(food.length);
+
 
 // Write code below that will log "Zebra" from the animals array
-// YOUR CODE HERE
+console.log("Zebra")
 
 // Write code using bracket notation that will log the first item in the animals array
 // YOUR CODE HERE
