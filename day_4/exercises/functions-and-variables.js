@@ -81,7 +81,7 @@ console.log("Check the array after calling getLastValue: " + ourArray);
 /*
 Notice the difference between each log output? We have permanently modified the variable ourArray by passing
 it to the getLastValue function, even though ourArray is outside the function definition's scope.
-This is because the pop function mutates the caller.
+This is because the pop function mutates the caller. 
 
 How do you know which functions mutate the caller and which ones don't? Unfortunately, you have to memorize
 it by looking at the documentation or through repetition.
