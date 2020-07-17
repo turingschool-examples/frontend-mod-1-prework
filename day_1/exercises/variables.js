@@ -9,7 +9,7 @@ console.log(name);
 // Write code below to assign the string 'Dobby' to a variable and
 // log that variable to the console:
 var houseElf = "Dobby";
-console.log(hourseElf);
+console.log(houseElf);
 
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console:
@@ -18,11 +18,10 @@ console.log(noReturn);
 
 // example: Write code below to add 2 to the variable `students` and
 // log the result:
-var students = 22;
-var students = 2;
+var students = (22 + 2);
+
 console.log(students);
 
 // Write the code below to subtract 2 students from the `students` variable and
 // log the result:
 console.log(students - 2);
-console.log(students);

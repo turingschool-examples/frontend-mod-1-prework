@@ -14,4 +14,4 @@ console.log('Welcome to Turing!');
 console.log('99 bottles of beer on the wall..');
 
 //Write code below to log one line from your favorite song or movie:
-console.log("lowkey screw 2020, still sad, still ain't got no moneyyy");
+console.log("Anyone can cook!");
