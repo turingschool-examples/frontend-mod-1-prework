@@ -14,15 +14,24 @@ for (var i = 0; i < animals.length; i++) {
 
 // Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
+var animals = ["Zebra", "Giraffe", "Elephant"];
 
 for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
+  console.log("The " + animals[i] + " is awesome!");
 }
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-// YOUR CODE HERE
+var foods = ["asparagus", "prosciutto", "pears", "arugula"];
+
+for (var i = 0; i < foods.length; i++) {
+  console.log("Add " + foods[i] + " to shopping list");
+}
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+var arr = [2, 4, 6, 8];
+
+for (var i = 0; i < [4]; i++) {
+  console.log (arr[i] * 2);
+}
