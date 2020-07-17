@@ -15,14 +15,19 @@ for (var i = 0; i < animals.length; i++) {
 // Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
 
-for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
+for (var i = 0; i < animals.length; i++)
+{console.log("The " + animals[i] + " is awesome!");
 }
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-// YOUR CODE HERE
+var food = ["Pizza", "Pasta", "Bread"];
+for (var i = 0; i < food.length; i++) {console.log("Add " + food[i] + " to shopping list!");
+}
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+const num = [1, 2, 3];
+const doubled = num.map(n => n*2);
+
+console.log(doubled);
