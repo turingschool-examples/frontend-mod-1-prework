@@ -41,15 +41,29 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+ the person is choosing a condition between which door to pick if they choose door #1 the var bearClothing is assigned "hat" if they do not choose door #1 the the else condition trigger to bearClothing "scarf"
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+ bearClothing is assigned "hat"
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+it would revert to the else condition "scarf"
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+you are being assigned the outcome of the door choice and what they bear will respond with depending on the door.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+ if bearChoice === 3 the outcome will be "You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+"You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+bearChoice === 4
 */
