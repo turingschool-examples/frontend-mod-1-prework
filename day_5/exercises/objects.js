@@ -1,10 +1,11 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/objects.js`
+file from your terminal with the command `node day_5/exercises/objects.js`
 */
 
 // example: Write code below to print an object that holds grocery store inventory
+
 var foods = {
   apples: 23,
   grapes: 507,
@@ -13,20 +14,37 @@ var foods = {
 
 console.log(foods);
 
+
 // Write code below that will print an object of animals and their number
 // at the zoo. (an inventory of animals)
-var zoo = // YOUR CODE HERE
-console.log(zoo)
+
+var zoo = {
+  zebras: 17,
+  monkeys: 8,
+  lions: 9
+};
+
+console.log(zoo);
+
 
 // Using the zoo that you created above, print all the keys in the object.
-// YOUR CODE HERE
+
+console.log(Object.keys(zoo));
+
 
 // Using the zoo that you created above, print all the values in the object.
-// YOUR CODE here
 
-// Using the zoo taht you created above, print the value of the first item in
+console.log(Object.values(zoo));
+
+// Using the zoo that you created above, print the value of the first item in
 // the object
-// YOUR CODE HERE
+
+var zooArray = Object.values(zoo);
+console.log(zooArray[0])
+// or
+console.log(zoo.zebras)
 
 // Add an animal to the zoo object and print the updated object.
-// YOUR CODE HERE
+zoo.fish = 73;
+
+console.log(zoo);
