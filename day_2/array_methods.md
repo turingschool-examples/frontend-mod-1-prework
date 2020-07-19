@@ -16,7 +16,7 @@ console.log(popped) // "Doritos"
 
 ## The **push** method:
 
-The **push** method on an array (or object that acts like an array) will add elements to the end of the array and returns the new length property of the array.
+The **push** method on an array will add elements to the end of the array and returns the new length property of the array.
 
 *Example:*
 

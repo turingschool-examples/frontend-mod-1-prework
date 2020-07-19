@@ -22,7 +22,7 @@ console.log(secondAnimal); //returns "giraffe"
 1. How would you add `"lion"` to the `animals` array?
 ```javascript
 var animals = ["zebra", "giraffe", "elephant"];
-var moreAnimals = animals.push("lion");
+animals.push("lion");
 console.log(animals);//["zebra", "giraffe", "elephant", "lion"]
 ```
 
