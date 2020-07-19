@@ -40,16 +40,25 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+The code is saying if the user enters their door choice as 1 then return "hat" to them (which is what would happen because we assigned doorChoise as 1 in the first line). If it is anything other than 1, reutn "scarf" to them.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing will have a new value assigned to it.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+If you changed the value to 3 then bearClothing would be "scarf".
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+In lines 31-38 the code says that if the user's enter is equal to 1 the computer will return the first condition(which is what would happen because we assigned 1 to the bearChoice variable in the 3rd line of code). If the user enters 2 it'll return the second condition. If the user enters 3, the third condition. But if the user doesn't enter 1, 2 or 3 then the computer will return the last conditon under 'else'.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+The final outcome would be "You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+doorChoice would give you a "hat" outcome and bearChoice would give you a "You tell the bear the hat is too small and it starts to cry!".
 
 7. What is your favorite ending?
+"You stay with the bear and become its best friend!"
+bearChoice would need to be equal to anything other than 1, 2 or 3.
+example: var bearChoice = 4
 */
