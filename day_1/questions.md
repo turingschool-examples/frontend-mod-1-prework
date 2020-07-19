@@ -26,7 +26,7 @@ var animal = "zebra";
 
 
 ```javascript
-console.log("zebra");
+console.log(animal);
 ```
 
 
