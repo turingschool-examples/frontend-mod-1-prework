@@ -10,12 +10,14 @@
 - integer is numbers without ".", ie 25, -3; floating number is numbers with ".", ie 2.5 , -3.45
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
-- ```
+-
+```
 var animal = "zebra"
 ```
 
 1. How would you log the string `"zebra"` using the variable that you created above?
-- ```
+-
+```
 console.log(animal)
 ```
 
