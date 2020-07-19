@@ -15,31 +15,27 @@
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
   ```javascript
-   function hello() {
-   console.log("Sam I am");
- };
- hello();//Sam I am
+   function hello(name) {
+     console.log(name + " I am");
+   }
+
+   hello("Sam");//Sam I am
   ```
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
   ```javascript
-  function hello_someone(parameter1) {
-    var parameter1 = name
-    console.log(parameter1 + " I am");
+  function hello_someone(name) {
+    console.log(name + " I am");
   }
+
   ```
 
 1. How would you call or execute the function that you created above?
 
-   Use the function name followed by parentheses: `functionName();`
-
 ```javascript
-  function hello_someone(parameter1) {
-    var parameter1 = name
-    console.log(parameter1 + " I am");
-  };
-  hello_someone();//name + "I am"
+
+  hello_someone();//Insert argument in parentheses
   ```
 
 1. What questions do you still have about functions in Javascript?
