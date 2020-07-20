@@ -17,8 +17,10 @@ var ourNumber = 5; // Outside of the function, we create ourNumber and assign it
 
 function scopedFunction() {
   var ourNumber = 3;
-  // Inside of the function, we create another ourNumber variable and assign it to 3.
-  // This is a separate variable from the first ourNumber since it is inside the function
+  /*
+  Inside of the function, we create another ourNumber variable and assign it to 3.
+  This is a separate variable from the first ourNumber since it is inside the function
+  */
 };
 
 console.log("ourNumber value outside scopedFunction: " + ourNumber);
@@ -32,9 +34,10 @@ var ourNumber = 5;
 
 function scopedFunction() {
   var ourNumber = 3;
+};
 
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
-};
+
 
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
