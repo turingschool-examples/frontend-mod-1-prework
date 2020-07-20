@@ -8,4 +8,35 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, height, age, eyeColor, hobbies) {
+    this.name = name;
+    this.height = height;
+    this.age = age;
+    this.eyeColor = eyeColor;
+    this.hobbies = hobbies;
+  }
+
+  changeAge() {
+    this.age++
+  };
+
+  switchEyeColor(colorContacts) {
+    this.eyeColor = colorContacts
+  };
+
+  addHobby(hobby) {
+    this.hobbies.push(hobby)
+  }
+};
+
+var thao = new Person("Thao", "5'3in", 29, "brown", ["animal crossing", "hiking", "eating"])
+thao.changeAge()
+thao.switchEyeColor('grey')
+thao.addHobby('watching anime')
+
+console.log(thao.name)
+console.log(thao.height)
+console.log(thao.age)
+console.log(thao.eyeColor)
+console.log(thao.hobbies)
