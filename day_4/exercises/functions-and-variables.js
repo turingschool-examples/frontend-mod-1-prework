@@ -13,28 +13,28 @@ why local variables within a function definition cannot access data outside of t
 Note: to run one exercise at a time, comment out the exercises that you don't want to see the results for!
 */
 
-var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
-
-function scopedFunction() {
-  var ourNumber = 3;
-  // Inside of the function, we create another ourNumber variable and assign it to 3.
-  // This is a separate variable from the first ourNumber since it is inside the function
-};
-
-console.log("ourNumber value outside scopedFunction: " + ourNumber);
+// var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
+//
+// function scopedFunction() {
+//   var ourNumber = 3;
+//   // Inside of the function, we create another ourNumber variable and assign it to 3.
+//   // This is a separate variable from the first ourNumber since it is inside the function
+// };
+//
+// console.log("ourNumber value outside scopedFunction: " + ourNumber);
 
 /*
 What's the value of ourNumber? Still 5, because function definitions create their own scope
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
 
-var ourNumber = 5;
-
-function scopedFunction() {
-  var ourNumber = 3;
-
-  console.log("ourNumber value inside scopedFunction: " + ourNumber);
-};
+// var ourNumber = 5;
+//
+// function scopedFunction() {
+//   var ourNumber = 3;
+//
+//   console.log("ourNumber value inside scopedFunction: " + ourNumber);
+// };
 
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
