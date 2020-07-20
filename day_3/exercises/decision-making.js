@@ -31,7 +31,7 @@ if (bearChoice === 1) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearClothing === 3) {
+} else if (bearChoice === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
@@ -41,15 +41,38 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+This is an if statement. Should the value of doorChoice be a strict equal to 1,
+the variable bearClothing will take on the value of hat. If the value of doorChoice
+is not a strict equal to 1, then bearClothing will take on the value of scarf.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+the bearClothing value is assigned a new value after the first if statement executes.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+scarf
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+This is an example of an if/else statement. Depending on what value is assigned to
+bearChoice a different outcome will output. This is true if the value of bearChoice is
+equal to 1, 2, or 3. For any value not equal to 1, 2, 3 the statement will output
+You stay with the bear and become it's best friend!
+
+
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+If bearChoice were equal to 3 the outcome would be "You run as fast as you can
+into the next room. It's full of snakes!""
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+You tell the bear the hat is too small and it starts to cry!
+
 7. What is your favorite ending?
+
+Honestly, the crying bear and his small hat really spoke to me, haha.
+
 */
