@@ -17,13 +17,3 @@ for (var i = 0; i < 7; i++) {
  for (var i = 0; i < 10; i++) {
    console.log('She sells seashells down by the seashore')
  }
-
- var pets = ['pepper', 'kitty', 'wren']
- console.log(pets.length)
- console.log(pets[pets.length - 1]);
- console.log(pets[0] = 'counselor')
-console.log(pets)
-pets.shift()
-console.log(pets)
-pets.push('counselor')
-console.log(pets)
