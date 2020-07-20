@@ -34,6 +34,10 @@ console.log(zoo)
 printKeys(zoo)
 */
 
+// I had to console.log the codes so that I could see it run in my terminal with node.
+// Please let me know if that's alright or it means my node is not working properly.
+// Thank you!
+
 console.log(Object.keys(zoo))
 
 // Using the zoo that you created above, print all the values in the object.
@@ -46,5 +50,3 @@ console.log(zoo.monkeys)
 // Add an animal to the zoo object and print the updated object.
 zoo.hippos = 1
 console.log(zoo)
-
-// I had to console.log the codes so that I could see it run in my terminal with node. Please let me know if that's alright or it means my node is not working properly. Thank you!
