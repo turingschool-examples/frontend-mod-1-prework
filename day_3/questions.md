@@ -19,17 +19,21 @@ If (condition) {
 }
 
 Ex:
+```javascript 
 if (pizza == 'cheese') {
   console.log("pizza is yummy");
 }
+```
 
 1. How do you add multiple conditions to an if statement?  
 
 You use the logical operator "&&" to combine more than one condition and compare the results of more than one comparison operator (==, <, <=, etc...).
 
 Ex:
+```javascript
   if (cupsOfFlour == 1 && hasSauce == true) {
   console.log("I cannot make pizza");
+```
 
 1. What is the JavaScript syntax for an if/else if/else statement?  
 
