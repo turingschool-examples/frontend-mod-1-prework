@@ -10,13 +10,16 @@ var thirdVar = "10";
 var fourthVar = 0;
 
 // example: log the result of the comparison: is firstVar greater than secondVar?
+console.log(1);
 console.log(firstVar > secondVar); // this should return: false
 
 // log the result of the comparison: is firstVar less than secondVar?
-console.log(); // this should return: true
+console.log(2);
+console.log(firstVar<secondVar); // this should return: true
 
 // log the result of the comparison: is firstVar equal to thirdVar? (use the == operator)
-console.log(); // this should return: true
+console.log(3);
+console.log(firstVar == thirdVar); // this should return: true
 
 /*
 Note: this is an example of type coercion. Although thirdVar is a string and secondVar is an integer,
@@ -25,7 +28,8 @@ perform this evaluation
 */
 
 // log the result of the comparison: is firstVar strictly equal to thirdVar? (use the === operator)
-console.log(); // this should return: false
+console.log(4);
+console.log(firstVar === thirdVar); // this should return: false
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -34,21 +38,27 @@ the comparison still evaluates to false.
 */
 
 // log the result of the comparison: is firstVar not equal to secondVar?
-console.log(); // this should return: true
+console.log(5);
+console.log(firstVar != secondVar); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 20?
-console.log(); // this should return: true
+console.log(6);
+console.log(secondVar >= 20); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 21?
-console.log(); // this should return: false
+console.log(7);
+console.log(secondVar >= 21); // this should return: false
 
 // log the result of the comparison: is secondVar less than or equal to 20?
-console.log(); // this should return: true
+console.log(8);
+console.log(secondVar <= 20); // this should return: true
 
 // log the result of the comparison: is secondVar less than or equal to 21?
-console.log(); // this should return: true
+console.log(9);
+console.log(secondVar <= 21); // this should return: true
 
 // log the result of the comparison: is 0 equal to true?
+console.log(10);
 console.log(0 == true) // this should return: false
 
 // note: this is an example of a falsy value. In an evalution like this, 0 is considered to be false
