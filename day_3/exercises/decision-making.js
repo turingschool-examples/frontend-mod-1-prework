@@ -42,8 +42,8 @@ Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
     What is happening between lines 17 and 21 is that there is two options to choose and if the
-    first option is true it executes bearClothing "hat". If the first option is false you go to else
-    which is another option and it executes bearClothing "scarf".
+    first option is true it reassigns the bearClothing variable to the string of "hat". If the first option is false you go to else
+    which is another option and it reassigns the bearClothing variable to the string of "scarf".
 
 2. What variable has a new value assigned to it after the first if statement executes?
 

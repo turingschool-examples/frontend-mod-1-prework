@@ -8,33 +8,27 @@
 
     if (numberOfWontons <= 5) {
     console.log("Please, give me more")
-    }
-    else if (numberOfWontons >= 20) {
+    } else if (numberOfWontons >= 20) {
     console.log("This is too much")
-    }
-    else {
+    } else {
     console.log("Yummy!")
     }
 
     Ex2 var minutesToPlay = 30
     if (minutesToPlay >= 60) {
     console.log("Time is up!")
-    }
-    else if (minutesToPlay >= 10) {
+    } else if (minutesToPlay >= 10) {
     console.log("You still have time left!")
-    }
-    else {
+    } else {
     console.log("Keep on trucking along")
     }
 
     Ex3 var isHungry = true
     if (isHungry = true) {
     console.log("Let's see what we can eat")
-    }
-    else if (isHUngry = false) {
+    } else if (isHUngry = false) {
     console.log("What did you have to eat?")
-    }
-    else {
+    } else {
     console.log("Let's wait a bit longer to see if you hungry or not.")
     }
 
@@ -55,11 +49,9 @@
 1. What is the JavaScript syntax for an if/else if/else statement?
    if (condition); {
     statement;
-   }
-   else if (condition) {
+   } else if (condition) {
      statement
-   }
-   else {
+   } else {
      statment
    }
 
