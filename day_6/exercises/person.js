@@ -26,6 +26,10 @@ class Person {
 
 var cooper = new Person("Cooper", 150, "5 Feet 10 Inches", 24)
 
-console.log(cooper.speak());
+cooper.speak();
+console.log(cooper.conscious);
 cooper.think();
-console.log(cooper.think());
+console.log(cooper.conscious);
+cooper.think();
+console.log(cooper.conscious);
+cooper.think();
