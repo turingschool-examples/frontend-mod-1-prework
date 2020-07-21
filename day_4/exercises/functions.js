@@ -14,17 +14,45 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
+function printName(myName) { // hint.. add a parameter on this line :)
+  console.log("print my name instead: " + myName);
 };
 
-printName("Albus Dumbledore");
+printName("Allison Dietz");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
-//YOUR CODE HERE
+
+function calculateSum (firstNum, secondNum) {
+  var someSum = firstNum + secondNum;
+  console.log("The total sum is " + someSum);
+};
+
+calculateSum(3, 12);
+
+// Why isn't this working?? Figure out why avocado calculation below isn't letting me pass those variables ***RUBBER DUCKING MOMENT***
+
+var overRipe = 2;
+var underRipe = 3;
+console.log(overRipe + underRipe);
+
+function calculateAvocados() {
+  var totalAvocados = overRipe + underRipe ;
+  console.log(overRipe + underRipe);
+  console.log( `I have ${totalAvocados} avocados.`) ;
+};
+
+calculateAvocados();
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
-// YOUR CODE HERE
+
+function combineText() {
+  var fullText = string1 + string2;
+  console.log(fullText);
+};
+
+string1 = "I hope that we'll meet again in a world of peace";
+string2 = "and freedom in the taxi cab if the accident will.";
+combineText();
