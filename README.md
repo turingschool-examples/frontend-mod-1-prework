@@ -19,20 +19,20 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 Items you need to complete the mod 1 pre-work:
 
-*   The books: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
-  * These can be found online for free. After some quick googling it looks like they can be found here:
-  * [html & css](https://www.pdfdrive.com/html-css-e16578853.html)
-  * [javscript & jquery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
+ * These can be found online for **free**. Find links to each book below:
+  *  [HTML & CSS](https://www.pdfdrive.com/html-css-e16578853.html)
+  *  [JavaScript & jQuery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
+ *   The books: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
 
-The link below will take you to the Github page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
+The link below will take you to the GitHub page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
 # Environment
 
 ## Install Node.js and NPM using homebrew
 
-Before we're able to write javascript that can be run from the command line (you'll be doing this in mod 1), we need to install `Node.js` and `NPM` and it'll be expected that you've run through these instructions.
+Before we're able to write javascript that can be run from the command line (you'll be doing this in Mod 1), we need to install `Node.js` and `NPM` and it'll be expected that you've run through these instructions.
 
-These setup instructions assume that you have completed the setup for Module 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions).
+These setup instructions assume that you have completed the setup for Mod 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions).
 
 ## Install Node.js:
 JavaScript was originally intended to be run in the browser (ie. Chrome). But over time there were a lot of good reasons to allow it to be run server side. Node.js is a framework that allows us to to do just that.
@@ -82,13 +82,13 @@ This shows us what version of NPM we are running. You should see something like:
 
 ## Terminal
 
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
+We will be referencing many terminal commands throughout the pre-work. It is recommended that you practice using terminal commands before getting started. See the `terminal.md` lesson located in the day_0 directory.
 
 ### Forking the Module 1 Pre-work Repository
 
-Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a Github repository to your Github account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
+Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a GitHub repository to your GitHub account to make your own changes. Think of it like a fork in the road -- you're about to make changes that differ from the main path.
 
-In this scenario, the [Turing Github account](https://github.com/turingschool) owns this `frontend-mod-1-prework` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
+In this scenario, the [Turing GitHub account](https://github.com/turingschool) owns this `frontend-mod-1-prework` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
@@ -106,7 +106,7 @@ In this scenario, the [Turing Github account](https://github.com/turingschool) o
 
 Now that you have forked this repository, the next thing to do is *clone your forked repository*.
 
-Cloning is when you copy a remote Github repository to your local computer.
+Cloning is when you copy a remote GitHub repository to your local computer.
 
 #### 1. In YOUR `frontend-mod-1-prework` repository that your just forked, click on `Clone or Download`
 
