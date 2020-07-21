@@ -22,4 +22,4 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is true
 
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
-'else' if the condition does not match any of the conditional statements. This allows the output to default to whatever might fall under 'else'.  
+'else' if the condition is false for all of the conditional statements. This allows the output to default to whatever might fall under 'else'.  
