@@ -20,9 +20,9 @@ Each day has a folder containing a `README.md` file with instructions for the da
 Items you need to complete the mod 1 pre-work:
 
  * These can be found online for **free**. Find links to each book below:
-  *  [HTML & CSS](https://www.pdfdrive.com/html-css-e16578853.html)
-  *  [JavaScript & jQuery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
- *   The books: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
+   -  [HTML & CSS](https://www.pdfdrive.com/html-css-e16578853.html)
+   -  [JavaScript & jQuery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
+ *   Hard copies of the books can be purchased here: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
 
 The link below will take you to the GitHub page that contains all the Technical work. Scroll through the page to find the instructions for getting your computer setup and getting started.
 
