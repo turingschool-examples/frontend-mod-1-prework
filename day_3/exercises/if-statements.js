@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'icy';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -38,11 +38,24 @@ out both "I have enough money for a gumball" and
 a conditional statement that only logs one or the
 other.
 
+If (numQuarters >= 2) {
+    If numQuarters is greater than or equal to 2 than statement is true and console.log("I have enough money for a gumball");
+}  else if , or when (numQuarters < 2) {
+    Than statement is false and console.log("I don't have enough money for a gumball");
+}
+
 You should be able to change num_quarters and achieve these outputs:
 When numQuarters = 0, program should log "I don't have enough money for a gumball"
 When numQuarters = 1, program should log "I don't have enough money for a gumball"
 When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
+
+If (numQuarters >= 2) {
+    If numQuarters is greater than or equal to 2 than statement is true and console.log("I have enough money for a gumball");
+}  else if , or when (numQuarters < 2) {
+    Than statement is false and console.log("I don't have enough money for a gumball");
+}
+
 */
 
 var numQuarters = 0;
@@ -64,3 +77,5 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+console.log("I cannot make pizza");
