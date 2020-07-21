@@ -8,7 +8,7 @@
 
 4. In the space below, declare a function named `hello` that will print to the console, `"Sam I am"`.
 
-5. Declare a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
+5. Declare a function name `helloSomeone` that takes an argument of `name` and logs `name + " I am"`.
 
 6. How would you _call_ or _execute_ the function that you created above?
 
