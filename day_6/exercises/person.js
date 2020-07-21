@@ -9,3 +9,30 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person{
+  constructor(age, weight, happy) {
+    this.age = age;
+    this.weight = weight;
+    this.happy = false
+  }
+  haveBirthday() {
+    this.age = (this.age + 1)
+  }
+  haveBirthdayParty() {
+    this.happy = true;
+  }
+  eatBirthdayCake() {
+    this.weight = (this.weight + 20)
+  };
+}
+
+var pete = new Person(40, 200, false)
+
+pete.haveBirthdayParty();
+
+pete.haveBirthday ();
+
+pete.eatBirthdayCake();
+
+
+console.log(pete)
