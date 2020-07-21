@@ -10,7 +10,7 @@
 
 1. What is a return value?
 
-   A return value is the value resulted from executing a function or a method. The return can be different than the output, but it's not always.
+   A return value is the value returned when a function is called. If a return value is not specified, JS returns `undefined`. The return value stops your code at that point. It can therefore be used to interrupt loops.
 
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
@@ -34,4 +34,4 @@
 
 1. What questions do you still have about functions in Javascript?
 
-  None so far
+  I'm a little confused about the difference between a return value and output. Are return values only for functions or can we call the result a method produces a return value? For example, `pop()` - can I refer to the popped element as a return value or as output?
