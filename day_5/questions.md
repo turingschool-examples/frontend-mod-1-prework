@@ -2,7 +2,7 @@
 
 1. What is an Object, and how is it different from an Array in Javascript?
 
-  It's a data structure used to store a collection of related key-value pairs. It is different from an array in the sense that its properties are assigned to keys rather than being indexed. Objects can store a variety of seemingly unrelated properties that all need to be bundled together under one name. While an array, is best utilized for a collection of similar values. An object's properties can be variable values or functions. This also differs from an array, which cannot contain a function.
+  It's a data structure used to store a collection of related key-value pairs. It is different from an array in the sense that its properties are assigned to keys rather than being indexed. Objects can be thought of as containers that can store a *variety* of related information. While an array, is best utilized for a collection of similar values. An object's properties can be  variable values, strings, numbers, arrays, or even other objects or functions. This also differs from an array, which cannot contain a function.
 
 1. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
 
