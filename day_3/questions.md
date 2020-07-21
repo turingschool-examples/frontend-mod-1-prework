@@ -21,12 +21,8 @@ certain information. It lets the program make "decisions" while it's running.
 
 1. What is the JavaScript syntax for an if statement?
 
-`if (condition)
-
-{
-
+`if (condition){
 lines of code to be executed if condition is true
-
 }`
 
 1. How do you add multiple conditions to an if statement?
@@ -37,31 +33,14 @@ be true for the statement to be true.
 
 1. What is the JavaScript syntax for an if/else if/else statement?
 
-`if (condition1)
-
-{
-
+`if (condition1){
 lines of code to be executed if condition1 is true
-
-}
-
-else if(condition2)
-
-{
-
+} else if(condition2){
 lines of code to be executed if condition2 is true
-
-}
-
-else
-
-{
-
+} else {
 lines of code to be executed if condition1 is false and condition2 is false
-
 }`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-I'm not sure I understand this question. I don't think what you're looking for is an
-if-else or if-else if-else statement. I tried doing some research but came up empty handed.
+We could use a conditional statement when working with loops and the break statement. If we were writing a loop where `(*i* <= 10)` but wanted to stop *if* (*i* == 8)`
