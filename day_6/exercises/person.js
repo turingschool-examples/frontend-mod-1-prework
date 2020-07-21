@@ -18,7 +18,7 @@ class Person {
     this.height = height;
     this.sleepy = false;
   }
-  tired() {
+  getTired() {
     this.sleepy = true;
   }
   talk() {
@@ -33,6 +33,6 @@ console.log(human.age);
 console.log(human.eyeColor);
 console.log(human.height);
 console.log(human.sleepy);
-human.tired();
+human.getTired();
 console.log(human.sleepy);
 console.log(human.talk());
