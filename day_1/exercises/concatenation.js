@@ -15,7 +15,7 @@ var team = "Chudley Cannons";
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-A string is logged after we run this code. If I included other data types such as an integer or float, the numbers might be added together.
+//A string is logged after we run this code If I included other data types such as an integer or float the numbers might be added together
 
 var number = 7;
 var creatures = "unicorns";
@@ -27,7 +27,7 @@ console.log("My zoo has " + number + " " + creatures + "!");
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log("The" + speedy + "jumps over the" + slowPoke);
+console.log("The " + speedy + " jumps over the " + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -36,4 +36,4 @@ console.log("The" + speedy + "jumps over the" + slowPoke);
 var slowPoke = "tortoise";
 var speedy = "hare";
 
-console.log("In a predictable result, the" + slowPoke + "beat the" + speedy + "!");
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
