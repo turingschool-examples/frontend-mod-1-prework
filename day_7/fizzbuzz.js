@@ -17,3 +17,7 @@ for(var i=num1; i<num2; i++){
     console.log(i)
   }
 }
+
+
+
+///I realize now that I am totally replacing the numbers with the words stated and I am not sure if that is what you wanted.  If we wanted both the number and the word, we would console.log( i + "Fizz") or (i + "Buzz).
