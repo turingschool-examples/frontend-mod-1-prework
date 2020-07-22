@@ -8,4 +8,22 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    
+    exercise() {
+        console.log("I'm exhausted!");
+    }
+    
+    eat() {
+        console.log("I'm so full.");
+    }
+}
+
+var jack = new Person();
+
+console.log(jack.eat());
+console.log(jack.exercise());
