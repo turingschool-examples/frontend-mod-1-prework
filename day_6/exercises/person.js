@@ -36,6 +36,7 @@ var newOccupation = "receptionist";
 console.log(ashley.name);
 console.log(ashley.age);
 console.log(ashley.hasPet);
+console.log(ashley.occupation);
 ashley.addPet();
 console.log(ashley.hasPet);
 console.log(ashley.greeting());
