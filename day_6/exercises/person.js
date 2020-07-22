@@ -1,11 +1,20 @@
-/*
-In the exercises below, write your own code where indicated
-to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/person.js`
+class Person {
+  constructor (firstname, age, interests) {
+  this.firstname = firstname;
+  this.age = age;
+  this.interests = interests;
+  }
 
-Create a person class with at least 2 properties and 2 behaviors.  Call all
-person methods below the class so that they print their result to the
-terminal.
-*/
+  fall() {
+    console.log("Ouch");
+  }
 
-// YOUR CODE HERE
+  cook() {
+    console.log("Dinner is served.")
+  }
+}
+
+var dude = new Person("Ben", 38, ["art", "travel", "sports"])
+
+dude.fall();
+dude.cook();
