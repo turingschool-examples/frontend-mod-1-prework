@@ -12,16 +12,34 @@ the class:
 
 class Burrito {
   constructor(protein, base, toppings) {
-    this.protein = protein;
-    this.base = base;
-    this.toppings = toppings;
+    this.protein = protein
+    this.base = base
+    this.toppings = toppings
   }
+
+ addTopping() {
+     this.toppings.push("Sour Cream")
+   }
+
+ removeTopping() {
+     this.toppings.shift()
+
+ }
+
+ changeProtein() {
+     this.protein="Tofu"
+ }
+
 };
 
-var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
+var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+
 
 // Call the methods here
 
-console.log(dinner.protein);
-console.log(dinner.base);
-console.log(dinner.toppings);
+dinner.addTopping()
+dinner.removeTopping()
+dinner.changeProtein()
+
+console.log(dinner.toppings)
+console.log(dinner.protein)
