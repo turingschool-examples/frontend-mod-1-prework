@@ -22,4 +22,5 @@ console.log(54 % 10);
 // log the total number of snacks to the console, using the variables below:
 var healthySnackCount = 7;
 var junkFoodSnackCount = 4;
-console.log("There are" +healthySnackCount);
+console.log("The number of healthy snacks are " +healthySnackCount);
+console.log("The number of junk food snacks are " +junkFoodSnackCount);
