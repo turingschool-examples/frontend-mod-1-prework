@@ -5,25 +5,25 @@
 console.log("Hello World!")
 ```
 
-1. What is the character you would use to indicate comments in a JavaScript file?
+What is the character you would use to indicate comments in a JavaScript file?
 * Use `// Followed by the note` to make comments in a .js file that is ignored by the interpreter
 
-1. Explain the difference between an integer and a floating-point number?
+Explain the difference between an integer and a floating-point number?
 * An **integer** is a whole number that can be negative, positive, or 0. A **floating point number** contains a decimal.
 
-1. In the space below, create a variable `animal` that holds the string `"zebra"`.
+In the space below, create a variable `animal` that holds the string `"zebra"`.
 
-```javascript 
+```javascript
 var animal = "zebra";
 ```
 
-1. How would you log the string `"zebra"` using the variable that you created above?
+How would you log the string `"zebra"` using the variable that you created above?
 
 ```javascript
 console.log(animal);
 ```
 
-1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 * Concatenation is a programming operation used to add strings or other data types together.
 
 **Example:**
