@@ -8,25 +8,39 @@ without having to write the same code block again.
 1. What is a parameter?
 
 A parameter is a placeholder (variable) for information that will be passed to the function
-when it is called.
+when it is called. `function getBMI` (weight, height) would be the parameters in
+the start of this function.
 
 1. What is a return value?
 
-It is the value passed back from the function call. function
+It is the value passed back from the function call.
+
+```function getBMI (weight,height) {
+
+  var BMI = weight / height;
+
+  return BMI;
+};
+```
+
+In this case BMI is the return value.
 
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
-`function hello() {
+```function hello() {
+
   console.log("Sam I am");
 
-};`
-
+};
+```
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
-`function hello_someone(name) {
-  console.log (name + " I am");
+` function hello_someone(name) {
 
-};`
+  console.log (name + " I am ");
+
+}; `
+
 
 1. How would you call or execute the function that you created above?
 

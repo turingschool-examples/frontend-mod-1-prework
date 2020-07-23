@@ -37,14 +37,17 @@ be true for the statement to be true.
 `if (condition1)
 {
 lines of code to be executed if condition1 is true
-} else if(condition2)
+}
+else if(condition2)
 {
 lines of code to be executed if condition2 is true
-} else
+}
+else
 {
 lines of code to be executed if condition1 is false and condition2 is false
 }`
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-We could use a conditional statement when working with loops and the break statement. If we were writing a loop where `(*i* <= 10)` but wanted to stop *if* `(*i* == 8)`
+A conditional would help when we are working with a loop. For instance, if we we wrote a
+code to check the values i

@@ -21,15 +21,10 @@ Make your program print the rhyme above for *10* frogs, with attention to where 
 
 
 
-var numbers = [10, 9 , 8, 7, 6, 5, 4, 3, 2, 1];
-var newNumbers = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
 
-var string1 = "speckled frogs sat on a log"
-var string2 = "eating some most delicious bugs."
-var string3 = "One jumped in the pool where its nice and cool"
-var string4 = "then there were"
-var string5 = "speckled frogs."
+var numbers = [10, 9, 8, 7, 6, 5, 4, 3,2, 1]
 
-for (i = 0; i < numbers.length; i++) {
-  console.log(numbers[i] +  ` ${string1} ${string2} ${string3} ${string4} ` + newNumbers[i] + ` ${string5}`);
+for (i = 0; i <= numbers.length; i++) {
+  console.log(`${numbers[i]}  speckled frogs sat on a log eating some most delicious
+    bugs. One jumped in the pool where its nice and cool then there were ${numbers[i] - 1} speckled frogs.`);
 };

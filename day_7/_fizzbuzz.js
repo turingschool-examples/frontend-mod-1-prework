@@ -33,6 +33,9 @@ for (var i = 1; i < 101; i++) {
 for (var i = min; i < max; i++) {
   var multipleOfThree = i % 3 === 0;
   var multipleOfFive = i % 5 === 0;
+  var min = 1
+  var max = 250
+
   if(multipleOfThree && multipleOfFive){
     console.log('FizzBuzz');
   }
