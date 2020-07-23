@@ -38,8 +38,8 @@ makeSentence("I love to" , " swim")
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
 
-function firstIntro (man, woman) {
-  console.log(man, woman)
+function firstIntro(man, woman) {
+  console.log(`When ${man} met ${woman}`)
 };
 
 firstIntro("Harry", "Sally")
