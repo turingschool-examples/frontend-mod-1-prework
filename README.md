@@ -1,5 +1,5 @@
 # Frontend Mod 1 Pre-work Repository
-TEST
+
 This repository will walk you through the Mod 1 Pre-work for the Frontend program at Turing.
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
