@@ -36,6 +36,7 @@ function scopedFunction() {
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
 };
 
+
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
@@ -71,7 +72,7 @@ We can in fact permanently alter variables outside the function definition's sco
 
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray.pop());
-};
+}
 
 var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
