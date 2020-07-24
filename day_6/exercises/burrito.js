@@ -17,13 +17,17 @@ class Burrito {
     this.toppings = toppings;
   }
   addToppings(newTopping) {
+    this.toppings.push(newTopping)
+  }
+  //this is very confusing but I understand it
+  removeTopping(oldTopping){
+    this.toppings = this.toppings.filter(function (topping){
+      return topping !== oldTopping
+    })
 
   }
-  removeTopping(){
-
-  }
-  changeProtein() {
-
+  changeProtein(newProtein) {
+    this.protein = newProtein
   }
 };
 
@@ -38,6 +42,6 @@ console.log(dinner.base);
 console.log(dinner.toppings);
 
 
-dinner.addTopping()
-dinner.removeTopping()
-dinner.changeProtein()
+dinner.addTopping("onions")
+dinner.removeTopping("salsa")
+dinner.changeProtein("beef")
