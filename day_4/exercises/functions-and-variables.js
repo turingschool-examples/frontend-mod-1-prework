@@ -69,6 +69,7 @@ There are techniques that will perform some action on the argument that mutates 
 We can in fact permanently alter variables outside the function definition's scope.
 */
 
+
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray.pop());
 };
@@ -77,6 +78,7 @@ var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
 console.log("Check the array after calling getLastValue: " + ourArray);
+
 
 /*
 Notice the difference between each log output? We have permanently modified the variable ourArray by passing
