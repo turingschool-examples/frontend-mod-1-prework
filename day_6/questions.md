@@ -6,7 +6,7 @@
 
 1. In relation to a Class, what is a property?
 
-  - A property acts like an attribute of the class.
+  -  Properties are variables of a class like in our burrito.js our properties were "this.toppings" and "this.protein" , These are examples of how we have already used properties in our work.
 
 1. In relation to a Class, what is a method?
 
