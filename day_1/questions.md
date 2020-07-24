@@ -4,7 +4,7 @@
 - console.log("Hello World!")
 
 1. What is the character you would use to indicate comments in a JavaScript file?
-- ".js"
+- Use the "//" for ease 
 
 1. Explain the difference between an integer and a floating-point number?
 - An integer is a whole number while a floating-point number contains negatives and decimals.
