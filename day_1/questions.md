@@ -9,8 +9,11 @@ console.log("Hello World!")
 1. What is the character you would use to indicate comments in a JavaScript file?
 
 ``The **backslash** is used to indicate comments in a JavaScript file.``
+
 ``***\\*** this is an example of a single line comment``
+
 ``***/* this is an example of a
+    
 multi-line comment */*** ``
 
 1. Explain the difference between an integer and a floating-point number?
