@@ -40,16 +40,27 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+- It's explaining that depending on the variable doorChoice whether the bearClothing option
+that will be picked will be a hat or scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+- bearClothing, it had an identified string attached to it after a choice was made in the if statement.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+- It would be equal to scarf since 2 wasn't specifically assigned.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+- The system is determining which outcome to print based on the choice you're making, and adding the bearClothing
+variable into the string if necessary.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+- It would fall to the else statement as bearChoice === 3 is not assigned, so the outcome would read
+"You stay with the bear and become it's best friend!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+- I think the first ending is best, always best to be kind.
+
 */
