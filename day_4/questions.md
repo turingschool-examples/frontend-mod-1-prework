@@ -11,15 +11,23 @@
 
 4. In the space below, declare a function named `hello` that will print to the console, `"Sam I am"`.
 - var sam = "Sam I am";
+
   function hello() {
+
     console.log(sam);
+
   }
+  
   hello();
 5. Declare a function name `helloSomeone` that takes an argument of `name` and logs `name + " I am"`.
 - var name = "Tarrant Hawkins";
+
   function helloSomeone() {
+
     console.log(name + " I am");
+
   }
+
   helloSomeone();
 
 6. How would you _call_ or _execute_ the function that you created above?
