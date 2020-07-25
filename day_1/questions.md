@@ -14,9 +14,9 @@ console.log("Hello World!")
 
 &
 
-``***/* this is an example of a``
+``***/*** this is an example of a``
     
-``multi-line comment */*** ``
+``multi-line comment ***/** ``
 
 1. Explain the difference between an integer and a floating-point number?
 
