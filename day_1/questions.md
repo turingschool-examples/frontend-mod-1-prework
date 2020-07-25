@@ -1,46 +1,42 @@
-## Day 1 Questions 
+## Day 1 Questions
 
 1. How would you log the string `"Hello World!"` to the console?
-```
+
+``
 console.log("Hello World!")
-```
+``
 
-2. What is the character you would use to indicate comments in a JavaScript file?
+1. What is the character you would use to indicate comments in a JavaScript file?
 
-```
-// you use two backslashes for a single line comment
+``The **backslash** is used to indicate comments in a JavaScript file.``
+``***\\*** this is an example of a single line comment``
+``***/* this is an example of a
+multi-line comment */*** ``
 
-/* for a multi-line comment */
-```
+1. Explain the difference between an integer and a floating-point number?
 
-3. Explain the difference between an integer and a floating-point number?
-```
-An integer is a whole number, no fractions or decimals, and includes negative numbers.
+``An integer is a whole number, no fractions or decimals, and includes positive or negative numbers.``
 
-Ex. 1111111
-```
-```
-A floating-point number is/has a decimal.
+**Example: 858**
+**Example: 0**
+**Example: -5**
 
-Ex. 1.11111
+``A floating-point number is a number with a decimal, and includes positive or negative numbers.``
 
-Ex. .1
-```
+**Example: 5.5**  
+**Example: .5**
+**Example: 55555.01**
 
-4. In the space below, create a variable `animal` that holds the string `"zebra"`.
-```
-var animal = "zebra"
-```
+1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 
-5. How would you log the string `"zebra"` using the variable that you created above?
-```
-console.log(animal)
-```
+``var animal = "zebra"``
 
-6. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
-```
-Concatenation is the joining together of strings, strings and variables
-and different data types within strings.
+1. How would you log the string `"zebra"` using the variable that you created above?
 
-console.log("Look at that beautiful " + animal + "!")
-```
+``console.log(animal)``
+
+1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+
+``Concatenation in Javascript is the joining together of  strings.``
+
+``console.log("I think that the " + animal + " is just a prettier version of a donkey.")`` 
