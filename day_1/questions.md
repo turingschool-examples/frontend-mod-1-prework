@@ -12,6 +12,8 @@ console.log("Hello World!")
 
 ``***\\*** this is an example of a single line comment``
 
+&
+
 ``***/* this is an example of a``
     
 ``multi-line comment */*** ``
