@@ -50,7 +50,7 @@ console.log("Hello World!")
 
 ``console.log("A " + animal + " is just a prettier version of a donkey.")`` 
 
-__
+_____
 
 **EXAMPLE**
 
@@ -70,4 +70,4 @@ __
 
 > // undefined
 
-__
+____
