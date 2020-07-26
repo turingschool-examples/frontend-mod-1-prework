@@ -22,7 +22,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
- 
+
 console.log("The " + speedy + " jumped over the " + slowPoke);
 
 
@@ -33,4 +33,4 @@ console.log("The " + speedy + " jumped over the " + slowPoke);
 slowPoke = "tortoise";
 speedy = "hare";
 
-console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!")
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!") 
