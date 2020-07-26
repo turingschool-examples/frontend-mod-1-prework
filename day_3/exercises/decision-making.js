@@ -8,9 +8,9 @@ Below is a dynamic story that is created based on the value of three variables: 
 Spend some time changing the variables and running the file to see how the story changes.
 */
 
-var doorChoice = 1;
+var doorChoice = 2;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -40,7 +40,7 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
-
+ * A condition is set using the "if" operator based on the value expressed for the variable doorChoice. If the value is equal to 1, then the script reads "hat"; Otherwise, if any other value is entered, the script reads "scarf".
 2. What variable has a new value assigned to it after the first if statement executes?
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?

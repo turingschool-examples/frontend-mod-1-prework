@@ -28,7 +28,6 @@ if (weather == 'sunny') {
 /*
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
-
 ----------------------------
 Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
