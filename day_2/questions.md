@@ -47,6 +47,8 @@ the string split by different characters."``
 
 > undefined
 
+> console.log(favDeadSongs.join('AND THEN'));
+
 > Reuben and Cherise AND THEN Me and my Uncle AND THEN He's Gone
 
 > undefined
