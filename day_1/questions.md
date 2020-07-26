@@ -56,13 +56,13 @@ __
 
 > var animal = "zebra"  
 
-// undefined
+> // undefined
 
 > console.log(animal)
 
 > zebra
 
-// undefined
+> // undefined
 
 > .help
 
@@ -70,6 +70,6 @@ __
 
 > A zebra is just a prettier version of a donkey.
 
-// undefined
+> // undefined
 
 __
