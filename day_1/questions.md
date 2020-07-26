@@ -14,9 +14,9 @@ console.log("Hello World!")
 
 &
 
-``***/*** this is an example of a``
-    
-``multi-line comment ***/** ``
+``***/* this is an example of a
+      
+multi-line comment */*** ``
 
 1. Explain the difference between an integer and a floating-point number?
 
@@ -30,7 +30,7 @@ console.log("Hello World!")
 
 **Example: 5.5**  
 **Example: .5**
-**Example: 55555.01**
+**Example: -55555.01**
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 
@@ -40,8 +40,17 @@ console.log("Hello World!")
 
 ``console.log(animal)``
 
+**EXAMPLE**
+> var animal = "zebra"
+// undefined
+> console.log(animal)
+> zebra
+// undefined
+> .help
+
+
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
 ``Concatenation in Javascript is the joining together of  strings.``
 
-``console.log("I think that the " + animal + " is just a prettier version of a donkey.")`` 
+``console.log("A " + animal + " is just a prettier version of a donkey.")`` 
