@@ -10,13 +10,13 @@ console.log("Hello World!")
 
 ``The **backslash** is used to indicate comments in a JavaScript file.``
 
-``***\\***`` ``this is an example of a single line comment``
+``\\ this is an example of a single line comment``
 
-&
+*&* 
 
-``***/* this is an example of a``
+``/* this is an example of a``
       
-``multi-line comment */***``
+``multi-line comment */``
 
 1. Explain the difference between an integer and a floating-point number?
 
