@@ -1,4 +1,4 @@
-//I tried to make this code work for frogs up to 99, but got way to complex for myself and the code is a hot mess.
+//I tried to make this code work for frogs up to 99, but I got way too complex for myself and the code is a hot mess.
 //Technically it works for up to 19 frogs, but the console log is a mess.
 
 var frogs = 10;
