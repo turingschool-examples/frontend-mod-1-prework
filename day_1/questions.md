@@ -6,14 +6,18 @@ console.log('Hello World!');
 
 1. What is the character you would use to indicate comments in a JavaScript file?
 
-// or
+// for one line or
 */
 hi
+for
+multiple
+lines
 /*
 
 1. Explain the difference between an integer and a floating-point number?
 
 Floating-point numbers include negatives and decimals, whereas integers do not.
+ex: integer= 3, float= 3.4
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 
