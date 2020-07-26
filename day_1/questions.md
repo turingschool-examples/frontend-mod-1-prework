@@ -64,8 +64,6 @@ __
 
 > // undefined
 
-> .help
-
 > console.log("A " + animal + " is just a prettier version of a donkey.")
 
 > A zebra is just a prettier version of a donkey.
