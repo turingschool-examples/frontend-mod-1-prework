@@ -15,7 +15,7 @@
 4. Name and describe two additional array methods.
 
 
-5. What are the boolean values in JavaScript?
+5. What are the boolean values in JavaScript?   
 ``Boolean values in JavaScript can only be true or false.``
 
 6. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
