@@ -8,15 +8,15 @@ console.log("Hello World!")
 
 1. What is the character you would use to indicate comments in a JavaScript file?
 
-``The ***backslash*** is used to indicate comments in a JavaScript file.``
+``The **backslash** is used to indicate comments in a JavaScript file.``
 
-``***\\***`` ``this is an example of a single line comment``
+``\\ this is an example of a single line comment``
 
-&
+*&* 
 
-``***/* this is an example of a
+``/* this is an example of a``
       
-multi-line comment */*** ``
+``multi-line comment */``
 
 1. Explain the difference between an integer and a floating-point number?
 
@@ -44,22 +44,30 @@ multi-line comment */*** ``
 
 ``console.log(animal)``
 
-**EXAMPLE**
-> var animal = "zebra"  
-
-// undefined
-
-> console.log(animal)
-
-> zebra
-
-// undefined
-
-> .help
-
-
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 
 ``Concatenation in Javascript is the joining together of  strings.``
 
 ``console.log("A " + animal + " is just a prettier version of a donkey.")`` 
+
+_____
+
+**EXAMPLE**
+
+> var animal = "zebra"  
+
+> // undefined
+
+> console.log(animal)
+
+> zebra
+
+> // undefined
+
+> console.log("A " + animal + " is just a prettier version of a donkey.")
+
+> A zebra is just a prettier version of a donkey.
+
+> // undefined
+
+____

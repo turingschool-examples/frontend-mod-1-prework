@@ -65,6 +65,12 @@ console.log("This will run.");
 
 What is logged to the console when you run this code?
 
+# ANSWER 
+
+> console.log("This will run.");
+
+> This will run.
+
 ## Data Types
 
 * Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
