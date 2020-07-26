@@ -24,3 +24,4 @@ class CeasarCipher{
 
 var cipher = new CeasarCipher();
 cipher.encode("Hello World",5); //should log "CZGGJ RJMGY"
+cipher.encode("Hello World",24)
