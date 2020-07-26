@@ -28,7 +28,14 @@ for (var i = 0; i < foods.length; i++) {
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
+// NOTE: I did this exercise two ways, because I was unclear on type of "doubles" it
+// is looking for.
+
 var numbers = [1, 3, 5, 7];
 for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] * 2)
+}
+var numbers = [1, 3, 5, 7];
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i], numbers[i])
 }
