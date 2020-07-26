@@ -12,6 +12,7 @@ why local variables within a function definition cannot access data outside of t
 
 Note: to run one exercise at a time, comment out the exercises that you don't want to see the results for!
 */
+// var myFirstName = "Steph"
 
 var ourNumber = 5; // Outside of the function, we create ourNumber and assign it to 5
 
