@@ -3,7 +3,7 @@
 
 // example: Write code below to assign your name to a variable and
 // log that variable to the console:
-var name = "Whitney Wilkes";
+var name = "Harry Potter";
 console.log(name);
 
 // Write code below to assign the string 'Dobby' to a variable and
