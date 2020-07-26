@@ -22,14 +22,18 @@ multi-line comment */*** ``
 
 ``An integer is a whole number, no fractions or decimals, and includes positive or negative numbers.``
 
-**Example: 858**
-**Example: 0**
+**Example: 858**    
+
+**Example: 0**  
+    
 **Example: -5**
 
 ``A floating-point number is a number with a decimal, and includes positive or negative numbers.``
 
 **Example: 5.5**  
-**Example: .5**
+
+**Example: .5** 
+
 **Example: -55555.01**
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
@@ -41,11 +45,16 @@ multi-line comment */*** ``
 ``console.log(animal)``
 
 **EXAMPLE**
-> var animal = "zebra"
+> var animal = "zebra"  
+
 // undefined
+
 > console.log(animal)
+
 > zebra
+
 // undefined
+
 > .help
 
 
