@@ -16,7 +16,6 @@ function hello(world) {
 };
 hello("Sam I am")
 ```
-
 5. Declare a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 ```
 function hello_someone(else){

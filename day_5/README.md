@@ -62,7 +62,7 @@ zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
 1. Work through these resources to gain some repetition with reading and working with objects.
-    1. Read through the [Object Literals lesson plan](https://frontend.turing.io/lessons/module-1/object-literals.html) and work on the [final practice provided at the end](https://repl.it/@ameseee/Partner-Practice).
+    1. Read through the [Object Literals lesson plan](https://frontend.turing.io/lessons/module-1/js-object-literals.html) and work on the [final practice provided at the end](https://repl.it/@ameseee/Partner-Practice).
     1. Read pages 100 through 107 in the JAVASCRIPT & JQUERY: interactive front-end web development book.
         1. Note: You will come across the keyword `this` in the reading. `this` refers to the object that the `this` is contained in. The example in the reading uses a `hotel` object, where `checkAvailability()` uses `this.rooms` and `this.booked`. `this.rooms` refers to the **_value_** that matches the **_key_** `rooms` within the object it is contained in, which is `40`. `this.booked` refers to the **_value_** that matches the **_key_** `booked` within the object it is contained in, which is `25`. `this` is a concept that we will cover more thoroughly in class. This brief overview is provided for your comprehension of the reading.
     1. Read through the [objects-ppt.pdf](objects-ppt.pdf). This is an excerpt from [Code School](https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-1).

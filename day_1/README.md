@@ -8,7 +8,7 @@ At the end of the day, you will use several git commands to save your work to yo
 
 ## Open your local copy of frontend-mod-1-prework in Atom
 
-1. Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
+Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
 ```
 cd ~
@@ -24,7 +24,7 @@ ls
 atom .
 ```
 
-This will open the day_1 directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
+This will open the `day_1` directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
 ## Notes on Learning to Write Code
 
@@ -88,7 +88,6 @@ Strings can be used to work with any kind of text.
 ### Boolean
 
 Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but booleans are very helpful in helping us determine which script should run.
-
 
 ## Variables and Assignment
 
@@ -163,7 +162,6 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at snackCount, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-
 ## Exercises
 
 Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
@@ -181,7 +179,7 @@ Work through the exercise files in the day_1/exercises directory.  Complete them
 
 When you are finished with all of the day_1 activities, follow these steps in order to save your work to your local git repository.
 
-1. Make sure you are in your `day_1` directory. When you enter `ls` in your terminal, you should see the exercises directory listed, as well as README.md, questions.md, and all of the files you created while working through Learn Ruby the Hard Way i.e. "ex1.rb", "ex2.rb", etc.
+1. Make sure you are in your `day_1` directory. When you enter `ls` in your terminal, you should see the exercises directory listed, as well as README.md, questions.md, etc.
 1. In your terminal, enter `git status`. You should see output like this:
 
 ```
@@ -240,7 +238,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ## Push to Github
 
-You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
