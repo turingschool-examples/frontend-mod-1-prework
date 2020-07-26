@@ -1,7 +1,11 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_3/exercises/comparisons.js`
+to achieve the desired result.
+
+A few are completed for you, to provide an example.
+
+You should be able to run this
+file from your terminal with the command `node day_1/exercises/concatenation.js`
 */
 
 // example: Write code that combines the variables below into another string:
@@ -19,12 +23,11 @@ console.log("My zoo has " + number + " " + creatures + "!")
 
  // Write code that combines the variables below into a string that
  // reads "The quick red fox jumped over the lazy brown dog":
+ 
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
- 
 console.log("The " + speedy + " jumped over the " + slowPoke);
-
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
