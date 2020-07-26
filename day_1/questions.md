@@ -44,7 +44,16 @@ multi-line comment */*** ``
 
 ``console.log(animal)``
 
+1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+
+``Concatenation in Javascript is the joining together of  strings.``
+
+``console.log("A " + animal + " is just a prettier version of a donkey.")`` 
+
+__
+
 **EXAMPLE**
+
 > var animal = "zebra"  
 
 // undefined
@@ -57,9 +66,9 @@ multi-line comment */*** ``
 
 > .help
 
+> console.log("A " + animal + " is just a prettier version of a donkey.")
+A zebra is just a prettier version of a donkey.
 
-1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+// undefined
 
-``Concatenation in Javascript is the joining together of  strings.``
-
-``console.log("A " + animal + " is just a prettier version of a donkey.")`` 
+__
