@@ -48,8 +48,6 @@ console.log(secondVar <= 20); // this should return: true
 // log the result of the comparison: is secondVar less than or equal to 21?
 console.log(secondVar <= 21); // this should return: true
 
-//TODO: Is this a bit wonky of an example?
-
 // log the result of the comparison: is 0 equal to true?
 console.log(0 == true) // this should return: false
 
