@@ -29,16 +29,7 @@ var monkeys = monkeys;
 console.log(Object.keys(zoo));
 
 // Using the zoo that you created above, print all the values in the object.
-var zooMonkeys = zoo.monkeys;
-var zooZebras = zoo.zebras;
-var zooLions = zoo.lions;
-var zooPandas = zoo.pandas;
-var zooTigers = zoo.tigers;
-console.log(zooMonkeys);
-console.log(zooZebras);
-console.log(zooLions);
-console.log(zooPandas);
-console.log(zooTigers);
+console.log(Object.values(zoo));
 
 // Using the zoo taht you created above, print the value of the first item in
 // the object
