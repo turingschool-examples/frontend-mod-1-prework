@@ -67,16 +67,15 @@ will print sunscreen.
 
 _____
 
-/* ----------------------------
-Using the numQuarters variable defined below, determine
+/* Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
 two quarters. Right now, the program will log
 out both "I have enough money for a gumball" and
 "I don't have enough money for a gumball". Write
 a conditional statement that only logs one or the
-other.
+other. */ 
 
-You should be able to change num_quarters and achieve these outputs:
+/* You should be able to change num_quarters and achieve these outputs:
 When numQuarters = 0, program should log "I don't have enough money for a gumball"
 When numQuarters = 1, program should log "I don't have enough money for a gumball"
 When numQuarters = 2, program should log "I have enough money for a gumball"
@@ -87,9 +86,13 @@ ____
 > var numQuarters = 0;
 
 > if (numQuarters >= 1) {
+
 >   console.log("I have enough money for a gumball");
+
 > } else {
+
 > console.log("I don't have enough money for a gumball");
+
 > }
 
 > I don't have enough money for a gumball
@@ -97,6 +100,7 @@ ____
 ____
 
 > var numQuarters = 1;
+
 
 > if (numQuarters >= 1) {
 >   console.log("I have enough money for a gumball");
@@ -128,6 +132,7 @@ ____
 ____
 
 > var numQuarters = 3;
+
 
 > if (numQuarters >= 1) {
 
@@ -170,7 +175,8 @@ ____
 ***FULL STATEMENT:***
 
 > var numQuarters = 88;
-
+ 
+ 
 
 > if (numQuarters == 0) {
 
@@ -214,6 +220,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 > var hasSauce = true;
 
 
+ 
 > if (cupsOfFlour >= 2 && hasSauce == true) {
 
 >   console.log("I can make pizza");
@@ -234,6 +241,7 @@ ____
 > var hasSauce = false;
 
 
+ 
 > if (cupsOfFlour >= 2 && hasSauce == true) {
 
 >   console.log("I can make pizza");
@@ -254,6 +262,7 @@ ____
 > var hasSauce = true;
 
 
+ 
 > if (cupsOfFlour >= 2 && hasSauce == true) {
 
 >   console.log("I can make pizza");
@@ -292,6 +301,7 @@ ____
 > var hasSauce = true;
 
 
+ 
 > if (cupsOfFlour == 1 && hasSauce == true){
 
 >   console.log("I cannot make pizza");
@@ -322,6 +332,7 @@ ____
 > var hasSauce = true;
 
 
+ 
 > if (cupsOfFlour == 1 && hasSauce == true){
 
 >   console.log("I cannot make pizza");
