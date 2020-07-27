@@ -14,7 +14,7 @@ if (brushTeeth == "yes") {
     console.log("My breath smells")
   }
   ```  
-Ex 2: If I hit a submit button, then a message will pop up telling me I submitted my form.
+Ex 2: If my password is correct, then I will be granted access.
 ```javascript
 var password = true;
 
@@ -30,11 +30,11 @@ if (password == true) {
  The if-statement checks a condition and evaluates whether it is true or false. Depending on the outcome, subsequent code will be executed.  
 
 3. What is the JavaScript syntax for an if statement?  
-
+```javascript
 If (condition) {
   line of code to be executed if condition is true;
 }
-
+```  
 Ex:
 ```javascript
 var pizza = "cheese";
