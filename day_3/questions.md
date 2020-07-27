@@ -31,7 +31,7 @@ if (password == true) {
 
 3. What is the JavaScript syntax for an if statement?  
 ```javascript
-If (condition) {
+if (condition) {
   line of code to be executed if condition is true;
 }
 ```  
