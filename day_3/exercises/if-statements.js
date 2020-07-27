@@ -8,9 +8,8 @@ with you to be prepared based on the following conditions:
  * if it is rainy, log "umbrella"
  * if it is snowy, log "coat"
  * if it is icy, log "yak traks"
- ____
- 
- > var weather = 'snowy'
+
+> var weather = 'snowy'
 
 > if (weather == 'sunny') {
 >  console.log("sunscreen");
@@ -24,36 +23,27 @@ with you to be prepared based on the following conditions:
 > console.log("good to go!");
 > }
 
+----
 
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'.
 
 > var weather = 'sunny';
 
-
 >  if (weather == 'sunny') {
-
 >  console.log("sunscreen");
-
 > } else if (weather == 'rainy') {
-  
 >  console.log("umbrella");
-
 > } else if (weather == 'snowy') {
-
 >  console.log("coat");
-  
 > } else if (weather == 'icy') {
-
 >  console.log("yak traks");
-  
 > } else{
-
   console.log("good to go!");
 
 *will print sunscreen.*
 
-_____
+----
 
 /* Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
@@ -69,26 +59,22 @@ When numQuarters = 1, program should log "I don't have enough money for a gumbal
 When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
-____
+
+----
 
 > var numQuarters = 0;
 
 > if (numQuarters >= 1) {
-
 >   console.log("I have enough money for a gumball");
-
 > } else {
-
 > console.log("I don't have enough money for a gumball");
-
 > }
 
 > I don't have enough money for a gumball
 
-____
+----
 
 > var numQuarters = 1;
-
 
 > if (numQuarters >= 1) {
 >   console.log("I have enough money for a gumball");
@@ -96,24 +82,17 @@ ____
 > console.log("I don't have enough money for a gumball")
 > }
 
-
 > I don't have enough money for a gumball
 
-____
+----
 
 > var numQuarters = 2;
 
-
 > if (numQuarters >= 2) {
-
 >   console.log("I have enough money for a gumball");
-
 > } else {
-
 >   console.log("I don't have enough money for a gumball")
-
 > }
-
 
 > I have enough money for a gumball
 
@@ -121,17 +100,11 @@ ____
 
 > var numQuarters = 3;
 
-
 > if (numQuarters >= 1) {
-
 >   console.log("I have enough money for a gumball");
-
 > } else {
-
 >   console.log("I don't have enough money for a gumball")
-
 > }
-
 
 > I have enough money for a gumball
 
@@ -142,22 +115,13 @@ ____
 > var numQuarters = 0;
 
 > if (numQuarters >= 0) {
-
 >   console.log("I don't have enough money for a gumball");
-
 > } else if (numQuarters >= 1){
-
 > console.log("I don't have enough money for a gumball");
-
 > } else if (numQuarters >= 2){
-
 > console.log("I have enough money for a gumball");
-
 > } else if (numQuarters >= 3){
-
 > console.log("I have enough money for a gumball");
-
-
 > I don't have enough money for a gumball
 
 ***FULL STATEMENT:***
@@ -167,27 +131,16 @@ ____
  
 
 > if (numQuarters == 0) {
-
 >   console.log("I don't have enough money for a gumball");
-
 > } else if (numQuarters == 1){
-
 > console.log("I don't have enough money for a gumball");
-
 > } else if (numQuarters == 2){
-
 > console.log("I have enough money for a gumball");
-
 > } else if (numQuarters == 3){
-
 > console.log("I have enough money for a gumball");
-
 > } else {
-
 >   console.log("I'd rather have a piece of chocolate.")
-
 > }
-
 
 > I'd rather have a piece of chocolate.
 
@@ -204,144 +157,96 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 */
 
 > var cupsOfFlour = 1;
-
 > var hasSauce = true;
-
-
  
 > if (cupsOfFlour >= 2 && hasSauce == true) {
-
 >   console.log("I can make pizza");
-
 > } else {
-
 > console.log("I cannot make pizza");
-
 > }
-
 
 > I cannot make pizza
 
-____
+----
 
 > var cupsOfFlour = 1;
-
 > var hasSauce = false;
 
-
- 
 > if (cupsOfFlour >= 2 && hasSauce == true) {
-
 >   console.log("I can make pizza");
-
 > } else {
-
 > console.log("I cannot make pizza");
-
 > }
-
 
 > I cannot make pizza
 
-____
+----
 
 > var cupsOfFlour = 2;
-
 > var hasSauce = true;
 
+> if (cupsOfFlour >= 2 && hasSauce == true) {
+>   console.log("I can make pizza");
+> } else {
+> console.log("I cannot make pizza");
+> }
 
+> I can make pizza
+
+----
+
+> var cupsOfFlour = 3;
+> var hasSauce = true;
  
 > if (cupsOfFlour >= 2 && hasSauce == true) {
-
 >   console.log("I can make pizza");
-
 > } else {
-
 > console.log("I cannot make pizza");
-
 > }
-
 
 > I can make pizza
 
-____
-
-> if (cupsOfFlour >= 2 && hasSauce == true) {
-
->   console.log("I can make pizza");
-
-> } else {
-
-> console.log("I cannot make pizza");
-
-> }
-
-
-> I can make pizza
-
-____
+----
 
 ***FULL STATEMENT:***
 
-
 > var cupsOfFlour = 2;
-
 > var hasSauce = true;
 
-
- 
 > if (cupsOfFlour == 1 && hasSauce == true){
-
 >   console.log("I cannot make pizza");
-
 > } else if (cupsOfFlour == 1 && hasSauce == false){
-
 >   console.log("I cannot make pizza");
-
 > } else if (cupsOfFlour == 2 && hasSauce == true){
-
 >   console.log("I can make pizza");
-
 > } else if (cupsOfFlour == 3 && hasSauce == true){
-
 >   console.log("I can make pizza");
-
 > }
-
 
 > I can make pizza
 
+----
 
 ***FULL STATEMENT:***
-
-
+ 
 > var cupsOfFlour = -15;
-
 > var hasSauce = true;
 
 
  
 > if (cupsOfFlour == 1 && hasSauce == true){
-
 >   console.log("I cannot make pizza");
-
 > } else if (cupsOfFlour == 1 && hasSauce == false){
-
 >   console.log("I cannot make pizza");
-
 > } else if (cupsOfFlour == 2 && hasSauce == true){
-
 >   console.log("I can make pizza");
-
 > } else if (cupsOfFlour == 3 && hasSauce == true){
-
 >   console.log("I can make pizza");
-
 > } else {
-
 >   console.log("Let's order sushi again instead.")
-
 > }
-
 
 > Let's order sushi again instead.
+
+----
+ 
