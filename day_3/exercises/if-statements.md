@@ -1,4 +1,4 @@
-// In the exercises below, write your own code where indicated
+In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
 file from your terminal with the command `node day_3/exercises/if-statements.js`
 example, using the weather variable below, determine what you need to take
@@ -8,13 +8,11 @@ with you to be prepared based on the following conditions:
  * if it is rainy, log "umbrella"
  * if it is snowy, log "coat"
  * if it is icy, log "yak traks"
-  
+ ____
+ 
 > var weather = 'snowy';
-
 > if (weather == 'sunny') {
-  
 >  console.log("sunscreen");
-  
 > } else if (weather == 'rainy') {
   
 >  console.log("umbrella");
