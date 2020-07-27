@@ -34,11 +34,8 @@ with you to be prepared based on the following conditions:
   
 > }
 
-
-/*
 Manipulate the variable 'weather' to see if you can print something other
-than 'coat'
-*/
+than 'coat'.
 
 > var weather = 'sunny';
 
@@ -63,7 +60,7 @@ than 'coat'
 
   console.log("good to go!");
 
-will print sunscreen.
+*will print sunscreen.*
 
 _____
 
