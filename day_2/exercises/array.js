@@ -22,8 +22,7 @@ console.log(animals.length);
 console.log(foods.length);
 
 // Write code below that will log "Zebra" from the animals array
-var first = animals[0];
-console.log(first);
+console.log(animals[0]);
 
 // Write code using bracket notation that will log the first item in the animals array
 console.log(animals[0]);
@@ -37,8 +36,7 @@ animals[2] = "Gorilla"
 console.log(animals)
 
 // Write code below that will log the last item from the foods array.
-var lastFood = foods[2];
-console.log(lastFood);
+console.log(foods[2]);
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the result

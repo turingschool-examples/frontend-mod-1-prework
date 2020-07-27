@@ -25,8 +25,8 @@ for (var i = 0; i < animals.length; i++) {
 var foods = ["Pizza", "Salad", "Pasta"];
 
 for (var i = 0; i < foods.length; i++) {
-  foodMessage = "Add " + (foods[i]) + " to shopping list" //add message for each food item
-  console.log(foodMessage);
+  message = "Add " + (foods[i]) + " to shopping list" //add message for each food item
+  console.log(message);
 }
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
