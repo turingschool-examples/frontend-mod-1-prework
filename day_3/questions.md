@@ -2,7 +2,7 @@
 
 1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.  
 
-Conditional statements is a statement that allows your code to make decisions on whether or not certain code needs to run. In a flowchart, there comes a point when you have to make a decision and the code can take one of two paths, each path has different tasks (or code). In order to determine which path to take, you must set a "condition". The conditional values are either true or false. Based on the answer, certain code will trigger.
+A conditional statements is a statement that allows your code to make decisions on whether or not certain code needs to run. In a flowchart, there comes a point when you have to make a decision and the code can take one of two paths, each path has different tasks (or code). In order to determine which path to take, you must set a "condition". The conditional values are either true or false. Based on the answer, certain code will trigger.
 
 Ex 1: If I brush my teeth in the morning, then my breath won't smell.
 ```javascript
