@@ -16,9 +16,9 @@
 
   ```javascript
   function hello() {
-    console.log("Same I am");
+    console.log("Sam I am");
   }
-
+  ```
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
