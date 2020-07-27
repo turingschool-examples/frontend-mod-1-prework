@@ -10,29 +10,20 @@ with you to be prepared based on the following conditions:
  * if it is icy, log "yak traks"
  ____
  
-> var weather = 'snowy';
+ > var weather = 'snowy'
 
 > if (weather == 'sunny') {
-
 >  console.log("sunscreen");
-
 > } else if (weather == 'rainy') {
-  
 >  console.log("umbrella");
-  
 > } else if (weather == 'snowy') {
-  
 >  console.log("coat");
-  
 > } else if (weather == 'icy') {
-  
 >  console.log("yak traks");
-  
 > } else{
-  
 > console.log("good to go!");
-  
 > }
+
 
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'.
