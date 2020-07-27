@@ -21,16 +21,16 @@ class Person {
   console.log("Hello!")
  }
 
+ getAge() {
+  console.log(this.age)
+ }
+
  changeHairColor() {
   this.hairColor="Red"
  }
 
  addHobby() {
    this.hobbies.push("Walking")
- }
-
- getAge() {
-  console.log(this.age)
  }
 
 removeHobby() {
@@ -43,9 +43,9 @@ var person1 = new Person("Kelsie", 30, "Blonde", 5.5, ["Reading", "Hiking", "Exe
 
 // Call the methods here
 person1.greet()
+person1.getAge()
 person1.changeHairColor()
 person1.addHobby()
-person1.getAge()
 person1.removeHobby()
 
 
