@@ -1,4 +1,6 @@
-**pop method**
+# Methods
+
+**pop**
 This method removes the last element in an array. It will change the length of the array when you run the console log and remove the last element.
 
 **push**
