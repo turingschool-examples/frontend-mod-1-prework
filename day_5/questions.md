@@ -34,21 +34,28 @@
 It is helpful to use an **object** when we want to store and access a variety of data types associated with one instance of a thing (rather than *arrays*, wherein it is preferred to use uniform data types to keep the information cleaner). In this case, we manipulate strings, integers, booleans, an array and a **method**.
 ```
         var cafeOrder = {
-            drink: 'dirty chai',
-            sizeOz: 16,
-            temp: 'hot',
-            shots: 3,
-            toGo: false,
-            shotOpt: [ 1, 2, 3 ],
-            location: '2914 Coffee'
-          }
+          drink: 'dirty chai',
+          sizeOz: 12,
+          temp: 'hot',
+          shots: 2,
+          toGo: false,
+          shotOpt: [ 1, 2, 3 ],
+          location: '2914 Coffee',
+          placeOrder: [Function]
+        }
 ```
-> This accessibility includes being able to use the data in more complex ways, by calling on the properties as variables to perform more deeply nested references and calculations within **methods**.
+> This accessibility includes being able to use the data in more complex ways, by calling on the properties as variables to perform more deeply nested references and / or calculations within **methods**.
 
 ```
+        cafeOrder.shots = cafeOrder.shotOpt[2];
+
+          // updates the value of shots in the cafeOrder object to be the number 3, because it is index[2] within the associated shotOpt array.
+
         cafeOrder.placeOrder = function() {
-            console.log("I'd like a "+ cafeOrder.sizeOz + "oz, " + this.drink + ", please!");
+            console.log ("I'd like a "+ cafeOrder.sizeOz + "oz, " + this.drink + " with " + this.shots + "shots, please!");
         };
+
+        // note: Used both cafeOrder.sizeOz as well as 'this' keyword to call this.drink and this.shots, showing that either will work the same way to refer to values associated with the key within this object.
 ```
 
 1. What questions do you still have about objects?
