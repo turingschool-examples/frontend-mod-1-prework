@@ -35,7 +35,7 @@ console.log(Object.values(benedictsZoo));
 // Using the zoo that you created above, print the value of the first item in
 // the Object
 
-console.log(Object.values(benedictsZoo)[0])
+console.log(Object.values(benedictsZoo)[0]);
 
 // Add an animal to the zoo Object and print the updated Object.
 
