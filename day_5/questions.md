@@ -38,7 +38,7 @@ console.log(states);
 
 5. What is another example of when we might use a object?  In this case, why is a object better than an array?  
 
-We might use an object when we need to store data on a website. Objects are better than arrays because arrays only let you store data into one variable, where objects allow as many variables (properties) as needed.
+We might use an object when we need to model something complex. Objects are better than arrays because arrays only let you store data into one variable, where objects allow as many variables (properties) as needed.
 
 6. What questions do you still have about objects?  
 
