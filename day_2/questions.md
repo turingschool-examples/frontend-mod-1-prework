@@ -19,7 +19,8 @@ animals.push("lion");
 console.log(animals);
 ```
 
-1. Name and describe two additional array methods.
+1. Name and describe two additional array methods.  
+
 **Reverse Method** - The reverse method reverses the array.   
 Example: var animals = ["zebra", "giraffe", "elephant"]; would become ["elephant", "giraffe", "zebra"];  
 **isArray Method** - The isArray method determines whether or not the passed value is actually an array.  
