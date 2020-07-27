@@ -1,3 +1,5 @@
+// MAIN TASK: FizzBuzz (1-100)
+
 function fizzBuzz() {
   for (var i = 1; i < 101; i++) {
    if (i % 3 == 0 && i % 5 !== 0) {
@@ -12,3 +14,22 @@ function fizzBuzz() {
   }
 }
 fizzBuzz();
+
+
+//BONUS TASK
+function fizzBuzz(start, end) {
+  for (var i = start; i < (end + 1) ; i++) {
+   if (i % 3 == 0 && i % 5 !== 0) {
+    console.log("Fizz");
+  } else if (i % 5 == 0 && i % 3 !== 0) {
+        console.log("Buzz");
+    } else if (i % 3 == 0 && i % 5 == 0) {
+        console.log("FizzBuzz");
+    } else {
+      console.log(i);
+    }
+  }
+}
+//fizzBuzz(start, end);
+//Example
+fizzBuzz(30, 60);
