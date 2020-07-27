@@ -33,7 +33,7 @@
 1. How would you call or execute the function that you created above?
 
   ```javascript
-  console.log(hello_someone("Lola"))
+  hello_someone("Lola")
   ```
 
 1. What questions do you still have about functions in Javascript?
