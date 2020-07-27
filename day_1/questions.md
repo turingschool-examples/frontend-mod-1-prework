@@ -17,4 +17,6 @@ console.log(animal);
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 Concatenation is combining two strings together.
-console.log("My favorite animal is a " + animal + "");
+
+animal = "dog";
+console.log("My favorite animal is a " + animal + "!");

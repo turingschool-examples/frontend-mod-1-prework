@@ -18,3 +18,9 @@ console.log(20 / 4);
 
 // log the result of the modulo of 10 into 54:
 console.log(54 % 10);
+
+// log the total number of snacks to the console, using the variables below:
+var healthySnackCount = 7;
+var junkFoodSnackCount = 4;
+
+console.log(healthySnackCount + junkFoodSnackCount)
