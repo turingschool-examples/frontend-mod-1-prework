@@ -8,7 +8,8 @@ file from your terminal with the command `node day_4/exercises/objects.js`
 var foods = {
   apples: 23,
   grapes: 507,
-  eggs: 48
+  eggs: 48,
+  oranges: 25
 };
 
 console.log(foods);
