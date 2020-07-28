@@ -43,5 +43,3 @@ console.log(fido.hungry)
 
 fido.play();
 console.log(fido.hungry);
-
-console.log(fido);
