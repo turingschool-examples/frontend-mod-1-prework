@@ -19,18 +19,19 @@ As they operate at the class-level, methods can access the properties of any obj
 
 > class:      Car
   attributes:
-              make ("string")
-              model ("string")
-              galGasInTank (float / int)
-              currentMileage (float / int)
-              isRunning (boolean, true || false)
-              isRegistered (boolean, true || false)
+              make ("string"),
+              model ("string"),
+              galGasInTank (float / int),
+              gasTankCapacity (float / int),
+              currentMileage (float / int),
+              isRunning (boolean, true || false),
+              isRegistered (boolean, true || false),
               fullTank (boolean, true || false)   - added by the first method in example below
   methods:
-              fillGas (increases the value of galGasInTank to 16.4, creates a new property `fullTank` with a value of true),
+              fillGas (increases the value so that this.galGasInTank = gasTankCapacity, creates a new property `fullTank` with a value of true),
               turnOn (updates the value so that isRunning = true ),
-              driveMiles (increases the value of currentMileage by a specified number of miles), decreases the value of galGasInTank and updates the value so that fullTank = true ),
-              updateRegistration (updates the value so that isRegistered = true )
+              driveMiles (increases the value of this.currentMileage by a specified number of miles), decreases the value of this.galGasInTank and updates the value so that this.fullTank = true ),
+              updateRegistration (updates the value so that this.isRegistered = true )
 
 ```
 class Car {
@@ -38,13 +39,14 @@ class Car {
     this.make = make;
     this.model = model;
     this.galGasInTank = galGasInTank;
+    this.gasTankCapacity = gasTankCapacity;
     this.currentMileage = currentMileage;
     this.isRunning = isRunning;
     this.isRegistered = isRegistered;
   }
 
   fillGas() {
-    this.galGasInTank = 16.4;
+    this.galGasInTank = this.gasTankcapacity;
     this.fullTank = true;
   }
 
@@ -81,7 +83,7 @@ I can see the way in which `this` is changed depending on its placement outside 
 > The first of these code examples is taken from the Classes lesson plan, and the second is from the Day 6 README.md.
 In the Pizza class, `this.toppings = toppings;` establishes the property for objects of this class through the variable passed as a parameter. The argument given in defining the object instance `pizza2` shows that the value of `toppings` is an array.
 For the GoodDog class, the `name` property follows the same format, but `bones` shows an empty array until we use a method to add an item to the array.
-Having seen that either of these approaches can work, is one preferred as good convention over the other, or would there be certain reasons / situations to use one format rather than the other?
+Having seen that either of these approaches can work in creating an array value for the property of an object instance, is one preferred as good convention over the other, or would there be certain reasons / situations to use one format rather than the other?
 
 ```
         class Pizza {
