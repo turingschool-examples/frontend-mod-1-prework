@@ -22,6 +22,5 @@ function hello_someone() { console.log(name + "I am") }
 6. How would you _call_ or _execute_ the function that you created above?
 hell_someone();
 
-
 7. What questions do you still have about functions in JavaScript?
 I don't have a very clear understanding of arguments so I'd really want a teacher to go over it on a zoom class.
