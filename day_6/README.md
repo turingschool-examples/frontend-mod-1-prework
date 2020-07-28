@@ -256,7 +256,7 @@ var bolt = {
 
 In summary, classes are blueprints that are used to create instances of objects. In our example, the `GoodDog class` itself doesn’t represent a dog, it’s the idea of what a dog is like. To represent an actual dog we created an instance of the `GoodDog class`, which was our good dog `bolt`. An object's **_properties_** keep track of state, and it's **_methods_** expose behavior for objects.
 
-1. Read and work through the [Classes, `this`, & Object Instances lesson plan](https://frontend.turing.io/lessons/module-1/object-instances-classes.html).
+1. Read and work through the [Classes, `this`, & Object Instances lesson plan](https://frontend.turing.io/lessons/module-1/js-classes.html).
 
 1. Work through the files in the day_6/exercises directory.
 
