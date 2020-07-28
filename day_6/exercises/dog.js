@@ -23,12 +23,17 @@ class Dog {
   eat() {
     this.hungry = false;
   }
-}
+  fetch() {
+    this.hungry = true;
+    console.log("Fido fetched and now he's hungry!")
+  }
+
+};
 
 var fido = new Dog("Bernese", "Fido", 4)
 console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);
-console.log(fido.hungry);
-fido.eat();
+
+fido.fetch();
 console.log(fido.hungry);
