@@ -43,4 +43,7 @@ console.log(fido.hungry);
 //prints false
 fido.play();
 console.log(fido.hungry);
-//prints true, signifying that Fido does indeed get hungry when he plays! 
+<<<<<<< HEAD
+//prints true, signifying that Fido does indeed get hungry when he plays!
+=======
+>>>>>>> 301a4130119bb8c21d4313c237900433780b5fe0
