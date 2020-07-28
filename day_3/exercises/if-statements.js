@@ -8,7 +8,7 @@ with you to be prepared based on the following conditions:
  * if it is rainy, log "umbrella"
  * if it is snowy, log "coat"
  * if it is icy, log "yak traks"
- */ 
+ */
 
 > var weather = 'snowy'
 
@@ -52,7 +52,7 @@ two quarters. Right now, the program will log
 out both "I have enough money for a gumball" and
 "I don't have enough money for a gumball". Write
 a conditional statement that only logs one or the
-other. */ 
+other. */
 
 /* You should be able to change num_quarters and achieve these outputs:
 When numQuarters = 0, program should log "I don't have enough money for a gumball"
@@ -157,7 +157,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 > var cupsOfFlour = 1;
 > var hasSauce = true;
- 
+
 > if (cupsOfFlour >= 2 && hasSauce == true) {
 >   console.log("I can make pizza");
 > } else {
@@ -196,7 +196,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 > var cupsOfFlour = 3;
 > var hasSauce = true;
- 
+
 > if (cupsOfFlour >= 2 && hasSauce == true) {
 >   console.log("I can make pizza");
 > } else {
@@ -227,7 +227,7 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 ----
 
 ***FULL STATEMENT:***
- 
+
 > var cupsOfFlour = -15;
 > var hasSauce = true;
 
@@ -246,4 +246,4 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 > Let's order sushi again instead.
 
 ----
- 
+   
