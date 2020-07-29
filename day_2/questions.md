@@ -4,8 +4,10 @@
 ```javascript
 var animals = ["zebra", "giraffe", "elephant"];
 ```
+1. Declare a variable named `animals` that stores an array containing the following strings: `"zebra", "giraffe", "elephant"`.
 
-1. Save the array you created above to a variable `animals`.
+2. Using the array `animals`, how would you access `"giraffe"`?
+
 
 1. Using the array `animals`, how would you access `"giraffe"`?  
 ```javascript
@@ -53,3 +55,4 @@ var secondNum = 2;
 
 console.log(firstNum > secondNum) // the result would be true. 25 is greater than 2.
 ```  
+

@@ -2,11 +2,11 @@
 
 On day 1 of the prework, you learned how to store information in variables. Today, you will learn about another way to store information; more specifically, how to use Functions to create Return Values.  In programming, we _often_ use functions, so this is an important concept to get familiar with!
 
-When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on GitHub.
 
 ## Open your local copy of frontend-mod-1-prework
 
-Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the `day_1` instructions.
 
 ## Functions & Return
 
@@ -20,7 +20,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Save your work in Git
 
-When you are finished with all of the day_4 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+When you are finished with all of the `day_4` activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
 1. `$ git add day_4/exercises`
 1. `$ git add day_4/questions.md`
@@ -30,7 +30,7 @@ When you are finished with all of the day_4 activities, use your terminal to run
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master

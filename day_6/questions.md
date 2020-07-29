@@ -9,6 +9,8 @@ A class is a category of things usually having some property or attribute in com
 2. In relation to a Class, what is a property?  
 
 Classes need two things in order to be defined - states and behaviors. States track properties for individual objects. We need to be able to create properties in classes so that we can tie the data back to the objects. I created a "book name" property below on the new instance of Book.   
+=======
+1. What is the syntax to create an instance of a class?
 
 **Example:**  
 ```javascript

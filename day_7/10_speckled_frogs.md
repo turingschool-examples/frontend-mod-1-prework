@@ -10,7 +10,7 @@ Create a file named `10_speckled_frogs.js` and within that file, write several a
 > 2 speckled frogs sat on a log 
 > eating some most delicious bugs.  
 > One jumped in the pool where its nice and cool,  
-> then there was 1 speckled frogs.
+> then there was 1 speckled frog.
 >
 > 1 speckled frog sat on a log 
 > eating some most delicious bugs.  

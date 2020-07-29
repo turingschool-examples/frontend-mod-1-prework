@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_4/exercises/objects.js`
+file from your terminal with the command `node day_5/exercises/objects.js`
 */
 
 // example: Write code below to print an object that holds grocery store inventory
@@ -40,3 +40,4 @@ console.log(firstItem);
 // Add an animal to the zoo object and print the updated object.
 zoo.polarBear = 1;
 console.log(zoo);
+

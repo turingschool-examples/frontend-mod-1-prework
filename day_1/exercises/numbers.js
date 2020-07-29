@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_3/exercises/comparisons.js`
+file from your terminal with the command `node day_1/exercises/numbers.js`
 */
 
 // example: log the result of the sum of 2 and 2 to the console:
@@ -22,5 +22,4 @@ console.log(54 % 10);
 // log the total number of snacks to the console, using the variables below:
 var healthySnackCount = 7;
 var junkFoodSnackCount = 4;
-
 console.log(healthySnackCount + junkFoodSnackCount)

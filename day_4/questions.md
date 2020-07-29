@@ -1,7 +1,6 @@
 ## Day 4 Questions
 
 1. In your own words, what is the purpose of a function?  
-
 Functions allow you to group code together to perform a specific task. The purpose is to help organize your code, so you aren't re-writing code everywhere if you use the function more than once.
 
 2. What is a parameter?  
