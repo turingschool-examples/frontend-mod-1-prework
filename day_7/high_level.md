@@ -41,7 +41,7 @@ Code line by line I tried after Googling for a few hours:
 >  for (var x = 2; x < size; x++) {
 
 >     if ((x + y) % 2 == 0) {
- >      space += " ";
+>      space += " ";
 >     } else {
 >       space += "#";
       
