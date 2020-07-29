@@ -2,7 +2,7 @@
 
 1. What is an Object, and how is it different from an Array in Javascript?
 
-+ An object is used to store *key-values*.With objects, your data is assigned to a **key**, where with Arrays the values are stored to an ***index***, where they store ordered lists. Furthermore, objects can contain any data type, where arrays are more focused and use strings to retrieved data.
++ An object is used to store *key-values*. With objects, your data is assigned to a **key**, where with Arrays the values are stored to an ***index***, where they store ordered lists. Furthermore, objects can contain any data type, where arrays are more focused and use strings to retrieved data.
 
 
 1. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.
