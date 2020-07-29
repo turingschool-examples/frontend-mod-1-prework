@@ -24,7 +24,7 @@
     
 >    this.numberTires = numberTires;
     
-  };
+>  };
 
 
 >  removeSpare() {
