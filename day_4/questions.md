@@ -31,4 +31,4 @@
 1. What questions do you still have about functions in Javascript?
 
 \\I don't have any real hard and fast questions at this time. Things sporadically come to me and I bustle through Google
-\\until I've found a solution, more often than not. I will be sure to reach out if anything comes up that I can't figure out!
+\\until I've found a solution, more often than not. I will be sure to reach out if anything comes up that I can't figure out
