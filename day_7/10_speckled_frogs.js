@@ -1,4 +1,4 @@
-*Create a file named 10_speckled_frogs.js and within that file, write several a program that will print the following nursery rhyme:
+``Create a file named 10_speckled_frogs.js and within that file, write several a program that will print the following nursery rhyme:
 
 3 speckled frogs sat on a log eating some most delicious bugs.
 One jumped in the pool where its nice and cool, then there were 2 speckled frogs.
@@ -12,7 +12,10 @@ One jumped in the pool where its nice and cool,
 then there were no more speckled frogs!
 
 Required
-Make your program print the rhyme above for 10 frogs, with attention to where language changes.
+Make your program print the rhyme above for 10 frogs, with attention to where language changes.``
+
+
+
 
 var num = 10
 
