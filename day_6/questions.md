@@ -14,7 +14,7 @@
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
 
-``
+
 >   class Car {
 
 >  constructor(clean, age, numberTires) {
@@ -45,7 +45,6 @@
 
 > };
 
-`
 
 1. What is the syntax to create an instance of a class?
 
