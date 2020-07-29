@@ -1,7 +1,7 @@
 /*
 In the exercises below, write your own code where indicated
 to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_2/exercises/functions-and-variables.js`
+file from your terminal with the command `node day_4/exercises/functions-and-variables.js`
 
 ---------------------------------------------------------
 

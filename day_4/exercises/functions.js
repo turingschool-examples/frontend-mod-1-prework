@@ -14,17 +14,28 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
+function printMyName() {
+  console.log("Aaron Townsend");
 };
 
-printName("Albus Dumbledore");
+printMyName("Albus Dumbledore");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
-//YOUR CODE HERE
-
+var firstNumber = 17;
+var secondNumber = 33;
+function addition() {
+  console.log(firstNumber + secondNumber);
+  console.log("The sum of 17 and 33 = " + (firstNumber + secondNumber));
+};
+addition();
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-// YOUR CODE HERE
+var know = "I want to know you, ";
+var see = "I want to see, ";
+var say = "I want to say hello";
+function treesChorus() {
+  console.log(know + see + say);
+};
+treesChorus();
