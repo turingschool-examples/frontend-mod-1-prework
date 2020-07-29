@@ -44,15 +44,15 @@ Code line by line I tried after Googling for a few hours:
 >      space += " ";
 >     } else {
 >       space += "#";
-      
+
 >     }
-    
+
 >   }
-  
+
 >  space += "\n";
- 
+
 > }
 
 >  console.log(space);
- 
+
 //This was a wee bit challenging in comparison to the rest for me. I've reviewed a ton of practice on these kinds of problems and while I know it probably isn't exactly on point, I do hope that it encompasses the general idea!
