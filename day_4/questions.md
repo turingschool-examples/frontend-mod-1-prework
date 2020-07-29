@@ -20,7 +20,7 @@
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
-``function hello)someone(name) {
+``function hello_someone(name) {
     console.log(name + " I am");
 }``
 
