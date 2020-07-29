@@ -14,33 +14,37 @@
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
 
-`` class Car {
+>   class Car {
 
-  constructor(clean, age, numberTires) {
+>  constructor(clean, age, numberTires) {
   
-    this.clean = clean;
+>    this.clean = clean;
     
-    this.age = age;
+>    this.age = age;
     
-    this.numberTires = numberTires;
+>    this.numberTires = numberTires;
     
   };
 
 
-  removeSpare() {
+>  removeSpare() {
   
-    console.log(this.numberTires = 4);
+>    console.log(this.numberTires = 4);
     
 
-  };
+>  };
+  
+>  goesOffRoading() { 
+  
+>    console.log(this.clean = false)
 
-  goesOffRoading() {
-    console.log(this.clean = false)
 
-  };
+>  };
   
 
-}; ``
+> }; ``
+
+
 
 1. What is the syntax to create an instance of a class?
 
