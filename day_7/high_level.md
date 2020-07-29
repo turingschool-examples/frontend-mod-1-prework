@@ -45,13 +45,13 @@ Code line by line I tried after Googling for a few hours:
 >     } else {
 >       space += "#";
       
-> >      }
+>     }
     
 >   }
   
 >  space += "\n";
  
->   }
+> }
 
 >  console.log(space);
  
