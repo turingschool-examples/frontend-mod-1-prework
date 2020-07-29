@@ -17,9 +17,9 @@
 
 1. In the space below, create a function named `hello` that will print `"Sam I am"`.
 
-``function hello() {
+``function hello() {``
 
-  console.log("Sam I Am");
+  ``console.log("Sam I Am");
   
 }``
 
