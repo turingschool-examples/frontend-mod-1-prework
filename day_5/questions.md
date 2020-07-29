@@ -1,13 +1,45 @@
 ## Day 5 Questions
 
-1. What is an Object, and how is it different from an Array in Javascript?
+1. What is an Object, and how is it different from an Array in Javascript?  
 
-2. In the space below, create an Object stored to a variable named `petStore`.  This Object should hold an inventory of items and the number of that item that you might find at a pet store.
+An Object is a collection of related data consisting of variables and functions. Objects can represent real world things in computer programming. Objects can be anything that is defined by a set of characteristics (properties).
+Variables and functions are called properties and methods when they are inside of an object.  
 
-3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
+An Object is different from an Array because an Array stores an "ordered list" of data. In order to access data in an array, you have to access items by their numerical order in the list. Objects can not only store numbers, but they can also store strings, making it more of a database.
 
-4. How would you add a new property to that Object with a key of `"MN"` and a value of `"Minnesota"`?
+2. In the space below, create an Object stored to a variable named `petStore`.  This object should hold an inventory of items and the number of that item that you might find at a pet store.  
+```javascript
+var petStore = {
+  dogFood = 100;
+  dogTreats = 50;
+  dogToys = 25,
+};
+```
 
-5. What is another example of when we might use a Object?  In this case, why is an Object better than an Array?
+3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?  
 
-6. What questions do you still have about Objects?
+```javascript
+var states = {
+  CO: "Colorado",
+  IA: "Iowa",
+  OK: "Oklahoma",
+};
+
+ var statesIA = states.IA;
+ console.log(statesIA);
+```  
+
+4. How would you add a new property to that object with a key of `"MN"` and a value of `"Minnesota"`?  
+
+```javascript
+states.MN = "Minnesota";
+console.log(states);
+```  
+
+5. What is another example of when we might use a object?  In this case, why is a object better than an array?  
+
+We might use an object when we need to model something complex. Objects are better than arrays because arrays only let you store data into one variable, where objects allow as many variables (properties) as needed.
+
+6. What questions do you still have about objects?  
+
+How they are used in the "real world". What else can you add to objects to make it more dynamic?

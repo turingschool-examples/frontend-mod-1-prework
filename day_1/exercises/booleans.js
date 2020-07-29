@@ -17,8 +17,8 @@ console.log(typeof (1 == 1));
 // example: log to the console the result of 1 is equal to 2:
 console.log(1 == 2);
 
-// example: log to the console the result of 7 is not equal to 2:
-console.log(/*your code here*/);
+// example: log to the console the result of 7 is  not equal to 2:
+console.log(7 != 2);
 
 // example: log to the console the result of "hello" is equal to "Hello":
-
+console.log("hello" == "Hello");

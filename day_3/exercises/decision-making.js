@@ -9,8 +9,8 @@ Spend some time changing the variables and running the file to see how the story
 */
 
 var doorChoice = 1;
-var bearClothing = "";
-var bearChoice = 1;
+var bearClothing = 3;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -40,16 +40,35 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+We are using an if/else conditional statement to evaluate a condition. There are only two possible outcomes either a hat or a scarf.
+If the doorChoice variable is not equal to 1 then the condition is not true and the second line of code will run.
+If the doorChoice variable is equal to 1, then the condition is true and the first line of code is run.
 
 2. What variable has a new value assigned to it after the first if statement executes?
 
+bearClothing
+
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+
+scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
 
+We are using an if/else/else if conditional statement to evaluate a condition. There are three possible outcomes.
+
+- If the bearChoice variable is equal to 1, then the condition is true and the first code block is run (bear shows you a way out).
+- If the bearChoice variable is not equal to 1, then the condition is false and the second code block is run.
+    If the bearChoice variable in the second code block is equal to 2, then it is true and the second code block is run (bear starts to cry).
+- However, if the bearChoice variable in the second code block is not equal to 2, then it is false and the "else" code block will run (bear becomes friends).
+
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+
+You stay with the bear and become it's best friend!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+You tell the bear the hat is too small and it starts to cry!
+
 7. What is your favorite ending?
+My favorite ending is becoming the bears best friend! This bear is friendly and misunderstood!
 */
