@@ -30,29 +30,29 @@ X X X
 
 * Finally, have the console log print out your board!
 
-Code I tried after Googling for a few hours:
+Code line by line I tried after Googling for a few hours:
 
-var size = 16;``
+> var size = 16;
 
-*/ var space = " ";
+> var space = " ";
 
-for (var y = 2; y < size; y++) {
+> for (var y = 2; y < size; y++) {
 
- for (var x = 2; x < size; x++) {
+>  for (var x = 2; x < size; x++) {
 
-    if ((x + y) % 2 == 0) {
-      space += " ";
-    } else {
-      space += "#";
+>     if ((x + y) % 2 == 0) {
+ >      space += " ";
+>     } else {
+>       space += "#";
       
-      }
+> >      }
     
-  }
+>   }
   
- space += "\n";
+>  space += "\n";
  
-  }
+>   }
 
- console.log(space);
+>  console.log(space);
  
 //This was a wee bit challenging in comparison to the rest for me. I've reviewed a ton of practice on these kinds of problems and while I know it probably isn't exactly on point, I do hope that it encompasses the general idea!
