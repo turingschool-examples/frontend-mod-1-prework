@@ -12,7 +12,7 @@ One jumped in the pool where its nice and cool,
 then there were no more speckled frogs!
 
 Required
-Make your program print the rhyme above for 10 frogs, with attention to where language changes.``*/
+Make your program print the rhyme above for 10 frogs, with attention to where language changes.*/
 
 
 
