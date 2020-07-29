@@ -33,7 +33,7 @@ X X X
 Code I tried after Googling for a few hours:
 
 ``var size = 16;
-var space = " ";
+  var space = " ";
 
 for (var y = 2; y < size; y++) {
 
