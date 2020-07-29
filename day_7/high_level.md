@@ -43,7 +43,7 @@ Code I tried after Googling for a few hours:
     if ((x + y) % 2 == 0) {
       space += " ";
     } else {
-      space += "#";``
+      space += "#";
       
     ``}``
     
