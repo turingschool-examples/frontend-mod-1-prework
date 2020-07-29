@@ -28,6 +28,15 @@
 
 1. Create a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
 
+> This example uses `name` as a **parameter** and takes the argument `"Yoda"`.
+```
+        function hello_someone2 (name) {
+          console.log( name + " I am" );
+        }
+
+        hello_someone2("Yoda");
+```
+
 > This example takes an **argument** of `name`.
 ```
         function hello_someone () {
@@ -35,17 +44,8 @@
         }
 
         var name = "Yoda"
-        hello_someone (name);
+        hello_someone(name);
 
-```
-
-> This example uses `name` as a **parameter** and takes the argument `"Yoda"`.
-```
-        function hello_someone2 (name) {
-          console.log( name + " I am" );
-        }
-
-        hello_someone2 ("Yoda");
 ```
 
 1. How would you call or execute the function that you created above?

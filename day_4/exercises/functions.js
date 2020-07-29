@@ -23,7 +23,7 @@ printName("Allison Dietz");
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
 
-function calculateSum (firstNum, secondNum) {
+function calculateSum(firstNum, secondNum) {
   var someSum = firstNum + secondNum;
   console.log("The total sum is " + someSum);
 };
@@ -48,11 +48,15 @@ calculateAvocados();
 // of those two strings, for example the arguments could be (man, woman) and
 // the end result might be "When Harry Met Sally".  Then, call that function.
 
-function combineText() {
-  var fullText = string1 + string2;
+
+
+
+
+function combineText(str1, str2) {
+  var fullText = str1 + str2;
   console.log(fullText);
 };
 
 string1 = "I hope that we'll meet again in a world of peace";
 string2 = "and freedom in the taxi cab if the accident will.";
-combineText();
+combineText(string1, string2);
