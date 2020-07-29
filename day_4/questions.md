@@ -28,7 +28,7 @@
 
 ``function hello_someone(name) {``
 
-    ``console.log(name + " I am");``
+    console.log(name + " I am");
     
 ``}``
 
