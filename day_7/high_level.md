@@ -9,3 +9,5 @@ Write a program that will log a checkerboard based on the size *indicated by the
 + Declare variables for blackSpace ("X") & whiteSpace (" ")
 + Create a loop that logs the width value as (blackSpace + whiteSpace) * (variable width)
 + Make the height value equal the number of times the width value logs
++ Create a new variable with the user's dimensions
++ Log the new variable to display the checker board
