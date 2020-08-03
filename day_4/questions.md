@@ -15,13 +15,12 @@
 }`
 
 5. Declare a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
-* `function hello_someone() {
-    var name = Bill;
+* `function hello_someone(name) {
     console.log(name + " I am");
 }`
 
 6. How would you _call_ or _execute_ the function that you created above?
-* By typing `hello_someone();`.
+* By typing `hello_someone('Sam');`.
 
 7. What questions do you still have about functions in JavaScript?
 * I'm still slightly confused as to what exactly an 'argument' is.  I think I have a good understanding, but I'm not 100% sure.
