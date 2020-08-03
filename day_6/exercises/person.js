@@ -21,9 +21,16 @@ class Person {
     eat() {
         console.log("I'm so full.");
     }
+    
+    haveBirthday() {
+        this.age = this.age + 1;
+    }
 }
 
-var jack = new Person();
+var jack = new Person("Jack", 14);
 
 console.log(jack.eat());
 console.log(jack.exercise());
+jack.haveBirthday();
+
+console.log(jack.age);

@@ -17,11 +17,11 @@
     }
     
     changeOil () {
-        this.oilChangeDue = false;
+        oilChangeDue = false;
     }
     
     fixRadio () {
-        this.radioWorking = true;
+        radioWorking = true;
     }  
 }`
 
