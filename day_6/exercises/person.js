@@ -15,12 +15,12 @@ class Person {
   shakeHands (name){
     console.log(name +" has " +this.hands + " hands");
   }
-  smell(num){
-    console.log("can smell");
+  smell(thing){
+    console.log("can smell "+thing);
 
   }
 };
 
 var Elle= new Person (2,1)
 Elle.shakeHands("elle")
-Elle.smell(1)
+Elle.smell('flower')
