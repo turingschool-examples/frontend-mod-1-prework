@@ -23,7 +23,7 @@ class Burrito {
   }
 
   removeTopping(lessTopping){
-    this.toppings.shift()
+    this.toppings.splice()
     console.log("remove "+ lessTopping);
   }
   changeProtein(newProtein){
