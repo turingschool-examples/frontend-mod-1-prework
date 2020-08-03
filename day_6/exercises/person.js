@@ -8,19 +8,20 @@ person methods below the class so that they print their result to the
 terminal.
 */
 class Person {
-  constructor(hands,nose){
-    this.hands= hands;
-    this.nose = nose;
+  constructor(age,favoriteColor){
+    this.age= age;
+    this.favoriteColor = favoriteColor;
   }
-  shakeHands (name){
-    console.log(name +" has " +this.hands + " hands");
+  celebrateBirthday(name){
+    this.age += 1
+    console.log(name + " is "+this.age +" now");
   }
-  smell(thing){
-    console.log("can smell "+thing);
-
-  }
+  changeColor(color){
+    this.favoriteColor= color
+    console.log("Change favorite color to "+ this.favoriteColor);
+  };
 };
 
-var Elle= new Person (2,1)
-Elle.shakeHands("elle")
-Elle.smell('flower')
+var Elle = new Person (29,'Blue')
+Elle.celebrateBirthday("Elle")
+Elle.changeColor('Purple')
