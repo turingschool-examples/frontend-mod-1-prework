@@ -17,8 +17,8 @@ class Burrito {
     this.toppings = toppings;
   }
 
-  addTopping(pico){
-    this.toppings.push(pico);
+  addTopping(newTopping){
+    this.toppings.push(newTopping);
   }
 
   removeTopping(){
@@ -32,7 +32,7 @@ class Burrito {
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
-dinner.addTopping("pico");
+dinner.addTopping(newTopping);
 
 dinner.removeTopping();
 

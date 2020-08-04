@@ -18,7 +18,7 @@ states.IA;
 
 4. How would you add a new property to that Object with a key of `"MN"` and a value of `"Minnesota"`?
 
-states.IA.push("MN" : "Minnesota")
+states.MN = "Minnesota"
 
 5. What is another example of when we might use a Object?  In this case, why is an Object better than an Array?
 
