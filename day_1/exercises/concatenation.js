@@ -1,6 +1,6 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
 A few are completed for you, to provide an example.
 
@@ -14,8 +14,9 @@ var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
-// What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-// ANSWER to question on line 17: 
+// What happens if you include other data types when you use concatenation? What data type is logged after we run this code?
+// ANSWER to question on line 17: If you use multiple data types (i.e. string and integer), the final result will be a string.
+// This is because javascript uses type coercion to know that the final result should be a string.
 
 var number = 7;
 var creatures = "unicorns";
@@ -27,7 +28,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + " jumped over the " + slowPoke);
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -36,4 +37,4 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy +"!");
