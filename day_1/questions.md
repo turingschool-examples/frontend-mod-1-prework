@@ -7,7 +7,7 @@ console.log("Hello World!")
 // comments would go here
 
 1. Explain the difference between an integer and a floating-point number?
-Integer is a positive whole number (2, 3, 4). While a floating-point is a a negative number or a non-whole number (-5, 1.3, 0.22).
+Integer is a positive or negative whole number (2, 3, 4). While a floating-point is a positive or negative non-whole number (-5.33, 1.3, 0.22).
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
 var animal = "zebra"
