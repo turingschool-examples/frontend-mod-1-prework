@@ -8,18 +8,18 @@ file from your terminal with the command `node day_1/exercises/numbers.js`
 console.log(2 + 2);
 
 // log the result of 7 subtracted from 83 console:
-console.log(/*YOUR CODE HERE*/);
+console.log(7 - 83);
 
 // log the result of 6 multiplied by 53 to the console:
-// YOUR CODE HERE
+console.log(6 * 53);
 
 // log the result of 20 divided by 4 to console:
-// YOUR CODE HERE
+console.log(20 / 4);
 
 // log the result of the modulo of 10 into 54:
-// YOUR CODE HERE
+console.log(54 % 10);
 
 // log the total number of snacks to the console, using the variables below:
 var healthySnackCount = 7;
 var junkFoodSnackCount = 4;
-// YOUR CODE HERE
+console.log(healthySnackCount + junkFoodSnackCount);

@@ -46,9 +46,14 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
 var numQuarters = 0;
+var getGumball = ("I have enough money for a gumball");
+var noGumball = ("I don't have enough money for a gumball");
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters >= 2) {
+  console.log(getGumball);
+} else {
+  console.log(noGumball);
+}
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -64,3 +69,12 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+var pizza = ("I can make pizza")
+var noPizza = ("I cannot make pizza")
+
+
+if ((cupsOfFlour >= 2) && (hasSauce = true)) {
+  console.log(pizza);
+} else {
+  console.log(noPizza)
+}
