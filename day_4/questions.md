@@ -16,11 +16,14 @@ The return value is our results from our function being performed. For instance 
 
 4. In the space below, declare a function named `hello` that will print to the console, `"Sam I am"`.
 
+
 function hello() {
   console.log("Sam I am");
 };
 
-5. Declare a function name `hello_someone` that takes an argument of `name` and logs `name + " I am"`.
+
+5. Declare a function name `helloSomeone` that takes an argument of `name` and logs `name + " I am"`.
+
 
 var name = Ismail
 
