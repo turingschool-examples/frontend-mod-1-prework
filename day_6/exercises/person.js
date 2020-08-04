@@ -10,8 +10,8 @@ terminal.
 
 class Person {
   constructor(name, age) {
-    this.name = "Ismail";
-    this.age = 35;
+    this.name = name;
+    this.age = age;
 
 
   }

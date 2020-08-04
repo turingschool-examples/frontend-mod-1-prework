@@ -23,8 +23,8 @@ class Car {
 
   }
 
-  isNew() {
-    this.new = true;
+  getOld() {
+    this.new = false;
   }
 
   changeColor(color) {
