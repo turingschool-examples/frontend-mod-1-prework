@@ -182,7 +182,7 @@ Read more about compairson operators [here](https://javascript.info/comparison)!
 
 ## Variables and Assignment
 
-* Read pages 58 - 61 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 Read pages 58 - 61 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 In code, variables allow us to store a value and re-use that value in multiple places. This gives us the ability to store complex information and easily use it more than once in our codebase.
 
@@ -220,13 +220,13 @@ kids = 3;  // change variable `kids`
 
 It is important to note that JavaScript has a particular set of conventions on what makes a valid variable name.
 
-* Names must begin with a letter, dollar sign, or an underscore.
+* Names must begin with a letter, dollar sign, or an underscore
 * They cannot begin with a number
-* Names can contain any of the above characters plus a number, but you cannot use a dash (-) or a period (.) within the name
+* Names can contain any of the above characters plus a number, but you cannot use a dash (`-`) or a period (`.`) within the name
 * You cannot use keywords or reserved words (such as `var` or `for`)
 * All variables are case sensitive
 * Use names that describe the kind of information you plan to assign the variable
-* If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., thisIsMyVariableName
+* If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., `thisIsMyVariableName`
 
 > ⏸ PAUSE here, and complete the exercises in `variables.js`
 
