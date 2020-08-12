@@ -17,7 +17,7 @@ Items you need to complete the Mod 1 Pre-work:
 
  * These can be found online for **free**. Find links to each book below:
    -  [HTML & CSS](https://www.pdfdrive.com/html-css-e16578853.html)
-   -  [JavaScript & jQuery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e195248768.html)
+   -  [JavaScript & jQuery](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e184606066.html)
  *   Hard copies of the books can be purchased here: [Web Design with HTML, CSS, JavaScript and jQuery Set](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett)
 
 Read this page thoroughly to find the instructions for getting your computer setup and getting started.

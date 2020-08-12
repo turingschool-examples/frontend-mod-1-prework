@@ -1,34 +1,38 @@
 /*
 In the exercises below, write your own code where indicated
-to achieve the desired result. 
+to achieve the desired result.
 
-A few are completed for you, to provide an example.
+One example is already completed. Your task is to complete
+any remaining prompt.
 
-You should be able to run this
-file from your terminal with the command `node day_1/exercises/concatenation.js`
+When navigated to the root of this project directory, you should be able to run this
+file from your terminal with the command `node section1/exercises/dataTypes.js`
 */
 
-// example: Write code that combines the variables below into another string:
+// EXAMPLE: Write code that combines the variables below into another string:
 var name = "Ron";
 var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
-// What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-// ANSWER to question on line 17: 
-
-var number = 7;
+// YOU DO: Read the next few lines of code...
+var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + number + " " + creatures + "!")
+console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
+// YOU DO: What data type will be logged to the console as a result of line 22? Explain.
+// Your answer and explanation here: 
+
+
+// YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
 
+// YOU DO:
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
 // Note that we are omitting the var keyword below, because we are re-assigning the variables
@@ -36,4 +40,16 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+
+// YOU DO:
+// Declare three variables, name/content/data type of your choice. Think carefully about what 
+  // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
+  // Then, log out ONE sentence that incorporates all THREE variables.
+
+
+  //-------------------
+// FINAL CHECK
+//-------------------
+
+// Did you run this file in your terminal to make sure everything printed out to the console 
+  // as you would expect? You should be doing this by now, and getting into the habit of it.

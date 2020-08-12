@@ -2,11 +2,16 @@
 
 Blurb about how there is an A and B parts, A will likely take about 25% of the time and B will take about 75% of the time. Make sure to thoroughly read the deliverables. You will read content on this page, in the linked books, and do exercises, both throughout and at the end of your readings. 
 
-- [Part A: Terminal](#Part-A-Terminal)
-- [Part B: JavaScript Foundations](#Part-B-JavaScript-Foundations)
+- [Part A: Super Learners](#Part-A-Super-Learners)
+- [Part B: Terminal](#Part-B-Terminal)
+- [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
-## Part A Terminal
+## Part A Super Learners
+
+Read [this article](https://medium.com/personal-growth/6-habits-of-super-learners-63d466a254fd) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+
+## Part B Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
@@ -127,8 +132,6 @@ console.log("This will run.");
 ```
 
 ## Data Types
-
-* Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
 JavaScript distinguishes between different kinds of data that programmers may need to use. We'll talk about three of the primitive, or most fundamental, data types in this section: Numbers, Strings, and Booleans.
 
@@ -310,7 +313,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (9/9), 1.03 KiB | 1.03 MiB/s, done.
 Total 9 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 1 local object.
-To github.com:JohnDoe/frontend_mod_1_prework.git
+To github.com:your-username/frontend_mod_1_prework.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
