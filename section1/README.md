@@ -1,6 +1,6 @@
 # Section 1: Super Learners
 
-Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the John Duckett book), exercises, and reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
+Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
@@ -19,7 +19,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. 👩‍💻Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
 ### Making Things, Navigating
 
@@ -29,7 +29,7 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 #### Terminal Practice 
 
-Use `mkdir` and `touch` to create the directories/files in the structure described below.
+👩‍💻Use `mkdir` and `touch` to create the directories/files in the structure described below.
 
 ```sh
 |-- _secretLibraryProject
@@ -66,7 +66,9 @@ Don't worry about putting any text or content into these files. For now, create 
 
 #### Terminal Practice
 
-Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
+👩‍💻Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. 
+
+Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
 ## Part C JavaScript Foundations
 
@@ -178,7 +180,7 @@ There are many cases in whie we want to ask a program a question, such as "Does 
 
 Read more about compairson operators [here](https://javascript.info/comparison)!
 
-> ⏸ PAUSE here, and complete the exercises in `dataTypes.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `dataTypes.js`
 
 ### Variables and Assignment
 
@@ -228,7 +230,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., `thisIsMyVariableName`
 
-> ⏸ PAUSE here, and complete the exercises in `variables.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
 
 ### Concatenation
 
@@ -255,7 +257,7 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> ⏸ PAUSE here, and complete the exercises in `variables.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
 
 ## Exercises
 
