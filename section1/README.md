@@ -323,6 +323,12 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 ## Deliverables
 
-- Prompt for video reflection
-- Link to the commit
-- Screenshot of complete Turing Terminal challenges
+In the appropriate thread in your pre-work group channel, share the following:
+
+1. Link to the commit you made with your complete Section 1 pre-work
+2. A screenshot of your complete Turing Terminal challenges
+3. A short video of yourself reflecting on:
+  - How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
+  - How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now? 
+  - In your own words, what is JavaScript and why do we need it?
+  - What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
