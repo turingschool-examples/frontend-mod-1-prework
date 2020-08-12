@@ -176,6 +176,8 @@ There are many cases in whie we want to ask a program a question, such as "Does 
 //=> true, because 9 is less than 12
 ```
 
+Read more about compairson operators [here](https://javascript.info/comparison)!
+
 > ⏸ PAUSE here, and complete the exercises in `dataTypes.js`
 
 ## Variables and Assignment
