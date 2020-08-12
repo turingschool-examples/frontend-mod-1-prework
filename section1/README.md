@@ -1,6 +1,6 @@
 # Section 1: Super Learners
 
-Blurb about how there is an A and B parts, A will likely take about 25% of the time and B will take about 75% of the time. Make sure to thoroughly read the deliverables. You will read content on this page, in the linked books, and do exercises, both throughout and at the end of your readings. 
+Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the John Duckett book), exercises, and reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
@@ -15,17 +15,17 @@ Read [this article](https://medium.com/personal-growth/6-habits-of-super-learner
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
-You already have had some exposure to the terminal in [Mod 0, Session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's do a little more practice!
+You already have had some exposure to the terminal in [Mod 0, Session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's get a little more practice!
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section.
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
 ## Making Things, Navigating
 
 ### Commands
 
-Lets get a little practice using `touch` and `mkdir` to create files and directories, and `ls` and `cd` to navigate the directory structure and check-in.
+In the following section, you will get a little practice using `touch` and `mkdir` to create files and directories, and `ls` and `cd` to navigate the directory structure and check-in.
 
 ### Terminal Practice 
 
@@ -54,7 +54,7 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
        |--librarySystem.js
 ```     
 
-Don't worry about putting any text or content into these files. For now, just create this structure and empty files.
+Don't worry about putting any text or content into these files. For now, create this structure with empty files.
 
 ## Deleting Things
 
@@ -68,7 +68,7 @@ Don't worry about putting any text or content into these files. For now, just cr
 
 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
-## Part B JavaScript Foundations
+## Part C JavaScript Foundations
 
 In this section, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
@@ -94,17 +94,17 @@ atom .
 
 This will open the `section1` directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
-## Notes on Learning to Write Code
+## Best Practices: Learning to Write Code
 
-The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. **If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
+**If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
 
-One of the best things you can do to set yourself for success is to make sure you type out all the code examples you see in the readings and exercises in this pre-work, *do not* copy and paste. The more hands-on-keyboard practice you can give yourself, the better. Copying and pasting won't help you solidify these concepts, manually typing all the code in will.
+**Type every line of code.** One of the best things you can do to set yourself for success is to make sure you type out all the code examples you see in the readings and exercises in this pre-work, *do not* copy and paste. The more hands-on-keyboard practice you can give yourself, the better. Copying and pasting won't help you solidify these concepts, manually typing all the code in will.
 
-**Details matter:** Pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
+**Details matter.** Pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
 ## Introduction to JavaScript
 
-* To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+📒 To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 ## Comments in Code
 
@@ -116,7 +116,7 @@ Code comments can be a very useful part of your programs. While we work to write
 // will be ignored by the JavaScript interpreter.
 ```
 
-* For additional context about code comments, read page 57 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+📒 For additional context about code comments, read page 57 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 ```JavaScript
 // Anything after the // is ignored by the JavaScript interpreter.
@@ -139,6 +139,14 @@ JavaScript distinguishes between different kinds of data that programmers may ne
 
 The Number data type handles all numbers, including negative numbers (such as `-27`) and decimals, which are referred to as floating point numbers (one quarter would be written as `0.25`). Large numbers are written without commas, so three thousand forty five would be written as `3045`.
 
+```javascript
+47
+
+-3
+
+16.25
+```
+
 ### String
 
 The String data type consists of letter and other characters, all wrapped within quotes. You can use single or double quotes, but the opening quote and the closing quote must be the same.
@@ -153,13 +161,26 @@ Strings can be used to work with any kind of text - number, letter, special char
 
 ### Boolean
 
-Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run. We will learn about this and apply them in meaningful days in the next section of pre-work.
+Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run. 
+
+There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
+
+```javascript
+3 === 6
+//=> false, because 3 and 6 are not the exact same
+
+2 === 2
+//=> true, because 2 and 2 are the exact same
+
+9 > 12
+//=> true, because 9 is less than 12
+```
 
 > ⏸ PAUSE here, and complete the exercises in `dataTypes.js`
 
 ## Variables and Assignment
 
-* Read pages 58 - 61 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+* Read pages 58 - 61 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 In code, variables allow us to store a value and re-use that value in multiple places. This gives us the ability to store complex information and easily use it more than once in our codebase.
 
