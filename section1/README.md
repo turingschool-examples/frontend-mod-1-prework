@@ -6,7 +6,7 @@ Blurb about how there is an A and B parts, A will likely take about 25% of the t
 - [Part B: JavaScript Foundations](#Part-B-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
-## (#Part-A-Terminal)
+## Part-A-Terminal
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor. When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
