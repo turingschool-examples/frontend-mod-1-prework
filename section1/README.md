@@ -358,6 +358,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 - In your own words, what is JavaScript and why do we need it?
 - What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
 
+<br>
 🌟How to find and link a commit:
 - Go to the GitHub repository on _your_ account that holds your pre=work
 - Click commits (usually in a light blue bar in the middle-ish of the page)
