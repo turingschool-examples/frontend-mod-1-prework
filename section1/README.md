@@ -1,4 +1,4 @@
-# Section 1, Front-End Mod 1 Pre-work 
+# Section 1: Terminal and JavaScript Foundations
 
 Blurb about how there is an A and B parts, A will likely take about 25% of the time and B will take about 75% of the time. Make sure to thoroughly read the deliverables. You will read content on this page, in the linked books, and do exercises, both throughout and at the end of your readings. 
 
@@ -8,29 +8,21 @@ Blurb about how there is an A and B parts, A will likely take about 25% of the t
 
 ## Part A Terminal
 
-You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor. When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
+You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor (Atom). When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
 You already have had some exposure to the terminal in [Mod 0, Session 2: Terminal and Command Line](http://mod0.turing.io/session2/#terminal-and-command-line). Let's do a little more practice!
 
-### Practice
+### Explore and Practice
 
-Use the commands listed above to move around your computer.
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" page and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section
 
-* Go deep down into one of your the existing directories using `cd` to move and `ls` to see what directories are available.
-* Navigate up a directory using `cd ..`. Try to use `pwd` to make sure you don't overshoot your home directory!
-* Dig deep into another directory, using `ls` as you go.
-* Use `cd ~/` to navigate back out to your home directory.
-* Navigate into your Downloads directory using `cd Downloads`.
-* Navigate to your Desktop using `cd ~/Desktop`.
-* Use `pwd` and `ls` to confirm your current location.
-
-Continue practicing these commands until you feel comfortable moving around without having to look at this lesson.
-
-## Making Things
+## Making Things, Navigating
 
 ### Commands
 
 Lets get a little practice with `touch`, `mkdir`, `ls`, and `cd`:
+
+### Terminal Practice 
 
 Use `mkdir` and `touch` to create the directories/files in the structure described below.
 
@@ -40,7 +32,7 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
     |--README.md
     |--package.json
     |
-    |--_lib
+    |--lib
     |  |
     |  |--secretLibrary.js
     |  |--secretBook.js
@@ -48,7 +40,7 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
     |  |--patron.js
     |  |--librarySystem.js
     |
-    |--_test
+    |--test
        |
        |--secretLibrary.js
        |--secretBook.js
@@ -57,13 +49,11 @@ Use `mkdir` and `touch` to create the directories/files in the structure describ
        |--librarySystem.js
 ```     
 
-Don't worry about putting any text into these files. For now, just create this structure and empty files.
+Don't worry about putting any text or content into these files. For now, just create this structure and empty files.
 
 ## Deleting Things
 
 ### Commands
-
-Lets get a little practice with the `rm` command. Please be careful!
 
 * `rm`: This will remove a file from your system. Be careful with this! The terminal assumes you're a little more of an expert than the system does. This doesn't move the file to the Trash, it removes it completely from your system. It's a little like moving the file to the trash and then deleting it immediately.
 
