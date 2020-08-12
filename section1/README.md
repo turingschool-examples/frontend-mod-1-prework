@@ -253,7 +253,7 @@ console.log(snackCount);
 // this will log the string "I have 12 doughnuts"
 ```
 
-Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at snackCount, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
+Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
 > ⏸ PAUSE here, and complete the exercises in `variables.js`
 
@@ -263,7 +263,7 @@ At this point, you should have worked through all three files in the `exercises`
 
 ## Relections
 
-Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
+📝 Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
 
 ## Save your work in Git
 
@@ -348,10 +348,16 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 In the appropriate thread in your pre-work group channel, share the following:
 
-1. Link to the commit you made with your complete Section 1 pre-work
+1. Link to the commit you made with your complete Section 1 pre-work🌟
 2. A screenshot of your complete Turing Terminal challenges
 3. A short video of yourself reflecting on:
-  - How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
-  - How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now? 
-  - In your own words, what is JavaScript and why do we need it?
-  - What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
+- How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
+- How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now? 
+- In your own words, what is JavaScript and why do we need it?
+- What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
+
+🌟How to find and link a commit:
+- Go to the GitHub repository on _your_ account that holds your pre=work
+- Click commits (usually in a light blue bar in the middle-ish of the page)
+- You'll see a list of all commits made on this. You have probably only made 1 so far, the rest are from Turing staff members). Click the commit you made (it will match whatever you typed in after `git commit -m "...`)
+- Copy the URL in the URL bar, then paste the URL into Slack
