@@ -1,4 +1,4 @@
-## Section 1 Questions
+## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 

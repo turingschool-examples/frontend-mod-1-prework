@@ -1,13 +1,13 @@
-# Section 1: Terminal and JavaScript Foundations
+# Section 1: Super Learners
 
 Blurb about how there is an A and B parts, A will likely take about 25% of the time and B will take about 75% of the time. Make sure to thoroughly read the deliverables. You will read content on this page, in the linked books, and do exercises, both throughout and at the end of your readings. 
 
-- [Part A: Super Learners](#Part-A-Super-Learners)
+- [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
-## Part A Super Learners
+## Part A Super Learner Habits
 
 Read [this article](https://medium.com/personal-growth/6-habits-of-super-learners-63d466a254fd) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
 
@@ -155,6 +155,8 @@ Strings can be used to work with any kind of text - number, letter, special char
 
 Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run. We will learn about this and apply them in meaningful days in the next section of pre-work.
 
+> PAUSE here, and complete the exercises in `dataTypes.js`
+
 ## Variables and Assignment
 
 * Read pages 58 - 61 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
@@ -203,6 +205,8 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., thisIsMyVariableName
 
+> PAUSE here, and complete the exercises in `variables.js`
+
 ## Concatenation
 
 "Concatenate" is a programming term that means "join together". We join together strings in JavaScript using the plus (`+`) operator, the same one we would use to add numbers together, but in this context it does something different. Let's take a look, using a variable.
@@ -228,23 +232,21 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at snackCount, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
+> PAUSE here, and complete the exercises in `variables.js`
+
 ## Exercises
 
-Work through the exercise files in the section1/exercises directory.  Complete them in this order:
+At this point, you should have worked through all three files in the `exercises` directory.
 
-1. `dataTypes`
-2. `variables`
-3. `concatenation`
+## Relections
 
-## Questions
-
-Answer the questions in the `questions.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.
+Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
 
 ## Save your work in Git
 
-When you are finished with all of the section1 activities, follow these steps in order to save your work to your local git repository.
+When you are finished with all of the `section1` exercises and reflections, follow these steps in order to save your work to your local git repository.
 
-1. Make sure you are in your `section1` directory. When you run `ls` in your terminal, you should see the `exercises` directory listed, as well as `README.md`, `questions.md`, etc.
+1. Make sure you are in your `section1` directory. When you run `ls` in your terminal, you should see the `exercises` directory listed, as well as `README.md`, `reflection.md`, etc.
 2. In your terminal, run `git status`. You should see output like this:
 
 ```
@@ -256,21 +258,21 @@ Changes not staged for commit:
 	modified:   exercises/concatenation.js
 	modified:   exercises/dataTypes.js
 	modified:   exercises/variables.js
-	modified:   questions.md
+	modified:   reflection.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
 
-3. Run `git add questions.md`.
+3. Run `git add reflection.md`.
 4. Run `git status`. Your status should now look a little different:
 
 ```On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   questions.md
+	modified:   reflection.md
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -281,7 +283,7 @@ Changes not staged for commit:
    modified:   exercises/variables.js
 ```
 
-Under "Changes to be committed", It now lists "questions.md". This means that git is getting ready to save this file. We want to do this for each file.
+Under "Changes to be committed", It now lists "reflection.md". This means that git is getting ready to save this file. We want to do this for each file.
 
 5. Run `git add exercises`.
 6. Run `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
