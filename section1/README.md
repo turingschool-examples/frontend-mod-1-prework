@@ -27,7 +27,7 @@ Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through 
 
 In the following section, you will get a little practice using `touch` and `mkdir` to create files and directories, and `ls` and `cd` to navigate the directory structure and check-in.
 
-#### Terminal Practice 
+#### Terminal Practice
 
 👩‍💻Use `mkdir` and `touch` to create the directories/files in the structure described below.
 
@@ -66,7 +66,7 @@ Don't worry about putting any text or content into these files. For now, create 
 
 #### Terminal Practice
 
-👩‍💻Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. 
+👩‍💻Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
@@ -163,7 +163,7 @@ Strings can be used to work with any kind of text - number, letter, special char
 
 #### Boolean
 
-Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run. 
+Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
 
 There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
 
@@ -302,7 +302,7 @@ Changes to be committed:
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
-	
+
    modified:   exercises/concatenation.js
    modified:   exercises/dataTypes.js
    modified:   exercises/variables.js
@@ -354,11 +354,12 @@ In the appropriate thread in your pre-work group channel, share the following:
 2. A screenshot of your complete Turing Terminal challenges
 3. A short video of yourself reflecting on:
 - How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
-- How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now? 
+- How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now?
 - In your own words, what is JavaScript and why do we need it?
 - What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
 
 <br>
+
 🌟How to find and link a commit:
 - Go to the GitHub repository on _your_ account that holds your pre=work
 - Click commits (usually in a light blue bar in the middle-ish of the page)
