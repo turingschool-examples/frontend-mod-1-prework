@@ -155,7 +155,7 @@ Strings can be used to work with any kind of text - number, letter, special char
 
 Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run. We will learn about this and apply them in meaningful days in the next section of pre-work.
 
-> PAUSE here, and complete the exercises in `dataTypes.js`
+> ⏸ PAUSE here, and complete the exercises in `dataTypes.js`
 
 ## Variables and Assignment
 
@@ -205,7 +205,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., thisIsMyVariableName
 
-> PAUSE here, and complete the exercises in `variables.js`
+> ⏸ PAUSE here, and complete the exercises in `variables.js`
 
 ## Concatenation
 
@@ -232,7 +232,7 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at snackCount, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> PAUSE here, and complete the exercises in `variables.js`
+> ⏸ PAUSE here, and complete the exercises in `variables.js`
 
 ## Exercises
 
