@@ -14,13 +14,13 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" page and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section.
 
 ## Making Things, Navigating
 
 ### Commands
 
-Lets get a little practice with `touch`, `mkdir`, `ls`, and `cd`:
+Lets get a little practice using `touch` and `mkdir` to create files and directories, and `ls` and `cd` to navigate the directory structure and check-in.
 
 ### Terminal Practice 
 
@@ -61,20 +61,17 @@ Don't worry about putting any text or content into these files. For now, just cr
 
 ### Terminal Practice
 
-Use `rm` and `rm -rf` to delete each of the files and directories you created in the Making Things section above. Note, that it would be possible to delete the entire directory that you created with just `rm -rf secret_library`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
+Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above. Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
 ## Part B JavaScript Foundations
 
 In this section, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
-???
-<!-- In addition to JavaScript, this day will also walk you through the commands you need to enter in your terminal to create files. By the end of the day, you should be very comfortable with the commands `cd` and `ls` to navigate the machine, and the commands `mkdir` and `touch` to create directories and files on the machine. -->
-
-At the end of the section, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
+At the end of the section, you will use several Git commands to save your work to your local Git repository. Then you will push your updates to your remote GitHub repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of Git later. For now, all you need to do is follow along and know that we are using Git to save our work, and GitHub to put it on the internet.
 
 ## Open your local copy of frontend-mod-1-prework in Atom
 
-Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
+Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal (this may vary slightly depending on the names of your directories):
 
 ```
 cd ~
@@ -244,8 +241,8 @@ Answer the questions in the `questions.md` file in the `section1` directory. The
 
 When you are finished with all of the section1 activities, follow these steps in order to save your work to your local git repository.
 
-1. Make sure you are in your `section1` directory. When you enter `ls` in your terminal, you should see the exercises directory listed, as well as README.md, questions.md, etc.
-2. In your terminal, enter `git status`. You should see output like this:
+1. Make sure you are in your `section1` directory. When you run `ls` in your terminal, you should see the `exercises` directory listed, as well as `README.md`, `questions.md`, etc.
+2. In your terminal, run `git status`. You should see output like this:
 
 ```
 On branch master
@@ -263,8 +260,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 The command `git status` shows us information about files we changed. Don't worry too much about understanding what this all means just yet. What's important is that you get comfortable typing `git status` often.
 
-1. Enter `git add questions.md`.
-1. Enter `git status`. Your status should now look a little different:
+3. Run `git add questions.md`.
+4. Run `git status`. Your status should now look a little different:
 
 ```On branch master
 Changes to be committed:
@@ -283,11 +280,11 @@ Changes not staged for commit:
 
 Under "Changes to be committed", It now lists "questions.md". This means that git is getting ready to save this file. We want to do this for each file.
 
-1. Enter `git add exercises`.
-1. Enter `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
-1. Enter `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
-1. Enter `git commit -m "Add day 1"`.
-1. Run `git status`. You should see this output:
+5. Run `git add exercises`.
+6. Run `git status`. You should now see all those exercises files listed under "Changes to be committed". We just used `git add <directory name>` to add all the files located in a directory.
+7. Run `git status`. You should now see all your files listed under "Changes to be committed". If there are any files listed under "Untracked files" or "Changes not staged for commit", add them using "git add <file name>".
+8. Run `git commit -m "Add Section 1"`.
+9. Run `git status`. You should see this output:
 
 ```
 On branch master
@@ -323,3 +320,4 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 - Prompt for video reflection
 - Link to the commit
+- Screenshot of complete Turing Terminal challenges
