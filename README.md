@@ -6,10 +6,10 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 ### Pre-work Index
 
-* [Part 1 - Terminal, JS Foundations](part1)
-* [Part 2 - Conditionals and Functions](part2)
-* [Part 3 - Arrays and Iteration](part3)
-* [Part 4 - Objects and Classes](part4)
+* [Section 1 - Terminal and JavaScript Foundations](section1)
+* [Section 2 - Conditionals and Functions](section2)
+* [Section 3 - Arrays and Iteration](section3)
+* [Section 4 - Objects and Classes](section4)
 
 # Materials
 

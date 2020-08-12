@@ -2,11 +2,11 @@
 
 Blurb about how there is an A and B parts, A will likely take about 25% of the time and B will take about 75% of the time. Make sure to thoroughly read the deliverables. You will read content on this page, in the linked books, and do exercises, both throughout and at the end of your readings. 
 
-- [Part A: Terminal]()
-- [Part B: JavaScript Foundations]()
-- [Deliverables]()
+- [Part A: Terminal](#Part-A:-Terminal)
+- [Part B: JavaScript Foundations](#Part-B:-JavaScript-Foundations)
+- [Deliverables](#Deliverables)
 
-## Part A: Terminal
+## (#Part-A:-Terminal)
 
 You will likely spend the majority of your time in Module 1 in either the Terminal or your text editor. When you're new to programming, the terminal can seem like a scary place, but it has some advantages over other means of interacting with your computer. Perhaps the greatest advantage is that it allows programmers to build tools that they can share with each other without going through the process of creating a graphical user interface. This makes it easy to share code quickly so that it can be used in multiple projects.
 
@@ -73,7 +73,7 @@ Lets get a little practice with the `rm` command. Please be careful!
 
 Use `rm` and `rm -rf` to delete each of the files and directories you created in the Making Things section above. Note, that it would be possible to delete the entire directory that you created with just `rm -rf secret_library`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
-# Part B - JavaScript Foundations
+## (#Part-B:-JavaScript-Foundations)
 
 In this section, you will begin to learn the basics of JavaScript. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in JavaScript as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
 
@@ -306,7 +306,7 @@ nothing to commit, working tree clean
 
 Congratulations! You just saved your work to Git! If `git status` is showing any files, add them with `git add <file name>` and commit them with `git commit -m "Add Section 1"`.
 
-## Push to Github
+## Push to GitHub
 
 You've saved your work to Git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
 
@@ -328,3 +328,8 @@ To github.com:JohnDoe/frontend_mod_1_prework.git
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+
+## (#Deliverables)
+
+- Prompt for video reflection
+- Link to the commit
