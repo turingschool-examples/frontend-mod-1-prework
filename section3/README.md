@@ -46,6 +46,9 @@ Sometimes we have a collection of data (like an array) and we want to do somethi
 ### For Loop and Arrays
 
 
+
+> 👩🏻‍💻PAUSE here, and complete the exercises in `loops-arrays.js`
+
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
@@ -56,17 +59,17 @@ Answer the questions in the `reflection.md` file in the section3 directory.
 
 ## Save your work in Git
 
-When you are finished with all of the section3 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+When you are finished with all of the `section3` activities, use your terminal to run the following commands in order to save your work to your local Git repository.
 
 1. `$ git add section3/exercises`
 1. `$ git add section3/questions.md`
-1. Use `git add section3/<filename>` to add all additional files that you created today
+1. Use `git add section3/<filename>` to add the additional file that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
 1. `$ git commit -m "Add Day 2 Work"`
 
 ## Push to Github
 
-You've save your work to Git on your local machine, but it is not yet accessible through your remote Github repository. Push your code to your remote, GitHub, repository. If you don't remember the command, look back at the directions in Sections 1 or 2.
+You've save your work to Git on your local machine, but it is not yet accessible through your remote Github repository. Push your code to your remote repository. If you don't remember the command, look back at the directions in Sections 1 or 2.
 
 Visit your GitHub repository to verify the work you did for this section was pushed successfully!
 

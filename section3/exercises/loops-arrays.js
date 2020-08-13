@@ -37,7 +37,7 @@ var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"
 
 
 
-// YOU DO: Using the array of ages below, print out a statement for each age.
+// THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
 // The age should determine which message is printed out:
   // Under 18? "Oh no, you can't vote quite yet."
   // 18 or over? "Make sure you get out and vote!"
