@@ -23,9 +23,9 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 ### Operators
 
-When we learned about Booleans in Section 1, we briefly read about and practiced using some comparison operators. 
+When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
 
-The conditional operators we touched on earlier are critical in the set up of If Statements. Conditional statements evaluate to `true` or `false`. The most common conditional operators are `==` (equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. We will touch on those later in the pre-work and you get into Mod 1.
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements evaluate to `true` or `false`. The most common conditional operators are `==` (equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. We will touch on those later in the pre-work and you get into Mod 1.
 
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
@@ -36,17 +36,18 @@ The conditional operators we touched on earlier are critical in the set up of If
 
 📒 Read pages 148-149, and 160-163 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
 
-In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition is true. However, they must be chained to a previous **if** statement, like so:
+In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition **evaluates** to `true`. However, they must be chained to a previous **if** statement, like so:
 
 ```javascript     
 if (condition1) {
-    //block of code if condition1 is true
+    //block of code if condition1 evaluates to true
 } else if (condition2) {
-    //block of code if condition1 is false and condition2 is true.
+    //block of code if condition1 evaluates to false and condition2 evaluates to true.
 } else if (condition3) {
-    //block of code if condition1 is false and condition2 is false and condition3 is true.
+    //block of code if condition1 and condition2 evaluate to false
+    //and condition3 evaluates to true.
 } else {
-    //block of code if none of the conditions above are true.
+    //block of code if none of the conditions above evaluate to true.
 };
 ```
 
@@ -103,7 +104,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Save your work in Git
 
-When you are finished with all of the section2 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+When you are finished with all of the `section2` activities, use your terminal to run the following commands in order to save your work to your local Git repository.
 
 1. `$ git add section2/exercises`
 1. `$ git add section2/reflection.md`
@@ -113,7 +114,7 @@ When you are finished with all of the section2 activities, use your terminal to 
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
