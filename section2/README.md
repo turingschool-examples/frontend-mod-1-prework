@@ -25,7 +25,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
 
-The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements evaluate to `true` or `false`. The most common conditional operators are `==` (equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. We will touch on those later in the pre-work and you get into Mod 1.
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements evaluate to `true` or `false`. The most common conditional operators are `===` (strictly equal), `!==` (not equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. We will touch on those later in the pre-work and you get into Mod 1.
 
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
