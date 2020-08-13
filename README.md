@@ -4,28 +4,28 @@ This repository will walk you through the Mod 1 Pre-work for the Front-End progr
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
-### Pre-work Index
+## Pre-work Index
 
 * [Section 1 - Terminal and JavaScript Foundations](section1)
 * [Section 2 - Conditionals and Functions](section2)
 * [Section 3 - Arrays and Iteration](section3)
 * [Section 4 - Objects and Classes](section4)
 
-# Materials
+## Materials
 
 The only material, outside of your computer and an internet connection that you need to complete your pre-work is the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book by John Duckett. You can [download it for free here](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e184606066.html) or [purchase a hard copy here](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett) (or elsewhere!)
 
 Read this page thoroughly to find the instructions for getting your computer setup and getting started.
 
-# Environment
+## Environment
 
-## Install Node.js and NPM using homebrew
+### Install Node.js and NPM using homebrew
 
 Before we're able to write JavaScript that can be run from the command line (you'll be doing this in Mod 1), we need to install `Node.js` and `NPM` and it'll be expected that you've run through these instructions.
 
 These setup instructions assume that you have completed the setup for Mod 0, like installing Atom, xcode-select, Homebrew, git, and Chrome. If you haven't done that yet, please see [the mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions).
 
-## Install Node.js:
+### Install Node.js:
 
 JavaScript was originally intended to be run in the browser (i.e., Chrome). But over time there were a lot of good reasons to allow it to be run server side. Node.js is a framework that allows us to to do just that.
 
@@ -109,7 +109,6 @@ Cloning is when you copy a remote GitHub repository to your local computer.
 #### 3. Click on the copy icon to copy the SSH link to your clipboard.
 
 #### 4. Use your terminal to copy down this repository
-
 
 1. Open your terminal
 
