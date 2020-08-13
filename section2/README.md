@@ -80,16 +80,21 @@ Only one section of the *if/else if/else* structure can have its instructions ru
 
 The **number one mistake** people encounter when writing conditional statements is the difference between `=` and `===`.
 
-`=` is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.
+- `=` is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.
 
-`===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
+- `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
 > 👨🏽‍💻PAUSE here, and complete the exercises in decision-making.js and if-statements.js
 
 ## Part C Functions
 
+📒Read page 88, and pages 90 through 93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
+🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions
 
+1. Work through the `functions.js` file in the day_4/exercises directory.
+
+1. Answer the questions in the `questions.md` file in the day_4 directory.
 
 
 
