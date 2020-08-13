@@ -1,6 +1,6 @@
 # Section 2 - something
 
-Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Section 1, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
+Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Section 1, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏽‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 - [Part A: Section 2 Focus TBD](#Part-A-Section-2-Focus)
 - [Part B: Conditionals](#Part-B-Conditionals)
@@ -13,7 +13,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Part A Section 2 Focus
 
-Content TBD
+Content TBD.
 
 ## Part B Conditionals
 
@@ -29,6 +29,7 @@ The conditional operators we touched on earlier are critical in the set up of If
 
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
+
 > 👨🏽‍💻PAUSE here, and complete the exercises in comparisons.js
 
 ### If Statements
@@ -37,17 +38,17 @@ The conditional operators we touched on earlier are critical in the set up of If
 
 In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition is true. However, they must be chained to a previous **if** statement, like so:
 
-    ```javascript     
-    if (condition1) {
-        //block of code if condition1 is true
-    } else if (condition2) {
-        //block of code if condition1 is false and condition2 is true.
-    } else if (condition3) {
-        //block of code if condition1 is false and condition2 is false and condition3 is true.
-    } else {
-        //block of code if none of the conditions above are true.
-    };
-    ```
+```javascript     
+if (condition1) {
+    //block of code if condition1 is true
+} else if (condition2) {
+    //block of code if condition1 is false and condition2 is true.
+} else if (condition3) {
+    //block of code if condition1 is false and condition2 is false and condition3 is true.
+} else {
+    //block of code if none of the conditions above are true.
+};
+```
 
 #### If/Else Statements
 
