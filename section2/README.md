@@ -90,11 +90,11 @@ The **number one mistake** people encounter when writing conditional statements 
 
 📒Read page 88, and pages 90 through 93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions
+🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions.
 
-If you'd like another source, read [this blog post](https://medium.com/javascript-in-plain-english/introduction-to-javascript-functions-a0a1687f2318#:~:text=Introduction%20to%20Functions,to%20'run'%20in%20JavaScript) (stop after the section on Arguments)
+If you'd like another source, read [this blog post](https://medium.com/javascript-in-plain-english/introduction-to-javascript-functions-a0a1687f2318#:~:text=Introduction%20to%20Functions,to%20'run'%20in%20JavaScript) (stop after the section on Arguments).
 
-Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan.
+Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is optional!
 
 > 👨🏽‍💻PAUSE here, and complete the exercises in functions.js
 
@@ -111,14 +111,13 @@ At this point, you should have worked through all files in the `exercises` direc
 When you are finished with all of the `section2` activities, use your terminal to run the following commands in order to save your work to your local Git repository.
 
 1. `$ git add section2/exercises`
-1. `$ git add section2/reflection.md`
-1. Use `git add section2/<filename>` to add all additional files that you created today
-1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Section 2 Work"`
+2. `$ git add section2/reflection.md`
+3. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
+4. `$ git commit -m "Add Section 2 work"`
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've save your work to git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called **pushing**. Push your code with the following command:
 
 ```
 git push origin master
