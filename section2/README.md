@@ -50,7 +50,7 @@ if (condition1) {
 };
 ```
 
-#### If/Else Statements
+### If/Else Statements
 
 Why do we have conditional statements? Most often it’s to control conditional instructions, especially *if/else if/else* structures. Let’s use an example of a block of code like this:
 ```javascript
@@ -75,7 +75,7 @@ What would be logged when `minutesToHeatWater` is 7? What if we changed it to 5?
 
 Only one section of the *if/else if/else* structure can have its instructions run. If the *if* is true, for instance, JavaScript will not bother to look at the *else if* or *else*. Once one block executes, that’s it.
 
-#### Equality vs. Assignment
+### Equality vs. Assignment
 
 The **number one mistake** people encounter when writing conditional statements is the difference between `=` and `===`.
 
