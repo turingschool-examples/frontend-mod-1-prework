@@ -47,7 +47,7 @@ speedy = "hare";
   // Then, log out ONE sentence that incorporates all THREE variables.
 
 
-  //-------------------
+//-------------------
 // FINAL CHECK
 //-------------------
 

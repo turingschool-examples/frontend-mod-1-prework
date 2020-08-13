@@ -1,9 +1,6 @@
 /*
-In the exercises below, write your own code where indicated
-to achieve the desired result. You should be able to run this
-file from your terminal with the command `node day_3/exercises/decision-making.js`
+This exercise file is a little different from the others you have seen so far. Read carefully!
 
-If/Else Statements are expressions your program uses evaluate to different outcomes.
 Below is a dynamic story that is created based on the value of three variables: doorChoice, bearClothing, bearChoice.
 Spend some time changing the variables and running the file to see how the story changes.
 */
@@ -31,14 +28,15 @@ if (bearChoice === 1) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearClothing === 3) {
+} else if (bearChoice === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
 }
 
 /*
-Reflection Questions
+Questions
+
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
 2. What variable has a new value assigned to it after the first if statement executes?

@@ -1,82 +1,85 @@
 # Day 3 - If Statements
 
-One of the most important concepts in computer programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements, which you will learn about today.
+Computers may not be smart, but they are good at doing many things very quickly, like working through lots of data. As such, we need a way to store lots of data. Today, you will learn about a JavaScript data structure that lets us store collections of data: The Array. You will also learn about iteration, which is going through every element of an Array.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
 ## Open your local copy of frontend-mod-1-prework
 
-Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 README.
 
-## If-Statements
 
-1. Work through the following lessons to learn about If-Statements.
-    1. Read pages 148 and 149, and 160 through 163 from the JAVASCRIPT & JQUERY: interactive front-end web development book. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
-    1. In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition is true. However, they must be chained to a previous **if** statement, like so:
+## Arrays
 
-    ```javascript     
-    if (condition1) {
-        //block of code if condition1 is true
-    } else if (condition2) {
-        //block of code if condition1 is false and condition2 is true.
-    } else if (condition3) {
-        //block of code if condition1 is false and condition2 is false and condition3 is true.
-    } else {
-        //block of code if none of the conditions above are true.
-    };
-    ```
+1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
+1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
+    1. Methods to study: "pop", "push", "shift", "unshift". Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
+    1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead.
+1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
 
-1. Conditional Operators and If/Else Statements
+## Loops
 
-    The conditional operators we touched on day_2 are critical in the set up of If-Statements. Conditional statements evaluate to true or false. The most common conditional operators are `==` (equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. For example, arrays have a function named `include()` which returns true if the array includes the specified element.
+* read pages 170 - 175 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
-    Why do we have conditional statements? Most often it’s to control conditional instructions, especially *if/else if/else* structures. Let’s use an example of a block of code like this:
-    ```javascript
-    var minutesToHeatWater = 7;
+Loops allow us to easily run the same piece of code numerous times.  There are many types of loops, but we'll only learn about `for` loops for now.
 
-    if (minutesToHeatWater < 7) {
-        console.log("The water is not boiling yet.");
-    } else if (minutesToHeatWater == 7) {
-        console.log("It's just barely boiling");
-    } else if (minutesToHeatWater == 8) {
-        console.log("It's boiling!");
-    } else {
-        console.log("Hot! Hot! Hot!");
-    };
-    ```
-    What would be logged when minutesToHeatWater is 7? What if we changed it to 5? Or 8? Or 9?
+Let's take a look at a `for` loop:
 
-    When the minutesToHeatWater is 5, here is how the execution goes: "Is it true that 5 is less than 7? Yes, it is, so print out the line The water is not boiling yet.".
+```JavaScript
+for (var i = 0; i < 5; i++) {
+   console.log(i);
+}
 
-    When the minutesToHeatWater is 7, it goes like this: "Is it true that 7 is less than 7? No. Next, is it true that 7 is equal to 7? Yes, it is, so print out the line It's just barely boiling".
+// when run, this code will log:
+// 0
+// 1
+// 2
+// 3
+// 4
+```
 
-    When the minutesToHeatWater is 8, it goes like this: "Is it true that 8 is less than 7? No. Next, is it true that 8 is equal to 7? No. Next, is it true that 8 is equal to 8? Yes, it is, so print out the line It's boiling!".
+There are a few things to break down here, so let's start with structure of the code above. We see that it's made of the following parts:
 
-    Lastly, when minutesToHeatWater is 9, it goes: "Is it true that 9 is less than 7? No. Next, is it true that 9 is equal to 7? No. Next, is it true that 9 is equal to 8? No. Since none of those are true, execute the else and print the line Hot! Hot! Hot!.
+* the keyword for
+* a set of rules, or conditions (var i = 0; i < 5; i++ )
+* opening and closing curly braces which contain our code
+* the code that we want our loop to execute: console.log(i);
 
-    Only one section of the *if/else if/else* structure can have its instructions run. If the *if* is true, for instance, Javascript will never look at the *else if* or *else*. Once one block executes, that’s it.
+Let’s dig into the three statements separated by semicolons that make up or our conditions:
 
-1. Equality vs. Assignment
-    The **number one mistake** people encounter when writing conditional statements is the difference between `=` and `==`.
+```JavaScript
+for ([initialization]; [condition]; [final-expression]) {
+   executable code
+ }
+```
 
-    `=` is an assignment. It means "take what’s on the right side and stick it into whatever is on the left side" – it’s telling, not asking.
+* We begin with *initialization*. Where do we want our loop to start? The first statement `var i = 0`; creates a variable that is assigned the value of 0. This variable is commonly named `i`, or index, and will act as the counter. It is created the first time the loop is run.
+* The next statement *sets the condition* that tells the loop when to stop running: `i < 10`;. In this case, the condition indicates that the loop will stop when `i` equals 10. The condition may use a variable that is assigned a value.
+* Finally, with the statement `i++` we *update the value* of our counter i. This adds 1 to the value of i. This syntax is using the increment operator `++`, which is a way of writing `i = i + 1`. It is also possible to decrement downwards using the decrement operator `--`, which is a way of writing `i = i - 1`.
 
-    `==` is a question. It means "is the thing on the right equal to the thing on the left?" – it’s asking, not telling.
+The statement within the curly braces executes each time the loop runs. In this case, we can see we are logging the value of i to the console.
 
-1. Work through the rest of the exercise files in the day_3/exercises directory.  Complete them in this order:
-    1. `decision-making.js`
-    1. `if-statements.js`
-1. Answer the questions in the `questions.md` file in the day_3 directory.
+## Exercises
+
+1. Work through the following lessons to learn about Javascript Comparison Operators.
+    1. When you are building out a FOR loop, you can use **Comparison Operators** to determine if a FOR loop should continue or stop looping. Read pages 150 through 153 in the JAVASCRIPT & JQUERY book to learn about the operators.
+    1. Read pages pages 166 and 167 of the JAVASCRIPT & JQUERY book to learn about type coersion and truthy vs falsy values
+    1. Work through the `comparisons.js` file
+1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
+    1. `arrays.js`
+    1. `loops.js`
+    1. `iteration.js`
+1. Answer the questions in the `questions.md` file in the day_2 directory.
 
 ## Save your work in Git
 
-When you are finished with all of the day_3 activities, use your terminal to run the following commands in order to save your work to your local git repository.
+When you are finished with all of the day_2 activities, use your terminal to run the following commands in order to save your work to your local git repository.
 
-1. `$ git add day_3/exercises`
-1. `$ git add day_3/questions.md`
-1. Use `git add day_3/<filename>` to add all additional files that you created today
+1. `$ git add day_2/exercises`
+1. `$ git add day_2/questions.md`
+1. Use `git add day_2/<filename>` to add all additional files that you created today
 1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Day 3 Work"`
+1. `$ git commit -m "Add Day 2 Work"`
 
 ## Push to Github
 
@@ -90,9 +93,13 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 ## FYI - Vocabulary you'll encounter in the reading
 
-The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and functions to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! We will address these techniques more thoroughly during your first mod, however, here are some quick definitions to help you become familiar with them.
+The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and methods to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! Here are some quick definitions to help you become familiar with them.
 
 * document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 * document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
-* el.innerHTML(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-* el.textContent(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+* el.innerHTML(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+* el.textContent(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+
+
+
+
