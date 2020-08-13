@@ -92,12 +92,11 @@ The **number one mistake** people encounter when writing conditional statements 
 
 🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions
 
-1. Work through the `functions.js` file in the day_4/exercises directory.
+If you'd like another source, read [this blog post](https://medium.com/javascript-in-plain-english/introduction-to-javascript-functions-a0a1687f2318#:~:text=Introduction%20to%20Functions,to%20'run'%20in%20JavaScript) (stop after the section on Arguments)
 
-1. Answer the questions in the `questions.md` file in the day_4 directory.
+Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan.
 
-
-
+> 👨🏽‍💻PAUSE here, and complete the exercises in functions.js
 
 ## Exercises
 
