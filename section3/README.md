@@ -66,10 +66,14 @@ When you are finished with all of the section3 activities, use your terminal to 
 
 ## Push to Github
 
-You've save your work to git on your **local** machine, but it is not yet accessible through your **remote** Github repository. Updating our **remote** Github repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've save your work to Git on your local machine, but it is not yet accessible through your remote Github repository. Push your code to your remote, GitHub, repository. If you don't remember the command, look back at the directions in Sections 1 or 2.
 
-```
-git push origin master
-```
+Visit your GitHub repository to verify the work you did for this section was pushed successfully!
 
-You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+## Deliverables
+
+In the appropriate thread in your pre-work group channel, share the following:
+
+1. Link to the commit you made with your complete Section 3 pre-work
+2. A short video of yourself reflecting on:
+- 

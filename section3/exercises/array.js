@@ -62,7 +62,33 @@ console.log(animals[0]);
 // YOU DO: Remove the food that is in index position 0.
 
 //-------------------
-// Part 3: Don't let yourself forget everything from Section 2 of Pre-work
+// PART 3: Where are Arrays used?
+//-------------------
+
+/*
+Sometimes we need to hold on to multiple pieces of data, but have it grouped together in a list.
+This is why programming languages have arrays!
+
+One example of a web/mobile application that uses arrays is Instagram. Each user has a set of posts
+associated with their account. Each post, is one of potentially many, that are grouped together in a list,
+or, array.
+
+The post itself likely has more complex data, but here's one way we can think about it:
+*/
+
+var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+
+// YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
+// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// all from the same one.
+
+// 1:
+// 2:
+// 3:
+
+
+//-------------------
+// Part 4: Don't let yourself forget everything from Section 2 of Pre-work
 //-------------------
 
 /*
