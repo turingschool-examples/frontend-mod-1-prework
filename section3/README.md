@@ -1,12 +1,12 @@
-# Section 3 - Arrays
+# Section 3 - Arrays and Loops
 
-Section 3 is estimated to take a total of 8-12 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
+Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
 
 Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
 
 - [Part A: Section 3 Focus TBD](#Part-A-Section-3-Focus)
 - [Part B: Arrays](#Part-B-Arrays)
-- [Part C: Iteration](#Part-C-Iteration)
+- [Part C: Loops](#Part-C-Loops)
 - [Deliverables](#Deliverables)
 
 ## Open your local copy of frontend-mod-1-prework
@@ -23,13 +23,13 @@ Content TBD
 
 🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
 
-1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. 👩🏻‍💻Create a file in your `section3` directory called `array_methods.md` and describe, in your own words, what each method does.
-    1. Methods to study: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
-    1. _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
+Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. 👩🏻‍💻Create a file in your `section3` directory called `array_methods.md` and describe, in your own words, what each method does.
+* Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
+* _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
 
 > 👩🏻‍💻PAUSE here, and complete the exercises in `arrays.js`
 
-## Part C Iteration
+## Part C Loops
 
 Define iteration - take from M0
 
@@ -59,15 +59,9 @@ Answer the questions in the `reflection.md` file in the section3 directory.
 
 ## Save your work in Git
 
-When you are finished with all of the `section3` activities, use your terminal to run the following commands in order to save your work to your local Git repository.
+When you are finished with all of the `section3` activities, use the Git workflow and commands you've learned to add and commit your work. Write a commit message that concisely summarizes what work this commit contains. If you need a refresher on that workflow, look at the Mod 0 lesson where this was covered, of the directions in Sections 1 or 2.
 
-1. `$ git add section3/exercises`
-1. `$ git add section3/questions.md`
-1. Use `git add section3/<filename>` to add the additional file that you created today
-1. `$ git status` - you should see only green filenames - if you see any that are red, continue to `git add` those files until `git status` shows all green files.
-1. `$ git commit -m "Add Day 2 Work"`
-
-## Push to Github
+## Push to GitHub
 
 You've save your work to Git on your local machine, but it is not yet accessible through your remote Github repository. Push your code to your remote repository. If you don't remember the command, look back at the directions in Sections 1 or 2.
 
