@@ -1,25 +1,35 @@
-# Day 3 - If Statements
+# Section 3 - Arrays
 
-Computers may not be smart, but they are good at doing many things very quickly, like working through lots of data. As such, we need a way to store lots of data. Today, you will learn about a JavaScript data structure that lets us store collections of data: The Array. You will also learn about iteration, which is going through every element of an Array.
+Section 3 is estimated to take a total of 8-12 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
 
-When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
+
+- [Part A: Section 3 Focus TBD](#Part-A-Section-2-Focus)
+- [Part B: Arrays](#Part-B-Arrays)
+- [Part C: Iteration](#Part-C-Iteration)
+- [Deliverables](#Deliverables)
 
 ## Open your local copy of frontend-mod-1-prework
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 README.
 
-
 ## Arrays
 
-1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
+📒Read pages 70 and 72 in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+
+🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
+
 1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
-    1. Methods to study: "pop", "push", "shift", "unshift". Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
-    1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead.
-1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
+    1. Methods to study: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
+    1. _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
+
+> 👩🏻‍💻PAUSE here, and complete the exercises in _arrays.js_
 
 ## Loops
 
-* read pages 170 - 175 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
+Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
+
+📒Read pages 170-175 of the J`AVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 Loops allow us to easily run the same piece of code numerous times.  There are many types of loops, but we'll only learn about `for` loops for now.
 
@@ -90,16 +100,3 @@ git push origin master
 ```
 
 You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
-
-## FYI - Vocabulary you'll encounter in the reading
-
-The readings in the JAVASCRIPT & JQUERY book use Javascript in a way that is likely unfamiliar to you. The book uses specific Javascript properties and methods to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using Javascript without HTML. That's why you haven't seen these techniques before! Here are some quick definitions to help you become familiar with them.
-
-* document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
-* document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
-* el.innerHTML(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-* el.textContent(): a method used to change the text of an element from a web page *(the element is defined as the variable el)*. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
-
-
-
-
