@@ -30,7 +30,7 @@ The conditional operators we touched on earlier are critical in the set up of if
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in comparisons.js
+> 👨🏽‍💻PAUSE here, and complete the exercises in `comparisons.js`
 
 ### If Statements
 
@@ -84,7 +84,7 @@ The **number one mistake** people encounter when writing conditional statements 
 
 - `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in decision-making.js and if-statements.js
+> 👨🏽‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
 ## Part C Functions
 
@@ -96,7 +96,7 @@ If you'd like another source, read [this blog post](https://medium.com/javascrip
 
 Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is optional!
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in functions.js
+> 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
 
 ## Exercises
 
