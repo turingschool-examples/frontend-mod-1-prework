@@ -135,6 +135,8 @@ nothing to commit, working tree clean
 
 From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "frontend prework", and they all refer to your forked copy of this `frontend-mod-1-prework-2008b` repository.
 
+## Get Started
+
 Each day's `README` will walk you through the steps you need to take to save your work.
 
-To start, in your terminal, `cd` into the `part1` directory. Follow the instructions contained in the `readme.md` file, and have a great time!
+To start, in your terminal, `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have a great time learning and exploring!
