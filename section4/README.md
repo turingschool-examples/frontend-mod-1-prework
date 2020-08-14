@@ -10,7 +10,23 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - [Part D: Code Challenges](#Part-D-Code-Challenges)
 - [Deliverables](#Deliverables)
 
-### Vocabulary
+## Vocabulary
+
+### Vocabulary Terms
+
+- Object
+- key-value pair
+- dot notation
+- method
+- class (in JavaScript)
+- object instance
+- properties
+
+### JavaScript Reserved Keywords
+
+- `class`
+- `constructor`
+- `new`
 
 ## Part B Objects
 
@@ -49,7 +65,7 @@ var zebraInfo = {
 
 ### Accessing Values
 
-To access a value in a specific object, we have to first tell the program which Object to look at. Then we use a period `.`, then call the key, or label, associated with the value we want to access.
+To access a value in a specific object, we have to first tell the program which Object to look at. Then we use a period `.`, then call the key, or label, associated with the value we want to access. This syntax is referred to as **dot notation**.
 
 ```javascript
 console.log(zebraInfo.name);
@@ -64,7 +80,7 @@ console.log(zebraInfo.weight);
 
 ### Re-Assigning Values
 
-We can change the value that is associated with a given key. We will use similar syntax to what we use when we need to access a value. We will combine that with the same concept of re-assignment that we learned about when we re-assigned variables.
+We can change the value that is associated with a given key. We will use similar syntax to what we use when we need to access a value. We will combine dot notation with the same concept of re-assignment that we learned about when we re-assigned variables.
 
 ```javascript
 console.log(zebraInfo.name);

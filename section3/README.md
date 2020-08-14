@@ -9,7 +9,19 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - [Part C: Loops](#Part-C-Loops)
 - [Deliverables](#Deliverables)
 
-### Vocabulary
+## Vocabulary
+
+### Vocabulary Terms
+
+- Array
+- element
+- index
+- array method
+- loop
+
+### JavaScript Reserved Keywords
+
+- `for`
 
 ## Open your local copy of frontend-mod-1-prework
 

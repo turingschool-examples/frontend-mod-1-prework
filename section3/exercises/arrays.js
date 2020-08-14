@@ -33,7 +33,7 @@ console.log(animals[0]);
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
 
-// YOU DO: Write code using bracket notation that will log the String "Elephant" in the animals array
+// YOU DO: Write code that will log the String "Elephant" in the animals array
 
 
 //-------------------
