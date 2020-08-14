@@ -6,14 +6,14 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 ## Pre-work Index
 
-* [Section 1 - SUPERLEARNERS, Terminal and JavaScript Foundations](section1)
+* [Section 1 - SUPER LEARNERS, Terminal and JavaScript Foundations](section1)
 * [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
 * [Section 3 - Arrays and Iteration](section3)
 * [Section 4 - Objects and Classes](section4)
 
 ## Materials
 
-The only material, outside of your computer and an internet connection that you need to complete your pre-work is the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book by John Duckett. You can [download it for free here](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e184606066.html) or [purchase a hard copy here](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett) (or elsewhere!)
+The only material, outside of your computer and an internet connection that you need to complete your pre-work is the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book by John Duckett. You can [download it for free here](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e184606066.html) or [purchase a hard copy here](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett) (or elsewhere).
 
 Read this page thoroughly to find the instructions for getting your computer setup and getting started.
 
