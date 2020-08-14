@@ -1,31 +1,62 @@
-# Section 2 - something
+# Section 2 - Asking Questions
 
 Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Section 1, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏽‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
-- [Part A: Section 2 Focus TBD](#Part-A-Section-2-Focus)
+- [Part A: Section 2 Focus TBD](#Part-A-Asking-Questions)
 - [Part B: Conditionals](#Part-B-Conditionals)
 - [Part C: Functions](#Part-C-Functions)
 - [Deliverables](#Deliverables)
+
+## Vocabulary
+
+Today will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+
+### Vocabulary Terms
+
+- comparison operators
+- logical operators
+- condition
+- conditionals
+- if statements
+- function
+- argument
+- parameter
+
+### JavaScript Reserved Keywords
+
+- `if`
+- `else if`
+- `else`
+- `function`
 
 ## Get Set Up
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the section1 instructions.
 
-## Part A Section 2 Focus
+## Part A Asking Questions
 
 Content TBD.
+- 3 posts from Dev.to
 
 ## Part B Conditionals
 
-One of the most important concepts in computer programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We accomplish this with If-Statements, which you will learn about today.
+One of the most important concepts in programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We can accomplish this with if statements, which you will learn about today.
 
-When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
+When you are all done with the lessons, exercises, and reflection for today, you will once again use Git to save your work, and then put it in the cloud on GitHub.
 
 ### Operators
 
 When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
 
-The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements evaluate to `true` or `false`. The most common conditional operators are `===` (strictly equal), `!==` (not equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. We will touch on those later in the pre-work and you get into Mod 1.
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators: 
+* `===` (strictly equal)
+* `!==` (not equal)
+* `>` (greater than)
+* `>=` (greater than or equal to)
+* `<` (less than)
+* `<=` (less than or equal to)
+
+Some data types also have functions which return a `true` or `false`, so they’re used in conditional statements. We will touch on those later in the pre-work and when you get into Mod 1.
 
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
@@ -34,26 +65,27 @@ The conditional operators we touched on earlier are critical in the set up of if
 
 ### If Statements
 
-📒 Read pages 148-149, and 160-163 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book. If you are unsure of some vocabulary you encounter, refer to the [vocabulary list](#Vocabulary-From-Book) at the end of this README.
+📒 Read pages 148-149 and 160-163 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book. If you are unsure of some vocabulary you encounter, refer to the [vocabulary list](#Vocabulary-From-Book) at the end of this README.
 
-In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition **evaluates** to `true`. However, they must be chained to a previous **if** statement, like so:
+In addition to **`if`** and **`else`**, **`else if`** can help us create more complex statements. `else if` statements execute a block of code when their condition **evaluates** to `true`. However, they must be chained to a previous `if` statement, like so:
 
 ```javascript     
 if (condition1) {
-    //block of code if condition1 evaluates to true
+    //block of code executes if condition1 evaluates to true
 } else if (condition2) {
-    //block of code if condition1 evaluates to false and condition2 evaluates to true.
+    //block of code executes if condition1 evaluates to false and condition2 evaluates to true.
 } else if (condition3) {
-    //block of code if condition1 and condition2 evaluate to false
+    //block of code executes if condition1 and condition2 evaluate to false
     //and condition3 evaluates to true.
 } else {
-    //block of code if none of the conditions above evaluate to true.
+    //block of code executes if none of the conditions above evaluate to true.
 };
 ```
 
 ### If/Else Statements
 
-Why do we have conditional statements? Most often it’s to control conditional instructions, especially *if/else if/else* structures. Let’s use an example of a block of code like this:
+Why do we have conditional statements? Most often it’s to control conditional instructions, especially *if/else if/else* structures. Read the following code snippet, then the accompanying explanation that follows it.
+
 ```javascript
 var minutesToHeatWater = 7;
 
@@ -67,6 +99,7 @@ if (minutesToHeatWater < 7) {
     console.log("Hot! Hot! Hot!");
 };
 ```
+
 What would be logged when `minutesToHeatWater` is 7? What if we changed it to 5? Or 8? Or 9?
 
 - When the `minutesToHeatWater` is 5, here is how the execution goes: "Is it true that 5 is less than 7? Yes, it is, so print out the line The water is not boiling yet.".
@@ -80,27 +113,31 @@ Only one section of the *if/else if/else* structure can have its instructions ru
 
 The **number one mistake** people encounter when writing conditional statements is the difference between `=` and `===`.
 
-- `=` is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.
+* `=` is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.
 
-- `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
+* `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
 > 👨🏽‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
 ## Part C Functions
 
-📒Read page 88, and pages 90 through 93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒Read page 88 and pages 90-93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
 🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions.
 
 If you'd like another source, read [this blog post](https://medium.com/javascript-in-plain-english/introduction-to-javascript-functions-a0a1687f2318#:~:text=Introduction%20to%20Functions,to%20'run'%20in%20JavaScript) (stop after the section on Arguments).
 
-Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is optional!
+Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions) in their free account plan. Completing this is _optional_!
 
 > 👨🏽‍💻PAUSE here, and complete the exercises in `functions.js`
 
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
+
+## Vocabulary
+
+Look back at that special spot in your notebook for vocabulary. Hopefully you updated it with definitions, diagrams, and code samples as you went through this section. If not, do so now. This will be part of this sections deliverables.
 
 ## Relections
 
@@ -139,6 +176,6 @@ The readings in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development`
 In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 2 pre-work
-2. A screenshot or photo upload of your notes, including your vocabulary section.
+2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
 3. A short video of yourself reflecting on:
 - 

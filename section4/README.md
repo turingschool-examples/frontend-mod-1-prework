@@ -10,6 +10,8 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - [Part D: Code Challenges](#Part-D-Code-Challenges)
 - [Deliverables](#Deliverables)
 
+### Vocabulary
+
 ## Part B Objects
 
 You are now going to learn about the Object data structure in Javscript. An object is a way to store data just like an array, but with several key differences. An array stores an *ordered* list of data. Each item in the array can be accessed using only numbers, or the index of item. For example:

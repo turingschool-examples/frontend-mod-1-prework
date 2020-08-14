@@ -9,6 +9,8 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - [Part C: Loops](#Part-C-Loops)
 - [Deliverables](#Deliverables)
 
+### Vocabulary
+
 ## Open your local copy of frontend-mod-1-prework
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 README.

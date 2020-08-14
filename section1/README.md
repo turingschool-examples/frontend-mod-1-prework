@@ -7,6 +7,37 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
+## Vocabulary
+
+If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully. 
+
+One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
+
+Here's what we ask you do:
+- Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
+- When you start a new section of pre-work, write down each term. Leave plenty of space for (future) notes
+- As you read and work through the material you will come across definitions and build an understanding of these terms. Write in definitions, draw diagrams, write out relevant code snippets, etc. If you complete a section and don't have a grasp on a term, that's when it's time to reach out to your pre-work small group or cohort, and collaborate!
+ 
+### Vocabulary Terms
+
+- command
+- directory
+- code comments
+- String
+- Number
+- Boolean
+- variable
+- assignment operator
+- re-assignment (of a variable)
+- concatenation
+
+### JavaScript Reserved Keywords
+
+- `console.log()`
+- `var`
+- `true`
+- `false`
+
 ## Part A Super Learner Habits
 
 Read [this article](https://medium.com/personal-growth/6-habits-of-super-learners-63d466a254fd) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
@@ -78,7 +109,7 @@ At the end of the section, you will use several Git commands to save your work t
 
 ### Open your local copy of frontend-mod-1-prework in Atom
 
-Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal (this may vary slightly depending on the names of your directories):
+Using your terminal, open the local copy of this repository. To do this, enter these commands into your terminal (this may vary slightly depending on the names of your directories):
 
 ```
 cd ~
@@ -110,7 +141,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 ### Comments in Code
 
-Code comments can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to temporarily keep from running.
+**Code comments** can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in our written/spoken language, as well as let us de-activate parts of our code that we want to temporarily keep from running.
 
 ```JavaScript
 // Text after two backslashes is a single line comment.
@@ -139,7 +170,7 @@ JavaScript distinguishes between different kinds of data that programmers may ne
 
 #### Number
 
-The Number data type handles all numbers, including negative numbers (such as `-27`) and decimals, which are referred to as floating point numbers (one quarter would be written as `0.25`). Large numbers are written without commas, so three thousand forty five would be written as `3045`.
+The **Number** data type handles all numbers, including negative numbers (such as `-27`) and decimals, which are referred to as floating point numbers (one quarter would be written as `0.25`). Large numbers are written without commas, so three thousand forty five would be written as `3045`.
 
 ```javascript
 47
@@ -151,7 +182,7 @@ The Number data type handles all numbers, including negative numbers (such as `-
 
 #### String
 
-The String data type consists of letter and other characters, all wrapped within quotes. You can use single or double quotes, but the opening quote and the closing quote must be the same.
+The **String** data type consists of letter and other characters, all wrapped within quotes. You can use single or double quotes, but the opening quote and the closing quote must be the same.
 
 ```javascript
 "I am a string!"
@@ -163,7 +194,7 @@ Strings can be used to work with any kind of text - number, letter, special char
 
 #### Boolean
 
-Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
+The **Boolean** data types evaluates to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
 
 There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
 
@@ -186,15 +217,15 @@ Read more about compairson operators [here](https://javascript.info/comparison)!
 
 📒 Read pages 58 - 61 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-In code, variables allow us to store a value and re-use that value in multiple places. This gives us the ability to store complex information and easily use it more than once in our codebase.
+In code, **variables** allow us to store a value and re-use that value in multiple places. This gives us the ability to store complex information and easily use it more than once in our codebase.
 
-A variable is made up of three parts: the variable keyword, the variable name, and the value to be assigned to the variable with the assignment operator. Let's see what that looks like in code:
+A variable declaration is made up of three parts: the variable keyword, the variable name, and the value to be assigned to the variable with the assignment operator. Let's see what that looks like in code:
 
 ```javascript
 var age = 8;
 ```
 
-In the line above: `var` is the variable keyword, `age` is the variable name, and the number `8` is the value. An equals sign (`=`) assigns, or stores, the value to the variable name.
+In the line above: `var` is the variable keyword, `age` is the variable name, and the number `8` is the value. A single equals sign (`=`) is the assignment operator. It assigns, or stores, the value to the variable name.
 
 In JavaScript, there are certain words that are used for very specific tasks. The variable keyword `var` is one of those words -- it lets the JavaScript interpreter know that a variable is being created. _A note about variable keywords: As you learn more about JavaScript and as you read through documentation, you'll see the keywords `let` and `const` used to declare variables. The rules around how to use `let` and `const` are more nuanced, so for now, we'll stick with `var`._
 
@@ -263,6 +294,10 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 
 At this point, you should have worked through all three files in the `exercises` directory.
 
+## Vocabulary
+
+Look back at that special spot in your notebook for vocabulary. Have you updated with with definitions, diagrams, and code samples? If not, do so now!
+
 ## Relections
 
 📝 Answer the prompts in the `reflection.md` file in the `section1` directory. The `.md` file extension for this file refers to markdown formatting. Markdown is a markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic Markdown formatting.
@@ -325,7 +360,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 
 ### Push to GitHub
 
-You've saved your work to Git on your **local** machine, but it is not yet accessible through your **remote** GitHub repository. Updating our **remote** GitHub repository with our **local** changes is called **pushing**. Push your code with the following command:
+You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
 ```
 git push origin master
