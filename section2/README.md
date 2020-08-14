@@ -35,8 +35,16 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Part A Asking Questions
 
-Content TBD.
-- 3 posts from Dev.to
+If you've made it into Section 2 of the pre-work, we hope that you've heard us say loud and clear, that asking questions is a good and important thing to do! That doesn't mean it's easy, though. Some of us have educational experiences that tell us otherwise, some of us have had bad experiences when being vulnerable and asking questions, and sometimes it's just hard to determine which words to use to formulate the question itself!
+
+Read the three blog posts that follow:
+* [It's okay to ask questions](https://dev.to/josefine/asking-better-questions-2e2k)
+* [Asking better questions](https://dev.to/mporam/its-okay-to-ask-questions-43hf)
+* [You Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
+
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? We will ask you to share some reflections with your small group at the end of this section.
+
+It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being conizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 
 ## Part B Conditionals
 
@@ -178,4 +186,6 @@ In the appropriate thread in your pre-work group channel, share the following:
 1. Link to the commit you made with your complete Section 2 pre-work
 2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
 3. A short video of yourself reflecting on:
-- 
+- Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+- Did you get stuck at all during this section? If so, how long did you stay stuck? How did you get un-stuck?
+- Regarding asking questions, rubber ducking and taking breaks - what is one habit you want to commit to building (or continue building) during your work on Sections 3 and 4?
