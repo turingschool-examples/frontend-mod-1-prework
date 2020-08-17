@@ -121,12 +121,16 @@ zebraObject.feed(); //logs "Give grass to the Zebra"
 
 ## Part C Classes and Instances
 
-
-## Part D Code Challenges
-
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
+
+## Commit your Work
+
+Before you start on the Code Challenges, make a commit for the Section 4 work. Then push up to your GitHub repository.
+
+## Part D Code Challenges
+
 
 ## Reflection
 
@@ -134,9 +138,15 @@ Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 
-Take the steps needed to save your work locally, and then push up to your GitHub repository.
+Commit your Code Challenges and push up to your GitHub repository.
 
 ## Deliverables
+
+In the appropriate thread in your pre-work group channel, share the following:
+
+1. Link to the commit you made with your complete Section 4 pre-work
+2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
+3. A short video of yourself reflecting on:
 
 ## Index Links
 

@@ -8,7 +8,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 
 * [Section 1 - SUPER LEARNERS, Terminal and JavaScript Foundations](section1)
 * [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
-* [Section 3 - Arrays and Iteration](section3)
+* [Section 3 - GROWTH MINDSET, Arrays and Iteration](section3)
 * [Section 4 - Objects and Classes](section4)
 
 ## Materials

@@ -32,7 +32,7 @@ Today will introduce a number of new terms, that may feel a bit more complex. Wr
 
 ## Get Set Up
 
-Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the section1 instructions.
+Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the `section1` instructions.
 
 ## Part A Asking Questions
 
@@ -190,6 +190,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 - Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 - Did you get stuck at all during this section? If so, how long did you stay stuck? How did you get un-stuck?
 - Regarding asking questions, rubber ducking and taking breaks - what is one habit you want to commit to building (or continue building) during your work on Sections 3 and 4?
+- 1 tech question
 
 ## Index Links
 

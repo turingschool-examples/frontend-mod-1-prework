@@ -32,7 +32,6 @@ for (var i = 0; i < animals.length; i++) {
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
 // each name except the first two.
-
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
 
 
