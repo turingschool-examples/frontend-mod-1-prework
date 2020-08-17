@@ -157,3 +157,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part D: Code Challenges](#Part-D-Code-Challenges)
 - [Deliverables](#Deliverables)
 
+🏔This is the end of the Mod 1 pre-work!
