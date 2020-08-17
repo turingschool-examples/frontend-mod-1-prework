@@ -13,3 +13,5 @@
 1. In your own words, what is the purpose of a function?
 
 1. What is a parameter? What is an argument? Why would you use one? Provide an example of a function that accepts an argument (declaration and call), and indicate what the parameter is and what the argument is.
+
+1. What questions do you still have about `if` statements and/or functions?

@@ -1,6 +1,6 @@
 # Front-End Mod 1 Pre-work Guide
 
-This repository will walk you through the Mod 1 Pre-work for the Front-End program at Turing.
+This repository will guide you through the Mod 1 Pre-work for the Front-End program at Turing.
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 

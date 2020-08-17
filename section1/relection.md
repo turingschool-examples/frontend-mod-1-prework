@@ -15,3 +15,5 @@
 7. In your own words, explain what concatenation is.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
+
+9. What questions do you still have about the work we've done so far? (not having a question is not an option)
