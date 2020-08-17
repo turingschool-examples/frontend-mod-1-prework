@@ -199,7 +199,7 @@ console.log(withdrawl)
 
 Passing arguments to the new instance, and declaring parameters in the constructor, allow us to build classes and create objects that follow the same blueprint, but have unique data attached to each said object instance.
 
-_Note the way data flows through this._ `200` maps to `amt`. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now.
+_Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
 > 👨🏾‍💻PAUSE here, and complete the exercises in `classProperties.js`
 
