@@ -57,7 +57,7 @@ Log your email object to the console.
 */
 
 //-------------------
-// Part 3: Many Emails
+// Part 3: Many Emails - OPTIONAL EXTENSION
 //-------------------
 
 /*
