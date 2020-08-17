@@ -2,6 +2,7 @@
 
 Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the longest and most time intensive. This section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
+- [Vocabulary](#Vocabulary)
 - [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
 - [Part B: Terminal](#Part-B-Terminal)
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
@@ -400,3 +401,11 @@ In the appropriate thread in your pre-work group channel, share the following:
 - Click commits (usually in a light blue bar in the middle-ish of the page)
 - You'll see a list of all commits made on this. You have probably only made 1 so far, the rest are from Turing staff members). Click the commit you made (it will match whatever you typed in after `git commit -m "...`)
 - Copy the URL in the URL bar, then paste the URL into Slack
+
+## Index Links
+
+- [Vocabulary](#Vocabulary)
+- [Part A: Super Learner Habits](#Part-A-Super-Learner-Habits)
+- [Part B: Terminal](#Part-B-Terminal)
+- [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
+- [Deliverables](#Deliverables)

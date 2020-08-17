@@ -4,6 +4,7 @@ Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the
 
 Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
 
+- [Vocabulary](#Vocabulary)
 - [Part A: Section 3 Focus TBD](#Part-A-Section-3-Focus)
 - [Part B: Arrays](#Part-B-Arrays)
 - [Part C: Loops](#Part-C-Loops)
@@ -88,3 +89,12 @@ In the appropriate thread in your pre-work group channel, share the following:
 1. Link to the commit you made with your complete Section 3 pre-work
 2. A short video of yourself reflecting on:
 - 
+
+
+## Index Links
+
+- [Vocabulary](#Vocabulary)
+- [Part A: Section 3 Focus TBD](#Part-A-Section-3-Focus)
+- [Part B: Arrays](#Part-B-Arrays)
+- [Part C: Loops](#Part-C-Loops)
+- [Deliverables](#Deliverables)

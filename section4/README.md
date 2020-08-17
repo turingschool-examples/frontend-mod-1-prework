@@ -4,6 +4,7 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
 
+- [Vocabulary](#Vocabulary)
 - [Part A: Section 4 Focus TBD](#Part-A-Section-4-Focus)
 - [Part B: Objects](#Part-B-Arrays)
 - [Part C: Classes and Instances](#Part-C-Loops)
@@ -127,12 +128,21 @@ zebraObject.feed(); //logs "Give grass to the Zebra"
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
 
-## Reflections
+## Reflection
 
-Answer the questions in the `questions.md` file in the section4 directory.
+Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 
 Take the steps needed to save your work locally, and then push up to your GitHub repository.
 
 ## Deliverables
+
+## Index Links
+
+- [Vocabulary](#Vocabulary)
+- [Part A: Section 4 Focus TBD](#Part-A-Section-4-Focus)
+- [Part B: Objects](#Part-B-Arrays)
+- [Part C: Classes and Instances](#Part-C-Loops)
+- [Part D: Code Challenges](#Part-D-Code-Challenges)
+- [Deliverables](#Deliverables)
