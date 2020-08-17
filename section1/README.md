@@ -409,3 +409,5 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part B: Terminal](#Part-B-Terminal)
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
+
+🚀[Go to Section 2](../section2)

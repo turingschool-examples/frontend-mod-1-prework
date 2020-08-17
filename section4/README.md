@@ -146,3 +146,4 @@ Take the steps needed to save your work locally, and then push up to your GitHub
 - [Part C: Classes and Instances](#Part-C-Loops)
 - [Part D: Code Challenges](#Part-D-Code-Challenges)
 - [Deliverables](#Deliverables)
+

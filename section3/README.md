@@ -98,3 +98,5 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part B: Arrays](#Part-B-Arrays)
 - [Part C: Loops](#Part-C-Loops)
 - [Deliverables](#Deliverables)
+
+🚀[Go to Section 4](../section4)

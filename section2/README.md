@@ -2,6 +2,7 @@
 
 Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Section 1, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏽‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
+- [Vocabulary](#Vocabulary)
 - [Part A: Asking Questions](#Part-A-Asking-Questions)
 - [Part B: Conditionals](#Part-B-Conditionals)
 - [Part C: Functions](#Part-C-Functions)
@@ -189,3 +190,13 @@ In the appropriate thread in your pre-work group channel, share the following:
 - Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 - Did you get stuck at all during this section? If so, how long did you stay stuck? How did you get un-stuck?
 - Regarding asking questions, rubber ducking and taking breaks - what is one habit you want to commit to building (or continue building) during your work on Sections 3 and 4?
+
+## Index Links
+
+- [Vocabulary](#Vocabulary)
+- [Part A: Asking Questions](#Part-A-Asking-Questions)
+- [Part B: Conditionals](#Part-B-Conditionals)
+- [Part C: Functions](#Part-C-Functions)
+- [Deliverables](#Deliverables)
+
+🚀[Go to Section 1](../section2)
