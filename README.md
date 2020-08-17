@@ -1,6 +1,6 @@
 # Front-End Mod 1 Pre-work Guide
 
-This repository will guide you through the Mod 1 Pre-work for the Front-End program at Turing.
+This repository will guide you through the Mod 1 Pre-work for the Front-End program at Turing. **Read this page thoroughly** to find the instructions for getting your computer setup and getting started.
 
 Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
 
@@ -16,8 +16,6 @@ Each day has a folder containing a `README.md` file with instructions for the da
 📒The only material, outside of your computer and an internet connection that you need to complete your pre-work is the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book by John Duckett. You can [download it for free here](https://www.pdfdrive.com/javascript-and-jquery-interactive-front-end-web-development-e184606066.html) or [purchase a hard copy here](https://www.amazon.com/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_2?ie=UTF8&qid=1541193719&sr=8-2&keywords=duckett) (or elsewhere).
 
 >Please be aware, when page numbers for this book are referenced, it is the page number in the printed book. They don't quite match up with the ways the pages in the PDF are numbered, so make sure to reference the printed page number in the bottom corner of a page in the book.
-
-Read this page thoroughly to find the instructions for getting your computer setup and getting started.
 
 ## Environment
 

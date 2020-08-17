@@ -109,11 +109,7 @@ var zebraObject = {
     console.log("Give grass to the Zebra");
   }
 };
-```
 
-Methods can be called using the dot or bracket notation, however, you'll mostly see dot notation.
-
-```javascript
 zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
