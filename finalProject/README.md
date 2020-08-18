@@ -23,8 +23,7 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 
 ## Deliverables
 
-In the appropriate thread in your pre-work group channel, share the following:
-- The plan that you developed in the Next Steps section. The point is sharing is to collaborate and inspire - potentially find opportunities to work together on some things, maybe show an organizational strategy you have with others, or just see the thought your cohort mates are putting into this as well, so you don't feel alone! That being said, don't shy away from sharing your _detailed_ plan. This is a great chance to support each other in staying accountable to this plan.
+In the appropriate thread in your pre-work group channel, share the the plan that you developed in the Next Steps section. The point is sharing is to collaborate and inspire - potentially find opportunities to work together on some things, maybe show an organizational strategy you have with others, or just see the thought your cohort mates are putting into this as well, so you don't feel alone! That being said, don't shy away from sharing your _detailed_ plan. This is a great chance to support each other in staying accountable to this plan.
 
 ### Final Pre-work Submission
 
