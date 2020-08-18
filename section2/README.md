@@ -10,7 +10,7 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 
 ## Vocabulary
 
-Today will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
 
 ### Vocabulary Terms
 
@@ -49,9 +49,9 @@ It's going to take some time to find that balance between googling and pushing y
 
 ## Part B Conditionals
 
-One of the most important concepts in programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We can accomplish this with if statements, which you will learn about today.
+One of the most important concepts in programming is knowing when and how to tell the computer to do either _one_ thing or _another_ thing based on a set of simple criteria.  We can accomplish this with if statements, which you will learn about in this section.
 
-When you are all done with the lessons, exercises, and reflection for today, you will once again use Git to save your work, and then put it in the cloud on GitHub.
+When you are all done with the lessons, exercises, and reflection for this section, you will once again use Git to save your work, and then put it in the cloud on GitHub.
 
 ### Operators
 
@@ -169,7 +169,7 @@ You've save your work to git on your local machine, but it is not yet accessible
 git push origin master
 ```
 
-You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!
 
 ## Vocabulary From Book
 
@@ -200,4 +200,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part C: Functions](#Part-C-Functions)
 - [Deliverables](#Deliverables)
 
-🚀[Go to Section 1](../section2)
+🚀 [Go to Section 1](../section2)

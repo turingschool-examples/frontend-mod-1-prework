@@ -10,7 +10,7 @@ Using what you have learned so far, complete the challenges below. Put any files
 
 ## Next Steps
 
-Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 weeks before you start Mod 1. This is an important time to take care of life things such as doctor appointments, dog park trips, quality time with friends and family, etc. It is also important that you maintain the knowledge and skills you acquired during Mod 0 and this pre-work. You can absolutely do both, but to do so successfully, **you need a plan**. We recommend spending, on average, 1-2 hours a day coding.
+Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 weeks before you start Mod 1. This is an important time to take care of life things such as doctor appointments, dog park trips, quality time with friends and family, etc. It is also important that you maintain the knowledge and skills you acquired during Mod 0 and this pre-work. You can absolutely do both, but to do so successfully, **you need a plan**. We recommend spending, on average, 1-2 hours a day coding (totally 20-40 hours of time).
 
 What is your plan and how are you going to hold yourself to it? Specifically...
 - What are you going to work on? Resources here.

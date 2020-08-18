@@ -51,7 +51,11 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. 👩‍💻Complete all three Challenges. Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. 
+
+👩‍💻Complete all three Challenges. 
+
+Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
 ### Making Things, Navigating
 
@@ -380,7 +384,7 @@ To github.com:your-username/frontend_mod_1_prework.git
    e8ebd7a..32c0ed3  master -> master
 ```
 
-You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did today!
+You should now be able to log in to GitHub, navigate to your remote prework repository and see all the work you did in this section!
 
 ## Deliverables
 
@@ -410,4 +414,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part C: JavaScript Foundations](#Part-C-JavaScript-Foundations)
 - [Deliverables](#Deliverables)
 
-🚀[Go to Section 2](../section2)
+🚀 [Go to Section 2](../section2)

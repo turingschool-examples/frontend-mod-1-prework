@@ -2,7 +2,7 @@
 
 This repository will guide you through the Mod 1 Pre-work for the Front-End program at Turing. **Read this page thoroughly** to find the instructions for getting your computer setup and getting started.
 
-Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. You must complete all the exercises and questions.
+Each section has a folder containing a `README.md` file with instructions and deliverables for the section, exercises, and reflections. You must complete all the exercises and reflections.
 
 ## Pre-work Index
 
@@ -138,6 +138,6 @@ From here on out, all the work you do will be in your copy of this repository. O
 
 ## Get Started
 
-Each day's `README` will walk you through the steps you need to take to save your work.
+Each sections `README` will walk you through the steps you need to take to save your work.
 
 To start, in your terminal, `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have a great time learning and exploring!
