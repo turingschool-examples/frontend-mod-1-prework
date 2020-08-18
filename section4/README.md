@@ -26,6 +26,10 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 - `constructor`
 - `new`
 
+## Part A Section 4 Focus
+
+Content TBD
+
 ## Part B Objects
 
 An Object is a way to store more complex data similar to an array, but with several key differences. An array stores an *ordered* list of data. Each item in the array can be accessed using only numbers, or the index of item. For example:

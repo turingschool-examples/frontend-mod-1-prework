@@ -1,5 +1,7 @@
 ## Section 4 Reflection
 
+1. TODO: add Qusetions about Section4 Focus
+
 1. What is an Object, and how is it different from an Array in Javascript?
 
 1. For each set of data, would an array or object be better to store it? Explain your choice.
