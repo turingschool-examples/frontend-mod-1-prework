@@ -55,11 +55,13 @@ Research the array methods below on the MDN documentation provided. This documen
 
 ## Part C Loops
 
-Define iteration - take from M0
+Sometimes, we want our program to perform an action a specific number of times. A loop is a way to only write the code for that action 1 time, but instruct our program to carry it out `n` times.
+
+Sometimes, we have a collection of data (like an array) and we want to perform an action on each item in that collection. In these instances, we need to iterate through each piece of data in our collection.
+
+Work through this section to build your understanding of how `for` loops can be used both with and without Arrays.
 
 ### For Loops
-
-Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
 
 📒Read pages 170-174 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
@@ -79,7 +81,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-Answer the questions in the `reflection.md` file in the section3 directory.
+Answer the questions in the `reflection.md` file in the `section3` directory.
 
 ## Save your work in Git
 
