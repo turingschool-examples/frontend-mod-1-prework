@@ -2,7 +2,7 @@
 
 ## Project Specifications
 
-Using what you have learned so far, complete both of the challenges below. Put any files related to the projects you choose in `finalProject` directory.
+Using what you have learned so far, complete the challenges below. Put any files related to the projects you choose in `finalProject` directory.
 
 * [FizzBuzz](./fizzbuzz.md)
 * [10 Speckled Frogs](./10_speckled_frogs.md)
