@@ -200,4 +200,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part C: Functions](#Part-C-Functions)
 - [Deliverables](#Deliverables)
 
-🚀 [Go to Section 1](../section2)
+🚀 [Go to Section 3](../section3)
