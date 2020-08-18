@@ -81,7 +81,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-Answer the questions in the `reflection.md` file in the `section3` directory.
+📝Answer the questions in the `reflection.md` file in the `section3` directory.
 
 ## Save your work in Git
 

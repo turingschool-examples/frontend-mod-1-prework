@@ -282,7 +282,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-Answer the questions in the `reflection.md` file in the section4 directory.
+📝Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 
