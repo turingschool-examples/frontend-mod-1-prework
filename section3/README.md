@@ -71,7 +71,7 @@ Work through this section to build your understanding of how `for` loops can be 
 
 ### For Loop and Arrays
 
-🎬Watch [this video](https://www.youtube.com/watch?v=BxFi7vVZx4s) to learn about using `for` loops with Arrays. The first 18 minutes cover for loops, at around 18 minutes, the video gets into using them with Arrays. Watch what feels helpful to you! (At 23 minutes, the video covers looping over Objects which is _not_ aligned to the learning goals of this section, so we advise stopping there.)
+🎬Watch [this video](https://www.youtube.com/watch?v=BxFi7vVZx4s) to learn about using `for` loops with Arrays. The first 18 minutes cover for loops and at around 18 minutes in, the video gets into using them with Arrays. Watch what feels helpful to you! (At 23 minutes, the video covers looping over Objects which is _not_ aligned to the learning goals of this section, so we advise stopping there.)
 
 > 👩🏻‍💻PAUSE here, and complete the exercises in `loops-arrays.js`
 
