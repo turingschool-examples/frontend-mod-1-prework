@@ -30,7 +30,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Part A Growth Mindset
 
-Read and/or watch:
+Read/watch one or both of the following:
 - This [2-part blog post series](https://blog.mindsetworks.com/entry/how-having-a-growth-mindset-can-help-you-learn-to-code) discusses how having a growth mindset is helpful when learning to code, and how coding promotes a growth mindset!
 - This [video interview](https://dev.to/hackflix_dev/how-to-hack-a-growth-mindset-b1g) where an experienced Front-End engineer discusses learning about the concept of Growth Mindset and how that's changed how she sees her work and career. (The first 7 minutes are intros and a discussion on Developer Relations. After that, the conversation about Growth Midnset begins.)
 
@@ -45,7 +45,9 @@ Then, consider on the following questions. We will ask you to share some of thes
 
 🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
 
-Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. 👩🏻‍💻Create a file in your `section3` directory called `array_methods.md` and describe, in your own words, what each method does.
+Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. 
+
+👩🏻‍💻Create a file in your `section3` directory called `arrayMethods.md` and describe, in your own words, what each method does.
 * Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
 * _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
 
