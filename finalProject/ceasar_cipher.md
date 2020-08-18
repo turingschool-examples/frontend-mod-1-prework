@@ -1,4 +1,4 @@
-## Ceasar Cipher
+# Ceasar Cipher
 
 > Read the entire file before starting.
 
