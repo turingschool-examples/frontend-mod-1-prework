@@ -266,7 +266,6 @@ console.log(deposit);
 //=> TransactionItem {amount: 200, date: "02/03/20", type: "deposit", isRecorded: true}
 console.log(withdrawl);
 //=> TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl", isRecorded: false}
-
 ```
 
 The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawl` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
@@ -291,7 +290,9 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 4 pre-work
 2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
-3. A short video of yourself reflecting on:
+3. A 2-4 minute _instructional_ video that teaches someone:
+  - What is a class? What is an object instance? Provide examples (real, physical items are awesome!) What are some properties and methods these objects have?
+  - Either in the video or accompanying it in screenshots or repl.it files, provide the code for the class you used as an example in your video.
 
 ## Index Links
 
