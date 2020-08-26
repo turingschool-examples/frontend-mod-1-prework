@@ -1,6 +1,7 @@
 ## Day 5 Questions
 
 1. What is an Object, and how is it different from an Array in Javascript?
+
 Objects are collections of data, like arrays, but the data in objects have a more complex relationship. Arrays are ordered lists, but the values in objects relate to the object through a descriptive "key". Together, a key and a value describe a single "property", and this property can use any data type or even a function, which we call a method. This makes more complicated data structures much easier to read and manipulate.
 
 
@@ -20,6 +21,7 @@ states['MN'] = "Minnesota"
 ```
 
 5. What is another example of when we might use a Object?  In this case, why is an Object better than an Array?
+
 Let's assume we're modeling rolling dice. We can easily write a function to simulate this, but we need to know how many dice, how many sides they have, and if there are any special rules to our game- like taking away the lowest roll, or adding a modifier. Now each of these factors can be stored as a separate variable, or we can fit them all into an object, including the function. This way we can easily see the relationship that all these variables have when we look at our code, and it's even clearer what the function does when it's framed as a method. An array would not be able to host the function as a method, and would look confusing storing so much data of different types. Additionally, it would be harder to remember what the order of the data in the array was so that we could access it correctly.
 
 6. What questions do you still have about Objects?
