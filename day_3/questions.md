@@ -39,3 +39,5 @@ if (condition === something) {
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
 
 Conditional statements can be useful anytime you're trying to decide between different code blocks to run given different scenarios. Maybe there's a website feature for a sale or a specific ad that only applies to Fridays. Every time a user loads the page you might have a conditional statement to check if it is a Friday and then load a specific code block for the sale images and links.
+
+Additionally, you could use conditional statements in a for loop where you iterate through an array and manipulate elements within.
