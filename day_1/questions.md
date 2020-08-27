@@ -5,6 +5,16 @@
 
 1. What is the character you would use to indicate comments in a JavaScript file?
 ```//You should use a double forward slash to indicate a comment```
+```
+    /* 
+    You could
+    use a forward slash
+    followed by an asterisk
+    to omit multiple lines
+    of code without deleting.
+    This can also be used for longer comments.
+    /*
+```
 
 1. Explain the difference between an integer and a floating-point number?
     An integer is any whole number that does not contain a decimal, where as a floating-point number is a number that uses a decimal point
