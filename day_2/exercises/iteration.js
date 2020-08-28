@@ -16,13 +16,21 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 
 for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
-}
+  console.log("The " + animals[i] + " is awesome!")
+};
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-// YOUR CODE HERE
+var foods = ['almond milk', 'banana', 'orange', 'apple', 'cherry'];
+
+for (var j = 0; j < foods.length; j++) {
+  console.log("Add " + foods[j] + " to shopping list")
+};
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+var numbers = [21, 6.5, -11, 34];
+
+for (var k = 0; k < numbers.length; k++) {
+  console.log(numbers[k] *2);
+}
