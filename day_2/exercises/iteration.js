@@ -23,7 +23,7 @@ for (var i = 0; i < animals.length; i++) {
 // <food> to shopping list" for each food item.
 var foods = ['almond milk', 'banana', 'orange', 'apple', 'cherry'];
 
-for (var j = 0; j < foods.length; j++) {
+for (var i = 0; i < foods.length; i++) {
   console.log("Add " + foods[j] + " to shopping list")
 };
 
@@ -31,6 +31,6 @@ for (var j = 0; j < foods.length; j++) {
 // of each of the number.
 var numbers = [21, 6.5, -11, 34];
 
-for (var k = 0; k < numbers.length; k++) {
+for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[k] *2);
 }
