@@ -24,7 +24,7 @@ for (var i = 0; i < animals.length; i++) {
 var foods = ['almond milk', 'banana', 'orange', 'apple', 'cherry'];
 
 for (var i = 0; i < foods.length; i++) {
-  console.log("Add " + foods[j] + " to shopping list")
+  console.log("Add " + foods[i] + " to shopping list")
 };
 
 // Create an array of numbers and then iterate over that array to log doubles
@@ -32,5 +32,5 @@ for (var i = 0; i < foods.length; i++) {
 var numbers = [21, 6.5, -11, 34];
 
 for (var i = 0; i < numbers.length; i++) {
-  console.log(numbers[k] *2);
+  console.log(numbers[i] *2);
 }
