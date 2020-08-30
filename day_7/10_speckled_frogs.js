@@ -36,28 +36,28 @@ var numberStrings = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seve
 
 
   if (frogs === 2) {
-        console.log("Two speckled frogs sat on a log eating some most delicious bugs. One \
-jumped in the pool where it's nice and cool, then there was One speckled frog.")
-        console.log("1 speckled frog sat on a log eating some most delicious bugs. One \
-jumped in the pool where it's nice and cool, then there were no more speckled frogs!")
+        console.log("Two speckled frogs sat on a log eating some most delicious bugs. \nOne \
+jumped in the pool where it's nice and cool, \nthen there was One speckled frog.\n")
+        console.log("1 speckled frog sat on a log eating some most delicious bugs. \nOne \
+jumped in the pool where it's nice and cool, \nthen there were no more speckled frogs!\n")
   } else if (frogs <= 10) {
     for (i = frogs; i > 2; i--) {
       if (i === frogs || i === frogs - 3) {
         var numberString = numberStrings[i];
         var oneLessString = numberStrings[i-1];
         console.log(numberString + " speckled frogs sat on a log eating some most delicious \
-bugs. One jumped in the pool where it's nice and cool, then there were " + oneLessString + " speckled frogs.")
+bugs. \nOne jumped in the pool where it's nice and cool, \nthen there were " + oneLessString + " speckled frogs.\n")
   } else {
         minusFrog = i - 1
         console.log(i + " speckled frogs sat on a log eating some most delicious bugs. \
-One jumped in the pool where it's nice and cool, then there were " + minusFrog + " \
-speckled frogs.")
+\nOne jumped in the pool where it's nice and cool, \nthen there were " + minusFrog + " \
+speckled frogs.\n")
     }
     }
-    console.log("2 speckled frogs sat on a log eating some most delicious bugs. One \
-jumped in the pool where it's nice and cool, then there was 1 speckled frog.")
-    console.log("1 speckled frog sat on a log eating some most delicious bugs. One \
-jumped in the pool where it's nice and cool, then there were no more speckled frogs!")
+    console.log("2 speckled frogs sat on a log eating some most delicious bugs. \nOne \
+jumped in the pool where it's nice and cool, \nthen there was 1 speckled frog.\n")
+    console.log("1 speckled frog sat on a log eating some most delicious bugs. \nOne \
+jumped in the pool where it's nice and cool, \nthen there were no more speckled frogs!\n")
   } else {
     console.log("That's too many frogs! Enter a number that is 10 or less.");
   }
