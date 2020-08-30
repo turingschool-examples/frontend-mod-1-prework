@@ -8,4 +8,24 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, age, student) {
+    this.name = name;
+    this.age = age;
+    this.student = student;
+  }
+  enrollInSchool(student) {
+    this.student = true;
+  }
+  compliment() {
+    console.log(this.name + " is a great person!");
+  }
+}
+
+var me = new Person("Tashia", 27, false);
+
+console.log(me.compliment());
+
+me.enrollInSchool();
+
+console.log(me);
