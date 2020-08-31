@@ -55,7 +55,7 @@ Research the array methods below on the MDN documentation provided. This documen
 
 ## Part C Loops
 
-Sometimes, we want our program to perform an action a specific number of times. A loop is a way to only write the code for that action 1 time, but instruct our program to carry it out `n` times.
+Sometimes, we want our program to perform an action a specific number of times. A loop is a way to only write the code for that action 1 time, but instruct our program to carry it out `n` times. (`n` being a placeholder for theoretically any positive whole number. [Read more about that here](https://www.quora.com/What-is-the-meaning-of-the-n-symbol-in-math) if you are interested and/or not familiar with that!)
 
 Sometimes, we have a collection of data (like an array) and we want to perform an action on each item in that collection. In these instances, we need to iterate through each piece of data in our collection.
 
