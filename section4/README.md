@@ -41,7 +41,7 @@ animalsArray[0]; // Accesses the first item in my array, "Zebra"
 animalsArray[1]; // Accesses the second item in my array, "Giraffe"
 ```
 
-Objects store data but instead of using only index positions to get the data, you can use Strings. This lets you treat an object like it's a database for storing and organizing data. Below is the syntax of an object. This is called **_Object Literal_**.
+Objects store data but instead of using only index positions to get the data, you can use Strings. This lets you treat an object like it's a database for storing and organizing data. Below is the syntax of an object. This is called an **_Object Literal_**.
 
 ```javascript
 var zebraInfo = {
@@ -53,7 +53,7 @@ var zebraInfo = {
 
 In the `zebraInfo`, we store information about a Zebra. This object contains 3 **_key-value pairs_**. In `zebraInfo` the first **_key-value pair_** is `name: "Angela"`. The **_key_** is `name`. The **_value_** is `"Angela"`. A **_value_** can hold any data type. 
 
-In the code snippet below, we declare a similar variable, but this time have an additioanl **_key-value pair_** with a **_key_** of `diet` and a **_property_** that is an Array.
+In the code snippet below, we declare a similar variable, but this time have an additional **_key-value pair_** with a **_key_** of `diet` and a **_value_** that is an Array.
 
 ```javascript
 var zebraInfo = {
