@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'sunny';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -28,6 +28,7 @@ if (weather == 'sunny') {
 /*
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
+--Changed `var weather = 'sunny';`
 
 ----------------------------
 Using the numQuarters variable defined below, determine
@@ -45,10 +46,13 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3;
 
+if (numQuarters >= 2) {
 console.log("I have enough money for a gumball");
+} else{
 console.log("I don't have enough money for a gumball");
+}
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -64,3 +68,9 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+if ((cupsOfFlour >= 2) && (hasSauce = true)) {
+  console.log("I can make pizza");
+} else{
+console.log ("I cannot make pizza");
+}
