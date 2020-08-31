@@ -169,6 +169,8 @@ JavaScript distinguishes between different kinds of data that programmers may ne
 
 The **Number** data type handles all numbers, including negative numbers (such as `-27`) and decimals, which are referred to as floating point numbers (one quarter would be written as `0.25`). Large numbers are written without commas, so three thousand forty five would be written as `3045`.
 
+_These are all examples of a `Number` data type in JavaScript:_
+
 ```javascript
 47
 
@@ -181,6 +183,8 @@ The **Number** data type handles all numbers, including negative numbers (such a
 
 The **String** data type consists of letter and other characters, all wrapped within quotes. You can use single or double quotes, but the opening quote and the closing quote must be the same.
 
+_These are all examples of a `String` data type in JavaScript:_
+
 ```javascript
 "I am a string!"
 
@@ -189,11 +193,23 @@ The **String** data type consists of letter and other characters, all wrapped wi
 
 Strings can be used to work with any kind of text - number, letter, special character, etc.
 
+```javascript
+"&*$%@ ~~~"
+
+"🦄Hello, World🌈"
+
+"7835"
+```
+
+The last String in the previous example is interpreted as a String even though it only contains numbers. This is because the numbers are wrapped in quotes.
+
 #### Boolean
 
 The **Boolean** data types evaluates to one of two values: `true` or `false`. This data type can seem a little abstract, but Booleans are very helpful in helping us determine which script should run.
 
 There are many cases in whie we want to ask a program a question, such as "Does the username and password typed in match what we have in the database?". This is a yes/no question. We will ask the program the question in a way that it will respond with `true` or `false`. Here are a couple of examples:
+
+_These are all examples of statements that evaulate to a `Boolean` data type in JavaScript:_
 
 ```javascript
 3 === 6
