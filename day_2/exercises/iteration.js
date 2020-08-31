@@ -34,3 +34,4 @@ var numbers = [21, 6.5, -11, 34];
 for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] *2);
 }
+
