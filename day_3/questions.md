@@ -19,18 +19,17 @@ if (condition to be met) {
     function to be executed
 }
 ```
-
 4. How do you add multiple conditions to an `if` statement?
 You can add conditions using logical operators like && or ||
 ```
 var dog = 'chihuahua'
 var isBarking = true
-if (dog == 'chihuahua' && isBarking == true){
-    console.log('yap yap yap yap')
-}else if (dog != 'chihuahua' && isBarking == true){
-    console.log('ruff')
+if (dog === 'chihuahua' && isBarking){
+    console.log('yap yap yap yap');
+}else if (dog != 'chihuahua' && isBarking){
+    console.log('ruff');
 }else{
-    console.log('Good dog.)
+    console.log('Good dog!');
 }
 ```
 5. What is the JavaScript syntax for an `if/else` statement?
@@ -41,5 +40,5 @@ if (condition to be met) {
     function to be executed if condition is not met
 }
 ```
-
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
+Another great way to use conditionals is a 'while loop'. The while loop will continue to loop repeatedly based on a Boolean condition being met. When that value is returned as false the function will stop executing.
