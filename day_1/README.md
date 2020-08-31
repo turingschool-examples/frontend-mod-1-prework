@@ -6,7 +6,7 @@ In addition to JavaScript, this day will also walk you through the commands you 
 
 At the end of the day, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
 
-## Open your local copy of frontend-mod-1-prework in Atom
+## Open your local copy of frontend-mod-1-prework in Atom -- **ok**
 
 Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
@@ -26,7 +26,7 @@ atom .
 
 This will open the `day_1` directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
-## Notes on Learning to Write Code
+## Notes on Learning to Write Code -- **ok**
 
 The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process -- don't give up if you hit a hard spot. If you are stuck for longer than 30 minutes, know that it is always ok to ask for help! If you consistently practice  every day and don't take short cuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
 
@@ -34,11 +34,11 @@ One of the best things you can do to set yourself for success is to make sure yo
 
 Details matter: pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
-## Introduction to JavaScript
+## Introduction to JavaScript -- **maybe?**
 
 * To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
-## Comments in Code
+## Comments in Code -- **ok**
 
 Code comments can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in english, as well as let us disable parts of our code that we want to temporarily keep from running.
 
@@ -64,6 +64,8 @@ console.log("This will run.");
 ```
 
 What is logged to the console when you run this code?
+
+> "I could have code like this." and "This will run" are logged to the console & printed. 
 
 ## Data Types
 
