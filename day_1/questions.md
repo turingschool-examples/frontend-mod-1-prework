@@ -29,5 +29,6 @@ console.log(animal);
 
 A concatenation is the use of mathematics to alter strings. One can even add an integer or float to a string, but it will result in a string.
 ```javascript
-console.log("Why is there an " + animal + " in the bathroom?");
+var animal = "zebra";
+console.log("Why is there a " + animal + " in the bathroom?");
 ```
