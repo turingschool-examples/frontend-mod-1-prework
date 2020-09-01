@@ -34,7 +34,7 @@ One of the best things you can do to set yourself for success is to make sure yo
 
 Details matter: pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
-## Introduction to JavaScript -- **maybe?**
+## Introduction to JavaScript -- **ok**
 
 * To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -67,7 +67,7 @@ What is logged to the console when you run this code?
 
 > "I could have code like this." and "This will run" are logged to the console & printed. 
 
-## Data Types
+## Data Types -- **ok**
 
 * Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -91,7 +91,7 @@ Strings can be used to work with any kind of text.
 
 Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but booleans are very helpful in helping us determine which script should run.
 
-## Variables and Assignment
+## Variables and Assignment -- shorthand pg 118 **ok**
 
 * Read pages 58 - 61 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -139,7 +139,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., thisIsMyVariableName
 
-## Concatenation
+## Concatenation -- **ok**
 
 "Concatenate" is a programming term that means "join together". We join together strings in JavaScript using the plus (`+`) operator, the same one we would use to add numbers together, but in this context it does something different. Let's take a look, using a variable.
 
@@ -167,11 +167,11 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 ## Exercises
 
 Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
-  1. numbers
-  1. strings
-  1. booleans
-  1. variables
-  1. concatenation
+  1. numbers **done**
+  1. strings **sweet**
+  1. booleans **I think?**
+  1. variables **nice**
+  1. concatenation **yes?**
 
 ## Questions
 
