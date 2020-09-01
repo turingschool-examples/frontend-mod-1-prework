@@ -2,7 +2,7 @@
 
 1. How would you log the string `"Hello World!"` to the console?
 
-```javaScript
+```javascript
 var string1 = "Hello World!";
 console.log(string1);
 ```
@@ -15,17 +15,17 @@ A double backslash, `// This feels repetitive`
 - Floating-point numbers have a decimal (867.5309 and .00001 are both floating-point numbers)
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
-```javaScript
+```javascript
 var animal = "zebra";
 ```
 
 1. How would you log the string `"zebra"` using the variable that you created above?
-```JavaScript
+```Javascript
 console.log(animal);
 ```
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
 A concatenation is the use of mathematics to alter strings. One can even add an integer or float to a string, but it will result in a string.
-```javaScript
-console.log("Why is there a " + animal + " in the bathroom?");
+```javascript
+console.log("Why is there an " + animal + " in the bathroom?");
 ```
