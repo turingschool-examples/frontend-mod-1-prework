@@ -4,7 +4,7 @@
 console.log("Hello, World!")
 
 1. What is the character you would use to indicate comments in a JavaScript file?
-Anything before the first set of // or after the second set of // would be comments outside of the actual code.
+Anything after the second set of two forward slash characters // would be a single line comment outside of the actual code. To write a multi-line comment, you would start with the /* characters and end with */ characters.
 
 1. Explain the difference between an integer and a floating-point number? An integer can have a plus or minus value but contain no decimal point. A float is a floating-point number meaning that is has a decimal place.
 
