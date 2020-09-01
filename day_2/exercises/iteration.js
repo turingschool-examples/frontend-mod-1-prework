@@ -16,8 +16,9 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 
 for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
+  console.log(animals[i]);
 }
+  // YOUR CODE HERE
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
