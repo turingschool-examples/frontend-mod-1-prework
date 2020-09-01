@@ -9,7 +9,7 @@ Each section has a folder containing a `README.md` file with instructions and de
 * [Section 1 - SUPER LEARNERS, Terminal and JavaScript Foundations](section1)
 * [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
 * [Section 3 - GROWTH MINDSET, Arrays and Iteration](section3)
-* [Section 4 - Objects and Classes](section4)
+* [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
 * [Final Project and Submission](finalProject)
 
 ## Materials
@@ -23,6 +23,10 @@ Each section has a folder containing a `README.md` file with instructions and de
 Through completing this pre-work, you can expect to get practice re-inforcing what you learned/are learning in Mod 0, learn more technical content, and deeply reflect on your mindsets and habits and start thinking about which of those mindsets and habits will help you learn to code, and which of those you may need to change.
 
 We will remind you of the best practices that follow from time-to-time, but to ground yourself in the work ahead, read them carefully.
+
+## Deliverables
+
+At the bottom of each of the 4 sections and the final project is a `Deliverables` section. Make sure to read those carefully!
 
 ### Best Practices: Learning to Write Code
 
