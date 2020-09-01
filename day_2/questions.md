@@ -22,9 +22,9 @@ animals.push("lion");
 
 4. Name and describe two additional array methods.
 
-`array.pop` allows one to /"pop/" the last element of an array out (could be used to pop out /"lion/" from the `animals` array)
+`array.pop` allows one to "pop" the last element of an array out (could be used to pop out "lion" from the `animals` array)
 
-`array.shift` pulls out the first element of an array, and could be used to pop out /"lion/" from the beginning of the array as it was added twice.
+`array.shift` pulls out the first element of an array, and could be used to pop out "lion" from the beginning of the array as it was added twice.
 
 5. What are the boolean values in JavaScript?
 
