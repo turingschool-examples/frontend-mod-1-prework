@@ -64,10 +64,10 @@ The statement within the curly braces executes each time the loop runs. In this 
 1. Work through the following lessons to learn about Javascript Comparison Operators.
     1. When you are building out a FOR loop, you can use **Comparison Operators** to determine if a FOR loop should continue or stop looping. Read pages 150 through 153 in the JAVASCRIPT & JQUERY book to learn about the operators.
     1. Read pages pages 166 and 167 of the JAVASCRIPT & JQUERY book to learn about type coersion and truthy vs falsy values
-    1. Work through the `comparisons.js` file
+    1. Work through the `comparisons.js` file **done**
 1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
-    1. `arrays.js`
-    1. `loops.js`
+    1. `arrays.js`**a little touch & go, but ok**
+    1. `loops.js` **easy**
     1. `iteration.js`
 1. Answer the questions in the `questions.md` file in the day_2 directory.
 
