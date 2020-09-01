@@ -40,13 +40,13 @@ console.log(firstVar != secondVar); // this should return: true
 console.log(secondVar >= 20); // this should return: true
 
 // log the result of the comparison: is secondVar greater than or equal to 21?
-console.log(secondVAR >= 21); // this should return: false
+console.log(secondVar >= 21); // this should return: false
 
 // log the result of the comparison: is secondVar less than or equal to 20?
 console.log(secondVar <= 20); // this should return: true
 
 // log the result of the comparison: is secondVar less than or equal to 21?
-console.log(secondVar <=21); // this should return: true
+console.log(secondVar <= 21); // this should return: true
 
 // log the result of the comparison: is 0 equal to true?
 console.log(0 == true) // this should return: false
