@@ -6,7 +6,7 @@ A conditional statement tells the program what to do in a given situation. Daily
 
 2. Why might you want to use an `if` statement?
 
-If statements are used to evaluate conditions and decide what code to run. This could be done to display results of a quiz someone takes online.
+`If` statements are used to evaluate conditions and decide what code to run. This could be done to display results of a quiz someone takes online.
 
 3. What is the JavaScript syntax for an `if` statement?
 
@@ -17,7 +17,7 @@ if (condition) {
 ```
 4. How do you add multiple conditions to an `if` statement?
 
-You add multiple conditions with an 'else if' statement.
+You add multiple conditions with an `else if` statement.
 
 5. What is the JavaScript syntax for an `if/else` statement?
 
@@ -35,4 +35,4 @@ if (condition1) {
 
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
 
-Rather than running through all the code and checking each 'if' statement, you could use a 'switch' statement which speeds up the performance with the use of 'break' statements.
+Rather than running through all the code and checking each `if` statement, you could use a `switch` statement which speeds up the performance with the use of `break` statements.
