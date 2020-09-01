@@ -52,4 +52,38 @@ class CeaserCiper {
 }
 
 var cipher = new CeaserCiper()
-cipher.encode("ASD asfda2e asda", 3);
+cipher.encode("HoLy BeAns THIs was HARd", 3);
+
+/*
+I wanted to tackle the other optional project but didn't want to create a new file. Here's my attempt at the checkerboard problem:
+*/
+
+function checkerBoard(squareDimensions) {
+//declare our variables
+evenRow = '';
+oddRow = '';
+line1 = "X ";
+line2 = " X";
+board = ''
+    //Populate row strings with the "X " or " X" pair
+    //This creates an odd and even offset row populated with the correct number of Xs
+    for (i = 0; i < squareDimensions; i++) {
+      if (i % 2 == 0) {
+        evenRow = evenRow + line1;
+      } else {
+        oddRow = oddRow + line2;
+      }
+    }
+    //A very similar loop combines our premade rows into the board
+    //Adding a ling break for each addition creates the "checker board" aspect
+    for (var i = 0; i < squareDimensions; i++) {
+      if (i % 2 == 0) {
+        board = board + evenRow +"\n"
+      } else {
+        board = board + oddRow + "\n"
+      }
+    }
+console.log(board)
+}
+
+checkerBoard(6)
