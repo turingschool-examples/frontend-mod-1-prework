@@ -16,7 +16,7 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 
 for (var i = 0; i < animals.length; i++) {
-  console.log(animals[i]);
+  console.log( "The " + animals[i] + " is awesome!");
 }
   // YOUR CODE HERE
 
