@@ -8,6 +8,7 @@ console.log(string1);
 ```
 
 1. What is the character you would use to indicate comments in a JavaScript file?
+
 A double backslash, `// This feels repetitive`
 
 1. Explain the difference between an integer and a floating-point number?
@@ -25,6 +26,7 @@ console.log(animal);
 ```
 
 1. What is concatenation? Use concatenation to log a sentence to the console using the variable `animal`.
+
 A concatenation is the use of mathematics to alter strings. One can even add an integer or float to a string, but it will result in a string.
 ```javascript
 console.log("Why is there an " + animal + " in the bathroom?");
