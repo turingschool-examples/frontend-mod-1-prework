@@ -18,4 +18,4 @@ An example of a conditional being used in a web application would be something l
 
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement? There is a "switch" statement which allows you to have a default option if none of the other cases/statements match. If a match IS found, then the "break" statement stops the rest of the switch statement from running, apparently providing better performance than multiple "if" statements. The example in the javascript book has a switch labeled "level" and a different message to be output depending on what level of the test they are on, 1, 2, or 3. If none of these are true, which would be the case at the start of the test, the deault message of "good luck" will be output because none of the other conditions match.
 
-(I hope I understood what you meant by syntax for questions 3 and 5. I assumed you wanted to know what order things go in, as well as the proper punctuation used).
+(I hope I understood correctly what you meant by syntax for questions 3 and 5. I assumed you wanted to know what order things go in, as well as the proper punctuation used).
