@@ -29,6 +29,8 @@ if (weather == 'sunny') {
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
 
+*/ var weather = "sunny"; will print "sunscreen" instead of coat/*
+
 ----------------------------
 Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
@@ -47,8 +49,17 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters == 0) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters == 1) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters == 2) {
+  console.log("I have enough money for a gumball");
+} else if (numQuarters >= 3) {
+  console.log("I have enough money for a gumball");
+}
+
+Using the parameters above with the numQuarters being 0 we will get a result of "I don't have enough money for a gumball"
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -62,5 +73,19 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
-var hasSauce = true;
+var cupsOfFlour = 4;
+var hasSauce = false;
+
+if (cupsOfFlour == 1 && hasSauce == true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 1 && hasSauce == false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 2 && hasSauce == true) {
+  console.log("I can make pizza");
+} else if (cupsOfFlour >= 3 && hasSauce == true) {
+  console.log("I can make pizza");
+} else {
+  console.log ("I should double check my ingredients");
+}
+
+personal note: For having more than one condition use && to say "and" in the conditions, || to say "or" in the conditions
