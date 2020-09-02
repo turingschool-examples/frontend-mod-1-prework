@@ -1,7 +1,7 @@
 ## Day 5 Questions
 
 1. What is an Object, and how is it different from an Array in Javascript?
-An object is a collect of key/value pairs, as well as functions. Objects are used to group together related pieces of code by state(info) and method(function). Where as an Array is just a collection of data. 
+An object is a collect of key/value pairs, as well as functions. Objects are used to group together related pieces of code by state(info) and method(function). It is also important to use an Object when the data being stored is not all the same primitive type of data. Meaning, when some values are strings, some are numbers, and some are booleans. Where as an Array is just a collection of data, and typically only contains the same data type. 
 
 2. In the space below, create an Object stored to a variable named `petStore`.  This Object should hold an inventory of items and the number of that item that you might find at a pet store.
 
