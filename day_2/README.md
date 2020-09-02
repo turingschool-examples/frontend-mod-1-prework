@@ -68,8 +68,8 @@ The statement within the curly braces executes each time the loop runs. In this 
 1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
     1. `arrays.js`**a little touch & go, but ok**
     1. `loops.js` **easy**
-    1. `iteration.js`
-1. Answer the questions in the `questions.md` file in the day_2 directory.
+    1. `iteration.js` **I figured it out!**
+1. Answer the questions in the `questions.md` file in the day_2 directory. **done?**
 
 ## Save your work in Git
 
