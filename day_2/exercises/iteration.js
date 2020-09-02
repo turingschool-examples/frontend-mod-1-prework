@@ -28,4 +28,7 @@ for (var i = 0; i < foods.length; i++) {
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-
+var random = [1, 2, 5, 8];  
+for (var i = 0; i < random.length; i++) {
+  console.log(random[i] * 2);
+}
