@@ -31,7 +31,7 @@ if (bearChoice === 1) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
-} else if (bearClothing === 3) {
+} else if (bearChoice === 3) {
   console.log("You run as fast as you can into the next room. It's full of snakes!");
 } else {
   console.log("You stay with the bear and become it's best friend!");
@@ -41,15 +41,29 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+There are two choices, Door #1 or Door #2, the code written indicates if Door #1 is entered, bearChoice will be set to 'Hat'. Any other door (only Door #2 in this case) will result in bearChoice being set to 'scarf'
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearChoice
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+'scarf', as any doorChoice that is not equal to 1 will result in 'scarf'
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+This block of code designates 4 different outcomes for bearChoice.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+"You run as fast as you can into the next room. It's full of snakes!" (note: the original code indicated bearClothing instead of choice. I made sure to correct it so everything stayed sensical)
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+"You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+bearChoice === 3, who keeps a room full of snakes without a lock on it!?
 */
