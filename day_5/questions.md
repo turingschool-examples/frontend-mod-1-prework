@@ -20,4 +20,4 @@
 > Another example of when we might use an object is in the case of dinner reservations at a restaurant. An object would be more useful than an array because we would be able to manipulate the data within the object as circumstances changed, and/or create functions that could manipulate the data within the object to give us further information.
 
 6. What questions do you still have about Objects?
->How common is the "this" notation? I understand that we will be avoiding it for the time being for learning purposes and consistency, just curious about it's real world usage/popularity.
+> How common is the "this" notation? I understand that we will be avoiding it for the time being for learning purposes and consistency, just curious about it's real world usage/popularity.
