@@ -1,4 +1,4 @@
-## Day 4 Questions
+## Day 4 Questions 
 
 1. In your own words, what is the purpose of a function?
 
