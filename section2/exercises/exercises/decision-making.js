@@ -43,7 +43,7 @@ Questions
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
-4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
