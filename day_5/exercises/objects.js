@@ -41,5 +41,14 @@ zoo.animalType;
 
 zoo.animalType = ["lion", "tiger", "bear", "monkey", "gorilla", "elephant"];
 
+// updated property/value
 console.log(zoo.animalType);
 [ 'lion', 'tiger', 'bear', 'monkey', 'gorilla', 'elephant' ]
+
+// updated object
+console.log(zoo);
+{
+  animalType: [ 'lion', 'tiger', 'bear', 'monkey', 'gorilla', 'elephant' ],
+  numberOfAnimals: 50,
+  numberOfAnimalType: 10
+}
