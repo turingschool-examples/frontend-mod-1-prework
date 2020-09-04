@@ -8,8 +8,6 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-## Functions & Return
-
 1. Read page 88, and pages 90 through 94 from the JAVASCRIPT & JQUERY: interactive front-end web development book.
 1. Read page 98 from the JAVASCRIPT & JQUERY book and then work through the `functions-and-variables.js` file in the day_4/exercises directory to learn more about variable scoping and mutation.
 1. Read about Javscript return statements: [What is a Return Statement?](https://codeburst.io/javascript-what-is-the-return-statement-97d8b11a1a0c).

@@ -11,7 +11,7 @@ with you to be prepared based on the following conditions:
   if it is icy, log "yak traks"
 */
 
-var weather = 'snowy';
+var weather = 'sunny';
 
 if (weather == 'sunny') {
   console.log("sunscreen");
@@ -28,7 +28,7 @@ if (weather == 'sunny') {
 /*
 Manipulate the variable 'weather' to see if you can print something other
 than 'coat'
-
+Changed to sunny, I see sunscreen!
 ----------------------------
 Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
@@ -45,10 +45,13 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+};
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -62,5 +65,17 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 2;
 var hasSauce = true;
+
+if (cupsOfFlour == 1 && hasSauce == true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 1 && hasSauce == false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 2 && hasSauce == true) {
+  console.log("I can make pizza");
+} else if (cupsOfFlour >= 3 && hasSauce == true) {
+  console.log("I can make pizza");
+} else {
+  console.log("We are not Papa Johns!")
+};

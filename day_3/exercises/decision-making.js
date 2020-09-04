@@ -40,16 +40,17 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
-
+This is the 'if statement'. This statement evaulates a condition, and if it is true, then the following code block is put into play. The === means 'a strict equal to'. So it's saying, if the door that is chosen is number 1, the bear will be wearing a hat. The second keyword to look at is 'else', which means that if anything other than door 1 is chosen, the 'else' code will be executed and the bear will be wearing a scarf
 2. What variable has a new value assigned to it after the first if statement executes?
-
+bearClothing is dependent on the doorChoice if statement
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
-
+Depending on what the user inputs for the answer to line 30's if statement, the program will either print text about a passage (if user inputs 1), crying (user inputs 2), or room full of snakes (user inpust 3). For anything else that the user inputs, the
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+You will run into the next room full of snakes!!
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+You will see a bear in a hat and you will tell the bear the hat is too small. he starts to cry 
 7. What is your favorite ending?
+line 37 for sure!
 */
