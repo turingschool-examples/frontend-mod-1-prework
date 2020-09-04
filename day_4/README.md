@@ -10,13 +10,13 @@ Using your terminal, open the local copy of the repository that you created duri
 
 ## Functions & Return
 
-1. Read page 88, and pages 90 through 94 from the JAVASCRIPT & JQUERY: interactive front-end web development book.
-1. Read page 98 from the JAVASCRIPT & JQUERY book and then work through the `functions-and-variables.js` file in the day_4/exercises directory to learn more about variable scoping and mutation.
+1. Read page 88, and pages 90 through 94 from the JAVASCRIPT & JQUERY: interactive front-end web development book. **done**
+1. Read page 98 from the JAVASCRIPT & JQUERY book and then work through the `functions-and-variables.js` file in the day_4/exercises directory to learn more about variable scoping and mutation. **ok**
 1. Read about Javscript return statements: [What is a Return Statement?](https://codeburst.io/javascript-what-is-the-return-statement-97d8b11a1a0c).
 
-1. Work through the `functions.js` file in the day_4/exercises directory.
+1. Work through the `functions.js` file in the day_4/exercises directory. **complete**
 
-1. Answer the questions in the `questions.md` file in the day_4 directory.
+1. Answer the questions in the `questions.md` file in the day_4 directory. **done**
 
 ## Save your work in Git
 
