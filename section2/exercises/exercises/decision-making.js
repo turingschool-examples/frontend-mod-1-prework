@@ -37,7 +37,7 @@ if (bearChoice === 1) {
 /*
 Questions
 
-1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
 2. What variable has a new value assigned to it after the first if statement executes?
 
