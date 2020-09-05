@@ -44,3 +44,26 @@ cipher.encode("Hello World", 5); //should log "CZGGJ RJMGY"
 * What happens if the users string input includes a number?
   * Could I include a function for numbers?
   * Does Ceasar Cipher work for numbers?
+
+============================================================================================================
+
+## Checker Board
+
+**Identify the objective**
+Create a checker board. Black spaces are represented by `X` and white `" "`. Create a program that will log a checker board with a size indicated by the user.
+
+**Thoughts**
+* A checker board is a **grid**, define what a grid looks like
+  * a grid is made of rows, rows must contain `white` and `black` and `white`/`black` must alternate
+* calculating `area` will play a big part in creating the checker board
+  * in this case the user input is `size` indication `area` would be size*size
+* This could be a similar code to `fizzbuzz`, but create a loop of alternating `X` & `" "`
+
+**Psuedocode**
+
+1. Create a CheckerBoard (size) class
+2. constructor
+    * this.size: size
+    * `printBoard` function() - loop
+3. create an object `board1` assign `size`
+4. board1.printBoard();
