@@ -1,10 +1,10 @@
-# Day 5 - Objects
+# Day 5 - Objects **got it**
 
 Earlier in the week, you learned about one type of collection storage - Arrays.  Today, you will learn about another collection storage device call an Object. We use objects on a near daily basis as programmers and understanding how to build objects and how to retrieve information from an object can make your life as a programmer much easier.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Open your local copy of frontend-mod-1-prework
+## Open your local copy of frontend-mod-1-prework **easy, but is there a faster way?**
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
@@ -62,14 +62,14 @@ zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
 1. Work through these resources to gain some repetition with reading and working with objects.
-    1. Read through the [Object Literals lesson plan](https://frontend.turing.io/lessons/module-1/js-object-literals.html) and work on the [final practice provided at the end](https://repl.it/@ameseee/Partner-Practice).
-    1. Read pages 100 through 107 in the JAVASCRIPT & JQUERY: interactive front-end web development book.
+    1. Read through the [Object Literals lesson plan](https://frontend.turing.io/lessons/module-1/js-object-literals.html) and work on the [final practice provided at the end](https://repl.it/@ameseee/Partner-Practice). **done, but questions**
+    1. Read pages 100 through 107 in the JAVASCRIPT & JQUERY: interactive front-end web development book. **done**
         1. Note: You will come across the keyword `this` in the reading. `this` refers to the object that the `this` is contained in. The example in the reading uses a `hotel` object, where `checkAvailability()` uses `this.rooms` and `this.booked`. `this.rooms` refers to the **_value_** that matches the **_key_** `rooms` within the object it is contained in, which is `40`. `this.booked` refers to the **_value_** that matches the **_key_** `booked` within the object it is contained in, which is `25`. `this` is a concept that we will cover more thoroughly in class. This brief overview is provided for your comprehension of the reading.
-    1. Read through the [objects-ppt.pdf](objects-ppt.pdf). This is an excerpt from [Code School](https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-1).
+    1. Read through the [objects-ppt.pdf](objects-ppt.pdf). This is an excerpt from [Code School](https://www.pluralsight.com/courses/code-school-javascript-road-trip-part-1). **done, but why did I read that?**
 
-1. Answer the questions in the `questions.md` file in the day_5 directory.
+1. Answer the questions in the `questions.md` file in the day_5 directory. **done** 
 
-1. Work through the `objects.js` file in the day_5/exercises directory.
+1. Work through the `objects.js` file in the day_5/exercises directory. **done**
 
 ## Save your work in Git
 
