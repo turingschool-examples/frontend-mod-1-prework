@@ -190,7 +190,7 @@ In the appropriate thread in your pre-work group channel, share the following:
     - Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
     - Did you get stuck at all during this section? If so, how long did you stay stuck? How did you get un-stuck?
     - Regarding asking questions, rubber ducking and taking breaks - what is one habit you want to commit to building (or continue building) during your work on Sections 3 and 4?
-    - TODO: Add 1 tech question
+    - How would you explain the difference between an argument and a parameter? Why are they useful?
 
 ## Index Links
 
