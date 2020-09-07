@@ -20,3 +20,8 @@ var BananasLaptop = new Laptop("black", false, "lenovo", 3, ["VS code", "Ubuntu"
 var PeachesLaptop = new Laptop("white", true, "google", 1, ["Chrome", "Axiom", "Slack"]);
 
 console.log(ApplesLaptop);
+
+ApplesLaptop.downloadApplications("Farmers");
+console.log(ApplesLaptop.applications);
+
+// proof to myself that I know how to do shit! 
