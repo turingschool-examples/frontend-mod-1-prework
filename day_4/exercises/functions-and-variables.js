@@ -27,7 +27,7 @@ console.log("ourNumber value outside scopedFunction: " + ourNumber);
 What's the value of ourNumber? Still 5, because function definitions create their own scope
 that's entirely outside of the execution flow. If we move the console log into the scopedFunction...
 */
-
+/*
 var ourNumber = 5;
 
 function scopedFunction() {
@@ -49,7 +49,7 @@ does not alter the argument that is passed into it.
 Let's say we have a variable ourArray that stores an array. We'll cover arrays in more depth later as well but
 for now just remember our earlier explanation of arrays as ordered lists. Run this code to see the result.
 */
-
+/*
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray[2]);
 };
@@ -68,7 +68,7 @@ because using bracket notation to get a value from an array does not mutate the 
 There are techniques that will perform some action on the argument that mutates the caller.
 We can in fact permanently alter variables outside the function definition's scope.
 */
-
+/*
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray.pop());
 };
