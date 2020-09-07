@@ -1,0 +1,6 @@
+addit. terms I want:
+
+programmatic approach
+  computers' way to solve problems
+  specific instructions in order as machine will follow instructions without question
+    machine will follow instructions without question
