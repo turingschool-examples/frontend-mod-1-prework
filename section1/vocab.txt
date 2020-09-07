@@ -1,0 +1,28 @@
+Vocab Tech Sec 1
+command
+
+directory
+
+code comments
+
+String
+
+Number
+
+Boolean
+
+variable
+
+assignment operator
+
+re-assignment (of a variable)
+
+concatenation
+
+console.log()
+
+var
+
+true
+
+false
