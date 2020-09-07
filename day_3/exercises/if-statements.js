@@ -27,8 +27,11 @@ if (weather == 'sunny') {
 
 /*
 Manipulate the variable 'weather' to see if you can print something other
-than 'coat'
+than 'coat' */
 
+var weather = 'sunny';
+
+/*
 ----------------------------
 Using the numQuarters variable defined below, determine
 if you have enough money to buy a gumball. A gumball costs
@@ -47,8 +50,11 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 
 var numQuarters = 0;
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters > 2){
+  console.log("I have enough money for a gumball");
+} else if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+}
 
 /* ----------------------------
 Using the variables defined below, determine if you have the
@@ -64,3 +70,9 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+if (cupsOfFlour >= 2 && hasSauce == true){
+  console.log("I can make pizza");
+} else {
+  console.log("I cannot make pizza");
+}
