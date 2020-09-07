@@ -5,6 +5,7 @@ file from your terminal with the command `node day_5/exercises/objects.js`
 */
 
 // example: Write code below to print an object that holds grocery store inventory
+
 var foods = {
   apples: 23,
   grapes: 507,
@@ -13,20 +14,32 @@ var foods = {
 
 console.log(foods);
 
-// Write code below that will print an B=Object of animals and the number
+// Write code below that will print an Object of animals and the number
 // of that type of animal at the zoo. (an inventory of animals)
-var zoo = // YOUR CODE HERE
-console.log(zoo)
+
+var zoo = {
+  rhinos: 15,
+  giraffes: 25,
+  elephants: 800
+};
+
+console.log(zoo);
 
 // Using the zoo that you created above, print all the keys in the Object.
-// YOUR CODE HERE
+
+console.log(Object.keys(zoo));
 
 // Using the zoo that you created above, print all the values in the Object.
-// YOUR CODE here
+
+console.log(Object.values(zoo));
 
 // Using the zoo that you created above, print the value of the first item in
 // the Object
-// YOUR CODE HERE
+
+console.log(Object.keys(zoo) [0]);
 
 // Add an animal to the zoo Object and print the updated Object.
-// YOUR CODE HERE
+
+zoo.monkeys = 1;
+
+console.log(zoo);
