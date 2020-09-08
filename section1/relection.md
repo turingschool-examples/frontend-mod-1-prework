@@ -21,19 +21,20 @@ console.log("""Hello World!"");
 
 5. In your own words, what is a variable? How would you explain it to a 5 year old?
 
-// Variables are the items being used to modify the code
+// Variables are the changeable items being used to modify the output of the code to create a desired response.
 
 6. Think of a site or app you use frequently. What are three variables that are probably used? Which data type would each of those variables probably hold?
 
-// Spotify search for music, rock, and band. Booleans for music and rock, string for band.
+// Instagram, variables being notificaitonPresent, caption, and numberOfComments.
+notificationPresent would be a boolean to inform the user there is a notificaiton to view, the caption would be a string with the user's own words to caption their post, and numberOfComments would be a integer/number that the user can see to inform them how many comments they have received on their post.
 
 7. In your own words, explain what concatenation is.
 
-// Concatenations join the script together to create a readable output.
+// Concatenations create a string by joining two or more pieces of data together to form a readable output.
 
 8. Think of a site or app you use frequently. Where do you think the developers used concatention?
 
-// Spotify results for a search in rock for Led Zepplin. 
+// Spotify results for a search in rock for Led Zepplin.
 
 9. What questions do you still have about the work we've done so far? (not having a question is not an option)
 

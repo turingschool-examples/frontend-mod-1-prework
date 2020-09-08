@@ -49,10 +49,10 @@ Questions
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
 // The script is using the data entered to determine the course of action for the following variables.
-// If the bearChoice is equal to 1, then the string "You offer the bear your (variable bearClothing) and the bear shows you a secret passage out!" is triggered.
-// If bearChoice is equal to 2, then the string "You tell the bear the (variable bearClothing) is too small and it starts to cry!" is triggered.
-// If bearChoice is equal to 3, then the string "You run as fast as you can into the next room. It's full of snakes!" is triggered.
-// If bearChoice is equal to any other number, then the string "You stay with the bear and become it's best friend!" is triggered.
+// If the bearChoice is equal to 1, then the string "You offer the bear your (variable bearClothing) and the bear shows you a secret passage out!" is output.
+// If bearChoice is equal to 2, then the string "You tell the bear the (variable bearClothing) is too small and it starts to cry!" is output.
+// If bearChoice is equal to 3, then the string "You run as fast as you can into the next room. It's full of snakes!" is output.
+// If bearChoice is equal to any other number, then the string "You stay with the bear and become it's best friend!" is output.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 // "You run as fast as you can into the next room. It's full of snakes!"

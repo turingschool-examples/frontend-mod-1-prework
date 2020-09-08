@@ -65,11 +65,11 @@ addition(7,4)
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
-function stringExample(name1, name2) {
+function displayMarriageUpdate(name1, name2) {
   console.log(name1 + " and " + name2 + " are happily married for five years.");
 }
 
-stringExample("Gary","Alison")
+displayMarriageUpdate("Gary","Alison")
 
 //-------------------
 // PART 3: Naming is Hard
