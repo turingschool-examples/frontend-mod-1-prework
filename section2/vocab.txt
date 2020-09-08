@@ -1,4 +1,4 @@
-vocab
+vocabulary
 
 comparison operators
 strictly equal, not equal, equal, equality checks
