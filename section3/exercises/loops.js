@@ -23,9 +23,9 @@ for (var i = 0; i < 3; i++) {
 }
 
 // What is logged to the console for this second example? Why?
+// EXPLAIN:
 
-// EXPLAIN:  This logs 0, 1, 2 because it's asking to log the index i, starting at 0, going up to the limit of <3, and adding one each time.
-
+//This logs 0, 1, 2 because it's asking to log the index i, starting at 0, going up to the limit of <3, and adding one each time.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
 

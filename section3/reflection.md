@@ -29,5 +29,5 @@
 1. What questions do you still have about Arrays and loops?
 
     For key pair arrays, how do you split up what part of the array the looping functions act upon?
-    For commands that permanently change the array, what kind of backups do you have if you realize you didn't want to do that/is there an undo? Or is it always easy to just go delete the lines of code that changed the array to begin with?
     
+    For commands that permanently change the array, what kind of backups do you have if you realize you didn't want to do that/is there an undo? Or is it always easy to just go delete the lines of code that changed the array to begin with?

@@ -103,7 +103,7 @@ In the appropriate thread in your pre-work group channel, share the following:
   - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
   - Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
   - If you had to teach a 5 year old about loops, how would you explain it?
-
+  
 ## Index Links
 
 - [Vocabulary](#Vocabulary)

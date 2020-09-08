@@ -1,8 +1,8 @@
-Array Methods
+Array Methods:
 =============
 
 ##Pop
-  
+
   Removes an item from the end of an array
 
   ```
@@ -13,9 +13,9 @@ Array Methods
 
 
 ##Push
-  
+
   Adds an item to the end of an array
- 
+
   ```
   var arrayExample = [ 1, 2, 3 ]
   var arrayExample.push( 4 )
@@ -41,4 +41,3 @@ Array Methods
   var arrayExample.unshift( 4 )
   console.log(arrayExample);           //[ 4, 1, 2, 3 ]
   ```
-  

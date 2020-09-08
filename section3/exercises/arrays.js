@@ -106,7 +106,6 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // 2: Facebook friendsList = ['friend 1', 'friend 2', 'etc.']
 // 3: Facebook notifications = ['alert 1', 'alert 2', 'etc.']
 
-
 //-------------------
 // Part 4: Don't let yourself forget everything from Section 2 of Pre-work
 //-------------------
