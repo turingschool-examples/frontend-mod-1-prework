@@ -1,0 +1,56 @@
+https://dev.to/josefine/asking-better-questions-2e2k
+
+timing
+  right time to ask?
+  blocked until get answer?
+  can wait?
+
+ok (preferred?) to try to solve self first, then ask
+  remain calm and try yourself first
+  go through your options
+
+rubber-ducking (still blows me away how widespread this concept is)
+  start by ducking
+  explain and paraphrase what's going on in an attempt to gain a better understanding of what's happening
+
+focus
+  ask one question at a time (is this best?)
+
+  better way to put it: aim to only have to ask one question
+    more structured questions
+    more clearly defined thoughts as to what's going on
+
+  if you need multiple questions, you prob don't know enough to ask a question yet
+    duck, diagrams, w/e needed to get at least a better understanding and narrow down to one question
+
+actually listen to the answer
+  let go of ideas in your head of what the answer should be
+  just listen and see what you can do with the answer given
+
+  https://dev.to/mporam/its-okay-to-ask-questions-43hf
+
+  why ppl don't ask?
+    don't want to be judged
+
+    want tackle problem alone
+      want to keep satisfaction of winning
+      at some point, enough is enough
+        watch for "code-blindness"
+
+  bunch of stuff I haven't heard before:
+    agile methodology, estimating tasks
+    estimation points
+      estimate stories/tasks, have rough idea how long things should take
+    scrum master: critical part of their role
+
+  good culture around asking questions
+
+  https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6
+
+  learning will REQUIRE asking basic and (retrosp.) obv questions
+
+  chasing the answer for too long on your own is A WASTE OF TIME
+    this is the hours of searching rather than the quick, efficient search which is clear
+
+  be ok with asking dumb questions
+    try it yourself for a period of time, but when that period of time is up, go ask
