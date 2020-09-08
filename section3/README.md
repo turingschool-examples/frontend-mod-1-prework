@@ -1,6 +1,6 @@
 # Section 3 - GROWTH MINDSET, Arrays and Loops
 
-Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
+Section 3 is estimated to take a total of 6-10 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👩🏻‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 Since Arrays are a bigger topic, it is the main focus of this section. Some review work from the first two sections has been woven in so you get opportunities to continue seeing and applying those concepts, as well.
 
@@ -43,9 +43,9 @@ Then, consider on the following questions. We will ask you to share some of thes
 
 📒Read pages 70 and 72 in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
+🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Developer Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
 
-Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. 
+Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it.
 
 👩🏻‍💻Create a file in your `section3` directory called `arrayMethods.md` and describe, in your own words, what each method does.
 * Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
