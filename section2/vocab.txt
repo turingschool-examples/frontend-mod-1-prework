@@ -100,3 +100,26 @@ isHungry(1);
 questions that have come up
 thoughts, opinions, places to properly use `==`
 where use string comparison
+
+
+document.getElementById()
+method to retrieve element from webpage
+
+document.write()
+method used write data to webpage
+
+el.innerHTML() method change text of element (defined as var el) from web page
+
+el.textContent() seems to be the same as el.innerHTML(), there are differences I don't understand yet
+  textContent gets content of all elements, including <script> and <style>
+  innerText shows only "human-readable elements"
+
+  textContent returns every element in the node
+  innerText won't return text of "hidden" elements
+
+  innerText watches CSS
+    trigger reflow?
+      reflows expensive, should be avoided
+
+  altering innerText in Internet Explorer (v. 11 and below) removes child nodes from the element and destroys all descendant text nodes
+    can't be reinserted
