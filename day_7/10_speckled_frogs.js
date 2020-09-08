@@ -6,7 +6,7 @@ class Frogs {
   }
 
   changeSentence() {
-    console.log(this.startingNumberOfFrogs + " sat on a log eating some most delicious bugs. One jumped in the pool where it's nice and cool, then there " + this.endingNumberOfFrogs)
+    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs)
   }
 }
 
@@ -33,7 +33,7 @@ class Frogs {
   }
 
   changeSentence() {
-    console.log(this.startingNumberOfFrogs + " sat on a log eating some most delicious bugs. One jumped in the pool where it's nice and cool, then there " + this.endingNumberOfFrogs)
+    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs)
   }
 }
 
