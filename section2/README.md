@@ -10,7 +10,7 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 
 ## Vocabulary
 
-This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself accountable to updating definitions _as you work through this section_.
 
 ### Vocabulary Terms
 
@@ -55,9 +55,9 @@ When you are all done with the lessons, exercises, and reflection for this secti
 
 ### Operators
 
-When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
+When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators.
 
-The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators: 
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators:
 * `===` (strictly equal)
 * `!==` (not equal)
 * `>` (greater than)
@@ -143,6 +143,8 @@ Lastly, [Codecamdemy also has a good intro on JavaScript functions](https://www.
 ## Exercises
 
 At this point, you should have worked through all files in the `exercises` directory. Confirm that you have before moving on.
+
+[x] Confirmed!
 
 ## Vocabulary
 
