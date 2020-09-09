@@ -19,8 +19,8 @@ for (var i = 10; i >= 1; i--) {
   countdown[i] = i;
 }
 console.log(countdown);*/
-
-var rhyme = new Array();
+//my first attempt
+/*var rhyme = new Array();
 for (var i = 10; i > 2; i--) {
   rhyme.push(i + " speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were " + (i-1) + " speckled frogs.");
 }
@@ -28,7 +28,7 @@ for (var i=2;i>1; i--) {
   rhyme.push(i + " speckled frogs sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there was " + (i-1) + " speckled frog.")
 }
   rhyme.push("1 speckled frog sat on a log eating some most delicious bugs. One jumped in the pool where its nice and cool, then there were no more speckled frogs!")
-console.log(rhyme);
+console.log(rhyme);*/
 
 //I couldn't figure out how to make the Array print without /n and a + when i went back and added them into my code. I removed the line breaks from this code, so it would print more cohesively. I realized that I could probably combine the final two stanzas into one string rather than running a loop that will only print one output because that seems a bit excessive, but it was nice to practice with loop syntax and I taught myself how to use decremeters which was helpful.
 //I also realized that I could use the code I wrote in extension 1 to write the integer based poem with line breaks as well, so i've included both ways. Function version is below! (once again, could probably simplify the code to be one function and one string variable that includes the last two stanzas but the practice was good for me!)
@@ -58,4 +58,4 @@ var story = new Array(getRhyme("Ten","nine"), getRhyme ("Nine", "eight"), getRhy
 
 /*### Extension 2
 Make your program work for any number of frogs.*/
-//Using the function based code I've written above, you could input any number of frogs into the function "getRyhme" and call the function with applicable arguments in the story array. If I were to do this, I would have to add a third function that encompassed the final stanza. I keep thinking there must be a simpler way to do this but I can't sort it out. 
+//Using the function based code I've written above, you could input any number of frogs into the function "getRyhme" and call the function with applicable arguments in the story array. If I were to do this, I would have to add a third function that encompassed the final stanza. I keep thinking there must be a simpler way to do this but I can't sort it out.
