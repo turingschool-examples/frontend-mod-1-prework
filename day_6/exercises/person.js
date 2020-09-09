@@ -8,4 +8,34 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, age, hobbies, married) {
+    this.name = name;
+    this.age = age;
+    this.hobbies = hobbies
+    this.married = false;
+  }
+
+  celebrateBirthday() {
+    this.age = (this.age + 1);
+    console.log('Happy Birthday!')
+  }
+
+  elope() {
+    this.married = true;
+    console.log('Congrats Newlyweds!')
+  }
+};
+
+var samantha = new Person('Samantha', 30, ['biking', 'hiking', 'raking', 'baking'], false)
+
+console.log(samantha.name);
+console.log(samantha.age);
+console.log(samantha.hobbies);
+console.log(samantha.married);
+
+samantha.celebrateBirthday();
+samantha.elope();
+
+console.log(samantha.age);
+console.log(samantha.married);

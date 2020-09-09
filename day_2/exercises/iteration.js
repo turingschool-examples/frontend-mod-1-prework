@@ -6,6 +6,7 @@ file from your terminal with the command `node day_2/exercises/iteration.js`
 
 // example: Write code below that iterates through a list of animals and print
 // each animal.
+
 var animals = ["Zebra", "Giraffe", "Elephant"];
 
 for (var i = 0; i < animals.length; i++) {
@@ -16,13 +17,23 @@ for (var i = 0; i < animals.length; i++) {
 // <animal> is awesome!" for each animal.
 
 for (var i = 0; i < animals.length; i++) {
-  // YOUR CODE HERE
+  console.log("The " + animals[i] + " is awesome!");
 }
 
 // Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-// YOUR CODE HERE
+
+var groceries = ['Milk', 'Cheese', 'Sour Cream', 'Cream Cheese'];
+
+for (var i = 0; i < groceries.length; i++) {
+  console.log('Add ' + groceries[i] + ' to shopping list');
+}
 
 // Create an array of numbers and then iterate over that array to log doubles
 // of each of the number.
-// YOUR CODE HERE
+
+var numbers = [4, 42, 23, 33]
+
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i] * 2);
+}
