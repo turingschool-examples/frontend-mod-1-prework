@@ -1,6 +1,6 @@
 # Section 4 - Objects, Classes and Code Challenges
 
-Section 4 is estimated to take a total of 10-14 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏾‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline. 
+Section 4 is estimated to take a total of 10-14 hours to complete. Similar to the previous sections, this section of pre-work involves reading (both from this document as well as the 📒John Duckett book), 👨🏾‍💻exercises, and 📝reflection questions. Make sure to manage your time well so that should you get stuck and need help, you have plenty of time to do so and meet the deadline.
 
 - [Vocabulary](#Vocabulary)
 - [Part A: How You Spend Your Time](#Part-A-How-You-Spend-Your-Time)
@@ -60,7 +60,7 @@ var zebraInfo = {
 };
 ```
 
-In the `zebraInfo`, we store information about a Zebra. This object contains 3 **_key-value pairs_**. In `zebraInfo` the first **_key-value pair_** is `name: "Angela"`. The **_key_** is `name`. The **_value_** is `"Angela"`. A **_value_** can hold any data type. 
+In the `zebraInfo`, we store information about a Zebra. This object contains 3 **_key-value pairs_**. In `zebraInfo` the first **_key-value pair_** is `name: "Angela"`. The **_key_** is `name`. The **_value_** is `"Angela"`. A **_value_** can hold any data type.
 
 In the code snippet below, we declare a similar variable, but this time have an additional **_key-value pair_** with a **_key_** of `diet` and a **_value_** that is an Array.
 
@@ -133,7 +133,7 @@ Classes can serve as object factories (we can even think of them as cookie cutte
 - Think of a car factory. It is set up to install engines, mount 4 wheels, attach doors and spray a nice of of paint. But the size of the engine, type of wheels, number of doors, and paint color may all differ from car to car.
 - Think of a cookie cutter. It's a piece of metal that has a specific shape. each cookie made from it will take that shape. But, the type of dough can differ, and so can the cookie toppings.
 
-**Syntax:** A class is defined using the `class` keyword, followed by the ClassName (using [Pascal Case](https://techterms.com/definition/pascalcase#:~:text=PascalCase%20is%20a%20naming%20convention,in%20PascalCase%20is%20always%20capitalized.)), then an opening and closing curly brace. 
+**Syntax:** A class is defined using the `class` keyword, followed by the ClassName (using [Pascal Case](https://techterms.com/definition/pascalcase#:~:text=PascalCase%20is%20a%20naming%20convention,in%20PascalCase%20is%20always%20capitalized.)), then an opening and closing curly brace.
 
 **Naming:** Class names should be a singular noun (thing). Because classes are the factories for future objects, they we name them after the general object they are creating. A couple of examples follow:
 - If you are going to create a class for cars (eventually, specific types of cars) use the name `Car`
