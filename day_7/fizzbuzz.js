@@ -13,8 +13,8 @@ For all other numbers, log the number
 
 function fizzBuzz (lowNum, highNum) {
   for (lowNum; lowNum <= highNum; lowNum++) {
-    num3 = lowNum / 3;
-    num5 = lowNum / 5;
+    var num3 = lowNum / 3;
+    var num5 = lowNum / 5;
     if (Number.isInteger(num3) === true && Number.isInteger(num5) === true) {
       console.log("FizzBuzz");
     } else if (Number.isInteger(num3) === true && Number.isInteger(num5) === false){
