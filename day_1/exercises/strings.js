@@ -5,7 +5,7 @@ file from your terminal with the command `node day_1/exercises/strings.js`
 */
 
 // example: Write code below to log your name in the console:
-console.log("Alan Turing");
+console.log("Kristen Bair");
 
 // Write code below to log `Welcome to Turing!` in the console:
 console.log('Welcome to Turing!');
