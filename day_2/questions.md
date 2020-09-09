@@ -20,17 +20,17 @@
 
 5. What are the boolean values in JavaScript?
 
->Basic or "primitive" boolean values are true or false, but because JavaScript is capabale of type coercion every value in JS can be treated as if it were true or false. Falsy or Truthy values. Falsy is generally equated to 0, Truthy as 1.
+>Basic or "primitive" boolean values are true or false, or yes or no, but because JavaScript is capable of type coercion every value in JS can be treated as if it were true or false. Falsy or Truthy values. Falsy is generally equated to 0, Truthy as 1.
 
 6. In JavaScript, how would you evaluate if `2` is equal to `25`? What is the result of this evaluation?
 
 > var answer = (2 == 25); <br>
 > console.log(answer); <br>
-> result is false
+> // result is false
 
 
 7. In JavaScript, how would you evaluate if `25` is greater than `2`? What is the result of this evaluation?
 
 > var answer = (25 > 2); <br>
 > console.log(answer); <br>
-> result is true  
+> // result is true  

@@ -38,8 +38,8 @@ animals.push("Gorilla");
 console.log(animals);
 
 // Write code below that will log the last item from the foods array.
-var firstFood = foods[0];
-console.log(firstFood);
+var lastFood = foods[foods.length-1];
+console.log(lastFood);
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the changed array to verify "lion" has been added
