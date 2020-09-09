@@ -8,4 +8,22 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(isAlive, isHungry){
+    this.alive = isAlive
+    this.hungry = isHungry
+  }
+  eat(){
+    this.hungry = false
+  }
+  die(){
+    this.alive = false
+  }
+}
+
+var bob = new Person(true, true)
+console.log(bob)
+bob.eat()
+console.log(bob)
+bob.die()
+console.log(bob)
