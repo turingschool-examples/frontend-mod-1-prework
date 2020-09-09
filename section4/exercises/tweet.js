@@ -9,5 +9,9 @@ tweet object instances _behave_ as expected.
 */
 
 class Tweet {
-
+  author:
+  content:
+  timeStamp:
+  numberOfLikes:
+  comments:
 }

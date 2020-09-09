@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
