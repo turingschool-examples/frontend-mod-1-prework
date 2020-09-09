@@ -1,4 +1,6 @@
 
+// REQUIRED:
+
 class Frogs {
   constructor(startingNumberOfFrogs, endingNumberOfFrogs) {
     this.startingNumberOfFrogs = startingNumberOfFrogs;
@@ -6,7 +8,7 @@ class Frogs {
   }
 
   changeSentence() {
-    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs)
+    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs + "\n")
   }
 }
 
@@ -24,7 +26,8 @@ var frog10 = new Frogs("1 speckled frog", "were no more speckled frogs!")
 console.log(frog1.changeSentence(), frog2.changeSentence(), frog3.changeSentence(), frog4.changeSentence(), frog5.changeSentence(), frog6.changeSentence(), frog7.changeSentence(), frog8.changeSentence(), frog9.changeSentence(), frog10.changeSentence());
 
 
-// Extension 1
+// EXTENSION 1:
+
 
 class Frogs {
   constructor(startingNumberOfFrogs, endingNumberOfFrogs) {
@@ -33,7 +36,7 @@ class Frogs {
   }
 
   changeSentence() {
-    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs)
+    console.log(this.startingNumberOfFrogs + " sat on a log\neating some most delicious bugs.\nOne jumped in the pool where it's nice and cool,\nthen there " + this.endingNumberOfFrogs + "\n")
   }
 }
 
