@@ -8,8 +8,8 @@
 
 3. What is the JavaScript syntax for an `if` statement?
 > if ('condition') { <br>
->  console.log("one output") <br>
->} else { <br>
+>  console.log("one output")  //this will run if the condition is true<br>
+>} else { //This will run if the condition is false <br>
 >  console.log("other output") <br>
 >}
 
@@ -28,4 +28,4 @@
 >}
 
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
->Perhaps something that doesn't just tell the program which code block to run, but with its condition could tell the program to run a whole set or code blocks to run, or activate a different set of choices for the program to work through.
+>Perhaps something that doesn't just tell the program which code block to run, but with its condition could tell the program to run a whole set of code blocks to run, or activate a different set of choices for the program to work through.

@@ -58,7 +58,7 @@ The code here is written in a else/if format, which means it has different outpu
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
 Changing bearChoice to === 3, should make the final outcome: "You run as fast as you can into the next room. It's full of snakes!", however no matter how I ran the code I couldn't get it to output that value. When I ran it an input of bearChoice === 1 gave me "You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!"); When I ran an input of bearChoice === 2, I got the output of "You tell the bear the " + bearClothing + " is too small and it starts to cry!" but any other input, including bearChoice === 3 gave me "You stay with the bear and become it's best friend!". Not sure why!
-I JUST FIGURED IT OUT! the third else if statement has "bearClothing === 3" as the condition, not bearChoice!
+I JUST FIGURED IT OUT! the third else if statement has "bearClothing === 3" as the condition, not bearChoice! I changed it to make the code run correctly!
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
