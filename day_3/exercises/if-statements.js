@@ -69,18 +69,15 @@ When cupsOfFlour = 2 and hasSauce = true, your program should log "I can make pi
 When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pizza";
 */
 
-var cupsOfFlour = 3;
-var hasSauce = true;
+var cupsOfFlour = 1;
+var hasSauce = false;
 
 if (cupsOfFlour == 1 && hasSauce == true) {
   console.log("I cannot make pizza")
-}
-if (cupsOfFlour == 1 && hasSauce == false) {
+} else if (cupsOfFlour == 1 && hasSauce == false) {
   console.log("I cannot make pizza")
-}
-if (cupsOfFlour == 2 && hasSauce == true) {
+} else if (cupsOfFlour == 2 && hasSauce == true) {
   console.log("I can make pizza")
-}
-if (cupsOfFlour == 3 && hasSauce == true) {
+} else if (cupsOfFlour == 3 && hasSauce == true) {
   console.log("I can make pizza")
 }
