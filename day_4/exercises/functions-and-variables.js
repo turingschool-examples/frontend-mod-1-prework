@@ -57,6 +57,7 @@ function getLastValue(functionArray) {
 var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
+
 console.log("Check the array after calling getLastValue: " + ourArray);
 
 /*
@@ -70,7 +71,7 @@ We can in fact permanently alter variables outside the function definition's sco
 */
 
 function getLastValue(functionArray) {
-  console.log("The value of the last index in my array is: " + functionArray.pop());
+  console.log("The value of the first index in my array is: " + functionArray.shift());
 };
 
 var ourArray = [1, 2, 3];
