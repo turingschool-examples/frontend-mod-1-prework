@@ -32,4 +32,4 @@ function frogRhyme(totalFrogs){
   }
 }
 
-console.log(frogRhyme(15))
+frogRhyme(15)
