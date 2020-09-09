@@ -12,7 +12,7 @@
 
 5. The checker board program can now be run for any size board desired! Simply change the value of the variable `size` and run the code to output the board.
 
-###Caesar Cipher
+### Caesar Cipher
 
 1. In order to use the Caesar Cipher encoding technique, we first need to define a **function** `caesarCipher` that has the parameters `string` and `shiftValue`. The function will take the `string` that is input and return a new string based on the `shiftValue` given (the `shiftValue` is the number of spaces a letter in the alphabet should shift to either the left or right).
 
