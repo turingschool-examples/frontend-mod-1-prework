@@ -15,7 +15,7 @@
   }`
 
 4. How do you add multiple conditions to an `if` statement?  
--Using the `&&` (and) or `||` (or) operators.  
+- Using the `&&` (and) or `||` (or) operators.  
 
 5. What is the JavaScript syntax for an `if/else` statement?    
 - `if (condition){
