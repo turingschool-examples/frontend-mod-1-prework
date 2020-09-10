@@ -41,3 +41,42 @@ for (var i = 1; i <= 100; i++) {
 //neither multiples of 3 or 5, done
 
 //but fizzbuzz, done! It was all about reordering!
+
+//BONUS: how can I make the program so that it runs for any range of numbers? Create a class! 
+
+//Below is my solution to the bonus. However, I keep getting an "undefined" as the last elemnt in my array, why?
+
+class FizzBuzz {
+    function(startValue, endValue) {
+        this.startValue = startValue;
+        this.endValue = endValue;
+
+        var userValues = [];
+
+        for (var u = this.startValue; u <= this.endValue; u++) {
+            userValues.push(u);
+        }
+
+
+        for (var i = this.startValue; i <= this.endValue; i++) {
+
+            if (i % 3 == 0 && i % 5 == 0) {
+                console.log("FizzBuzz");
+            }
+
+            else if (i % 3 === 0) {
+                console.log("Fizz");
+            }
+            else if (i % 5 === 0) {
+                console.log("Buzz");
+            }
+            else if (i % 5 !== 0 || i % 3 !== 0) {
+                console.log(i);
+            }
+
+        }
+    }
+}
+
+var myString = new FizzBuzz();
+console.log(myString.function(15, 85));

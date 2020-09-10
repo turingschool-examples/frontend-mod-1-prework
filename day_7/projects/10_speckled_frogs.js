@@ -66,3 +66,6 @@ for (var i = 10; i >= 1; i--) {
 }
 
 // basic completed.
+
+// extension 1: print word versions rather than numerals. 
+// this would mean creating an array with each? Or is there a way I can create a loop that'll do it for me? 
