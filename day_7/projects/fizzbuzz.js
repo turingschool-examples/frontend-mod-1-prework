@@ -53,8 +53,8 @@ class FizzBuzz {
 
         var userValues = [];
 
-        for (var u = this.startValue; u <= this.endValue; u++) {
-            userValues.push(u);
+        for (var i = this.startValue; i < this.endValue; i++) {
+            userValues.push(i);
         }
 
 
@@ -79,4 +79,6 @@ class FizzBuzz {
 }
 
 var myString = new FizzBuzz();
-console.log(myString.function(15, 85));
+myString.function(15, 85);
+
+// undefined error solved, when calling functions, console.log might not always be necessary.
