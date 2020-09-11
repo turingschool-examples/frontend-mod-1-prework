@@ -3,7 +3,10 @@ console.log the nursery rhyme
 keep the line breaks
 have the number of stanzas be the number of frogs-1
 change number of frogs within
-last stanza is differnt ending line
+last 2 stanzas are different ending lines
+
+
+I could not figure out a clean way to do the change to text numbers, it seems like installing a package would be easiest; at least for ANY number of frogs.
 */
 
 function frogRhyme(numberOfFrogs) {

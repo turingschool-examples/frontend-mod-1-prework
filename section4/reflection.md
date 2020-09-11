@@ -56,6 +56,10 @@
 
 1. What questions do you still have about classes and/or Objects?
 
+<<<<<<< HEAD
    Any tips on good habits to check naming and redundancy besides just practicing? Those are the hardest parts for me.
 
    Is there a way to automate object creation? Maybe a for loop with something that creates a unique variable name? Is this what happens in these big programs?
+=======
+   How
+>>>>>>> 610d421b6aa1b144133cf134280d973249903d7d
