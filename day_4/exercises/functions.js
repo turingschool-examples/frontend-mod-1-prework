@@ -44,5 +44,6 @@ function bestFriendsClub(myCharacter, bestFriend1, bestFriend2, bestFriend3, bes
 
 bestFriendsClub()
 
-//For context, the variables listed above are all names of D&D characters in my weekly game, and Best Friends Club is the name of our adventuring party.
-// YOUR CODE HERE
+/*I decided to use more than two strings for the above exercise. For context, the variables listed above
+are all names of D&D characters in my weekly game, and Best Friends Club is the name of our adventuring party.
+*/
