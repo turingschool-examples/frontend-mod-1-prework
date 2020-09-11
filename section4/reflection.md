@@ -2,7 +2,11 @@
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
 
+    It went well, I got kind of distracted during the Pomodoro but I did try. It's hard because I would set a time for "read this README" and it would have links on it or tell me to go do exercises and I wasn't sure if I should reset or what. Overall, I did have a good wakeup to how long it actually took me and how unfocused my workflow generally is. I managed to get a lot done this week, but if it was due to the technique or just my fear of upcoming deadlines is hard to say. I do think a timer other than my phone would've been better, as I ended up checking notifications when I went to reset my timer.
+
 1. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
+
+    I was surprised by how short some of the exercises were compared to others. Some that looked like they would not take long ended up sucking a lot of time, and others went super fast. I was working on some of the final project exercises too and it was really varied how long it took me. I'm surprised by how often I had the urge to even just tab around on my browser or desktop to other programs within one set. It's like I rely on having 20 things open at once and going in circles between my instructions, my text editor, my terminal, my google help pages, and trying to long-term focus on one thing is difficult. My laptop died for a while when I was working on a Ceasar Cipher and it actually really helped to not have the ability to code for a bit, and just think about what was actually messing me up.
 
 1. What is an Object, and how is it different from an Array in Javascript?
 
@@ -36,4 +40,22 @@
 
 1. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
 
+    An email might be an object in a website I use a lot. The keys with examples on it might be:
+
+    Object:  Email {
+     sender: 'Alice'
+     Cc: 'Bob'
+     Bcc: ''
+     size: 50
+     subject: 'Homework'
+     date: '10/22/2019'
+     message: 'Do it now.'
+     attachments: false
+     Unread: true
+   }
+
 1. What questions do you still have about classes and/or Objects?
+
+   Any tips on good habits to check naming and redundancy besides just practicing? Those are the hardest parts for me.
+
+   Is there a way to automate object creation? Maybe a for loop with something that creates a unique variable name? Is this what happens in these big programs?

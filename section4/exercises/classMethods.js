@@ -27,13 +27,35 @@ Make sure to run the file with node in your command line.
 // Call the `addTopping` method on two burritos, then log the burritos to verify
 // that the proteins have been changed.
 
+//^^^^^'addTopping' method won't change the proteins, btw, but I will assume you meant toppings
+
 class Burrito {
-  constructor(protein, base) {
+  constructor(protein, base, toppings) {
     this.protein = protein;
     this.base = base;
+    this.toppings = toppings;
   }
 
-  // ADD CODE
+  changeProtein(newProtein) {
+    this.protein = newProtein;
+  }
+
+  addTopping(topping) {
+    this.toppings.push(topping);
+  }
 };
 
-// ADD CODE
+let burrito1 = new Burrito('beans', 'white tortilla', [ 'cheese', 'salsa', 'sour cream' ]);
+
+burrito1.changeProtein('steak');
+console.log(burrito1);
+
+let burrito2 = new Burrito('chicken', 'wheat tortilla', ['cheese', 'lettuce', 'avocado']);
+
+burrito2.addTopping('salsa');
+console.log(burrito2);
+
+let burrito3 = new Burrito('chorizo', 'bowl', ['green chili', 'jalapenos', 'sour cream']);
+
+burrito3.addTopping('cheese');
+console.log(burrito3);
