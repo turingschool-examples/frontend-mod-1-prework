@@ -26,3 +26,6 @@ var brianForbes = new person
 
 brianForbes.woodShopAccident(9)
 console.log(brianForbes.numberOfDigits)
+
+brianForbes.takeBath()
+console.log(brianForbes.bodyOdor)
