@@ -28,6 +28,8 @@
 
 1. What questions do you still have about Arrays and loops?
 
-    For key pair arrays, how do you split up what part of the array the looping functions act upon?
-    
+    For key pair arrays, how do you split up what part of the array the looping functions act upon? For instance, if I had an array of objects, but I wanted to act on only one attribute of each, could I just call out that attribute? So if I have a class of boxes with a height attribute, could I just say `box[i].height + 1` or something within my for loop?
+
+    Also, how do you loop in a multidimensional array or matrix? Do you nest your for loops?
+
     For commands that permanently change the array, what kind of backups do you have if you realize you didn't want to do that/is there an undo? Or is it always easy to just go delete the lines of code that changed the array to begin with?

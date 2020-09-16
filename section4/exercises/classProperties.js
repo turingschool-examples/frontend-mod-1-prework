@@ -23,8 +23,8 @@ class Dog {
   }
 };
 
-let dog1 = new Dog;
-let dog2 = new Dog;
+const dog1 = new Dog;
+const dog2 = new Dog;
 console.log(dog1);
 console.log(dog2);
 
@@ -36,8 +36,8 @@ class Snack {
   }
 };
 
-let snack1 = new Snack;
-let snack2 = new Snack;
+const snack1 = new Snack;
+const snack2 = new Snack;
 console.log(snack1);
 console.log(snack2);
 
@@ -49,8 +49,8 @@ class Shirt {
   }
 };
 
-let shirt1 = new Shirt;
-let shirt2 = new Shirt;
+const shirt1 = new Shirt;
+const shirt2 = new Shirt;
 console.log(shirt1);
 console.log(shirt2);
 
@@ -76,7 +76,7 @@ class Dog {
   }
 };
 
-let dog1 = new Dog('husky', 'white', 'medium');
+const dog1 = new Dog('husky', 'white', 'medium');
 console.log(dog1);
 
 
@@ -91,7 +91,7 @@ class Snack {
   }
 };
 
-let snack1 = new Snack( 'crackers', 3.99, 305);
+const snack1 = new Snack( 'crackers', 3.99, 305);
 console.log(snack1);
 
 
@@ -105,7 +105,7 @@ class Shirt {
   }
 };
 
-let shirt1 = new Shirt('yellow', 'linen', 'M');
+const shirt1 = new Shirt('yellow', 'linen', 'M');
 console.log(shirt1);
 
 
@@ -131,8 +131,8 @@ class Dog {
   }
 };
 
-let dog1 = new Dog('dalamation', 'spotted', 'short');
-let dog2 = new Dog('lab', 'brown', 'medium');
+const dog1 = new Dog('dalamation', 'spotted', 'short');
+const dog2 = new Dog('lab', 'brown', 'medium');
 console.log(dog1);
 console.log(dog2);
 
@@ -146,8 +146,8 @@ class Snack {
   }
 };
 
-let snack1 = new Snack( 'grapes', 1.50, 25);
-let snack2 = new Snack( 'Nutter Butter', 2.99, 200);
+const snack1 = new Snack( 'grapes', 1.50, 25);
+const snack2 = new Snack( 'Nutter Butter', 2.99, 200);
 console.log(snack1);
 console.log(snack2);
 
@@ -161,7 +161,7 @@ class Shirt {
   }
 };
 
-let shirt1 = new Shirt('green', 'cotton', 'L');
-let shirt2 = new Shirt('blue', 'nylon', 'S');
+const shirt1 = new Shirt('green', 'cotton', 'L');
+const shirt2 = new Shirt('blue', 'nylon', 'S');
 console.log(shirt1);
 console.log(shirt2);

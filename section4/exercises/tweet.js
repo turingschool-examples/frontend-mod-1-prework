@@ -18,7 +18,7 @@ class Tweet {
   }
 
   addLike() {
-    return (this.numberOfLikes++);
+    return this.numberOfLikes++;
   }
 
   addComment(comment) {

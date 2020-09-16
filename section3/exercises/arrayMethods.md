@@ -7,7 +7,7 @@ Array Methods:
 
   ```
   var arrayExample = [ 1, 2, 3 ]
-  var arrayExample.pop()
+  arrayExample.pop()
   console.log(arrayExample);           //[ 1, 2 ]
   ```
 
@@ -18,7 +18,7 @@ Array Methods:
 
   ```
   var arrayExample = [ 1, 2, 3 ]
-  var arrayExample.push( 4 )
+  arrayExample.push( 4 )
   console.log(arrayExample);           //[ 1, 2, 3, 4 ]
   ```
 
@@ -28,7 +28,7 @@ Array Methods:
 
   ```
   var arrayExample = [ 1, 2, 3 ]
-  var arrayExample.shift()
+  arrayExample.shift()
   console.log(arrayExample);           //[ 2, 3 ]
   ```
 
@@ -38,6 +38,6 @@ Array Methods:
 
   ```
   var arrayExample = [ 1, 2, 3 ]
-  var arrayExample.unshift( 4 )
+  arrayExample.unshift(4)
   console.log(arrayExample);           //[ 4, 1, 2, 3 ]
   ```

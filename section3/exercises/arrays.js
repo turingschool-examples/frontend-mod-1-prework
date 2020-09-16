@@ -77,6 +77,8 @@ let moreFoods = [ ...foods, 'cookies', 'carrots', 'cake']
 foods = moreFoods
 console.log(foods)
 
+//the spread operator ...foods used above references the foods array without having to reference everything in it individually. It can also be used with iterables/array expressions/strings to represent where more arguments or elements would be expected. It can have more effects so if it's a multidimensional array, this method of concatenating wouldn't work, but for this purposes with array literals it's pretty sleek!  source: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
 // YOU DO: Remove the food that is in index position 0.
 
 foods.shift()
