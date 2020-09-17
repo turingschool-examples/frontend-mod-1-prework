@@ -27,7 +27,7 @@ function frogs(numInitialFrogs) {
 
 
   // rhyme contains the entire string, not yet formatted
-  // return rhyme;
+  return rhyme;
 }
 
 // iterate through whole string,
