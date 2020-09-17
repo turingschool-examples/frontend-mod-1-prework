@@ -27,7 +27,7 @@ function frogs(numInitialFrogs) {
 
 
   // rhyme contains the entire string, not yet formatted
-  return rhyme;
+  // return rhyme;
 }
 
 // iterate through whole string,
@@ -79,9 +79,44 @@ function numToString(num) {
     9 : 'ninety'
   };
 
+  var above = ['hundred', 'thousand', 'million', 'billion'];
+
   var orig = num;
   num = JSON.stringify(num);
   var length = num.length;
+  if (length >= 3) {
+    var onesAndTens = num.slice(-2);
+    var rest = num.slice(0, -2);
+    console.log(rest);
+    if (teens[onesAndTens] !== undefined) {
+      var totalOnesTens = teens[onesAndTens];
+    } else {
+      var setTens = onesAndTens[0];
+      var localTens = tens[setTens];
+      var setOnes = onesAndTens[1];
+      var localOnes = ones[setOnes];
+      var totalOnesTens = `${localTens}-${localOnes}`;
+      if (localOnes === '' || localTens === '') {
+        if (localOnes === '' && localTens === '') {
+          var formatHundredth = `${ones[rest]} ${above[0]}`;
+          return formatHundredth;
+        }
+        if (localOnes === '') {
+          totalOnesTens = `${localTens}`;
+        }
+        if (localTens === '') {
+          totalOnesTens = `${localOnes}`;
+        }
+      }
+    }
+
+    var hundredths = rest[rest.length - 1]; // given string version of the number in the hundreds spot
+    var formatHundredth = `${ones[hundredths]} ${above[0]}`;
+
+
+    return `${formatHundredth} ${totalOnesTens}`
+  }
+
   if (length === 1) {
     return ones[num];
   }
@@ -105,4 +140,4 @@ function numToString(num) {
 
 
 // frogs(10);
-frogs(99);
+frogs(234);
