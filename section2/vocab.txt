@@ -1,0 +1,125 @@
+vocabulary
+
+comparison operators
+strictly equal, not equal, equal, equality checks
+the greaters and lesses, comparison checks
+  comparisons convert null to number, treat as 0
+
+```javascript
+console.log(null > 0); // false
+console.log(null == 0); // false
+console.log(null >= 0); // true
+```
+
+always results in true or false
+  string comparison?
+    compared by their spot in the index table thing
+
+
+logical operators
+&& and ||
+operators that work based on boolean logic
+
+```javascript
+'foo' && 'bar'; // 'bar'
+'bar' && 'foo'; // 'foo'
+'foo' && ''; // '';
+'' && 'foo'; // '';
+
+'foo' || 'bar'; // 'foo'
+'bar' || 'foo'; // 'bar'
+'foo' || ''; // 'foo'
+'' || 'foo'; // 'foo'
+```
+
+condition
+  that which is passed to an if statement and evaluated
+  evaluation must be either true or false
+    except in the case above?
+
+conditionals
+  if statements
+
+returning true or false
+  conditional statements evaluate to either true or false
+
+if statements
+  conditional statements
+
+function
+  series of code that you can store for repeated use
+  is used via a "call to the function"
+
+argument
+  the data passed to the function in an actual function call
+
+parameter
+  the data a function expects to take in, acts as a form of variable just for the function itself (not global)
+
+JS
+if
+```javascript
+var hungry = true;
+if (hungry) {
+  console.log('then eat something, NERD');
+}
+```
+
+else if
+var hungry = false;
+var thirsty = true;
+if (hungry) {
+  console.log('then eat something, NERD')
+} else if (thirsty) {
+  console.log('go get some water, NERD');
+}
+
+else
+hungry = true;
+if (hungry) {
+  console.log("haven't we done this before?");
+} else {
+  console.log("nvm...");
+}
+
+function
+function isHungry(hungerLevel) {
+  if (hungerLevel < 2) {
+    return `Skip lunch. You're fine, NERD.`;
+  } else if (hungerLevel >= 2 && hungerLevel < 7) {
+    return `Eat now. Dew it!`;
+  } else if (hungerLevel >= 7) {
+    return `Starving artists are just not in style anymore...`;
+  }
+}
+
+isHungry(6);
+isHungry(11);
+isHungry(1);
+
+questions that have come up
+thoughts, opinions, places to properly use `==`
+where use string comparison
+
+
+document.getElementById()
+method to retrieve element from webpage
+
+document.write()
+method used write data to webpage
+
+el.innerHTML() method change text of element (defined as var el) from web page
+
+el.textContent() seems to be the same as el.innerHTML(), there are differences I don't understand yet
+  textContent gets content of all elements, including <script> and <style>
+  innerText shows only "human-readable elements"
+
+  textContent returns every element in the node
+  innerText won't return text of "hidden" elements
+
+  innerText watches CSS
+    trigger reflow?
+      reflows expensive, should be avoided
+
+  altering innerText in Internet Explorer (v. 11 and below) removes child nodes from the element and destroys all descendant text nodes
+    can't be reinserted
