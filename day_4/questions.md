@@ -27,9 +27,9 @@ helloSomeone('Chad');
 ```
 
 6. How would you _call_ or _execute_ the function that you created above?
-name('Sam');
+`name('Sam');`
 
-helloSomeone('Chad');
+`helloSomeone('Chad');`
 
 7. What questions do you still have about functions in JavaScript?
 This was very confusing - I had to do a lot of video tutorials and CodeAcademy in order to finish the assignment. For future classes, I would recommend linking the CodeAcademy lesson to the functions-and-variables.js?
