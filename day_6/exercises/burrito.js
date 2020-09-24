@@ -21,8 +21,8 @@ class Burrito {
     this.toppings.push(topping);
   }
 
-  removeTopping(topping) {
-    this.toppings.pop(topping);
+  removeTopping() {
+    this.toppings.pop();
   }
 
   changeProtein(newProtein) {
