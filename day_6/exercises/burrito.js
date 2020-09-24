@@ -26,17 +26,17 @@ class Burrito {
   }
 
   changeProtein() {
-    this.protein = this.protein.replace("Beans", "Beef");
+    this.protein = "Steak";
   }
 };
 
 var dinner = new Burrito("Beans", "Rice", ["cheese", "salsa", "guacamole"]);
 
+
 dinner.addTopping();
-console.log(dinner.toppings);
-
 dinner.removeTopping();
-console.log(dinner.toppings);
-
 dinner.changeProtein();
+
 console.log(dinner.protein);
+console.log(dinner.base);
+console.log(dinner.toppings);
