@@ -10,7 +10,7 @@ Section 1 is estimated to take a total of 6-10 hours to complete. Part C is the 
 
 ## Vocabulary
 
-If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully. 
+If you've talked to any alum or near-alum of Turing, one thing they likely shared is "Turing teaches you how to learn". For creators of tech, the learning never ends. Not after graduating a program, not after 20 years of experience. We will provide more support as you are starting out, then release some of that support so you are equipped to learn on your own once you graduate. While we provide more support at the beginning, we also intentionally support you in building skills and habits that will help you do that successfully.
 
 One of those pieces is in how developers approach vocabulary. Knowing technical vocabulary will allow you to get more out of reading doucmentation and tutorials, and will allow you to communicate well with teams and ask good questions when you need help. Each section of your pre-work (and each lesson once you start Mod 1) will start with a vocabulary section. We don't always give you the definitions - this is intentional. You will create your own definition after having several opportunities to read definitions and see examples.
 
@@ -18,7 +18,7 @@ Here's what we ask you do:
 - Find a special spot in your notebook for vocabulary and JavaScript reserved keywords. Mark it with a post-it or bookmark, so it's easy to find and come back to
 - When you start a new section of pre-work, write down each term. Leave plenty of space for (future) notes
 - As you read and work through the material you will come across definitions and build an understanding of these terms. Write in definitions, draw diagrams, write out relevant code snippets, etc. If you complete a section and don't have a grasp on a term, that's when it's time to reach out to your pre-work small group or cohort, and collaborate!
- 
+
 ### Vocabulary Terms
 
 - command
@@ -51,9 +51,9 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 ### Explore and Practice
 
-Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed. 
+Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻Complete all three Challenges. 
+👩‍💻Complete all three Challenges.
 
 Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
@@ -400,11 +400,6 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 1 pre-work🌟
 2. A screenshot of your complete Turing Terminal challenges
-3. A short video of yourself reflecting on:
-  - How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
-  - How comfortable do you feel using the terminal (for the commands we’ve learned so far) right now?
-  - In your own words, what is JavaScript and why do we need it?
-  - What support do you need from this group? And/or is there anything you'd like the group to know about you, your working style, your progress, etc?
 
 <br>
 
@@ -412,7 +407,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 - Go to the GitHub repository on _your_ account that holds your pre=work
 - Click commits (usually in a light blue bar in the middle-ish of the page)
 - You'll see a list of all commits made on this. You have probably only made 1 so far, the rest are from Turing staff members). Click the commit you made (it will match whatever you typed in after `git commit -m "...`)
-- Copy the URL in the URL bar, then paste the URL into Slack
+- Copy the URL in the URL bar, then paste that URL into Slack
 
 ## Index Links
 
