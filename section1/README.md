@@ -53,7 +53,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻Complete all three Challenges.
+👩‍💻 Complete all three Challenges.
 
 Take a screenshot of your "complete" notification and keep on your desktop or in a file; it will be part of your [deliverables](#Deliverables) at the end of this section. [This is a guide on taking screenshots on a Mac](https://support.apple.com/en-us/HT201361).
 
@@ -65,10 +65,10 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 #### Terminal Practice
 
-👩‍💻Use `mkdir` and `touch` to create the directories/files in the structure described below.
+👩‍💻 Use `mkdir` and `touch` to create the directories/files in the structure illustrated below:
 
 ```sh
-|-- _secretLibraryProject
+|--secretLibraryProject
     |
     |--README.md
     |--package.json
@@ -92,6 +92,14 @@ In the following section, you will get a little practice using `touch` and `mkdi
 
 Don't worry about putting any text or content into these files. For now, create this structure with empty files.
 
+Your first command should be:
+
+```bash
+mkdir secretLibraryProject
+```
+
+Note that in the command provided above, the dashes preceding the directory name were not used in the actual directory name. The dashes are just used as a diagram aide, and is a common pattern you will see in other documentation.
+
 ### Deleting Things
 
 #### Commands
@@ -102,7 +110,7 @@ Don't worry about putting any text or content into these files. For now, create 
 
 #### Terminal Practice
 
-👩‍💻Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
+👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
@@ -404,7 +412,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 <br>
 
-🌟How to find and link a commit:
+🌟 How to find and link a commit:
 - Go to the GitHub repository on _your_ account that holds your pre=work
 - Click commits (usually in a light blue bar in the middle-ish of the page)
 - You'll see a list of all commits made on this. You have probably only made 1 so far, the rest are from Turing staff members). Click the commit you made (it will match whatever you typed in after `git commit -m "...`)
