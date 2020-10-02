@@ -10,8 +10,4 @@
 
 1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
 
-1. In your own words, what is the purpose of a function?
-
-1. What is a parameter? What is an argument? Why would you use one? Provide an example of a function that accepts an argument (declaration and call), and indicate what the parameter is and what the argument is.
-
 1. What questions do you still have about `if` statements and/or functions?
