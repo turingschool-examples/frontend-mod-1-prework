@@ -26,9 +26,11 @@ We will remind you of the best practices that follow from time-to-time, but to g
 
 ## Deliverables
 
-At the bottom of each of the 4 sections and the final project is a `Deliverables` section. Make sure to read those carefully!
+At the bottom of each of the 4 sections and the final project is a `Deliverables` section. Make sure to read those thoroughly and carefully!
 
-### Best Practices: Learning to Write Code
+**Completion of all deliverables is required to start Module 1.**
+
+## Best Practices: Learning to Write Code
 
 **If you are stuck for longer than 30 minutes, know that it is always ok to ask for help!** The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process - don't give up if you hit a hard spot. If you consistently practice every day and don't take shortcuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
 
@@ -101,11 +103,11 @@ We will be referencing many terminal commands throughout the pre-work. It is rec
 
 Next, we are going to *fork this repository that you're reading right now*. Forking is when you copy a GitHub repository to your GitHub account so that you can make changes to your copy without affecting the original repository.
 
-In this scenario, the [Turing GitHub account](https://github.com/turingschool) owns this `frontend-mod-1-prework-2008b` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
+In this scenario, the [Turing GitHub account](https://github.com/turingschool) owns this `frontend-mod-1-prework` repository. You do not have permission to change anything in this repository, so you need your own copy to work on. In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/frontend-mod-1-prework-2008b).
+####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/frontend-mod-1-prework).
 
 ####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
@@ -121,7 +123,7 @@ Now that you have forked this repository, the next thing to do is *clone your fo
 
 Cloning is when you copy a remote GitHub repository to your local computer.
 
-#### 1. In YOUR `frontend-mod-1-prework-2008b` repository that your just forked, click on `Clone or Download`
+#### 1. In YOUR `frontend-mod-1-prework` repository that your just forked, click on `Clone or Download`
 
 ![clone down your copy](/images/fork_03.jpg)
 
@@ -141,20 +143,20 @@ $ cd turing
 $ mkdir 0module
 $ cd 0module
 $ git clone <ctrl-v to paste ssh link here >
-Cloning into 'frontend-mod-1-prework-2008b'...
+Cloning into 'frontend-mod-1-prework'...
 remote: Enumerating objects: 678, done.
 remote: Total 678 (delta 0), reused 0 (delta 0), pack-reused 678
 Receiving objects: 100% (678/678), 237.94 KiB | 851.00 KiB/s, done.
 Resolving deltas: 100% (332/332), done.
 
-$ cd frontend-mod-1-prework-2008b
+$ cd frontend-mod-1-prework
 $ git status .
 // If everything worked correctly, you should see:
 On branch master
 nothing to commit, working tree clean
 ```
 
-From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "frontend prework", and they all refer to your forked copy of this `frontend-mod-1-prework-2008b` repository.
+From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "frontend prework", and they all refer to your forked copy of this `frontend-mod-1-prework` repository.
 
 ## Get Started
 
