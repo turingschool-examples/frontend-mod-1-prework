@@ -303,6 +303,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 4 pre-work
 2. A screenshot of photo upload of the spot in your notebook where you kept track of `Step 1` of the Pomodoro technique!
+3. Your responses to question 4 in `reflection.md`. Friendly debate on the choises you made for those is encouraged, as it's likely your entire group did not all answer the same!
 3. A 2-4 minute _instructional_ video that teaches someone:
   - What is a class? What is an object instance? Provide examples (real, physical items are awesome!) What are some properties and methods these objects have?
   - Either in the video or accompanying it in screenshots or repl.it files, provide the code for the class you used as an example in your video.
