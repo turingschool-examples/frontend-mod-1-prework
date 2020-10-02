@@ -55,9 +55,9 @@ When you are all done with the lessons, exercises, and reflection for this secti
 
 ### Operators
 
-When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators. 
+When you learned about Booleans in Section 1, you briefly read about and practiced using some comparison operators.
 
-The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators: 
+The conditional operators we touched on earlier are critical in the set up of if statements. Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators:
 * `===` (strictly equal)
 * `!==` (not equal)
 * `>` (greater than)
@@ -186,11 +186,10 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 2 pre-work
 2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
-3. A short video of yourself reflecting on:
-    - Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-    - Did you get stuck at all during this section? If so, how long did you stay stuck? How did you get un-stuck?
-    - Regarding asking questions, rubber ducking and taking breaks - what is one habit you want to commit to building (or continue building) during your work on Sections 3 and 4?
-    - How would you explain the difference between an argument and a parameter? Why are they useful?
+3. A 2-4 minute _instructional_ video that teaches someone:
+  - What is a function? What are conventions for naming functions?
+  - Provide an example function (that utilizes arguments and parameters) and break it down for your audience.
+  - _Note:_ It may be tempting to speak to an audience of people who also know this content, but really push yourself to get in the "teacher" role and approach this as if you are responsible for helping someone else understand.
 
 ## Index Links
 
