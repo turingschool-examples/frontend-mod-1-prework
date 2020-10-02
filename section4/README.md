@@ -102,7 +102,7 @@ console.log(zebraInfo.name);
 //=> "Molly"
 ```
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `objects.js`
+> 👨🏾‍💻 PAUSE here, and complete the exercises in `objects.js`
 
 ### Methods
 
@@ -122,7 +122,7 @@ var zebraObject = {
 zebraObject.feed(); //logs "Give grass to the Zebra"
 ```
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `methods.js`
+> 👨🏾‍💻 PAUSE here, and complete the exercises in `methods.js`
 
 ## Part C Classes and Instances
 
@@ -210,7 +210,7 @@ Passing arguments to the new instance and declaring parameters in the constructo
 
 Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `classProperties.js`
+> 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
 
 ### Behavior (Methods)
 
@@ -283,7 +283,7 @@ console.log(withdrawl);
 
 The `record` method accessed the `isRecorded` property and re-assigned it. Note again, that it did this for the `deposit` object instance, and that object instance only. The `withdrawl` object instance was not changed. (Think of that car factory - this is like having a painting station and painting _one_ car red. The others have the potential to be painted red, but no one has given the instructions, so they are not red.)
 
-> 👨🏾‍💻PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
+> 👨🏾‍💻 PAUSE here, and complete the exercises in `classMethods.js`, then `tweet.js`
 
 ## Exercises
 
@@ -291,7 +291,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-📝Answer the questions in the `reflection.md` file in the section4 directory.
+📝 Answer the questions in the `reflection.md` file in the section4 directory.
 
 ## Save your work, push to GitHub
 
@@ -315,4 +315,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part C: Classes and Instances](#Part-C-Loops)
 - [Deliverables](#Deliverables)
 
-🚀[Go to the Final Project](../finalProject)
+🚀 [Go to the Final Project](../finalProject)

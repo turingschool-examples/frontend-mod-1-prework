@@ -41,17 +41,17 @@ Then, consider on the following questions. We will ask you to share some of thes
 
 ## Part B Arrays
 
-📒Read pages 70 and 72 in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 Read pages 70 and 72 in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-🎬Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
+🎬 Watch [this video to hear an explanation](https://www.youtube.com/watch?v=EUnV-fCY0Pc) and watch someone apply some of the concepts you read about in the book. The person who recorded this video is writing JavaScript in the browser Develeper Tools. Open them with in Chrome with the keyboard shortcut `cmd + opt + i`, and click Console.
 
 Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it.
 
-👩🏻‍💻Create a file in your `section3` directory called `arrayMethods.md` and describe, in your own words, what each method does.
+👩🏻‍💻 Create a file in your `section3` directory called `arrayMethods.md` and describe, in your own words, what each method does.
 * Methods to research: `pop`, `push`, `shift`, `unshift`. Take a look at the [MDN documentation here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). Hint: the methods are listed in a column on the left hand side of the website.
 * _Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead._
 
-> 👩🏻‍💻PAUSE here, and complete the exercises in `arrays.js`
+> 👩🏻‍💻 PAUSE here, and complete the exercises in `arrays.js`
 
 ## Part C Loops
 
@@ -63,17 +63,17 @@ Work through this section to build your understanding of how `for` loops can be 
 
 ### For Loops
 
-📒Read pages 170-174 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 Read pages 170-174 of the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-🎬Watch [this video](https://www.youtube.com/watch?v=s9wW2PpJsmQ) to hear an explanation and see someone write a `for` loop! Remember, when you see `let`, pretend it is `var`. You will learn the differences between those, at a very deep level, in Mod 2.
+🎬 Watch [this video](https://www.youtube.com/watch?v=s9wW2PpJsmQ) to hear an explanation and see someone write a `for` loop! Remember, when you see `let`, pretend it is `var`. You will learn the differences between those, at a very deep level, in Mod 2.
 
-> 👩🏻‍💻PAUSE here, and complete the exercises in `loops.js`
+> 👩🏻‍💻 PAUSE here, and complete the exercises in `loops.js`
 
 ### For Loop and Arrays
 
-🎬Watch [this video](https://www.youtube.com/watch?v=BxFi7vVZx4s) to learn about using `for` loops with Arrays. The first 18 minutes cover for loops and at around 18 minutes in, the video gets into using them with Arrays. Watch what feels helpful to you! (At 23 minutes, the video covers looping over Objects which is _not_ aligned to the learning goals of this section, so we advise stopping there.)
+🎬 Watch [this video](https://www.youtube.com/watch?v=BxFi7vVZx4s) to learn about using `for` loops with Arrays. The first 18 minutes cover for loops and at around 18 minutes in, the video gets into using them with Arrays. Watch what feels helpful to you! (At 23 minutes, the video covers looping over Objects which is _not_ aligned to the learning goals of this section, so we advise stopping there.)
 
-> 👩🏻‍💻PAUSE here, and complete the exercises in `loops-arrays.js`
+> 👩🏻‍💻 PAUSE here, and complete the exercises in `loops-arrays.js`
 
 ## Exercises
 
@@ -81,7 +81,7 @@ At this point, you should have worked through all files in the `exercises` direc
 
 ## Reflection
 
-📝Answer the questions in the `reflection.md` file in the `section3` directory.
+📝 Answer the questions in the `reflection.md` file in the `section3` directory.
 
 ## Save your work in Git
 
@@ -108,4 +108,4 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part C: Loops](#Part-C-Loops)
 - [Deliverables](#Deliverables)
 
-🚀[Go to Section 4](../section4)
+🚀 [Go to Section 4](../section4)
