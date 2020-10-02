@@ -70,7 +70,7 @@ Some data types also have functions which return a `true` or `false`, so they’
 - Read more about [comparison operators here](https://javascript.info/comparison)
 - Read about [logical operators here](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript). You really just need to read the top first paragraph and code snippet in this post. You'll go deeper in Mods 1-2.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `comparisons.js`
+> 👨🏽‍💻 PAUSE here, and complete the exercises in `comparisons.js`
 
 ### If Statements
 
@@ -126,13 +126,13 @@ The **number one mistake** people encounter when writing conditional statements 
 
 * `===` is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.
 
-> 👨🏽‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
+> 👨🏽 ‍💻PAUSE here, and complete the exercises in `decision-making.js` and `if-statements.js`
 
 ## Part C Functions
 
-📒Read page 88 and pages 90-93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
+📒 Read page 88 and pages 90-93 from the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book.
 
-🎬[Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions.
+🎬 [Watch this video](https://www.youtube.com/watch?v=N8ap4k_1QEQ) on functions.
 
 If you'd like another source, read [this blog post](https://medium.com/javascript-in-plain-english/introduction-to-javascript-functions-a0a1687f2318#:~:text=Introduction%20to%20Functions,to%20'run'%20in%20JavaScript) (stop after the section on Arguments).
 
@@ -175,10 +175,10 @@ You should now be able to log in to GitHub, navigate to your remote prework repo
 
 The readings in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development` book use JavaScript in a way that is likely unfamiliar to you. The book uses specific JavaScript properties and functions to interact with HTML elements on a webpage, like changing or adding text on a webpage. Initially, we will be using JavaScript without HTML. That's why you haven't seen these techniques before! We will address these techniques thoroughly during Mod 1, however, here are some quick definitions to help you become familiar with them.
 
-* document.getElementById(): a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
-* document.write(): a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
-* el.innerHTML(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-* el.textContent(): a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+* `document.getElementById()`: a method used to retrieve an element from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+* `document.write()`: a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
+* `el.innerHTML()`: a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+* `el.textContent()`: a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 
 ## Deliverables
 
@@ -187,7 +187,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 1. Link to the commit you made with your complete Section 2 pre-work
 2. A 2-4 minute _instructional_ video that teaches someone:
   - What is a function? What are conventions for naming functions?
-  - Provide an example function (that utilizes arguments and parameters) and break it down for your audience.
+  - Provide an example function (that utilizes arguments and parameters) and break it down for your audience. Make sure the audience has an opportunity to view the actual code.
   - _Note:_ It may be tempting to speak to an audience of people who also know this content, but really push yourself to get in the "teacher" role and approach this as if you are responsible for helping someone else understand.
 
 ## Index Links
