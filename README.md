@@ -28,7 +28,7 @@ We will remind you of the best practices that follow from time-to-time, but to g
 
 At the bottom of each of the 4 sections and the final project is a `Deliverables` section. Make sure to read those thoroughly and carefully!
 
-**Completion of all deliverables is required to start Module 1.**
+‼️ **Completion of all deliverables is required to start Module 1.**
 
 ## Best Practices: Learning to Write Code
 
