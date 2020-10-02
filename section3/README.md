@@ -98,6 +98,7 @@ Visit your GitHub repository to verify the work you did for this section was pus
 In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 3 pre-work
+2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
 
 ## Index Links
 

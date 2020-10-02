@@ -400,6 +400,7 @@ In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 1 pre-work🌟
 2. A screenshot of your complete Turing Terminal challenges
+3. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
 
 <br>
 

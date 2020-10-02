@@ -185,8 +185,7 @@ The readings in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development`
 In the appropriate thread in your pre-work group channel, share the following:
 
 1. Link to the commit you made with your complete Section 2 pre-work
-2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
-3. A 2-4 minute _instructional_ video that teaches someone:
+2. A 2-4 minute _instructional_ video that teaches someone:
   - What is a function? What are conventions for naming functions?
   - Provide an example function (that utilizes arguments and parameters) and break it down for your audience.
   - _Note:_ It may be tempting to speak to an audience of people who also know this content, but really push yourself to get in the "teacher" role and approach this as if you are responsible for helping someone else understand.
