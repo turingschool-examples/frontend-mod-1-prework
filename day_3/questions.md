@@ -2,7 +2,7 @@
 
 1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
 
-···A conditional statement expresses a scenario in which two or more outcomes are possible.  These outcomes are determined by the results of a conditional evaluation.  A real-life example of this could be deciding whether or not to go to work based on a person's health.  If healthy, one can choose to go work work; if not healthy, the individual can choose to stay home.
+···A conditional statement expresses a scenario in which two or more outcomes are possible.  These outcomes are determined by the results of a conditional evaluation.  A real-life example of this could be deciding whether or not to go to work based on a person's health.  If healthy, one can choose to go work work; if not healthy, the individual can choose to stay home.··
 
 2. Why might you want to use an `if` statement?
 
