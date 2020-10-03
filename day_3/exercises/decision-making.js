@@ -40,16 +40,23 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
-
+Lines 17-21 contain an if...else statement in which the code checks the condition of the value of the doorChoice variable.  If
+doorChoice has a vlaue of 1, bearClothing will have a value of 'hat'.  If doorChoice has any other value, bearClothing will
+have a value of 'scarf'.
 2. What variable has a new value assigned to it after the first if statement executes?
-
+The variable bearClothing is assigned a new value after the first if statement is executed.
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+In that condition, bearClothing's value would be 'scarf'.
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
-
+Lines 31-38 are the possible outcomes based on the conditional value of the variable bearChoice.  If the first condition is true, the statement
+within the first code block will run.  If false, the next condition will be checked.  This process repeats until a condition is evaluted to be
+true or the default statement is reached, which returns the designated default value.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+In that condition, the default statement ("You stay with the bear and become its best friend!") will be logged to the console, since there is no expressed
+statement for the event that bearChoice === 3 (though there is one for bearClothing === 3).
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+If doorChoice === 1 and bearChoice === 2, bearClothing will have a value of 'hat' and the statement "You run as fast as you can into the next room.
+It's full of snakes!" will be logged to the console.
 7. What is your favorite ending?
+My favorite ending is the first, in which the bear shows you a secret passage way.  I love a good face turn.
 */
