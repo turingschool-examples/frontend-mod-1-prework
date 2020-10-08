@@ -14,7 +14,7 @@ var petStore = {
 
 3. Given the following `states = {"CO": "Colorado", "IA": "Iowa", "OK": "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-console.log(Object.values(states)[1]);
+console.log(states.IA);
 
 4. How would you add a new property to that Object with a key of `"MN"` and a value of `"Minnesota"`?
 
@@ -22,7 +22,7 @@ states.MN = "Minnesota";
 
 5. What is another example of when we might use an Object?  In this case, why is an Object better than an Array?
 
-An example where using an object model would be helpful would be tracking inventory for an appliance store, in which each type of appliance and its variety of brands could serve as properties, while the quantity of each product could serve as the value.  Using an object notation could be considered more useful than an array in this case, because the syntax to readily access this data would make for more legible and comprehendable code.
+An example where using an object model would be helpful would be tracking inventory for an appliance store, in which each type of appliance and its variety of brands could serve as properties, while the quantity of each product could serve as the value.  Using an object notation could be considered more useful than an array in this case, because the syntax to readily access this data would make for more legible and comprehendible code.
 
 6. What questions do you still have about Objects?
 
