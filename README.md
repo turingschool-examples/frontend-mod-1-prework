@@ -92,7 +92,7 @@ In this scenario, the [Turing GitHub account](https://github.com/turingschool) o
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. Scroll to the top of [*this* page that you're reading right now](https://github.com/turingschool-examples/frontend-mod-1-prework).
+####  2. Scroll to the top of this page.
 
 ####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
