@@ -40,16 +40,23 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+We are using an if/else statement. If line 17 returns true bearClothing will be assigned "hat", if false "scarf" will be assigned to bearClothing.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearChoice is assigned a new value after the first if statement executes.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+The value would be bearClothing = "scarf". The outcome of hat is only possible when doorChoice is equal to 1.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+The outcomes of each door is shown on lines 31-38. If door 1 is chosen he shows you a way out. If 2, the bear begins to cry. If 3. You run into the next room which is full of snakes.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+The outcome would be "You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+You tell the bear the "hat" is too small and it starts to cry!
 
 7. What is your favorite ending?
+I like the ending of running into the snakes, its exciting and scary!
 */
