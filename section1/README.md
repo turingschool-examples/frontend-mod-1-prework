@@ -309,7 +309,7 @@ console.log(snackCount);
 
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
-> 👩‍💻 PAUSE here, and complete the exercises in `variables.js`
+> 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ## Exercises
 
