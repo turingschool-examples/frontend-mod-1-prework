@@ -12,10 +12,11 @@ Make sure to run the file with node in your command line.
 // EXAMPLE:Manipulate the variable 'weather' to see if you can print something other
   // than 'coat'.
 
-var weather = 'snowy';
+// var weather = 'snowy';
 // var weather = 'icy';
 // var weather = 'rainy';
 // var weather = 'sunny';
+var weather = 'mild';
 // While working through this example, I would toggle which variable declaration is
   // commented in/out and run the program in node several times to observe the output.
 
@@ -41,8 +42,15 @@ Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 12;
 // Write your conditional here
+if (dogAge >= 10) {
+  console.log("This dog is elderly.")
+} else if (dogAge <= 2) {
+  console.log("This dog is a puppy.")
+} else {
+  console.log("This dog is a dog.")
+}
 
 
 /*
@@ -62,12 +70,16 @@ When numQuarters = 2, program should log "I have enough money for a gumball"
 When numQuarters = 3, program should log "I have enough money for a gumball"
 */
 
-var numQuarters = 0;
+var numQuarters = 3;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
-
+if (numQuarters <= 1) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters >=2 && numQuarters < 4) {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("What an inconceivable amount of money!")
+}
 
 /*
 YOU DO:
@@ -83,15 +95,20 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 */
 
 var cupsOfFlour = 1;
-var hasSauce = true;
+var hasSauce = false;
 
 // Write your conditional here
+if (cupsOfFlour <= 1) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour > 1 && hasSauce == true) {
+  console.log("I can make pizza");
+}
 
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator. 
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
-for yourself!
+for yourself!  Yes, I used && in a couple of them.
 
 If your solution doesn't use a logical operator, this is a great topic to bring up
 in your pre-work group's Slack channel!
