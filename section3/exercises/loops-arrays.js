@@ -19,21 +19,40 @@ for (var i = 0; i < animals.length; i++) {
 // YOU DO: Write code below that iterates through a list of animals and prints "The
 // <animal> is awesome!" for each animal.
 
-
+for (let i = 0; i < animals.length; i++) {
+  console.log(`The ${animals[i].toLowerCase()} is awesome!`)
+}
 
 // YOU DO: Create an array of foods and then iterate over that array to log "Add
 // <food> to shopping list" for each food item.
-
-
+var foods = ['candy', 'candy canes', 'candy corns', 'syrup'];
+for (let i = 0; i < foods.length; i++) {
+  console.log(`Add ${foods[i]} to shopping list.`);
+}
 
 // YOU DO: Create an array of numbers and then iterate over that array to log double
 // of each of the number. (Ex: 4 doubled is 8.)
-
+var numbers = [2, 21, 42, 100];
+for (let i = 0; i < numbers.length; i++) {
+  console.log(`Double of ${numbers[i]} is ${numbers[i] * 2}`);
+}
 
 // YOU DO: Using the array of names below, print out "Happy Birthday <name>" for
 // each name except the first two.
+// we can just skip over part of the array
 var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"];
+for (let i = 2; i < names.length; i++) {
+  console.log(`Happy Birthday, ${names[i]}!`)
+}
 
+// or we can use an if statement to filter out the ones we don't want
+for (let i = 0; i < names.length; i++) {
+  if (names[i] === 'Sevy' || names[i] === 'Lindsey') {
+    continue;
+  } else {
+    console.log(`Happy Birthday, ${names[i]}!`);
+  }
+}
 
 
 // THE FINAL YOU DO: Using the array of ages below, print out a statement for each age.
@@ -47,4 +66,15 @@ var names = ["Sevy", "Lindsey", "Jericho", "Raeonna", "Latrina", "Jhana", "Luca"
 // Remember, stuck for 15-20 minutes? Reach out to your pre-work group on Slack.
 
 var ages = [17, 20, 34, 18, 16, 65, 49, 10, 22, 18];
+
+// for loop going through the array of ages
+for (let i = 0; i < ages.length; i++) {
+  //  nested if/else loop checking age of each person
+  //    if age < 18, can't vote message; if age <= 18, can vote message.
+  if (ages[i] < 18) {
+    console.log(ages[i], " -- Oh no, you can't vote quite yet.");
+  } else if (ages[i] >= 18) {
+    console.log(ages[i], " -- Make sure you get out and vote!");
+  }
+}
 
