@@ -24,24 +24,33 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-
+//the value of i will be logged, so 0 1 2. This is becuase i starts at zero and the for loop stops before it prints 3 as 3 < 3 returns false.
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+for (var i = 0; i < 7; i++) {
+  console.log("The sum of two plus two is " + (2+2) + ".");
+};
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
+ for (var i = 0; i < 10; i++) {
+   console.log('She sells seashells down by the seashore');
+ };
 
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
-
+for (var i = 1; i < 8; i++) {
+  console.log("This is loop " + i + "!");
+}
 // YOU DO: Using a for loop, how could you get an output that looks like this:
-
+for (var i = 10; i > 0; i--) {
+  console.log(i)
+}
 // 10
 // 9
 // 8
@@ -53,6 +62,6 @@ for (var i = 0; i < 3; i++) {
 // 2
 // 1
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
