@@ -8,7 +8,7 @@ any remaining prompt.
 Make sure to run the file with node in your command line.
 */
 
-// EXAMPLE: Write code below that will declare a vairable that stores an Object Literal
+// EXAMPLE: Write code below that will declare a variable that stores an Object Literal
 //  that holds grocery store inventory
 var foods = {
   apples: 23,
@@ -27,20 +27,28 @@ console.log(foods);
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and 
 // the number of that type of animal at the zoo.
-
+var zooAnimals = {
+  monkey: 10,
+  zebra: 4,
+  seal: 5
+}
+console.log(zooAnimals);
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
-
+console.log(`Monkeys: ${zooAnimals.monkey}`);
 
 // Add an animal to the zoo Object, and log the updated Object.
-
+zooAnimals.lemur = 3;
+console.log('Add lemurs: ', zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
-
+zooAnimals.monkey = 9;
+console.log('one monkey fell off the bed :( ', zooAnimals);
 
 // Add another animal to the zoo Object, and log the updated Object.
-
+zooAnimals.snow_leopard = 2;
+console.log('Snow Leopards arrived: ', zooAnimals);
 
 //-------------------
 // Part 2: Email
@@ -55,6 +63,15 @@ value should be some appropriate value for that key. Work to have at least 5 key
 
 Log your email object to the console.
 */
+var emailData = {
+  sentTo: 'nikki@nikki.com',
+  sentFrom: 'notnikki@notnikki.com',
+  timeStamp: new Date(),
+  subject: 'what is up, dude?',
+  body: 'Heyyyy what\'s happening, man? You doin\' okay? Ping me.'
+}
+
+console.log(emailData);
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -82,7 +99,7 @@ var posts = [
     timeStamp: "4:37 PM August 13, 2019",
     numberLikes: 0,
     comments: []
-  }, 
+  },
   {
     imageSrc: "./images/holiday-party.png",
     caption: "What a great holiday party omg",
@@ -92,8 +109,8 @@ var posts = [
   }
 ]
 
-console.log(posts);
-console.log(posts[0]);
+// console.log(posts);
+// console.log(posts[0]);
 
 /*
 The code snippet above shows an Array with 2 elements. Each element in an 
@@ -105,3 +122,30 @@ good to have some exposure before going into Mod 1.
 // YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
 // key-value pairs you used in your email Object above.
 // Then, log the email Array to the console.
+
+var inbox = [
+  {
+    sentTo: 'nikki@nikki.com',
+    sentFrom: 'notnikki@notnikki.com',
+    timeStamp: new Date(),
+    subject: 'what is up, dude?',
+    body: 'Heyyyy what\'s happening, man? You doin\' okay? Ping me.'
+  },
+  {
+    sentTo: 'nikki@nikki.com',
+    sentFrom: 'someothernikki@someothernikki.com',
+    timeStamp: new Date(),
+    subject: 'I need your contact info',
+    body: 'I know this is your email, but I also need your number. Can you call or text me?'
+  },
+  {
+    sentTo: 'nikki@nikki.com',
+    sentFrom: 'nikki@nikki.com',
+    timeStamp: new Date(),
+    subject: 'note to self',
+    body: 'Is it weird to email myself? Not really. I just need to remember to text my number to that other person. So don\'t forget!'
+  }
+]
+
+console.log(`email inbox array: `);
+console.log(inbox);
