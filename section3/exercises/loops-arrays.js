@@ -35,7 +35,7 @@ for (var i = 0; i < foods.length; i++) {
 // of each of the number. (Ex: 4 doubled is 8.)
 var numbers = [12 , 42 , 50 , 9 , 21];
 
-for (var i = 0; i < numbers[i]; i++) {
+for (var i = 0; i < numbers.length; i++) {
   console.log(numbers[i] *= 2);
 };
 
