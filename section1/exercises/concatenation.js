@@ -10,27 +10,31 @@ file from your terminal with the command `node section1/exercises/dataTypes.js`
 */
 
 // EXAMPLE: Write code that combines the variables below into another string:
+
 var name = "Ron";
 var team = "Chudley Cannons";
 
 console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 
 // YOU DO: Read the next few lines of code...
+
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
 console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here: A string. Javascript will convert numberOfCreatures into a string
+// and print a string that combines all the information due to type coercion- forcing a data type to comply with another.
 
 
 // YOU DO:
 // Write code that combines the variables below into a string that
 // reads "The quick red fox jumped over the lazy brown dog":
+
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
-
+console.log("The " + speedy + " jumped over the " + slowPoke)
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -40,16 +44,22 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!")
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var name1 = "Jessica";
+var numberOfCats = 1;
+var numberOfDogs = 1;
+var totalAnimals = numberOfCats + numberOfDogs;
 
+console.log(name1 + " is hanging out with " + totalAnimals + " animals.")
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
