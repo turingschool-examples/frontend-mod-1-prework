@@ -5,7 +5,7 @@ to achieve the desired result.
 One example is already completed. Your task is to complete
 any remaining prompt.
 
-Make sure to run the file with node in your command line. Look back 
+Make sure to run the file with node in your command line. Look back
 at the directions from Section 1 if you need a refresher on how to do that.
 */
 
@@ -19,7 +19,7 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents); 
+console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
@@ -39,7 +39,7 @@ perform this evaluation
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
-since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 10,
+since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 4,
 the comparison still evaluates to false.
 
 In JavaScript, it is a best practice to use the strict comparison. It is said that, anytime a developer
@@ -67,9 +67,9 @@ you develop good habits that follow best practice, from now on, use the strict c
 // PART 2: Articulating what you are doing
 //-------------------
 
-// For the following prompts, you will be given a line of code and your task is to type out a Comment, 
-// in English, explaining what that line of code is doing, including what the comparison will evaluate to. 
-// Be as technically precise as possible, but don't just copy and paste a definition from the readings. 
+// For the following prompts, you will be given a line of code and your task is to type out a Comment,
+// in English, explaining what that line of code is doing, including what the comparison will evaluate to.
+// Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
@@ -100,7 +100,7 @@ var finishedHomework = false;
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
 console.log(isHungry && finishedHomework);
-// Determine if the user is hungry and has completed their homework
+// Determine if the user is hungry or has completed their homework
 console.log(isHungry || finishedHomework);
 
 var lovesToPlay = true;
@@ -127,5 +127,5 @@ var age = 1;
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+  // as you would expect?
