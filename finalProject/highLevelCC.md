@@ -32,9 +32,9 @@ var caesarShift = function (str, amount) {
     if (c.match(/[a-z]/i)) {  // Regex to check if the character is a letter,
       var code = str.charCodeAt(i);  // and if it is, gets the code for the letter.
       if (code >= 65 && code <= 90) {   // these are codes for upper case letters
-        c = String.fromCharCode(((code - 65 + amount) % 26) + 65);
+        c = String.fromCharCode(((code - 65 + amount) % 26) + 65); // convert code then convert back to letter
       } else if (code >= 97 && code <= 122) {   // these are codes for lower case letters
-        c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
+        c = String.fromCharCode(((code - 97 + amount) % 26) + 97); // convert code then convert back to letter
       }
     } // if the Regex doesn't find a letter, it just adds the character and then moves to the next character, so
 // that no characters are lost -- keeps track of punctuation, spaces, etc.
