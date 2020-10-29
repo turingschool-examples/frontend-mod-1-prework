@@ -12,22 +12,26 @@ function caesarCipher(str, amount) {
     // }
 
     if (amount < 0) {
-        return caesarShift(str, amount + 26);
+        return caesarCipher(str, amount + 26);
     }
+
     var output = "";
     for (var i = 0; i < str.length; i++) {
         var c = str[i];
         if (c.match(/[a-z]/i)) {
             var code = str.charCodeAt(i);
             if (code >= 65 && code <= 90) {
-                c = String.fromCharCode((code - 65 + amount) + 65); // don't need modulo here
+                c = String.fromCharCode(((code - 65 + amount) % 26) + 65);
             } else if (code >= 97 && code <= 122) {
-                c = String.fromCharCode((code - 97 + amount) + 97); // or here
+                c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
             }
         }
         output += c;
     }
-    console.log(output);
+    return output;
 }
 
-caesarCipher('Hello', 2);
+console.log(caesarCipher('TEST', 5));
+console.log(caesarCipher('This is a [TEST]', -10));
+console.log(caesarCipher('Nikki', 12));
+console.log(caesarCipher('This StrIng has ch@rac43rz', -1));
