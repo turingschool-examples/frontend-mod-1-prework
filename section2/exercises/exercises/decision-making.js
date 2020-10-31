@@ -38,16 +38,26 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+An if...else statement is being run, if the condition is true one set of statements is being run,
+if it is false another set of statements is being run
 
 2. What variable has a new value assigned to it after the first if statement executes?
+if the first statement is true, bearClothing has a new value assigned to it: "hat"
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+"scarf"
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+An else if statement is chained to an if statement to create a more complex statement.
+If the first condition is not met, the other else if conditions run until a condition is true
+If no condition runs true then Javascript will execute the else block
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+"You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the hat it too small and it starts to cry!"
 
 7. What is your favorite ending?
+We have bearChoice = 4 so that the final outcome is: "You stay with the bear and become it's best friend!"
 */

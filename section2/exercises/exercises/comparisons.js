@@ -5,7 +5,7 @@ to achieve the desired result.
 One example is already completed. Your task is to complete
 any remaining prompt.
 
-Make sure to run the file with node in your command line. Look back 
+Make sure to run the file with node in your command line. Look back
 at the directions from Section 1 if you need a refresher on how to do that.
 */
 
@@ -19,15 +19,15 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
-console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents); 
+console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
-
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
-
+console.log("is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
 this statement still evaluated to true. JavaScript forces the stringTeachers into an integer to
@@ -36,7 +36,7 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
-
+console.log("is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
 since the numberTeachers is an integer value and the stringTeachers is a string value, although they are both equal to 10,
@@ -49,46 +49,49 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
-
+console.log("is numberTeachers not equal to numberStudents?", numberTeachers != numberStudents);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
-
+console.log("is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 20?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
 //-------------------
 
-// For the following prompts, you will be given a line of code and your task is to type out a Comment, 
-// in English, explaining what that line of code is doing, including what the comparison will evaluate to. 
-// Be as technically precise as possible, but don't just copy and paste a definition from the readings. 
+// For the following prompts, you will be given a line of code and your task is to type out a Comment,
+// in English, explaining what that line of code is doing, including what the comparison will evaluate to.
+// Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
 //YOU DO: Explain.
-
+//The comparison operator here is less than. Four is less than 9 so this should log 'true'
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
-
+// The comparison operator is less than. '3' is the declared value of variable 'books'.
+// This will log false because integer 4 is greater than integer 3.
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-
+// The comparison operator is greater than. Variable values 6 and 2 have been assigned to 'friends' and 'siblings' variable names.
+// Integer 6 is greater than integer 2 so this will log 'true'.
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// The comparison operator is not equals. Variable value 9 (integer) and 8 (integer) are being compared.
+// The computer is reading '9' does not equal '8' which will log true
 
 //-------------------
 // PART 3: Logical Operators
@@ -110,22 +113,24 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-
+// My final line of code evaluated to 1
+// I believe it did this because logical operators do not always return a boolean value
+// lovesToPlay is true and in an AND operation, the second operand is returned when the first operand is not false
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-  // as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+  // as you would expect?
