@@ -51,6 +51,8 @@ You've finished the pre-work! But there's still plenty to learn. Check out the e
 
 Have longer than a week to prepare for your time at Turing? Looking for more details and a deeper dive into the materials? Just can't get enough? We've put together a collection of resources to help you continue your ramp up before the first day of class.
 
+* [More front end practice from turing](https://github.com/turingschool-examples/fe-m1-practice)
+
 ### JavaScript Resources
 
 * [Codecademy Introduction to JavaScript](https://www.codecademy.com/learn/javascript)
