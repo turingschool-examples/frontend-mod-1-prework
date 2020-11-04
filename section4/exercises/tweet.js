@@ -9,5 +9,38 @@ tweet object instances _behave_ as expected.
 */
 
 class Tweet {
+  constructor(author, content, time, likes, comments) {
+  this.author = author;
+  this.content = content;
+  this.timeStamp = time;
+  this.numberOfLikes = likes;
+  this.comments = comments;
+ }
 
-}
+ incrementLikes() {
+   this.numberOfLikes++
+ }
+
+ addToComments(newComment) {
+   this.comments.push(newComment)
+ }
+};
+
+var myTweet = new Tweet("Jessica", "It's Election Day!", "11:00 am", 400, ["Nervous!", "Finger's crossed"]);
+console.log(myTweet);
+
+myTweet.incrementLikes();
+console.log(myTweet);
+
+myTweet.addToComments("I voted, too!");
+console.log(myTweet);
+
+
+var govPolisTweet = new Tweet("Jared Polis", "Get out the vote, CO!", "9:00 am", 600, ["Where is my polling place?", "Can't wait for the results!"]);
+console.log(govPolisTweet);
+
+govPolisTweet.incrementLikes();
+console.log(govPolisTweet);
+
+govPolisTweet.addToComments("I already mailed my ballot!");
+console.log(govPolisTweet);
