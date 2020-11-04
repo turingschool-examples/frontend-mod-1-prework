@@ -16,12 +16,26 @@ Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 wee
 
 What is your plan and how are you going to hold yourself to it? Specifically...
 - What are you going to work on? Resources here.
+> I'd like to rework the exercises in the sections of the pre-work. I would like to become more fluent with concepts instead of relying so heavily on my notes, plus I would like a chance to tackle the challenge extensions I wasn't able to commit the time to.
+
 - What days are you going to work?
+> Monday - Thursday @ 8:00 PM, Saturday & Sunday @ 8:00 AM
+> I am still working in my "former" industry and working around that full time schedule
+
 - What times on those days are you going to work?
+> Noted above
+
 - Where you going to be sitting/standing as you do this?
+> My office at home
+
 - Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
+> Google calendar and physical agenda/planner
+
 - Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
+> My partner that I live with
+
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+> Exercise, visiting with my family for the holidays, and walking my dog
 
 ## Deliverables
 
