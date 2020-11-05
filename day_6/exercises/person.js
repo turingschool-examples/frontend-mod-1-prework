@@ -9,3 +9,32 @@ terminal.
 */
 
 // YOUR CODE HERE
+
+class Person {
+  constructor(name, age, hobbies, maritalStatus){
+    this.name = name;
+    this.age = age;
+    this.hobbies = hobbies;
+    this.maritalStatus = false;
+  }
+haveBirthday() {
+  this.age = this.age + 1
+  }
+addLastName(lastName) {
+  this.name = this.name + " " + lastName;
+  }
+newHobby(hobby) {
+  this.hobbies.push(hobby);
+  }
+getMarried() {
+  this.maritalStatus = true;
+ }
+};
+
+var kevin = new Person("Kevin", 29, ["Snowboarding", "Music", "Cooking"]);
+
+kevin.newHobby("Software Development");
+kevin.addLastName("Hartmann");
+kevin.haveBirthday();
+kevin.getMarried();
+console.log(kevin);
