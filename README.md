@@ -6,11 +6,11 @@ Each section has a folder containing a `README.md` file with instructions and de
 
 ## Pre-work Index
 
-* [Section 1 - SUPER LEARNERS, Terminal and JavaScript Foundations](section1)
-* [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
-* [Section 3 - GROWTH MINDSET, Arrays and Iteration](section3)
-* [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
-* [Final Project and Submission](finalProject)
+* [Day 1: SUPER LEARNERS, Terminal and JavaScript Foundations](section1)
+* [Days 2-3: ASKING QUESTIONS, Conditionals and Functions](section2)
+* [Days 4-5: GROWTH MINDSET, Arrays and Iteration](section3)
+* [Days 6-7: HOW YOU USE YOUR TIME, Objects and Classes](section4)
+* [Day 8: Final Project and Submission](finalProject)
 
 ## Materials
 
