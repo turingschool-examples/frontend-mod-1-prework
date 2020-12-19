@@ -15,6 +15,7 @@ console.log(houseElf)
 // log that variable to the console:
 var mortalDanger = "Harry Potter must not return to Hogwarts!";
 console.log(mortalDanger)
+
 // example: Write code below to add 2 to the variable `students` and
 // log the result:
 var students = 22;
