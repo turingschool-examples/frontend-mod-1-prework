@@ -40,16 +40,22 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+creating a conditional statement, if/else condition. If a coditional is met, then the code excutes one statement, else the code executes a different statement. In this case, if dooeChoice is 1, then the value for bearClothing is "hat"; if dooeChoice is other than 1, then the value for bearClothing is "scarf"
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing = "hat"
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+bearClothing = "scarf"
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+Creating a more complex statements, else if. It evaluatea block of code when its condition is true. If bearChoice is 1, code excutes sentance "You offer the bear your + bearClothing + and the bear shows you a secret passage out!". bearCloting's value varies depends on lines 17 to 21.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+//"You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+"You tell the bear the hat is too small and it starts to cry!"
 7. What is your favorite ending?
+doorchoice to equal 2, and bearChoice to equal 1.
 */
