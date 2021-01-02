@@ -1,0 +1,97 @@
+
+h1 {color: #FEFEFE;
+font-family: "Georgia", georgia, serif;
+  text-shadow: 1px 2px 2px #000000;
+background-color: #336600;
+text-align: center;
+border-style: solid;
+  border-color: #000000;
+border-width: 3px;
+ padding: 5px;
+}
+
+h2{font-family: monospace;
+text-align: left;}
+
+li.tabcont {font-family: monospace;
+  text-align: left;}
+
+  h3{color: #FEFEFE;
+  font-family: "Georgia", georgia, serif;
+  text-align:center;
+    text-shadow: 1px 2px 2px #000000;
+  background-color: #336600;
+    padding: 3px;
+  border-style: solid;
+  border-width: 2px;
+    border-color: #000000;
+}
+
+p, li {font-family:"Helvetica", helvetica, sans-serif;
+text-align: justify;}
+
+
+
+p {text-indent: 16px;
+}
+
+p.closing {text-align:center;
+  font-style: italic;}
+
+li.tablecontents{
+  font-family: monospace;
+  text-align: left;}
+
+a {text-decoration: none;
+color: #336600;
+}
+a:hover{color:black;}
+a:visted{color: darkcyan;}
+
+.teton {width: 250px;
+margin-right: auto;
+margin-left: auto;
+display:block;}
+
+.coffee {width: 250px;
+margin-right: auto;
+margin-left: auto;
+display:block;}
+
+.hiking {width: 250px;
+margin-right: auto;
+margin-left: auto;
+display:block;}
+
+div{columns:2;}
+
+fieldset {width: 350px;
+border: 2px solid #000000;
+  background-color: #336600
+}
+legend {text-align:center;
+  font-style: bold;
+  font-family: Georgia, serif;
+  color: #FEFEFE;
+  text-shadow: 1px 2px 2px #000000;
+}
+
+label {text-align:center;
+  font-style: bold;
+  font-family: Georgia, serif;
+color: #FEFEFE;
+text-shadow: 1px 2px 2px #000000;}
+
+input {text-align:left;
+  font-style: bold;
+  font-family: helvetica, sans-serif;
+color: #000000;
+border: 1px solid;
+padding: 1px; }
+
+input#subscribe {
+  font-family: helvetica, sans-serif;
+color: #000000;
+border: 2px solid;
+padding: 3px;
+}
