@@ -8,4 +8,26 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+class Person {
+  constructor(name, age, mood){
+    this.name = name;
+    this.age = age;
+    this.mood = mood;
+  }
+
+  birthday(){
+    this.age += 1
+  }
+
+  changeMood(mood){
+    this.mood = mood;
+  }
+}
+ var phil = new Person("Phil", 32, "Happy");
+ console.log(phil.age);
+ console.log(phil.name);
+ console.log(phil.mood);
+ phil.changeMood("Sad");
+ console.log(phil.mood);
+ phil.birthday();
+ console.log(phil.age);

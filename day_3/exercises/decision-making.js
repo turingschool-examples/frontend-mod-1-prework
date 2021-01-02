@@ -40,16 +40,20 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
-
+On line 17 the code runs an if statement that looks to see if doorChoice is equal to 1 and if it returns true it runs the code
+block right below if it returns false it jumps to the else statement and runs that code block
 2. What variable has a new value assigned to it after the first if statement executes?
-
+The bearClothing variable gets set to something different depending on your choice.
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+If you changed the doorChoice to 3 bearClothing would be changed to scarf.
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
-
+Between lines 31 and 38 the code runs through multiple if else statements, looking at what the current
+value of bearChoice if it is equal to 1 or 2 it runs one of the first 2 if statements. If it is not equal to 1 or 2
+it then checks the value of bearClothing to see if its equal to 3 and if its not it will then run the else as the final result
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+If you change bearChoice to 3 the final outcome will be "You stay with the bear and become it's best friend!"
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+The final outcome will be You tell the bear the hat is too small and it starts to cry!
 7. What is your favorite ending?
+I enjoy the end when the bear shows you a secert passage out.
 */
