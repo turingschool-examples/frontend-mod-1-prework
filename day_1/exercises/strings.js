@@ -14,4 +14,4 @@ console.log("Welcome to Turing!");
 console.log("99 bottles of pop on the wall...");
 
 //Write code below to log one line from your favorite song or movie:
-console.log("I figured out the message. One word, you know what it is? 'Stay'. ")
+console.log("I figured out the message. One word, you know what it is? 'Stay'.")

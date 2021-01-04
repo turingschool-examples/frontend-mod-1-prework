@@ -12,8 +12,10 @@
   * An Integar is a whole number ``1``, ``2``, ``1941``
   * A floating-point number is one which contains a decimal ``.75``, ``1.5``, ``2.25``
 1. In the space below, create a variable `animal` that holds the string `"zebra"`.
-  * var animal = "zebra";
+  * ```java Script
 
+  var animal = "zebra";
+```
 1. How would you log the string `"zebra"` using the variable that you created above?
   * console.log(animal);
 
