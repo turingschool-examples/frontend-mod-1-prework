@@ -8,7 +8,6 @@ Since Arrays are a bigger topic, it is the main focus of this section. Some revi
 - [Part A: Growth Mindset](#Part-A-Growth-Mindset)
 - [Part B: Arrays](#Part-B-Arrays)
 - [Part C: Loops](#Part-C-Loops)
-- [Deliverables](#Deliverables)
 
 ## Vocabulary
 
@@ -93,12 +92,6 @@ You've save your work to Git on your local machine, but it is not yet accessible
 
 Visit your GitHub repository to verify the work you did for this section was pushed successfully!
 
-## Deliverables
-
-In the appropriate thread in your pre-work group channel, share the following:
-
-1. Link to the commit you made with your complete Section 3 pre-work
-2. A screenshot or photo upload of your notes, including your vocabulary/JavaScript reserved keywords section.
 
 ## Index Links
 
@@ -106,6 +99,5 @@ In the appropriate thread in your pre-work group channel, share the following:
 - [Part A: Section 3 Focus TBD](#Part-A-Section-3-Focus)
 - [Part B: Arrays](#Part-B-Arrays)
 - [Part C: Loops](#Part-C-Loops)
-- [Deliverables](#Deliverables)
 
 🚀 [Go to Section 4](../section4)
