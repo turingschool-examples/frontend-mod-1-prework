@@ -23,10 +23,6 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 - Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
 
-## Deliverables
-
-In the appropriate thread in your pre-work group channel, share the the plan that you developed in the Next Steps section. The point is sharing is to collaborate and inspire - potentially find opportunities to work together on some things, maybe show an organizational strategy you have with others, or just see the thought your cohort mates are putting into this as well, so you don't feel alone! That being said, don't shy away from sharing your _detailed_ plan. This is a great chance to support each other in staying accountable to this plan.
-
 ### Final Pre-work Submission
 
 When you have completed *all* the activities described above, follow the steps below to submit your technical prework.
