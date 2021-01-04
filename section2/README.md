@@ -43,9 +43,11 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? We will ask you to share some reflections with your small group at the end of this section.
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
+
+Now that you understand the importance of asking questions, read the [Turing guide on asking questions](https://gist.github.com/ericweissman/fb0241e226227867b6bc70a4d49227f5) to ensure that you know the best way to ask the questions you may have!
 
 ## Part B Conditionals
 
@@ -179,16 +181,6 @@ The readings in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development`
 * `document.write()`: a method used to write data to a webpage. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Document/write)
 * `el.innerHTML()`: a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
 * `el.textContent()`: a method used to change the text of an element *(defined as the variable el)* from a web page. Here is the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
-
-## Deliverables
-
-In the appropriate thread in your pre-work group channel, share the following:
-
-1. Link to the commit you made with your complete Section 2 pre-work
-2. A 2-4 minute _instructional_ video that teaches someone:
-  - What is a function? What are conventions for naming functions?
-  - Provide an example function (that utilizes arguments and parameters) and break it down for your audience. Make sure the audience has an opportunity to view the actual code.
-  - _Note:_ It may be tempting to speak to an audience of people who also know this content, but really push yourself to get in the "teacher" role and approach this as if you are responsible for helping someone else understand.
 
 ## Index Links
 
