@@ -6,7 +6,6 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 - [Part A: How You Spend Your Time](#Part-A-How-You-Spend-Your-Time)
 - [Part B: Objects](#Part-B-Arrays)
 - [Part C: Classes and Instances](#Part-C-Loops)
-- [Deliverables](#Deliverables)
 
 ## Vocabulary
 
@@ -297,23 +296,11 @@ At this point, you should have worked through all files in the `exercises` direc
 
 Commit your Code Challenges and push up to your GitHub repository.
 
-## Deliverables
-
-In the appropriate thread in your pre-work group channel, share the following:
-
-1. Link to the commit you made with your complete Section 4 pre-work
-2. A screenshot of photo upload of the spot in your notebook where you kept track of `Step 1` of the Pomodoro technique!
-3. Your responses to question 4 in `reflection.md`. Friendly debate on the choises you made for those is encouraged, as it's likely your entire group did not all answer the same!
-3. A 2-4 minute _instructional_ video that teaches someone:
-  - What is a class? What is an object instance? Provide examples (real, physical items are awesome!) What are some properties and methods these objects have?
-  - Either in the video or accompanying it in screenshots or repl.it files, provide the code for the class you used as an example in your video.
-
 ## Index Links
 
 - [Vocabulary](#Vocabulary)
 - [Part A: Section 4 Focus TBD](#Part-A-Section-4-Focus)
 - [Part B: Objects](#Part-B-Arrays)
 - [Part C: Classes and Instances](#Part-C-Loops)
-- [Deliverables](#Deliverables)
 
 🚀 [Go to the Final Project](../finalProject)
