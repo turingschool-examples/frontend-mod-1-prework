@@ -11,16 +11,16 @@ the class:
 */
 
 class Burrito {
-  constructor(protein, base, toppings) {
+  constructor(protein, base, topping) {
     this.protein = protein;
     this.base = base;
-    this.toppings = toppings;
+    this.topping = topping;
   }
-  addTopping(toppings) {
-    this.toppings.push(toppings);
+  addTopping(topping) {
+    this.topping.push(topping);
   }
-  removeTopping(toppings) {
-    this.toppings.pop(toppings);
+  removeTopping(topping) {
+    this.topping.pop(topping);
   }
   changeProtein(protein) {
     this.protein = protein;
@@ -38,4 +38,4 @@ dinner.changeProtein("al Pastor");
 
 console.log(dinner.protein);
 console.log(dinner.base);
-console.log(dinner.toppings);
+console.log(dinner.topping);
