@@ -17,19 +17,19 @@
   * an example of a conditional statement used in a web app i use might be e-mail auto refresh
   ```javascript
 
-var minutesPassed = 5
+var minutesPassed = 5 //datetime can be implemented here
 if (minutesPassed < 5) {
 (refresh email) /* code thats currently beyond my current comprehension */
 }
 ```
 
 2. Why might you want to use an `if` statement?
-  * you would want to use in `if` statement when you have code that does not need to be running all of the time, or code that gives multiple output options based on user input or data recieved.
+  * you would want to use in `if` statement when you have code that does not need to be running all of the time, or code that gives multiple output options based on user input or data received.
 
 3. What is the JavaScript syntax for an `if` statement?
  * ```if (condition === otherCondition) {
    (code to be ran);
- }
+ };
 ```
   * ``===`` the ``strictly equal to`` is just a placeholder in that syntax and is just one of many ``comparison operators``.
 
@@ -45,4 +45,4 @@ if (minutesPassed < 5) {
   ```
 
 6. Other than an `if` statement, can you think of any other ways we might want to use a conditional statement?
-  * the `for` statement can execute a block of statements if a condition returns true. 
+  * the `for` statement can execute a block of statements if a condition returns true.
