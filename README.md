@@ -146,7 +146,7 @@ Resolving deltas: 100% (332/332), done.
 $ cd frontend-mod-1-prework
 $ git status .
 // If everything worked correctly, you should see:
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
