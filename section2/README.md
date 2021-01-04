@@ -6,7 +6,6 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 - [Part A: Asking Questions](#Part-A-Asking-Questions)
 - [Part B: Conditionals](#Part-B-Conditionals)
 - [Part C: Functions](#Part-C-Functions)
-- [Deliverables](#Deliverables)
 
 ## Vocabulary
 
@@ -188,6 +187,5 @@ The readings in the `JAVASCRIPT & JQUERY: Interactive Front-End Web Development`
 - [Part A: Asking Questions](#Part-A-Asking-Questions)
 - [Part B: Conditionals](#Part-B-Conditionals)
 - [Part C: Functions](#Part-C-Functions)
-- [Deliverables](#Deliverables)
 
 🚀 [Go to Section 3](../section3)
