@@ -11,7 +11,7 @@
 
 1. In the space below, create a Car class with at least 2 attributes and 2 methods
   * ```JavaScript
-  class car {
+  class Car {
     constructor(year, color, isSignaling, gear) {
     this.year = year
     this.color = color
@@ -20,7 +20,7 @@
     }
     leftTurnSignal() {
       this.isSignaling = true;
-      console.log("**clicky sound**");
+      console.log("clicky sound");
     }
     rightTurnSignal() {
       this.isSignaling = true;
@@ -39,7 +39,7 @@
 
 1. What is the syntax to create an instance of a class?
   * ```javaScript
-  var chevySonic = new car(2014, "Black", false, 0)
+  var chevySonic = new Car(2014, "Black", false, 0)
 ```
 
 1. What questions do you still have about classes in JavaScript?
