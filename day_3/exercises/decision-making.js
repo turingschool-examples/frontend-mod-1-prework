@@ -27,7 +27,7 @@ console.log("1. Offer your own to the bear?");
 console.log("2. Point it out to the bear?");
 console.log("3. Make a dash for the next room?");
 
-if (bearChoice === 1) {
+if (bearChoice === 2) {
   console.log("You offer the bear your " + bearClothing + " and the bear shows you a secret passage out!");
 } else if (bearChoice === 2) {
   console.log("You tell the bear the " + bearClothing + " is too small and it starts to cry!");
@@ -41,15 +41,30 @@ if (bearChoice === 1) {
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
 
+An if statement askes which door choice is made.  The other possible choice is done by the else Statement.
+
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+bearChoice
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+scarf
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+
+An else if statement. The computer is being told if bearChoice is 1 then do x, ELSE 2 then do y, and so on and so forth.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+The final else, staying with the bear and becoming its best friend.
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+You stay with the bear and become it's best friend!
+
 7. What is your favorite ending?
+
+You can't beat "You run as fast as you can into the next room. It's full of snakes!" , literally scared my cat off my lap laughing.
 */
