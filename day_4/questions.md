@@ -33,4 +33,4 @@ helloSomeone("Sam I am");
 
 7. What questions do you still have about functions in JavaScript?
 
-I guess I really just don't understand the point of arguments.  Maybe its just the limited examples that I have access to but I spent almost an hour on this section and I just don't  quite understand why I would use an argument.  I have a experience computer program friend who I asked to come over and maybe he can share some insight into them.
+I guess I really just don't understand the point of arguments.  Maybe its just the limited examples that I have access to but I spent almost an hour on this section and I just don't  quite understand why I would use an argument.  I have an experienced computer programer friend who I asked to come over and maybe he can share some insight into them.
