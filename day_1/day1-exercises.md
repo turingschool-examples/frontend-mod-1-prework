@@ -16,17 +16,17 @@
   - You can go to the top and click 'view' then go to 'developer' and then 'view source' or you can click command+Option+U to get the same results.
 
 6.  List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.
-  - html is a tag to tell the user that everything between these tags is in HTML code
-  - body says that the contents should be shown in the main browser on the web page
-  - h1 indicates a main heading
-  - p indicates that anything between the tags is a part of a paragraph
-  - h2 is for sub headings. These can also go on past 2 as well
+  - html is used to tell the user that everything between these tags is in HTML code.
+  - body says that the contents should be shown in the main browser on the web page.
+  - h1 indicates a main heading.
+  - p indicates that anything between the tags is a part of a paragraph.
+  - h2 is for sub headings. These can also go on past 2 as well.
 
 7.  What are empty elements?
   - Empty elements are those that don't have a closing tag but instead are 'self-closing'. For instance, the <br /> tag indicates a line break but it doesn't need a </br> to close it.
 
 8.  What is semantic markup?
-  - Semantic markup is for conveying  extra information. Could be used for emphasis, quotes, meaning, etc.
+  - Semantic markup is for conveying extra information. Could be used for emphasis, quotes, meaning, etc.
 
 9.  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
   - Header
