@@ -23,11 +23,11 @@ CSS:
 
 1.  What is the purpose of CSS?
 
-Help set up rules for how content should appear on the screen. It’s for more of the design aspect of a website.
+Help set up rules for how content should appear on the screen. It’s for the design of a website.
 
 2.  What does CSS stand for? What does cascading mean in this case?
 
-CSS = Cascading style sheets. Cascading refers to the flow of the code. So the flow of what takes precedence.
+CSS = Cascading style sheets. Cascading refers to the flow of the code. The flow of what takes precedence.
 
 3.  What is the basic structure of a CSS rule?
 
