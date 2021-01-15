@@ -5,20 +5,21 @@ file from your terminal with the command `node day_4/exercises/functions.js`
 */
 
 //example: Write a function below that, when called will print your name
-function printName() {
-  console.log("Severus Snape");
-};
 
-printName();
+function printName1() {
+  console.log("Severus Snape");
+}
+
+printName1();
 
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
-};
+ function printName2(name) {
+   console.log(name);
+ }
 
-printName("Albus Dumbledore");
+ printName2("Albus Dumbledore");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.

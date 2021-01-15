@@ -9,3 +9,30 @@ terminal.
 */
 
 // YOUR CODE HERE
+
+class Person {
+  constructor(name, weight, height){
+    this.name = name;
+    this.weight = weight;
+    this.height = height;
+  }
+
+  getName(){
+    console.log(this.name);
+  }
+
+  getHeight(){
+    console.log(this.weight);
+  }
+
+  getWeight(){
+    console.log(this.height);
+  }
+
+}
+
+var tom = new Person("Tom", 150, 6);
+
+tom.getName();
+tom.getHeight();
+tom.getWeight();
