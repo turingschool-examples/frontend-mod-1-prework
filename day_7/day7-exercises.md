@@ -41,7 +41,7 @@ Copywriting
 
 Does it reduce anxiety?
 For: https://developer.paciellogroup.com/blog/2018/11/a-web-of-anxiety-accessibility-for-people-with-anxiety-and-panic-disorders-part-2/
-This artcile covers how to
+This article covers how to reduce anxiety for people that experience anxiety disorders.
 
 Against: https://www.toptal.com/designers/ux/why-user-research-matters
 This quote greatly sums up the article: "The hard truth is that we take what our customers say as sacrosanct."
