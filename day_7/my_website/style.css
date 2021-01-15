@@ -8,15 +8,20 @@ h1, h2, h3, p.a, p.b, div {
 
 h1, h2 {
   font-family: serif;
-  width: 25%;
   border-radius: 180px;
+  text-align: center;
+  margin: auto;
+  width: 25%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 p {
-  font-family: sans-serif;
-  width: 75%;
   border-radius: 180px;
-    padding-top: 1%;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 1%;
   padding-bottom: 1%;
 }
 
