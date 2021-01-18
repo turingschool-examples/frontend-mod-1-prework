@@ -299,7 +299,7 @@ In the example above, we joined together a string and a variable with a value of
 ```JavaScript
 var quantity = 12;
 var snacks = " doughnuts";
-var snackCount = "I have " + quantity + snacks;
+var snackCount = "I have " + quantity + " " + snacks;
 
 console.log(snackCount);
 // this will log the string "I have 12 doughnuts"
@@ -308,6 +308,35 @@ console.log(snackCount);
 Let's take a look at why that resulted in a string. We have a variable called `snackCount` and have assigned the value as our `quantity` and our `snacks`. Looking at `snackCount`, we’ll notice the value is "I have 12 doughnuts". The reason this works even though the first value is a number and the second is a string, is a result of _type coercion_. JavaScript is essentially trying to help us by converting the number into a string so we can combine the two together.
 
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
+
+### Interpolation
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+
+Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
+1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string
+2. Any values that you want to add in, use the following syntax - `${variable_name}` to properly wrap these values
+
+Take a look at these two sentences, one using concatenatoion, the other using interpolation.
+
+```JavaScript
+var quantity = 12;
+var snacks = " doughnuts";
+
+//this uses concatenation
+var snackCountConcat = "I have " + quantity + snacks + "!";
+
+console.log(snackCountConcat);
+// this will log the string "I have 12 doughnuts!"
+
+//this uses interpolation
+var snackCountInterpolate = `I have ${quantity} ${snacks}!`
+
+console.log(snackCountInterpolate);
+// this will log the string "I have 12 doughnuts!"
+```
+
+> 👩‍💻 PAUSE here, and complete the exercises in `interpolation.js`
+
 
 ## Exercises
 
