@@ -93,6 +93,4 @@ For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
-If your solution doesn't use a logical operator, this is a great topic to bring up
-in your pre-work group's Slack channel!
 */
