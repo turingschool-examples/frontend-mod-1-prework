@@ -10,7 +10,7 @@ Each section has a folder containing a `README.md` file with instructions and de
 * [Section 2 - ASKING QUESTIONS, Conditionals and Functions](section2)
 * [Section 3 - GROWTH MINDSET, Arrays and Iteration](section3)
 * [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
-* [Final Project - Final Project and Submission](finalProject)
+* [Final Prep - Final Deliverables and Submission](finalPrep)
 
 ## Materials
 
