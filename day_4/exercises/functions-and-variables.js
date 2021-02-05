@@ -36,6 +36,8 @@ function scopedFunction() {
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
 };
 
+scopedFunction()
+
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
@@ -49,7 +51,7 @@ does not alter the argument that is passed into it.
 Let's say we have a variable ourArray that stores an array. We'll cover arrays in more depth later as well but
 for now just remember our earlier explanation of arrays as ordered lists. Run this code to see the result.
 */
-
+/*
 function getLastValue(functionArray) {
   console.log("The value of the last index in my array is: " + functionArray[2]);
 };
@@ -58,7 +60,7 @@ var ourArray = [1, 2, 3];
 console.log("Check the array before calling getLastValue: " + ourArray);
 getLastValue(ourArray);
 console.log("Check the array after calling getLastValue: " + ourArray);
-
+*/
 /*
 In the above code, we passed ourArray to the getLastValue function. In getLastValue, the value of ourArray
 is assigned to the local variable functionArray, which is scoped at the function definition level. In the function's
