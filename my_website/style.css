@@ -1,0 +1,94 @@
+
+body {
+  width:90%;
+  margin: 0 auto}
+
+h1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  background-color: #efefef;
+  z-index: 10;
+  text-align: center;
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+  border: solid;
+  border-radius: 10px;
+  font-family: verdena;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #e9e9e9
+}
+
+h4 {
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+#Content{
+  overflow: auto;
+}
+
+#content, #feature{
+  margin: 1%;
+}
+
+
+#feature {
+  margin-top: 4em;
+  height: 4em;
+  margin-bottom: 1em;
+  font-family: palatino;
+}
+
+#column1 {
+  width: 47%;
+  float: left;
+  margin: 1%;
+}
+
+#column2 {
+  width: 47%;
+  float: right;
+  margin: 1%;
+  margin-bottom: 60%;
+  padding-bottom: auto;
+  line-height: 25px;
+}
+
+.one{
+  overflow: scroll;
+  }
+.two {
+  overflow: scroll;
+}
+
+#form {
+  margin-top: auto;
+  padding: 10px;
+  width: 60%;
+}
+
+li {
+  font: Helevtica;
+  text-shadow: 2px 2px #e9e9d9;
+}
+
+.radio-buttons {
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
+
+blockquote {
+  color: brown;
+  float: center;
+  width: 275px;
+  font-size: 130%;
+  font-family: Georgia, times, serif;
+  margin: 0px 0px 0px 30px;
+  padding: 10px;
+}
