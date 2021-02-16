@@ -23,22 +23,30 @@ for (var i = 0; i < 3; i++) {
 }
 
 // What is logged to the console for this second example? Why?
-// EXPLAIN:
+// EXPLAIN: The second example logs the index on the count rather than displaying a string message. Since the index statement starts at 0 and the condition is
+// less than 3, with i++ indicating each time i is logged, it will increase by one integer.
 
 
  // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
-
+var total = (2 + 2) * 7;
+console.log(total);
 
  // YOU DO: Write code below that logs the String 'She sells seashells down by the seashore'
  // 10 times.
-
+for (var i = 0; i < 10; i++) {
+  console.log("She sells seashells down by the seashore");
+}
 
 //-------------------
 // LEVEL 2: An Added Layer of Challenge
 //-------------------
 
-// YOU DO: Write code below that logs to the console a String of "This is loop number: " 
+// YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+
+for (var i = 1; i < 11; i++) {
+  console.log("This is loop number:" + i);
+};
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
 
@@ -52,7 +60,10 @@ for (var i = 0; i < 3; i++) {
 // 3
 // 2
 // 1
+for (var i = 10; i > 0; i--) {
+  console.log(i);
+}
 
-// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend 
+// Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made
 // progress, that means it's time to reach out to your pre-work group on Slack!
