@@ -35,7 +35,7 @@ function scopedFunction() {
 
   console.log("ourNumber value inside scopedFunction: " + ourNumber);
 };
-
+/*
 /*
 The value of ourNumber is 3, because this console log is referencing the ourNumber
 created inside of the scopedFunction.
