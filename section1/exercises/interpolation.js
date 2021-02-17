@@ -19,7 +19,7 @@ console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log( `My zoo has ${numberOfCreatures} ${creatures}!`)
+console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here: 

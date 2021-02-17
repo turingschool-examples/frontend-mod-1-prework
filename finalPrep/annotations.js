@@ -3,9 +3,9 @@
 
 //Build a Bear
 function buildABear(name, age, fur, clothes, specialPower) {
-  var greeting = `Hey partner! My name is ${name} - will you be my friend?!`
-  var demographics = [name, age]
-  var powerSaying = "Did you know that I can " + specialPower + " ?"
+  var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
+  var demographics = [name, age];
+  var powerSaying = "Did you know that I can " + specialPower + " ?";
   var builtBear = {
     basicInfo: demographics,
     clothes: clothes,
@@ -13,13 +13,13 @@ function buildABear(name, age, fur, clothes, specialPower) {
     cost: 49.99,
     sayings: [greeting, powerSaying, "Goodnight my friend!"],
     isCuddly: true,
-  }
+  };
 
   return builtBear
 }
 
-buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')
-buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
+buildABear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares');
+buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in');
 
 
 
@@ -27,16 +27,16 @@ buildABear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 function fizzBuzz(num1, num2, range) {
   for (var i = 0; i <= range; i++) {
     if (i % num1 === 0 && i % num2 === 0) {
-      console.log('fizzbuzz')
+      console.log('fizzbuzz');
     } else if (i % num1 === 0) {
-      console.log('fizz')
+      console.log('fizz');
     } else if (i % num2 === 0) {
-      console.log('buzz')
+      console.log('buzz');
     } else {
-      console.log(i)
+      console.log(i);
     }
   }
 }
 
-fizzBuzz(3, 5, 100)
-fizzbuzz(5, 8, 400)
+fizzBuzz(3, 5, 100);
+fizzbuzz(5, 8, 400);

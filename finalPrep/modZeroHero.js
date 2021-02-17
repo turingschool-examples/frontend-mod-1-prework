@@ -42,8 +42,8 @@
 //   - If the dangerLevel is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the console.
 
 //Test Cases
-var announcement = 'Never fear, the Courageous Curly Bracket is here!'
-var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+var announcement = 'Never fear, the Courageous Curly Bracket is here!';
+var excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.';
 // assessSituation(99, announcement, excuse) > Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 //assessSituation(21, announcement, excuse) > should print - 'Never fear, the Courageous Curly Bracket is here!'
 //assessSituation(3, announcement, excuse) > should print - "Meh. Hard pass."
