@@ -17,7 +17,7 @@ console.log(name);
 
 // EXAMPLE: Write code below to add 2 to the variable `students` and
 // log the result:
-var enrolledStudents = 22;
+var enrolledStudents = 22 + 2;
 console.log(enrolledStudents);
 
 // YOU DO:
