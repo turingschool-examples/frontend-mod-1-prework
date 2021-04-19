@@ -3,6 +3,7 @@
 *1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?*
 
 // My main takeaway from this article is that super learners treat the process of growth as rewarding in its own right. Rather than focusing solely on goals, they try to absorb whatever knowledge comes their way and reinforce it through teaching others. This is something I already do, and I was surprised to see it written out like this when I opened the article for the first time.
+
 // The area I struggle most with is taking care of my brain as mentioned in number 5. I used to eat healthier when I was in college, but over time I have lapsed a bit in my efforts. This is mostly due to financial constraints, but once I receive the cost-of-living loans I fully intend to start eating healthy again. I also plan on doing light exercise every day.
 
 *2. What are the data types you learned about in this section? In your own words, define each.*
