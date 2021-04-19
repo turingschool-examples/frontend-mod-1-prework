@@ -1,0 +1,351 @@
+Script started on Mon Apr 19 11:29:32 2021
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+Harry Potter
+[33m22[39m
+Harry Potter must not return to Hogwarts!
+Josh
+[33mtrue[39m
+[33m0[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/variables.js:43
+My name would need to be a string because it contains only letters.
+   ^^^^
+
+SyntaxError: Unexpected identifier
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/variables.js:43
+My name would need to be a string because it contains only letters.
+   ^^^^
+
+SyntaxError: Unexpected identifier
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+Harry Potter
+[33m22[39m
+Harry Potter must not return to Hogwarts!
+Josh
+[33mtrue[39m
+[33m0[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+Harry Potter
+[33m22[39m
+Harry Potter must not return to Hogwarts!
+Josh
+[33mtrue[39m
+[33m0[39m
+Jorsh
+[33mfalse[39m
+[33m1[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[?2004l
+Harry Potter
+[33m22[39m
+Harry Potter must not return to Hogwarts!
+Josh
+[33mtrue[39m
+[33m0[39m
+Jorsh
+[33mfalse[39m
+[33m1[39m
+[33m14[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[A[14Cjs js js js js js js js js js djsajstjsajstjsyjspjsejssjs.jsjs js js js js js js js js js cjsojsnjscjsajstjsejsnjsajstjsijsojsnjs.js[?2004l[1B
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red foxjumped over the lazy brown dog
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+In a predictable result, the tortoise beat the hare
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+In a predictable result, the tortoise beat the hare!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/concatenation.js:51
+console.log ("Tragically, the beloved " + lowTierHero + " usually loses to" + slowEvil + " and " fastEvil + ".");
+                                                                                         ^^^^^^^
+
+SyntaxError: missing ) after argument list
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/concatenation.js:51
+console.log("Tragically, the beloved " + lowTierHero + " usually loses to" + slowEvil + " and " fastEvil + ".");
+                                                                                        ^^^^^^^
+
+SyntaxError: missing ) after argument list
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/concatenation.js:51
+console.log("Tragically, the beloved " + lowTierHero + " usually loses to " + slowEvil + " and " fastEvil + ".");
+                                                                                         ^^^^^^^
+
+SyntaxError: missing ) after argument list
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+In a predictable result, the tortoise beat the hare!
+Test
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004h[7mnode section1/exercise[7ms[7m/variables.js[27m[K
+[K[A[A[58C[27mn[27mo[27md[27me[27m [27ms[27me[27mc[27mt[27mi[27mo[27mn[27m1[27m/[27me[27mx[27me[27mr[27mc[27mi[27ms[27mes[27m/[27mv[27ma[27mr[27mi[27ma[27mb[27ml[27me[27ms[27m.[27mj[27ms[1B[K[A[A[58C[2B[?2004l
+Harry Potter
+[33m22[39m
+Harry Potter must not return to Hogwarts!
+Josh
+[33mtrue[39m
+[33m0[39m
+Jorsh
+[33mfalse[39m
+[33m1[39m
+[33m14[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/variables.js[K
+[K[K[A[A[58C[1C[P[21Cs/[P[12C [A[44Cnode section1/exercises/variables.js[A[45C[2B[A[14C            concatenation.js[?2004l[1B
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+In a predictable result, the tortoise beat the hare!
+Duck Hunt Dog usually loses to Pyra and Mythra
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog
+In a predictable result, the tortoise beat the hare!
+Duck Hunt Dog usually loses to Pyra and Mythra, and that makes me sad.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/concatenation.js[K
+[K[K[A[18C                interpolation.js[?2004l[1B
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/interpolation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/interpolation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog.
+In a predictable result, the tortoise beat the hare!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/interpolation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog.
+In a predictable result, the tortoise beat the hare!
+The electric guitar is cool and all, but the bass and {smashAndCrash} are what really bring the funk!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/interpolation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog.
+In a predictable result, the tortoise beat the hare!
+The electric guitar is cool and all, but the bass and drums are what really bring the funk!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hnode section1/exercises/interpolation.js[K
+[K[K[?2004l
+The Chudley Cannons are Ron's favorite Quidditch team.
+My zoo has 7 unicorns!
+The quick red fox jumped over the lazy brown dog.
+In a predictable result, the tortoise beat the hare!
+The guitar is cool and all, but the bass and drums are what really bring the funk!
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   section1/exercises/concatenation.js[m
+	[31mmodified:   section1/exercises/dataTypes.js[m
+	[31mmodified:   section1/exercises/interpolation.js[m
+	[31mmodified:   section1/exercises/variables.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mscreen.log[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro frontend-mod-1-prework % [K[?2004hccd section1[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hccd frontend-mod-1-prework[?2004l
+cd: no such file or directory: frontend-mod-1-prework
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hlls[?2004l
+README.md	exercises	images		relection.md
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hccd exercises[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hnnode dataTypes.js[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/dataTypes.js:24
+console.log('99 bottles of pop on the wall...'')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hnode dataTypes.js[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/dataTypes.js:24
+console.log('99 bottles of pop on the wall...'')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hnode dataTypes.js[?2004l
+/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/dataTypes.js:24
+console.log('99 bottles of pop on the wall...);
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+[90m    at Object.compileFunction (node:vm:355:18)[39m
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1022:15)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1056:27)[39m
+[90m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:972:32)[39m
+[90m    at Function.Module._load (node:internal/modules/cjs/loader:813:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)[39m
+[90m    at node:internal/main/run_main_module:17:47[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hnode dataTypes.js[?2004l
+Alan Turing
+Welcome to Turing!
+99 bottles of pop on the wall...
+...dreams stay with you like a lover's voice fires the mountainsiiiide
+[33m4[39m
+[33m76[39m
+[33m318[39m
+[33m5[39m
+[33m4[39m
+[33mfalse[39m
+[33mtrue[39m
+[33mfalse[39m
+[33mtrue[39m
+[33mtrue[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hnode dataTypes.js[?2004l
+Alan Turing
+Welcome to Turing!
+99 bottles of pop on the wall...
+...dreams stay with you like a lover's voice fires the mountainsiiiide
+[33m4[39m
+[33m76[39m
+[33m318[39m
+[33m5[39m
+[33m4[39m
+[33mfalse[39m
+[33mtrue[39m
+[33mfalse[39m
+[33mtrue[39m
+[33mtrue[39m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hggit init[?2004l
+Initialized empty Git repository in /Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises/.git/
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hlls[?2004l
+concatenation.js	interpolation.js
+dataTypes.js		variables.js
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hggit add concatenation.js interpolat [Kiion.js dataTypes.js vri  ariables.js[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hggit status[?2004l
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   concatenation.js[m
+	[32mnew file:   dataTypes.js[m
+	[32mnew file:   interpolation.js[m
+	[32mnew file:   variables.js[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1/exercises[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro exercises % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hlls[?2004l
+README.md	exercises	images		relection.md
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit add reflection.md[?2004l
+fatal: pathspec 'reflection.md' did not match any files
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit add reflection.md[?2004l
+fatal: pathspec 'reflection.md' did not match any files
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit add relection.md[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit add exercises[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   exercises/concatenation.js[m
+	[32mmodified:   exercises/dataTypes.js[m
+	[32mmodified:   exercises/interpolation.js[m
+	[32mmodified:   exercises/variables.js[m
+	[32mmodified:   relection.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../screen.log[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit add git status[?2004l
+fatal: pathspec 'git' did not match any files
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Joshuas-MacBook-Pro.local/Users/joshuahorner/turing/0module/frontend-mod-1-prework/section1[0m[27m[24m[Jjoshuahorner@Joshuas-MacBook-Pro section1 % [K[?2004hggit 
