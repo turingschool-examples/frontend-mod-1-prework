@@ -105,11 +105,11 @@ In this scenario, the [Turing GitHub account](https://github.com/turingschool) o
 
 ####  3. Click on `Fork` in the upper right corner of the screen and select your account as the destination
 
-![click on 'fork' button, confirm fork to your account](/images/fork_01.jpg)
+![click fork button](/images/fe_step1.png)
 
 ####  4. On the new page, confirm that it says it's the "forked" copy of this repository, with mentions of your username in the URL and repository name.
 
-![confirm new repository belongs to _your_ github account](/images/fork_02.jpg)
+![confirm fork](/images/fe_step2.png)
 
 ## Clone down this new repository
 
@@ -119,7 +119,7 @@ Cloning is when you copy a remote GitHub repository to your local computer.
 
 #### 1. In YOUR `frontend-mod-1-prework` repository that your just forked, click on `Clone or Download`
 
-![clone down your copy](/images/fork_03.jpg)
+![clone your copy](/images/fe_step3.png)
 
 #### 2. If you see `Clone with HTTPS` click on `Use SSH`
 

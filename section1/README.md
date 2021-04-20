@@ -411,7 +411,7 @@ Congratulations! You just saved your work to Git! If `git status` is showing any
 You've saved your work to Git on your local machine, but it is not yet accessible through your remote GitHub repository. Updating our remote GitHub repository with our local changes is called pushing. Push your code with the following command:
 
 ```
-git push origin master
+git push origin main
 ```
 
 You should see output _similar_ to this:
