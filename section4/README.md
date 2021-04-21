@@ -303,4 +303,4 @@ Commit your Code Challenges and push up to your GitHub repository.
 - [Part B: Objects](#Part-B-Arrays)
 - [Part C: Classes and Instances](#Part-C-Loops)
 
-🚀 [Go to the Final Project](../finalProject)
+🚀 [Go to the Final Prep](../finalPrep)
