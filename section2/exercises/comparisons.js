@@ -19,14 +19,20 @@ var stringTeachers = "4";
 var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
+
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
+
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
 
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
+
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
 // this should log: true
+
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -36,6 +42,8 @@ perform this evaluation
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
 // this should log: false
+
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -50,18 +58,27 @@ you develop good habits that follow best practice, from now on, use the strict c
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
 
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
+
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
 
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
+
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
+
+console.log("Is numberStudents less than or eual to 20?", numberStudents <= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
 
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 
 //-------------------
 // PART 2: Articulating what you are doing
@@ -75,20 +92,36 @@ you develop good habits that follow best practice, from now on, use the strict c
 console.log(4 < 9);
 //YOU DO: Explain.
 
+// This is will log the result of asking: Is the number 4 less than the number 9)?
+// The result will print `true`
+
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+
+//The first line is declaring the variable `books`, and assigning it to the value of 3 (number data type)
+//The second line will log the result of asking: Is the number 4 less than the number of books?
+//The result will print `false`
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
 
+//The first line is declaring the variable `friends`, and assigning it to the value of 6 (number data type)
+//The second line is declaring the variable `siblings`, and assigning it to the value of 2 (number data type)
+//The third line will log the result of asking: Is the value assigned to friends greater than the value assigned to siblings
+//The result will be `true`
+
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
 
+//The first line is declaring the variable `attendees`, and assigning it the value of 9 (number data type)
+//The second line is declaring the variable `meals`, and assigning it the value of 8 (number data type)
+//The third line will log the result of asking: Is the number of attendees not equal to the number of meals?
+// The result will be `true`
 
 //-------------------
 // PART 3: Logical Operators
@@ -111,17 +144,37 @@ var age = 1;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 
+console.log(lovesToPlay && lovesTreats);
+//`true`
 
 // Determine if the dog loves to play and loves the dog park
 
+console.log(lovesToPlay && lovesDogPark);
+//`false`
 
 // Determine if the dog loves to play or loves the dog park
 
+console.log(lovesToPlay || lovesDogPark);
+//`true`
 
 // Determine if the dog loves to play and is a puppy
 
+console.log(lovesToPlay && age);
+
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+
+/*
+  The result was: 1
+  We did not assign the value of `age` to a boolean `true` or `false` answer... but more interestingly,
+  I noticed that if I change the value of `lovesToPlay` = `false`, the result prints false.
+  This tells me that if the state is inherently `true`, then perhaps by coercion, Javascript prints the number
+  because there are no flasehoods in the statement.
+  However, if there is a `false` in the statement, Javascript automatically renders the statement `false`.
+  This may only be the case with Logical Operators, as I don't have any experience with too much else yet.
+  I came to this conclusion after working through the Pizza Making question in the if-statement excersize
+  and observing the behavior of the hasSauce value.
+  */
 
 //-------------------
 // FINAL CHECK
@@ -129,3 +182,4 @@ var age = 1;
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+//
