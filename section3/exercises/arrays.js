@@ -15,25 +15,35 @@ Make sure to run the file with node in your command line.
 
 // EXAMPLE: write code below that will log an array of animals.
 // Store the array in a variable.
+
 var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
 // EXAMPLE: Write code below that will log "Zebra" from the animals array
 // YOUR CODE HERE
+
 console.log(animals[0]);
 
 // YOU DO: Write code below that will log the number of elements in array of
 // animals from above.
 
+console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
 
+animals[2] = "Gorilla";
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 
+animals.push("Snake");
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
+
+
+animals.push("Elephant");
+console.log(animals[4]);
+
 
 
 //-------------------
@@ -42,24 +52,39 @@ console.log(animals[0]);
 
 // YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
 
+var fridge = ["chicken", "cheese", "beer", "lettuce"];
+
 
 // YOU DO: Write code below that will log the number of elements in the array of
 // foods from above.
 
+console.log(fridge.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
+
+fridge.push("broccoli");
+console.log(fridge);
 
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
 
+fridge.pop();
+console.log(fridge);
 
-// YOU DO: Write code to add 3 new foods to the array. 
+
+// YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
 
+fridge.unshift("grapes", "steak", "butter");
+console.log(fridge);
+
 // YOU DO: Remove the food that is in index position 0.
+
+fridge.shift();
+console.log(fridge)
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -79,12 +104,12 @@ The post itself likely has more complex data, but here's one way we can think ab
 var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 // YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-// may be storing data? Come up with 3 examples - they could be from different web applications or 
+// may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1:
-// 2:
-// 3:
+// 1: TD Ameritrade: Listing and storing portfolio of stocks and investments that can be viewed individually or as a whole.
+// 2: Amazon: Shopping Cart/Purchcase History/Favorites. All are examples of storing purchases or intended puchases that can be called upon.
+// 3: GitHub: The listing and collection of users gists, repos, etc...
 
 
 //-------------------
@@ -96,7 +121,7 @@ YOU DO:
 Using the variables defined below, write a program that will tell a user if they
 will be able to call an Uber.
 
-The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter 
+The user can call an uber if they have 15% battery remaining, or more. In this case, it doesn't matter
 if the user has a charger at all, or what type.
 The can call an uber if they have a charger and it is a car charger.
 
@@ -105,8 +130,29 @@ var percentBatteryLeft = 12;
 var hasCharger = true;
 var chargerType = "car";
 
-// Write your conditional here
+// Determines using a comparison operator if percentBatteryLeft is `true`, if `false` next statement
+if (percentBatteryLeft >= 15) {
+// Logs to console "you can call an Uber!"
+  console.log("You can call an Uber");
+// Determines with a logical operator of statement is `true` if `false`, next statement
+} else if (hasCharger && chargerType === "car") {
+// Logs to console "You can call an Uber!"
+  console.log("You can call an Uber");
+// Executes console log
+} else {
+// Logs "Looks like you're hoofin' it!"
+  console.log("Looks like you're hoofin' it!");
+}
 
+// Or this more efficient version:
+
+// Determines using Comparison Operators and Logical Operators if `true`
+if ((percentBatteryLeft >= 15) || (hasCharger && chargerType === "car")) {
+  console.log("You can call an Uber");
+// If above results in `false` the next statement is executed
+} else {
+  console.log("Looks like you're hoofin' it!");
+}
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
 // That comment should describe, in your own words, and as technically precise as possible,
