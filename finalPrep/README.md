@@ -37,7 +37,7 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
-- [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
+- [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/jphorner/a39cd60f605b81fe3b52763e5a12be37)
   - [ ] Add link to your gist here: 
 
 ### Lesson Prep
