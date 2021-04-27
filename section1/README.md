@@ -310,7 +310,7 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 > 👩‍💻 PAUSE here, and complete the exercises in `concatenation.js`
 
 ### Interpolation
-In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together. 
+In addition to concatenation, you may also have seen interpolation used to inject values into strings! One benefit of interpolation is that it can be easier to read in longer strings and don't require concatenating separate strings together.
 
 Interpolation requires slightly different syntax to inject values into a string. Follow the below formula to utilize interpolation:
 1. Use the backtick (same key as the `~`, or the key to the left of the `1` key on a mac) to wrap your entire string

@@ -22,7 +22,7 @@ class Tweet {
     this.number0fLikes = this.number0fLikes + 1;
   }
   addComment(ac) {
-    this.comments = this.comments + ", " + ac;
+    this.comments = this.comments + ", " + ac + " ";
   }
 };
 
@@ -39,6 +39,3 @@ console.log(tweet2);
 tweet2.likeIncrement();
 tweet2.addComment("So you guys are just going to ignore the fact that you resurrected that rampaging pterodactyl?");
 console.log(tweet2);
-
-// I couldn't figure out how to add a space after each logged comment, so they just
-// kind of run together. Sorry about that.

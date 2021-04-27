@@ -42,7 +42,7 @@ Read the three blog posts that follow:
 * [Asking better questions](https://dev.to/josefine/asking-better-questions-2e2k)
 * [Your Questions Are Dumb; Ask Them Anyway](https://dev.to/kathryngrayson/your-questions-are-dumb-ask-them-anyway-3cm6)
 
-Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth? 
+Reflect on these posts, and how you feel about asking questions (specifically, technical questions as you enter your technical work at Turing). How might this positively or negatively impact your growth?
 
 It's going to take some time to find that balance between googling and pushing yourself to solve a problem without hand-holding, and reaching out for help. That's ok! be patient with yourself. The way you will find that balance is by being cognizant and aware of how you currently operate. Keep this on your mind as you work through this section, and... there is no time like the present to start asking questions!
 

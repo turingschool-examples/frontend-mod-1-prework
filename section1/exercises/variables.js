@@ -71,4 +71,4 @@ console.log(snackCount);
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
-// Yes!
+  // Yes!

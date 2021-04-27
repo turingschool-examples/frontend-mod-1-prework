@@ -127,15 +127,15 @@ console.log(lovesToPlay && age); // 1
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// The console returned "1" as the value of the last question.
-// My guess is that because var lovesToPlay is a boolean and var age is an integer,
-// the computer treats the integer as the "truthier" of the two. The computer doesn't
-// know how to compare these two separate data types, but integers are a more
-// clear-cut definition of value, so it simply returns the integer.
-//
-// At first I thought that it returned 1 because "1" and "true" are treated as
-// equal (per the reading), but when I changed the integer to 4 it still returned
-// 4 as the value. Therefore, my best guess is that integers are simply truthier.
+  // The console returned "1" as the value of the last question.
+  // My guess is that because var lovesToPlay is a boolean and var age is an integer,
+  // the computer treats the integer as the "truthier" of the two. The computer doesn't
+  // know how to compare these two separate data types, but integers are a more
+  // clear-cut definition of value, so it simply returns the integer.
+  //
+  // At first I thought that it returned 1 because "1" and "true" are treated as
+  // equal (per the reading), but when I changed the integer to 4 it still returned
+  // 4 as the value. Therefore, my best guess is that integers are simply truthier.
 
 //-------------------
 // FINAL CHECK
@@ -143,4 +143,4 @@ console.log(lovesToPlay && age); // 1
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
-// That's a yes from me!
+  // That's a yes from me!

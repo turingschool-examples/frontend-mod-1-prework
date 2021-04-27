@@ -65,8 +65,7 @@ for (i = 1; i < 2; i++) {
 
 for (i = 10; i >= 1; i--) {
   console.log(i);
-}
-//Psh, give me a real challenge! (...I'm going to regret saying that, aren't I?)
+} //Psh, give me a real challenge! (...I'm going to regret saying that, aren't I?)
 
 // Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
 // more than 15 minutes without making progress. If you are at 15 minutes and haven't made

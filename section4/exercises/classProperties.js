@@ -27,8 +27,8 @@ var poodle = new Dog();
 console.log(newfoundland);
 console.log(poodle);
 
-// This was my understanding of what to do, but I struggle to understand
-// instructions sometimes. Was the constructor component necessary to the skeleton?
+  // This was my understanding of what to do, but I struggle to understand
+  // instructions sometimes. Was the constructor component necessary to the skeleton?
 
 // Prompt 2: Snack
 
