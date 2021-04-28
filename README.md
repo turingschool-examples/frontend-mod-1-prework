@@ -152,8 +152,15 @@ nothing to commit, working tree clean
 
 From here on out, all the work you do will be in your copy of this repository. Other text you read here might refer to this as the "prework repository" or "frontend prework", and they all refer to your forked copy of this `frontend-mod-1-prework` repository.
 
+### IMPORTANT NOTE - PLEASE READ CAREFULLY
+Do **NOT** work directly in the Github interface or use the `Edit` button to work directly from the Github version of your prework repository! 
+
+Instead, add your work in your text editor (Atom) on your local machine (laptop) - your prework involves using `git` to track changes and push your work up to Github. We will cover how to do this in Mod 0 AND we give explicit instructions on how to do this in each section of the prework!
+
 ## Get Started
 
 Each sections `README` will walk you through the steps you need to take to save your work.
 
 To start, in your terminal, `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have a great time learning and exploring!
+
+----------------------------------
