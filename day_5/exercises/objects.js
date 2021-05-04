@@ -15,18 +15,34 @@ console.log(foods);
 
 // Write code below that will print an B=Object of animals and the number
 // of that type of animal at the zoo. (an inventory of animals)
-var zoo = // YOUR CODE HERE
+var zoo = {
+  lion: 4,
+  tiger: 3,
+  bear: 5,
+  monkey: 8,
+  gorilla: 6,
+}
 console.log(zoo)
 
 // Using the zoo that you created above, print all the keys in the Object.
-// YOUR CODE HERE
+
+console.log(Object.keys(zoo));
+[ 'lion', 'tiger', 'bear', 'monkey', 'gorilla' ]
 
 // Using the zoo that you created above, print all the values in the Object.
-// YOUR CODE here
+
+console.log(Object.values(zoo));
+[ 4, 3, 5, 8, 6 ]
 
 // Using the zoo that you created above, print the value of the first item in
 // the Object
-// YOUR CODE HERE
+zoo.lion;
+4
 
 // Add an animal to the zoo Object and print the updated Object.
-// YOUR CODE HERE
+
+zoo.penguin = 9;
+9
+
+console.log(zoo);
+{ lion: 4, tiger: 3, bear: 5, monkey: 8, gorilla: 6, penguin: 9 }

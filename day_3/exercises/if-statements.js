@@ -50,6 +50,18 @@ var numQuarters = 0;
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
 
+if (numQuarters == 0) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters == 1) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters == 2) {
+  console.log("I have enough money for a gumball");
+} else if (numQuarters == 3) {
+  console.log("I have enough money for a gumball");
+} else {
+  console.log("You don't need a gumball!");
+}
+
 /* ----------------------------
 Using the variables defined below, determine if you have the
 ingredients to make a pizza. A pizza requires at least two cups
@@ -64,3 +76,17 @@ When cupsOfFlour = 3 and hasSauce = true, your program should log "I can make pi
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
+if (cupsOfFlour == 1 && hasSauce == true) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 1 && hasSauce == false) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 2 && hasSauce == true) {
+  console.log("I can make pizza")
+} else if (cupsOfFlour == 3 && hasSauce == true) {
+  console.log("I can make pizza")
+} else {
+  console.log("No pizza for you!")
+}
+
+// Outcome: "I cannot make pizza". Reassigning the cupsOfFlour variable will change this outcome.

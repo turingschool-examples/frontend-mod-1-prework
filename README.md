@@ -1,3 +1,7 @@
+This repo was used for a homework assignment and has been archived. 
+
+------
+
 # Frontend Mod 1 Pre-work Repository
 
 This repository will walk you through the Mod 1 Pre-work for the Frontend program at Turing.

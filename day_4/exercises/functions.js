@@ -14,17 +14,27 @@ printName();
 // Update the function below so that it takes an argument of your name and
 // prints your name
 
-function printName() { // hint.. add a parameter on this line :)
-  // YOUR CODE HERE
+function printName(name) { // hint.. add a parameter on this line :)
+  return "My name is " + name;
 };
 
 printName("Albus Dumbledore");
 
 // Write a function that takes in 2 numbers as arguments and prints their sum, and
 // then call that function.
-//YOUR CODE HERE
+
+function calculateSum(num1, num2) {
+  return num1 + num2;
+}
+
+calculateSum(10, 7);
 
 // Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
-// YOUR CODE HERE
+
+function makeSentence(name1, name2) {
+  return "Have you talked to " + name1 + " or " + name2 + " about their plans for this weekend?";
+}
+
+makeSentence("Ashley", "Stacy");
