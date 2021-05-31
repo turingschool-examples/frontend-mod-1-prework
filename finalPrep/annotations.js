@@ -2,11 +2,19 @@
 // Use the double // to create a new comment
 
 //Build a Bear
+//This is a function with 5 parameters, (name, age, fur, clothes, specialPower)
 function buildABear(name, age, fur, clothes, specialPower) {
+//Declare variable of "greeting", value is a template string having an
+//expression with placeholder "name"
   var greeting = `Hey partner! My name is ${name} - will you be my friend?!`;
+//Declare a variable having value being an array with two
+//elements
   var demographics = [name, age];
+//Declare variable "powerSaying"
   var powerSaying = "Did you know that I can " + specialPower + " ?";
+
   var builtBear = {
+
     basicInfo: demographics,
     clothes: clothes,
     exterior: fur,
