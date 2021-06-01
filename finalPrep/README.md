@@ -4,8 +4,8 @@ Congrats on making it to the Mod 0 Final Prep! Complete the final exercises belo
 ### Final Technical Prep
 You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
 
-- [ ] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
-- [ ] Complete the [Annotation Challenge](./annotations.js) 
+- [X] Complete the [Mod Zero Hero Challenge](./modZeroHero.js)
+- [X] Complete the [Annotation Challenge](./annotations.js) 
 
 ### Refactor Previous Work
 You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy. 
@@ -18,36 +18,38 @@ Some things to consider as you refactor include...
 
 Take your time as you go back and refactor your exercises from each section. We've included a handy checklist for you to go through below.
 
-- [ ] I have refactored my `section1` exercises to the best of my ability
-- [ ] I have refactored my `section2` exercises to the best of my ability
-- [ ] I have refactored my `section3` exercises to the best of my ability
-- [ ] I have refactored my `section4` exercises to the best of my ability
+- [X] I have refactored my `section1` exercises to the best of my ability
+- [X] I have refactored my `section2` exercises to the best of my ability
+- [X] I have refactored my `section3` exercises to the best of my ability
+- [X] I have refactored my `section4` exercises to the best of my ability
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/))
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [X] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/))
+- [X] Study/Project work time
+- [X] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- `https://imgur.com/ZxITpbw`
+- `https://imgur.com/Mt08UBm`
+- `https://imgur.com/undefined`
+**THESE ARE EXAMPLES BECAUSE MY MOD 1 CALENDAR IS NOT PUBLISHED YET**
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
-- [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+- [X] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
+  - [X] Add link to your gist here: https://gist.github.com/Wil-Huffman/f260fd017bd73005d78e6e878b967504
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
-- [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+- [X] Complete the [Pre Teaching Practice exercise](https://gist.github.com/Wil-Huffman/bb515da9f1276c519a1d60558216b942) gist
+  - [X] Add a link to your gist here: https://gist.github.com/Wil-Huffman/bb515da9f1276c519a1d60558216b942
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
-- [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
+- [ ] Complete the [DTR Guiding Questions](https://gist.github.com/Wil-Huffman/15b76a032e24a3dd34a2515333d49dec)
   - [ ] Add a link to your gist here: 
 
 ## All Done? How to Submit your M1 Prework
