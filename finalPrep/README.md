@@ -49,8 +49,8 @@ You've learned a lot about how to take strong notes during Mod 0. Show us your s
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
-- [ ] Complete the [DTR Guiding Questions](https://gist.github.com/Wil-Huffman/15b76a032e24a3dd34a2515333d49dec)
-  - [ ] Add a link to your gist here: 
+- [X] Complete the [DTR Guiding Questions](https://gist.github.com/Wil-Huffman/15b76a032e24a3dd34a2515333d49dec)
+  - [X] Add a link to your gist here: https://gist.github.com/Wil-Huffman/15b76a032e24a3dd34a2515333d49dec
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
