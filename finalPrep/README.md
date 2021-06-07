@@ -33,7 +33,7 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 - `https://imgur.com/ZxITpbw`
 - `https://imgur.com/Mt08UBm`
-- `https://imgur.com/undefined`
+- `https://imgur.com/11pmbnK`
 **THESE ARE EXAMPLES BECAUSE MY MOD 1 CALENDAR IS NOT PUBLISHED YET**
 
 
