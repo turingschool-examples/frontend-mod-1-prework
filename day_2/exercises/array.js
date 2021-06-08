@@ -10,6 +10,7 @@ var animals = ["Zebra", "Giraffe", "Elephant"];
 console.log(animals);
 
 // Declare a variable that will store an an array of at least 3 foods (strings)
+var foods = ["Pizza", "Pierogi", "Pasta"];
 // YOUR CODE HERE
 
 // example: Write code below that will log the number of elements in array of
@@ -18,28 +19,39 @@ console.log(animals.length);
 
 // Write code below that will log the number of elements in the array of
 // foods from above.
+console.log(foods.length);
 // YOUR CODE HERE
 
 // Write code below that will log "Zebra" from the animals array
+console.log(animals.slice(0, 1));
 // YOUR CODE HERE
 
 // Write code using bracket notation that will log the first item in the animals array
+console.log(animals[0])
 // YOUR CODE HERE
 
 // Write code using bracket notation that will log the last item in the animals array
+console.log(animals[2])
 // YOUR CODE HERE
 
 // Write code using bracket notation that will reassign the last item in the animals
 // array to "Gorilla"
+animals[2] = "Gorilla"
+console.log(animals[2])
 // YOUR CODE HERE
 
 // Write code below that will log the last item from the foods array.
+console.log(foods[2])
 // YOUR CODE HERE
 
 // Write code below that uses a method to add "lion" to the animals array and
 // log the changed array to verify "lion" has been added
+animals.push("lion")
+console.log(animals);
 // YOUR CODE HERE
 
 // Write code below that removes the last item of food from the foods array and
 // log the cahnged array to verify that item has been removed
+foods.pop()
+console.log(foods)
 // YOUR CODE HERE

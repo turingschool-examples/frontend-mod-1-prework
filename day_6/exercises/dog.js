@@ -9,7 +9,7 @@ hunger status.
 */
 
 class Dog {
-  constructor(breed, name, age) {
+  constructor(breed, name, age, hunger) {
     this.breed = breed;
     this.name = name;
     this.age = age;
@@ -22,13 +22,22 @@ class Dog {
 
   eat() {
     this.hungry = false;
+
+  }
+  play() {
+    this.hungry = true;
   }
 }
+
+
+
+
 
 var fido = new Dog("Bernese", "Fido", 4)
 console.log(fido.breed);
 console.log(fido.name);
 console.log(fido.age);
+fido.play()
 console.log(fido.hungry);
 fido.eat();
 console.log(fido.hungry);
