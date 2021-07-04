@@ -1,0 +1,339 @@
+img.main {
+  z-index: 1;
+  width: 1430px;
+}
+h1 {
+  position: absolute;
+  font-family: Times New Roman, Times;
+  font-style: italic;
+  font-size: 50px;
+  top: 0px;
+  right: 75px;
+}
+img.johnny {
+  z-index: 15;
+  position: absolute;
+  top: 525px;
+  left: 440px;
+  width: 90px;
+}
+img.birdsNest {
+  z-index: 15;
+  position: absolute;
+  top: 475px;
+  left: 230px;
+  width: 90px;
+}
+img.badlands {
+  z-index: 15;
+  position: absolute;
+  top: 400px;
+  left: 615px;
+  width: 90px;
+}
+img.whiteHawk {
+  z-index: 15;
+  position: absolute;
+  top: 255px;
+  left: 510px;
+  width: 90px;
+}
+img.midway {
+  z-index: 15;
+  position: absolute;
+  top: 225px;
+  left: 435px;
+  width: 90px;
+}
+img.interlocken {
+  z-index: 15;
+  position: absolute;
+  top: 210px;
+  left: 310px;
+  width: 90px;
+}
+img.centennial {
+   z-index: 15;
+  position: absolute;
+  top: 0px;
+  left: 620px;
+  width: 90px;
+}
+img.benedict {
+  z-index: 15;
+  position: absolute;
+  top: 69px;
+  left: 1050px;
+  width: 90px;
+}
+img.springvale {
+  z-index: 15;
+  position: absolute;
+  top: 220px;
+  left: 810px;
+  width: 90px;
+}
+img.expo {
+  z-index: 15;
+  position: absolute;
+  top: 735px;
+  left: 875px;
+  width: 90px;
+}
+img.dryGultch {
+  z-index: 15;
+  position: absolute;
+  top: 700px;
+  left: 565px;
+  width: 90px;
+}
+img.gvr {
+  z-index: 15;
+  position: absolute;
+  top: 530px;
+  left: 1070px;
+  width: 90px;
+}
+img.lighthouse {
+   z-index: 15;
+  position: absolute;
+  top: 1065px;
+  left: 805px;
+  width: 90px;
+}
+img.kenCaryl {
+   z-index: 15;
+  position: absolute;
+  top: 1025px;
+  left: 435px;
+  width: 90px;
+}
+img.johnnyPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 14;
+}
+img.birdsNestPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 12;
+}
+img.badlandsPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 13;
+  width: 380px;
+}
+img.whiteHawkPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 12;
+  width: 350px;
+}
+img.midwayPic {
+  position: absolute;
+  right: 20px;
+  height: 299px;
+  margin-top: -299px;
+  z-index: 11;
+}
+img.interlockenPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 10;
+  width: 350px;
+}
+img.centennialPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 9;
+}
+img.benedictPic {
+  position: absolute;
+  right: 20px;
+  height: 299px;
+  margin-top: -299px;
+  z-index: 8;
+  width: 250px;
+}
+img.springvalePic {
+  position: absolute;
+  right: 20px;
+  height: 262px;
+  margin-top: -262px;
+  z-index: 7;
+}
+img.expoPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 6;
+  width: 300px;
+}
+img.dryGultchPic {
+  position: absolute;
+  right: 20px;
+  height: 262px;
+  margin-top: -262px;
+  z-index: 5;
+  width: 375px;
+}
+img.gvrPic {
+  position: absolute;
+  right: 20px;
+  height: 298px;
+  margin-top: -298px;
+  z-index: 4;
+  width: 275px;
+}
+img.lighthousePic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 3;
+}
+img.kenCarylPic {
+  position: absolute;
+  right: 20px;
+  height: 280px;
+  margin-top: -280px;
+  z-index: 2;
+  width: 250px;
+}
+h2 {
+  background-color: #4f4f6e;
+  font-size: 30px;
+  margin: 10px;
+  margin-left: 0px;
+  border: 4px double white;
+  color: #2cb872;
+}
+p {
+  width: 700px;
+  margin-bottom: 50px;
+  font-family: Arial, Verdana;
+}
+ul {
+  margin-bottom: 50px;
+}
+div.johnnyRating {
+  position: absolute;
+  left: 570px;
+  bottom: -980px;
+}
+div.birdsNestRating {
+  position: absolute;
+  left: 570px;
+  bottom: -1260px;
+}
+div.badlandsRating {
+  position: absolute;
+  left: 570px;
+  bottom: -1540px;
+}
+div.whiteHawkRating {
+  position: absolute;
+  left: 570px;
+  bottom: -1802px;
+}
+div.midwayRating {
+  position: absolute;
+  left: 570px;
+  bottom: -2100px;
+}
+div.interlockenRating {
+  position: absolute;
+  left: 570px;
+  bottom: -2380px;
+}
+div.centennialRating {
+  position: absolute;
+  left: 570px;
+  bottom: -2660px;
+}
+div.benedictRating {
+  position: absolute;
+  left: 570px;
+  bottom: -2958px;
+}
+div.springvaleRating {
+  position: absolute;
+  left: 570px;
+  bottom: -3220px;
+}
+div.expoRating {
+  position: absolute;
+  left: 570px;
+  bottom: -3500px;
+}
+div.dryGultchRating {
+  position: absolute;
+  left: 570px;
+  bottom: -3763px;
+}
+div.grvRating {
+  position: absolute;
+  left: 570px;
+  bottom: -4061px;
+}
+div.lighthouseRating {
+  position: absolute;
+  left: 570px;
+  bottom: -4341px;
+}
+div.kenCarylRating {
+  position: absolute;
+  left: 570px;
+  bottom: -4603px;
+}
+.rate {
+    position: absolute;
+    height: 46px;
+    padding: 0 10px;
+    margin-left: 800px;
+    margin-top: -90px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#cccccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #19e64c;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
