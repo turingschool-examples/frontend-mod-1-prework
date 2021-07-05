@@ -1,0 +1,54 @@
+body {
+  background-color: #FFF0E5;
+}
+
+h1 {
+  background-color: #124559;
+  color: #7CD6C7;
+  border-style: solid;
+  border-color: #549F93;
+  font-family: Times;
+  padding-left: 5px;
+}
+
+h2, h3 {
+  background-color: #CEDFD9;
+  color: #549F93;
+  font-family: Times;
+  border-style: groove;
+  padding-left: 5px;
+}
+
+a:link {
+  color: #DB8574;
+}
+
+a:visited {
+  color: #D15C45;
+}
+
+#gratitudeQuestion, #CTA {
+  color: #456990;
+}
+
+.canopy, .aspen {
+  width: 200px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.canopyText, .aspenText {
+  clear: right;
+  margin-bottom: 50px;
+}
+
+.youtube {
+  display: block;
+  margin: 10px auto;
+}
+
+p, ul, ol, blockquote {
+  font-family: Verdana;
+  color: #5D5566;
+}
