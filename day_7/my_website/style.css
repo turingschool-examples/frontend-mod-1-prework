@@ -1,0 +1,45 @@
+
+
+  body {
+    background-color : papayawhip;
+    padding: 30px;
+  }
+
+a:visited {
+  color:green;
+}
+
+h1 {
+  color : darkGreen;
+  font : georgia;
+}
+
+h4 {
+  color : darkGreen;
+  font : georgia;
+}
+
+p {
+  font-family: sans-serif;
+  font : verdana;
+
+}
+
+.image1 {
+  float : right;
+  height : 125px;
+  width : 150px;
+  margin : 15px;
+  padding : 5px;
+  border-style : double;
+
+}
+
+.image2 {
+  float : left;
+  height : 100px;
+  width : 150px;
+  margin : 15px;
+  padding : 5px;
+  border-style : double;
+}
