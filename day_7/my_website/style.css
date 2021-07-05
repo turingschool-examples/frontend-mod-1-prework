@@ -1,0 +1,97 @@
+/*general*/
+
+body {
+  background-image: linear-gradient(rgb(189, 214, 172), rgb(221, 213, 183));
+  font-family: Georgia, Times, serif;
+  padding: 5px;
+  margin-left: 5%;
+  margin-right: 30px;
+}
+
+/*text*/
+
+h1, h2, h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 5px;
+  padding: 5px;
+  background-image: linear-gradient(rgb(189, 214, 172), rgb(221, 213, 183));
+  width: max-content;
+  color: rgb(102, 102, 102);
+  text-shadow: 1px 1px 0px rgb(104, 111, 99);
+}
+
+p {
+  text-indent: +22px;
+  margin-right: 35%;
+}
+
+#citations {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
+
+#indentless {
+  text-indent: 0px;
+}
+
+#bigquestion {
+  text-shadow: 1px 1px 0px rgb(104, 111, 99);
+  font-size: 20px;
+}
+
+fieldset {
+  width: 355px;
+  background-image: linear-gradient(rgb(189, 214, 172), rgb(221, 213, 183));
+  border: 1px solid rgb(102, 102, 102);
+  border-radius: 5px;
+}
+
+blockquote {
+  border-left: 1px solid rgb(102, 102, 102);
+  padding-left: 5px;
+  margin-right: 35%;
+}
+
+/*images*/
+
+figcaption {
+  padding: 5px;
+  font-size: 12px;
+}
+
+img.smallmap {
+height: 182.5px;
+width: 240px;
+}
+
+img.medmap {
+height: 220px;
+width:290px;
+}
+
+img.small {
+height: 255px;
+width: 412.5px;
+}
+
+#map {
+  float: right;
+  margin-left: 22px;
+}
+
+/*links*/
+
+a:link {
+  color: rgb(99, 145, 189)
+}
+
+a:visited {
+  color: rgb(109, 105, 89)
+}
+
+/*button*/
+
+button {
+  color: rgb(102, 102, 102);
+}
