@@ -1,0 +1,31 @@
+p {
+  font-family: monospace;
+  font-size: 12pt;
+}
+* {
+  background-color: #c9c6c5;
+}
+img {
+  width: 20%;
+  display: block;
+  padding: 10px;
+}
+h1 {
+  font-family: fantasy;
+  color: green;
+}
+input {
+  background-color: white;
+}
+button {
+  background-color: yellow;
+}
+ul {
+  padding: 10px;
+}
+select {
+  background-color: white;
+}
+p.one {
+  color: red;
+}
