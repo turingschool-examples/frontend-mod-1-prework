@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>My Furry Kids</title>
+    <link href = "style.css" type = "text/css" rel = "stylesheet" />
+    <script src="https://kit.fontawesome.com/2b9089e1af.js" crossorigin="anonymous"></script>
+    <script src = "file.js" type = "text/javascript"></script>
+  </head>
+  <div id = "navigation">
+    <a href = "#your-dog-form" id = "to-dog-form" class = "page-jumps">Upload Your Dog</a>
+    <a href = "#resources" id = "to-resources" class = "page-jumps">Resources</a>
+    <a name = "to-top"></a>
+  </div>
+  <body>
+    <h1 >My Furry Kids</h1>
+    <div>
+      <div class = "error-message"></div>
+      <form name = "nickname-form" id = "nickname-form" onsubmit="return validation();">
+        <input type = "text" placeholder = "Rename my kids!" class = "nickname" required = "required"/>
+        <select name = "chooseDog" class = "dogSelector">
+          <option value = "Estes">Estes</option>
+          <option value = "Peaches">Peaches</option>
+          <option value = "Zeke">Zeke</option>
+        </select>
+        <input type = "submit" class = "nickname-button" />
+      </form>
+    </div>
+    <div class = "Estes">
+      <img src = "images/Estes.jpg" alt = "Large black labradoodle laying on couch." />
+      <h2 class = "changeEstes">Estes</h2>
+      <p>Estes was born in Kansas City, MO in February of 2014; he was adopted by a woman named Stacey at eight weeks old, he lived with her for four months. He had a lot of energy, and he was too much for her to handle at the time, so he moved in with my spouse and me when he was six months old. He was a 90lb <a href = "http://www.vetstreet.com/dogs/labradoodle">Labradoodle</a>, he had a lot of energy, and he was very smart. He was a very playful dog that is curious about everyone and everything. When Estes was five years old, he was diagnosed with aggressive T-cell Lymphoma; he never made it to six years old. He was a good boy, and he is missed.
+      </p>
+      <ul>
+        <h3>Favorite Activities</h3>
+        <li>Going to the dog park</li>
+        <li>Harassing Peaches</li>
+        <li>Cuddling on the couch</li>
+        <li>Scaring Prarie dogs</li>
+        <li>Long walks off the leash</li>
+        <li>Chewing Kong toys</li>
+      </ul>
+    </div>
+    <div class = "Peaches">
+      <img src = "images/peaches.jpg" alt = "Small brown dog playing outside." />
+      <h2 class = "changePeaches">Peaches</h2>
+      <p>
+        Peaches was found living under an abandoned house in Oklahoma with her puppies. She was brought to Colorado along with her puppies by Happy Landings Animal Rescue in Ft. Collins and treated for heartworms. When we adopted her in 2015 she was thought to be four to six years old but no one was quite sure because she seems to have lived a hard life. Peaches is a 30lb <a href = "http://www.vetstreet.com/our-pet-experts/10-reasons-to-love-a-mutt">mutt</a> that was scared of the world, but she has become far less timid over the years. She is the queen of the house and she rules from her own Ikea throne.
+      </p>
+      <ul>
+        <h3>Favorite Activities</h3>
+        <li>Hiking</li>
+        <li>Car rides</li>
+        <li>Food</li>
+        <li>Sun bathing</li>
+        <li>Food</li>
+        <li>Receiving Pets</li>
+        <li>Food</li>
+      </ul>
+    </div>
+    <div class = "Zeke">
+      <img src = "images/Zeke.jpg" class = "Pitbull mix sitting on couch." />
+      <h2 class = "changeZeke">Zeke</h2>
+      <p>
+        Zeke was found in Amarillo, TX in 2019, he was brought to Colorado by Big Bones Canine Rescue in Ft. Collins. He spent a few months living with a family in Ft. Collins, however, he was returned to the rescue due to his bad behavior. We adopted him on  December 7th, 2019 he is thought to be two to three years old, but no one is quite sure. Zeke is a 55lb <a href = "http://www.vetstreet.com/dogs/basset-hound">Bassethound</a> and <a href = "http://www.vetstreet.com/dogs/american-pit-bull-terrier">Pit Bull Terrier</a> mix that is scared of life. He has only lived with us for about a month, but he is starting to come out of his shell. At times he is a bit larger and stronger than he realizes, and he needs reminders to be gentle.
+      </p>
+      <ul>
+        <h3>Favorite Activities</h3>
+        <li>Naps</li>
+        <li>Destroying stuffed toys</li>
+        <li>Walks</li>
+        <li>Cuddling on the couch</li>
+        <li>Guarding the neighborhood from the window</li>
+        <li>Watching TV</li>
+      </ul>
+    </div>
+    <div class = "your-dog-form">
+      <a name = "your-dog-form"></a>
+      <img id = "background-image" src = "images/background-image.jpg " alt "larg black and white dog" title = "Photo by Nick Fewings on Unsplash" />
+      <form>
+        <legend>What's Your Kid Like?</legend>
+          <input type = "text" name = "dog-name" placeholder = "What's your dog's name?" class = "text-input" required = "required"/>
+        <label for = "date">Birthday</label>
+          <input type = "date" name = "date-of-birth" id = "birthday-input" />
+          <input type = "text" placeholder ="Weight" class = "text-input" />
+          <input type = "text" placeholder = "Breed" class = "text-input"/>
+          <input type = "file" id = "file" class = "upload-image" />
+          <textarea maxlength = "250" placeholder = "Tell me about your dog." class = "dog-story"></textarea>
+          <input type = "submit" value = "submit" class = "submit-button" />
+      </form>
+    </div>
+    <div class = "resources">
+      <ul class = "dog-parks">
+        <h3 class = "resource-titles">Local Dog Parks</h3>
+        <li>
+          <a href = "https://www.cityoflafayette.com/Facilities/Facility/Details/45">Great Bark Dog Park</a>
+        </li>
+        <li>
+          <a href = "https://www.northglenn.org/rec_and_events/parks_and_open_space/jaycee_park.php">Jaycee Park</a>
+        </li>
+        <li>
+          <a href = "https://www.broomfield.org/Facilities/Facility/Details/39">Broomfield Commons Dog Park</a>
+        </li>
+        <li>
+          <a href = "https://www.cityofwestminster.us/ParksRecreation/Parks,TrailsOpenSpace/LittleDryCreekDogPark">Little Dry Creek Dog Parl</a>
+        </li>
+        <li>
+          <a href = "https://www.longmontcolorado.gov/Home/Components/FacilityDirectory/FacilityDirectory/4/51">Union Reservoir Dog Beach</a>
+        </li>
+        <li>
+          <a href = "https://www.denvergov.org/content/denvergov/en/denver-parks-and-recreation/parks/city-parks/dog-parks.html">Dog Parks in Denver</a>
+        </li>
+        <li>
+          <a href = "https://www.bringfido.com/attraction/state/colorado/">Dog Park Locator</a>
+        </li>
+      </ul>
+      <ul class = "dog-rescues">
+        <h3 class = "resource-titles">Adopt a Dog </h3>
+        <li>
+          <a href = "https://bigbonescaninerescue.com/">Big Bones Canine Rescue</a>
+        </li>
+        <li>
+          <a href = "https://chihuahua-smalldogrescue.org/">Chihuahua & Small Dog Rescue</a>
+        </li>
+        <li>
+          <a href = "http://www.happy-landings.org.uk/rehoming/dogs/">Happy Landings Animal Shelter</a>
+        </li>
+        <li>
+          <a href = "https://www.grittypittierescue.org/">Gritty Pittie Rescue</a>
+        </li>
+        <li>
+          <a href = "http://ddfl.org/catclinic">Dumb Friends League</a>
+        </li>
+        <li>
+          <a href = "https://www.maxfund.org/locationhours/">Max Fund Dog Shelter</a>
+        </li>
+        <li>
+          <a href = "http://coloradohumane.org/">The Colorado Humane Society</a>
+        </li>
+        <a name = "resources"></a>
+        <a href = "#to-top" id = "back-to-top" class = "page-jumps"><i class="fas fa-caret-square-up"></i></a>
+    </div>
+  </body>
+</html>
