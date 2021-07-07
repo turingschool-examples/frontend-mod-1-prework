@@ -1,0 +1,53 @@
+blockquote.one {float: right;
+width: 275px;
+font-size: 130%;
+font-style: italic;
+font-family: Georgia, Times, Serif;
+margin: 0px 0px 10px 10px;
+padding: 10px;
+border-top: 1px solid #665544;
+border-bottom: 1px solid #665544;}
+blockquote.two {float: left;
+width: 275px;
+font-size: 130%;
+font-style: italic;
+font-family: Georgia, Times, Serif;
+margin: 10px 10px 0px 0px;
+padding: 10px;
+border-top: 1px solid #665544;
+border-bottom: 1px solid #665544;}
+blockquote.three {float: right;
+width: 275px;
+font-size: 130%;
+font-style: italic;
+font-family: Georgia, Times, Serif;
+margin: 0px 0px 10px 10px;
+padding: 10px;
+border-top: 1px solid #665544;
+border-bottom: 1px solid #665544;}
+div.column1 {float: left;
+margin: 10px;
+background-color: #DCD0C0}
+div.column2 {float: right;
+margin: 10px;}
+h1, h2, h3 {font-family: Times, serif;}
+body {font-family: sans-serif}
+img.younggirls {display: block; margin: 0px auto;}
+img.justina {display: block; margin: 0px auto;}
+image.naacp {display: block; margin: 0px auto;}
+img.benny {display: block; margin: 0px auto;}
+img.rossonian {display: block; margin: 0px auto;}
+img.friends {display: block; margin 0px auto;}
+img.juneteenth {display: block; margin 0px auto;}
+body {background-color: #373737}
+h1 {color: #C08283}
+h2 {color: #DCD0C0}
+p {color: #DCD0C0}
+blockquote.one {color: #C08283}
+blockquote.two {color: #C08283}
+blockquote.three {color: #C08283}
+h3 {color: #373737}
+h3.visit {color: #373737}
+ul {color: #373737}
+h3.subscribe {color: #DCD0C0}
+figcaption {color: #DCD0C0}
