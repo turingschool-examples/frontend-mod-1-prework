@@ -9,3 +9,27 @@ terminal.
 */
 
 // YOUR CODE HERE
+class Person {
+  constructor(name, weight) {
+    this.name = name;
+    this.weight = weight;
+  }
+
+  stayUpLate() {
+    this.tired = true;
+  }
+
+  exercise() {
+    this.weight = (this.weight - 1)
+  }
+}
+
+var cust1 = new Person("Shawn", 200);
+
+console.log(cust1.name);
+console.log(cust1.weight);
+console.log(cust1.tired);
+cust1.stayUpLate();
+cust1.exercise();
+console.log(cust1.weight);
+console.log(cust1.tired);

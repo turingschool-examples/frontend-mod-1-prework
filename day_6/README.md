@@ -29,7 +29,7 @@ person.lastName = "Spellman";
 
 But what is the Object class? What even is a class?
 
-Javascript defines the properties and methods of its objects in classes. You can think of classes as basic outlines of what an object should be made of and what it should be able to do. To define a class, we use the keyword `class` and use the CamelCase naming convention to create the name.
+Javascript defines the properties and methods of its objects in classes. You can think of classes as basic outlines of what an object should be made of and what it should be able to do. To define a class, we use the keyword `class` and use the CamelCase *(should this say PascalCase instead?)* naming convention to create the name.
 
 ```javascript
 class GoodDog {
@@ -49,7 +49,7 @@ Making objects is all well and good, but why would we make objects without any i
 
 ```javascript
 class GoodDog {
-  constructor() {
+  constructor() {[]
   };
 };
 

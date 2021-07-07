@@ -40,16 +40,23 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+- The if statement is seeing if doorChoice is equal to integer value 1. If 1 is input, the clothing equals a 'hat.' If any other number is input, the statement executes the else statement and assigns 'scarf' as the clothing choice.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+'scarf'
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+The code is checking first to see if integer 1 was input as bearChoice. If so, it displays the secret passage option with the bearClothing var defined in the previous statement. If bearChoice is not equal to 1, it then checks for bearChoice being equal to 2. If bearChoice is 2, it executes the cry sentence with the bearClothing var. The next part may be a typo, as the var is listed as bearClothing when the var bearChoice may be the better option. Currently the only way to get this option would be to input 3 when prompted for the doors option. Finally, if bearChoice is not 1 or 2, it displays the best friend option.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+As written, the code would display the best friend option, since there is no else if statement written for bearChoice equals 3.
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the scarf is too small and it starts to cry!"
 
 7. What is your favorite ending?
+Best friends!
 */

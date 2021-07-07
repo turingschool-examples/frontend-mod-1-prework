@@ -17,7 +17,7 @@ var animalsArray = ["Zebra", "Giraffe", "Elephant"];
 
 animalsArray[0]; // Accesses the first item in my array, "Zebra"
 animalsArray[1]; // Accesses the second item in my array, "Giraffe"
-animalsArray[3]; // Accesses the third item in my array, "Elephant"
+animalsArray[2]; // Accesses the third item in my array, "Elephant"
 ```
 
 Objects store data but instead of using only numbers to get the data, you can use strings. This lets you treat an object like it's a database for storing and organizing data. Below is the syntax of an object. This is called **_Object Literal_**.
