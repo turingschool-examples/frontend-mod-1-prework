@@ -1,0 +1,30 @@
+.small-image {
+  width:50%;
+  height: auto;
+}
+
+.really-small-image {
+    width: 33%;
+    height:auto;
+  }
+body {
+  background-color: #EC1C4B;
+  font-family: helvetica, sans-serif;
+  font-weight:lighter;
+
+}
+h3 {
+  font-style: oblique;
+  font-color: #2F9395;
+  background-color: ##2F9395;
+
+}
+div {
+  background-color: #F16A43G;
+}
+table {
+  background-color: #F16A43
+}
+blockquote {
+  font-family:courier;
+}
