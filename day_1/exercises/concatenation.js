@@ -12,10 +12,10 @@ file from your terminal with the command `node day_1/exercises/concatenation.js`
 var name = "Ron";
 var team = "Chudley Cannons";
 
-console.log("The " + team + " are " + name + "'s favorite Quidditch team");
+console.log("The " + team + " are " + name + "'s favorite Quidditch team" + ".");
 
 // What happens if you include other data types when you use concatination? What data type is logged after we run this code?
-// ANSWER to question on line 17: 
+// ANSWER to question on line 17: Including other data types such as booleans or intergers will cause the meaningful information being printed to loose it's meaning. An interger would need to be stored as an string or a variable to be utilized in a meaningful way. 
 
 var number = 7;
 var creatures = "unicorns";
@@ -27,7 +27,7 @@ console.log("My zoo has " + number + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
-console.log(/*YOUR CODE HERE*/);
+console.log("The " + speedy + "jumped over" + slowPoke + ".");
 
 // Write code that combines the variables below into a string that
 // reads "In a predictable result, the tortoise beat the hare!"
@@ -36,4 +36,4 @@ console.log(/*YOUR CODE HERE*/);
 slowPoke = "tortoise";
 speedy = "hare";
 
- // YOUR CODE HERE
+console.log("In a predictable result, the " + slowPoke + "beat the " + speedy + "!");

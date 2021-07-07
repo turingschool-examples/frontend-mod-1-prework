@@ -8,8 +8,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 instructions.
 
-## If-Statements
-
+## If-Statements **done**
 1. Work through the following lessons to learn about If-Statements.
     1. Read pages 148 and 149, and 160 through 163 from the JAVASCRIPT & JQUERY: interactive front-end web development book. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
     1. In addition to **if** and **else**, **else if** can help us create more complex statements. **else if** statements evaluate a block of code when their condition is true. However, they must be chained to a previous **if** statement, like so:
@@ -26,7 +25,7 @@ Using your terminal, open the local copy of the repository that you created duri
     };
     ```
 
-1. Conditional Operators and If/Else Statements
+1. Conditional Operators and If/Else Statements **ok**
 
     The conditional operators we touched on day_2 are critical in the set up of If-Statements. Conditional statements evaluate to true or false. The most common conditional operators are `==` (equal), `>` (greater than), `>=` (greater than or equal to), `<` (less than), and `<=` (less than or equal to). Some data types also have functions which return a true or false, so they’re used in conditional statements. For example, arrays have a function named `include()` which returns true if the array includes the specified element.
 
@@ -56,7 +55,7 @@ Using your terminal, open the local copy of the repository that you created duri
 
     Only one section of the *if/else if/else* structure can have its instructions run. If the *if* is true, for instance, Javascript will never look at the *else if* or *else*. Once one block executes, that’s it.
 
-1. Equality vs. Assignment
+1. Equality vs. Assignment **solid**
     The **number one mistake** people encounter when writing conditional statements is the difference between `=` and `==`.
 
     `=` is an assignment. It means "take what’s on the right side and stick it into whatever is on the left side" – it’s telling, not asking.
@@ -64,9 +63,9 @@ Using your terminal, open the local copy of the repository that you created duri
     `==` is a question. It means "is the thing on the right equal to the thing on the left?" – it’s asking, not telling.
 
 1. Work through the rest of the exercise files in the day_3/exercises directory.  Complete them in this order:
-    1. `decision-making.js`
-    1. `if-statements.js`
-1. Answer the questions in the `questions.md` file in the day_3 directory.
+    1. `decision-making.js` **got it!**
+    1. `if-statements.js`**confusing at first, but I got it**
+1. Answer the questions in the `questions.md` file in the day_3 directory. **super**
 
 ## Save your work in Git
 

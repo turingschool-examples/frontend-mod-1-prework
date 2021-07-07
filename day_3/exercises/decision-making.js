@@ -10,7 +10,7 @@ Spend some time changing the variables and running the file to see how the story
 
 var doorChoice = 1;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -40,16 +40,23 @@ if (bearChoice === 1) {
 /*
 Reflection Questions
 1. In English, using technical vocabulary, describe what is happening between lines 17 and 21.
+> An if statement with a conditional instruction of the door choice of being strictly equal to 1 is set. When evaluated, the if statement will print the bearClothing (a hat because the variable doorChoice is set to 1). 
 
 2. What variable has a new value assigned to it after the first if statement executes?
+> During the "else" conditional statement, the variable bearClothing is reassigned to "scarf" if the doorChoice variable is set to another number aside from 1. 
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+> The variable bearClothing would print as scarf because the else conditional statement includes anything other than 1 being inputed.
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 31 and 38.
+> In this if/else if/else statement, the conditional statement resolves based on the bearChoice variable being strictly equal to 1. 
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+> When the variable bearChoice is equal to 3, then the final conditional statement resolves the story in a different way. Specifically, the else statement will be envoked because the else if statement of bearChoice strictly equal to 2 is evaluated as false as well as the bearClothing strictly equal to 3. 
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+> The bear wears a hat and the elseif statement with the variable bearChoice strictly equal to 2 will be envoked. (I tell the bear its hat is too small and it starts to cry.)
 
 7. What is your favorite ending?
+> Obviously the last one! I want to be friends with a bear. To do that, I would be sure that the variables bearChoice is _not_ set to 1 or 2. Additionally, that the variable bearClothing is _not_ strictly equal to 3. 
 */

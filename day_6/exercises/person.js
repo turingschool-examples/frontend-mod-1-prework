@@ -8,4 +8,48 @@ person methods below the class so that they print their result to the
 terminal.
 */
 
-// YOUR CODE HERE
+// var person = new Object();
+
+class Person {
+    constructor(likes, spokenLanguages, drivesACar) {
+        this.likes = likes;
+        this.spokenLanguages = spokenLanguages;
+        this.drivesACar = true;
+    }
+
+    learnsLanguage(newLanguage) {
+        this.spokenLanguages.push(newLanguage);
+    }
+    
+    carTotalled() {
+        this.drivesACar = false;
+    }
+
+    gainsNewLike(yesPlease) {
+        this.likes.push(yesPlease);
+    }
+}
+
+var gabrielle = new Person(["Birds", "D&D", "water"], ["English", "Japanese"], true);
+
+console.log(gabrielle.likes);
+console.log(gabrielle.spokenLanguages);
+console.log(gabrielle.drivesACar);
+
+//up to here, all ok. Having problems calling the functions. 
+
+gabrielle.carTotalled();
+console.log(gabrielle.drivesACar);
+
+//ok!
+
+gabrielle.learnsLanguage("Spanish");
+console.log(gabrielle.spokenLanguages);
+
+//also ok! 
+
+gabrielle.gainsNewLike("tea");
+console.log(gabrielle.likes);
+
+//I did it!! Finally! 
+

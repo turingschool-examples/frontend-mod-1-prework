@@ -259,6 +259,9 @@ In summary, classes are blueprints that are used to create instances of objects.
 1. Read and work through the [Classes, `this`, & Object Instances lesson plan](https://frontend.turing.io/lessons/module-1/js-classes.html).
 
 1. Work through the files in the day_6/exercises directory.
+* dog.js **done, smooth to finish**
+* burrito.js **really struggled through this, BUT I GOT IT DONE**
+* person.js **played it simple rather than getting ahead of myself**
 
 1. Answer the questions in the questions.md file in the day_6 directory.
 

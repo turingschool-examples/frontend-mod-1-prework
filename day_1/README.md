@@ -6,7 +6,7 @@ In addition to JavaScript, this day will also walk you through the commands you 
 
 At the end of the day, you will use several git commands to save your work to your local git repository. Then you will push your updates to your remote Github repository. For now, we are building muscle memory with git commands and getting used to seeing what output they produce. We will dive deeper into the inner workings of git later. For now, all you need to do is follow along and know that we are using git to save our work, and Github to put it on the internet.
 
-## Open your local copy of frontend-mod-1-prework in Atom
+## Open your local copy of frontend-mod-1-prework in Atom -- **ok**
 
 Using your terminal, open the local copy of this repo. To do this, enter these commands into your terminal:
 
@@ -26,7 +26,7 @@ atom .
 
 This will open the `day_1` directory in Atom. You should be able to see the directory and its contents in the file explorer on the left side of your Atom window.
 
-## Notes on Learning to Write Code
+## Notes on Learning to Write Code -- **ok**
 
 The process of becoming a software developer is difficult, and learning to code is hard. At some point, everyone struggles. Struggle is a normal, healthy part of the learning process -- don't give up if you hit a hard spot. If you are stuck for longer than 30 minutes, know that it is always ok to ask for help! If you consistently practice  every day and don't take short cuts, you will be on the path to learning how to code. When you reach out for help, challenge yourself to ask clear questions and use technical vocabulary. Speaking accurately about code is a great way to help lock in technical understanding.
 
@@ -34,11 +34,11 @@ One of the best things you can do to set yourself for success is to make sure yo
 
 Details matter: pay close attention to small details in syntax, spacing, and language. The most detailed oriented you are as you're working, the more reliable and well-crafted your code will be. In programming, being detail oriented helps cut down on buggy code and difficult to use systems. It can also help you notice differences in your code, enabling you to identify typos and mistakes more quickly.
 
-## Introduction to JavaScript
+## Introduction to JavaScript -- **ok**
 
 * To give you more context for what JavaScript is and how we use it, please read Chapter 1 (pages 13 - 21) of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
-## Comments in Code
+## Comments in Code -- **ok**
 
 Code comments can be a very useful part of your programs. While we work to write code that is as legible and clear for other developers to read as possible, there are times when we need to be a bit more explicit about our intentions and reasoning. Comments allow us to add information for other developers in our code in english, as well as let us disable parts of our code that we want to temporarily keep from running.
 
@@ -65,7 +65,9 @@ console.log("This will run.");
 
 What is logged to the console when you run this code?
 
-## Data Types
+> "I could have code like this." and "This will run" are logged to the console & printed. 
+
+## Data Types -- **ok**
 
 * Read pages 62 - 66 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -89,7 +91,7 @@ Strings can be used to work with any kind of text.
 
 Boolean data types evaluate to one of two values: `true` or `false`. This data type can seem a little abstract, but booleans are very helpful in helping us determine which script should run.
 
-## Variables and Assignment
+## Variables and Assignment -- shorthand pg 118 **ok**
 
 * Read pages 58 - 61 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -137,7 +139,7 @@ It is important to note that JavaScript has a particular set of conventions on w
 * Use names that describe the kind of information you plan to assign the variable
 * If your variable is made up of more than one word, then use [camelCase](https://en.wikipedia.org/wiki/Camel_case) for every word AFTER the first word, which should be lower case i.e., thisIsMyVariableName
 
-## Concatenation
+## Concatenation -- **ok**
 
 "Concatenate" is a programming term that means "join together". We join together strings in JavaScript using the plus (`+`) operator, the same one we would use to add numbers together, but in this context it does something different. Let's take a look, using a variable.
 
@@ -165,11 +167,11 @@ Let's take a look at why that resulted in a string. We have a variable called `s
 ## Exercises
 
 Work through the exercise files in the day_1/exercises directory.  Complete them in this order:
-  1. numbers
-  1. strings
-  1. booleans
-  1. variables
-  1. concatenation
+  1. numbers **done**
+  1. strings **sweet**
+  1. booleans **I think?**
+  1. variables **nice**
+  1. concatenation **yes?**
 
 ## Questions
 

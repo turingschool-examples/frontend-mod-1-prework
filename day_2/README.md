@@ -4,12 +4,12 @@ Computers may not be smart, but they are good at doing many things very quickly,
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work, and then put it in the cloud on Github.
 
-## Open your local copy of frontend-mod-1-prework
+## Open your local copy of frontend-mod-1-prework **ok**
 
 Using your terminal, open the local copy of the repository that you created during setup.  To do this, you will need to use the terminal command `cd` to change into the directory that holds the repository. Once you are in the correct directory, use the terminal command `atom .` to open the prework repository. If you are having trouble with this, see the day_1 README.
 
 
-## Arrays
+## Arrays **done**
 
 1. In the JAVASCRIPT & JQUERY: interactive front-end web development book, read pages 70 through 73. If you are unsure of some vocabulary you encounter, refer to the vocabulary list at the end of this README.
 1. Research the array methods below on the MDN documentation provided. This documentation might seem intimidating at first, but you will need to get comfortable looking at it. Create a file in your day_2 directory called `array_methods.md file` and describe what each method does.
@@ -17,7 +17,7 @@ Using your terminal, open the local copy of the repository that you created duri
     1. Note: The MDN documentation makes use of the variable declarations `const` and `let`. For now, just read them as `var` instead.
 1. Sometimes we have a collection of data (like an array) and we want to do something to each item in the collection. In these instances, we need to **iterate** or **loop** through each piece of data in our collection.
 
-## Loops
+## Loops **read**
 
 * read pages 170 - 175 of the JAVASCRIPT & JQUERY: Interactive Front-End Web development book.
 
@@ -64,12 +64,12 @@ The statement within the curly braces executes each time the loop runs. In this 
 1. Work through the following lessons to learn about Javascript Comparison Operators.
     1. When you are building out a FOR loop, you can use **Comparison Operators** to determine if a FOR loop should continue or stop looping. Read pages 150 through 153 in the JAVASCRIPT & JQUERY book to learn about the operators.
     1. Read pages pages 166 and 167 of the JAVASCRIPT & JQUERY book to learn about type coersion and truthy vs falsy values
-    1. Work through the `comparisons.js` file
+    1. Work through the `comparisons.js` file **done**
 1. Work through the rest of the exercise files in the day_2/exercises directory.  Complete them in this order:
-    1. `arrays.js`
-    1. `loops.js`
-    1. `iteration.js`
-1. Answer the questions in the `questions.md` file in the day_2 directory.
+    1. `arrays.js`**a little touch & go, but ok**
+    1. `loops.js` **easy**
+    1. `iteration.js` **I figured it out!**
+1. Answer the questions in the `questions.md` file in the day_2 directory. **done?**
 
 ## Save your work in Git
 
