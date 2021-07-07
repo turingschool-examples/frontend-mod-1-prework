@@ -1,0 +1,112 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: lightBlue;
+}
+
+h1 {
+  color: #CD5C5C;
+  background-color: #0000FF;
+  border: 2px double blue;
+  text-align: center;
+  font-family: times, georgia, serif;
+  width: 820;
+  margin: 0 auto;
+}
+
+ul {
+  font-size: 18px;
+  font-family: courier, monospace;
+}
+
+a {
+  color:blue;
+}
+div.itMatters {
+  color: #CD5C5C;
+  border: 2px double blue;
+  text-align: center;
+}
+
+div.family {
+  float: left;
+  width: 530px;
+  margin: 4px;
+}
+
+div.link {
+  width: 900px;
+  text-align: center;
+  float: none;
+}
+
+p.familyDescription {
+  font-family: arial, verdana, sans-serif;
+}
+
+h2 {
+  color: black;
+  border: 1px solid red;
+  text-align: center;
+  background-color: #7B68EE	;
+}
+
+img.family {
+  float: left;
+  width: 400px;
+  margin: 4px;
+  border: 2px solid black;
+}
+
+p.music {
+  font-family: times, georgia, serif;
+  float: left;
+  margin: 4px;
+}
+
+div.sweetSounds {
+  float: right;
+  width: 465px;
+  margin: 4px;
+}
+
+img.musicNote {
+  border: 3px dotted darkred;
+  float: left;
+  width: 465;
+  margin: 4px;
+}
+
+div.feedback {
+  width: 450px;
+  margin: 4px, 4px, 4px, 4px;
+  padding: 4px, 4px, 4px, 4px;
+  float: right;
+}
+
+
+textarea {
+  width: 415px;
+  height: 215px;
+  font-style: italic;
+  margin: 4px, 4px, 4px, 4px;
+  padding: 4px, 4px, 4px, 4px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+p.title {
+  text-align: center;
+
+}
+input[name="submit"] {
+  background: lightGreen;
+}
+
+input[type=submit] {
+    width: 10em;  height: 2em;
+}
+
+input[value=Submit] {
+  font-size: 18px;
+}
