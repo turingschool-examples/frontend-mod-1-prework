@@ -1,0 +1,35 @@
+Reading Response Ch. 1 & 2 from HTML and CSS
+1. The purpose of HTML code is to describe the structure of a web page
+
+2. The difference between an element and a tag is that an element comprises the opening tag,
+the closing tag and any content that lies between
+The tag itself is just the opening and closing brackets and characters
+i.e. <p> </p> paragraph tags show an empty paragraph element
+
+3. Attributes tell us additional information about the contents of an element
+They are in the opening tag and made of up a name and value
+i.e. <p lang="en-us>" specifies that the language used in this element us US English
+
+4. The <body> element is everything that is shown inside the main browser </body>
+The <head> element contains information about the page in the form of a title </head>
+The <title> also gives information about the page but is show at the top of the browser or tab </title>
+
+5. Go to View -> Developers -> View source
+
+6. <h1> <h2> <h3> <h4> <h5> <h6> are headings from largest to smallest </h>
+<p> This creates a paragraph </p>
+<b> BOLD WORDS </b>
+<i> italic words </i>
+<sup> superscript text like two to the power of two </sup>
+<sub> subscript like footnotes <sub>
+
+7. Empty elements are tags with no content <> </>
+
+8. Semantic markup uses elements that don't affect the structure of the webpage but add extra information
+i.e. <strong> means important and is bold</strong>
+<em> indicates emphasis and is italicised </em>
+<blockquote> is for longer quotes that make an entire paragraph </blockquote>
+<q> is for short quotes </q> some but not all (ahem, IE) browsers put quotes aroung the <q> element so many avoid this
+Both <blockquote> and <q> can use the site attribute to source the quote to a url
+
+9. <header> <nav> <article> <aside> <footer> are five new elements to HTML 5 that can be used in place of a <div> element
