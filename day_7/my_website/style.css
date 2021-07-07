@@ -1,0 +1,60 @@
+body {
+  background:#B22222
+}
+
+h1 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: (255, 0, 0, .5);
+  border-width: 10px;
+  padding: 8px;
+  background-color: #FFFFFF;
+  opacity: .56;
+  width: 700px;
+  text-align: center;
+
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  width: 500px;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .7;
+  border: solid;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+li {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+
+
+}
