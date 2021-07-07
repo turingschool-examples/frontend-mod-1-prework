@@ -1,0 +1,31 @@
+p, a {
+  color: #ee3e80;}
+h1 {
+  color: #ee2e50;}
+h3 {
+  color: #ee7e30}
+h1 {
+  background-color: #eeddcc}
+ul, ol {
+  color: #ffaa80}
+h1, h3, h4 {
+   font-family: times, serif;}
+p {
+   font-family: arial, sans-serif;}
+.credits {
+  font-style: italic;}
+h3 {
+  border-style: dotted;
+  background-color: #eeeedd}
+
+.column1of2 {
+  float: left;
+  width: 400px;
+    margin: 10px;
+};
+
+.column2of2 {
+  float: right;
+  width: 400px;
+    margin: 10px;
+}
