@@ -1,0 +1,253 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://images.pexels.com/photos/120066/pexels-photo-120066.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: 500px;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: "Verdana";
+  margin-top: .5px;
+}
+
+.list-paragraph {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-family: "Trebuchet MS";
+  font-style: italic;
+  font-weight: bold;
+}
+.lower-paragraph {
+  text-align: center;
+  margin-top: ;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+div.packing-paragraph {
+  margin-top: 30px;
+}
+
+h1, h3, h4{
+  font-family: "Georgia";
+}
+
+h1 {
+  margin: 0px auto;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  margin-bottom: 740px;
+  text-align: center;
+  width: 20%;
+}
+
+h2 {
+  color: #880e4f;
+  border: none;
+  margin: 0px auto;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #ffffff;
+  border: 3px dotted #4fb3bf;
+  background-color: #005662;
+  padding: 5px;
+  width: 25%;
+  display: block;
+}
+
+h3.second-header {
+    margin: 0px auto;
+    margin-bottom: 60px;
+    text-align: center;
+    height: 40px;
+    font-size: 40px;
+    width: 20%;
+}
+h3.third-header {
+    margin: 0px auto;
+    margin-bottom: 60px;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    width: 28%;
+}
+h3.fourth-header {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 40px;
+  font-size: 40px;
+  width: 28%;
+  margin-top: 50px;
+}
+
+h4 {
+  color: #ffffff;
+  font-style: italic;
+  border: 1.5px solid #29434e;
+  background-color: #ad1457;
+  padding: 5px;
+  width: 18%;
+  margin-top: 20px;
+  text-align: center;
+}
+h4.lower-header {
+  background-color: #4fb3be;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 44px;
+  width: 32%;
+  font-size: 20px;
+  margin-top: 50px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+  width: 20%;
+  border: 1.5px solid #29434e;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+img.main-images {
+  width: 20%;
+  margin: 0px auto;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1.5px solid;
+  margin-right: -60px;
+}
+
+img.medium {
+  width: 290px;
+  height: 200px;
+}
+img.last-image1 {
+  width: 20%;
+  padding: 10px;
+  border: 1.5px solid;
+  float:left;
+  margin-left: 70px;
+}
+img.last-image2 {
+  width: 20%;
+  padding: 10px;
+  border: 1.5px solid;
+  float: right;
+  margin-right: 70px;
+}
+.ordered-list {
+  border: 1.5px solid;
+  padding: 20px;
+  padding-left: 40px;
+  width: 40%;
+  margin: 0px auto;
+}
+.unordered-list{
+  border: 5px double;
+  padding: 20px;
+  padding-left: 40px;
+  width: 15%;
+  margin: 0px auto;
+  margin-top: 80px;
+  margin-bottom: 300px;
+}
+
+.packing-link {
+  margin: 0px auto;
+  border-top-left-radius: 50px 50px;
+  border-top-right-radius: 50px 50px;
+  border-bottom-left-radius: 50px 50px;
+  border-bottom-right-radius: 50px 50px;
+  border: 2.5px solid #4fb3be;
+  padding: 15px;
+  width: 18%;
+  text-align: center;
+}
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+form {
+  margin-bottom: 30px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+div.form-paragraph {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+}
+
+.definition-list {
+  display: block;
+  position: relative;
+  margin-bottom: 50px;
+}
+.definition-list::after {
+  content: "";
+  background: url("https://www.trzcacak.rs/myfile/detail/113-1137908_crowd-silhouettecrowd-silhouette-party-dancing-silhouette-dance-party.png");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+fieldset {
+  width: 15%;
+  height: 100px;
+}
+
+article {
+  column-count: 2;
+  margin-bottom: 50px;
+}
+
+.section3 {
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.section2 {
+  margin-top: 5px;
+}
+
+.button {
+  margin-top: 3px;
+  margin-left: 100px;
+}
