@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+body {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url(https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 5%;
+}
+
+footer {
+  min-width: 1000px;
+  padding: 30px;
+  background-color: grey;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 100px;
+  /* //TODO: Figure out CSS for footer */
+}
+
+#nav {
+  margin: 3%;
+  width: auto;
+  min-width: 700px;
+  padding: 10px;
+  border-style: solid;
+  border-color: purple;
+  border-radius: 8px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-family: "Monoton";
+  font-size: 25px;
+}
+
+li a {
+  color: purple;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+img.main {
+  /*display: block;*/
+  margin: 0;
+  min-width: 300px;
+  height: 600px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: purple;
+  /*-moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;*/
+}
+
+#welcome {
+  float: left;
+  clear: both;
+  width: 30%;
+  min-width: 445px;
+  padding: 5px;
+  margin-bottom: 30px;
+  background-color: green;
+  font-family: 'Ubuntu';
+  text-align: center;
+  border-radius: 8px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.greeting {
+  align-self: start;
+  min-width: 550px;
+  padding: 20px;
+  margin-top: 18px;
+  margin-left: 30px;
+  background-color: green;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+h1,
+h2 {
+  color: #27B751;
+  font-family: 'Ubuntu', serif;
+  background-color: purple;
+  padding: 10px;
+  letter-spacing: 0.2em;
+  height: 40px;
+  width: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 8px 15px;
+  text-align: center;
+  clear: both;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+#links {
+  width: auto;
+  padding: auto;
+  border-color: purple;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: left;
+  border-radius: 8px;
+  font-size: auto;
+  font-style: italic;
+  letter-spacing: 0.2em;
+  clear: both;
+  float: left;
+}
+
+#contact {
+  display: inline;
+  font-family: 'Ubuntu';
+}
+
+fieldset {
+  width: 30%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+  background-color: purple;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-family: 'Ubuntu';
+}
+
+#form {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#bio_container {
+  display: flex;
+}
+
+.gallery {
+  width: auto;
+  min-width: 700px;
+  margin: 10px 50px;
+  align-items: center;
+}
+
+.gallery img {
+  width: 230px;
+  padding: 10px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.video {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-style: solid;
+  border-color: green;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+}
+
+.video {
+  width: 60%;
+  padding: 10px;
+  transition: 1s;
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+
+.navbutton {
+  color: green;
+  background-color: transparent;
+  border: 1px solid #1F0BEC;
+  border-radius: 4px;
+  padding: 0 15px;
+  margin: 5px;
+  cursor: pointer;
+  height: 47px;
+  font-size: 30px;
+  font-family: 'Monoton';
+  transition: all 0.2s ease-in-out;
+}
+
+.navbutton:hover {
+  animation: swing 1s ease;
+  animation-iteration-count: 1;
+}
+
+.navbutton:active {
+  background-color: #292d3e;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+@keyframes swing {
+  15% {
+    transform: translateX(5px);
+  }
+
+  30% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(3px);
+  }
+
+  65% {
+    transform: translateX(-3px);
+  }
+
+  80% {
+    transform: translateX(2px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.conbutton {
+  color: purple;
+  font-family: "Ubuntu";
+  background-color: grey;
+  border: 2px solid purple;
+  border-radius: 4px;
+  padding: 15px 18px 30px 15px cursor: pointer;
+  height: 32px;
+  font-size: 20px;
+  box-shadow: 0 0 4px #999;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.conbutton:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  color: white;
+}
+
+.conbutton:active {
+  background-color: #292d3e;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.logo {
+  text-align: center;
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+}
+
+.logo b {
+  font: 400 10vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  79% {
+    color: #333;
+  }
+
+  80% {
+    text-shadow: none;
+  }
+
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
