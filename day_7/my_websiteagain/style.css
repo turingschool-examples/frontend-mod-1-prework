@@ -1,0 +1,85 @@
+body {
+  background-color: #add8e6;
+  width: 95%;
+}
+h1 {
+  color: #000000;
+  background-color: #0099ff;
+  font-family: graffiti, serif;
+  text-align: center;
+  border-style: solid;
+  margin: 2px 2px 2px 2px;
+  padding: 10px 2px 2px 2px;
+  text-shadow: 1px 1px 0px #666666;
+}
+h2 {
+  color: #000000;
+  background-color: #6666ff;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  border-style: outset;
+  padding: 2px 2px 2px 2px;
+}
+p.firstp {
+  background-color: #ccccff;
+  border-style: ;
+  padding: 5px 5px 5px 5px;
+  text-indent: 20px;
+}
+pics {
+  height: 75%;
+  width: 75%;
+}
+img {
+  min-width: 40%;
+  max-width: 100%;
+  image-align: center;
+}
+img.large {
+  width: 85%;
+  height: 85%;
+}
+cite {
+  float: right;
+  width: 400px;
+  font-size: 115%;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px;
+}
+a {
+  cursor: pointer;
+}
+ul {
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  top: 5px;
+  left: 70px;
+}
+ol {
+  margin: 5px 5px 5px 5px;
+  position: relative;
+  top: 5px;
+  left: 70px;
+}
+p.finalp {
+  border-style: groove;
+  border-color: #0f0fff;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+}
+p.finalsent {
+  text-align: center;
+}
+fieldset.fillout {
+  font-family: times, serif;
+  text-align: center;
+  text-size: 20px;
+  max-width: 35%;
+  margin: 10px 10px 10px 10px;
+  border-radius: 80px 50px;
+  float: left;
+  position: relative;
+  top: 5px;
+  left: 420px;
+}
