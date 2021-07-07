@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Getaway</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul id="nav-left">
+        <a href="index.html"><li>Getaway</li></a>
+      </ul>
+      <ul id="nav-right">
+        <a href="find-gear.html"><li>Find gear</li></a>
+        <a href="list-gear.html"><li>List gear</li></a>
+        <a href="help.html"><li>Help</li></a>
+        <a href="sign-up.html"><li>Sign up</li></a>
+        <a href="log-in.html"><li>Log in</li></a>
+      </ul>
+    </nav>
+    <div id="hero">
+    </div>
+    <div id="hero-content">
+      <form id="hero-search" >
+        <h2>Make your next&nbsp;trip unforgettable.</h2>
+        <label for="where">Where</label>
+        <input type="text" id="where" placeholder="Choose your destination..." list="places-output" autocomplete="off">
+        <datalist id="places-output">
+        </datalist>
+        <br>
+        <div id="hero-form-left">
+          <label for "checkin">Check-in</label>
+          <input type="date" id="checkin">
+        </div>
+        <div id="hero-form-right">
+          <label for "checkout">Checkout</label>
+          <input type="date" id="checkout">
+        </div>
+        <div id="hero-form-bottom">
+          <label for "gear-search">Gear</label>
+          <input type="text" id="gear-search" placeholder="Find your adventure...">
+  <select name="gear-types" class="gear" id="select-gear">
+            <option value="all">Search all</option>
+            <option value="camping">Camping</option>
+            <option value="climbing">Climbing</option>
+            <option value="water">Water/Watersports</option>
+            <option value="cycling">Cycling</option>
+            <option value="motor">Motorsports</option>
+          </select>
+          <button type="submit" id="hero-form-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div id="hero-margin">
+    </div>
+    <div id="below-fold-1">
+      <h2>Choose your own adventure</h2>
+      <ul id="categories">
+        <li>
+          <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80">
+          Camping
+        </li>
+        <li>
+          <img src="https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1593&q=80">
+          Climbing
+        </li>
+        <li>
+          <img src="https://images.unsplash.com/photo-1500106029603-6402f3cc585c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80">
+          Water
+        </li>
+        <li>
+          <img src="https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80">
+          Cycling
+        </li>
+        <li>
+          <img src="https://images.unsplash.com/photo-1500578862199-d2872c0781ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80">
+          Motorsports
+        </li>
+      </ul>
+    </div>
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div id="modal-image">
+        </div>
+        <div id="modal-right-content">
+          <span class="closeButton">&times;</span>
+          <h3>Get 10% off your first adventure</h3>
+          <p>Sign up for occasional updates and get rewarded. No spam&mdash;we promise.</p>
+          <form id = "email-modal-form">
+            <input type="text" id="email-input" placeholder="Enter email">
+            <input type="submit" id="email-submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="form-submission.js"></script>
+  </body>
+
+</html>
