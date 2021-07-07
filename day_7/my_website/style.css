@@ -1,0 +1,152 @@
+header {
+  background: black;
+  border:1px solid #ffffff;
+}
+
+img {
+  border-color:white;
+}
+
+
+body {
+  background-color:#1A87DA;
+  background-image: url(https://vignette.wikia.nocookie.net/sims/images/d/da/TS4_Logo_Plumbob.jpg.png/revision/latest/scale-to-width-down/340?cb=20130805025749),
+  url(https://vignette.wikia.nocookie.net/sims/images/d/da/TS4_Logo_Plumbob.jpg.png/revision/latest/scale-to-width-down/340?cb=20130805025749);
+  background-repeat: no-repeat;
+  background-position:
+  right,
+  left;
+}
+
+#logo {
+  padding:15px;
+}
+
+ul {
+  margin-top:30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display:inline;
+  background-color:black;
+  margin:0;
+  padding: 10px;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration:none;
+  color: #149CE8;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #149CE8;
+}
+
+a:hover {
+  color: #40A917;
+}
+
+figure {
+  text-align: center;
+  margin-top: 50px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 20px;
+  color:white;
+  padding:10px;
+}
+
+h2 {
+  font-family: monospace;
+  color: #40A917;
+  text-align: center;
+  font-size:30px;
+  padding-top:10px;
+  margin-bottom:5px;
+}
+
+span {
+  background-color:black;
+  margin:0;
+  padding: 5px;
+  border-radius: 25px 25px 25px 25px;
+  font-family:monospace;
+}
+
+p {
+  font-size:20px;
+  font-family:monospace;
+  width: 650px;
+  margin: 10px auto 10px auto;
+  color:white;
+  padding:10px;
+}
+
+#survey {
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family:monospace;
+  color:black;
+  text-align: center;
+  width:600px;
+}
+
+em {
+  font-weight: bold;
+}
+
+hr {
+  border-color:black;
+  margin-top: 50px;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+legend {
+  font-family:monospace;
+  font-size:20px;
+}
+
+fieldset {
+  width:300px;
+  margin: auto;
+  border-color:black;
+}
+
+.Survey {
+  font-family:monospace;
+  color:black;
+}
+
+.SimsGameplay {
+  width:600px;
+  display:block;
+  margin:0 auto;
+}
+
+#submission {
+  display:block;
+  margin:10px;
+}
+
+.BodyPs {
+  background-color:black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  margin-bottom:5px;
+  text-align:center;
+  border-radius: 20px;
+  width:675px;
+}
