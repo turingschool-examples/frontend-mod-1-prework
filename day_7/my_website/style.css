@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Palanquin&display=swap');
+
+body {
+    margin: 0;
+    background-color: #e0fff1;
+    font-family: 'Palanquin', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.p-left {
+  padding-right: 30px
+}
+
+.p-right {
+  padding-left: 30px
+}
+
+.centered {
+  text-align: center;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    background-image: url(images/julie1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+.hero-inner {
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+
+h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 85px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Carme', sans-serif;
+  text-align: center;
+  padding: 30px 0 15px 0;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 50px 20px;
+}
+
+#inner-wrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 40%;
+  margin-top: 25px;
+}
+
+ul {
+  padding: 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 6px 18px;
+}
+
+a:hover{
+  color: aquamarine;
+}
+
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.right-tab {
+  display: inline-block;
+  width: 70%;
+}
+
+.input-field {
+  height: 20px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+#comments {
+  height: 60px;
+}
+
+.contact {
+  display: inline-block;
+  bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  padding: 50px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+  background-color: #73d3ff;
+  color: white;
+  border: 0px solid;
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.ill-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.illustration {
+  padding: 0px;
+  height: 300px;
+  display: inline-block;
+  width: 50%;
+  z-index: 0;
+}
+
+.dog {
+  background-color: #d9a673;
+  height: 75px;
+  width: 120px;
+  position: relative;
+  border-radius: 0px 0px 50px 120px;
+}
+ .body{
+  height: 150px;
+  width: 250px;
+  position: relative;
+  top: 40px;
+  left: 80px;
+  border-radius: 20% 0 0 60%;
+  background: linear-gradient(#523f2c 20%, #d9a673 80%);
+  z-index: -1;
+ }
+
+ .stomach {
+  background-color: #ededed;
+  height: 75px;
+  width: 125px;
+  position: relative;
+  bottom: 35px;
+  left: 80px;
+  border-radius: 0 40% 0 120%;
+  z-index: 1;
+ }
+
+ .leg1, .leg2, .leg3, .leg4 {
+   background-color: #d9a673;
+   height: 90px;
+   width: 30px;
+   position: relative;
+ }
+
+ .leg1{
+   left: 150px;
+   bottom: 50px;
+ }
+
+ .leg2{
+   left: 185px;
+   bottom: 140px;
+ }
+
+ .leg3{
+   left: 265px;
+   bottom: 230px;
+ }
+
+ .leg4{
+   left: 300px;
+   bottom: 320px;
+ }
+
+ .foot1, .foot2, .foot3, .foot4{
+   width: 30px;
+   height: 30px;
+   background-color: #ededed;
+   position: relative;
+ }
+
+ .foot1 {
+   left: 150px;
+   bottom: 350px;
+ }
+
+ .foot2 {
+   left: 185px;
+   bottom: 380px;
+ }
+
+ .foot3 {
+   left: 265px;
+   bottom: 410px;
+ }
+
+ .foot4 {
+   left: 300px;
+   bottom: 440px;
+ }
+
+ .tail {
+   width: 0;
+   height: 0;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 100px solid #523f2c;
+   position: relative;
+   bottom: 750px;
+   left: 310px;
+   transform: rotate(40deg);
+   transform-origin: bottom;
+ }
+
+
+ .ear {
+   width: 30px;
+   height: 55px;
+   background-color: #b88d63;
+   border-radius: 0 0 30% 30%;
+   position: relative;
+   bottom: 805px;
+   left: 90px;
+   background: linear-gradient(90deg, #523f2c, #b88d63 50%, #ffcc99 90%)
+ }
+
+ .nose {
+   width: 15px;
+   height: 15px;
+   border-radius: 50% 50% 50% 50%;
+   background-color: black;
+   position: relative;
+   bottom: 865px;
+   left: -5px;
+ }
+
+ .eye {
+   width: 10px;
+   height: 10px;
+   border-radius: 50% 50% 50% 50%;
+   background-color: black;
+   position: relative;
+   bottom: 860px;
+   left: 60px;
+ }
