@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
+
+h1 {
+  color: #ff1f0f;
+  border-style: double;
+  border-width: thick;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #308be6;
+  text-align: center;
+}
+
+h5 {
+   color: #308be6;
+}
+
+body {
+background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+img {
+
+  width: 100%;
+  height: 75%;
+}
