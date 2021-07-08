@@ -1,0 +1,81 @@
+body {
+  width: 800px;
+  height: 1000px;
+  margin-left: 300px;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1532776205142-5427a134e025?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+}
+
+h1 {
+  color: #565675;
+  font-size: 50px;
+  font-family: Bookman Header, Times, serif;
+  text-align: center;
+}
+
+h2 {
+  color: #696780;
+  font-family: Bookman Header, Times, serif;
+  text-align: center;
+}
+
+h3 {
+  color: #696780;
+  font-family: Bookman Header, Times, serif;
+  text-align: center;
+}
+
+fieldset {
+  color: #3e4571;
+  background-color: #fedfdf;
+  font-family: Optima, Verdana, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  border: 2px solid #696780;
+  padding: 5px;
+  width: 400px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+p {
+  color: #39395a;
+  font-family: Bookman Header, Times, serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+ul {
+  font-family: Optima, Verdana, sans-serif;
+  color: #39395a;
+  text-align: left;
+  font-size: 17px;
+  -moz-column-count: 3;
+  -moz-column-gap: 2px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 2px;
+  column-count: 3;
+  column-gap: 2px;
+}
+
+ol {
+  font-family: Optima, Verdana, sans-serif;
+  color: #39395a;
+  font-size: 17px;
+  width: 100px;
+}
+
+img.small {
+  width: 200px;
+}
+
+img.medium {
+  width: 400px;
+}
+
+span.italic {
+  font-style: italic;
+}
+span.bold {
+  font-weight: bold;
+}
