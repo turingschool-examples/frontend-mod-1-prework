@@ -56,18 +56,19 @@ When you have completed *ALL* the activities described above, follow the steps b
 1. Go to *your* prework repository on GitHub
 1. Click on `New Pull Request` per the image below:
 
-![New PR](https://i.imgur.com/lGKNxwC.png)
+![click new pr](/images/fe_s1.png)
+
 
 <br>
 2. On the Pull Request page, make sure you see something similar to below (but with your username):
 
-![New PR](https://i.imgur.com/CwJH8os.png)
+![click new pr](/images/fe_s2.png)
 
 <br>
 3. Click on `Create New Pull Request` (circled in the image above).
 4. Enter `YOUR NAME` as the title of the pull request, and click `Create pull request` as shown below:
 
-![Create PR](https://i.imgur.com/CQQzfNc.png)
+![create new pr](/images/fe_s3.png)
 
 5. Please complete the form to submit your prework available [here](https://forms.gle/wxoVuhHKjrRyvGW2A). Be sure to include links for your Gear Up pre-work gist and your technical pre-work GitHub repository. The link to your technical pre-work GitHub repository will be in the format https://github.com/YOUR_GITHUB_USERNAME/frontend-mod-1-prework. (using _your_ own GitHub username)
 
