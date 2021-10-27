@@ -23,28 +23,42 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
+var harryReturn = 'Harry Potter must not return to Hogwarts!';
+console.log(harryReturn);
 
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
   // Store the appropriate data types in each.
 // log all three variables to the console.
+var firstName = "Jake";
+var isHungry = true;
+var numberOfPets = 2;
+console.log(firstName)
+console.log(isHungry)
+console.log(numberOfPets)
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above? 
-  // Explain.
+  // Explain. First one is a string for the name, second would be a booleon to be either true of false and last would be an integer for number of pets.
 
 
 // YOU DO:
 // Re-assign the values to the three variables from the previous challenge to different 
   // values (but same data type).
+firstName = "Natalie";
+isHungry = false;
+numberOfPets = 3;
 // log all three variables to the console.
-
+console.log(firstName)
+console.log(isHungry)
+console.log(numberOfPets)
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
+console.log(healthySnacks + junkFoodSnacks)
 
 
 //-------------------
@@ -52,4 +66,4 @@ var junkFoodSnacks = 8;
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// as you would expect? Yes
