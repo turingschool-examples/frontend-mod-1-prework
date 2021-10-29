@@ -67,7 +67,7 @@ numbers(990049, 048487398);
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 
 function concat(name1, name2) {
-  console.log(name1 + " and " + name2 + " love to eat.")
+  console.log(name1 + " and " + name2 + " love to eat.") 
 }
 
 concat("Jake", "Natalie")

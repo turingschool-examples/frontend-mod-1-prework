@@ -22,4 +22,4 @@ It goes line by line until one is true and then does what the statement says to 
 
 The and && for both or, the || or symbols for one.
 
-1. What questions do you still have about `if` statements and/or functions? None right now.
+1. What questions do you still have about `if` statements and/or functions? None right now. 
