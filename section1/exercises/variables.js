@@ -37,7 +37,11 @@ console.log(isHungry)
 console.log(numberOfPets)
 
 // IN WORDS:
+<<<<<<< HEAD
 // How did you decide to use the data type you did for each of the three variables above?
+=======
+// How did you decide to use the data type you did for each of the three variables above? 
+>>>>>>> a51b2e8c2c48948cdd04f86605f0f21a3a9b9043
   // Explain. First one is a string for the name, second would be a booleon to be either true of false and last would be an integer for number of pets.
 
 
@@ -63,5 +67,9 @@ console.log(healthySnacks + junkFoodSnacks)
 // FINAL CHECK
 //-------------------
 
+<<<<<<< HEAD
 // Did you run this file in your terminal to make sure everything printed out to the console
+=======
+// Did you run this file in your terminal to make sure everything printed out to the console 
+>>>>>>> a51b2e8c2c48948cdd04f86605f0f21a3a9b9043
 // as you would expect? Yes

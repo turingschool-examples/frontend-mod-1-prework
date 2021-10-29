@@ -56,5 +56,9 @@ console.log("I " + feeling + " " + action + " " + food + "!")
 // FINAL CHECK
 //-------------------
 
+<<<<<<< HEAD
 // Did you run this file in your terminal to make sure everything printed out to the console
+=======
+// Did you run this file in your terminal to make sure everything printed out to the console 
+>>>>>>> a51b2e8c2c48948cdd04f86605f0f21a3a9b9043
   // as you would expect? You should be doing this by now, and getting into the habit of it. Yes

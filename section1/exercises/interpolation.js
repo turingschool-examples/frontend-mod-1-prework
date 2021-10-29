@@ -43,7 +43,11 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}`)
 // YOU DO:
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
+<<<<<<< HEAD
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+=======
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+>>>>>>> a51b2e8c2c48948cdd04f86605f0f21a3a9b9043
 var sport = "baseball";
 var activity = "sport";
 var name = "Jake"
@@ -53,5 +57,9 @@ console.log(`One ${activity} that ${name} never played in school was ${sport}`)
 // FINAL CHECK
 //-------------------
 
+<<<<<<< HEAD
 // Did you run this file in your terminal to make sure everything printed out to the console
+=======
+// Did you run this file in your terminal to make sure everything printed out to the console 
+>>>>>>> a51b2e8c2c48948cdd04f86605f0f21a3a9b9043
   // as you would expect? You should be doing this by now, and getting into the habit of it. Yes
