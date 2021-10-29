@@ -34,20 +34,28 @@ if (bearChoice === 1) {
   console.log("You stay with the bear and become it's best friend!");
 }
 
+
 /*
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+If the doorChoice on line 14 does equal 1 then bearClothing will return "hat" if doorChoice is any other number then bearClothing will return "scarf"
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Depending on which if or else if statement is true it will console.log the coresponding statement that goes with it. If none of the statements are true it will run the last else statement.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+It will return with "You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the hat is too small and it starts to cry!"
 
 7. What is your favorite ending?
+"You stay with the bear and become it's best friend!"
 */
