@@ -31,12 +31,18 @@ Using your terminal, open the local copy of the repository that you created duri
 
 Read/watch one or both of the following:
 - This [2-part blog post series](https://blog.mindsetworks.com/entry/how-having-a-growth-mindset-can-help-you-learn-to-code) discusses how having a growth mindset is helpful when learning to code, and how coding promotes a growth mindset!
-- This [video interview](https://dev.to/hackflix_dev/how-to-hack-a-growth-mindset-b1g) where an experienced Front-End engineer discusses learning about the concept of Growth Mindset and how that's changed how she sees her work and career. (The first 7 minutes are intros and a discussion on Developer Relations. After that, the conversation about Growth Midnset begins.)
+- This [video interview](https://dev.to/hackflix_dev/how-to-hack-a-growth-mindset-b1g) where an experienced Front-End engineer discusses learning about the concept of Growth Mindset and how that's changed how she sees her work and career. (The first 7 minutes are intros and a discussion on Developer Relations. After that, the conversation about Growth Mindset begins.)
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
+Your capabilities are not set anything you choose to work on can grow.
+
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+I am always trying to learn new things and better myself. Both professionally and in sports and just life in general. I definitely need to work on my organization and planning skills.
+
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+I have gotten a lot better at spending multiple hours at a time studying and staying focused. That took me a long time to get used to without getting up and walking around or watching tv or something like that. It was a very hard switch to go back into the school mindset.
+
 
 ## Part B Arrays
 
