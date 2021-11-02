@@ -18,4 +18,4 @@ To make the computer do a certain thing multiple times. We could use a loop to i
 1. If you had to teach a 5 year old about loops, how would you explain it?
 A process that repeats over and over until it gets a certain job done like hammering in a nail.
 
-1. What questions do you still have about Arrays and loops? None so far. 
+1. What questions do you still have about Arrays and loops? None so far.
