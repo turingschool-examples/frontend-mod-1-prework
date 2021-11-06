@@ -80,13 +80,13 @@ When you have completed *ALL* the activities described above, follow the steps b
 Depending on if you are in Section A or B, you have anywhere between 1.5-3.5 weeks before you start Mod 1. This is an important time to take care of life things such as doctor appointments, dog park trips, quality time with friends and family, etc. It is also important that you maintain the knowledge and skills you acquired during Mod 0 and this pre-work. You can absolutely do both, but to do so successfully, **you need a plan**. We recommend spending, on average, 1-2 hours a day coding (totally 20-40 hours of time).
 
 What is your plan and how are you going to hold yourself to it? Specifically...
-- What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice)
-- What days are you going to work?
-- What times on those days are you going to work?
-- Where you going to be sitting/standing as you do this?
-- Where are you documenting this plan? Google Calendar, calendar on your wall, your journal?
-- Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...)
-- What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
+- What are you going to work on? [Resources here](https://github.com/turingschool-examples/fe-m1-practice) Mostly CSS
+- What days are you going to work? Mon-Fri
+- What times on those days are you going to work? After breakfast until lunch.
+- Where you going to be sitting/standing as you do this? My desk.
+- Where are you documenting this plan? Google Calendar, calendar on your wall, your journal? Turing Practice folder
+- Do any stakeholders in your life know about this plan? (The answer needs to be yes by the time you answer this...) Yes they do.
+- What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)Im moving to San Diego!
 
 ## Extensions
 Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
